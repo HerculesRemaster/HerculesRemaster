@@ -1,0 +1,3 @@
+{
+ "_doc": "Optional object palette per sprite bank index (ENG1 obj+0x1c), used instead of the frame entry palette (flags & 0x1f). Empty: frames are rendered with their entry palette. Runtime note (demo_pal): Hercules (560) is drawn as two objects, one with the entry palette (0, 256 colours) and one with obj+0x1c = 3 (a 32-colour palette whose other entries are 0, i.e. an overlay layer)."
+}
