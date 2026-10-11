@@ -1,0 +1,7 @@
+{
+ "program": "ENG1.DLL",
+ "status": "success",
+ "address": "1001f750",
+ "name": "FUN_1001f750",
+ "decompiled": "\r\n/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */\r\n\r\nundefined4 FUN_1001f750(void)\r\n\r\n{\r\n  int iVar1;\r\n  undefined1 local_8 [4];\r\n  uint local_4;\r\n  \r\n  FUN_1002c630(0);\r\n  FUN_1002c290(0);\r\n  FUN_1002c390((&PTR_s_O__PLAYROOM__1005a690)[*DAT_10070f24 * 6],s_MAP_PSX_BIN_10058a68,local_8,8);\r\n  _DAT_10070d20 = local_4;\r\n  iVar1 = FUN_1002c3c0(&DAT_10070ed4,(local_4 & 0xfffff800) + 0x1000,0);\r\n  if (iVar1 == 0) {\r\n    return 0xffffffff;\r\n  }\r\n  DAT_10070f24[0x128] = DAT_10070f24[0x128] | 2;\r\n  FUN_1002c390((&PTR_s_O__PLAYROOM__1005a690)[*DAT_10070f24 * 6],s_MAP_PSX_BIN_10058a68,DAT_10070ed4\r\n               ,local_4);\r\n  *(undefined4 *)(DAT_10070f24 + 0x90) = *DAT_10070ed4;\r\n  if (*(int *)(DAT_10070f24 + 0x90) != *(int *)(DAT_10070f24 + 0x8c)) {\r\n    do {\r\n                    /* WARNING: Do nothing block with infinite loop */\r\n    } while( true );\r\n  }\r\n  FUN_1002c5a0(2);\r\n  iVar1 = FUN_1001fc90();\r\n  FUN_1002c630(0);\r\n  FUN_1002c4a0(DAT_10070ed4,iVar1,0,0);\r\n  return 0;\r\n}\r\n\r\n"
+}

@@ -1,0 +1,82 @@
+{
+ "program": "TITLE.DLL",
+ "references_by_address": {
+  "10023560": [
+   {
+    "from_address": "10023534",
+    "type": "DATA"
+   }
+  ],
+  "100235c8": [
+   {
+    "from_address": "100234ec",
+    "type": "DATA"
+   }
+  ],
+  "10023614": [
+   {
+    "from_address": "100234c8",
+    "type": "DATA"
+   }
+  ],
+  "10023628": [
+   {
+    "from_address": "100234bc",
+    "type": "DATA"
+   }
+  ],
+  "1002323c": [
+   {
+    "from_address": "10022290",
+    "type": "DATA"
+   },
+   {
+    "from_address": "100222a8",
+    "type": "DATA"
+   },
+   {
+    "from_address": "100222b0",
+    "type": "DATA"
+   }
+  ],
+  "10023254": [
+   {
+    "from_address": "10022288",
+    "type": "DATA"
+   },
+   {
+    "from_address": "1002228c",
+    "type": "DATA"
+   },
+   {
+    "from_address": "10022294",
+    "type": "DATA"
+   },
+   {
+    "from_address": "10022298",
+    "type": "DATA"
+   },
+   {
+    "from_address": "1002229c",
+    "type": "DATA"
+   },
+   {
+    "from_address": "100222a0",
+    "type": "DATA"
+   },
+   {
+    "from_address": "100222a4",
+    "type": "DATA"
+   },
+   {
+    "from_address": "100222ac",
+    "type": "DATA"
+   },
+   {
+    "from_address": "100222b4",
+    "type": "DATA"
+   }
+  ]
+ },
+ "count": 6
+}

@@ -1,0 +1,7 @@
+{
+ "program": "ENG3.DLL",
+ "status": "success",
+ "address": "1001a930",
+ "name": "FUN_1001a930",
+ "decompiled": "\r\nundefined4 FUN_1001a930(void)\r\n\r\n{\r\n  uint uVar1;\r\n  int iVar2;\r\n  \r\n  FUN_1001fc40(0);\r\n  FUN_1001f940(0);\r\n  uVar1 = FUN_1001f980(*(undefined4 *)(&DAT_10038528 + *DAT_100407a4 * 0x18),s_MAP_PSX_BIN_100381c8)\r\n  ;\r\n  iVar2 = FUN_1001fa50(&DAT_10040790,(uVar1 & 0xfffff800) + 0x1000,0);\r\n  if (iVar2 == 0) {\r\n    return 0xffffffff;\r\n  }\r\n  DAT_100407a4[0x128] = DAT_100407a4[0x128] | 2;\r\n  FUN_1001fa20(*(undefined4 *)(&DAT_10038528 + *DAT_100407a4 * 0x18),s_MAP_PSX_BIN_100381c8,\r\n               DAT_10040790,uVar1);\r\n  *(undefined4 *)(DAT_100407a4 + 0x90) = *DAT_10040790;\r\n  if (*(int *)(DAT_100407a4 + 0x90) != *(int *)(DAT_100407a4 + 0x8c)) {\r\n    do {\r\n                    /* WARNING: Do nothing block with infinite loop */\r\n    } while( true );\r\n  }\r\n  FUN_1001fbb0(2);\r\n  iVar2 = FUN_1001aa30();\r\n  FUN_1001fc40(0);\r\n  FUN_1001fad0(DAT_10040790,iVar2,0,0);\r\n  return 0;\r\n}\r\n\r\n"
+}

@@ -1,0 +1,29 @@
+{
+ "program": "ENG1.DLL",
+ "references": [
+  {
+   "from_address": "1001fad7",
+   "type": "DATA",
+   "from_function": "FUN_1001f9e0"
+  },
+  {
+   "from_address": "1001fb67",
+   "type": "DATA",
+   "from_function": "FUN_1001f9e0"
+  },
+  {
+   "from_address": "1001f780",
+   "type": "DATA",
+   "from_function": "FUN_1001f750"
+  },
+  {
+   "from_address": "1001f7f0",
+   "type": "DATA",
+   "from_function": "FUN_1001f750"
+  }
+ ],
+ "count": 4,
+ "offset": 0,
+ "limit": 40,
+ "total": 4
+}

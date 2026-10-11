@@ -1,0 +1,20 @@
+{
+  "purpose": "Read-only lean-plan snapshot at separation, including concurrent P4 completion. Later lean progress is independent; these hashes are provenance and must never be used to reset completed work.",
+  "recorded_date": "2026-10-12",
+  "files": {
+    "CONTINUE.md": "f607b54cb12e0884a29ea2e43394b0d55dac361193da8528118994461b711cec",
+    "FACTS.md": "66941586d51808944bad59df49bf6c8e2211815fe85a1308cd9fcc25a14df6da",
+    "P0-setup.md": "e6c5838d86be24757fe5860ba92c874bf89c3e5149fd2a4af62b6b9dfc3cb8fd",
+    "P1-archive.md": "735d6e7f5414a90e7246093a922b9e0fe2d7f65700aad960893ff9e8ead64a9c",
+    "P2-binary-map.md": "730a48d95ef1705be1695de7336e830c94796cb0c5c041f08f7981a77b694daf",
+    "P2F-fullscreen.md": "11a45d0e1569848cfcc23962a86f2b5ae304c9aef4f2df6277331e2482eb0c08",
+    "P3-runtime-trace.md": "48a1d22bab2397a553220789b6b7b6c1fe1c2dd43fdbcda3e80860c862f71a70",
+    "P4-assets.md": "b9cec2ac7e43b5f1d24aaffc663090e1e490cd4361f1df239acf9f8aa77248dd",
+    "P5-levels-gameplay.md": "23714c864500bbe16ccddbb3a9d107cce3348b568e40a62b7153ec962f379bb1",
+    "P6-runtime-slice.md": "3a4e7efa744903198f8c21bdb774c3f4be2767775376a4a86ca2e12b48030795",
+    "P7-hires.md": "87fbab239d23e46c927f6e36027171c2945236bfd8b1203d6cdecc6b084ef613",
+    "P8-expand-package.md": "3bdcf746030c61d7f0025863c8a5dac164ce19ad611f6748452d10f86268b8c9",
+    "README.md": "de541f79247e84141c821127d6db125a2213b8b74787fba9a95d531f3fe18f1f"
+  },
+  "gitignore_sha256": "b95404fd5f1b632e2d8002acecf65f5f4798c073899ad036a8f2abc4caf252b2"
+}

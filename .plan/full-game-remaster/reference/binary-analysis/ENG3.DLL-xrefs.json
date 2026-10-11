@@ -1,0 +1,20 @@
+{
+ "program": "ENG3.DLL",
+ "references_by_address": {
+  "10038648": [],
+  "10038660": [],
+  "100381c8": [
+   {
+    "from_address": "1001a94d",
+    "type": "DATA",
+    "from_function": "FUN_1001a930"
+   },
+   {
+    "from_address": "1001a9af",
+    "type": "DATA",
+    "from_function": "FUN_1001a930"
+   }
+  ]
+ },
+ "count": 3
+}

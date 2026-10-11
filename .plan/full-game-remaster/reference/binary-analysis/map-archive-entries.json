@@ -1,0 +1,225 @@
+{
+  "archive_sha256": "affa380e45918448895932cd466ea9a02096b8dcf08644f91b9da5ec34cd48b4",
+  "entries": [
+    {
+      "index": 491,
+      "id": "4482B8EF",
+      "offset": 17644780,
+      "size": 1200516,
+      "sha256": "523372a1d74701252677cb8afa879f5a126de7cd7b95d455d88a3c17537b2450",
+      "magic": "69312e61",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\CYCLOPS\\MAP_PSX.BIN",
+      "extension": "BIN",
+      "file": "extracted/raw/0491_4482B8EF.bin"
+    },
+    {
+      "index": 494,
+      "id": "4582B0EF",
+      "offset": 34676786,
+      "size": 336384,
+      "sha256": "5d5af9095f66dce6354eab54af619ea4dffa420b6b2902f4829194e3441d1c17",
+      "magic": "00000005",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\CYCLOPS\\MAP_PSX.CIF",
+      "extension": "CIF",
+      "file": "extracted/raw/0494_4582B0EF.bin"
+    },
+    {
+      "index": 513,
+      "id": "496E5AF9",
+      "offset": 23215256,
+      "size": 1214464,
+      "sha256": "f0ac0524dd1c84b6fcb74e320b6d61eba618d4bc6a4fafd7b49dd63d55da9f93",
+      "magic": "69322e35",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\THEBES\\MAP_PSX.BIN",
+      "extension": "BIN",
+      "file": "extracted/raw/0513_496E5AF9.bin"
+    },
+    {
+      "index": 514,
+      "id": "496F5AF1",
+      "offset": 36358706,
+      "size": 336384,
+      "sha256": "79a39f2e11b2411d504a3fac2e86a63663bd614f3128d8673a33a69fbb08a095",
+      "magic": "00000005",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\THEBES\\MAP_PSX.CIF",
+      "extension": "CIF",
+      "file": "extracted/raw/0514_496F5AF1.bin"
+    },
+    {
+      "index": 515,
+      "id": "49716801",
+      "offset": 18845296,
+      "size": 1304576,
+      "sha256": "78bc5a60ecce1c99e752fb30a16bc5ace4ee80f686365e1da8136a0decbd69cb",
+      "magic": "69322e35",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\FOREST\\MAP_PSX.BIN",
+      "extension": "BIN",
+      "file": "extracted/raw/0515_49716801.bin"
+    },
+    {
+      "index": 516,
+      "id": "497267F9",
+      "offset": 35013170,
+      "size": 336384,
+      "sha256": "db53596305532dde182b68879960e6e1f8f3440e5d9236237834b202c9326277",
+      "magic": "00000005",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\FOREST\\MAP_PSX.CIF",
+      "extension": "CIF",
+      "file": "extracted/raw/0516_497267F9.bin"
+    },
+    {
+      "index": 517,
+      "id": "4A7C50A9",
+      "offset": 35685938,
+      "size": 336384,
+      "sha256": "0d31de1d60577fa117a4b41298c65becd827410d57beb69ea8dbfa362cab2a61",
+      "magic": "00000005",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\HYDRA\\MAP_PSX.CIF",
+      "extension": "CIF",
+      "file": "extracted/raw/0517_4A7C50A9.bin"
+    },
+    {
+      "index": 518,
+      "id": "4B806805",
+      "offset": 28003540,
+      "size": 917504,
+      "sha256": "605d5300687d2310a64a4b29e2f7bbd0cda2a5a2ea5f05d41e13153686579d32",
+      "magic": "69322e35",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\VORTEX\\MAP_PSX.BIN",
+      "extension": "BIN",
+      "file": "extracted/raw/0518_4B806805.bin"
+    },
+    {
+      "index": 519,
+      "id": "4B8167FD",
+      "offset": 39722546,
+      "size": 336384,
+      "sha256": "1193f7f475a2b14a588d5001ba1f854a6c22cbd273be6779f09f4caca384c39a",
+      "magic": "00000005",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\VORTEX\\MAP_PSX.CIF",
+      "extension": "CIF",
+      "file": "extracted/raw/0519_4B8167FD.bin"
+    },
+    {
+      "index": 520,
+      "id": "4B83C8E3",
+      "offset": 25658520,
+      "size": 1085500,
+      "sha256": "b5eafa1a5204289ff6e08454a9e972c4654be9baada61ecdec16b7f0bff0c162",
+      "magic": "69312e61",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\TORMENT\\MAP_PSX.BIN",
+      "extension": "BIN",
+      "file": "extracted/raw/0520_4B83C8E3.bin"
+    },
+    {
+      "index": 521,
+      "id": "4C83C0E3",
+      "offset": 39049778,
+      "size": 336384,
+      "sha256": "47cd479c216c25353d62d0e4cbb5538c8ac102df9d745fb0b6cabd03242b663a",
+      "magic": "00000005",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\TORMENT\\MAP_PSX.CIF",
+      "extension": "CIF",
+      "file": "extracted/raw/0521_4C83C0E3.bin"
+    },
+    {
+      "index": 530,
+      "id": "508159E4",
+      "offset": 22367384,
+      "size": 847872,
+      "sha256": "39bd41f031f8e1e69bc4bbe57b3568dfc2c904c0f7b01e14adb8a775225975cf",
+      "magic": "69322e35",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\MEDUSA\\MAP_PSX.BIN",
+      "extension": "BIN",
+      "file": "extracted/raw/0530_508159E4.bin"
+    },
+    {
+      "index": 531,
+      "id": "508259DC",
+      "offset": 36022322,
+      "size": 336384,
+      "sha256": "4d6cde643d0285ea68a12bc83cdfe2bb7716c87d4c61ff86be7590889a6a84c0",
+      "magic": "00000005",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\MEDUSA\\MAP_PSX.CIF",
+      "extension": "CIF",
+      "file": "extracted/raw/0531_508259DC.bin"
+    },
+    {
+      "index": 538,
+      "id": "526D69FA",
+      "offset": 24429720,
+      "size": 1228800,
+      "sha256": "b1869b638dd8f109c276718534b3b4d4da0781f5b12b3f41fe5d4c6f8b7bf57d",
+      "magic": "69322e35",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\TITANS\\MAP_PSX.BIN",
+      "extension": "BIN",
+      "file": "extracted/raw/0538_526D69FA.bin"
+    },
+    {
+      "index": 539,
+      "id": "526E69F2",
+      "offset": 36695090,
+      "size": 336384,
+      "sha256": "b2a12c9b58ddd54d49923df59c5d8408d0889c6a578622c86ca0ce4c400a5571",
+      "magic": "00000005",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\TITANS\\MAP_PSX.CIF",
+      "extension": "CIF",
+      "file": "extracted/raw/0539_526E69F2.bin"
+    },
+    {
+      "index": 541,
+      "id": "527C4FA9",
+      "offset": 21370008,
+      "size": 997376,
+      "sha256": "7d4793ac02408d2b35d286f7bc05779517c5aab72ef09226fd86171f266eb5db",
+      "magic": "69322e35",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\HYDRA\\MAP_PSX.BIN",
+      "extension": "BIN",
+      "file": "extracted/raw/0541_527C4FA9.bin"
+    },
+    {
+      "index": 556,
+      "id": "57DDA3D7",
+      "offset": 35349554,
+      "size": 336384,
+      "sha256": "60c1440fd666ad5a9cedf3425842643ed6810d2c825abbd22c4a7b05a6455e5f",
+      "magic": "00000005",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\GAUNTLET\\MAP_PSX.CIF",
+      "extension": "CIF",
+      "file": "extracted/raw/0556_57DDA3D7.bin"
+    },
+    {
+      "index": 557,
+      "id": "57E5A3D6",
+      "offset": 20149872,
+      "size": 1220136,
+      "sha256": "95e4ca0052a92b174748489a6dcfcd7a76e351c54a3f9af1535e9454550eaa5c",
+      "magic": "69312e61",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\GAUNTLET\\MAP_PSX.BIN",
+      "extension": "BIN",
+      "file": "extracted/raw/0557_57E5A3D6.bin"
+    },
+    {
+      "index": 564,
+      "id": "5ECB98E5",
+      "offset": 39386162,
+      "size": 336384,
+      "sha256": "3cef394222de36e89121f86afe5e03a3222acb73edce932f82867f8508e64b82",
+      "magic": "00000005",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.CIF",
+      "extension": "CIF",
+      "file": "extracted/raw/0564_5ECB98E5.bin"
+    },
+    {
+      "index": 565,
+      "id": "5ED398E4",
+      "offset": 26744020,
+      "size": 1259520,
+      "sha256": "4529e134ee5d4c61949f104ae7f01bfa09ca8c0d3f1492de0ac769e682c7761e",
+      "magic": "69322e35",
+      "name_candidate": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.BIN",
+      "extension": "BIN",
+      "file": "extracted/raw/0565_5ED398E4.bin"
+    }
+  ]
+}

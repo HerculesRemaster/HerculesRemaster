@@ -1,0 +1,665 @@
+{
+  "ENG1.DLL": {
+    "table_rva": "0x5a690",
+    "rows": [
+      {
+        "internal_id": 0,
+        "table_entry_rva": "0x5a690",
+        "values": [
+          "0x1005a824",
+          "0xea000",
+          "0x0",
+          "0x1005cdf8",
+          "0x1005cdec",
+          "0x1005cdf4"
+        ],
+        "strings": [
+          "O:\\PLAYROOM\\",
+          null,
+          null,
+          "",
+          "\u0001\u0002\ufffd",
+          "\u000bc\u0018\ufffd"
+        ]
+      },
+      {
+        "internal_id": 1,
+        "table_entry_rva": "0x5a6a8",
+        "values": [
+          "0x1005a814",
+          "0x103000",
+          "0x0",
+          "0x10068600",
+          "0x100685d8",
+          "0x100685f8"
+        ],
+        "strings": [
+          "O:\\TRAINING\\",
+          null,
+          null,
+          "\ufffd\u0004\ufffd\u0002\u0001",
+          "\u0001\u0002\u0004'\r\u000f#\ufffd\u001f\u0010\ufffd",
+          "\ufffdFp\u0001\u000e\u001a\ufffd"
+        ]
+      },
+      {
+        "internal_id": 2,
+        "table_entry_rva": "0x5a6c0",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 3,
+        "table_entry_rva": "0x5a6d8",
+        "values": [
+          "0x1005a808",
+          "0x106800",
+          "0x0",
+          "0x1004f260",
+          "0x1004f220",
+          "0x1004f258"
+        ],
+        "strings": [
+          "O:\\FOREST\\",
+          null,
+          null,
+          "\ufffd\u0003L\u0002",
+          "\u0001\u0002\u0004':\ufffd",
+          "\ufffdPn\u0003\u001c\u0010\ufffd"
+        ]
+      },
+      {
+        "internal_id": 4,
+        "table_entry_rva": "0x5a6f0",
+        "values": [
+          "0x1005a7fc",
+          "0x131000",
+          "0x0",
+          "0x1004f360",
+          "0x1004f350",
+          "0x1004f358"
+        ],
+        "strings": [
+          "O:\\NESSUS\\",
+          null,
+          null,
+          "@\u0013\ufffd\u0002",
+          "\u0001\u0002\u0004\ufffd'\ufffd",
+          "\u0004c\u0011\ufffd"
+        ]
+      },
+      {
+        "internal_id": 5,
+        "table_entry_rva": "0x5a708",
+        "values": [
+          "0x1005a7f0",
+          "0xfc800",
+          "0x0",
+          "0x10061780",
+          "0x10061738",
+          "0x10061778"
+        ],
+        "strings": [
+          "O:\\THEBES\\",
+          null,
+          null,
+          " \u0001\ufffd\u0004",
+          "\u0001\u0002\u0004'\ufffd",
+          "\ufffdFn\u0005\u0012\u001e\ufffd"
+        ]
+      },
+      {
+        "internal_id": 6,
+        "table_entry_rva": "0x5a720",
+        "values": [
+          "0x1005a7e4",
+          "0xf0800",
+          "0x0",
+          "0x10058878",
+          "0x10058860",
+          "0x10058870"
+        ],
+        "strings": [
+          "O:\\HYDRA\\",
+          null,
+          null,
+          "\ufffd\b\ufffd\u0003\u0001",
+          "\u0001\u0004\u0002O\ufffd",
+          "\ufffdPn\u0006\u001f\u0013\ufffd"
+        ]
+      },
+      {
+        "internal_id": 7,
+        "table_entry_rva": "0x5a738",
+        "values": [
+          "0x1005a7d8",
+          "0xcc000",
+          "0x0",
+          "0x1005a030",
+          "0x1005a018",
+          "0x1005a028"
+        ],
+        "strings": [
+          "O:\\MEDUSA\\",
+          null,
+          null,
+          "@\u0013\ufffd\u0002\u0001",
+          "\u0001\u0004\u0002MN\ufffd",
+          "\ufffdPn\u0007 \u0014\ufffd"
+        ]
+      },
+      {
+        "internal_id": 8,
+        "table_entry_rva": "0x5a750",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 9,
+        "table_entry_rva": "0x5a768",
+        "values": [
+          "0x1005a7cc",
+          "0xf7000",
+          "0x0",
+          "0x10063108",
+          "0x100630e4",
+          "0x100630f8"
+        ],
+        "strings": [
+          "O:\\TITANS\\",
+          null,
+          null,
+          "\ufffd",
+          "0\u0002\ufffd",
+          "\ufffdHn\ufffd/\t\u0016\"\ufffd"
+        ]
+      },
+      {
+        "internal_id": 10,
+        "table_entry_rva": "0x5a780",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 11,
+        "table_entry_rva": "0x5a798",
+        "values": [
+          "0x1005a7c0",
+          "0xdf800",
+          "0x0",
+          "0x1006b178",
+          "0x1006b158",
+          "0x1006b168"
+        ],
+        "strings": [
+          "O:\\VORTEX\\",
+          null,
+          null,
+          "\ufffd",
+          "\u0001\u0004\u0002P\ufffd",
+          "\ufffdHd\ufffd(\u000b\u0018$\ufffd"
+        ]
+      }
+    ]
+  },
+  "ENG3.DLL": {
+    "table_rva": "0x38528",
+    "rows": [
+      {
+        "internal_id": 0,
+        "table_entry_rva": "0x38528",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 1,
+        "table_entry_rva": "0x38540",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 2,
+        "table_entry_rva": "0x38558",
+        "values": [
+          "0x10038660",
+          "0x129e28",
+          "0x0",
+          "0x100382c8",
+          "0x100382b8",
+          "0x100382c0"
+        ],
+        "strings": [
+          "O:\\GAUNTLET\\",
+          null,
+          null,
+          " ",
+          "\u0001\ufffd",
+          "\ufffdFn\u0002\u000f\u001b\ufffd"
+        ]
+      },
+      {
+        "internal_id": 3,
+        "table_entry_rva": "0x38570",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 4,
+        "table_entry_rva": "0x38588",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 5,
+        "table_entry_rva": "0x385a0",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 6,
+        "table_entry_rva": "0x385b8",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 7,
+        "table_entry_rva": "0x385d0",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 8,
+        "table_entry_rva": "0x385e8",
+        "values": [
+          "0x10038654",
+          "0x125184",
+          "0x0",
+          "0x100383a0",
+          "0x10038388",
+          "0x10038398"
+        ],
+        "strings": [
+          "O:\\CYCLOPS\\",
+          null,
+          null,
+          "",
+          "\u0001\ufffd",
+          "\ufffdKn\b\u0015!\ufffd"
+        ]
+      },
+      {
+        "internal_id": 9,
+        "table_entry_rva": "0x38600",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "internal_id": 10,
+        "table_entry_rva": "0x38618",
+        "values": [
+          "0x10038648",
+          "0x10903c",
+          "0x0",
+          "0x10038450",
+          "0x10038430",
+          "0x10038440"
+        ],
+        "strings": [
+          "O:\\TORMENT\\",
+          null,
+          null,
+          "",
+          "\u0001\ufffd",
+          "\ufffdFn\ufffd(\n#\u0017\ufffd"
+        ]
+      },
+      {
+        "internal_id": 11,
+        "table_entry_rva": "0x38630",
+        "values": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ],
+        "strings": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "TITLE.DLL": {
+    "table_rva": "0x234b0",
+    "rows": [
+      {
+        "internal_id": 0,
+        "table_entry_rva": "0x234b0",
+        "values": [
+          "0x10023650",
+          "0x10023640",
+          "0x10023638"
+        ],
+        "strings": [
+          "PLAYROOM",
+          "\\SRC1\\ENGINE\\",
+          "ENGINE1"
+        ]
+      },
+      {
+        "internal_id": 1,
+        "table_entry_rva": "0x234bc",
+        "values": [
+          "0x10023628",
+          "0x10023640",
+          "0x10023638"
+        ],
+        "strings": [
+          "TRAINING GROUND",
+          "\\SRC1\\ENGINE\\",
+          "ENGINE1"
+        ]
+      },
+      {
+        "internal_id": 2,
+        "table_entry_rva": "0x234c8",
+        "values": [
+          "0x10023614",
+          "0x10023604",
+          "0x100235fc"
+        ],
+        "strings": [
+          "TRAINING GAUNTLET",
+          "\\SRC3\\ENGINE\\",
+          "ENGINE3"
+        ]
+      },
+      {
+        "internal_id": 3,
+        "table_entry_rva": "0x234d4",
+        "values": [
+          "0x100235e8",
+          "0x10023640",
+          "0x10023638"
+        ],
+        "strings": [
+          "FOREST OF CENTAURS",
+          "\\SRC1\\ENGINE\\",
+          "ENGINE1"
+        ]
+      },
+      {
+        "internal_id": 4,
+        "table_entry_rva": "0x234e0",
+        "values": [
+          "0x100235d8",
+          "0x10023640",
+          "0x10023638"
+        ],
+        "strings": [
+          "NESSUS BATTLE",
+          "\\SRC1\\ENGINE\\",
+          "ENGINE1"
+        ]
+      },
+      {
+        "internal_id": 5,
+        "table_entry_rva": "0x234ec",
+        "values": [
+          "0x100235c8",
+          "0x10023640",
+          "0x10023638"
+        ],
+        "strings": [
+          "VISIT TO THEBES",
+          "\\SRC1\\ENGINE\\",
+          "ENGINE1"
+        ]
+      },
+      {
+        "internal_id": 6,
+        "table_entry_rva": "0x234f8",
+        "values": [
+          "0x100235b8",
+          "0x10023640",
+          "0x10023638"
+        ],
+        "strings": [
+          "HYDRA BATTLE",
+          "\\SRC1\\ENGINE\\",
+          "ENGINE1"
+        ]
+      },
+      {
+        "internal_id": 7,
+        "table_entry_rva": "0x23504",
+        "values": [
+          "0x100235a8",
+          "0x10023640",
+          "0x10023638"
+        ],
+        "strings": [
+          "MEDUSA BATTLE",
+          "\\SRC1\\ENGINE\\",
+          "ENGINE1"
+        ]
+      },
+      {
+        "internal_id": 8,
+        "table_entry_rva": "0x23510",
+        "values": [
+          "0x10023598",
+          "0x10023604",
+          "0x100235fc"
+        ],
+        "strings": [
+          "CYCLOPS CHASE",
+          "\\SRC3\\ENGINE\\",
+          "ENGINE3"
+        ]
+      },
+      {
+        "internal_id": 9,
+        "table_entry_rva": "0x2351c",
+        "values": [
+          "0x10023584",
+          "0x10023640",
+          "0x10023638"
+        ],
+        "strings": [
+          "BATTLE OF TITANS",
+          "\\SRC1\\ENGINE\\",
+          "ENGINE1"
+        ]
+      },
+      {
+        "internal_id": 10,
+        "table_entry_rva": "0x23528",
+        "values": [
+          "0x10023570",
+          "0x10023604",
+          "0x100235fc"
+        ],
+        "strings": [
+          "PASSAGEWAYS TORMENT",
+          "\\SRC3\\ENGINE\\",
+          "ENGINE3"
+        ]
+      },
+      {
+        "internal_id": 11,
+        "table_entry_rva": "0x23534",
+        "values": [
+          "0x10023560",
+          "0x10023640",
+          "0x10023638"
+        ],
+        "strings": [
+          "VORTEX OF SOULS",
+          "\\SRC1\\ENGINE\\",
+          "ENGINE1"
+        ]
+      }
+    ]
+  }
+}

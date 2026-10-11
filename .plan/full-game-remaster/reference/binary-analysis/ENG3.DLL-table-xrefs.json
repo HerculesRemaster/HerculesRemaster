@@ -1,0 +1,9 @@
+{
+ "program": "ENG3.DLL",
+ "references_by_address": {
+  "100385d0": [],
+  "100385d4": [],
+  "100385d8": []
+ },
+ "count": 3
+}

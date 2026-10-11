@@ -1,0 +1,7 @@
+{
+ "program": "TITLE.DLL",
+ "status": "success",
+ "address": "10016300",
+ "name": "FUN_10016300",
+ "decompiled": "\r\nvoid FUN_10016300(void)\r\n\r\n{\r\n  char cVar1;\r\n  undefined2 uStack_10;\r\n  short sStack_e;\r\n  undefined2 uStack_c;\r\n  undefined2 uStack_a;\r\n  undefined2 local_8;\r\n  undefined2 local_6;\r\n  undefined2 local_4;\r\n  undefined2 local_2;\r\n  \r\n  local_8 = 0x390;\r\n  local_6 = 0;\r\n  local_4 = 0x50;\r\n  local_2 = 200;\r\n  FUN_1000c890(&local_8,DAT_1002b370);\r\n  if (*(int *)(DAT_1002bb44 + 0xe4) != 0) {\r\n    FUN_1000cc70(0);\r\n    FUN_1000c2f0();\r\n    FUN_1000c480();\r\n    cVar1 = DAT_1002bb44[0xe0];\r\n    while ((cVar1 != '\\0' && (*(int *)(DAT_1002bb44 + 0xe4) != 0))) {\r\n      FUN_1000cc70(0);\r\n      FUN_1000c2f0();\r\n      FUN_1000c480();\r\n      cVar1 = DAT_1002bb44[0xe0];\r\n    }\r\n  }\r\n  FUN_1001d4e0();\r\n  FUN_1000c5c0();\r\n  sStack_e = (ushort)(DAT_1002cc04 == DAT_1002cc08) << 8;\r\n  uStack_10 = 0;\r\n  uStack_c = 0x140;\r\n  uStack_a = 0x100;\r\n  FUN_1000c8e0(&uStack_10,0x140,0);\r\n  FUN_1000c8e0(&uStack_10,0,(uint)(DAT_1002cc04 != DAT_1002cc08) << 8);\r\n  DAT_1002bb44[0x128] = '\\x18';\r\n  FUN_1000c370(0x140,0);\r\n  FUN_1000cc80(&DAT_1000c320);\r\n  if (*(int *)(DAT_1002bb44 + 0xe4) == 0) {\r\n    FUN_1000c3d0(&DAT_10029128,(&PTR_s__SRC1_ENGINE_ENGINE1_10022288)[*DAT_1002bb44]);\r\n    return;\r\n  }\r\n  FUN_1000c270();\r\n  return;\r\n}\r\n\r\n"
+}

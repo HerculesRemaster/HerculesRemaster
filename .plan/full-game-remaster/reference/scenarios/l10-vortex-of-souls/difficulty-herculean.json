@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "scenario_id": "L10.difficulty-herculean",
+  "level_id": "L10",
+  "level_slug": "l10-vortex-of-souls",
+  "public_title": "Vortex of Souls",
+  "internal_level_id": 11,
+  "engine": "ENG1.DLL",
+  "scenario_type": "difficulty_comparison",
+  "scene_group": "Herculean differential traces",
+  "difficulty": "Herculean",
+  "required": true,
+  "entry_method": {
+    "primary": "linked_new_game_progression",
+    "description": "Enter L10 on Herculean from a new game or the linked preceding level; navigate to the scene before marking its interval.",
+    "alternatives_after_verification": [
+      "accepted_password",
+      "unlocked_F3_level_select",
+      "recorded_input_replay",
+      "verified_checkpoint_retry"
+    ],
+    "parameters": {
+      "password_icons": null,
+      "checkpoint_id": null,
+      "input_recording": null
+    },
+    "prerequisites": [
+      "P2F fullscreen-4K prerequisite passed",
+      "canonical build/archive hashes match",
+      "one game process",
+      "record actual difficulty/controls/initial state"
+    ],
+    "verification_status": "PENDING_RUNTIME"
+  },
+  "route_actions": [
+    {
+      "step": 1,
+      "action": "Begin tracing/capture before entry or verified checkpoint restore; log resident resources and initial state."
+    },
+    {
+      "step": 2,
+      "action": "Repeat the listed Medium scene routes with matched initial conditions on Herculean; compare resource sets/order, variants, actors/spawns, damage, timing, phases, routes and progression. Split every actual difference into its own scene comparison."
+    },
+    {
+      "step": 3,
+      "action": "Record exact scene IDs, camera/route, input/tick sequence, assets and event outcomes; retain the following transition."
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "entry",
+      "kind": "observation_boundary",
+      "condition": "Actual level entry/restore request",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "scene-start",
+      "kind": "observation_boundary",
+      "condition": "First frame/state of the targeted scene",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "event",
+      "kind": "observation_boundary",
+      "condition": "Herculean differential traces event/action result",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "exit",
+      "kind": "observation_boundary",
+      "condition": "All compared scene intervals and differences recorded",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    }
+  ],
+  "expected_asset_categories": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+  ],
+  "expected_assets_status": "CANDIDATES_UNTIL_OBSERVED",
+  "capture_boundaries": {
+    "start": {
+      "condition": "Before entry/load or verified restore request",
+      "tick": null
+    },
+    "scene_start": {
+      "condition": "First targeted scene frame/state",
+      "tick": null
+    },
+    "scene_end": {
+      "condition": "All compared scene intervals and differences recorded",
+      "tick": null
+    },
+    "stop": {
+      "condition": "After result and following transition/unload are logged",
+      "tick": null
+    },
+    "streams": [
+      "lossless game pixels/palette",
+      "frame-to-tick index",
+      "input pad bits",
+      "audio and timestamp origin",
+      "resource/decoder/consumer events",
+      "checkpoint/state events"
+    ],
+    "display": "Keep P2F proxy; record fullscreen/windowed capture override separately from the completed 4K prerequisite."
+  },
+  "differential_trace_policy": {
+    "compare_difficulties": [
+      "Herculean"
+    ],
+    "matched_state": [
+      "route/actions",
+      "entry/checkpoint",
+      "controls",
+      "health/lives/power-ups",
+      "RNG/state when recovered",
+      "capture boundaries"
+    ],
+    "expand_when": "Resource/variant, spawn, damage, timing, route, phase or progression differs.",
+    "unknown_differences": "Remain pending; do not assume equality."
+  },
+  "evidence": {
+    "status": "PLANNED",
+    "reference_status": "INFERRED",
+    "source_ids": [
+      "build-static-map"
+    ],
+    "source_locator": "Discovery target; exact route/phase not yet observed",
+    "runs": [],
+    "captures": [],
+    "trace_intervals": [],
+    "asset_associations": [],
+    "gameplay_specifications": []
+  },
+  "coverage": {
+    "capture": "PENDING",
+    "trace": "PENDING",
+    "asset_extraction": "PENDING",
+    "gameplay_specification": "PENDING"
+  },
+  "open_questions": [
+    "Recover exact route/checkpoint/scene IDs and tick/event bounds from this build.",
+    "Confirm candidate asset categories and split additional observed phases/routes into stable scenarios."
+  ],
+  "comparison": {
+    "baseline_difficulty": "Medium",
+    "baseline_scenario_ids": [
+      "L10.full-progression",
+      "L10.vortex-entry",
+      "L10.souls-traversal",
+      "L10.final-encounter",
+      "L10.rescue-objective",
+      "L10.completion-ending",
+      "L10.death-retry"
+    ],
+    "expected_playable": true,
+    "observed_result": null,
+    "expand_differences_to_per_scene_files": true
+  }
+}

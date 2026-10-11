@@ -1,0 +1,19 @@
+{
+ "program": "ENG3.DLL",
+ "references": [
+  {
+   "from_address": "1001a955",
+   "type": "DATA",
+   "from_function": "FUN_1001a930"
+  },
+  {
+   "from_address": "1001a9b7",
+   "type": "DATA",
+   "from_function": "FUN_1001a930"
+  }
+ ],
+ "count": 2,
+ "offset": 0,
+ "limit": 40,
+ "total": 2
+}

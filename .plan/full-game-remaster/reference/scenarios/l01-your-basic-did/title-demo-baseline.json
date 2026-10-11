@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "scenario_id": "L01.title-demo-baseline",
+  "level_id": "L01",
+  "level_slug": "l01-your-basic-did",
+  "public_title": "Your Basic D.I.D.",
+  "internal_level_id": 1,
+  "engine": "ENG1.DLL",
+  "scenario_type": "legacy_demo",
+  "scene_group": "Inherited title/TRAINING attract-demo evidence",
+  "difficulty": "Unknown",
+  "required": false,
+  "entry_method": {
+    "primary": "title_idle_attract_demo",
+    "description": "Already recorded by capture_demo.ps1; difficulty was not recorded in the inherited capture metadata.",
+    "alternatives_after_verification": [
+      "accepted_password",
+      "unlocked_F3_level_select",
+      "recorded_input_replay",
+      "verified_checkpoint_retry"
+    ],
+    "parameters": {
+      "password_icons": null,
+      "checkpoint_id": null,
+      "input_recording": null
+    },
+    "prerequisites": [
+      "P2F fullscreen-4K prerequisite passed",
+      "canonical build/archive hashes match",
+      "one game process",
+      "record actual difficulty/controls/initial state"
+    ],
+    "verification_status": "TRACED"
+  },
+  "route_actions": [
+    {
+      "step": 1,
+      "action": "Begin tracing/capture before entry or verified checkpoint restore; log resident resources and initial state."
+    },
+    {
+      "step": 2,
+      "action": "Existing title idle → TRAINING DEMO1_1 → title capture; do not treat it as full-level completion."
+    },
+    {
+      "step": 3,
+      "action": "Record exact scene IDs, camera/route, input/tick sequence, assets and event outcomes; retain the following transition."
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "entry",
+      "kind": "observation_boundary",
+      "condition": "Actual level entry/restore request",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "scene-start",
+      "kind": "observation_boundary",
+      "condition": "First frame/state of the targeted scene",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "event",
+      "kind": "observation_boundary",
+      "condition": "Inherited title/TRAINING attract-demo evidence event/action result",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "exit",
+      "kind": "observation_boundary",
+      "condition": "Existing demo returns to title",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    }
+  ],
+  "expected_asset_categories": [
+    "collision_camera",
+    "enemy_animation",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+  ],
+  "expected_assets_status": "CANDIDATES_UNTIL_OBSERVED",
+  "capture_boundaries": {
+    "start": {
+      "condition": "Before entry/load or verified restore request",
+      "tick": null
+    },
+    "scene_start": {
+      "condition": "First targeted scene frame/state",
+      "tick": null
+    },
+    "scene_end": {
+      "condition": "Existing demo returns to title",
+      "tick": null
+    },
+    "stop": {
+      "condition": "After result and following transition/unload are logged",
+      "tick": null
+    },
+    "streams": [
+      "lossless game pixels/palette",
+      "frame-to-tick index",
+      "input pad bits",
+      "audio and timestamp origin",
+      "resource/decoder/consumer events",
+      "checkpoint/state events"
+    ],
+    "display": "Keep P2F proxy; record fullscreen/windowed capture override separately from the completed 4K prerequisite."
+  },
+  "differential_trace_policy": {
+    "compare_difficulties": [],
+    "matched_state": [
+      "route/actions",
+      "entry/checkpoint",
+      "controls",
+      "health/lives/power-ups",
+      "RNG/state when recovered",
+      "capture boundaries"
+    ],
+    "expand_when": "Resource/variant, spawn, damage, timing, route, phase or progression differs.",
+    "unknown_differences": "Remain pending; do not assume equality."
+  },
+  "evidence": {
+    "status": "TRACED",
+    "reference_status": "REFERENCED",
+    "source_ids": [
+      "existing-runtime",
+      "existing-decoders"
+    ],
+    "source_locator": "docs/resource-consumers.md and demo-20261012-003622.json",
+    "runs": [
+      "analysis/traces/runs/demo90",
+      "analysis/traces/runs/demo-capture-20261012-003622",
+      "analysis/traces/runs/demo_anim",
+      {
+        "run_id": "20261012-052154-attract-config",
+        "path": "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+        "entry": "attract",
+        "debug_only": false,
+        "difficulty_observed": 0,
+        "ticks": {
+          "first": 0,
+          "last": 2218
+        }
+      }
+    ],
+    "captures": [
+      "reference/captures/auto/demo-20261012-003622.json",
+      "reference/captures/auto/demo-20261012-003622.mkv"
+    ],
+    "trace_intervals": [
+      {
+        "trace": "analysis/traces/runs/demo90/resource-usage.jsonl",
+        "start_tick": 1134,
+        "end_tick": 2017,
+        "meaning": "TRAINING load through title return; no whole-level completion claim"
+      },
+      {
+        "run_id": "20261012-052154-attract-config",
+        "level_load_tick": 1134,
+        "last_tick": 2218,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      }
+    ],
+    "asset_associations": [
+      "docs/resource-consumers.md",
+      "analysis/traces/pairs"
+    ],
+    "gameplay_specifications": []
+  },
+  "coverage": {
+    "capture": "CAPTURED",
+    "trace": "TRACED",
+    "asset_extraction": "PARTIAL",
+    "gameplay_specification": "PENDING"
+  },
+  "open_questions": [
+    "Recover exact route/checkpoint/scene IDs and tick/event bounds from this build.",
+    "Confirm candidate asset categories and split additional observed phases/routes into stable scenarios."
+  ]
+}
