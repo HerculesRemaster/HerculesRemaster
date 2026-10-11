@@ -1,0 +1,19 @@
+[project]
+name = "hercules-remaster-tools"
+version = "0.1.0"
+description = "Reverse-engineering, extraction and remaster tooling for Disney's Hercules (1997), Windows edition"
+requires-python = ">=3.13"
+dependencies = [
+    "pillow>=11",
+    "numpy>=2",
+    "pefile==2024.8.26",
+    "pytest>=8",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-p no:cacheprovider"

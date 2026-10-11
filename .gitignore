@@ -1,0 +1,51 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Originals and runtime copies stay outside Git (master §5, §6.4)
+backups/
+working/
+
+# Extracted payloads and decoded media: reproducible from manifests; coverage metadata is tracked
+extracted/*
+!extracted/meta/
+
+# Generated / large media
+remastered/**/*.png
+remastered/**/*.jpg
+remastered/**/*.webp
+remastered/**/*.wav
+remastered/runtime/
+reference/**/*.mp4
+reference/**/*.mkv
+reference/**/*.pml
+analysis/traces/**/*.bin
+dist/
+runtime/**/out/
+runtime/**/target/
+*.log
+
+# Analysis databases (Ghidra projects); text exports in analysis/exports and analysis/annotations are tracked
+analysis/ghidra/
+
+# Plan tool runtime files (locks, worker registry, per-run worker logs)
+.plan/*/tools/.plan-state.lock
+.plan/*/tools/.workers.lock
+.plan/*/tools/workers.json
+.plan/*/evidence/_workers/
+
+# Runtime captures and screenshots (media)
+analysis/runtime/
+reference/captures/
+reference/scenarios/
+analysis/traces/runs/
+analysis/traces/pairs/
+
+# full-game plan: large run outputs (run.json, scenario definitions and coverage stay tracked)
+analysis/traces/full-game/**/*.jsonl
+analysis/traces/full-game/**/pairs/
+analysis/traces/full-game/**/*.bin
+reference/captures/full-game/
+extracted/full-game/
