@@ -19,7 +19,7 @@ Decoder: `tools/decode/ifam.py` → `extracted/sprites/<index>_<path>/f<frame>.p
 | file+0 | char[4] | `i1.4` |
 | P+0 | u16 | frame count (e.g. Hercules 593) |
 | P+2 | u16 | palette count |
-| P+4·k | u32 | frame *k* entry (k = 1 … count−1; slot 0 is the count word): `offset << 8 \| flags`. `offset` is relative to P (0 = no frame). `flags & 0x1f` = palette; `0x40` = keep cached (cells allocated from the reserved range 0x54–0x6f in 0x4ca0) |
+| P+4·k | u32 | frame *k* entry (k = 1 … count; slot 0 is the count word. Frame `count` exists: ENG3 draws CYCLOPS 167/167, CYEND 33/33, ALIEN1 828/828, SOULS 20/20 at runtime, 2026-10-12): `offset << 8 \| flags`. `offset` is relative to P (0 = no frame). `flags & 0x1f` = palette; `0x40` = keep cached (cells allocated from the reserved range 0x54–0x6f in 0x4ca0) |
 | P+4·count+4, +8 | u32 ×2 | copied to a global by 0x3cd0 when a frame is first cached (meaning open) |
 | P+4·count+12 | u16 × palettes | palette offsets (relative to P) |
 
@@ -64,3 +64,9 @@ Hercules, Phil, the title menu bank and others are visually correct: shapes, pal
 ### Open
 
 Banks 503 and 601 (no names) have small palettes (68-byte stride) and a stream that doesn't follow the ENG1 RLE. They are probably drawn by other code (TITLE or ENG3); `UnsupportedVariant` until that code is read.
+
+**S4.02 (2026-10-12): no consumer in this build.** The unnamed entries are 503 and 601 (`i1.4`), 631–638 (`i1.3`, consecutive ids 0xAEA7A830..37) and 409 (`i1.9`).
+- No path string in HERCULES.EXE, TITLE, ENG1 or ENG3 hashes to their ids. The scan covered the strings as written, with P: mapped to `M:\GRAFIX\CHOP\`, and with the known leaf names (`ANIMPSX.BIN`, `MAP_PSX.BIN`, …).
+- Neither bank table (ENG1 0x5cee0, ENG3 0x39548; `tools/decode/bank_index.py`) names them, and no trace run opens them.
+- 409 matches the invented combination `M:\GRAFIX\CHOP\SRC1\BOSS\MEDUSA\MAP_PSX.BIN`. Nothing in the code opens that path, and the additive hash collides easily, so it is a LEAD only.
+- Result: they stay `UnsupportedVariant`, reason "unreferenced by this build". Re-check this against the linked full-game run (S6.08).

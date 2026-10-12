@@ -75,3 +75,38 @@ It also draws:
   - `soft_<n>.png` (the EXE's own 320×240 frame);
   - `gpu_<n>.txt` (clear/fog flags, vertex/run counts, art counters).
 - `log = on` logs the fps every few seconds, plus the module and offset of the first access violation.
+
+## ENG3 levels (2026-10-12, full-game S7.02 / L02/L07/L09 RM.01)
+
+Two fixes came out of the first ENG3 GPU-vs-EXE comparison (`analysis/runtime/levels/eng3_gpu/`, `HERC_GPU_SHOT` during cheat_select runs):
+
+- **Polygon extent rule.** The EXE rasterisers (0x40d420 opaque, 0x40e680 semi, 0x40dd70, 0x40cc50 fog) draw a polygon only when its vertex extents are below 0x800 in x and y. ENG3 emits near-plane quads projected to huge coordinates (e.g. −3105…8352 × −20386…28766 in CYCLOPS). The EXE drops them; the GPU drew them over the whole screen, so roughly every other frame showed only the clear colour and the HUD (94% of pixels wrong). `Poly` now applies the same rule. The flat-colour path 0x40c2e0 is not read yet and is left unchanged.
+- **Several OTs per frame.** The EXE draws every `GFX_DrawOTag` into the same frame without clearing in between, so the primitive lists now accumulate until the next present. Every captured ENG3 frame so far had one OT (`ot_calls` in `gpu_<n>.txt`).
+
+Debug additions: `gpu_<n>.txt` has `ot_calls` and `frame_brightness`; `gpu_<n>_ot.txt` lists every polygon and sprite in OT order (code, colour, bounding box, tpage, semi, clip rows).
+
+Results after the fixes (pixels that differ, 3× windowed):
+
+| level | frames | range | what remains |
+|---|---|---|---|
+| GAUNTLET | 17 | 12–27 % | texture sampling inside perspective level quads (the span-start UV rule above) |
+| CYCLOPS | 9 | 35–41 % | the same; sprites, Cyclops, hero and HUD match |
+| TORMENT | 17 | 24–44 % | the same (dense textured cave geometry) |
+
+ENG3 primitive codes seen: 0x2c/0x2e (textured quads, opaque/semi), 0x64 (sprites), 0xe1, 0xf3. There are no Gouraud or flat-untextured codes in these scenes.
+
+### Performance at 9× (Q-05, 2026-10-12)
+
+Each semi-transparent run used to copy both full render targets (index and colour, 2880×2160 at 9×) so the shader could read the destination. The renderer now copies only the run's screen box (vertex bounds + 1 texel, clipped to the run's clip rows). The output is pixel-identical: 17 TORMENT frames compared before and after (`analysis/runtime/levels/eng3_gpu/TORMENT_fix` vs `TORMENT_region3`).
+
+In-level frames only (vertices > 2000), `HERC_PERF` + `HERC_GPU_SCALE=9`, entry through cheat_select:
+
+| level | p95 before | p50 after | p95 after | frames over 16.67 ms after |
+|---|---|---|---|---|
+| GAUNTLET | 21.60 ms | 7.43 ms | 10.55 ms | 7 of 1240 |
+| CYCLOPS | 17.54 ms | 6.42 ms | 8.54 ms | 5 of 942 |
+| TORMENT | 24.59 ms | 6.64 ms | 14.37 ms | 24 of 1125 |
+
+CSV files: `analysis/runtime/perf/eng3_<LEVEL>.csv` (before) and `eng3_<LEVEL>_region.csv` (after). Both runs have isolated spikes (max 27–96 ms). Their cause has not been analysed yet.
+
+ENG1 levels with the same renderer, in-level frames (after the game tick resets at the level load), 9×, cheat_select entry (`analysis/runtime/perf/eng1_<LEVEL>_region.csv`): p95 TRAINING 6.6 ms, FOREST 8.6, THEBES 7.2, HYDRA 5.9, MEDUSA 9.0, TITANS 7.8, VORTEX 8.9. All ten levels are within Q-05; the per-level table is generated in `docs/release/content-matrix.md`.

@@ -55,5 +55,17 @@ ENG3 readers: open (S3).
 **Findings:**
 - **Beginner:** in the Beginner group, the slots of L09 (10) and L10 (11) lead to 12 (the ending). This is code-backed support for the manual's lead that Beginner ends after L08. The runtime check (S6.06) is still open.
 - **Thebes:** two entries per difficulty lead to level 5 (Thebes) and differ only by their index (gs+0x12). ENG1 never reads gs+0x12, so whether the second one starts Part 2 has to be seen at runtime (S6.03).
-- **Cheats** are two-step sequences: entry 100 then 101, 102 then 103, 104 then 105. They set flags gs+0x30 and gs+0x2e or gs+6. Their effects are open.
+- **Cheats** are two-step sequences: entry 100 then 101, 102 then 103, 104 then 105 (`HERO_PasswordCheck` 0xcd30). A result ≥ 100 plays SFX 0x302 and stays on the password screen with the cursor unchanged.
+  - **100 → 101:** gs+0x30 |= 0x80000000, gs+0x2e = 0. VERIFIED-RUNTIME: run `analysis/traces/full-game/_cheats/cheat_100_101`, result 100 at tick 1424, then 101 with gs+0x30 = 0x80000000 at tick 2366.
+    - The main menu (`MOD_MainMenu` 0x7510) then has a fifth item (index 4, max item 3 + the flag), which opens the cheat menu `HERO_CheatMenuInput` 0x16f0 (`M:\GRAFIX\MOVIE\SCREENS\CHEAT.TGA`, drawn by `HERO_CheatLevelSelect` 0x1300).
+    - Cheat menu input:
+      - RIGHT = next level, list TITLE 0x22030 (u16 frame, u8 level): 1, 2, 3, 5, 6, 7, 8, 9, 10, 11;
+      - UP toggles gs+0x30 bit 8 (`HERO_Die` skips the life decrement, both engines);
+      - LEFT toggles 0x10 (forces gs+0x10 = 1, `progression.md`);
+      - DOWN toggles 0x800000 (consumer open);
+      - START leaves with gs[0] = the level, which then loads by itself (about 150 ticks later).
+    - VERIFIED-RUNTIME: GAUNTLET (`…/l02-heros-gauntlet/full-progression/20261012-073417-password-config`) and CYCLOPS (`…/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium`).
+    - Scripted as `run_scenario.ps1 -Entry cheat_select -CheatLevel <index> [-CheatLives]` (`tools/trace/password_check.py` `cheat_pad`). This is an in-game feature, not a memory write; with the life toggle on, the life-decrement path is not representative.
+  - **102 → 103:** the same flag, gs+0x2e = 1. The cheat menu then uses list 0x22080 (same levels, other frames) and has no toggles; UP/DOWN step the level.
+  - **104 → 105:** gs+0x30 |= 0x80000008 (no life loss) and gs+6 = 3.
 - **Saved games:** TITLE `FUN_10010fe0` (F3 load game) restores 0x3c-byte slots from TITLE 0x2aa50 through `FUN_100121d0`. The record fields go to the game state as: +4 → level, +8 → lives (+0x0c), +0xc → +0x0b, +0x10 → difficulty (+0x0e), +0x14 → +0x10, +0x30 → flags, +0x18/+0x1c → +0x1b0c/+0x1b10, +0x20…+0x2c → the action slots +0x6c…+0x78, +0x34 → +0x1b24. Where the slots persist is open.

@@ -13,6 +13,7 @@ All commands run from `C:\Games\GameHercules\Remaster\tools\hires` with `..\..\.
 | `input.png` | upload it to the model as the image to edit or redraw |
 | `prompt.txt` | paste it as the prompt |
 | `layout.json` | leave it; `fit.py` reads it |
+| `<pack>.png` | **you save the model's result here**, same name as the folder (e.g. `bird_flap/bird_flap.png`) |
 
 **Image size.** `input.png` is already at the size to request (1536×1024, 1024×1536 or 1024×1024). Each original pixel is a block of 6–9 pixels in it.
 - If the model can output larger images (2048 or 4096 px), rebuild the packs with fewer frames per pack and closer to the 9× target: `py prompts.py --sizes 2048x2048,4096x2304` (any list of sizes it supports).
@@ -27,6 +28,8 @@ Start with the character anchor, then keep it as a style reference:
 3. **Birds:** do `bird_flap` first, then use it as the style reference for `bird_dive`.
 4. **Tile, HUD and TRAINING texture pieces:** one generation each, no reference needed.
 
+Save every download into its pack folder, named after the folder: `remastered/prompts/bird_flap/bird_flap.png`. The tools only look there.
+
 **What to reject straight away:**
 - anything moved, cropped or resized inside a cell;
 - extra or missing limbs or frames;
@@ -38,7 +41,8 @@ Start with the character anchor, then keep it as a style reference:
 ## 2. Take the result (fit + check + review in one step)
 
 ```
-py jobs.py take <pack> C:\path\to\downloaded.png
+py jobs.py take bird_flap         # one pack: reads remastered/prompts/bird_flap/bird_flap.png
+py jobs.py take                   # every pack that has a <pack>.png
 ```
 
 This step:
@@ -48,7 +52,9 @@ This step:
 - writes the frames to `remastered/incoming/<pack>/` (e.g. `incoming/bird_dive/`);
 - creates the pack's jobs, runs the checks and writes side-by-side sheets to `remastered/review/`.
 
-Only a wrong size blocks a frame. Other failed checks (alpha, pivot, seams) are printed as `warn` and the sheet gets a red divider: judge those by eye. Taking a pack again with a new image replaces its frames, even approved ones. Without an image, `take <pack>` re-checks what is already in `incoming/<pack>/`.
+Only a wrong size blocks a frame. Other failed checks (alpha, pivot, seams) are printed as `warn` and the sheet gets a red divider: judge those by eye.
+
+A pack whose `<pack>.png` hasn't changed since its last take is skipped, so approved and packed frames keep their state. To redo a pack, overwrite its `<pack>.png` (it is taken again, even if approved) or add `--force`.
 
 Level pieces and the HUD are pasted into one canvas per level or sheet, so pieces from several packs add up.
 
@@ -64,7 +70,7 @@ py jobs.py pack                           # cuts approved art into working/game/
 
 Regexes still work for parts of a pack. A digit range is one character, so frames 17–23 are `"^sprite/0485/f00(1[7-9]|2[0-3])$"`, not `f000[17-23]`.
 
-`fit.py <pack> <image>` and `jobs.py add / run / review` still exist as separate steps (`add` uses the `manual` generator by default).
+`jobs.py add / run / review` still exist as separate steps (`add` uses the `manual` generator by default).
 
 **Pilot regex** (all pilot entries):
 

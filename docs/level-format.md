@@ -13,7 +13,7 @@ ENG1's per-level table (0x68af0, 0x48 bytes per level id, 999 ends) lists level 
 | offset | field | code |
 |---|---|---|
 | 0x00 | tag `i2.5` | 0x1f750 |
-| 0x04 | header size = first block's sector × 0x800 (TRAINING 0x103000) | 0x1f750 reads 8 bytes, then this many |
+| 0x04 | header size = first block's sector × 0x800 (TRAINING 0x103000) | 0x1f750 reads 8 bytes, then this many. The VRAM uploads (0x1fc90) still copy full rects, so in FOREST, VORTEX, MEDUSA and HYDRA the tail of the 256×256 image comes from memory past the header (runtime-checked on HYDRA; no texture samples it) |
 | 0x08 | u16 sections | `LVL_ParseHeader` 0x20670 |
 | 0x0a | u16 n_e (table T40 follows T4c by n_e entries) | |
 | 0x0c, 0x0e | u16 counts of T34 entries (block types + extra records) | |
@@ -73,6 +73,9 @@ ENG1's per-level table (0x68af0, 0x48 bytes per level id, 999 ends) lists level 
 - Section spawn list: `{u16 x, u16 y, u16 z, u16 template}` (8 bytes).
 - Template table from ENG1's level config (`LVL_SelectLevelConfig` 0x280f0: record +0x40): `{s16 dx, dy, dz, u16 flags, s16 kind}`. Object = (x+dx, y+dy, z+dz), kind.
 - Flag 0x200 = re-placed on reset. Kinds 0x2018/0x2019 are counted into game state +0x1a/+0x16.
+- **Class = kind & 0x7000** (`LVL_SpawnVisible` 0x262a0 / 0x26480): 0 actors, 0x4000 markers (checkpoints), 0x2000 pickups.
+  - 0x1000-class kinds are not objects. They are **bank-streaming triggers** fired 120–180 units before the camera reaches them (0x28290): 0x10XX request bank XX, 0x18XX free it, 0x14XX/0x1CXX request/free the HERCULES letter banks of bitmask XX.
+  - Lists per map: `animation-coverage.json` `eng1_map_triggers`.
 - TRAINING: 451 spawns; most common kinds 0x2019 (154), 0x2018 (60), 0x38, 0x2013.
 
 ## Palette file MAP_PSX.CIF (`GFX_LoadCif` EXE 0x68c0; `GFX_LoadLevelPalette` 0x5760)
@@ -90,8 +93,73 @@ The PC rasteriser draws into a 320×240 8-bit frame. A level texel t at fog leve
 
 `render_preview.py TRAINING --cols 0:500 --collision` renders 25,049 textured quads in 5 layers: trees, training rigs and ground match the game. `preview_collision.png` adds collision lines at mid-depth per layer and spawn markers. `viewer.html` toggles layers and the overlay.
 
+## Models (T28; S2.01)
+
+`GFX_DrawModel` 0x31540 draws an object whose frame field (+0x34) is a model number k:
+- `GFX_DrawObjectModel` 0x313e0 handles k = 1..n_extra (header +0x0e).
+- Model k is T34 entry `n_types − 1 + k`, a self-relative s32 pointing to the model.
+- Decoded by `level_decode.decode_models` into `level.json` `models`.
+- Contact sheets: `tools/level/render_models.py` → `extracted/full-game/levels/<LEVEL>/models.png`.
+
+| part | layout | code |
+|---|---|---|
+| header `LVL_ModelHeader` | `s16 T28 word, u8 n, u8 radius, u32 offset` | radius → visibility test 0x32050; offset ≠ 0 → `GFX_SetModelOffset` 0x31d30 (packed like a vertex, × object scale >> 7) |
+| extra | `n × 8` bytes | not read by the draw (open) |
+| per face group | `s16 (the T28 word again), s16 count, u32 vertices[count]` | the draw reads the first count at +10 + 8n; the next count follows 4 + 4·count later |
+| vertex | packed like block vertices (x s8, y s16, z s8) | `GFX_TransformModelVerts` 0x318d0 (table 0x5cec0 by object +0x23) puts vertex i in scratch slot i; slots above count keep the previous group's vertices |
+| T28 group `LVL_ModelGroup` (at T28 + word·4) | `u16 quads, u8 more groups, u8 carried`, then quads, then `carried` slot bytes (copied to the attach list 0x70840 for child objects), padded to 4 | 0x31540 |
+| quad `LVL_ModelQuad` | `u32 = i0 \| i1<<6 \| i2<<12 \| i3<<18 \| flags<<24`; `u32` = T30 byte offset (high byte 0) or flat colour (low byte) | packet xy0..3 = i0, i1, i3, i2 |
+
+- **Flags:**
+  - 0x08: back-face culled (NCLIP of i0, i1, i3), unless bit 0x01 is set.
+  - 0x04: skipped while 0x6ffbc = 0.
+  - 0x40: also test the triangle (i1, i2, i3).
+- **Depth:** OT index = (z0 + z2)/8. When object +0x54 & 0x40, it is the mean of all four z values / 16. Clamped to 0x4bf.
+- **CLUT:** `0x7830 + fog·0x40`, where fog = clamp(object +0x10 >> 5, 1, 29).
+
+**Counts:**
+
+| level | models | quads |
+|---|---:|---:|
+| HYDRA | 78 | 7,472 |
+| TRAINING | 89 | 1,918 |
+| TITANS | 18 | 823 |
+| FOREST | 23 | 478 |
+| THEBES | 27 | 399 |
+| MEDUSA | 16 | 375 |
+| VORTEX | 1 | 1 |
+
+- **HYDRA's** models are mostly Hydra head and neck poses, one model per animation frame, plus boulders and platforms.
+- **TRAINING** has 8 records (k 42–46, 49, 50, 52) that do not repeat their T28 word before the count. They are not in this mesh layout; their consumer is open.
+
+## Tables T50, T44, T4c, T40 and section bytes (S2.02)
+
+| table | consumer | layout / meaning | status |
+|---|---|---|---|
+| T50 | `LVL_TransformCellStraight`, 0x2f340 (arc cells), 0x311a0 (object colour) | u32 per entry = four corner light levels `{u8 x0y0, x1y0, x0y1, x1y1}`. Bilinear over the cell (x, y & 0x3f), then colour = 0x6f4e8[(flags & 7)·64 + level] (64 levels × 8 light palettes). Index = T54 camera flags >> 4 when flags & 8 = 0; with flags & 8 the level is fixed at (flags >> 6) & 0xff. Objects use their own +0x2c the same way, bilinear when +0x54 & 0x600 = 0x600 | VERIFIED-STATIC; entry count = max index + 1 in all seven maps; exported as `level.json` `lights` |
+| T44 | `LVL_DrawBackgroundTiles` 0x2ff0, called by the per-level background hooks | parallax background tile map `{s16 width, s16 height, s16 tile[width·height]}`. Each 16×16 tile is drawn as a sprite (packet code 0x64): u = tile & 0xf8, v = (tile >> 8) & 0xf8, mode = tile & 3 (flip variants), bit 8 selects one of two OT slots (0x88/0x8c). Horizontally adjacent tiles with consecutive u are merged (up to 21). The scroll is the camera position divided per level (see below). texture pages 0x9c/0x9e = VRAM (768,256)/(896,256) by tile bit 8 (draw modes set in 0x1f320); tile & 3 = 2× horizontal (bit 0) / vertical (bit 1) magnification (FT4 branch); CLUT word 0x73480 (no static writer; colours = palette[texel]) | VERIFIED-STATIC; rendered by `tools/level/render_background.py` |
+| T4c | 0x20ea0, called by the camera update 0x2fb70 when camera mode 0x70d10 & 0x80, and by 0x37770, 0x3af20, 0x3c1e0, 0x3c330 | n_e (header +0x0a) self-relative lists: `u16 count`, then 16-byte keys `{u16 key, …}` interpolated by a column/position key into 7 shorts (camera/scroll limits). n_e = 0 in every ENG1 map except TITANS (2) | layout VERIFIED-STATIC; field meanings open |
+| T40 | `LVL_CellAttribute` 0x20d30 | attribute a (cell bits 24–30) → T40 entry a−1, self-relative → `u16 classes` (x low nibble, y bits 4–7, z bits 8+; segment table 0x5e0d0, as for collision), then an s8 grid sampled at (x & 0x3f, y + 0x20 & 0x3f, depth). The value goes to the per-level `attribute_flags` (+0x44) / `attribute_funcs` (+0x38) tables (`extracted/meta/full-game/eng1-level-config.json`, 0x2ff50) | VERIFIED-STATIC |
+| section byte 1, byte 3 | none | `LVL_SelectSection` and every other reader of the section table (0x19c30, 0x19d30, `HERO_AirPhysics`, `LVL_SpawnObjects`) read only +0, +2, +4, +6, +8, +10 | unread by ENG1 |
+
+### Background hooks (S2.04)
+
+ENG1 0x5df00 + 0x1c·level holds a per-level byte/flag record. Its +0x14 field is a background function (stored to 0x70d24 by 0x1f320, called at the end of the cell draw 0x2da90):
+
+| level | hook | what it draws |
+|---|---|---|
+| TRAINING | `LVL_DrawBackgroundTraining` 0x42320 | T44 at (camera x / 4, (camera y − 0x250) / 3); clear colour (0x3f,0x75,0xbc) below y 32, else (0x7f,0x8b,0x47) (0x5a30) |
+| FOREST | `LVL_DrawBackgroundForest` 0xe400 | T44 at (x / 4, y / 4 − 0x30); colour (0xa3,0xa7,0x57) above 0x50, else (0x57,0xab,0xf3) |
+| THEBES | `LVL_DrawBackgroundThebes` 0x36c40 | colour (0xa1,0xbc,0xbb) below 0x50, else (0x11,0x1e,0x39); T44 at (x / 4, (y − 0x250) / 5) |
+| HYDRA | `LVL_DrawBackgroundHydra` 0x1efa0 | two path-placed sprites at path x 0xb80 and 0x580 (0x1efe0, 0x50 × 0xcc) |
+| TITANS | `LVL_DrawBackgroundTitans` 0x3c600 | its own scrolling strips (0x3c980) |
+| VORTEX | `LVL_DrawBackgroundVortex` 0x2fa0 | T44 at (x / 8, y / 4, −0x40 in level 11) |
+| MEDUSA | none | |
+
 ## Open
 
-- T28 models / background (sky) and flat-colour quads are not drawn yet; arcs are drawn unrolled.
-- Meaning of T44, T4c, T50 (shade), the attribute table T40 and section fields 1 and 3.
-- ENG3 `i1.a` and the `i1.3`/`i1.9` maps.
+- Boss models are posed by code each tick and are not placed in the static previews (S2.04). Arcs are drawn unrolled.
+- Model extra bytes (n × 8) and TRAINING's 8 non-mesh records.
+- T4c key fields (TITANS only); the per-level attribute value meanings (+0x44 flags per value).
+- ENG3 `i1.a` maps (S3). The `i1.3`/`i1.9` entries (631–638, 409) are unreferenced by this build (`docs/formats/i-family.md`).
+- ENG1 level ids 0 (`O:\PLAYROOM\`) and 4 (`O:\NESSUS\`) have config, start and bank lists (ENG1 0x5a690) but no `MAP_PSX.BIN` in HERCULES.FS (neither `M:\GRAFIX\MAPS\…` path hashes to an archive id), so they cannot load.
