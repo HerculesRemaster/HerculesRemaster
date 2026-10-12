@@ -1,0 +1,123 @@
+{
+ "_doc": "Hercules (ENG1.DLL) tuning constants in their original 16.16 representation, units per 33 ms tick. Source RVAs in docs/gameplay-spec.md.",
+ "tick_ms": 33,
+ "tick_source": "HERCULES.EXE RT_Tick 0x5f20 (fixed step 0x21 ms, catch-up max 2)",
+ "cell_size": 64,
+ "layer_depth": 128,
+ "run": {
+  "target_speed": {
+   "raw": "0x80000",
+   "value": 8.0
+  },
+  "acceleration": {
+   "raw": "0x8000",
+   "value": 0.5
+  },
+  "stop_threshold": {
+   "raw": "0x40000",
+   "value": 4.0
+  },
+  "source": "ENG1 0x16a60, 0x16c40, HERO_MoveX 0x19a10"
+ },
+ "walk_off_ledge": {
+  "target_speed": {
+   "raw": "0x40000",
+   "value": 4.0
+  },
+  "deceleration": {
+   "raw": "0x8000",
+   "value": 0.5
+  },
+  "source": "ENG1 0x17340"
+ },
+ "forced_walk_speed": {
+  "raw": "0x30000",
+  "value": 3.0
+ },
+ "jump": {
+  "initial_vy": {
+   "raw": "0xe0000",
+   "value": 14.0
+  },
+  "rise_deceleration": {
+   "raw": "0xe000",
+   "value": 0.875
+  },
+  "release_extra_deceleration": {
+   "raw": "0xc000",
+   "value": 0.75
+  },
+  "release_window": "while 0x6ef70 < 0x2000 in states 2/4",
+  "air_target_speed": {
+   "raw": "0x40000",
+   "value": 4.0
+  },
+  "air_acceleration": {
+   "raw": "0x8000",
+   "value": 0.5
+  },
+  "fall_gravity_after_apex": {
+   "raw": "0x6000",
+   "value": 0.375
+  },
+  "fall_gravity_initial": {
+   "raw": "0x7000",
+   "value": 0.4375
+  },
+  "max_fall_speed": {
+   "raw": "0xd0000",
+   "value": 13.0
+  },
+  "source": "ENG1 HERO_JumpStart 0x17130, 0x171b0, HERO_AirPhysics 0x19d70, HERO_VerticalStep 0x19aa0"
+ },
+ "air_down_move": {
+  "gravity": {
+   "raw": "0x10000",
+   "value": 1.0
+  },
+  "max_fall_speed": {
+   "raw": "0x200000",
+   "value": 32.0
+  },
+  "source": "ENG1 0x19d70"
+ },
+ "fell_below_section_vy": {
+  "raw": "0x80000",
+  "value": 8.0
+ },
+ "ground_snap": {
+  "rule": "surface within max(|dx|,4)+8 units below",
+  "source": "ENG1 0x29da0"
+ },
+ "y_min": 64,
+ "y_max": "section rows * 64",
+ "start_position": {
+  "table": "ENG1 0x5a69c[level], 0x18 bytes per start index",
+  "x": "(u16 - 0x20) << 16",
+  "y": "(u16 + 0x40) << 16",
+  "z": "byte << 23"
+ },
+ "buttons_default": {
+  "sword": "0x8000 (X)",
+  "jump": "0x4000 (Z)",
+  "punch": "0x2000 (C)",
+  "charge": "0x1000 (D)"
+ },
+ "stymphalian_bird": {
+  "hover_band_above_hero": [
+   64,
+   128
+  ],
+  "vertical_speed": {
+   "raw": "0x60000",
+   "value": 6.0
+  },
+  "source": "ENG1 0x43440"
+ },
+ "runtime_check": {
+  "trace": "analysis/traces/hero_state.csv",
+  "max_vx": 8.0,
+  "jump_vy0": 14.0,
+  "jump_rise_units": "95-105 in 14-16 ticks"
+ }
+}
