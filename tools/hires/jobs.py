@@ -2,7 +2,7 @@
 
 <sel> is a prompt pack name (remastered/prompts/<pack>, e.g. bird_dive) or a regex over manifest ids.
 
-jobs.py take [<pack>] [--force] [--grow N] [--no-snap]
+jobs.py take [<pack>] [--force] [--grow N] [--no-snap] [--no-align]
                                                           one step per downloaded sheet, always saved as
                                                           remastered/prompts/<pack>/<pack>.png (no pack =
                                                           every pack that has one): fit.py into
@@ -178,7 +178,7 @@ def take_pack(db, pack, image, a) -> bool:
         print(f"{pack}: {image.name} unchanged since the last take, skipped (--force to redo)")
         return False
     print(f"{pack}: taking {image}")
-    fit.fit(pack, image, a.grow, a.no_snap)
+    fit.fit(pack, image, a.grow, a.no_snap, a.no_align)
     ents = common.entries_by_id()
     scale = common.manifest()["scale"]
     for i, j in zip(ids, js):
@@ -252,7 +252,7 @@ def main(argv=None) -> int:
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("take"); p.add_argument("pack", nargs="?")
     p.add_argument("--force", action="store_true")
-    p.add_argument("--grow", type=int, default=4); p.add_argument("--no-snap", action="store_true")
+    p.add_argument("--grow", type=int, default=4); p.add_argument("--no-snap", action="store_true"); p.add_argument("--no-align", action="store_true")
     p = sub.add_parser("add"); p.add_argument("pattern"); p.add_argument("--generator", default="manual"); p.add_argument("--settings")
     p = sub.add_parser("run"); p.add_argument("pattern", nargs="?"); p.add_argument("--limit", type=int)
     p = sub.add_parser("review"); p.add_argument("pattern", nargs="?")

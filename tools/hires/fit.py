@@ -10,6 +10,8 @@ the target scale and written into remastered/incoming/<pack>/<entry>.png, which 
   frame   one file per sprite frame: the frame canvas cut out of the pivot-aligned cell
   region  pasted into the entry's full canvas (level VRAM image, HUD sheet); parts not generated yet
           keep the original texels scaled by nearest neighbour
+Align (default for frames, --no-align to skip): models redraw figures larger or shifted inside the cell;
+each frame cell is first scaled (±30 %) and moved so its silhouette best overlaps the original one (IoU).
 Snap (default): alpha is limited to the original silhouette grown by --grow output pixels, which
 removes stray background and keeps the logical outline (checks.py: alpha, pivot).
 """
