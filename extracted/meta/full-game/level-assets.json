@@ -1,0 +1,2829 @@
+{
+ "_doc": "Runtime asset use per level and per scenario (P4.ALL.07-08, L*.AS.06/AS.07). See tools/meta/scene_assets.py for the rules.",
+ "rows": [
+  {
+   "level": 1,
+   "archive_index": 467,
+   "name": "M:\\DEMO\\DEMO1_1.DAT",
+   "id": "1E7E6D5E",
+   "category": "other",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L03.forest-main-route"
+   ],
+   "decoder": null
+  },
+  {
+   "level": 1,
+   "archive_index": 471,
+   "name": "M:\\DEMO\\DEMO1_2.DAT",
+   "id": "1E7F6D5E",
+   "category": "other",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 4268,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": null
+  },
+  {
+   "level": 1,
+   "archive_index": 473,
+   "name": "M:\\DEMO\\DEMO1_3.DAT",
+   "id": "1E806D5E",
+   "category": "other",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 7402,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": null
+  },
+  {
+   "level": 1,
+   "archive_index": 485,
+   "name": "P:\\SRC1\\ALIEN2\\STYBIRD\\ANIMPSX.BIN",
+   "id": "3E3377E5",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 487,
+   "name": "P:\\SRC1\\ALIEN1\\GENERIC1\\ANIMPSX.BIN",
+   "id": "3F7F65B7",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x30E71",
+   "first_tick": 1973,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 497,
+   "name": "P:\\SRC1\\ALIEN1\\ALIEN1\\ANIMPSX.BIN",
+   "id": "48320AC0",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 501,
+   "name": "P:\\SRC1\\ALIEN1\\TRAINING\\ANIMPSX.BIN",
+   "id": "489963C4",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 461,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 552,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+   "id": "573240CA",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 560,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\ANIMPSX.BIN",
+   "id": "5A2B26EE",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 564,
+   "name": "o:\\training\\map_psx.cif",
+   "id": "5ECB98E5",
+   "category": "palette_clut",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 1,
+   "archive_index": 565,
+   "name": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.BIN",
+   "id": "5ED398E4",
+   "category": "map_layers_tiles",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 1,
+   "archive_index": 574,
+   "name": "m:\\language\\srclang\\stpanel1.dat",
+   "id": "6D514E52",
+   "category": "hud_score",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 1,
+   "archive_index": 611,
+   "name": "P:\\SRC1\\ALIEN1\\PHIL\\MACHINE\\ANIMPSX.BIN",
+   "id": "9ADDAD0B",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 461,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium"
+   ],
+   "scenarios": [
+    "L01.traversal"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 619,
+   "name": "P:\\SRC1\\ALIEN1\\TRAINING\\PEG\\ANIMPSX.BIN",
+   "id": "A4E0A918",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 487,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium"
+   ],
+   "scenarios": [
+    "L01.traversal"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 620,
+   "name": "P:\\SRC1\\ALIEN1\\PHIL\\REACT\\ANIMPSX.BIN",
+   "id": "A87A5035",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 640,
+   "name": "P:\\SRC1\\ALIEN1\\PHIL\\CLIMB\\ANIMPSX.BIN",
+   "id": "B2825714",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x30EA1",
+   "first_tick": 1434,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 761,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\HC_THROW\\ANIMPSX.BIN",
+   "id": "D8C046A0",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 4338,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 765,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE\\ANIMPSX.BIN",
+   "id": "E7D3C33C",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 773,
+   "name": "P:\\SRC1\\ALIEN1\\TRAINING\\TRAINFX\\ANIMPSX.BIN",
+   "id": "EE32FC6E",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 775,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERC\\ANIMPSX.BIN",
+   "id": "EEC3F169",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x30EA1",
+   "first_tick": 1447,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 776,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERE\\ANIMPSX.BIN",
+   "id": "EEC3F16B",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 474,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium"
+   ],
+   "scenarios": [
+    "L01.traversal"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 777,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERH\\ANIMPSX.BIN",
+   "id": "EEC3F16E",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 1264,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 778,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERL\\ANIMPSX.BIN",
+   "id": "EEC3F172",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x20421",
+   "first_tick": 7402,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 779,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERR\\ANIMPSX.BIN",
+   "id": "EEC3F178",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x30E71",
+   "first_tick": 1531,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 781,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERU\\ANIMPSX.BIN",
+   "id": "EEC3F17B",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x30E71",
+   "first_tick": 4268,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 1,
+   "archive_index": 811,
+   "name": "P:\\SRC1\\ALIEN1\\PHIL\\ANIMPSX.BIN",
+   "id": "F6551D6D",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1134,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L01.title-demo-baseline",
+    "L01.traversal",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 2,
+   "archive_index": 468,
+   "name": "M:\\DEMO\\DEMO2_1.DAT",
+   "id": "1E7E6D5F",
+   "category": "other",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 10537,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": null
+  },
+  {
+   "level": 2,
+   "archive_index": 499,
+   "name": "P:\\SRC3\\ALIEN1\\ALIEN1\\ANIMPSX.BIN",
+   "id": "48340AC0",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 1787,
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L02.full-progression",
+    "L02.hazards",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 2,
+   "archive_index": 553,
+   "name": "P:\\SRC3\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+   "id": "573440CA",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 1787,
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L02.full-progression",
+    "L02.hazards",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 2,
+   "archive_index": 556,
+   "name": "o:\\gauntlet\\map_psx.cif",
+   "id": "57DDA3D7",
+   "category": "palette_clut",
+   "consumer": "eng3.dll+0x1D38B",
+   "first_tick": 1787,
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L02.full-progression",
+    "L02.hazards",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/level/eng3_decode.py"
+  },
+  {
+   "level": 2,
+   "archive_index": 557,
+   "name": "M:\\GRAFIX\\MAPS\\GAUNTLET\\MAP_PSX.BIN",
+   "id": "57E5A3D6",
+   "category": "map_layers_tiles",
+   "consumer": "eng3.dll+0x1AC63",
+   "first_tick": 1787,
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L02.full-progression",
+    "L02.hazards",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/level/eng3_decode.py"
+  },
+  {
+   "level": 2,
+   "archive_index": 561,
+   "name": "P:\\SRC3\\HERO\\HERCULES\\ANIMPSX.BIN",
+   "id": "5A2D26EE",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 1787,
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L02.full-progression",
+    "L02.hazards",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 2,
+   "archive_index": 575,
+   "name": "m:\\language\\srclang\\stpanel2.dat",
+   "id": "6E514E52",
+   "category": "hud_score",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 1787,
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L02.full-progression",
+    "L02.hazards",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 2,
+   "archive_index": 577,
+   "name": "P:\\SRC3\\HERO\\LETTERS\\ANIMPSX.BIN",
+   "id": "6F4A1693",
+   "category": "hud_score",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 1787,
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L02.full-progression",
+    "L02.hazards",
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 3,
+   "archive_index": 2,
+   "name": "m:\\language\\sonix\\pc_200.esf",
+   "id": "010AF323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 28,
+   "name": "m:\\language\\sonix\\pc_260.esf",
+   "id": "0110F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 32,
+   "name": "m:\\language\\sonix\\pc_270.esf",
+   "id": "0111F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 45,
+   "name": "m:\\language\\sonix\\pc_201.esf",
+   "id": "020AF323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 71,
+   "name": "m:\\language\\sonix\\pc_261.esf",
+   "id": "0210F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 75,
+   "name": "m:\\language\\sonix\\pc_271.esf",
+   "id": "0211F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 86,
+   "name": "m:\\language\\sonix\\pc_202.esf",
+   "id": "030AF323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 112,
+   "name": "m:\\language\\sonix\\pc_262.esf",
+   "id": "0310F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 115,
+   "name": "m:\\language\\sonix\\pc_272.esf",
+   "id": "0311F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 153,
+   "name": "m:\\language\\sonix\\pc_263.esf",
+   "id": "0410F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 156,
+   "name": "m:\\language\\sonix\\pc_273.esf",
+   "id": "0411F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 194,
+   "name": "m:\\language\\sonix\\pc_264.esf",
+   "id": "0510F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 197,
+   "name": "m:\\language\\sonix\\pc_274.esf",
+   "id": "0511F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 236,
+   "name": "m:\\language\\sonix\\pc_265.esf",
+   "id": "0610F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 270,
+   "name": "m:\\language\\sonix\\pc_256.esf",
+   "id": "070FF323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 276,
+   "name": "m:\\language\\sonix\\pc_266.esf",
+   "id": "0710F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 310,
+   "name": "m:\\language\\sonix\\pc_257.esf",
+   "id": "080FF323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 316,
+   "name": "m:\\language\\sonix\\pc_267.esf",
+   "id": "0810F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 326,
+   "name": "m:\\language\\sonix\\pc_197.esf",
+   "id": "0813F223",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 350,
+   "name": "m:\\language\\sonix\\pc_258.esf",
+   "id": "090FF323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 354,
+   "name": "m:\\language\\sonix\\pc_268.esf",
+   "id": "0910F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 365,
+   "name": "m:\\language\\sonix\\pc_198.esf",
+   "id": "0913F223",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 390,
+   "name": "m:\\language\\sonix\\pc_259.esf",
+   "id": "0A0FF323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 395,
+   "name": "m:\\language\\sonix\\pc_269.esf",
+   "id": "0A10F323",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 405,
+   "name": "m:\\language\\sonix\\pc_199.esf",
+   "id": "0A13F223",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2CC10",
+   "first_tick": 1571,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 469,
+   "name": "M:\\DEMO\\DEMO3_1.DAT",
+   "id": "1E7E6D60",
+   "category": "other",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 13672,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": null
+  },
+  {
+   "level": 3,
+   "archive_index": 477,
+   "name": "P:\\SRC1\\ALIEN2\\ALEXFISH\\ANIMPSX.BIN",
+   "id": "2DA96DBE",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 485,
+   "name": "P:\\SRC1\\ALIEN2\\STYBIRD\\ANIMPSX.BIN",
+   "id": "3E3377E5",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 487,
+   "name": "P:\\SRC1\\ALIEN1\\GENERIC1\\ANIMPSX.BIN",
+   "id": "3F7F65B7",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 497,
+   "name": "P:\\SRC1\\ALIEN1\\ALIEN1\\ANIMPSX.BIN",
+   "id": "48320AC0",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 515,
+   "name": "M:\\GRAFIX\\MAPS\\FOREST\\MAP_PSX.BIN",
+   "id": "49716801",
+   "category": "map_layers_tiles",
+   "consumer": "eng1.dll+0x4F258",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 516,
+   "name": "o:\\forest\\map_psx.cif",
+   "id": "497267F9",
+   "category": "palette_clut",
+   "consumer": "eng1.dll+0x2C3D5",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 524,
+   "name": "P:\\SRC1\\ALIEN2\\RcRock\\ANIMPSX.BIN",
+   "id": "4E3C14D1",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 535,
+   "name": "P:\\SRC1\\ALIEN2\\WRESTLEC\\ANIMPSX.BIN",
+   "id": "519F5FC7",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x30EA1",
+   "first_tick": 14488,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 552,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+   "id": "573240CA",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 560,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\ANIMPSX.BIN",
+   "id": "5A2B26EE",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 571,
+   "name": "P:\\SRC1\\ALIEN2\\Water\\ANIMPSX.BIN",
+   "id": "6749126B",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 574,
+   "name": "m:\\language\\srclang\\stpanel1.dat",
+   "id": "6D514E52",
+   "category": "hud_score",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 3,
+   "archive_index": 589,
+   "name": "q:\\NESSUS\\MUSIC.MUS",
+   "id": "805EB2E9",
+   "category": "music_transport",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1569,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 599,
+   "name": "P:\\SRC1\\ALIEN2\\NESSUS\\Basic\\ANIMPSX.BIN",
+   "id": "8AE1CE18",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 602,
+   "name": "P:\\SRC1\\ALIEN2\\NESSUS\\Kick\\ANIMPSX.BIN",
+   "id": "8E8FD51E",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 1784,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 603,
+   "name": "P:\\SRC1\\ALIEN2\\NESSUS\\Ride\\ANIMPSX.BIN",
+   "id": "8E96CF1F",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 1685,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 605,
+   "name": "q:\\NESSUS\\SFX.SFX",
+   "id": "90677577",
+   "category": "sfx_esf_sonix",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1568,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/sonix.py"
+  },
+  {
+   "level": 3,
+   "archive_index": 609,
+   "name": "P:\\SRC1\\ALIEN2\\NESSUS\\Look\\ANIMPSX.BIN",
+   "id": "9490D52A",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 1667,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 614,
+   "name": "P:\\SRC1\\ALIEN2\\NESSUS\\Punch\\ANIMPSX.BIN",
+   "id": "9EF4C813",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 1582,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 765,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE\\ANIMPSX.BIN",
+   "id": "E7D3C33C",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 776,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERE\\ANIMPSX.BIN",
+   "id": "EEC3F16B",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x20CF2",
+   "first_tick": 1790,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 777,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERH\\ANIMPSX.BIN",
+   "id": "EEC3F16E",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1567,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 779,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERR\\ANIMPSX.BIN",
+   "id": "EEC3F178",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 13943,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 780,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERS\\ANIMPSX.BIN",
+   "id": "EEC3F179",
+   "category": "hud_score",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 1731,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 3,
+   "archive_index": 785,
+   "name": "P:\\SRC1\\ALIEN2\\Meg\\ANIMPSX.BIN",
+   "id": "EEF12180",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 1717,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "scenarios": [
+    "L03.nessus-approach"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 3,
+   "archive_index": 817,
+   "name": "P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS\\ANIMPSX.BIN",
+   "id": "F9D79D7B",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 13672,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 329,
+   "name": "P:\\SRC1\\ALIEN1\\THEBIANS\\THEQ\\ANIMPSX.BIN",
+   "id": "08DE990F",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x310AA",
+   "first_tick": 16819,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 470,
+   "name": "M:\\DEMO\\DEMO5_1.DAT",
+   "id": "1E7E6D62",
+   "category": "other",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 16806,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": null
+  },
+  {
+   "level": 5,
+   "archive_index": 472,
+   "name": "M:\\DEMO\\DEMO5_2.DAT",
+   "id": "1E7F6D62",
+   "category": "other",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 19940,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": null
+  },
+  {
+   "level": 5,
+   "archive_index": 481,
+   "name": "P:\\SRC1\\ALIEN1\\FANGIRLS\\ANIMPSX.BIN",
+   "id": "35A36EBC",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x30EA1",
+   "first_tick": 20167,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 486,
+   "name": "P:\\SRC1\\ALIEN1\\SKELETON\\ANIMPSX.BIN",
+   "id": "3EA368C8",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 20051,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 487,
+   "name": "P:\\SRC1\\ALIEN1\\GENERIC1\\ANIMPSX.BIN",
+   "id": "3F7F65B7",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 16806,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L04.streets"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 496,
+   "name": "P:\\SRC1\\ALIEN1\\MINOTAUR\\ANIMPSX.BIN",
+   "id": "47AA77B3",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 19940,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 497,
+   "name": "P:\\SRC1\\ALIEN1\\ALIEN1\\ANIMPSX.BIN",
+   "id": "48320AC0",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 16806,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L04.streets"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 513,
+   "name": "M:\\GRAFIX\\MAPS\\THEBES\\MAP_PSX.BIN",
+   "id": "496E5AF9",
+   "category": "map_layers_tiles",
+   "consumer": "eng1.dll+0x61778",
+   "first_tick": 16806,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L04.streets"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 5,
+   "archive_index": 514,
+   "name": "o:\\thebes\\map_psx.cif",
+   "id": "496F5AF1",
+   "category": "palette_clut",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 16806,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L04.streets"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 5,
+   "archive_index": 552,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+   "id": "573240CA",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 16806,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L04.streets"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 560,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\ANIMPSX.BIN",
+   "id": "5A2B26EE",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 16806,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L04.streets"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 574,
+   "name": "m:\\language\\srclang\\stpanel1.dat",
+   "id": "6D514E52",
+   "category": "hud_score",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 16806,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L04.streets"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 5,
+   "archive_index": 763,
+   "name": "P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR\\ANIMPSX.BIN",
+   "id": "E3CA0765",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x310AA",
+   "first_tick": 16843,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 765,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE\\ANIMPSX.BIN",
+   "id": "E7D3C33C",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 16806,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L03.forest-main-route",
+    "L04.streets"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 766,
+   "name": "P:\\SRC1\\ALIEN1\\THEBIANS\\THSNOW\\ANIMPSX.BIN",
+   "id": "E9DA0C73",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1663,
+   "runs": [
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L04.streets"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 768,
+   "name": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFLASH\\ANIMPSX.BIN",
+   "id": "EC2D034F",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 19940,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 776,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERE\\ANIMPSX.BIN",
+   "id": "EEC3F16B",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 20154,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 778,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERL\\ANIMPSX.BIN",
+   "id": "EEC3F172",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 17424,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 781,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERU\\ANIMPSX.BIN",
+   "id": "EEC3F17B",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x20421",
+   "first_tick": 16806,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 800,
+   "name": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFAT\\ANIMPSX.BIN",
+   "id": "F3C89D7C",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1663,
+   "runs": [
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L04.streets"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 815,
+   "name": "P:\\SRC1\\ALIEN1\\THEBIANS\\THEWGUY\\ANIMPSX.BIN",
+   "id": "F73D0555",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1663,
+   "runs": [
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L04.streets"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 817,
+   "name": "P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS\\ANIMPSX.BIN",
+   "id": "F9D79D7B",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x55D0",
+   "first_tick": 17383,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+   ],
+   "scenarios": [
+    "L03.forest-main-route"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 5,
+   "archive_index": 820,
+   "name": "P:\\SRC1\\ALIEN1\\THEBIANS\\THOLD\\ANIMPSX.BIN",
+   "id": "FED19D6C",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1663,
+   "runs": [
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "scenarios": [
+    "L04.streets"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 6,
+   "archive_index": 517,
+   "name": "o:\\hydra\\map_psx.cif",
+   "id": "4A7C50A9",
+   "category": "palette_clut",
+   "consumer": "eng1.dll+0x2C46B",
+   "first_tick": 461,
+   "runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+   ],
+   "scenarios": [
+    "L05.canyon-entry"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 6,
+   "archive_index": 541,
+   "name": "M:\\GRAFIX\\MAPS\\HYDRA\\MAP_PSX.BIN",
+   "id": "527C4FA9",
+   "category": "map_layers_tiles",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 461,
+   "runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+   ],
+   "scenarios": [
+    "L05.canyon-entry"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 6,
+   "archive_index": 552,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+   "id": "573240CA",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 461,
+   "runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+   ],
+   "scenarios": [
+    "L05.canyon-entry"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 6,
+   "archive_index": 560,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\ANIMPSX.BIN",
+   "id": "5A2B26EE",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 461,
+   "runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+   ],
+   "scenarios": [
+    "L05.canyon-entry"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 6,
+   "archive_index": 574,
+   "name": "m:\\language\\srclang\\stpanel1.dat",
+   "id": "6D514E52",
+   "category": "hud_score",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 461,
+   "runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+   ],
+   "scenarios": [
+    "L05.canyon-entry"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 6,
+   "archive_index": 765,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE\\ANIMPSX.BIN",
+   "id": "E7D3C33C",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 461,
+   "runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+   ],
+   "scenarios": [
+    "L05.canyon-entry"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 6,
+   "archive_index": 804,
+   "name": "P:\\SRC1\\BOSS\\HYDRA\\ANIMPSX.BIN",
+   "id": "F3F8349C",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 461,
+   "runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+   ],
+   "scenarios": [
+    "L05.canyon-entry"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 7,
+   "archive_index": 497,
+   "name": "P:\\SRC1\\ALIEN1\\ALIEN1\\ANIMPSX.BIN",
+   "id": "48320AC0",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1391,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "scenarios": [
+    "L06.lair-traversal"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 7,
+   "archive_index": 530,
+   "name": "M:\\GRAFIX\\MAPS\\MEDUSA\\MAP_PSX.BIN",
+   "id": "508159E4",
+   "category": "map_layers_tiles",
+   "consumer": "eng1.dll+0x203B3",
+   "first_tick": 1391,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "scenarios": [
+    "L06.lair-traversal"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 7,
+   "archive_index": 531,
+   "name": "o:\\medusa\\map_psx.cif",
+   "id": "508259DC",
+   "category": "palette_clut",
+   "consumer": "eng1.dll+0x2C3D5",
+   "first_tick": 1391,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "scenarios": [
+    "L06.lair-traversal"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 7,
+   "archive_index": 552,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+   "id": "573240CA",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1391,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "scenarios": [
+    "L06.lair-traversal"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 7,
+   "archive_index": 560,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\ANIMPSX.BIN",
+   "id": "5A2B26EE",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1391,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "scenarios": [
+    "L06.lair-traversal"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 7,
+   "archive_index": 566,
+   "name": "P:\\SRC1\\BOSS\\SKELWAR\\ANIMPSX.BIN",
+   "id": "633E3985",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1391,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "scenarios": [
+    "L06.lair-traversal"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 7,
+   "archive_index": 574,
+   "name": "m:\\language\\srclang\\stpanel1.dat",
+   "id": "6D514E52",
+   "category": "hud_score",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 1391,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "scenarios": [
+    "L06.lair-traversal"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 7,
+   "archive_index": 765,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE\\ANIMPSX.BIN",
+   "id": "E7D3C33C",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1391,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "scenarios": [
+    "L06.lair-traversal"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 7,
+   "archive_index": 816,
+   "name": "P:\\SRC1\\BOSS\\MEDUSA\\ANIMPSX.BIN",
+   "id": "F83D4689",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1391,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "scenarios": [
+    "L06.lair-traversal"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 8,
+   "archive_index": 480,
+   "name": "P:\\SRC3\\ALIEN1\\CYCLOPS\\ANIMPSX.BIN",
+   "id": "343F6FE8",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3876,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "scenarios": [
+    "L07.death-retry",
+    "L07.full-progression",
+    "L07.obstacles"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 8,
+   "archive_index": 491,
+   "name": "M:\\GRAFIX\\MAPS\\CYCLOPS\\MAP_PSX.BIN",
+   "id": "4482B8EF",
+   "category": "map_layers_tiles",
+   "consumer": "eng3.dll+0x38398",
+   "first_tick": 3876,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "scenarios": [
+    "L07.death-retry",
+    "L07.full-progression",
+    "L07.obstacles"
+   ],
+   "decoder": "tools/level/eng3_decode.py"
+  },
+  {
+   "level": 8,
+   "archive_index": 493,
+   "name": "P:\\SRC3\\ALIEN1\\CYEND\\ANIMPSX.BIN",
+   "id": "45540283",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3876,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "scenarios": [
+    "L07.death-retry",
+    "L07.full-progression",
+    "L07.obstacles"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 8,
+   "archive_index": 494,
+   "name": "o:\\cyclops\\map_psx.cif",
+   "id": "4582B0EF",
+   "category": "palette_clut",
+   "consumer": "eng3.dll+0x1D38B",
+   "first_tick": 3876,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "scenarios": [
+    "L07.death-retry",
+    "L07.full-progression",
+    "L07.obstacles"
+   ],
+   "decoder": "tools/level/eng3_decode.py"
+  },
+  {
+   "level": 8,
+   "archive_index": 547,
+   "name": "P:\\SRC3\\ALIEN1\\PEOPLE\\ANIMPSX.BIN",
+   "id": "553F10CD",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3876,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "scenarios": [
+    "L07.death-retry",
+    "L07.full-progression",
+    "L07.obstacles"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 8,
+   "archive_index": 553,
+   "name": "P:\\SRC3\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+   "id": "573440CA",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3876,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "scenarios": [
+    "L07.death-retry",
+    "L07.full-progression",
+    "L07.obstacles"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 8,
+   "archive_index": 561,
+   "name": "P:\\SRC3\\HERO\\HERCULES\\ANIMPSX.BIN",
+   "id": "5A2D26EE",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3876,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "scenarios": [
+    "L07.death-retry",
+    "L07.full-progression",
+    "L07.obstacles"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 8,
+   "archive_index": 575,
+   "name": "m:\\language\\srclang\\stpanel2.dat",
+   "id": "6E514E52",
+   "category": "hud_score",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3876,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "scenarios": [
+    "L07.death-retry",
+    "L07.full-progression",
+    "L07.obstacles"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 8,
+   "archive_index": 577,
+   "name": "P:\\SRC3\\HERO\\LETTERS\\ANIMPSX.BIN",
+   "id": "6F4A1693",
+   "category": "hud_score",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3876,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "scenarios": [
+    "L07.death-retry",
+    "L07.full-progression",
+    "L07.obstacles"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 9,
+   "archive_index": 492,
+   "name": "P:\\SRC1\\ALIEN2\\PEGASUS\\ANIMPSX.BIN",
+   "id": "453274D9",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 2009,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "scenarios": [
+    "L08.flight-opening"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 9,
+   "archive_index": 525,
+   "name": "P:\\SRC1\\ALIEN2\\RtRock\\ANIMPSX.BIN",
+   "id": "4E3C14E2",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 2009,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "scenarios": [
+    "L08.flight-opening"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 9,
+   "archive_index": 538,
+   "name": "M:\\GRAFIX\\MAPS\\TITANS\\MAP_PSX.BIN",
+   "id": "526D69FA",
+   "category": "map_layers_tiles",
+   "consumer": "eng1.dll+0x203B3",
+   "first_tick": 2009,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "scenarios": [
+    "L08.flight-opening"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 9,
+   "archive_index": 539,
+   "name": "o:\\titans\\map_psx.cif",
+   "id": "526E69F2",
+   "category": "palette_clut",
+   "consumer": "eng1.dll+0x2C46B",
+   "first_tick": 2009,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "scenarios": [
+    "L08.flight-opening"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 9,
+   "archive_index": 552,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+   "id": "573240CA",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 2009,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "scenarios": [
+    "L08.flight-opening"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 9,
+   "archive_index": 568,
+   "name": "P:\\SRC1\\ALIEN2\\RockT\\ANIMPSX.BIN",
+   "id": "644F0179",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 2009,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "scenarios": [
+    "L08.flight-opening"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 9,
+   "archive_index": 574,
+   "name": "m:\\language\\srclang\\stpanel1.dat",
+   "id": "6D514E52",
+   "category": "hud_score",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 2009,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "scenarios": [
+    "L08.flight-opening"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 9,
+   "archive_index": 774,
+   "name": "P:\\SRC1\\ALIEN2\\Harp\\ANIMPSX.BIN",
+   "id": "EE592766",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 2009,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "scenarios": [
+    "L08.flight-opening"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 9,
+   "archive_index": 807,
+   "name": "P:\\SRC1\\ALIEN2\\Spy\\ANIMPSX.BIN",
+   "id": "F4F1338B",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 2009,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "scenarios": [
+    "L08.flight-opening"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 10,
+   "archive_index": 482,
+   "name": "P:\\SRC3\\ALIEN1\\TORMENT\\ANIMPSX.BIN",
+   "id": "3B407FDC",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3996,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
+   ],
+   "scenarios": [
+    "L09.chariot-stalactites",
+    "L09.full-progression",
+    "L09.river-falls"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 10,
+   "archive_index": 520,
+   "name": "M:\\GRAFIX\\MAPS\\TORMENT\\MAP_PSX.BIN",
+   "id": "4B83C8E3",
+   "category": "map_layers_tiles",
+   "consumer": "eng3.dll+0x1AC63",
+   "first_tick": 3996,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
+   ],
+   "scenarios": [
+    "L09.chariot-stalactites",
+    "L09.full-progression",
+    "L09.river-falls"
+   ],
+   "decoder": "tools/level/eng3_decode.py"
+  },
+  {
+   "level": 10,
+   "archive_index": 521,
+   "name": "o:\\torment\\map_psx.cif",
+   "id": "4C83C0E3",
+   "category": "palette_clut",
+   "consumer": "eng3.dll+0x1D38B",
+   "first_tick": 3996,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
+   ],
+   "scenarios": [
+    "L09.chariot-stalactites",
+    "L09.full-progression",
+    "L09.river-falls"
+   ],
+   "decoder": "tools/level/eng3_decode.py"
+  },
+  {
+   "level": 10,
+   "archive_index": 553,
+   "name": "P:\\SRC3\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+   "id": "573440CA",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3996,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
+   ],
+   "scenarios": [
+    "L09.chariot-stalactites",
+    "L09.full-progression",
+    "L09.river-falls"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 10,
+   "archive_index": 561,
+   "name": "P:\\SRC3\\HERO\\HERCULES\\ANIMPSX.BIN",
+   "id": "5A2D26EE",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3996,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
+   ],
+   "scenarios": [
+    "L09.chariot-stalactites",
+    "L09.full-progression",
+    "L09.river-falls"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 10,
+   "archive_index": 569,
+   "name": "P:\\SRC3\\ALIEN1\\SOULS\\ANIMPSX.BIN",
+   "id": "64521279",
+   "category": "sprite_bank",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3996,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
+   ],
+   "scenarios": [
+    "L09.chariot-stalactites",
+    "L09.full-progression",
+    "L09.river-falls"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 10,
+   "archive_index": 575,
+   "name": "m:\\language\\srclang\\stpanel2.dat",
+   "id": "6E514E52",
+   "category": "hud_score",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3996,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
+   ],
+   "scenarios": [
+    "L09.chariot-stalactites",
+    "L09.full-progression",
+    "L09.river-falls"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 10,
+   "archive_index": 577,
+   "name": "P:\\SRC3\\HERO\\LETTERS\\ANIMPSX.BIN",
+   "id": "6F4A1693",
+   "category": "hud_score",
+   "consumer": "eng3.dll+0x1FA3A",
+   "first_tick": 3996,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
+   ],
+   "scenarios": [
+    "L09.chariot-stalactites",
+    "L09.full-progression",
+    "L09.river-falls"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 11,
+   "archive_index": 518,
+   "name": "M:\\GRAFIX\\MAPS\\VORTEX\\MAP_PSX.BIN",
+   "id": "4B806805",
+   "category": "map_layers_tiles",
+   "consumer": "eng1.dll+0x203B3",
+   "first_tick": 1874,
+   "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
+   ],
+   "scenarios": [
+    "L10.vortex-entry"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 11,
+   "archive_index": 519,
+   "name": "o:\\vortex\\map_psx.cif",
+   "id": "4B8167FD",
+   "category": "palette_clut",
+   "consumer": "eng1.dll+0x2C3D5",
+   "first_tick": 1874,
+   "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
+   ],
+   "scenarios": [
+    "L10.vortex-entry"
+   ],
+   "decoder": "tools/level/level_decode.py"
+  },
+  {
+   "level": 11,
+   "archive_index": 552,
+   "name": "P:\\SRC1\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+   "id": "573240CA",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1874,
+   "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
+   ],
+   "scenarios": [
+    "L10.vortex-entry"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 11,
+   "archive_index": 560,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\ANIMPSX.BIN",
+   "id": "5A2B26EE",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1874,
+   "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
+   ],
+   "scenarios": [
+    "L10.vortex-entry"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 11,
+   "archive_index": 574,
+   "name": "m:\\language\\srclang\\stpanel1.dat",
+   "id": "6D514E52",
+   "category": "hud_score",
+   "consumer": "eng1.dll+0x2C3AA",
+   "first_tick": 1874,
+   "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
+   ],
+   "scenarios": [
+    "L10.vortex-entry"
+   ],
+   "decoder": "tools/decode/ifam.py / raw VRAM sheet"
+  },
+  {
+   "level": 11,
+   "archive_index": 765,
+   "name": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE\\ANIMPSX.BIN",
+   "id": "E7D3C33C",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1874,
+   "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
+   ],
+   "scenarios": [
+    "L10.vortex-entry"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  },
+  {
+   "level": 11,
+   "archive_index": 803,
+   "name": "P:\\SRC1\\BOSS\\HADES\\ANIMPSX.BIN",
+   "id": "F3E0468F",
+   "category": "sprite_bank",
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 1874,
+   "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
+   ],
+   "scenarios": [
+    "L10.vortex-entry"
+   ],
+   "decoder": "tools/decode/ifam.py (extracted/sprites/)"
+  }
+ ]
+}

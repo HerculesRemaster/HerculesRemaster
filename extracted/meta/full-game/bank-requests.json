@@ -1,0 +1,133 @@
+[
+ {
+  "caller": "10003861",
+  "error": "GET force_decompile: No function at address: 0x10003861"
+ },
+ {
+  "caller": "FUN_10003750",
+  "entry_rva": "0x3750",
+  "bank_ids": [],
+  "used_by": []
+ },
+ {
+  "caller": "FUN_10012790",
+  "entry_rva": "0x12790",
+  "bank_ids": [],
+  "used_by": []
+ },
+ {
+  "caller": "FUN_100128a0",
+  "entry_rva": "0x128a0",
+  "bank_ids": [],
+  "used_by": []
+ },
+ {
+  "caller": "FUN_10028290",
+  "entry_rva": "0x28290",
+  "bank_ids": [],
+  "used_by": []
+ },
+ {
+  "caller": "FUN_10037fa0",
+  "entry_rva": "0x37fa0",
+  "bank_ids": [
+   50
+  ],
+  "used_by": []
+ },
+ {
+  "caller": "FUN_10038490",
+  "entry_rva": "0x38490",
+  "bank_ids": [
+   51
+  ],
+  "used_by": []
+ },
+ {
+  "caller": "HERO_NessusSpawn",
+  "entry_rva": "0xbb10",
+  "bank_ids": [
+   69
+  ],
+  "used_by": []
+ },
+ {
+  "caller": "HERO_NessusUpdate",
+  "entry_rva": "0xbc50",
+  "bank_ids": [
+   69,
+   70,
+   71,
+   72,
+   73,
+   74,
+   75
+  ],
+  "used_by": []
+ },
+ {
+  "caller": "HERO_PickupTick",
+  "entry_rva": "0x12d80",
+  "bank_ids": [],
+  "used_by": [
+   "FOREST kind 0x2002 tick",
+   "FOREST kind 0x200b tick",
+   "FOREST kind 0x2012 tick",
+   "FOREST kind 0x2013 tick",
+   "FOREST kind 0x2014 tick",
+   "FOREST kind 0x2015 tick",
+   "FOREST kind 0x2016 tick",
+   "FOREST kind 0x2017 tick",
+   "FOREST kind 0x2018 tick",
+   "FOREST kind 0x2019 tick",
+   "FOREST kind 0x201a tick",
+   "FOREST kind 0x201b tick",
+   "FOREST kind 0x201c tick",
+   "FOREST kind 0x201d tick",
+   "THEBES kind 0x2002 tick",
+   "THEBES kind 0x200b tick",
+   "THEBES kind 0x2012 tick",
+   "THEBES kind 0x2013 tick",
+   "THEBES kind 0x2014 tick",
+   "THEBES kind 0x2015 tick",
+   "THEBES kind 0x2016 tick",
+   "THEBES kind 0x2017 tick",
+   "THEBES kind 0x2018 tick",
+   "THEBES kind 0x2019 tick",
+   "THEBES kind 0x201a tick",
+   "THEBES kind 0x201b tick",
+   "THEBES kind 0x201c tick",
+   "THEBES kind 0x201d tick",
+   "TITANS kind 0x200b tick",
+   "TITANS kind 0x2012 tick",
+   "TITANS kind 0x2013 tick",
+   "TITANS kind 0x2015 tick",
+   "TITANS kind 0x2016 tick",
+   "TITANS kind 0x2018 tick",
+   "TITANS kind 0x201b tick",
+   "TITANS kind 0x201c tick",
+   "TITANS kind 0x201d tick",
+   "TRAINING kind 0x2002 tick",
+   "TRAINING kind 0x200b tick",
+   "TRAINING kind 0x2013 tick",
+   "TRAINING kind 0x2014 tick",
+   "TRAINING kind 0x2015 tick",
+   "TRAINING kind 0x2016 tick",
+   "TRAINING kind 0x2017 tick",
+   "TRAINING kind 0x2018 tick",
+   "TRAINING kind 0x2019 tick",
+   "TRAINING kind 0x201a tick",
+   "TRAINING kind 0x201b tick",
+   "TRAINING kind 0x201c tick",
+   "TRAINING kind 0x201d tick"
+  ]
+ },
+ {
+  "caller": "HERO_SetEndSequence",
+  "entry_rva": "0x19160",
+  "bank_ids": [
+   5
+  ],
+  "used_by": []
+ }
+]

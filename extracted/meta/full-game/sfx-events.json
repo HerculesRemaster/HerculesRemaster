@@ -1,0 +1,1733 @@
+{
+ "_doc": "Bind sound plays to the objects that request them (S5.01) -> extracted/meta/full-game/sfx-events.json. See tools/trace/sfx_events.py for the rule.",
+ "levels": {
+  "L02": {
+   "13": {
+    "request_ids": [
+     "0x600d"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0006",
+      "what": "bonus item; subtype = spawn byte +0xc: 0=golden helmet (bank 1 105-118"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD770B4"
+    ],
+    "plays": 12,
+    "refused": 2,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "40": {
+    "request_ids": [
+     "0x6028"
+    ],
+    "kinds": [
+     {
+      "kind": "0x200b",
+      "what": "Pegasus checkpoint (bank 1 230-249) for restart section 1; checkpoint:"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD766C4"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "42": {
+    "request_ids": [
+     "0x2a"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD784F0"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "43": {
+    "request_ids": [
+     "0x2b"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD784F0"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "44": {
+    "request_ids": [
+     "0x602c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD757E3"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "46": {
+    "request_ids": [
+     "0x602e"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7945E"
+    ],
+    "plays": 9,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "55": {
+    "request_ids": [
+     "0x6037"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD76C32",
+     "eng3.dll+0xD790B7"
+    ],
+    "plays": 10,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "56": {
+    "request_ids": [
+     "0x6038"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD784F0"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "57": {
+    "request_ids": [
+     "0x6039"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD76BDA"
+    ],
+    "plays": 62,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "58": {
+    "request_ids": [
+     "0x603a"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD76ACE"
+    ],
+    "plays": 67,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "60": {
+    "request_ids": [
+     "0x603c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD75B34"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "63": {
+    "request_ids": [
+     "0x603f"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7577F",
+     "eng3.dll+0xD75824"
+    ],
+    "plays": 14,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "128": {
+    "request_ids": [
+     "0x6080"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6EDC5"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "129": {
+    "request_ids": [
+     "0x6081"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0040",
+      "what": "swinging punching bag on a rope (ALIEN1 264-272)"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6ECF6"
+    ],
+    "plays": 32,
+    "refused": 2,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "130": {
+    "request_ids": [
+     "0x6082"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0040",
+      "what": "swinging punching bag on a rope (ALIEN1 264-272)"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6ED1C"
+    ],
+    "plays": 33,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "131": {
+    "request_ids": [
+     "0x6083"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0043",
+      "what": "wandering goats (ALIEN1 329-389) that flee when the hero approaches"
+     },
+     {
+      "kind": "0x0047",
+      "what": "idle goats (ALIEN1 354-365)"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD732FA",
+     "eng3.dll+0xD73C40"
+    ],
+    "plays": 14,
+    "refused": 5,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "146": {
+    "request_ids": [
+     "0x2892"
+    ],
+    "kinds": [
+     {
+      "kind": "0x402b",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7063E"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "148": {
+    "request_ids": [
+     "0x6094"
+    ],
+    "kinds": [
+     {
+      "kind": "0x402a",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD71C30"
+    ],
+    "plays": 11,
+    "refused": 2,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "149": {
+    "request_ids": [
+     "0x6095"
+    ],
+    "kinds": [
+     {
+      "kind": "0x402a",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD71C61"
+    ],
+    "plays": 12,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "154": {
+    "request_ids": [
+     "0x289a"
+    ],
+    "kinds": [
+     {
+      "kind": "0x003c",
+      "what": "flaming ring (ALIEN1 273-280) bobbing on a rope (0x41) with a bonus fi"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7226E"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "155": {
+    "request_ids": [
+     "0x289b"
+    ],
+    "kinds": [
+     {
+      "kind": "0x003f",
+      "what": "rotating decoration (model 16, or 20 for byte 1); also used as the whe"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD72EDA"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "156": {
+    "request_ids": [
+     "0x609c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "toppling statue/column (level model 2 + two 0x4029 parts) that falls t"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6D66D"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "157": {
+    "request_ids": [
+     "0x609d"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "toppling statue/column (level model 2 + two 0x4029 parts) that falls t"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6D478"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "158": {
+    "request_ids": [
+     "0xe09e"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "toppling statue/column (level model 2 + two 0x4029 parts) that falls t"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6D4AB"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "161": {
+    "request_ids": [
+     "0x60a1"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0048",
+      "what": "rotating two-arm sweeper (model 24)"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD72CDC"
+    ],
+    "plays": 12,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "162": {
+    "request_ids": [
+     "0x28a2"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0048",
+      "what": "rotating two-arm sweeper (model 24)"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD72CA2"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "165": {
+    "request_ids": [
+     "0x28a5"
+    ],
+    "kinds": [
+     {
+      "kind": "0x402d",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6F802"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "166": {
+    "request_ids": [
+     "0x28a6"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002c",
+      "what": "training dummy with swords (ALIEN1 403-439) sliding across lanes; brea"
+     },
+     {
+      "kind": "0x0044",
+      "what": "training dummy that homes on the hero lane (ALIEN1 403-439); breaks on"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6EF31",
+     "eng3.dll+0xD733D5"
+    ],
+    "plays": 8,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "167": {
+    "request_ids": [
+     "0xe0a7"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002c",
+      "what": "training dummy with swords (ALIEN1 403-439) sliding across lanes; brea"
+     },
+     {
+      "kind": "0x0044",
+      "what": "training dummy that homes on the hero lane (ALIEN1 403-439); breaks on"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6F0FD",
+     "eng3.dll+0xD73585"
+    ],
+    "plays": 5,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "169": {
+    "request_ids": [
+     "0xe0a9"
+    ],
+    "kinds": [
+     {
+      "kind": "0x402b",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7096B"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "824": {
+    "request_ids": [
+     "0x338"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6778E"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   },
+   "825": {
+    "request_ids": [
+     "0x339"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD6770C"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   }
+  },
+  "L07": {
+   "40": {
+    "request_ids": [
+     "0x6028"
+    ],
+    "kinds": [
+     {
+      "kind": "0x200b",
+      "what": "Pegasus checkpoint, same handler as L02 0x200b"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD866C4"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "42": {
+    "request_ids": [
+     "0x2a"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD884F0"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "43": {
+    "request_ids": [
+     "0x2b"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD884F0"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "46": {
+    "request_ids": [
+     "0x602e"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8945E"
+    ],
+    "plays": 8,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "55": {
+    "request_ids": [
+     "0x6037"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD86C32",
+     "eng3.dll+0xD890B7"
+    ],
+    "plays": 8,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "56": {
+    "request_ids": [
+     "0x6038"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD884F0"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "57": {
+    "request_ids": [
+     "0x6039"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD86BEE"
+    ],
+    "plays": 52,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "58": {
+    "request_ids": [
+     "0x603a"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD86AE3"
+    ],
+    "plays": 55,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "63": {
+    "request_ids": [
+     "0x603f"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD85824"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "512": {
+    "request_ids": [
+     "0x200"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "513": {
+    "request_ids": [
+     "0x201"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "514": {
+    "request_ids": [
+     "0x202"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "515": {
+    "request_ids": [
+     "0x203"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "516": {
+    "request_ids": [
+     "0x6204"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4029",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD72125",
+     "eng3.dll+0xD72BFE",
+     "eng3.dll+0xD76854"
+    ],
+    "plays": 11,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "517": {
+    "request_ids": [
+     "0xe205"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4029",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD721CC",
+     "eng3.dll+0xD72CFF",
+     "eng3.dll+0xD76A62"
+    ],
+    "plays": 11,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "518": {
+    "request_ids": [
+     "0xe206"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002a",
+      "what": "falling boulder / rubble (random model 2,1,11,33,36 from 0x34fe0) that"
+     },
+     {
+      "kind": "0x0030",
+      "what": "rock thrown by the Cyclops (model 0x21 = 33, one of the 0x2a rubble mo"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD734F9",
+     "eng3.dll+0xD747DC"
+    ],
+    "plays": 12,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "519": {
+    "request_ids": [
+     "0xe207"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002a",
+      "what": "falling boulder / rubble (random model 2,1,11,33,36 from 0x34fe0) that"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD747EA"
+    ],
+    "plays": 11,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "520": {
+    "request_ids": [
+     "0x208"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "521": {
+    "request_ids": [
+     "0x209"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "522": {
+    "request_ids": [
+     "0x20a"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "523": {
+    "request_ids": [
+     "0x20b"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "524": {
+    "request_ids": [
+     "0x20c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 8,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "525": {
+    "request_ids": [
+     "0x20d"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "526": {
+    "request_ids": [
+     "0x20e"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0029",
+      "what": "the Cyclops: a background giant kept 1664 units ahead of the hero and "
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD8DE5C"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "529": {
+    "request_ids": [
+     "0x211"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD76F95"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "530": {
+    "request_ids": [
+     "0x212"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD76FBC"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "533": {
+    "request_ids": [
+     "0xe215"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4033",
+      "what": "crowd source: spawns fleeing citizens (0x4033) ahead of the hero"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7597B"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "539": {
+    "request_ids": [
+     "0xe21b"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4033",
+      "what": "crowd source: spawns fleeing citizens (0x4033) ahead of the hero"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7594D",
+     "eng3.dll+0xD75992"
+    ],
+    "plays": 14,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "540": {
+    "request_ids": [
+     "0xe21c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4033",
+      "what": "crowd source: spawns fleeing citizens (0x4033) ahead of the hero"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD75964"
+    ],
+    "plays": 7,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "541": {
+    "request_ids": [
+     "0xe21d"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4033",
+      "what": "crowd source: spawns fleeing citizens (0x4033) ahead of the hero"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD75908"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "542": {
+    "request_ids": [
+     "0xe21e"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4033",
+      "what": "crowd source: spawns fleeing citizens (0x4033) ahead of the hero"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7591F",
+     "eng3.dll+0xD75936"
+    ],
+    "plays": 13,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "556": {
+    "request_ids": [
+     "0x22c"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD76FE3"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "557": {
+    "request_ids": [
+     "0x22d"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7700A"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "824": {
+    "request_ids": [
+     "0x338"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7778E"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   },
+   "825": {
+    "request_ids": [
+     "0x339"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xD7770C"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   }
+  },
+  "L09": {
+   "13": {
+    "request_ids": [
+     "0x600d"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0006",
+      "what": "bonus item, same handler as L02 0x0006"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDB70B4"
+    ],
+    "plays": 7,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "40": {
+    "request_ids": [
+     "0x6028"
+    ],
+    "kinds": [
+     {
+      "kind": "0x200b",
+      "what": "Pegasus checkpoint, same handler as L02 0x200b"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDB66C4"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "46": {
+    "request_ids": [
+     "0x602e"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDB945E"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "55": {
+    "request_ids": [
+     "0x6037"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDB6C32",
+     "eng3.dll+0xDB90B7"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "56": {
+    "request_ids": [
+     "0x6038"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDB84F0"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "57": {
+    "request_ids": [
+     "0x6039"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDB6BEE"
+    ],
+    "plays": 22,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "58": {
+    "request_ids": [
+     "0x603a"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDB6AE3"
+    ],
+    "plays": 23,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "60": {
+    "request_ids": [
+     "0x603c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDB5B34"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "646": {
+    "request_ids": [
+     "0xe286"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0040",
+      "what": "bone pile (frame 6) that shatters when touched"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC8BCC"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "655": {
+    "request_ids": [
+     "0xe28f"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002f",
+      "what": "lost soul rising and dissolving (SOULS 13-20, then 1-12)"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC665D"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "668": {
+    "request_ids": [
+     "0x629c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x003b",
+      "what": ""
+     },
+     {
+      "kind": "0x0041",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC8403",
+     "eng3.dll+0xDC9097"
+    ],
+    "plays": 11,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "669": {
+    "request_ids": [
+     "0x629d"
+    ],
+    "kinds": [
+     {
+      "kind": "0x003b",
+      "what": ""
+     },
+     {
+      "kind": "0x0041",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC841A",
+     "eng3.dll+0xDC90AE"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "670": {
+    "request_ids": [
+     "0x629e"
+    ],
+    "kinds": [
+     {
+      "kind": "0x003b",
+      "what": ""
+     },
+     {
+      "kind": "0x0041",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC8431",
+     "eng3.dll+0xDC90C5"
+    ],
+    "plays": 12,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "671": {
+    "request_ids": [
+     "0x629f"
+    ],
+    "kinds": [
+     {
+      "kind": "0x003b",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC8448"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "672": {
+    "request_ids": [
+     "0x62a0"
+    ],
+    "kinds": [
+     {
+      "kind": "0x003b",
+      "what": ""
+     },
+     {
+      "kind": "0x0041",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC845F",
+     "eng3.dll+0xDC90F3"
+    ],
+    "plays": 9,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "674": {
+    "request_ids": [
+     "0x2a2"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0047",
+      "what": "start gate (model 10) rising out of the way"
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC9EF3"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "676": {
+    "request_ids": [
+     "0xe2a4"
+    ],
+    "kinds": [
+     {
+      "kind": "0x402b",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC9C4A"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "677": {
+    "request_ids": [
+     "0xe2a5"
+    ],
+    "kinds": [
+     {
+      "kind": "0x402b",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC9C60"
+    ],
+    "plays": 8,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "678": {
+    "request_ids": [
+     "0xe2a6"
+    ],
+    "kinds": [
+     {
+      "kind": "0x402b",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC9C76"
+    ],
+    "plays": 7,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "679": {
+    "request_ids": [
+     "0x2a7"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDC9ACB"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   },
+   "825": {
+    "request_ids": [
+     "0x339"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng3.dll+0xDA770C"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,311 @@
+{
+ "_doc": "Per-level art inventory (full-game S7.01) -> extracted/meta/full-game/art-inventory/<DIR>.json. See tools/hires/inventory.py.",
+ "name": "_shared_screen",
+ "keys": 12,
+ "by_family": {
+  "screen": 12
+ },
+ "seen_at_runtime": 12,
+ "items": [
+  {
+   "key": "28f655b4d0456c67",
+   "w": 192,
+   "h": 256,
+   "file": "28f655b4d0456c67_192x256.png",
+   "module": "TITLE",
+   "first_frame": 4,
+   "screen_xy": [
+    128,
+    0
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0584_7A7D26D6",
+     "rect": [
+      128,
+      0,
+      192,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "74bd7147e3514eaf",
+   "w": 128,
+   "h": 256,
+   "file": "74bd7147e3514eaf_128x256.png",
+   "module": "TITLE",
+   "first_frame": 4,
+   "screen_xy": [
+    0,
+    0
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0584_7A7D26D6",
+     "rect": [
+      0,
+      0,
+      128,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "80fe9ceb88a39972",
+   "w": 192,
+   "h": 256,
+   "file": "80fe9ceb88a39972_192x256.png",
+   "module": "TITLE",
+   "first_frame": 56,
+   "screen_xy": [
+    -219,
+    -89
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0545_54533787",
+     "rect": [
+      128,
+      0,
+      192,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "c4595313a6ccacb0",
+   "w": 128,
+   "h": 256,
+   "file": "c4595313a6ccacb0_128x256.png",
+   "module": "TITLE",
+   "first_frame": 56,
+   "screen_xy": [
+    -347,
+    -89
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0545_54533787",
+     "rect": [
+      0,
+      0,
+      128,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "af64da9627c6b912",
+   "w": 64,
+   "h": 256,
+   "file": "af64da9627c6b912_64x256.png",
+   "module": "TITLE",
+   "first_frame": 115,
+   "screen_xy": [
+    86,
+    -78
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0545_54533787",
+     "rect": [
+      256,
+      0,
+      64,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ee4ae7ab3b40685b",
+   "w": 256,
+   "h": 256,
+   "file": "ee4ae7ab3b40685b_256x256.png",
+   "module": "TITLE",
+   "first_frame": 115,
+   "screen_xy": [
+    -170,
+    -78
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0545_54533787",
+     "rect": [
+      0,
+      0,
+      256,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "34b9d46ad0c81b5a",
+   "w": 128,
+   "h": 256,
+   "file": "34b9d46ad0c81b5a_128x256.png",
+   "module": "TITLE",
+   "first_frame": 175,
+   "screen_xy": [
+    -15,
+    -109
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0537_52533787",
+     "rect": [
+      0,
+      0,
+      128,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "fab88d597ab8b972",
+   "w": 192,
+   "h": 256,
+   "file": "fab88d597ab8b972_192x256.png",
+   "module": "TITLE",
+   "first_frame": 175,
+   "screen_xy": [
+    113,
+    -109
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0537_52533787",
+     "rect": [
+      128,
+      0,
+      192,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "1000c9f60ae67170",
+   "w": 64,
+   "h": 256,
+   "file": "1000c9f60ae67170_64x256.png",
+   "module": "TITLE",
+   "first_frame": 233,
+   "screen_xy": [
+    256,
+    0
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0536_52523787",
+     "rect": [
+      256,
+      0,
+      64,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "c8ab2e439a6a19ad",
+   "w": 256,
+   "h": 256,
+   "file": "c8ab2e439a6a19ad_256x256.png",
+   "module": "TITLE",
+   "first_frame": 233,
+   "screen_xy": [
+    0,
+    0
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0536_52523787",
+     "rect": [
+      0,
+      0,
+      256,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "2030ba9b36063405",
+   "w": 192,
+   "h": 256,
+   "file": "2030ba9b36063405_192x256.png",
+   "module": "TITLE",
+   "first_frame": 293,
+   "screen_xy": [
+    128,
+    0
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0528_50523787",
+     "rect": [
+      128,
+      0,
+      192,
+      256
+     ]
+    }
+   ]
+  },
+  {
+   "key": "8b1d7423688a3f07",
+   "w": 128,
+   "h": 256,
+   "file": "8b1d7423688a3f07_128x256.png",
+   "module": "TITLE",
+   "first_frame": 293,
+   "screen_xy": [
+    0,
+    0
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "screen",
+     "id": "screen/0528_50523787",
+     "rect": [
+      0,
+      0,
+      128,
+      256
+     ]
+    }
+   ]
+  }
+ ]
+}

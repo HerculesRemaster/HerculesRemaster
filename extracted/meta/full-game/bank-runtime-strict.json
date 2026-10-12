@@ -1,0 +1,182 @@
+{
+ "485": {
+  "bank": "P:\\SRC1\\ALIEN2\\STYBIRD",
+  "shown_matched": 0,
+  "shown_unmatched": 1,
+  "unmatched_frames": [
+   30
+  ]
+ },
+ "487": {
+  "bank": "P:\\SRC1\\ALIEN1\\GENERIC1",
+  "shown_matched": 55,
+  "shown_unmatched": 19,
+  "unmatched_frames": [
+   5,
+   6,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   110,
+   111,
+   112,
+   117,
+   118
+  ]
+ },
+ "492": {
+  "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+  "shown_matched": 87,
+  "shown_unmatched": 0,
+  "unmatched_frames": []
+ },
+ "552": {
+  "bank": "P:\\SRC1\\HERO\\XTRA_DB1",
+  "shown_matched": 233,
+  "shown_unmatched": 70,
+  "unmatched_frames": [
+   77,
+   78,
+   79,
+   80,
+   81,
+   82,
+   83,
+   84,
+   85,
+   86,
+   87,
+   88,
+   89,
+   90,
+   91,
+   92,
+   130,
+   131,
+   132,
+   133
+  ]
+ },
+ "560": {
+  "bank": "P:\\SRC1\\HERO\\HERCULES",
+  "shown_matched": 154,
+  "shown_unmatched": 0,
+  "unmatched_frames": []
+ },
+ "566": {
+  "bank": "P:\\SRC1\\BOSS\\SKELWAR",
+  "shown_matched": 68,
+  "shown_unmatched": 13,
+  "unmatched_frames": [
+   1,
+   12,
+   13,
+   14,
+   17,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60
+  ]
+ },
+ "765": {
+  "bank": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE",
+  "shown_matched": 76,
+  "shown_unmatched": 0,
+  "unmatched_frames": []
+ },
+ "774": {
+  "bank": "P:\\SRC1\\ALIEN2\\Harp",
+  "shown_matched": 8,
+  "shown_unmatched": 0,
+  "unmatched_frames": []
+ },
+ "777": {
+  "bank": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERH",
+  "shown_matched": 0,
+  "shown_unmatched": 22,
+  "unmatched_frames": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21
+  ]
+ },
+ "800": {
+  "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFAT",
+  "shown_matched": 12,
+  "shown_unmatched": 8,
+  "unmatched_frames": [
+   4,
+   5,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ]
+ },
+ "803": {
+  "bank": "P:\\SRC1\\BOSS\\HADES",
+  "shown_matched": 314,
+  "shown_unmatched": 8,
+  "unmatched_frames": [
+   448,
+   449,
+   450,
+   451,
+   452,
+   453,
+   454,
+   455
+  ]
+ },
+ "804": {
+  "bank": "P:\\SRC1\\BOSS\\HYDRA",
+  "shown_matched": 45,
+  "shown_unmatched": 0,
+  "unmatched_frames": []
+ },
+ "816": {
+  "bank": "P:\\SRC1\\BOSS\\MEDUSA",
+  "shown_matched": 97,
+  "shown_unmatched": 0,
+  "unmatched_frames": []
+ },
+ "820": {
+  "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THOLD",
+  "shown_matched": 20,
+  "shown_unmatched": 0,
+  "unmatched_frames": []
+ }
+}

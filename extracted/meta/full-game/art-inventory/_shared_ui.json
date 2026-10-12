@@ -1,0 +1,361 @@
+{
+ "_doc": "Per-level art inventory (full-game S7.01) -> extracted/meta/full-game/art-inventory/<DIR>.json. See tools/hires/inventory.py.",
+ "name": "_shared_ui",
+ "keys": 14,
+ "by_family": {
+  "ui": 14
+ },
+ "seen_at_runtime": 14,
+ "items": [
+  {
+   "key": "06776fe8f5270092",
+   "w": 24,
+   "h": 24,
+   "file": "06776fe8f5270092_24x24.png",
+   "module": "ENG1",
+   "first_frame": 1560,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      72,
+      104,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "9ae506ba60fdead0",
+   "w": 24,
+   "h": 24,
+   "file": "9ae506ba60fdead0_24x24.png",
+   "module": "ENG1",
+   "first_frame": 1560,
+   "screen_xy": [
+    259,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      192,
+      248,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "0b7e76f0947e9277",
+   "w": 24,
+   "h": 24,
+   "file": "0b7e76f0947e9277_24x24.png",
+   "module": "ENG1",
+   "first_frame": 1660,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      96,
+      104,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "543ed6544905edce",
+   "w": 24,
+   "h": 24,
+   "file": "543ed6544905edce_24x24.png",
+   "module": "ENG1",
+   "first_frame": 1662,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      120,
+      104,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "bd57aaff00ef04ad",
+   "w": 24,
+   "h": 24,
+   "file": "bd57aaff00ef04ad_24x24.png",
+   "module": "ENG1",
+   "first_frame": 1664,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      144,
+      104,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "fd09b74946683e67",
+   "w": 24,
+   "h": 24,
+   "file": "fd09b74946683e67_24x24.png",
+   "module": "ENG1",
+   "first_frame": 1666,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      168,
+      104,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "c275d3aa479b9362",
+   "w": 24,
+   "h": 24,
+   "file": "c275d3aa479b9362_24x24.png",
+   "module": "ENG1",
+   "first_frame": 1668,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      192,
+      104,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "f7a1f681203503e6",
+   "w": 24,
+   "h": 24,
+   "file": "f7a1f681203503e6_24x24.png",
+   "module": "ENG1",
+   "first_frame": 1670,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      216,
+      104,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "b464d01376a9c20c",
+   "w": 24,
+   "h": 24,
+   "file": "b464d01376a9c20c_24x24.png",
+   "module": "ENG1",
+   "first_frame": 1672,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      48,
+      80,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "366fcd3504a3cb12",
+   "w": 24,
+   "h": 24,
+   "file": "366fcd3504a3cb12_24x24.png",
+   "module": "ENG1",
+   "first_frame": 2263,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      72,
+      272,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "8aa1850c8f9e0859",
+   "w": 24,
+   "h": 24,
+   "file": "8aa1850c8f9e0859_24x24.png",
+   "module": "ENG1",
+   "first_frame": 2265,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      72,
+      296,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "51b3f05a62a73e26",
+   "w": 24,
+   "h": 24,
+   "file": "51b3f05a62a73e26_24x24.png",
+   "module": "ENG1",
+   "first_frame": 2267,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      72,
+      320,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "2cb3a6140d20e712",
+   "w": 24,
+   "h": 24,
+   "file": "2cb3a6140d20e712_24x24.png",
+   "module": "ENG1",
+   "first_frame": 2269,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      72,
+      344,
+      24,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "key": "adda6eaa36328f1a",
+   "w": 24,
+   "h": 24,
+   "file": "adda6eaa36328f1a_24x24.png",
+   "module": "ENG1",
+   "first_frame": 2271,
+   "screen_xy": [
+    43,
+    23
+   ],
+   "seen": true,
+   "sources": [
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      72,
+      368,
+      24,
+      24
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "_doc": "Static digest of a level's actor handlers (L*.RE enemy tasks) -> extracted/meta/full-game/<SLUG>-enemies.json.",
+ "level": {
+  "id": 7,
+  "dir": "MEDUSA",
+  "config_record": "0x68c58"
+ },
+ "kinds": [
+  {
+   "kind": "0x002d",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\MEDUSA",
+   "handlers": {
+    "spawn": "HERO_MedusaSpawn5",
+    "update": "HERO_MedusaUpdate3"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    1,
+    5,
+    7,
+    8
+   ],
+   "sounds": [
+    "0x59ca",
+    "0x59cb"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002e",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\MEDUSA",
+   "handlers": {
+    "spawn": "HERO_MedusaSpawn",
+    "update": "HERO_MedusaUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002f",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10022150",
+    "update": "FUN_10022180"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0030",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10023110",
+    "update": "FUN_10023120"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "sounds": [],
+   "spawns": [
+    "0x202a",
+    "0x202b"
+   ]
+  },
+  {
+   "kind": "0x0031",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\MEDUSA",
+   "handlers": {
+    "spawn": "HERO_MedusaSpawn2",
+    "update": "HERO_MedusaDefeatTick"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "sounds": [
+    "0x1c1",
+    "0x1ea"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0032",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\SKELWAR",
+   "handlers": {
+    "spawn": "HERO_SkelwarSpawn",
+    "update": "HERO_SkelwarUpdate"
+   },
+   "hits": [
+    {
+     "strength": 1,
+     "index": 0,
+     "damage_beginner_medium_herculean": [
+      5,
+      12,
+      15
+     ]
+    }
+   ],
+   "hp_constants": [
+    4
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "sounds": [
+    "0x51d5",
+    "0x51d9",
+    "0xd1dd",
+    "0xd1de",
+    "0xd1df"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0033",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\MEDUSA",
+   "handlers": {
+    "spawn": "HERO_MedusaSpawn6",
+    "update": "HERO_MedusaUpdate4"
+   },
+   "hits": [
+    {
+     "strength": 2,
+     "index": 1,
+     "damage_beginner_medium_herculean": [
+      8,
+      18,
+      22
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": [
+    "0x202c"
+   ]
+  },
+  {
+   "kind": "0x0034",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\MEDUSA",
+   "handlers": {
+    "spawn": "HERO_MedusaSpawn4",
+    "update": "HERO_MedusaUpdate2"
+   },
+   "hits": [
+    {
+     "strength": 0,
+     "index": 7,
+     "damage_beginner_medium_herculean": [
+      22,
+      50,
+      60
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "sounds": [],
+   "spawns": [
+    "0x202a",
+    "0x202b"
+   ]
+  },
+  {
+   "kind": "0x0035",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\MEDUSA",
+   "handlers": {
+    "spawn": "HERO_MedusaDebrisSpawn",
+    "update": "HERO_MedusaDebrisUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  }
+ ]
+}

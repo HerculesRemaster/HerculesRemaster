@@ -1,0 +1,1209 @@
+{
+ "_doc": "Static digest of a level's actor handlers (L*.RE enemy tasks) -> extracted/meta/full-game/<SLUG>-enemies.json.",
+ "level": {
+  "id": 9,
+  "dir": "TITANS",
+  "config_record": "0x68ca0"
+ },
+ "kinds": [
+  {
+   "kind": "0x0028",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\RockT",
+   "handlers": {
+    "spawn": "HERO_RocktSpawn",
+    "update": "HERO_RocktUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    13,
+    14,
+    26,
+    46,
+    55,
+    57
+   ],
+   "sounds": [],
+   "spawns": [
+    "0x39"
+   ]
+  },
+  {
+   "kind": "0x0029",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\IceT",
+   "handlers": {
+    "spawn": "HERO_IcetSpawn",
+    "update": "HERO_IcetUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    46,
+    47,
+    48,
+    55,
+    57
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002a",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\LavaT",
+   "handlers": {
+    "spawn": "HERO_LavatSpawn",
+    "update": "HERO_LavatUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    26,
+    46,
+    49,
+    55,
+    57
+   ],
+   "sounds": [
+    "0x246",
+    "0x6a4c",
+    "0x6a4d"
+   ],
+   "spawns": [
+    "0x31",
+    "0x33"
+   ]
+  },
+  {
+   "kind": "0x002b",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\TornadoT",
+   "handlers": {
+    "spawn": "HERO_TornadotSpawn",
+    "update": "HERO_TornadotUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    43,
+    44,
+    46,
+    50,
+    51,
+    52,
+    55,
+    57
+   ],
+   "sounds": [
+    "0x256"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002c",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\Aphrod",
+   "handlers": {
+    "spawn": "HERO_GodSpawn",
+    "update": "HERO_GodUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x627b"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002d",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\Apollo",
+   "handlers": {
+    "spawn": "HERO_GodSpawn",
+    "update": "HERO_GodUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x627b"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002e",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\Ares",
+   "handlers": {
+    "spawn": "HERO_GodSpawn",
+    "update": "HERO_GodUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x627b"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002f",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\Athena",
+   "handlers": {
+    "spawn": "HERO_GodSpawn",
+    "update": "HERO_GodUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x627b"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0030",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\Bacchus",
+   "handlers": {
+    "spawn": "HERO_GodSpawn",
+    "update": "HERO_GodUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x627b"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0035",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn3",
+    "update": "HERO_PegasusUpdate3"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x6a4e"
+   ],
+   "spawns": [
+    "0x34"
+   ]
+  },
+  {
+   "kind": "0x0037",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "FUN_1000c720",
+    "update": "HERO_PegasusUpdate4"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003b",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN2\\LavaT",
+   "handlers": {
+    "spawn": "HERO_LavatSpawn7",
+    "update": "FUN_1000c720"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003e",
+   "count": 4,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn5",
+    "update": "HERO_PegasusUpdate6"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": [
+    "0x3f",
+    "0x40"
+   ]
+  },
+  {
+   "kind": "0x0042",
+   "count": 5,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn7",
+    "update": "HERO_PegasusUpdate8"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0043",
+   "count": 5,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn8",
+    "update": "HERO_PegasusUpdate9"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0044",
+   "count": 3,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1000c720",
+    "update": "FUN_1003a980"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0045",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\Zeus",
+   "handlers": {
+    "spawn": "HERO_GodSpawn",
+    "update": "HERO_ZeusUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x627b"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0046",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn10",
+    "update": "HERO_PegasusUpdate11"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0048",
+   "count": 4,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn12",
+    "update": "HERO_PegasusUpdate11"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x004b",
+   "count": 3,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn15",
+    "update": "HERO_PegasusUpdate11"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0051",
+   "count": 6,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn2",
+    "update": "HERO_PegasusUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x005d",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN2\\Spy",
+   "handlers": {
+    "spawn": "HERO_SpySpawn",
+    "update": "HERO_SpyUpdate"
+   },
+   "hits": [],
+   "hp_constants": [
+    4
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    2,
+    21,
+    34,
+    35,
+    36,
+    55,
+    64,
+    80,
+    81
+   ],
+   "sounds": [
+    "0x25f"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0061",
+   "count": 11,
+   "bank": "P:\\SRC1\\ALIEN2\\Harp",
+   "handlers": {
+    "spawn": "HERO_HarpSpawn8",
+    "update": "HERO_HarpUpdate3"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "sounds": [],
+   "spawns": [
+    "0x62",
+    "0x63",
+    "0x64",
+    "0x65",
+    "0x66",
+    "0x67"
+   ]
+  },
+  {
+   "kind": "0x0031",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\LavaT",
+   "handlers": {
+    "spawn": "HERO_LavatSpawn2",
+    "update": "HERO_LavatUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0032",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\LavaT",
+   "handlers": {
+    "spawn": "HERO_LavatSpawn3",
+    "update": "HERO_LavatUpdate3"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x6a49",
+    "0x6a4a",
+    "0x6a4b"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0033",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\LavaT",
+   "handlers": {
+    "spawn": "HERO_LavatSpawn4",
+    "update": "HERO_LavatUpdate4"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0034",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\LavaT",
+   "handlers": {
+    "spawn": "HERO_LavatSpawn5",
+    "update": "HERO_LavatUpdate5"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0036",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn9",
+    "update": "HERO_PegasusUpdate10"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0038",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn4",
+    "update": "HERO_PegasusUpdate5"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0039",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\RtRock",
+   "handlers": {
+    "spawn": "HERO_RtrockSpawn",
+    "update": "HERO_RtrockUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003a",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\RtRock",
+   "handlers": {
+    "spawn": "HERO_RtrockSpawn2",
+    "update": "HERO_RtrockUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003c",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\LavaT",
+   "handlers": {
+    "spawn": "HERO_LavatSpawn8",
+    "update": "FUN_1000c720"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003d",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\LavaT",
+   "handlers": {
+    "spawn": "HERO_LavatSpawn6",
+    "update": "HERO_LavatUpdate6"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003f",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003a530",
+    "update": "FUN_1003a550"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0040",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn6",
+    "update": "HERO_PegasusUpdate7"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0041",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003a7a0",
+    "update": "FUN_1003a810"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0047",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn11",
+    "update": "HERO_PegasusUpdate11"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0049",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn13",
+    "update": "HERO_PegasusUpdate11"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x004a",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn14",
+    "update": "HERO_PegasusUpdate11"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0050",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "handlers": {
+    "spawn": "HERO_PegasusSpawn",
+    "update": "HERO_PegasusUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0052",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10038950",
+    "update": "FUN_100389c0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x6a43"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0053",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10038950",
+    "update": "FUN_100389c0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x6a43"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0054",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\RtRock",
+   "handlers": {
+    "spawn": "HERO_RtrockSpawn3",
+    "update": "HERO_RtrockUpdate3"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0055",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10038d10",
+    "update": "FUN_10038d70"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0056",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\LavaT",
+   "handlers": {
+    "spawn": "HERO_LavatSpawn9",
+    "update": "HERO_LavatUpdate7"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0057",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003aa10",
+    "update": "FUN_1003aa70"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0058",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\RtRock",
+   "handlers": {
+    "spawn": "HERO_RtrockSpawn3",
+    "update": "HERO_RtrockUpdate4"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0059",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10038de0",
+    "update": "FUN_10038e30"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x005a",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\LavaT",
+   "handlers": {
+    "spawn": "HERO_LavatSpawn10",
+    "update": "HERO_LavatUpdate8"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x005b",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003aaf0",
+    "update": "FUN_1003ab50"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x005c",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Harp",
+   "handlers": {
+    "spawn": "HERO_HarpSpawn",
+    "update": "HERO_HarpUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    9,
+    16,
+    35,
+    64,
+    79
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x005e",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Pig",
+   "handlers": {
+    "spawn": "FUN_1003c050",
+    "update": "FUN_1003c070"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x005f",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Grif",
+   "handlers": {
+    "spawn": "FUN_1003c050",
+    "update": "FUN_1003c070"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0060",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Merv",
+   "handlers": {
+    "spawn": "FUN_1003c050",
+    "update": "FUN_1003c070"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0062",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Harp",
+   "handlers": {
+    "spawn": "HERO_HarpSpawn5",
+    "update": "HERO_HarpUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0063",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Harp",
+   "handlers": {
+    "spawn": "HERO_HarpSpawn2",
+    "update": "HERO_HarpUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0064",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Harp",
+   "handlers": {
+    "spawn": "HERO_HarpSpawn3",
+    "update": "HERO_HarpUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0065",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Harp",
+   "handlers": {
+    "spawn": "HERO_HarpSpawn4",
+    "update": "HERO_HarpUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0066",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Harp",
+   "handlers": {
+    "spawn": "HERO_HarpSpawn6",
+    "update": "HERO_HarpUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0067",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Harp",
+   "handlers": {
+    "spawn": "HERO_HarpSpawn7",
+    "update": "HERO_HarpUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0068",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10038740",
+    "update": "FUN_100387f0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  }
+ ]
+}

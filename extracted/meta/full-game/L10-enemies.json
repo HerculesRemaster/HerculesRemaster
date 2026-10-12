@@ -1,0 +1,85 @@
+{
+ "_doc": "Static digest of a level's actor handlers (L*.RE enemy tasks) -> extracted/meta/full-game/<SLUG>-enemies.json.",
+ "level": {
+  "id": 11,
+  "dir": "VORTEX",
+  "config_record": "0x68ce8"
+ },
+ "kinds": [
+  {
+   "kind": "0x0028",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\HADES",
+   "handlers": {
+    "spawn": "HERO_HadesSpawn",
+    "update": "HERO_HadesUpdate"
+   },
+   "hits": [],
+   "hp_constants": [
+    1,
+    200
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    2,
+    3,
+    4294967292,
+    4294967293,
+    4294967294,
+    4294967295
+   ],
+   "sounds": [],
+   "spawns": [
+    "0x29",
+    "0x2a"
+   ]
+  },
+  {
+   "kind": "0x0029",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\HADES",
+   "handlers": {
+    "spawn": "HERO_HadesEffectSpawn",
+    "update": "HERO_HadesEffectUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": [
+    "0x2a"
+   ]
+  },
+  {
+   "kind": "0x002a",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\HADES",
+   "handlers": {
+    "spawn": "HERO_HadesSpawn2",
+    "update": "HERO_HadesUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0xc2ca"
+   ],
+   "spawns": [
+    "0x2c"
+   ]
+  }
+ ]
+}

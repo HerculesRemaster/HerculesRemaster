@@ -1,0 +1,2725 @@
+{
+ "_doc": "Runtime asset use per level and per scenario (P4.ALL.07-08, L*.AS.06/AS.07). See tools/meta/scene_assets.py for the rules.",
+ "scenarios": [
+  {
+   "scenario_id": "L01.title-demo-baseline",
+   "level": 1,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "observed",
+    "enemy_animation": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "loading_tally": "pending",
+    "map_layers_tiles": "observed",
+    "music_transport": "pending",
+    "palette_clut": "observed",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x0031",
+    "0x0038",
+    "0x2027",
+    "0x4029",
+    "0x402a",
+    "0x402b",
+    "0x402c",
+    "0x402d",
+    "0x402e",
+    "0x402f",
+    "0x4030"
+   ],
+   "missing": [
+    "loading_tally",
+    "music_transport"
+   ]
+  },
+  {
+   "scenario_id": "L01.traversal",
+   "level": 1,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "observed",
+    "depth_routes": "pending",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "pending",
+    "palette_clut": "observed",
+    "props_pickups": "needs_classification",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x002f",
+    "0x0030",
+    "0x0031",
+    "0x0034",
+    "0x2022",
+    "0x2029",
+    "0x202b",
+    "0x4032"
+   ],
+   "missing": [
+    "depth_routes",
+    "music_transport",
+    "props_pickups"
+   ]
+  },
+  {
+   "scenario_id": "L02.full-progression",
+   "level": 2,
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "observed",
+    "collision_camera": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "loading_tally": "pending",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x002c",
+    "0x0038",
+    "0x003a",
+    "0x003c",
+    "0x0040",
+    "0x0041",
+    "0x0043",
+    "0x0044",
+    "0x0045",
+    "0x0047",
+    "0x004a",
+    "0x2016",
+    "0x2017",
+    "0x4001"
+   ],
+   "missing": [
+    "loading_tally",
+    "script_triggers"
+   ]
+  },
+  {
+   "scenario_id": "L02.hazards",
+   "level": 2,
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "observed",
+    "collision_camera": "observed",
+    "fx_projectiles": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x002c",
+    "0x0038",
+    "0x003a",
+    "0x003c",
+    "0x0040",
+    "0x0041",
+    "0x0043",
+    "0x0044",
+    "0x0045",
+    "0x0047",
+    "0x004a",
+    "0x2016",
+    "0x2017",
+    "0x4001"
+   ],
+   "missing": []
+  },
+  {
+   "scenario_id": "L03.forest-main-route",
+   "level": 3,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "observed",
+    "depth_routes": "pending",
+    "enemy_animation": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x0025",
+    "0x0027",
+    "0x002b",
+    "0x002e",
+    "0x0031",
+    "0x0048",
+    "0x0049",
+    "0x004d",
+    "0x0051",
+    "0x0052",
+    "0x0056",
+    "0x2023",
+    "0x2024",
+    "0x2027",
+    "0x4027",
+    "0x4028",
+    "0x4029",
+    "0x402a",
+    "0x402b",
+    "0x402c",
+    "0x402d",
+    "0x402e",
+    "0x402f",
+    "0x403b",
+    "0x403c",
+    "0x403d",
+    "0x403e",
+    "0x403f",
+    "0x4040"
+   ],
+   "missing": [
+    "depth_routes"
+   ]
+  },
+  {
+   "scenario_id": "L03.nessus-approach",
+   "level": 3,
+   "runs": [],
+   "debug_only_runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "categories": {
+    "boss_animation": "observed",
+    "collision_camera": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "npc_animation": "observed",
+    "palette_clut": "observed",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x002f",
+    "0x0031",
+    "0x0055",
+    "0x2024",
+    "0x2027"
+   ],
+   "missing": [
+    "script_triggers"
+   ]
+  },
+  {
+   "scenario_id": "L04.streets",
+   "level": 5,
+   "runs": [
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "observed",
+    "depth_routes": "pending",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "props_pickups": "needs_classification",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x0025",
+    "0x0033",
+    "0x0044"
+   ],
+   "missing": [
+    "depth_routes",
+    "props_pickups"
+   ]
+  },
+  {
+   "scenario_id": "L05.canyon-entry",
+   "level": 6,
+   "runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+   ],
+   "debug_only_runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium"
+   ],
+   "categories": {
+    "boss_animation": "observed",
+    "collision_camera": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "npc_animation": "needs_classification",
+    "palette_clut": "observed",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x0034",
+    "0x0035",
+    "0x202d",
+    "0x2030",
+    "0x2032"
+   ],
+   "missing": [
+    "npc_animation"
+   ]
+  },
+  {
+   "scenario_id": "L06.lair-traversal",
+   "level": 7,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "observed",
+    "depth_routes": "pending",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "props_pickups": "needs_classification",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x002e",
+    "0x0032",
+    "0x0033",
+    "0x2029",
+    "0x202a",
+    "0x202b",
+    "0x202c",
+    "0x202f",
+    "0x2033",
+    "0xa02e"
+   ],
+   "missing": [
+    "depth_routes",
+    "props_pickups"
+   ]
+  },
+  {
+   "scenario_id": "L07.death-retry",
+   "level": 8,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "needs_classification",
+    "checkpoint_state": "pending",
+    "collision_camera": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x0029",
+    "0x003c",
+    "0x0042",
+    "0x0047",
+    "0x2016",
+    "0x4002",
+    "0x4003",
+    "0x4033"
+   ],
+   "missing": [
+    "chase_hazards",
+    "checkpoint_state"
+   ]
+  },
+  {
+   "scenario_id": "L07.full-progression",
+   "level": 8,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "loading_tally": "pending",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x0029",
+    "0x003c",
+    "0x0042",
+    "0x0047",
+    "0x2016",
+    "0x4002",
+    "0x4003",
+    "0x4033"
+   ],
+   "missing": [
+    "checkpoint_state",
+    "loading_tally",
+    "script_triggers"
+   ]
+  },
+  {
+   "scenario_id": "L07.obstacles",
+   "level": 8,
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "needs_classification",
+    "collision_camera": "observed",
+    "fx_projectiles": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "npc_animation": "observed",
+    "palette_clut": "observed",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x0029",
+    "0x003c",
+    "0x0042",
+    "0x0047",
+    "0x2016",
+    "0x4002",
+    "0x4003",
+    "0x4033"
+   ],
+   "missing": [
+    "chase_hazards"
+   ]
+  },
+  {
+   "scenario_id": "L08.flight-opening",
+   "level": 9,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "observed",
+    "depth_routes": "pending",
+    "flight_animation": "needs_classification",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x0001",
+    "0x005c",
+    "0x4028",
+    "0x4029"
+   ],
+   "missing": [
+    "depth_routes",
+    "flight_animation"
+   ]
+  },
+  {
+   "scenario_id": "L09.chariot-stalactites",
+   "level": 10,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "needs_classification",
+    "collision_camera": "observed",
+    "fx_projectiles": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x002f",
+    "0x003b",
+    "0x0041",
+    "0x2016"
+   ],
+   "missing": [
+    "chase_hazards",
+    "script_triggers"
+   ]
+  },
+  {
+   "scenario_id": "L09.full-progression",
+   "level": 10,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "observed",
+    "collision_camera": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "loading_tally": "pending",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x002f",
+    "0x003b",
+    "0x0041",
+    "0x2016"
+   ],
+   "missing": [
+    "loading_tally",
+    "script_triggers"
+   ]
+  },
+  {
+   "scenario_id": "L09.river-falls",
+   "level": 10,
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "observed",
+    "collision_camera": "observed",
+    "fx_projectiles": "observed",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x002f",
+    "0x003b",
+    "0x0041",
+    "0x2016"
+   ],
+   "missing": []
+  },
+  {
+   "scenario_id": "L10.vortex-entry",
+   "level": 11,
+   "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
+   ],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "observed",
+    "depth_routes": "pending",
+    "fx_projectiles": "needs_classification",
+    "hero_animation": "observed",
+    "hud_score": "observed",
+    "map_layers_tiles": "observed",
+    "music_transport": "observed",
+    "palette_clut": "observed",
+    "sfx_esf_sonix": "observed"
+   },
+   "kinds_seen": [
+    "0x0028",
+    "0x0029",
+    "0x002a",
+    "0x2029",
+    "0x202a",
+    "0x202b",
+    "0x202c",
+    "0xa028"
+   ],
+   "missing": [
+    "depth_routes",
+    "fx_projectiles"
+   ]
+  },
+  {
+   "scenario_id": "L01.checkpoint-retry",
+   "level": 1,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L01.combat-exercises",
+   "level": 1,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "enemy_animation": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "enemy_animation",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L01.difficulty-beginner",
+   "level": 1,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L01.difficulty-herculean",
+   "level": 1,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L01.full-progression",
+   "level": 1,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L01.secrets",
+   "level": 1,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "depth_routes": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "props_pickups": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "depth_routes",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "props_pickups",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L01.training-areas",
+   "level": 1,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "npc_animation": "pending",
+    "palette_clut": "pending",
+    "props_pickups": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "npc_animation",
+    "palette_clut",
+    "props_pickups",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L02.checkpoint-retry",
+   "level": 2,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "pending",
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "chase_hazards",
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L02.difficulty-beginner",
+   "level": 2,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L02.difficulty-herculean",
+   "level": 2,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L02.gauntlet-final",
+   "level": 2,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "chase_hazards",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L02.gauntlet-middle",
+   "level": 2,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "chase_hazards",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L02.gauntlet-opening",
+   "level": 2,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "chase_hazards",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L02.rescue-events",
+   "level": 2,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "npc_animation": "pending",
+    "palette_clut": "pending",
+    "props_pickups": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "npc_animation",
+    "palette_clut",
+    "props_pickups",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L03.background-paths",
+   "level": 3,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "depth_routes": "pending",
+    "enemy_animation": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "props_pickups": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "depth_routes",
+    "enemy_animation",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "props_pickups",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L03.checkpoint-retry",
+   "level": 3,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L03.difficulty-beginner",
+   "level": 3,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L03.difficulty-herculean",
+   "level": 3,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L03.forest-secrets",
+   "level": 3,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "props_pickups": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "props_pickups",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L03.full-progression",
+   "level": 3,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L03.nessus-attack-damage",
+   "level": 3,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L03.nessus-defeat",
+   "level": 3,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "npc_animation": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "npc_animation",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L04.background-stairs",
+   "level": 5,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "depth_routes": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "npc_animation": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "depth_routes",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "npc_animation",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L04.checkpoint-completion",
+   "level": 5,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L04.destruction-secrets",
+   "level": 5,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "props_pickups": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "props_pickups",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L04.difficulty-beginner",
+   "level": 5,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L04.difficulty-herculean",
+   "level": 5,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L04.enemy-encounters",
+   "level": 5,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "enemy_animation": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "enemy_animation",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L04.full-progression",
+   "level": 5,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L04.rescue-events",
+   "level": 5,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "enemy_animation": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "npc_animation": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "enemy_animation",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "npc_animation",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L04.section-transition",
+   "level": 5,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L05.death-retry",
+   "level": 6,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L05.difficulty-beginner",
+   "level": 6,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L05.difficulty-herculean",
+   "level": 6,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L05.full-progression",
+   "level": 6,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L05.hydra-attacks",
+   "level": 6,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L05.hydra-damage-phases",
+   "level": 6,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L05.hydra-defeat",
+   "level": 6,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L06.death-retry",
+   "level": 7,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L06.difficulty-beginner",
+   "level": 7,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L06.difficulty-herculean",
+   "level": 7,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L06.full-progression",
+   "level": 7,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L06.gaze-projectiles",
+   "level": 7,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L06.reflection-defeat",
+   "level": 7,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "props_pickups": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "props_pickups",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L06.skeleton-encounters",
+   "level": 7,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "enemy_animation": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "enemy_animation",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L07.alternate-lanes",
+   "level": 8,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "pending",
+    "collision_camera": "pending",
+    "depth_routes": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "props_pickups": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "chase_hazards",
+    "collision_camera",
+    "depth_routes",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "props_pickups",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L07.chase-completion",
+   "level": 8,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L07.chase-middle",
+   "level": 8,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "chase_hazards",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L07.chase-opening",
+   "level": 8,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "chase_hazards": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "chase_hazards",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L07.difficulty-beginner",
+   "level": 8,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L07.difficulty-herculean",
+   "level": 8,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L08.death-retry",
+   "level": 9,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "flight_animation": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "checkpoint_state",
+    "collision_camera",
+    "flight_animation",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L08.difficulty-beginner",
+   "level": 9,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L08.difficulty-herculean",
+   "level": 9,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L08.flight-sections",
+   "level": 9,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "flight_animation": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "flight_animation",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L08.full-progression",
+   "level": 9,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L08.god-rescues",
+   "level": 9,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "flight_animation": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "npc_animation": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "flight_animation",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "npc_animation",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L08.titan-encounters",
+   "level": 9,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "flight_animation": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "flight_animation",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L08.zeus-completion",
+   "level": 9,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "npc_animation": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "npc_animation",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L09.beginner-unavailable",
+   "level": 10,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "hud_score",
+    "loading_tally",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L09.difficulty-herculean",
+   "level": 10,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L09.passage-completion",
+   "level": 10,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "chase_hazards",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L09.passage-opening",
+   "level": 10,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "chase_hazards",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L09.passage-sections",
+   "level": 10,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "chase_hazards": "pending",
+    "collision_camera": "pending",
+    "depth_routes": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "chase_hazards",
+    "collision_camera",
+    "depth_routes",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L09.skeletons-lost-souls",
+   "level": 10,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "enemy_animation": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "enemy_animation",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L10.beginner-unavailable",
+   "level": 11,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "hud_score",
+    "loading_tally",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L10.completion-ending",
+   "level": 11,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "ending_media": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "ending_media",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L10.death-retry",
+   "level": 11,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L10.difficulty-herculean",
+   "level": 11,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L10.final-encounter",
+   "level": 11,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "boss_animation": "pending",
+    "collision_camera": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "boss_animation",
+    "collision_camera",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L10.full-progression",
+   "level": 11,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "checkpoint_state": "pending",
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "loading_tally": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "checkpoint_state",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "loading_tally",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L10.rescue-objective",
+   "level": 11,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "npc_animation": "pending",
+    "palette_clut": "pending",
+    "script_triggers": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "npc_animation",
+    "palette_clut",
+    "script_triggers",
+    "sfx_esf_sonix"
+   ]
+  },
+  {
+   "scenario_id": "L10.souls-traversal",
+   "level": 11,
+   "runs": [],
+   "debug_only_runs": [],
+   "categories": {
+    "collision_camera": "pending",
+    "depth_routes": "pending",
+    "enemy_animation": "pending",
+    "fx_projectiles": "pending",
+    "hero_animation": "pending",
+    "hud_score": "pending",
+    "map_layers_tiles": "pending",
+    "music_transport": "pending",
+    "palette_clut": "pending",
+    "sfx_esf_sonix": "pending"
+   },
+   "kinds_seen": [],
+   "missing": [
+    "collision_camera",
+    "depth_routes",
+    "enemy_animation",
+    "fx_projectiles",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,760 @@
+{
+ "schema_version": 1,
+ "difficulty_field": "game state +0x0e (0 Beginner, 1 Medium, 2 Herculean)",
+ "entries": [
+  {
+   "id": "eng1.hero_damage",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "hero (ENG1 levels)",
+   "scenario": "all ENG1",
+   "representation": "s32 x 8 per difficulty (stride 0x20), index = hit strength - 1",
+   "by_difficulty": {
+    "Beginner": [
+     5,
+     8,
+     10,
+     12,
+     15,
+     16,
+     20,
+     22
+    ],
+    "Medium": [
+     12,
+     18,
+     25,
+     30,
+     35,
+     40,
+     45,
+     50
+    ],
+    "Herculean": [
+     15,
+     22,
+     30,
+     38,
+     45,
+     50,
+     55,
+     60
+    ]
+   },
+   "source": "HERO_ApplyDamage ENG1 0x18c50",
+   "status": "VERIFIED-STATIC"
+  },
+  {
+   "id": "eng1.enemy_hp",
+   "program": "ENG1.DLL",
+   "rva": "0x24270",
+   "entity": "enemy (ENG1 HERO_EnemyInitHp)",
+   "scenario": "all ENG1",
+   "representation": "formula",
+   "formula": "obj+0xee = difficulty*2 + 6",
+   "by_difficulty": {
+    "Beginner": 6,
+    "Medium": 8,
+    "Herculean": 10
+   },
+   "source": "HERO_EnemyInitHp ENG1 0x24270",
+   "status": "VERIFIED-STATIC"
+  },
+  {
+   "id": "eng3.hero_damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "hero (runner levels)",
+   "scenario": "L02 L07 L09",
+   "representation": "u32 x 8 per difficulty (stride 0x20)",
+   "by_difficulty": {
+    "Beginner": [
+     10,
+     15,
+     20,
+     25,
+     30,
+     35,
+     40,
+     45
+    ],
+    "Medium": [
+     15,
+     20,
+     25,
+     30,
+     35,
+     40,
+     45,
+     50
+    ],
+    "Herculean": [
+     25,
+     30,
+     35,
+     40,
+     45,
+     50,
+     55,
+     60
+    ]
+   },
+   "source": "HERO_ApplyDamage ENG3 0x19410",
+   "status": "VERIFIED-STATIC"
+  },
+  {
+   "id": "title.tally_extra_life",
+   "program": "TITLE.DLL",
+   "rva": "0x1d0f0..0x1d127",
+   "entity": "tally screen",
+   "scenario": "all",
+   "representation": "score threshold for +1 life (lives < 9)",
+   "by_difficulty": {
+    "Beginner": "0x28",
+    "Medium": "0x3c",
+    "Herculean": "0x50"
+   },
+   "source": "HERO_TallyScreen TITLE 0x1c500 (docs/full-game/gameplay/progression.md)",
+   "status": "VERIFIED-STATIC"
+  },
+  {
+   "id": "title.beginner_end",
+   "program": "TITLE.DLL",
+   "rva": "0x167c8",
+   "entity": "progression",
+   "scenario": "L08 end",
+   "representation": "rule",
+   "by_difficulty": {
+    "Beginner": "ending after level 9 (TITANS)",
+    "Medium": "continue to 10",
+    "Herculean": "continue to 10"
+   },
+   "source": "MOD_FrontEndStateMachine; runtime: Beginner password slots 9-11 -> ending",
+   "status": "VERIFIED-STATIC + RUNTIME (password path)"
+  },
+  {
+   "id": "eng1.hydra_tables",
+   "program": "ENG1.DLL",
+   "rva": [
+    "0x56048",
+    "0x560e0",
+    "0x56168"
+   ],
+   "entity": "hydra boss",
+   "scenario": "L05 HYDRA",
+   "representation": "table address per difficulty (contents: see the level plan)",
+   "by_difficulty": {
+    "Beginner": "0x56048",
+    "Medium": "0x560e0",
+    "Herculean": "0x56168"
+   },
+   "source": "ENG1 0x1ac10 -> 0x6f3cc",
+   "status": "VERIFIED-STATIC (gamehercules-22)"
+  },
+  {
+   "id": "eng1.vortex_tables",
+   "program": "ENG1.DLL",
+   "rva": [
+    "0x69180",
+    "0x69220",
+    "0x692b8"
+   ],
+   "entity": "vortex boss",
+   "scenario": "L10 VORTEX",
+   "representation": "table address per difficulty (contents: see the level plan)",
+   "by_difficulty": {
+    "Beginner": "0x69180",
+    "Medium": "0x69220",
+    "Herculean": "0x692b8"
+   },
+   "source": "ENG1 0x44120 -> 0x70198/0x7018c",
+   "status": "VERIFIED-STATIC (gamehercules-22)"
+  },
+  {
+   "id": "eng1.nessus_attacks",
+   "program": "ENG1.DLL",
+   "rva": "0xbc50",
+   "entity": "Nessus (FOREST kind 0x2f)",
+   "scenario": "L03",
+   "representation": "formula",
+   "formula": "attack count = rnd(3) + 1 + difficulty",
+   "by_difficulty": {
+    "Beginner": "rnd(3)+1",
+    "Medium": "rnd(3)+2",
+    "Herculean": "rnd(3)+3"
+   },
+   "source": "HERO_NessusUpdate ENG1 0xbc50",
+   "status": "VERIFIED-STATIC (gamehercules-22)"
+  },
+  {
+   "id": "eng3.L02.kind0x0029.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "toppling statue/column (level model 2 + two 0x4029 parts) that falls toward the ",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x21 -> columns T1 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 15,
+    "Medium": 20,
+    "Herculean": 30
+   },
+   "source": "LVL_GntToppleStatueSpawn, LVL_GntToppleStatueTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L02.kind0x002a.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "swaying stack of 4 blocks (model 3, 0x402a) that collapses forward when the hero",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x2 -> columns T3 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 25,
+    "Medium": 30,
+    "Herculean": 40
+   },
+   "source": "LVL_GntStackSwayFwdSpawn, LVL_GntStackSwayFwdTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L02.kind0x002b.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "group of rolling model-13 objects (spawn byte = count: 1 large x2 scale, or 6 sm",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x26 -> columns T1 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 15,
+    "Medium": 20,
+    "Herculean": 30
+   },
+   "source": "LVL_GntRollerGroupSpawn, LVL_GntRollerGroupTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L02.kind0x002c.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "training dummy with swords (ALIEN1 403-439) sliding across lanes; breaks on cont",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x22 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_GntSwordDummySpawn, LVL_GntSwordDummyTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L02.kind0x002d.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "squad of 4 walking totem dummies (ALIEN1 477-523) wandering; each breaks on cont",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x22 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_GntTotemSquadSpawn, LVL_GntTotemSquadTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L02.kind0x002e.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "rotating obstacle of 4 model-23 pieces (0x402d) in a 2x2 block",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x2b -> columns T1 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 15,
+    "Medium": 20,
+    "Herculean": 30
+   },
+   "source": "LVL_GntSpinnerSpawn, LVL_GntSpinnerTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L02.kind0x002f.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "sliding wall (model 9 + 2 parts 0x402f, 2 wheels 0x3f) that slides +z across the",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x28 -> columns T2 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 20,
+    "Medium": 25,
+    "Herculean": 35
+   },
+   "source": "LVL_GntSlideWallRSpawn, LVL_GntSlideWallRTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L02.kind0x0030.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "sliding wall, mirror of 0x2f (slides -z); with 0x2f forms a closing gate",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x28 -> columns T2 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 20,
+    "Medium": 25,
+    "Herculean": 35
+   },
+   "source": "LVL_GntSlideWallLSpawn, LVL_GntSlideWallLTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L02.kind0x0032.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "shark leaping out of the water (ALIEN1 0,16-26,53-58,167-175)",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x2a -> columns T1+T1+T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 40,
+    "Medium": 55,
+    "Herculean": 85
+   },
+   "source": "LVL_GntSharkSpawn, LVL_GntSharkTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L02.kind0x0035.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "as 0x2a, falling the other way (angle decreasing)",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x2 -> columns T3 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 25,
+    "Medium": 30,
+    "Herculean": 40
+   },
+   "source": "LVL_GntStackSwayBackSpawn, LVL_GntStackSwayBackTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L02.kind0x0037.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "hanging pendulum of 4 segments (models 12,12,12 + 11 weight)",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x2c -> columns T1 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 15,
+    "Medium": 20,
+    "Herculean": 30
+   },
+   "source": "LVL_GntPendulumSpawn, LVL_GntPendulumTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L02.kind0x003c.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "flaming ring (ALIEN1 273-280) bobbing on a rope (0x41) with a bonus figure (0x38",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x40 -> columns T1+T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 25,
+    "Medium": 35,
+    "Herculean": 55
+   },
+   "source": "LVL_GntFireRingSpawn, LVL_GntFireRingTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L02.kind0x003e.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "hanging weight on 4 segments (model 12 x3 + model 21/22), half swing (byte 0) or",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x25 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_GntHangingWeightSpawn, LVL_GntHangingWeightTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L02.kind0x0040.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "swinging punching bag on a rope (ALIEN1 264-272)",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x23 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_GntPunchBagSpawn, LVL_GntPunchBagTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L02.kind0x0044.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "training dummy that homes on the hero lane (ALIEN1 403-439); breaks on contact",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x22 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_GntChaserDummySpawn, LVL_GntChaserDummyTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L02.kind0x0048.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "rotating two-arm sweeper (model 24)",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x2d -> columns T1 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 15,
+    "Medium": 20,
+    "Herculean": 30
+   },
+   "source": "LVL_GntSweeperSpawn, LVL_GntSweeperTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L02.kind0x0049.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "end post (model 25) near the finish (x 15101-15121)",
+   "scenario": "L02 GAUNTLET",
+   "representation": "hit code 0x35 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_GntEndPostSpawn, LVL_EndPostTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L07.kind0x002a.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "falling boulder / rubble (random model 2,1,11,33,36 from 0x34fe0) that drops whe",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x200 -> columns T3 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 25,
+    "Medium": 30,
+    "Herculean": 40
+   },
+   "source": "LVL_CycBoulderSpawn, LVL_CycBoulderTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L07.kind0x002b.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "toppling column (models 1/11/2 + capital 3 or 0x2a)",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x2 -> columns T3 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 25,
+    "Medium": 30,
+    "Herculean": 40
+   },
+   "source": "LVL_CycColumnFwdSpawn, LVL_CycColumnFwdTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L07.kind0x002d.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "chariot crossing the street (PEOPLE side view 85-99)",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x400 -> columns T3 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 25,
+    "Medium": 30,
+    "Herculean": 40
+   },
+   "source": "LVL_CycCrossChariotSpawn, LVL_CycCrossChariotTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L07.kind0x002e.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "toppling column falling the other way (capital 0x28 or 0x33)",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x2 -> columns T3 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 25,
+    "Medium": 30,
+    "Herculean": 40
+   },
+   "source": "LVL_CycColumnBackSpawn, LVL_CycColumnBackTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L07.kind0x002f.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "chariot driving down the street toward the camera (PEOPLE front view 101-124) wi",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x400 -> columns T3 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 25,
+    "Medium": 30,
+    "Herculean": 40
+   },
+   "source": "LVL_CycChariotSpawn, LVL_CycChariotTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L07.kind0x003d.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "flying swooper that circles in from 2304 ahead (PEOPLE 243-253, frames not decod",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x800 -> columns T3 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 25,
+    "Medium": 30,
+    "Herculean": 40
+   },
+   "source": "LVL_CycSwooperSpawn, LVL_CycSwooperTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VERIFIED-STATIC)"
+  },
+  {
+   "id": "eng3.L07.kind0x003e.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "flyer carrying a rock (kind 0x43, model 2) that it drops before the hero, then d",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x4 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_CycFlyerDropSpawn, LVL_CycFlyerDropTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VERIFIED-STATIC)"
+  },
+  {
+   "id": "eng3.L07.kind0x003f.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "crowd source: spawns fleeing citizens (0x4033) ahead of the hero",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x4 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_CycCrowdSourceInit, LVL_CycCrowdSourceTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L07.kind0x0042.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "bystander (byte 0 lady / 1 man / 2 old man) who starts running with the hero",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x4 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_CycBystanderSpawn, LVL_CycBystanderTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L07.kind0x0048.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "breakable obstacle (model 0x34)",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x36 -> columns T2 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 20,
+    "Medium": 25,
+    "Herculean": 35
+   },
+   "source": "LVL_CycCrateSpawn, LVL_CycCrateTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L07.kind0x4033.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "crowd source: spawns fleeing citizens (0x4033) ahead of the hero",
+   "scenario": "L07 CYCLOPS",
+   "representation": "hit code 0x4 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_CycFleeingCitizenInit, LVL_CycFleeingCitizenTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L09.kind0x0029.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "flying chariot pulled by a winged beast (TORMENT 352-358) that overtakes the her",
+   "scenario": "L09 TORMENT",
+   "representation": "hit code 0x30 -> columns T2 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 20,
+    "Medium": 25,
+    "Herculean": 35
+   },
+   "source": "LVL_TrmChariotSpawn, LVL_TrmChariotTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L09.kind0x0030.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "falling stalactite (model 2, starts 1024 above)",
+   "scenario": "L09 TORMENT",
+   "representation": "hit code 0x31 -> columns T2 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 20,
+    "Medium": 25,
+    "Herculean": 35
+   },
+   "source": "LVL_TrmStalactiteSpawn, LVL_TrmStalactiteTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L09.kind0x0031.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "walking skeleton (TORMENT 121-148)",
+   "scenario": "L09 TORMENT",
+   "representation": "hit code 0x4 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_TrmSkeletonWalkSpawn, LVL_TrmSkeletonWalkTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L09.kind0x0033.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "skeleton dropping from above (TORMENT 155-174)",
+   "scenario": "L09 TORMENT",
+   "representation": "hit code 0x2f -> columns T2 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 20,
+    "Medium": 25,
+    "Herculean": 35
+   },
+   "source": "LVL_TrmSkeletonDropSpawn, LVL_TrmSkeletonDropTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L09.kind0x0035.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "bone wall / rib-cage (TORMENT frame 175) that topples and bursts",
+   "scenario": "L09 TORMENT",
+   "representation": "hit code 0x33 -> columns T2 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 20,
+    "Medium": 25,
+    "Herculean": 35
+   },
+   "source": "LVL_TrmBoneWallSpawn, LVL_TrmBoneWallTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L09.kind0x003d.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "winged fire beast (TORMENT 223-236) spitting fire (kind 0x3e)",
+   "scenario": "L09 TORMENT",
+   "representation": "hit code 0x2 -> columns T3 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 25,
+    "Medium": 30,
+    "Herculean": 40
+   },
+   "source": "LVL_TrmFireBeastSpawn, LVL_TrmFireBeastTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L09.kind0x0040.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "bone pile (frame 6) that shatters when touched",
+   "scenario": "L09 TORMENT",
+   "representation": "hit code 0x32 -> columns T2 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 20,
+    "Medium": 25,
+    "Herculean": 35
+   },
+   "source": "LVL_TrmBonePileSpawn, LVL_TrmBonePileTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification VISUAL)"
+  },
+  {
+   "id": "eng3.L09.kind0x0045.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "group of 4 rolling model-7 objects (TORMENT version of GAUNTLET 0x2b)",
+   "scenario": "L09 TORMENT",
+   "representation": "hit code 0x26 -> columns T1 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 15,
+    "Medium": 20,
+    "Herculean": 30
+   },
+   "source": "LVL_TrmRollerGroupSpawn, LVL_TrmRollerGroupTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L09.kind0x0046.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "rock fall: 20 model-7 rocks of graded size dropping in a line",
+   "scenario": "L09 TORMENT",
+   "representation": "hit code 0x34 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_TrmRockfallSpawn, LVL_TrmRockfallTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  },
+  {
+   "id": "eng3.L09.kind0x0048.damage",
+   "program": "ENG3.DLL",
+   "rva": "0x380a0",
+   "entity": "end post (model 15) at x 29445",
+   "scenario": "L09 TORMENT",
+   "representation": "hit code 0x35 -> columns T0 of u32 table 0x380a0",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 15,
+    "Herculean": 25
+   },
+   "source": "LVL_TrmEndPostSpawn, LVL_EndPostTick",
+   "status": "VERIFIED-STATIC (handler decompilation; identification LEAD)"
+  }
+ ]
+}

@@ -1,0 +1,948 @@
+{
+ "_doc": "Gameplay-coverage rows per scenario (P5.ALL.13, L*.GP.07) -> extracted/meta/full-game/gameplay-coverage.json. See tools/meta/gameplay_coverage.py.",
+ "rows": [
+  {
+   "scenario_id": "L01.checkpoint-retry",
+   "level": "L01",
+   "scene_group": "Checkpoint and training retry",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L01.combat-exercises",
+   "level": "L01",
+   "scene_group": "Sword, punches, power punch and ground slam",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L01.difficulty-beginner",
+   "level": "L01",
+   "scene_group": "Beginner differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L01.difficulty-herculean",
+   "level": "L01",
+   "scene_group": "Herculean differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L01.full-progression",
+   "level": "L01",
+   "scene_group": "Complete level and linked progression",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L01.secrets",
+   "level": "L01",
+   "scene_group": "Hidden routes and collectibles",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L01.title-demo-baseline",
+   "level": "L01",
+   "scene_group": "Inherited title/TRAINING attract-demo evidence",
+   "spec": null,
+   "spec_section": null,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
+    "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config"
+   ],
+   "debug_only_runs": [],
+   "status": "trace"
+  },
+  {
+   "scenario_id": "L01.training-areas",
+   "level": "L01",
+   "scene_group": "Training areas and Phil gates",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L01.traversal",
+   "level": "L01",
+   "scene_group": "Ledges, poles and objects",
+   "spec": null,
+   "spec_section": null,
+   "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
+    "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium"
+   ],
+   "debug_only_runs": [],
+   "status": "trace"
+  },
+  {
+   "scenario_id": "L02.checkpoint-retry",
+   "level": "L02",
+   "scene_group": "Gauntlet death and retry",
+   "spec": "docs/full-game/levels/L02.md",
+   "spec_section": "Pickups, checkpoints and markers (GP.05)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L02.difficulty-beginner",
+   "level": "L02",
+   "scene_group": "Beginner differential traces",
+   "spec": "docs/full-game/levels/L02.md",
+   "spec_section": "Runner parameters (GP.02)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L02.difficulty-herculean",
+   "level": "L02",
+   "scene_group": "Herculean differential traces",
+   "spec": "docs/full-game/levels/L02.md",
+   "spec_section": "Runner parameters (GP.02)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L02.full-progression",
+   "level": "L02",
+   "scene_group": "Complete level and linked progression",
+   "spec": "docs/full-game/levels/L02.md",
+   "spec_section": "Layout (L02.GP.01)",
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config"
+   ],
+   "debug_only_runs": [],
+   "status": "spec+trace"
+  },
+  {
+   "scenario_id": "L02.gauntlet-final",
+   "level": "L02",
+   "scene_group": "Final gauntlet and completion",
+   "spec": "docs/full-game/levels/L02.md",
+   "spec_section": "Pickups, checkpoints and markers (GP.05)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L02.gauntlet-middle",
+   "level": "L02",
+   "scene_group": "Middle gauntlet sections",
+   "spec": "docs/full-game/levels/L02.md",
+   "spec_section": "Layout (L02.GP.01)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L02.gauntlet-opening",
+   "level": "L02",
+   "scene_group": "Opening gauntlet section",
+   "spec": "docs/full-game/levels/L02.md",
+   "spec_section": "Layout (L02.GP.01)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L02.hazards",
+   "level": "L02",
+   "scene_group": "Hazard interactions",
+   "spec": "docs/full-game/levels/L02.md",
+   "spec_section": "Hazards (GP.03)",
+   "runs": [
+    "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+   ],
+   "debug_only_runs": [],
+   "status": "spec+trace"
+  },
+  {
+   "scenario_id": "L02.rescue-events",
+   "level": "L02",
+   "scene_group": "Damsel rescue events",
+   "spec": "docs/full-game/levels/L02.md",
+   "spec_section": "Enemies, NPCs and bosses (GP.04)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L03.background-paths",
+   "level": "L03",
+   "scene_group": "Background paths and returns",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L03.checkpoint-retry",
+   "level": "L03",
+   "scene_group": "Forest/boss retry",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L03.difficulty-beginner",
+   "level": "L03",
+   "scene_group": "Beginner differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L03.difficulty-herculean",
+   "level": "L03",
+   "scene_group": "Herculean differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L03.forest-main-route",
+   "level": "L03",
+   "scene_group": "Main forest routes",
+   "spec": null,
+   "spec_section": null,
+   "runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+   ],
+   "debug_only_runs": [],
+   "status": "trace"
+  },
+  {
+   "scenario_id": "L03.forest-secrets",
+   "level": "L03",
+   "scene_group": "Hidden areas and destructibles",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L03.full-progression",
+   "level": "L03",
+   "scene_group": "Complete level and linked progression",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L03.nessus-approach",
+   "level": "L03",
+   "scene_group": "Forest-to-Nessus entry",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [
+    "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
+   ],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L03.nessus-attack-damage",
+   "level": "L03",
+   "scene_group": "Nessus attack and damage discovery",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L03.nessus-defeat",
+   "level": "L03",
+   "scene_group": "Nessus defeat and forest completion",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L04.background-stairs",
+   "level": "L04",
+   "scene_group": "Background stairs and paths",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L04.checkpoint-completion",
+   "level": "L04",
+   "scene_group": "City retries and completion",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L04.destruction-secrets",
+   "level": "L04",
+   "scene_group": "Destruction, falling debris and secrets",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L04.difficulty-beginner",
+   "level": "L04",
+   "scene_group": "Beginner differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L04.difficulty-herculean",
+   "level": "L04",
+   "scene_group": "Herculean differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L04.enemy-encounters",
+   "level": "L04",
+   "scene_group": "Thugs, skeletons and Minotaur",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L04.full-progression",
+   "level": "L04",
+   "scene_group": "Complete level and linked progression",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L04.rescue-events",
+   "level": "L04",
+   "scene_group": "Harpies and citizen rescues",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L04.section-transition",
+   "level": "L04",
+   "scene_group": "Second-part/section discovery",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L04.streets",
+   "level": "L04",
+   "scene_group": "Thebes streets and route sections",
+   "spec": null,
+   "spec_section": null,
+   "runs": [
+    "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
+   ],
+   "debug_only_runs": [],
+   "status": "trace"
+  },
+  {
+   "scenario_id": "L05.canyon-entry",
+   "level": "L05",
+   "scene_group": "Canyon encounter entry",
+   "spec": null,
+   "spec_section": null,
+   "runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+   ],
+   "debug_only_runs": [
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium"
+   ],
+   "status": "trace"
+  },
+  {
+   "scenario_id": "L05.death-retry",
+   "level": "L05",
+   "scene_group": "Hydra death and retry",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L05.difficulty-beginner",
+   "level": "L05",
+   "scene_group": "Beginner differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L05.difficulty-herculean",
+   "level": "L05",
+   "scene_group": "Herculean differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L05.full-progression",
+   "level": "L05",
+   "scene_group": "Complete level and linked progression",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L05.hydra-attacks",
+   "level": "L05",
+   "scene_group": "Hydra attack cycles",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L05.hydra-damage-phases",
+   "level": "L05",
+   "scene_group": "Hydra damage and phase discovery",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L05.hydra-defeat",
+   "level": "L05",
+   "scene_group": "Hydra defeat and exit",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L06.death-retry",
+   "level": "L06",
+   "scene_group": "Lair/Medusa retry",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L06.difficulty-beginner",
+   "level": "L06",
+   "scene_group": "Beginner differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L06.difficulty-herculean",
+   "level": "L06",
+   "scene_group": "Herculean differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L06.full-progression",
+   "level": "L06",
+   "scene_group": "Complete level and linked progression",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L06.gaze-projectiles",
+   "level": "L06",
+   "scene_group": "Medusa gaze and venom",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L06.lair-traversal",
+   "level": "L06",
+   "scene_group": "Lair traversal and entry",
+   "spec": null,
+   "spec_section": null,
+   "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
+   ],
+   "debug_only_runs": [],
+   "status": "trace"
+  },
+  {
+   "scenario_id": "L06.reflection-defeat",
+   "level": "L06",
+   "scene_group": "Reflection and defeat",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L06.skeleton-encounters",
+   "level": "L06",
+   "scene_group": "Skeleton encounters",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L07.alternate-lanes",
+   "level": "L07",
+   "scene_group": "Stairs and alternate lanes",
+   "spec": "docs/full-game/levels/L07.md",
+   "spec_section": "Layout (L07.GP.01)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L07.chase-completion",
+   "level": "L07",
+   "scene_group": "Final chase and completion",
+   "spec": "docs/full-game/levels/L07.md",
+   "spec_section": "Pickups, checkpoints and markers (GP.05)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L07.chase-middle",
+   "level": "L07",
+   "scene_group": "Successive chase sections",
+   "spec": "docs/full-game/levels/L07.md",
+   "spec_section": "Layout (L07.GP.01)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L07.chase-opening",
+   "level": "L07",
+   "scene_group": "Opening Cyclops chase",
+   "spec": "docs/full-game/levels/L07.md",
+   "spec_section": "Enemies, NPCs and bosses (GP.04)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L07.death-retry",
+   "level": "L07",
+   "scene_group": "Cyclops chase retry",
+   "spec": "docs/full-game/levels/L07.md",
+   "spec_section": "Enemies, NPCs and bosses (GP.04)",
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium"
+   ],
+   "debug_only_runs": [],
+   "status": "spec+trace"
+  },
+  {
+   "scenario_id": "L07.difficulty-beginner",
+   "level": "L07",
+   "scene_group": "Beginner differential traces",
+   "spec": "docs/full-game/levels/L07.md",
+   "spec_section": "Runner parameters (GP.02)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L07.difficulty-herculean",
+   "level": "L07",
+   "scene_group": "Herculean differential traces",
+   "spec": "docs/full-game/levels/L07.md",
+   "spec_section": "Runner parameters (GP.02)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L07.full-progression",
+   "level": "L07",
+   "scene_group": "Complete level and linked progression",
+   "spec": "docs/full-game/levels/L07.md",
+   "spec_section": "Layout (L07.GP.01)",
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config"
+   ],
+   "debug_only_runs": [],
+   "status": "spec+trace"
+  },
+  {
+   "scenario_id": "L07.obstacles",
+   "level": "L07",
+   "scene_group": "Columns, citizens and chariots",
+   "spec": "docs/full-game/levels/L07.md",
+   "spec_section": "Hazards and damage",
+   "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+   ],
+   "debug_only_runs": [],
+   "status": "spec+trace"
+  },
+  {
+   "scenario_id": "L08.death-retry",
+   "level": "L08",
+   "scene_group": "Flight death and retry",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L08.difficulty-beginner",
+   "level": "L08",
+   "scene_group": "Beginner differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L08.difficulty-herculean",
+   "level": "L08",
+   "scene_group": "Herculean differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L08.flight-opening",
+   "level": "L08",
+   "scene_group": "Pegasus entry and opening flight",
+   "spec": null,
+   "spec_section": null,
+   "runs": [
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+   ],
+   "debug_only_runs": [],
+   "status": "trace"
+  },
+  {
+   "scenario_id": "L08.flight-sections",
+   "level": "L08",
+   "scene_group": "Successive Pegasus flight sections",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L08.full-progression",
+   "level": "L08",
+   "scene_group": "Complete level and linked progression",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L08.god-rescues",
+   "level": "L08",
+   "scene_group": "God rescue events",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L08.titan-encounters",
+   "level": "L08",
+   "scene_group": "Ice, Wind, Lava and Rock Titans",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L08.zeus-completion",
+   "level": "L08",
+   "scene_group": "Final rescue/flight completion discovery",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L09.beginner-unavailable",
+   "level": "L09",
+   "scene_group": "Beginner availability boundary",
+   "spec": "docs/full-game/levels/L09.md",
+   "spec_section": "Runner parameters (GP.02)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L09.chariot-stalactites",
+   "level": "L09",
+   "scene_group": "Chariot and falling stalactites",
+   "spec": "docs/full-game/levels/L09.md",
+   "spec_section": "Hazards (GP.03)",
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+   ],
+   "debug_only_runs": [],
+   "status": "spec+trace"
+  },
+  {
+   "scenario_id": "L09.difficulty-herculean",
+   "level": "L09",
+   "scene_group": "Herculean differential traces",
+   "spec": "docs/full-game/levels/L09.md",
+   "spec_section": "Runner parameters (GP.02)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L09.full-progression",
+   "level": "L09",
+   "scene_group": "Complete level and linked progression",
+   "spec": "docs/full-game/levels/L09.md",
+   "spec_section": "Layout (L09.GP.01)",
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config"
+   ],
+   "debug_only_runs": [],
+   "status": "spec+trace"
+  },
+  {
+   "scenario_id": "L09.passage-completion",
+   "level": "L09",
+   "scene_group": "Final passage and Vortex transition",
+   "spec": "docs/full-game/levels/L09.md",
+   "spec_section": "Pickups, checkpoints and markers (GP.05)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L09.passage-opening",
+   "level": "L09",
+   "scene_group": "Opening torment passage",
+   "spec": "docs/full-game/levels/L09.md",
+   "spec_section": "Layout (L09.GP.01)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L09.passage-sections",
+   "level": "L09",
+   "scene_group": "Successive passage sections",
+   "spec": "docs/full-game/levels/L09.md",
+   "spec_section": "Layout (L09.GP.01)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L09.river-falls",
+   "level": "L09",
+   "scene_group": "River Styx fall/death",
+   "spec": "docs/full-game/levels/L09.md",
+   "spec_section": "Hazards (GP.03)",
+   "runs": [
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
+   ],
+   "debug_only_runs": [],
+   "status": "spec+trace"
+  },
+  {
+   "scenario_id": "L09.skeletons-lost-souls",
+   "level": "L09",
+   "scene_group": "Skeletons and lost souls",
+   "spec": "docs/full-game/levels/L09.md",
+   "spec_section": "Enemies, NPCs and bosses (GP.04)",
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "spec"
+  },
+  {
+   "scenario_id": "L10.beginner-unavailable",
+   "level": "L10",
+   "scene_group": "Beginner availability boundary",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L10.completion-ending",
+   "level": "L10",
+   "scene_group": "Final completion, ending and credits",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L10.death-retry",
+   "level": "L10",
+   "scene_group": "Final-level failure and retry",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L10.difficulty-herculean",
+   "level": "L10",
+   "scene_group": "Herculean differential traces",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L10.final-encounter",
+   "level": "L10",
+   "scene_group": "Final encounter and phase discovery",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L10.full-progression",
+   "level": "L10",
+   "scene_group": "Complete level and linked progression",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L10.rescue-objective",
+   "level": "L10",
+   "scene_group": "Final rescue/objective discovery",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L10.souls-traversal",
+   "level": "L10",
+   "scene_group": "Souls and vortex traversal discovery",
+   "spec": null,
+   "spec_section": null,
+   "runs": [],
+   "debug_only_runs": [],
+   "status": "open"
+  },
+  {
+   "scenario_id": "L10.vortex-entry",
+   "level": "L10",
+   "scene_group": "Vortex entry and initial control",
+   "spec": null,
+   "spec_section": null,
+   "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
+   ],
+   "debug_only_runs": [],
+   "status": "trace"
+  }
+ ]
+}

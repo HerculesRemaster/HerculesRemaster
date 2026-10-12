@@ -1,0 +1,512 @@
+{
+ "_doc": "Spawn kind -> type-table entry -> handler names for one ENG1 level (L*.RE.01 / L*.RE.02). See tools/level/level_types.py.",
+ "level": {
+  "id": 6,
+  "dir": "HYDRA",
+  "config_record": "0x68c10"
+ },
+ "config": {
+  "record_rva": "0x68c10",
+  "level_id": 6,
+  "actor_pool_count": 38,
+  "marker_pool_count_minus5": 100,
+  "pickup_pool_count_minus5": 96,
+  "unknown_08": 3,
+  "unknown_0a": 3,
+  "unknown_0c": 10,
+  "unknown_0e": 38,
+  "unknown_10": 22,
+  "unknown_12": 84,
+  "unknown_14": 12,
+  "slot_list_count": 20,
+  "actor_kind_anim": "0x57bb0",
+  "actor_kind_funcs": "0x57f10",
+  "marker_kind_anim": "0x58198",
+  "marker_kind_funcs": "0x582e0",
+  "pickup_kind_anim": "0x58428",
+  "pickup_kind_funcs": "0x585c0",
+  "unused_30": "0x58758",
+  "anim_event_table": "0x58770",
+  "attribute_funcs": "0x58788",
+  "zero_3c": 0,
+  "spawn_templates": "0x587a0",
+  "attribute_flags": "0x58830"
+ },
+ "starts": {
+  "table_rva": "0x58878",
+  "points": [
+   {
+    "index": 0,
+    "x": 2240,
+    "y": 992,
+    "z": 128,
+    "raw": "c008e0030100000068880510000000000000000000000000"
+   },
+   {
+    "index": 1,
+    "x": 2240,
+    "y": 768,
+    "z": 128,
+    "raw": "c00800030100000068880510000000000000000000000000"
+   }
+  ]
+ },
+ "start_and_level_banks": {
+  "level_list": [
+   1,
+   4,
+   2,
+   79
+  ],
+  "start_lists": [
+   [],
+   []
+  ],
+  "banks": [
+   {
+    "id": 1,
+    "path": "P:\\SRC1\\HERO\\HERCULES",
+    "archive_index": 560
+   },
+   {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1",
+    "archive_index": 552
+   },
+   {
+    "id": 4,
+    "path": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE",
+    "archive_index": 765
+   },
+   {
+    "id": 79,
+    "path": "P:\\SRC1\\BOSS\\HYDRA",
+    "archive_index": 804
+   }
+  ]
+ },
+ "kinds": [
+  {
+   "kind": "0x0031",
+   "class": "actor",
+   "count": 2,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x1dd00",
+     "name": "FUN_1001dd00"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x22180",
+     "name": "FUN_10022180"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    129
+   ],
+   "x_range": [
+    1506,
+    2980
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0028",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1dbc0",
+     "name": "HERO_Alien1Spawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1dc00",
+     "name": "HERO_Alien1Update"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 39,
+    "path": "P:\\SRC1\\ALIEN1\\ALIEN1"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0029",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1cf50",
+     "name": "FUN_1001cf50"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1d0b0",
+     "name": "HERO_HydraNeckUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x183"
+   ]
+  },
+  {
+   "kind": "0x002a",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1dcc0",
+     "name": "FUN_1001dcc0"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x22180",
+     "name": "FUN_10022180"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x002b",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1bc20",
+     "name": "FUN_1001bc20"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1c200",
+     "name": "FUN_1001c200"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x002c",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1ed00",
+     "name": "FUN_1001ed00"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1ed30",
+     "name": "HERO_HydraStageTick"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x192"
+   ]
+  },
+  {
+   "kind": "0x002d",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1b2a0",
+     "name": "HERO_HydraHeadSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1b7f0",
+     "name": "HERO_HydraHeadUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x188",
+    "0x5984"
+   ]
+  },
+  {
+   "kind": "0x002e",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1c220",
+     "name": "FUN_1001c220"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1c2a0",
+     "name": "FUN_1001c2a0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x002f",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1e320",
+     "name": "FUN_1001e320"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1e3f0",
+     "name": "HERO_HydraDebrisUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x188",
+    "0x189",
+    "0x18a"
+   ]
+  },
+  {
+   "kind": "0x0030",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1df50",
+     "name": "HERO_HydraSpawn3"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1df80",
+     "name": "HERO_HydraUpdate3"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 79,
+    "path": "P:\\SRC1\\BOSS\\HYDRA"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0032",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1e090",
+     "name": "HERO_HydraSpawn4"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1e0e0",
+     "name": "HERO_HydraUpdate4"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 79,
+    "path": "P:\\SRC1\\BOSS\\HYDRA"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0033",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1e500",
+     "name": "FUN_1001e500"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1e600",
+     "name": "HERO_HydraBoulderUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0034",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1dac0",
+     "name": "HERO_HydraSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1daf0",
+     "name": "HERO_HydraUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 79,
+    "path": "P:\\SRC1\\BOSS\\HYDRA"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0035",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x1db40",
+     "name": "HERO_HydraSpawn2"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x1db70",
+     "name": "HERO_HydraUpdate2"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 79,
+    "path": "P:\\SRC1\\BOSS\\HYDRA"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  }
+ ]
+}

@@ -1,0 +1,842 @@
+{
+ "_doc": "Static digest of a level's actor handlers (L*.RE enemy tasks) -> extracted/meta/full-game/<SLUG>-enemies.json.",
+ "level": {
+  "id": 5,
+  "dir": "THEBES",
+  "config_record": "0x68bc8"
+ },
+ "kinds": [
+  {
+   "kind": "0x0004",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10014790",
+    "update": "FUN_10014850"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x4151"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0024",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10001010",
+    "update": "FUN_1000c720"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0025",
+   "count": 39,
+   "bank": "P:\\SRC1\\ALIEN1\\GENERIC1",
+   "handlers": {
+    "spawn": "HERO_Generic1Spawn",
+    "update": "HERO_Generic1Update"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [
+    1,
+    2,
+    3,
+    11,
+    12
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0026",
+   "count": 3,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS",
+   "handlers": {
+    "spawn": "HERO_ThugsSpawn",
+    "update": "HERO_ThugsUpdate"
+   },
+   "hits": [],
+   "hp_constants": [
+    9
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0027",
+   "count": 3,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS",
+   "handlers": {
+    "spawn": "HERO_ThugsSpawn2",
+    "update": "HERO_ThugsUpdate2"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [
+    5
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0028",
+   "count": 3,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFLASH",
+   "handlers": {
+    "spawn": "HERO_ThflashSpawn",
+    "update": "HERO_ThflashUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002a",
+   "count": 4,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THSNOW",
+   "handlers": {
+    "spawn": "HERO_ThsnowSpawn",
+    "update": "HERO_ThsnowUpdate"
+   },
+   "hits": [],
+   "hp_constants": [
+    160
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "sounds": [
+    "0x4012",
+    "0x5140",
+    "0x5941",
+    "0x5942"
+   ],
+   "spawns": [
+    "0x4a"
+   ]
+  },
+  {
+   "kind": "0x002b",
+   "count": 3,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THEQ",
+   "handlers": {
+    "spawn": "HERO_TheqSpawn",
+    "update": "HERO_TheqUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": [
+    "0x402a"
+   ]
+  },
+  {
+   "kind": "0x002c",
+   "count": 3,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFLOOD",
+   "handlers": {
+    "spawn": "HERO_ThfloodSpawn",
+    "update": "HERO_ThfloodUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002d",
+   "count": 6,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR",
+   "handlers": {
+    "spawn": "HERO_ThcharSpawn",
+    "update": "HERO_ThcharUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x5148"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0030",
+   "count": 18,
+   "bank": "P:\\SRC1\\ALIEN1\\FANGIRLS",
+   "handlers": {
+    "spawn": "HERO_FangirlsSpawn",
+    "update": "HERO_FangirlsUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0031",
+   "count": 18,
+   "bank": "P:\\SRC1\\ALIEN1\\FANGIRLS",
+   "handlers": {
+    "spawn": "HERO_FangirlsSpawn",
+    "update": "HERO_FangirlsUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0032",
+   "count": 13,
+   "bank": "P:\\SRC1\\ALIEN1\\FANGIRLS",
+   "handlers": {
+    "spawn": "HERO_FangirlsSpawn",
+    "update": "HERO_FangirlsUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0033",
+   "count": 6,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THOLD",
+   "handlers": {
+    "spawn": "HERO_TholdSpawn",
+    "update": "HERO_TholdUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0034",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THEWGUY",
+   "handlers": {
+    "spawn": "HERO_ThewguySpawn",
+    "update": "HERO_ThewguyUpdate"
+   },
+   "hits": [
+    {
+     "strength": 1,
+     "index": 0,
+     "damage_beginner_medium_herculean": [
+      5,
+      12,
+      15
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    1,
+    2,
+    3,
+    11,
+    12
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0037",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN1\\MINOTAUR",
+   "handlers": {
+    "spawn": "HERO_EnemyInitHp",
+    "update": "HERO_MinotaurUpdate"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": true,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 3,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0038",
+   "count": 8,
+   "bank": "P:\\SRC1\\ALIEN1\\HARPIES",
+   "handlers": {
+    "spawn": "HERO_HarpiesSpawn",
+    "update": "HERO_HarpiesUpdate"
+   },
+   "hits": [],
+   "hp_constants": [
+    3
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 1,
+   "states": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003c",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10011950",
+    "update": "FUN_1000c720"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": [
+    "0x2029"
+   ]
+  },
+  {
+   "kind": "0x003d",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10011a80",
+    "update": "FUN_1000c720"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003e",
+   "count": 18,
+   "bank": "P:\\SRC1\\ALIEN1\\SKELETON",
+   "handlers": {
+    "spawn": "HERO_SkeletonSpawn",
+    "update": "HERO_SkeletonUpdate"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [
+    3,
+    65535
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 1,
+   "states": [],
+   "sounds": [
+    "0x51dd"
+   ],
+   "spawns": [
+    "0x2027"
+   ]
+  },
+  {
+   "kind": "0x003f",
+   "count": 4,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR",
+   "handlers": {
+    "spawn": "HERO_ThcharSpawn2",
+    "update": "HERO_ThcharUpdate2"
+   },
+   "hits": [
+    {
+     "strength": 2,
+     "index": 1,
+     "damage_beginner_medium_herculean": [
+      8,
+      18,
+      22
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0040",
+   "count": 4,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR",
+   "handlers": {
+    "spawn": "HERO_ThcharSpawn3",
+    "update": "HERO_ThcharUpdate2"
+   },
+   "hits": [
+    {
+     "strength": 2,
+     "index": 1,
+     "damage_beginner_medium_herculean": [
+      8,
+      18,
+      22
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0044",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFAT",
+   "handlers": {
+    "spawn": "HERO_ThfatSpawn",
+    "update": "HERO_ThfatUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0046",
+   "count": 3,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1000f910",
+    "update": "FUN_1000fa00"
+   },
+   "hits": [],
+   "hp_constants": [
+    30
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [
+    1,
+    2,
+    3,
+    9
+   ],
+   "sounds": [],
+   "spawns": [
+    "0x2027"
+   ]
+  },
+  {
+   "kind": "0x0047",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN1\\HARPIES",
+   "handlers": {
+    "spawn": "HERO_HarpiesSpawn2",
+    "update": "HERO_HarpiesUpdate2"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0048",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10010380",
+    "update": "FUN_100103c0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0049",
+   "count": 8,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10036150",
+    "update": "FUN_100361a0"
+   },
+   "hits": [],
+   "hp_constants": [
+    50
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": [
+    "0x2027"
+   ]
+  },
+  {
+   "kind": "0x0029",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THBURNT",
+   "handlers": {
+    "spawn": "HERO_ThburntSpawn",
+    "update": "HERO_ThburntUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0035",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10034c00",
+    "update": "FUN_10034c30"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0039",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THHAFOOD",
+   "handlers": {
+    "spawn": "HERO_ThhafoodSpawn",
+    "update": "HERO_ThhafoodUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003a",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THHAFOOD",
+   "handlers": {
+    "spawn": "HERO_ThhafoodSpawn2",
+    "update": "HERO_ThhafoodUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003b",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THHAFOOD",
+   "handlers": {
+    "spawn": "HERO_ThhafoodSpawn3",
+    "update": "HERO_ThhafoodUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0041",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_100246c0",
+    "update": "FUN_10024780"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0042",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFLOOD",
+   "handlers": {
+    "spawn": "HERO_ThfloodSpawn2",
+    "update": "HERO_ThfloodUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [],
+   "sounds": [
+    "0x514e",
+    "0x594f"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0043",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\MINOTAUR",
+   "handlers": {
+    "spawn": "HERO_MinotaurSpawn",
+    "update": "HERO_MinotaurUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0045",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THSNOW",
+   "handlers": {
+    "spawn": "HERO_ThsnowSpawn2",
+    "update": "HERO_ThsnowUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x004a",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10033e10",
+    "update": "FUN_10033e80"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  }
+ ]
+}

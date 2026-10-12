@@ -1,0 +1,800 @@
+{
+ "_doc": "Static digest of a level's actor handlers (L*.RE enemy tasks) -> extracted/meta/full-game/<SLUG>-enemies.json.",
+ "level": {
+  "id": 3,
+  "dir": "FOREST",
+  "config_record": "0x68b80"
+ },
+ "kinds": [
+  {
+   "kind": "0x0009",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10014de0",
+    "update": "FUN_10014e10"
+   },
+   "hits": [
+    {
+     "strength": 34,
+     "index": 1,
+     "damage_beginner_medium_herculean": [
+      8,
+      18,
+      22
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    2,
+    4,
+    7,
+    9,
+    16,
+    19,
+    22,
+    23,
+    25,
+    27
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0025",
+   "count": 9,
+   "bank": "P:\\SRC1\\ALIEN1\\GENERIC1",
+   "handlers": {
+    "spawn": "HERO_Generic1Spawn",
+    "update": "HERO_Generic1Update"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [
+    1,
+    2,
+    3,
+    11,
+    12
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0026",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS",
+   "handlers": {
+    "spawn": "HERO_ThugsSpawn",
+    "update": "HERO_ThugsUpdate"
+   },
+   "hits": [],
+   "hp_constants": [
+    9
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0027",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS",
+   "handlers": {
+    "spawn": "HERO_ThugsSpawn2",
+    "update": "HERO_ThugsUpdate2"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [
+    5
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0028",
+   "count": 5,
+   "bank": "P:\\SRC1\\ALIEN2\\ROCKC",
+   "handlers": {
+    "spawn": "HERO_RockcSpawn",
+    "update": "HERO_RockcUpdate"
+   },
+   "hits": [],
+   "hp_constants": [
+    100
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    9,
+    10,
+    11,
+    13,
+    15,
+    25,
+    35,
+    37
+   ],
+   "sounds": [
+    "0xe0dd",
+    "0xe0de"
+   ],
+   "spawns": [
+    "0x4a"
+   ]
+  },
+  {
+   "kind": "0x0029",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN2\\WRESTLEC",
+   "handlers": {
+    "spawn": "HERO_WrestlecSpawn",
+    "update": "HERO_WrestlecUpdate"
+   },
+   "hits": [
+    {
+     "strength": 4,
+     "index": 3,
+     "damage_beginner_medium_herculean": [
+      12,
+      30,
+      38
+     ]
+    },
+    {
+     "strength": 34,
+     "index": 1,
+     "damage_beginner_medium_herculean": [
+      8,
+      18,
+      22
+     ]
+    }
+   ],
+   "hp_constants": [
+    7
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [
+    1,
+    9,
+    10,
+    11,
+    21,
+    22,
+    23,
+    35,
+    36,
+    71
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002b",
+   "count": 41,
+   "bank": "P:\\SRC1\\ALIEN2\\ALEXFISH",
+   "handlers": {
+    "spawn": "HERO_AlexfishSpawn",
+    "update": "HERO_AlexfishUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": [
+    "0x56"
+   ]
+  },
+  {
+   "kind": "0x002e",
+   "count": 36,
+   "bank": "P:\\SRC1\\ALIEN2\\STYBIRD",
+   "handlers": {
+    "spawn": "HERO_StybirdSpawn",
+    "update": "HERO_StybirdUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    2,
+    8,
+    9,
+    27,
+    33,
+    34,
+    35,
+    38,
+    39,
+    43,
+    44,
+    45
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0031",
+   "count": 11,
+   "bank": "P:\\SRC1\\ALIEN2\\Water",
+   "handlers": {
+    "spawn": "HERO_WaterSpawn",
+    "update": "HERO_WaterUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x8ca"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0046",
+   "count": 4,
+   "bank": "P:\\SRC1\\ALIEN2\\Griffon",
+   "handlers": {
+    "spawn": "HERO_GriffonSpawn",
+    "update": "HERO_GriffonUpdate"
+   },
+   "hits": [],
+   "hp_constants": [
+    6
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    10,
+    35,
+    36,
+    59,
+    63,
+    71
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0047",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN2\\Griffon",
+   "handlers": {
+    "spawn": "HERO_GriffonSpawn2",
+    "update": "HERO_GriffonUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [
+    1
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    9,
+    11,
+    35,
+    59
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x004b",
+   "count": 4,
+   "bank": "P:\\SRC1\\ALIEN2\\Water",
+   "handlers": {
+    "spawn": "FUN_1000c720",
+    "update": "HERO_WaterUpdate3"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x004c",
+   "count": 6,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10009fb0",
+    "update": "FUN_1000a010"
+   },
+   "hits": [],
+   "hp_constants": [
+    50
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0xce",
+    "0xcf"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x004d",
+   "count": 4,
+   "bank": "P:\\SRC1\\ALIEN2\\ALEXFISH",
+   "handlers": {
+    "spawn": "HERO_AlexfishSpawn3",
+    "update": "HERO_AlexfishUpdate3"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    1,
+    2,
+    29,
+    33
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x004e",
+   "count": 4,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1000a420",
+    "update": "FUN_1000a490"
+   },
+   "hits": [],
+   "hp_constants": [
+    50
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0xce",
+    "0xcf"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x004f",
+   "count": 2,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1000f910",
+    "update": "FUN_1000fa00"
+   },
+   "hits": [],
+   "hp_constants": [
+    30
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [
+    1,
+    2,
+    3,
+    9
+   ],
+   "sounds": [],
+   "spawns": [
+    "0x2027"
+   ]
+  },
+  {
+   "kind": "0x0051",
+   "count": 10,
+   "bank": "P:\\SRC1\\ALIEN2\\STYBIRD",
+   "handlers": {
+    "spawn": "HERO_StybirdSpawn2",
+    "update": "HERO_StybirdUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0052",
+   "count": 9,
+   "bank": "P:\\SRC1\\ALIEN2\\STYBIRD",
+   "handlers": {
+    "spawn": "HERO_StybirdSpawn2",
+    "update": "HERO_StybirdUpdate3"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0053",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "LVL_NessusTriggerSpawn",
+    "update": "LVL_NessusTriggerTick"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x100"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0055",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN2\\Meg",
+   "handlers": {
+    "spawn": "HERO_MegSpawn",
+    "update": "FUN_1000c910"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002a",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\ARCHERC",
+   "handlers": {
+    "spawn": "HERO_ArchercSpawn",
+    "update": "HERO_ArchercUpdate"
+   },
+   "hits": [
+    {
+     "strength": 10,
+     "index": 1,
+     "damage_beginner_medium_herculean": [
+      8,
+      18,
+      22
+     ]
+    }
+   ],
+   "hp_constants": [
+    100
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    1,
+    9,
+    10,
+    11,
+    35,
+    36,
+    40,
+    41
+   ],
+   "sounds": [],
+   "spawns": [
+    "0x30"
+   ]
+  },
+  {
+   "kind": "0x002c",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\RcRock",
+   "handlers": {
+    "spawn": "HERO_RcrockSpawn",
+    "update": "HERO_RcrockUpdate"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    1,
+    2,
+    13,
+    60,
+    61
+   ],
+   "sounds": [
+    "0x8ce"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002d",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\FPHIL",
+   "handlers": {
+    "spawn": "HERO_FphilSpawn",
+    "update": "HERO_FphilUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002f",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\NESSUS\\Basic",
+   "handlers": {
+    "spawn": "HERO_NessusSpawn",
+    "update": "HERO_NessusUpdate"
+   },
+   "hits": [
+    {
+     "strength": 5,
+     "index": 4,
+     "damage_beginner_medium_herculean": [
+      15,
+      35,
+      45
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 4,
+   "states": [
+    1,
+    9,
+    10,
+    22,
+    35,
+    37,
+    55,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   "sounds": [
+    "0x110",
+    "0x24",
+    "0x610f"
+   ],
+   "spawns": [
+    "0x54"
+   ]
+  },
+  {
+   "kind": "0x0030",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\ARCHERC",
+   "handlers": {
+    "spawn": "HERO_ArchercSpawn2",
+    "update": "HERO_ArchercUpdate2"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0048",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Water",
+   "handlers": {
+    "spawn": "HERO_WaterSpawn2",
+    "update": "HERO_WaterUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0049",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\Water",
+   "handlers": {
+    "spawn": "HERO_WaterSpawn2",
+    "update": "HERO_WaterUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x004a",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\RcRock",
+   "handlers": {
+    "spawn": "HERO_RcrockSpawn2",
+    "update": "HERO_RcrockUpdate2"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x8cf",
+    "0xcb",
+    "0xce",
+    "0xcf",
+    "0xd0cd",
+    "0xd0d0",
+    "0xe0e0"
+   ],
+   "spawns": [
+    "0x49"
+   ]
+  },
+  {
+   "kind": "0x0054",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\NESSUS\\Basic",
+   "handlers": {
+    "spawn": "HERO_BasicSpawn",
+    "update": "FUN_1000c910"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0056",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN2\\ALEXFISH",
+   "handlers": {
+    "spawn": "HERO_AlexfishSpawn2",
+    "update": "HERO_AlexfishUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  }
+ ]
+}

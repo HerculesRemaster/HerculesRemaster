@@ -1,0 +1,422 @@
+{
+ "_doc": "Spawn kind -> type-table entry -> handler names for one ENG1 level (L*.RE.01 / L*.RE.02). See tools/level/level_types.py.",
+ "level": {
+  "id": 7,
+  "dir": "MEDUSA",
+  "config_record": "0x68c58"
+ },
+ "config": {
+  "record_rva": "0x68c58",
+  "level_id": 7,
+  "actor_pool_count": 80,
+  "marker_pool_count_minus5": 40,
+  "pickup_pool_count_minus5": 148,
+  "unknown_08": 2,
+  "unknown_0a": 3,
+  "unknown_0c": 10,
+  "unknown_0e": 80,
+  "unknown_10": 40,
+  "unknown_12": 128,
+  "unknown_14": 30,
+  "slot_list_count": 12,
+  "actor_kind_anim": "0x593c0",
+  "actor_kind_funcs": "0x59720",
+  "marker_kind_anim": "0x599a8",
+  "marker_kind_funcs": "0x59af8",
+  "pickup_kind_anim": "0x59c48",
+  "pickup_kind_funcs": "0x59de8",
+  "unused_30": "0x59f88",
+  "anim_event_table": "0x59fa0",
+  "attribute_funcs": "0x59fc0",
+  "zero_3c": 0,
+  "spawn_templates": "0x6fe60",
+  "attribute_flags": "0x59fd8"
+ },
+ "starts": {
+  "table_rva": "0x5a030",
+  "points": [
+   {
+    "index": 0,
+    "x": 4928,
+    "y": 640,
+    "z": 128,
+    "raw": "401380020100000020a00510000000000000000000000000"
+   },
+   {
+    "index": 1,
+    "x": 768,
+    "y": 128,
+    "z": 0,
+    "raw": "000380000000000020a00510000000000000000000000000"
+   }
+  ]
+ },
+ "start_and_level_banks": {
+  "level_list": [
+   1,
+   4,
+   2,
+   77,
+   78
+  ],
+  "start_lists": [
+   [
+    39
+   ],
+   [
+    39
+   ]
+  ],
+  "banks": [
+   {
+    "id": 1,
+    "path": "P:\\SRC1\\HERO\\HERCULES",
+    "archive_index": 560
+   },
+   {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1",
+    "archive_index": 552
+   },
+   {
+    "id": 4,
+    "path": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE",
+    "archive_index": 765
+   },
+   {
+    "id": 39,
+    "path": "P:\\SRC1\\ALIEN1\\ALIEN1",
+    "archive_index": 497
+   },
+   {
+    "id": 77,
+    "path": "P:\\SRC1\\BOSS\\MEDUSA",
+    "archive_index": 816
+   },
+   {
+    "id": 78,
+    "path": "P:\\SRC1\\BOSS\\SKELWAR",
+    "archive_index": 566
+   }
+  ]
+ },
+ "kinds": [
+  {
+   "kind": "0x0000",
+   "class": "actor",
+   "count": 6,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    232,
+    6016
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x002d",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x22da0",
+     "name": "HERO_MedusaSpawn5"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x22dd0",
+     "name": "HERO_MedusaUpdate3"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 77,
+    "path": "P:\\SRC1\\BOSS\\MEDUSA"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x59ca",
+    "0x59cb"
+   ]
+  },
+  {
+   "kind": "0x002e",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x21310",
+     "name": "HERO_MedusaSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x21320",
+     "name": "HERO_MedusaUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 77,
+    "path": "P:\\SRC1\\BOSS\\MEDUSA"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x002f",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x22150",
+     "name": "FUN_10022150"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x22180",
+     "name": "FUN_10022180"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0030",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x23110",
+     "name": "FUN_10023110"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x23120",
+     "name": "FUN_10023120"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0031",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x213c0",
+     "name": "HERO_MedusaSpawn2"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x21400",
+     "name": "HERO_MedusaDefeatTick"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 77,
+    "path": "P:\\SRC1\\BOSS\\MEDUSA"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x1c1",
+    "0x1ea"
+   ]
+  },
+  {
+   "kind": "0x0032",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x23a50",
+     "name": "HERO_SkelwarSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x23b30",
+     "name": "HERO_SkelwarUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 78,
+    "path": "P:\\SRC1\\BOSS\\SKELWAR"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x51d5",
+    "0x51d9",
+    "0xd1dd",
+    "0xd1de",
+    "0xd1df"
+   ]
+  },
+  {
+   "kind": "0x0033",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x23440",
+     "name": "HERO_MedusaSpawn6"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x23460",
+     "name": "HERO_MedusaUpdate4"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 77,
+    "path": "P:\\SRC1\\BOSS\\MEDUSA"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0034",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x21c00",
+     "name": "HERO_MedusaSpawn4"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x21d10",
+     "name": "HERO_MedusaUpdate2"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 77,
+    "path": "P:\\SRC1\\BOSS\\MEDUSA"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0035",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x21910",
+     "name": "HERO_MedusaDebrisSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x21940",
+     "name": "HERO_MedusaDebrisUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 77,
+    "path": "P:\\SRC1\\BOSS\\MEDUSA"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  }
+ ]
+}

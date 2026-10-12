@@ -1,0 +1,940 @@
+{
+ "_doc": "Static digest of a level's actor handlers (L*.RE enemy tasks) -> extracted/meta/full-game/<SLUG>-enemies.json.",
+ "level": {
+  "id": 1,
+  "dir": "TRAINING",
+  "config_record": "0x68b38"
+ },
+ "kinds": [
+  {
+   "kind": "0x0025",
+   "count": 17,
+   "bank": "P:\\SRC1\\ALIEN1\\GENERIC1",
+   "handlers": {
+    "spawn": "HERO_Generic1Spawn",
+    "update": "HERO_Generic1Update"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [
+    1,
+    2,
+    3,
+    11,
+    12
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002b",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING\\TOPS",
+   "handlers": {
+    "spawn": "HERO_TopsSpawn",
+    "update": "HERO_TopsUpdate"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "sounds": [
+    "0x4055",
+    "0x4854"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002c",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING\\TOPS",
+   "handlers": {
+    "spawn": "HERO_TopsSpawn",
+    "update": "HERO_TopsUpdate"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "sounds": [
+    "0x4055",
+    "0x4854"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002d",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING\\TOPS",
+   "handlers": {
+    "spawn": "HERO_TopsSpawn",
+    "update": "HERO_TopsUpdate"
+   },
+   "hits": [
+    {
+     "strength": 3,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "sounds": [
+    "0x4055",
+    "0x4854"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0031",
+   "count": 1,
+   "bank": "P:\\SRC1\\ALIEN1\\PHIL",
+   "handlers": {
+    "spawn": "HERO_PhilSpawn",
+    "update": "HERO_PhilUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0032",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003ce10",
+    "update": "FUN_1003cf90"
+   },
+   "hits": [],
+   "hp_constants": [
+    65535
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x60"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0033",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003ca80",
+    "update": "FUN_1003cb90"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x5f"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0035",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003d800",
+    "update": "FUN_1003d930"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x5f"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0036",
+   "count": 14,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING",
+   "handlers": {
+    "spawn": "HERO_Hazard36Spawn",
+    "update": "HERO_Hazard36Update"
+   },
+   "hits": [
+    {
+     "strength": 1,
+     "index": 0,
+     "damage_beginner_medium_herculean": [
+      5,
+      12,
+      15
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    9,
+    19
+   ],
+   "sounds": [
+    "0x4040",
+    "0x4044"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0037",
+   "count": 17,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003f140",
+    "update": "FUN_1003f1c0"
+   },
+   "hits": [],
+   "hp_constants": [
+    3,
+    20
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x4056",
+    "0xc05a"
+   ],
+   "spawns": [
+    "0x4028"
+   ]
+  },
+  {
+   "kind": "0x0038",
+   "count": 43,
+   "bank": "P:\\SRC1\\ALIEN2\\STYBIRD",
+   "handlers": {
+    "spawn": "HERO_BirdSpawn",
+    "update": "HERO_BirdUpdate"
+   },
+   "hits": [
+    {
+     "strength": 17,
+     "index": 0,
+     "damage_beginner_medium_herculean": [
+      5,
+      12,
+      15
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [
+    2,
+    8,
+    9,
+    33,
+    34,
+    35,
+    38,
+    39,
+    43,
+    44,
+    45
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0039",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003d310",
+    "update": "FUN_1003d440"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x5867",
+    "0x5f"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x003c",
+   "count": 3,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING\\SHARK",
+   "handlers": {
+    "spawn": "HERO_SharkSpawn",
+    "update": "HERO_SharkUpdate"
+   },
+   "hits": [
+    {
+     "strength": 19,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [
+    30,
+    60
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x405b",
+    "0x405c"
+   ],
+   "spawns": [
+    "0x202d",
+    "0x202e"
+   ]
+  },
+  {
+   "kind": "0x003d",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING\\SHARK",
+   "handlers": {
+    "spawn": "HERO_SharkSpawn2",
+    "update": "HERO_SharkUpdate2"
+   },
+   "hits": [
+    {
+     "strength": 19,
+     "index": 2,
+     "damage_beginner_medium_herculean": [
+      10,
+      25,
+      30
+     ]
+    }
+   ],
+   "hp_constants": [
+    5,
+    60
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x405b",
+    "0x405c"
+   ],
+   "spawns": [
+    "0x202d",
+    "0x202e"
+   ]
+  },
+  {
+   "kind": "0x003e",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003db90",
+    "update": "FUN_1003dcd0"
+   },
+   "hits": [],
+   "hp_constants": [
+    65535
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x4863",
+    "0x4864",
+    "0x5f"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x003f",
+   "count": 3,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003ebc0",
+    "update": "FUN_1003ecb0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0040",
+   "count": 3,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1000f910",
+    "update": "FUN_1000fa00"
+   },
+   "hits": [],
+   "hp_constants": [
+    30
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [
+    1,
+    2,
+    3,
+    9
+   ],
+   "sounds": [],
+   "spawns": [
+    "0x2027"
+   ]
+  },
+  {
+   "kind": "0x0041",
+   "count": 2,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10041820",
+    "update": "FUN_100418a0"
+   },
+   "hits": [],
+   "hp_constants": [
+    30
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 5,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0042",
+   "count": 2,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING\\PEG",
+   "handlers": {
+    "spawn": "HERO_PegSpawn",
+    "update": "HERO_PegUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0044",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003edf0",
+    "update": "FUN_1003eec0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0045",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003edf0",
+    "update": "FUN_1003eec0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0046",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10042020",
+    "update": "FUN_10042090"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0047",
+   "count": 2,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10041820",
+    "update": "FUN_100418a0"
+   },
+   "hits": [],
+   "hp_constants": [
+    30
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 5,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0049",
+   "count": 3,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003f620",
+    "update": "FUN_1003f720"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x004c",
+   "count": 1,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10010380",
+    "update": "FUN_100103c0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x004e",
+   "count": 3,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_10042710",
+    "update": "FUN_10042770"
+   },
+   "hits": [],
+   "hp_constants": [
+    35
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": [
+    "0x2027"
+   ]
+  },
+  {
+   "kind": "0x0029",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\ALIEN1",
+   "handlers": {
+    "spawn": "HERO_Alien1Spawn2",
+    "update": "HERO_Alien1Update2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 1,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002a",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING",
+   "handlers": {
+    "spawn": "HERO_TrainingSpawn2",
+    "update": "HERO_TrainingUpdate3"
+   },
+   "hits": [
+    {
+     "strength": 1,
+     "index": 0,
+     "damage_beginner_medium_herculean": [
+      5,
+      12,
+      15
+     ]
+    }
+   ],
+   "hp_constants": [
+    4
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002f",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING",
+   "handlers": {
+    "spawn": "HERO_TrainingSpawn5",
+    "update": "HERO_TrainingUpdate6"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": [
+    "0x2027"
+   ]
+  },
+  {
+   "kind": "0x0030",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING",
+   "handlers": {
+    "spawn": "HERO_TrainingSpawn",
+    "update": "HERO_TrainingUpdate"
+   },
+   "hits": [],
+   "hp_constants": [
+    3
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0034",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING",
+   "handlers": {
+    "spawn": "HERO_TrainingSpawn4",
+    "update": "HERO_TrainingUpdate5"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003a",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING",
+   "handlers": {
+    "spawn": "HERO_TrainingSpawn3",
+    "update": "HERO_TrainingUpdate4"
+   },
+   "hits": [
+    {
+     "strength": 1,
+     "index": 0,
+     "damage_beginner_medium_herculean": [
+      5,
+      12,
+      15
+     ]
+    }
+   ],
+   "hp_constants": [
+    5
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x003b",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_100409b0",
+    "update": "FUN_10040a00"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0043",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003d780",
+    "update": "FUN_1003d7c0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0048",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003f460",
+    "update": "FUN_1003f4b0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x4056",
+    "0xc05a"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x004a",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1003f460",
+    "update": "FUN_1003f8d0"
+   },
+   "hits": [],
+   "hp_constants": [
+    3
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x4056",
+    "0xc05a"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x004b",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_100409b0",
+    "update": "FUN_10040a30"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x004d",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\TRAINING",
+   "handlers": {
+    "spawn": "HERO_TrainingSpawn",
+    "update": "HERO_TrainingUpdate2"
+   },
+   "hits": [
+    {
+     "strength": 1,
+     "index": 0,
+     "damage_beginner_medium_herculean": [
+      5,
+      12,
+      15
+     ]
+    }
+   ],
+   "hp_constants": [
+    3
+   ],
+   "enemy_init_hp": false,
+   "can_be_hit": true,
+   "punch_strength": true,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  }
+ ]
+}
