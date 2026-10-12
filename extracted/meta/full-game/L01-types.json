@@ -1,0 +1,2630 @@
+{
+ "_doc": "Spawn kind -> type-table entry -> handler names for one ENG1 level (L*.RE.01 / L*.RE.02). See tools/level/level_types.py.",
+ "level": {
+  "id": 1,
+  "dir": "TRAINING",
+  "config_record": "0x68b38"
+ },
+ "config": {
+  "record_rva": "0x68b38",
+  "level_id": 1,
+  "actor_pool_count": 60,
+  "marker_pool_count_minus5": 120,
+  "pickup_pool_count_minus5": 98,
+  "unknown_08": 2,
+  "unknown_0a": 3,
+  "unknown_0c": 10,
+  "unknown_0e": 60,
+  "unknown_10": 120,
+  "unknown_12": 98,
+  "unknown_14": 20,
+  "slot_list_count": 8,
+  "actor_kind_anim": "0x67118",
+  "actor_kind_funcs": "0x67608",
+  "marker_kind_anim": "0x679c0",
+  "marker_kind_funcs": "0x67bd0",
+  "pickup_kind_anim": "0x67de0",
+  "pickup_kind_funcs": "0x67f80",
+  "unused_30": "0x68120",
+  "anim_event_table": "0x68138",
+  "attribute_funcs": "0x68158",
+  "zero_3c": 0,
+  "spawn_templates": "0x68170",
+  "attribute_flags": "0x68590"
+ },
+ "starts": {
+  "table_rva": "0x68600",
+  "points": [
+   {
+    "index": 0,
+    "x": 1246,
+    "y": 716,
+    "z": 128,
+    "raw": "de04cc0201000000e0850610000000000000000000000000"
+   },
+   {
+    "index": 1,
+    "x": 8256,
+    "y": 716,
+    "z": 128,
+    "raw": "4020cc0201000000e4850610000000000000000000000000"
+   },
+   {
+    "index": 2,
+    "x": 15568,
+    "y": 716,
+    "z": 128,
+    "raw": "d03ccc0201000000e8850610000000000000000000000000"
+   },
+   {
+    "index": 3,
+    "x": 19808,
+    "y": 268,
+    "z": 128,
+    "raw": "604d0c0101000000ec850610000000000000000000000000"
+   },
+   {
+    "index": 4,
+    "x": 25552,
+    "y": 300,
+    "z": 128,
+    "raw": "d0632c0101000000f0850610000000000000000000000000"
+   },
+   {
+    "index": 5,
+    "x": 31398,
+    "y": 268,
+    "z": 128,
+    "raw": "a67a0c0101000000f4850610000000000000000000000000"
+   },
+   {
+    "index": 6,
+    "x": 22720,
+    "y": 300,
+    "z": 128,
+    "raw": "c0582c0101000000f0850610000000000000000000000000"
+   },
+   {
+    "index": 7,
+    "x": 31398,
+    "y": 268,
+    "z": 128,
+    "raw": "a67a0c0101000000f4850610000000000000000000000000"
+   }
+  ]
+ },
+ "start_and_level_banks": {
+  "level_list": [
+   1,
+   2,
+   4,
+   39,
+   13,
+   15,
+   35
+  ],
+  "start_lists": [
+   [
+    31,
+    16
+   ],
+   [
+    46
+   ],
+   [
+    32
+   ],
+   [
+    31,
+    46
+   ],
+   [
+    46
+   ],
+   [
+    17
+   ],
+   [
+    46
+   ],
+   [
+    17
+   ]
+  ],
+  "banks": [
+   {
+    "id": 1,
+    "path": "P:\\SRC1\\HERO\\HERCULES",
+    "archive_index": 560
+   },
+   {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1",
+    "archive_index": 552
+   },
+   {
+    "id": 3,
+    "path": "P:\\SRC1\\HERO\\HERCULES\\HC_THROW",
+    "archive_index": 761
+   },
+   {
+    "id": 4,
+    "path": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE",
+    "archive_index": 765
+   },
+   {
+    "id": 5,
+    "path": "P:\\SRC1\\HERO\\HERCULES\\HC_DUNIT",
+    "archive_index": 760
+   },
+   {
+    "id": 6,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERH",
+    "archive_index": 777
+   },
+   {
+    "id": 7,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERE",
+    "archive_index": 776
+   },
+   {
+    "id": 13,
+    "path": "P:\\SRC1\\ALIEN1\\PHIL",
+    "archive_index": 811
+   },
+   {
+    "id": 14,
+    "path": "P:\\SRC1\\ALIEN1\\PHIL\\CLIMB",
+    "archive_index": 640
+   },
+   {
+    "id": 15,
+    "path": "P:\\SRC1\\ALIEN1\\PHIL\\REACT",
+    "archive_index": 620
+   },
+   {
+    "id": 16,
+    "path": "P:\\SRC1\\ALIEN1\\PHIL\\MACHINE",
+    "archive_index": 611
+   },
+   {
+    "id": 17,
+    "path": "P:\\SRC1\\ALIEN1\\PHIL\\DANCE",
+    "archive_index": 621
+   },
+   {
+    "id": 31,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING",
+    "archive_index": 501
+   },
+   {
+    "id": 32,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING\\TOPS",
+    "archive_index": 437
+   },
+   {
+    "id": 33,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING\\SHARK",
+    "archive_index": 369
+   },
+   {
+    "id": 34,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING\\PEG",
+    "archive_index": 619
+   },
+   {
+    "id": 35,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING\\TRAINFX",
+    "archive_index": 773
+   },
+   {
+    "id": 38,
+    "path": "P:\\SRC1\\ALIEN1\\GENERIC1",
+    "archive_index": 487
+   },
+   {
+    "id": 39,
+    "path": "P:\\SRC1\\ALIEN1\\ALIEN1",
+    "archive_index": 497
+   },
+   {
+    "id": 46,
+    "path": "P:\\SRC1\\ALIEN2\\STYBIRD",
+    "archive_index": 485
+   }
+  ]
+ },
+ "kinds": [
+  {
+   "kind": "0x0025",
+   "class": "actor",
+   "count": 17,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0xf430",
+     "name": "HERO_Generic1Spawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0xf4f0",
+     "name": "HERO_Generic1Update"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 38,
+    "path": "P:\\SRC1\\ALIEN1\\GENERIC1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    26173,
+    31170
+   ],
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x002b",
+   "class": "actor",
+   "count": 2,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3fe40",
+     "name": "HERO_TopsSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3ff30",
+     "name": "HERO_TopsUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 32,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING\\TOPS"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    16479,
+    17054
+   ],
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x4055",
+    "0x4854"
+   ]
+  },
+  {
+   "kind": "0x002c",
+   "class": "actor",
+   "count": 2,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3fe40",
+     "name": "HERO_TopsSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3ff30",
+     "name": "HERO_TopsUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 32,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING\\TOPS"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    16668,
+    17182
+   ],
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x4055",
+    "0x4854"
+   ]
+  },
+  {
+   "kind": "0x002d",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3fe40",
+     "name": "HERO_TopsSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3ff30",
+     "name": "HERO_TopsUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 32,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING\\TOPS"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    16800,
+    16800
+   ],
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x4055",
+    "0x4854"
+   ]
+  },
+  {
+   "kind": "0x0031",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x2cc50",
+     "name": "HERO_PhilSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x2cd30",
+     "name": "HERO_PhilUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 13,
+    "path": "P:\\SRC1\\ALIEN1\\PHIL"
+   },
+   "flags": [
+    10240
+   ],
+   "x_range": [
+    1831,
+    1831
+   ],
+   "category": "npc_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0032",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3ce10",
+     "name": "FUN_1003ce10"
+    },
+    "stub": {
+     "rva": "0x3cf90",
+     "name": "FUN_1003cf90"
+    },
+    "update": {
+     "rva": "0x3cf90",
+     "name": "FUN_1003cf90"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    64
+   ],
+   "x_range": [
+    2752,
+    2752
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x60"
+   ]
+  },
+  {
+   "kind": "0x0033",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3ca80",
+     "name": "FUN_1003ca80"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3cb90",
+     "name": "FUN_1003cb90"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    64
+   ],
+   "x_range": [
+    1728,
+    1728
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x5f"
+   ]
+  },
+  {
+   "kind": "0x0035",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3d800",
+     "name": "FUN_1003d800"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3d930",
+     "name": "FUN_1003d930"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    64
+   ],
+   "x_range": [
+    3492,
+    3492
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x5f"
+   ]
+  },
+  {
+   "kind": "0x0036",
+   "class": "actor",
+   "count": 14,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3e6d0",
+     "name": "HERO_Hazard36Spawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3e770",
+     "name": "HERO_Hazard36Update"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 31,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    4135,
+    29663
+   ],
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x4040",
+    "0x4044"
+   ]
+  },
+  {
+   "kind": "0x0037",
+   "class": "actor",
+   "count": 17,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3f140",
+     "name": "FUN_1003f140"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3f1c0",
+     "name": "FUN_1003f1c0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    17922,
+    24514
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x4056",
+    "0xc05a"
+   ]
+  },
+  {
+   "kind": "0x0038",
+   "class": "actor",
+   "count": 43,
+   "name": "bird",
+   "entry": {
+    "spawn": {
+     "rva": "0x433d0",
+     "name": "HERO_BirdSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x43440",
+     "name": "HERO_BirdUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 46,
+    "path": "P:\\SRC1\\ALIEN2\\STYBIRD"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    9209,
+    24550
+   ],
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0039",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3d310",
+     "name": "FUN_1003d310"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3d440",
+     "name": "FUN_1003d440"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    64
+   ],
+   "x_range": [
+    6840,
+    6840
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x5f",
+    "0x5867"
+   ]
+  },
+  {
+   "kind": "0x003c",
+   "class": "actor",
+   "count": 3,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x410b0",
+     "name": "HERO_SharkSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x410e0",
+     "name": "HERO_SharkUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 33,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING\\SHARK"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    14655,
+    15169
+   ],
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x405b",
+    "0x405c"
+   ]
+  },
+  {
+   "kind": "0x003d",
+   "class": "actor",
+   "count": 2,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x41460",
+     "name": "HERO_SharkSpawn2"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x41490",
+     "name": "HERO_SharkUpdate2"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 33,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING\\SHARK"
+   },
+   "flags": [
+    64
+   ],
+   "x_range": [
+    13059,
+    14337
+   ],
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x405b",
+    "0x405c"
+   ]
+  },
+  {
+   "kind": "0x003e",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3db90",
+     "name": "FUN_1003db90"
+    },
+    "stub": {
+     "rva": "0x3dcd0",
+     "name": "FUN_1003dcd0"
+    },
+    "update": {
+     "rva": "0x3dcd0",
+     "name": "FUN_1003dcd0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    64
+   ],
+   "x_range": [
+    5888,
+    5888
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x5f",
+    "0x4863",
+    "0x4864"
+   ]
+  },
+  {
+   "kind": "0x003f",
+   "class": "actor",
+   "count": 3,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3ebc0",
+     "name": "FUN_1003ebc0"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3ecb0",
+     "name": "FUN_1003ecb0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    64
+   ],
+   "x_range": [
+    2368,
+    6335
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0040",
+   "class": "actor",
+   "count": 3,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0xf910",
+     "name": "FUN_1000f910"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0xfa00",
+     "name": "LVL_CrackUpdate"
+    }
+   },
+   "anim_script": "0x66cc0",
+   "bank": null,
+   "flags": [
+    128
+   ],
+   "x_range": [
+    9528,
+    25208
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0041",
+   "class": "actor",
+   "count": 2,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x41820",
+     "name": "FUN_10041820"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x418a0",
+     "name": "FUN_100418a0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    10093,
+    10698
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0042",
+   "class": "actor",
+   "count": 2,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x41f50",
+     "name": "HERO_PegSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x41f80",
+     "name": "HERO_PegUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 34,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING\\PEG"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    3646,
+    6081
+   ],
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0044",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3edf0",
+     "name": "FUN_1003edf0"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3eec0",
+     "name": "FUN_1003eec0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    64
+   ],
+   "x_range": [
+    3904,
+    3904
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0045",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3edf0",
+     "name": "FUN_1003edf0"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3eec0",
+     "name": "FUN_1003eec0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    64
+   ],
+   "x_range": [
+    7478,
+    7478
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0046",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x42020",
+     "name": "FUN_10042020"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x42090",
+     "name": "FUN_10042090"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    7156,
+    7156
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0047",
+   "class": "actor",
+   "count": 2,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x41820",
+     "name": "FUN_10041820"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x418a0",
+     "name": "FUN_100418a0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    14434,
+    15295
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0049",
+   "class": "actor",
+   "count": 3,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x3f620",
+     "name": "FUN_1003f620"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3f720",
+     "name": "FUN_1003f720"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    64,
+    65,
+    66
+   ],
+   "x_range": [
+    21280,
+    22048
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x004c",
+   "class": "actor",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x10380",
+     "name": "FUN_10010380"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x103c0",
+     "name": "FUN_100103c0"
+    }
+   },
+   "anim_script": "0x67090",
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    20846,
+    20846
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x004e",
+   "class": "actor",
+   "count": 3,
+   "name": null,
+   "entry": {
+    "spawn": {
+     "rva": "0x42710",
+     "name": "FUN_10042710"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x42770",
+     "name": "FUN_10042770"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    15680,
+    17472
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1003",
+   "class": "other",
+   "count": 2,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    19968,
+    22464
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1005",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    31040,
+    31040
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x100e",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    9088,
+    9088
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x100f",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    9024,
+    9024
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1010",
+   "class": "other",
+   "count": 3,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    1240,
+    7696
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1011",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    30912,
+    30912
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x101f",
+   "class": "other",
+   "count": 5,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    7872,
+    22528
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1020",
+   "class": "other",
+   "count": 2,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    15864,
+    18368
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1021",
+   "class": "other",
+   "count": 2,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    11768,
+    15736
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1022",
+   "class": "other",
+   "count": 2,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    1248,
+    7680
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1026",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    9600,
+    9600
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x102e",
+   "class": "other",
+   "count": 3,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    8192,
+    17536
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1403",
+   "class": "other",
+   "count": 2,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    1256,
+    8640
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1803",
+   "class": "other",
+   "count": 2,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    19648,
+    22848
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1805",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    30784,
+    30784
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x180e",
+   "class": "other",
+   "count": 2,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    9152,
+    30720
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x180f",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    8896,
+    8896
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1810",
+   "class": "other",
+   "count": 2,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    8448,
+    30720
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1811",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    30536,
+    30536
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x181f",
+   "class": "other",
+   "count": 5,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    8712,
+    22784
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1820",
+   "class": "other",
+   "count": 2,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    15792,
+    18496
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1821",
+   "class": "other",
+   "count": 2,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    11584,
+    15792
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1822",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    7904,
+    7904
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1826",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    9224,
+    9224
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x182e",
+   "class": "other",
+   "count": 3,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    7736,
+    26304
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x1c03",
+   "class": "other",
+   "count": 1,
+   "name": null,
+   "entry": {},
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    8704,
+    8704
+   ],
+   "category": null,
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x2002",
+   "class": "pickup",
+   "count": 3,
+   "name": "max health",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x53538",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    14336,
+    19840
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x200a",
+   "class": "pickup",
+   "count": 1,
+   "name": null,
+   "entry": {
+    "init": {
+     "rva": "0x13840",
+     "name": "HERO_HcdunitInit"
+    },
+    "tick": {
+     "rva": "0x13880",
+     "name": "LVL_LevelExitTick"
+    }
+   },
+   "anim_script": "0x535d0",
+   "bank": {
+    "id": 5,
+    "path": "P:\\SRC1\\HERO\\HERCULES\\HC_DUNIT"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    31681,
+    31681
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x4012"
+   ]
+  },
+  {
+   "kind": "0x200b",
+   "class": "pickup",
+   "count": 8,
+   "name": "letter",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "x_range": [
+    2753,
+    27993
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x2013",
+   "class": "pickup",
+   "count": 23,
+   "name": "health",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x53550",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    512
+   ],
+   "x_range": [
+    7616,
+    28106
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x2014",
+   "class": "pickup",
+   "count": 1,
+   "name": "gauge 2c",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x534f8",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    512
+   ],
+   "x_range": [
+    10497,
+    10497
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x2015",
+   "class": "pickup",
+   "count": 3,
+   "name": "gauge 26",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x53458",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    512
+   ],
+   "x_range": [
+    7298,
+    19417
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x2016",
+   "class": "pickup",
+   "count": 1,
+   "name": "gauge 28",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x53480",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    512
+   ],
+   "x_range": [
+    17664,
+    17664
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x2017",
+   "class": "pickup",
+   "count": 1,
+   "name": "gauge 2a",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x534a8",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    512
+   ],
+   "x_range": [
+    20224,
+    20224
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x2018",
+   "class": "pickup",
+   "count": 60,
+   "name": "counter 18",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x533f8",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    2688,
+    29054
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x2019",
+   "class": "pickup",
+   "count": 154,
+   "name": "counter 14",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x53428",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    1342,
+    31443
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x201a",
+   "class": "pickup",
+   "count": 1,
+   "name": "item bit 1",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x53578",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    9429,
+    9429
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x201b",
+   "class": "pickup",
+   "count": 1,
+   "name": "item bit 2",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x53578",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    15959,
+    15959
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x201c",
+   "class": "pickup",
+   "count": 1,
+   "name": "item bit 4",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x53578",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    19486,
+    19486
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x201d",
+   "class": "pickup",
+   "count": 1,
+   "name": "item bit 8",
+   "entry": {
+    "init": {
+     "rva": "0x12c00",
+     "name": "HERO_PickupInit"
+    },
+    "tick": {
+     "rva": "0x12d80",
+     "name": "HERO_PickupTick"
+    }
+   },
+   "anim_script": "0x53578",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    28025,
+    28025
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x2030",
+   "class": "pickup",
+   "count": 8,
+   "name": null,
+   "entry": {
+    "init": {
+     "rva": "0x422d0",
+     "name": "FUN_100422d0"
+    },
+    "tick": {
+     "rva": "0x422f0",
+     "name": "FUN_100422f0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [
+    0
+   ],
+   "x_range": [
+    5888,
+    24228
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x400a",
+   "class": "marker",
+   "count": 1,
+   "name": "checkpoint 0",
+   "entry": {
+    "init": {
+     "rva": "0x13990",
+     "name": "LVL_CheckpointInit"
+    },
+    "tick": {
+     "rva": "0x139f0",
+     "name": "LVL_CheckpointTick"
+    }
+   },
+   "anim_script": "0x533c8",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    1222,
+    1222
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x28"
+   ]
+  },
+  {
+   "kind": "0x400b",
+   "class": "marker",
+   "count": 1,
+   "name": "checkpoint 1",
+   "entry": {
+    "init": {
+     "rva": "0x13990",
+     "name": "LVL_CheckpointInit"
+    },
+    "tick": {
+     "rva": "0x139f0",
+     "name": "LVL_CheckpointTick"
+    }
+   },
+   "anim_script": "0x533c8",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    8228,
+    8228
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x28"
+   ]
+  },
+  {
+   "kind": "0x400c",
+   "class": "marker",
+   "count": 1,
+   "name": "checkpoint 2",
+   "entry": {
+    "init": {
+     "rva": "0x13990",
+     "name": "LVL_CheckpointInit"
+    },
+    "tick": {
+     "rva": "0x139f0",
+     "name": "LVL_CheckpointTick"
+    }
+   },
+   "anim_script": "0x533c8",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    15553,
+    15553
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x28"
+   ]
+  },
+  {
+   "kind": "0x400d",
+   "class": "marker",
+   "count": 1,
+   "name": "checkpoint 3",
+   "entry": {
+    "init": {
+     "rva": "0x13990",
+     "name": "LVL_CheckpointInit"
+    },
+    "tick": {
+     "rva": "0x139f0",
+     "name": "LVL_CheckpointTick"
+    }
+   },
+   "anim_script": "0x533c8",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    19777,
+    19777
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x28"
+   ]
+  },
+  {
+   "kind": "0x400e",
+   "class": "marker",
+   "count": 1,
+   "name": "checkpoint 4",
+   "entry": {
+    "init": {
+     "rva": "0x13990",
+     "name": "LVL_CheckpointInit"
+    },
+    "tick": {
+     "rva": "0x139f0",
+     "name": "LVL_CheckpointTick"
+    }
+   },
+   "anim_script": "0x533c8",
+   "bank": {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1"
+   },
+   "flags": [
+    0
+   ],
+   "x_range": [
+    25537,
+    25537
+   ],
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x28"
+   ]
+  },
+  {
+   "kind": "0x0029",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x40b00",
+     "name": "HERO_Alien1Spawn2"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x40b40",
+     "name": "HERO_Alien1Update2"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 39,
+    "path": "P:\\SRC1\\ALIEN1\\ALIEN1"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x002a",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x3e370",
+     "name": "HERO_TrainingSpawn2"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3e3d0",
+     "name": "HERO_TrainingUpdate3"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 31,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x002f",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x40e20",
+     "name": "HERO_TrainingSpawn5"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x40e50",
+     "name": "HERO_TrainingUpdate6"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 31,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0030",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x3e220",
+     "name": "HERO_TrainingSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3e160",
+     "name": "HERO_TrainingUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 31,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0034",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x3e9b0",
+     "name": "HERO_TrainingSpawn4"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3e9d0",
+     "name": "HERO_TrainingUpdate5"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 31,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x003a",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x3e580",
+     "name": "HERO_TrainingSpawn3"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3e5d0",
+     "name": "HERO_TrainingUpdate4"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 31,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x003b",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x409b0",
+     "name": "FUN_100409b0"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x40a00",
+     "name": "FUN_10040a00"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0043",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x3d780",
+     "name": "FUN_1003d780"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3d7c0",
+     "name": "FUN_1003d7c0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0048",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x3f460",
+     "name": "FUN_1003f460"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3f4b0",
+     "name": "FUN_1003f4b0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x4056",
+    "0xc05a"
+   ]
+  },
+  {
+   "kind": "0x004a",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x3f460",
+     "name": "FUN_1003f460"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3f8d0",
+     "name": "FUN_1003f8d0"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0x4056",
+    "0xc05a"
+   ]
+  },
+  {
+   "kind": "0x004b",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x409b0",
+     "name": "FUN_100409b0"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x40a30",
+     "name": "FUN_10040a30"
+    }
+   },
+   "anim_script": null,
+   "bank": null,
+   "flags": [],
+   "x_range": null,
+   "category": "props_pickups",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x004d",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x3e220",
+     "name": "HERO_TrainingSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x3e280",
+     "name": "HERO_TrainingUpdate2"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 31,
+    "path": "P:\\SRC1\\ALIEN1\\TRAINING"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "enemy_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  }
+ ]
+}

@@ -1,0 +1,313 @@
+{
+ "_doc": "Sequence labels by visual inspection of the decoded frames (contact sheets) and bank names. Frame lists come from anim.json 'sequences' (runtime TRAINING demos DEMO1_1..1_3).",
+ "560": [
+  {
+   "label": "run",
+   "frames": [
+    2,
+    3,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "note": "2-3 start, 10-15 and 4-9 cycle"
+  },
+  {
+   "label": "fall_loop",
+   "frames": [
+    465,
+    466,
+    467,
+    468
+   ],
+   "note": "script 0x10053df8 (461-468 loop) after jumps/flips; cape blown up"
+  },
+  {
+   "label": "jump",
+   "frames": [
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93
+   ],
+   "note": "y arc 181->146->185 in the trace"
+  },
+  {
+   "label": "jump_somersault",
+   "frames": [
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391
+   ]
+  },
+  {
+   "label": "flip",
+   "frames": [
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302
+   ]
+  },
+  {
+   "label": "roll",
+   "frames": [
+    26,
+    27,
+    28,
+    145,
+    144,
+    143,
+    142,
+    141,
+    140,
+    139
+   ]
+  },
+  {
+   "label": "land_crouch",
+   "frames": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "label": "crouch",
+   "frames": [
+    120,
+    121,
+    122
+   ]
+  },
+  {
+   "label": "attack_sword_thrust",
+   "frames": [
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    246,
+    247
+   ]
+  },
+  {
+   "label": "attack_sword_lunge",
+   "frames": [
+    188,
+    189,
+    190,
+    191,
+    344,
+    343,
+    340,
+    339
+   ]
+  },
+  {
+   "label": "attack_sword_swing",
+   "frames": [
+    428,
+    429,
+    430,
+    431
+   ]
+  },
+  {
+   "label": "attack_sword_short",
+   "frames": [
+    186,
+    187
+   ]
+  },
+  {
+   "label": "sword_raise",
+   "frames": [
+    252,
+    253,
+    254,
+    235,
+    236,
+    237,
+    238
+   ]
+  },
+  {
+   "label": "air_down_move",
+   "frames": [
+    392,
+    393,
+    394,
+    395,
+    396,
+    400,
+    401,
+    402,
+    403
+   ],
+   "note": "code: script 0x10053e28 (392-395) = hero state 24, Down held at the apex of a take-off (ENG1 0x19d70); earlier visual label 'damage' was wrong"
+  },
+  {
+   "label": "stand_turn",
+   "frames": [
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    461,
+    462,
+    463,
+    464
+   ]
+  },
+  {
+   "label": "stance",
+   "frames": [
+    361,
+    362,
+    363,
+    364,
+    365
+   ]
+  },
+  {
+   "label": "fx_sword_swoosh",
+   "frames": [
+    504,
+    505,
+    506
+   ]
+  },
+  {
+   "label": "fx_sword_swoosh_2",
+   "frames": [
+    477,
+    478,
+    479,
+    480
+   ]
+  }
+ ],
+ "761": [
+  {
+   "label": "throw_heavy",
+   "frames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+   ]
+  },
+  {
+   "label": "throw_push",
+   "frames": [
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+   ]
+  },
+  {
+   "label": "lift_throw",
+   "frames": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    18,
+    19,
+    20
+   ]
+  }
+ ],
+ "765": [
+  {
+   "label": "idle_breathing",
+   "frames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "note": "script 0x10053830 (idle state 0): 1-8 then 7..4 ping-pong; bank path says HC_DIE but these are the breathing idle"
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "_doc": "S2.06 ENG1 i2.5 decode coverage (tools/level/level_decode.py --out extracted/full-game/levels, render_preview.py --dir ... --collision, render_models.py, level_viewer/build.py LEVEL DIR). Status per part: DECODED (code-backed layout, exported), PARTIAL, OPEN, UNREAD (no ENG1 consumer).",
+ "parts": {
+  "header/sections/blocks/cells": "DECODED",
+  "block meshes (T34) + T30 textures": "DECODED",
+  "collision profiles": "DECODED",
+  "spawns + templates (level config +0x40)": "DECODED",
+  "cameras (T58/T54)": "DECODED; T54 flags = light index (S2.02)",
+  "models (T28, n_extra T34 entries)": "DECODED except TRAINING k 42-46, 49, 50, 52 (non-mesh records, consumer open); extra n x 8 bytes OPEN",
+  "T50 corner lights": "DECODED (exported as lights)",
+  "T40 attribute grids": "LAYOUT known (LVL_CellAttribute); not exported; value meanings per level OPEN",
+  "T4c camera keys": "LAYOUT known (0x20ea0); fields OPEN; only TITANS has entries",
+  "T44": "DECODED: parallax background tile map (LVL_DrawBackgroundTiles 0x2ff0)",
+  "section bytes 1, 3": "UNREAD",
+  "sky / background": "DECODED: T44 rendered (background.png, page 0x9c/0x9e, tile modes); per-level clear colours/scroll in docs/level-format.md",
+  "VRAM image tail past the header": "DECODED: not loaded by LVL_LoadMap (runtime-checked on HYDRA, 2026-10-12); decoder zero-fills, notes per level",
+  "model placement in previews": "PARTIAL: only spawn-code rules (HYDRA kind 0x31 -> models 9/10, 0x1dd00)"
+ },
+ "levels": {
+  "TRAINING": {
+   "columns": 500,
+   "rows": 16,
+   "layers": 5,
+   "block_types_used": 635,
+   "textures": 2676,
+   "cameras": 347,
+   "spawns": 451,
+   "models": 89,
+   "models_unparsed": [
+    42,
+    43,
+    46,
+    49,
+    50,
+    52
+   ],
+   "model_quads": 1918,
+   "lights": 160,
+   "warnings": [],
+   "previews": [
+    "background.png",
+    "models.png",
+    "preview_collision.png",
+    "preview_composite.png",
+    "preview_layer0.png",
+    "preview_layer1.png",
+    "preview_layer2.png",
+    "preview_layer3.png",
+    "preview_layer4.png",
+    "viewer.html",
+    "vram.png"
+   ],
+   "notes": []
+  },
+  "FOREST": {
+   "columns": 310,
+   "rows": 14,
+   "layers": 11,
+   "block_types_used": 537,
+   "textures": 935,
+   "cameras": 893,
+   "spawns": 283,
+   "models": 23,
+   "models_unparsed": [],
+   "model_quads": 478,
+   "lights": 657,
+   "warnings": [],
+   "previews": [
+    "background.png",
+    "models.png",
+    "preview_collision.png",
+    "preview_composite.png",
+    "preview_layer0.png",
+    "preview_layer1.png",
+    "preview_layer10.png",
+    "preview_layer2.png",
+    "preview_layer3.png",
+    "preview_layer4.png",
+    "preview_layer5.png",
+    "preview_layer6.png",
+    "preview_layer7.png",
+    "preview_layer8.png",
+    "preview_layer9.png",
+    "viewer.html",
+    "vram.png"
+   ],
+   "notes": [
+    "VRAM image runs 15616 bytes past the map header (0x106800); LVL_LoadMap does not load them (runtime contents undefined, unused by textures; 0 here)"
+   ]
+  },
+  "THEBES": {
+   "columns": 300,
+   "rows": 21,
+   "layers": 5,
+   "block_types_used": 507,
+   "textures": 1451,
+   "cameras": 1589,
+   "spawns": 587,
+   "models": 27,
+   "models_unparsed": [],
+   "model_quads": 399,
+   "lights": 1475,
+   "warnings": [],
+   "previews": [
+    "background.png",
+    "models.png",
+    "preview_collision.png",
+    "preview_composite.png",
+    "preview_layer0.png",
+    "preview_layer1.png",
+    "preview_layer2.png",
+    "preview_layer3.png",
+    "preview_layer4.png",
+    "viewer.html",
+    "vram.png"
+   ],
+   "notes": []
+  },
+  "HYDRA": {
+   "columns": 80,
+   "rows": 18,
+   "layers": 2,
+   "block_types_used": 152,
+   "textures": 1046,
+   "cameras": 99,
+   "spawns": 2,
+   "models": 78,
+   "models_unparsed": [],
+   "model_quads": 7472,
+   "lights": 20,
+   "warnings": [],
+   "previews": [
+    "background.png",
+    "models.png",
+    "preview_collision.png",
+    "preview_composite.png",
+    "preview_layer0.png",
+    "preview_layer1.png",
+    "viewer.html",
+    "vram.png"
+   ],
+   "notes": [
+    "VRAM image runs 15444 bytes past the map header (0xf0800); LVL_LoadMap does not load them (runtime contents undefined, unused by textures; 0 here)"
+   ]
+  },
+  "MEDUSA": {
+   "columns": 80,
+   "rows": 18,
+   "layers": 2,
+   "block_types_used": 13,
+   "textures": 219,
+   "cameras": 80,
+   "spawns": 6,
+   "models": 16,
+   "models_unparsed": [],
+   "model_quads": 375,
+   "lights": 1,
+   "warnings": [],
+   "previews": [
+    "models.png",
+    "preview_collision.png",
+    "preview_composite.png",
+    "preview_layer0.png",
+    "preview_layer1.png",
+    "viewer.html",
+    "vram.png"
+   ],
+   "notes": [
+    "VRAM image runs 96384 bytes past the map header (0xcc000); LVL_LoadMap does not load them (runtime contents undefined, unused by textures; 0 here)"
+   ]
+  },
+  "TITANS": {
+   "columns": 512,
+   "rows": 18,
+   "layers": 5,
+   "block_types_used": 470,
+   "textures": 1649,
+   "cameras": 546,
+   "spawns": 93,
+   "models": 18,
+   "models_unparsed": [],
+   "model_quads": 823,
+   "lights": 265,
+   "warnings": [],
+   "previews": [
+    "background.png",
+    "models.png",
+    "preview_collision.png",
+    "preview_composite.png",
+    "preview_layer0.png",
+    "preview_layer1.png",
+    "preview_layer2.png",
+    "preview_layer3.png",
+    "preview_layer4.png",
+    "viewer.html",
+    "vram.png"
+   ],
+   "notes": []
+  },
+  "VORTEX": {
+   "columns": 20,
+   "rows": 20,
+   "layers": 1,
+   "block_types_used": 18,
+   "textures": 50,
+   "cameras": 2,
+   "spawns": 0,
+   "models": 1,
+   "models_unparsed": [],
+   "model_quads": 1,
+   "lights": 1,
+   "warnings": [],
+   "previews": [
+    "background.png",
+    "models.png",
+    "preview_collision.png",
+    "preview_composite.png",
+    "preview_layer0.png",
+    "viewer.html",
+    "vram.png"
+   ],
+   "notes": [
+    "VRAM image runs 15864 bytes past the map header (0xdf800); LVL_LoadMap does not load them (runtime contents undefined, unused by textures; 0 here)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "source": "ENG1.DLL",
+ "target": "ENG3.DLL",
+ "matched": 208,
+ "proposed": [
+  {
+   "target": "10008340",
+   "target_name": "FUN_10008340",
+   "source": "10003270",
+   "source_name": "ANIM_LoadLevelBanks",
+   "instructions": 115
+  },
+  {
+   "target": "10008940",
+   "target_name": "FUN_10008940",
+   "source": "10003870",
+   "source_name": "ANIM_FreeBank",
+   "instructions": 23
+  },
+  {
+   "target": "1001c9f0",
+   "target_name": "FUN_1001c9f0",
+   "source": "100270c0",
+   "source_name": "LVL_SpawnActor",
+   "instructions": 79
+  },
+  {
+   "target": "1001d050",
+   "target_name": "FUN_1001d050",
+   "source": "10027720",
+   "source_name": "LVL_SpawnMarker",
+   "instructions": 59
+  },
+  {
+   "target": "1001d570",
+   "target_name": "FUN_1001d570",
+   "source": "10027c40",
+   "source_name": "LVL_SpawnPickup",
+   "instructions": 44
+  },
+  {
+   "target": "10023ce0",
+   "target_name": "FUN_10023ce0",
+   "source": "10031330",
+   "source_name": "GFX_DrawModelList",
+   "instructions": 61
+  },
+  {
+   "target": "10023d90",
+   "target_name": "FUN_10023d90",
+   "source": "100313e0",
+   "source_name": "GFX_DrawObjectModel",
+   "instructions": 47
+  },
+  {
+   "target": "10023e20",
+   "target_name": "FUN_10023e20",
+   "source": "10031470",
+   "source_name": "GFX_DrawModelChildren",
+   "instructions": 76
+  },
+  {
+   "target": "100246e0",
+   "target_name": "FUN_100246e0",
+   "source": "10031d30",
+   "source_name": "GFX_SetModelOffset",
+   "instructions": 52
+  }
+ ]
+}

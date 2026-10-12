@@ -1,0 +1,148 @@
+{
+ "ENG1.DLL": {
+  "functions": {
+   "0x10015090": [
+    "HERO_Init",
+    "state table 0x72040, start position, state 10"
+   ],
+   "0x100156a0": [
+    "HERO_Tick",
+    "per tick from MOD_Tick"
+   ],
+   "0x10015780": [
+    "HERO_Update",
+    "timers, input masking, cheat fly, table[state]"
+   ],
+   "0x10015d00": [
+    "HERO_AnimStep",
+    "script {s16 frame|opcode, s16 ticks|arg}"
+   ],
+   "0x10019a10": [
+    "HERO_MoveX",
+    "speed -> target by accel/decel, x += speed"
+   ],
+   "0x10017130": [
+    "HERO_JumpStart",
+    "vy 14.0, rise decel 0.875, gravity 0.4375, max 13.0"
+   ],
+   "0x10019d70": [
+    "HERO_AirPhysics",
+    "rise/apex/fall, gravity 0.375 after apex"
+   ],
+   "0x10019aa0": [
+    "HERO_VerticalStep",
+    ""
+   ],
+   "0x100171b0": [
+    "HERO_AirUpdate",
+    "states 2,4,5,19,23; variable jump height"
+   ],
+   "0x10018f60": [
+    "HERO_Die",
+    "lose a life, respawn"
+   ],
+   "0x10016790": [
+    "HERO_SetIdle",
+    ""
+   ],
+   "0x10016a60": [
+    "HERO_SetRun",
+    ""
+   ],
+   "0x10016c40": [
+    "HERO_SetStop",
+    ""
+   ],
+   "0x10016e70": [
+    "HERO_SetTurn",
+    ""
+   ],
+   "0x10017000": [
+    "HERO_SetTakeoff",
+    ""
+   ],
+   "0x10017060": [
+    "HERO_SetJump",
+    ""
+   ],
+   "0x10017340": [
+    "HERO_SetFall",
+    ""
+   ],
+   "0x100176e0": [
+    "HERO_SetLand",
+    ""
+   ],
+   "0x10017a50": [
+    "HERO_SetCrouch",
+    ""
+   ],
+   "0x100178f0": [
+    "HERO_SetRoll",
+    ""
+   ],
+   "0x10017ff0": [
+    "HERO_SetSword",
+    ""
+   ],
+   "0x10017ba0": [
+    "HERO_SetPunch",
+    ""
+   ],
+   "0x10018b10": [
+    "HERO_SetLiftThrow",
+    ""
+   ],
+   "0x10018900": [
+    "HERO_SetLedge",
+    ""
+   ],
+   "0x100188a0": [
+    "HERO_CheckLedge",
+    ""
+   ],
+   "0x10019160": [
+    "HERO_SetEndSequence",
+    ""
+   ],
+   "0x10029da0": [
+    "LVL_SnapToSurface",
+    "surface within max(|dx|,4)+8 below"
+   ],
+   "0x10005ea0": [
+    "HERO_DemoLoad",
+    "DEMO*.DAT header, start index"
+   ],
+   "0x10006005": [
+    "HERO_DemoStep",
+    "u16 pad word per tick"
+   ],
+   "0x100258e0": [
+    "HERO_UpdateObjects",
+    "three object pools, per-type spawn/update tables"
+   ],
+   "0x100433d0": [
+    "HERO_BirdSpawn",
+    "Stymphalian bird type 0x38"
+   ],
+   "0x10043440": [
+    "HERO_BirdUpdate",
+    "hover 64-128 above hero, 6.0 vertical"
+   ]
+  },
+  "globals": {
+   "0x10072860": [
+    "g_heroObj",
+    "pool C slot 0"
+   ],
+   "0x10072108": [
+    "g_heroState",
+    ""
+   ],
+   "0x10072040": [
+    "g_heroStateTable",
+    ""
+   ]
+  }
+ }
+}

@@ -1,0 +1,1152 @@
+[
+ {
+  "address": "10021000",
+  "value": "IsTNT",
+  "length": 5
+ },
+ {
+  "address": "10021008",
+  "value": "kernel32.dll",
+  "length": 12
+ },
+ {
+  "address": "10021018",
+  "value": "runtime error ",
+  "length": 14
+ },
+ {
+  "address": "1002102c",
+  "value": "TLOSS error\r\n",
+  "length": 13
+ },
+ {
+  "address": "1002103c",
+  "value": "SING error\r\n",
+  "length": 12
+ },
+ {
+  "address": "1002104c",
+  "value": "DOMAIN error\r\n",
+  "length": 14
+ },
+ {
+  "address": "1002105c",
+  "value": "R6028\r\n- unable to initialize heap\r\n",
+  "length": 36
+ },
+ {
+  "address": "10021084",
+  "value": "R6027\r\n- not enough space for lowio initialization\r\n",
+  "length": 52
+ },
+ {
+  "address": "100210bc",
+  "value": "R6026\r\n- not enough space for stdio initialization\r\n",
+  "length": 52
+ },
+ {
+  "address": "100210f4",
+  "value": "R6025\r\n- pure virtual function call\r\n",
+  "length": 37
+ },
+ {
+  "address": "1002111c",
+  "value": "R6024\r\n- not enough space for _onexit/atexit table\r\n",
+  "length": 52
+ },
+ {
+  "address": "10021154",
+  "value": "R6019\r\n- unable to open console device\r\n",
+  "length": 40
+ },
+ {
+  "address": "10021180",
+  "value": "R6018\r\n- unexpected heap error\r\n",
+  "length": 32
+ },
+ {
+  "address": "100211a4",
+  "value": "R6017\r\n- unexpected multithread lock error\r\n",
+  "length": 44
+ },
+ {
+  "address": "100211d4",
+  "value": "R6016\r\n- not enough space for thread data\r\n",
+  "length": 43
+ },
+ {
+  "address": "10021200",
+  "value": "\r\nabnormal program termination\r\n",
+  "length": 32
+ },
+ {
+  "address": "10021224",
+  "value": "R6009\r\n- not enough space for environment\r\n",
+  "length": 43
+ },
+ {
+  "address": "10021250",
+  "value": "R6008\r\n- not enough space for arguments\r\n",
+  "length": 41
+ },
+ {
+  "address": "1002127c",
+  "value": "R6002\r\n- floating point not loaded\r\n",
+  "length": 36
+ },
+ {
+  "address": "100212a4",
+  "value": "Microsoft Visual C++ Runtime Library",
+  "length": 36
+ },
+ {
+  "address": "100212d0",
+  "value": "Runtime Error!\n\nProgram: ",
+  "length": 25
+ },
+ {
+  "address": "100212f0",
+  "value": "<program name unknown>",
+  "length": 22
+ },
+ {
+  "address": "10021308",
+  "value": "GetLastActivePopup",
+  "length": 18
+ },
+ {
+  "address": "1002131c",
+  "value": "GetActiveWindow",
+  "length": 15
+ },
+ {
+  "address": "1002132c",
+  "value": "MessageBoxA",
+  "length": 11
+ },
+ {
+  "address": "10021338",
+  "value": "user32.dll",
+  "length": 10
+ },
+ {
+  "address": "10021382",
+  "value": "Title.dll",
+  "length": 9
+ },
+ {
+  "address": "1002138c",
+  "value": "PC_DLLEngineMain",
+  "length": 16
+ },
+ {
+  "address": "1002214c",
+  "value": "\\ANIMPSX.BIN",
+  "length": 12
+ },
+ {
+  "address": "1002215c",
+  "value": "Illegal Dbase %d \n",
+  "length": 18
+ },
+ {
+  "address": "10022194",
+  "value": "\n 0x%x 0x%x 0x%x \n",
+  "length": 18
+ },
+ {
+  "address": "100221a8",
+  "value": "\n LinkedSoundFx %d :: %d %d",
+  "length": 27
+ },
+ {
+  "address": "100221c4",
+  "value": "\n RemoveFxLinks(0x%x)",
+  "length": 21
+ },
+ {
+  "address": "100221dc",
+  "value": "\n RemoveFxIdLinks(%d,0x%x)",
+  "length": 26
+ },
+ {
+  "address": "100221f8",
+  "value": "\n ClearAllSoundFx_Excpt(%d)",
+  "length": 27
+ },
+ {
+  "address": "10022430",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c31.TGA",
+  "length": 40
+ },
+ {
+  "address": "1002245c",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c30.TGA",
+  "length": 40
+ },
+ {
+  "address": "10022488",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c29.TGA",
+  "length": 40
+ },
+ {
+  "address": "100224b4",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c28.TGA",
+  "length": 40
+ },
+ {
+  "address": "100224e0",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c27.TGA",
+  "length": 40
+ },
+ {
+  "address": "1002250c",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c26.TGA",
+  "length": 40
+ },
+ {
+  "address": "10022538",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c25.TGA",
+  "length": 40
+ },
+ {
+  "address": "10022564",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c24.TGA",
+  "length": 40
+ },
+ {
+  "address": "10022590",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c23.TGA",
+  "length": 40
+ },
+ {
+  "address": "100225bc",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c22.TGA",
+  "length": 40
+ },
+ {
+  "address": "100225e8",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c21.TGA",
+  "length": 40
+ },
+ {
+  "address": "10022614",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c20.TGA",
+  "length": 40
+ },
+ {
+  "address": "10022640",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c19.TGA",
+  "length": 40
+ },
+ {
+  "address": "1002266c",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c18.TGA",
+  "length": 40
+ },
+ {
+  "address": "10022698",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c17.TGA",
+  "length": 40
+ },
+ {
+  "address": "100226c4",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c16.TGA",
+  "length": 40
+ },
+ {
+  "address": "100226f0",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c15.TGA",
+  "length": 40
+ },
+ {
+  "address": "1002271c",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c14.TGA",
+  "length": 40
+ },
+ {
+  "address": "10022748",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c13.TGA",
+  "length": 40
+ },
+ {
+  "address": "10022774",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c12.TGA",
+  "length": 40
+ },
+ {
+  "address": "100227a0",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c11.TGA",
+  "length": 40
+ },
+ {
+  "address": "100227cc",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c10.TGA",
+  "length": 40
+ },
+ {
+  "address": "100227f8",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c9.TGA",
+  "length": 39
+ },
+ {
+  "address": "10022820",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c8.TGA",
+  "length": 39
+ },
+ {
+  "address": "10022848",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c7.TGA",
+  "length": 39
+ },
+ {
+  "address": "10022870",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c6.TGA",
+  "length": 39
+ },
+ {
+  "address": "10022898",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c5.TGA",
+  "length": 39
+ },
+ {
+  "address": "100228c0",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c4.TGA",
+  "length": 39
+ },
+ {
+  "address": "100228e8",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c3.TGA",
+  "length": 39
+ },
+ {
+  "address": "10022910",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c2.TGA",
+  "length": 39
+ },
+ {
+  "address": "10022938",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\c1.TGA",
+  "length": 39
+ },
+ {
+  "address": "10022960",
+  "value": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\endeasy.TGA",
+  "length": 44
+ },
+ {
+  "address": "10022990",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t018.TGA",
+  "length": 32
+ },
+ {
+  "address": "100229b4",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t017.TGA",
+  "length": 32
+ },
+ {
+  "address": "100229d8",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t016.TGA",
+  "length": 32
+ },
+ {
+  "address": "100229fc",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t015.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022a20",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t014.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022a44",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t013.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022a68",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t012.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022a8c",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t011.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022ab0",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t010.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022ad4",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t009.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022af8",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t008.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022b1c",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t007.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022b40",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t006.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022b64",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t005.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022b88",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t004.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022bac",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t003.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022bd0",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t002.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022bf4",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\t001.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022c18",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV12.TGA",
+  "length": 38
+ },
+ {
+  "address": "10022c40",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV11.TGA",
+  "length": 38
+ },
+ {
+  "address": "10022c68",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV10.TGA",
+  "length": 38
+ },
+ {
+  "address": "10022c90",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV9.TGA",
+  "length": 37
+ },
+ {
+  "address": "10022cb8",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV8.TGA",
+  "length": 37
+ },
+ {
+  "address": "10022ce0",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV7.TGA",
+  "length": 37
+ },
+ {
+  "address": "10022d08",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV6.TGA",
+  "length": 37
+ },
+ {
+  "address": "10022d30",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV5.TGA",
+  "length": 37
+ },
+ {
+  "address": "10022d58",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV4.TGA",
+  "length": 37
+ },
+ {
+  "address": "10022d80",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV3.TGA",
+  "length": 37
+ },
+ {
+  "address": "10022da8",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV2.TGA",
+  "length": 37
+ },
+ {
+  "address": "10022dd0",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV1.TGA",
+  "length": 37
+ },
+ {
+  "address": "10022df8",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ11.TGA",
+  "length": 33
+ },
+ {
+  "address": "10022e1c",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ10.TGA",
+  "length": 33
+ },
+ {
+  "address": "10022e40",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ9.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022e64",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ8.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022e88",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ7.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022eac",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ6.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022ed0",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ5.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022ef4",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ4.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022f18",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ3.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022f3c",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ2.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022f60",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ1.TGA",
+  "length": 32
+ },
+ {
+  "address": "10022f84",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\CONTINUE.TGA",
+  "length": 36
+ },
+ {
+  "address": "10022fac",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\CHEAT.TGA",
+  "length": 33
+ },
+ {
+  "address": "10022fd0",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWDB.TGA",
+  "length": 33
+ },
+ {
+  "address": "10022ff4",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD.TGA",
+  "length": 32
+ },
+ {
+  "address": "10023018",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\OPTNSC.TGA",
+  "length": 34
+ },
+ {
+  "address": "1002303c",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\OPTNSB.TGA",
+  "length": 34
+ },
+ {
+  "address": "10023060",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\OPTNS.TGA",
+  "length": 33
+ },
+ {
+  "address": "10023084",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\MENUb.TGA",
+  "length": 33
+ },
+ {
+  "address": "100230a8",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\MENU.TGA",
+  "length": 32
+ },
+ {
+  "address": "100230cc",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\HELP.TGA",
+  "length": 32
+ },
+ {
+  "address": "100230f0",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\lsgame.TGA",
+  "length": 34
+ },
+ {
+  "address": "10023114",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\LEGAL.TGA",
+  "length": 33
+ },
+ {
+  "address": "10023138",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\FONT.PIC",
+  "length": 32
+ },
+ {
+  "address": "1002315c",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\EUROLOGO.PAL",
+  "length": 36
+ },
+ {
+  "address": "10023184",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\LOGO.PAL",
+  "length": 32
+ },
+ {
+  "address": "100231a8",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PLATE.PAL",
+  "length": 33
+ },
+ {
+  "address": "100231cc",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\LOGO.PIC",
+  "length": 32
+ },
+ {
+  "address": "100231f0",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\EUROLOGO.PIC",
+  "length": 36
+ },
+ {
+  "address": "10023218",
+  "value": "M:\\GRAFIX\\MOVIE\\SCREENS\\PLATE.PIC",
+  "length": 33
+ },
+ {
+  "address": "1002323c",
+  "value": "\\SRC3\\ENGINE\\ENGINE3",
+  "length": 20
+ },
+ {
+  "address": "10023254",
+  "value": "\\SRC1\\ENGINE\\ENGINE1",
+  "length": 20
+ },
+ {
+  "address": "100232ec",
+  "value": "\n Wake Up procedd",
+  "length": 17
+ },
+ {
+  "address": "10023300",
+  "value": "\n proc %d :: 0x%x 0x%x",
+  "length": 22
+ },
+ {
+  "address": "10023318",
+  "value": "\n Error specified process does not exist ! 0x%x 0x%x ...",
+  "length": 56
+ },
+ {
+  "address": "10023498",
+  "value": "bu00:B-sces-00891",
+  "length": 17
+ },
+ {
+  "address": "10023560",
+  "value": "VORTEX OF SOULS",
+  "length": 15
+ },
+ {
+  "address": "10023570",
+  "value": "PASSAGEWAYS TORMENT",
+  "length": 19
+ },
+ {
+  "address": "10023584",
+  "value": "BATTLE OF TITANS",
+  "length": 16
+ },
+ {
+  "address": "10023598",
+  "value": "CYCLOPS CHASE",
+  "length": 13
+ },
+ {
+  "address": "100235a8",
+  "value": "MEDUSA BATTLE",
+  "length": 13
+ },
+ {
+  "address": "100235b8",
+  "value": "HYDRA BATTLE",
+  "length": 12
+ },
+ {
+  "address": "100235c8",
+  "value": "VISIT TO THEBES",
+  "length": 15
+ },
+ {
+  "address": "100235d8",
+  "value": "NESSUS BATTLE",
+  "length": 13
+ },
+ {
+  "address": "100235e8",
+  "value": "FOREST OF CENTAURS",
+  "length": 18
+ },
+ {
+  "address": "100235fc",
+  "value": "ENGINE3",
+  "length": 7
+ },
+ {
+  "address": "10023604",
+  "value": "\\SRC3\\ENGINE\\",
+  "length": 13
+ },
+ {
+  "address": "10023614",
+  "value": "TRAINING GAUNTLET",
+  "length": 17
+ },
+ {
+  "address": "10023628",
+  "value": "TRAINING GROUND",
+  "length": 15
+ },
+ {
+  "address": "10023638",
+  "value": "ENGINE1",
+  "length": 7
+ },
+ {
+  "address": "10023640",
+  "value": "\\SRC1\\ENGINE\\",
+  "length": 13
+ },
+ {
+  "address": "10023650",
+  "value": "PLAYROOM",
+  "length": 8
+ },
+ {
+  "address": "10024202",
+  "value": " (.*,..",
+  "length": 7
+ },
+ {
+  "address": "100254dc",
+  "value": "\\MV\\M1.;1",
+  "length": 9
+ },
+ {
+  "address": "100257cc",
+  "value": "\n Unable to malloc memory",
+  "length": 25
+ },
+ {
+  "address": "10025e20",
+  "value": " Meg_Speech_Time %d",
+  "length": 19
+ },
+ {
+  "address": "10025e34",
+  "value": "\n TICK %d",
+  "length": 9
+ },
+ {
+  "address": "10025e40",
+  "value": "\n SlotChoice %d",
+  "length": 15
+ },
+ {
+  "address": "10025e50",
+  "value": "\n Detected an unformatted card",
+  "length": 30
+ },
+ {
+  "address": "10025e70",
+  "value": "\n Detected a unformatted card",
+  "length": 29
+ },
+ {
+  "address": "10025e90",
+  "value": "\n Detected a formatted card",
+  "length": 27
+ },
+ {
+  "address": "10025eac",
+  "value": "\n Communication error happened",
+  "length": 30
+ },
+ {
+  "address": "10025ecc",
+  "value": "\n Detected a newly connected card and marked it",
+  "length": 47
+ },
+ {
+  "address": "10025efc",
+  "value": "\n Check Card Format",
+  "length": 19
+ },
+ {
+  "address": "10025f10",
+  "value": "\n No card detected",
+  "length": 18
+ },
+ {
+  "address": "10025f24",
+  "value": "\n LSGameMemoryCardLoop LSStatus %d\n\n",
+  "length": 36
+ },
+ {
+  "address": "100260a0",
+  "value": "\n No Need to reload music !",
+  "length": 27
+ },
+ {
+  "address": "10026278",
+  "value": "M:\\language\\grafix\\chop\\title\\cheats",
+  "length": 36
+ },
+ {
+  "address": "100262a0",
+  "value": "M:\\language\\grafix\\chop\\title\\lsgame",
+  "length": 36
+ },
+ {
+  "address": "100262c8",
+  "value": "M:\\language\\grafix\\chop\\title\\seq10",
+  "length": 35
+ },
+ {
+  "address": "100262ec",
+  "value": "M:\\language\\grafix\\chop\\title\\joypad",
+  "length": 36
+ },
+ {
+  "address": "10026314",
+  "value": "M:\\language\\grafix\\chop\\title\\seq9",
+  "length": 34
+ },
+ {
+  "address": "10026338",
+  "value": "M:\\language\\grafix\\chop\\title\\tallyup",
+  "length": 37
+ },
+ {
+  "address": "10026360",
+  "value": "M:\\language\\grafix\\chop\\title\\seq8",
+  "length": 34
+ },
+ {
+  "address": "10026384",
+  "value": "M:\\language\\grafix\\chop\\title\\seq7",
+  "length": 34
+ },
+ {
+  "address": "100263a8",
+  "value": "M:\\language\\grafix\\chop\\title\\seq6",
+  "length": 34
+ },
+ {
+  "address": "100263cc",
+  "value": "M:\\language\\grafix\\chop\\title\\seq5",
+  "length": 34
+ },
+ {
+  "address": "100263f0",
+  "value": "M:\\language\\grafix\\chop\\title\\seq4",
+  "length": 34
+ },
+ {
+  "address": "10026414",
+  "value": "M:\\language\\grafix\\chop\\title\\seq3",
+  "length": 34
+ },
+ {
+  "address": "10026438",
+  "value": "M:\\language\\grafix\\chop\\title\\seq2",
+  "length": 34
+ },
+ {
+  "address": "1002645c",
+  "value": "M:\\language\\grafix\\chop\\title\\seq1",
+  "length": 34
+ },
+ {
+  "address": "10026480",
+  "value": "M:\\language\\grafix\\chop\\title\\pswd",
+  "length": 34
+ },
+ {
+  "address": "100264a4",
+  "value": "M:\\language\\grafix\\chop\\title\\optns",
+  "length": 35
+ },
+ {
+  "address": "100264c8",
+  "value": "M:\\language\\grafix\\chop\\title\\menu1",
+  "length": 35
+ },
+ {
+  "address": "10026718",
+  "value": "\n Error Unable to malloc memory for tally screen ",
+  "length": 49
+ },
+ {
+  "address": "10026750",
+  "value": "M:\\LANGUAGE\\SRCLANG\\LOADING.DAT",
+  "length": 31
+ },
+ {
+  "address": "100301a2",
+  "value": "GetCommandLineA",
+  "length": 15
+ },
+ {
+  "address": "100301b4",
+  "value": "GetProcAddress",
+  "length": 14
+ },
+ {
+  "address": "100301c6",
+  "value": "GetModuleHandleA",
+  "length": 16
+ },
+ {
+  "address": "100301da",
+  "value": "GetVersion",
+  "length": 10
+ },
+ {
+  "address": "100301e8",
+  "value": "GetCurrentThreadId",
+  "length": 18
+ },
+ {
+  "address": "100301fe",
+  "value": "TlsSetValue",
+  "length": 11
+ },
+ {
+  "address": "1003020c",
+  "value": "TlsAlloc",
+  "length": 8
+ },
+ {
+  "address": "10030218",
+  "value": "TlsFree",
+  "length": 7
+ },
+ {
+  "address": "10030222",
+  "value": "SetLastError",
+  "length": 12
+ },
+ {
+  "address": "10030232",
+  "value": "TlsGetValue",
+  "length": 11
+ },
+ {
+  "address": "10030240",
+  "value": "GetLastError",
+  "length": 12
+ },
+ {
+  "address": "10030250",
+  "value": "ExitProcess",
+  "length": 11
+ },
+ {
+  "address": "1003025e",
+  "value": "TerminateProcess",
+  "length": 16
+ },
+ {
+  "address": "10030272",
+  "value": "GetCurrentProcess",
+  "length": 17
+ },
+ {
+  "address": "10030286",
+  "value": "SetHandleCount",
+  "length": 14
+ },
+ {
+  "address": "10030298",
+  "value": "GetStdHandle",
+  "length": 12
+ },
+ {
+  "address": "100302a8",
+  "value": "GetFileType",
+  "length": 11
+ },
+ {
+  "address": "100302b6",
+  "value": "GetStartupInfoA",
+  "length": 15
+ },
+ {
+  "address": "100302c8",
+  "value": "DeleteCriticalSection",
+  "length": 21
+ },
+ {
+  "address": "100302e0",
+  "value": "GetModuleFileNameA",
+  "length": 18
+ },
+ {
+  "address": "100302f6",
+  "value": "GetCPInfo",
+  "length": 9
+ },
+ {
+  "address": "10030302",
+  "value": "GetACP",
+  "length": 6
+ },
+ {
+  "address": "1003030c",
+  "value": "GetOEMCP",
+  "length": 8
+ },
+ {
+  "address": "10030318",
+  "value": "FreeEnvironmentStringsA",
+  "length": 23
+ },
+ {
+  "address": "10030332",
+  "value": "FreeEnvironmentStringsW",
+  "length": 23
+ },
+ {
+  "address": "1003034c",
+  "value": "GetEnvironmentStrings",
+  "length": 21
+ },
+ {
+  "address": "10030364",
+  "value": "GetEnvironmentStringsW",
+  "length": 22
+ },
+ {
+  "address": "1003037e",
+  "value": "WideCharToMultiByte",
+  "length": 19
+ },
+ {
+  "address": "10030394",
+  "value": "HeapDestroy",
+  "length": 11
+ },
+ {
+  "address": "100303a2",
+  "value": "HeapCreate",
+  "length": 10
+ },
+ {
+  "address": "100303b0",
+  "value": "VirtualFree",
+  "length": 11
+ },
+ {
+  "address": "100303be",
+  "value": "WriteFile",
+  "length": 9
+ },
+ {
+  "address": "100303ca",
+  "value": "HeapAlloc",
+  "length": 9
+ },
+ {
+  "address": "100303d6",
+  "value": "InitializeCriticalSection",
+  "length": 25
+ },
+ {
+  "address": "100303f2",
+  "value": "EnterCriticalSection",
+  "length": 20
+ },
+ {
+  "address": "1003040a",
+  "value": "LeaveCriticalSection",
+  "length": 20
+ },
+ {
+  "address": "10030422",
+  "value": "HeapFree",
+  "length": 8
+ },
+ {
+  "address": "1003042e",
+  "value": "VirtualAlloc",
+  "length": 12
+ },
+ {
+  "address": "1003043e",
+  "value": "LoadLibraryA",
+  "length": 12
+ },
+ {
+  "address": "1003044e",
+  "value": "FlushFileBuffers",
+  "length": 16
+ },
+ {
+  "address": "10030462",
+  "value": "CloseHandle",
+  "length": 11
+ },
+ {
+  "address": "10030470",
+  "value": "SetStdHandle",
+  "length": 12
+ },
+ {
+  "address": "10030480",
+  "value": "SetFilePointer",
+  "length": 14
+ },
+ {
+  "address": "10030490",
+  "value": "KERNEL32.dll",
+  "length": 12
+ },
+ {
+  "address": "100304a0",
+  "value": "ReadFile",
+  "length": 8
+ },
+ {
+  "address": "100304ac",
+  "value": "CreateFileA",
+  "length": 11
+ },
+ {
+  "address": "100304ba",
+  "value": "SetEndOfFile",
+  "length": 12
+ }
+]

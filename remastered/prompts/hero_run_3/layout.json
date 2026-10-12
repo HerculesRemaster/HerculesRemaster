@@ -1,0 +1,50 @@
+{
+ "sheet": [
+  1536,
+  1024
+ ],
+ "scale": 9,
+ "cells": [
+  {
+   "entry": "sprite/0560/f0008",
+   "kind": "frame",
+   "offset": [
+    6,
+    2
+   ],
+   "canvas": [
+    64,
+    64
+   ],
+   "at": [
+    16,
+    16
+   ],
+   "size": [
+    630,
+    648
+   ]
+  },
+  {
+   "entry": "sprite/0560/f0009",
+   "kind": "frame",
+   "offset": [
+    6,
+    6
+   ],
+   "canvas": [
+    56,
+    64
+   ],
+   "at": [
+    662,
+    16
+   ],
+   "size": [
+    630,
+    648
+   ]
+  }
+ ],
+ "family": "sprite"
+}

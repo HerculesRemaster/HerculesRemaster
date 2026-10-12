@@ -1,0 +1,90 @@
+{
+ "sheet": [
+  1024,
+  1536
+ ],
+ "scale": 6,
+ "cells": [
+  {
+   "entry": "sprite/0560/f0211",
+   "kind": "frame",
+   "offset": [
+    2,
+    0
+   ],
+   "canvas": [
+    40,
+    112
+   ],
+   "at": [
+    16,
+    16
+   ],
+   "size": [
+    432,
+    696
+   ]
+  },
+  {
+   "entry": "sprite/0560/f0212",
+   "kind": "frame",
+   "offset": [
+    2,
+    8
+   ],
+   "canvas": [
+    40,
+    104
+   ],
+   "at": [
+    464,
+    16
+   ],
+   "size": [
+    432,
+    696
+   ]
+  },
+  {
+   "entry": "sprite/0560/f0213",
+   "kind": "frame",
+   "offset": [
+    2,
+    30
+   ],
+   "canvas": [
+    48,
+    80
+   ],
+   "at": [
+    16,
+    728
+   ],
+   "size": [
+    432,
+    696
+   ]
+  },
+  {
+   "entry": "sprite/0560/f0214",
+   "kind": "frame",
+   "offset": [
+    0,
+    58
+   ],
+   "canvas": [
+    72,
+    56
+   ],
+   "at": [
+    464,
+    728
+   ],
+   "size": [
+    432,
+    696
+   ]
+  }
+ ],
+ "family": "sprite"
+}

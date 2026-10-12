@@ -1,0 +1,18 @@
+{
+ "level": "HYDRA",
+ "img1_rows_loaded": 225,
+ "dumps": {
+  "vram_1500.bin": {
+   "img0_equal": 1.0,
+   "img1_loaded_equal": 1.0,
+   "img1_tail_rows": 31,
+   "cells_area_equal_to_file": 0.472381591796875
+  },
+  "vram_2500.bin": {
+   "img0_equal": 1.0,
+   "img1_loaded_equal": 1.0,
+   "img1_tail_rows": 31,
+   "cells_area_equal_to_file": 0.48986053466796875
+  }
+ }
+}

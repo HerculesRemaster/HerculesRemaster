@@ -1,0 +1,58 @@
+{
+ "program": "TITLE.DLL",
+ "references_by_address": {
+  "100234b0": [],
+  "100234b4": [],
+  "100234b8": [],
+  "10022280": [],
+  "10022284": [],
+  "10022288": [
+   {
+    "from_address": "1001644f",
+    "type": "DATA",
+    "from_function": "FUN_10016300"
+   },
+   {
+    "from_address": "10016e42",
+    "type": "DATA"
+   },
+   {
+    "from_address": "10016dad",
+    "type": "DATA"
+   },
+   {
+    "from_address": "10016d06",
+    "type": "DATA"
+   },
+   {
+    "from_address": "10016c7e",
+    "type": "DATA"
+   },
+   {
+    "from_address": "10016bf6",
+    "type": "DATA"
+   },
+   {
+    "from_address": "10016b6e",
+    "type": "DATA"
+   },
+   {
+    "from_address": "10016af2",
+    "type": "DATA"
+   },
+   {
+    "from_address": "10016a76",
+    "type": "DATA"
+   },
+   {
+    "from_address": "100169fa",
+    "type": "DATA"
+   },
+   {
+    "from_address": "1001698a",
+    "type": "DATA"
+   }
+  ]
+ },
+ "count": 6
+}

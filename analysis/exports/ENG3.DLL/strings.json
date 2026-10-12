@@ -1,0 +1,1292 @@
+[
+ {
+  "address": "10032010",
+  "value": "IsTNT",
+  "length": 5
+ },
+ {
+  "address": "10032018",
+  "value": "kernel32.dll",
+  "length": 12
+ },
+ {
+  "address": "10032086",
+  "value": "null)",
+  "length": 5
+ },
+ {
+  "address": "10032095",
+  "value": "null)",
+  "length": 5
+ },
+ {
+  "address": "100320a7",
+  "value": "?IsProcessorFeaturePresent",
+  "length": 26
+ },
+ {
+  "address": "100320c4",
+  "value": "KERNEL32",
+  "length": 8
+ },
+ {
+  "address": "100320e0",
+  "value": "runtime error ",
+  "length": 14
+ },
+ {
+  "address": "100320f4",
+  "value": "TLOSS error\r\n",
+  "length": 13
+ },
+ {
+  "address": "10032104",
+  "value": "SING error\r\n",
+  "length": 12
+ },
+ {
+  "address": "10032114",
+  "value": "DOMAIN error\r\n",
+  "length": 14
+ },
+ {
+  "address": "10032124",
+  "value": "R6028\r\n- unable to initialize heap\r\n",
+  "length": 36
+ },
+ {
+  "address": "1003214c",
+  "value": "R6027\r\n- not enough space for lowio initialization\r\n",
+  "length": 52
+ },
+ {
+  "address": "10032184",
+  "value": "R6026\r\n- not enough space for stdio initialization\r\n",
+  "length": 52
+ },
+ {
+  "address": "100321bc",
+  "value": "R6025\r\n- pure virtual function call\r\n",
+  "length": 37
+ },
+ {
+  "address": "100321e4",
+  "value": "R6024\r\n- not enough space for _onexit/atexit table\r\n",
+  "length": 52
+ },
+ {
+  "address": "1003221c",
+  "value": "R6019\r\n- unable to open console device\r\n",
+  "length": 40
+ },
+ {
+  "address": "10032248",
+  "value": "R6018\r\n- unexpected heap error\r\n",
+  "length": 32
+ },
+ {
+  "address": "1003226c",
+  "value": "R6017\r\n- unexpected multithread lock error\r\n",
+  "length": 44
+ },
+ {
+  "address": "1003229c",
+  "value": "R6016\r\n- not enough space for thread data\r\n",
+  "length": 43
+ },
+ {
+  "address": "100322c8",
+  "value": "\r\nabnormal program termination\r\n",
+  "length": 32
+ },
+ {
+  "address": "100322ec",
+  "value": "R6009\r\n- not enough space for environment\r\n",
+  "length": 43
+ },
+ {
+  "address": "10032318",
+  "value": "R6008\r\n- not enough space for arguments\r\n",
+  "length": 41
+ },
+ {
+  "address": "10032344",
+  "value": "R6002\r\n- floating point not loaded\r\n",
+  "length": 36
+ },
+ {
+  "address": "1003236c",
+  "value": "Microsoft Visual C++ Runtime Library",
+  "length": 36
+ },
+ {
+  "address": "10032398",
+  "value": "Runtime Error!\n\nProgram: ",
+  "length": 25
+ },
+ {
+  "address": "100323b8",
+  "value": "<program name unknown>",
+  "length": 22
+ },
+ {
+  "address": "100323d0",
+  "value": "GetLastActivePopup",
+  "length": 18
+ },
+ {
+  "address": "100323e4",
+  "value": "GetActiveWindow",
+  "length": 15
+ },
+ {
+  "address": "100323f4",
+  "value": "MessageBoxA",
+  "length": 11
+ },
+ {
+  "address": "10032400",
+  "value": "user32.dll",
+  "length": 10
+ },
+ {
+  "address": "1003240c",
+  "value": "LC_TIME",
+  "length": 7
+ },
+ {
+  "address": "10032414",
+  "value": "LC_NUMERIC",
+  "length": 10
+ },
+ {
+  "address": "10032420",
+  "value": "LC_MONETARY",
+  "length": 11
+ },
+ {
+  "address": "1003242c",
+  "value": "LC_CTYPE",
+  "length": 8
+ },
+ {
+  "address": "10032438",
+  "value": "LC_COLLATE",
+  "length": 10
+ },
+ {
+  "address": "10032444",
+  "value": "LC_ALL",
+  "length": 6
+ },
+ {
+  "address": "10032474",
+  "value": "united-states",
+  "length": 13
+ },
+ {
+  "address": "10032484",
+  "value": "united-kingdom",
+  "length": 14
+ },
+ {
+  "address": "10032494",
+  "value": "united states",
+  "length": 13
+ },
+ {
+  "address": "100324a4",
+  "value": "united kingdom",
+  "length": 14
+ },
+ {
+  "address": "100324b8",
+  "value": "turkey",
+  "length": 6
+ },
+ {
+  "address": "100324cc",
+  "value": "switzerland",
+  "length": 11
+ },
+ {
+  "address": "100324d8",
+  "value": "sweden",
+  "length": 6
+ },
+ {
+  "address": "100324e8",
+  "value": "spain",
+  "length": 5
+ },
+ {
+  "address": "100324f0",
+  "value": "south-korea",
+  "length": 11
+ },
+ {
+  "address": "100324fc",
+  "value": "south korea",
+  "length": 11
+ },
+ {
+  "address": "1003250c",
+  "value": "singapore",
+  "length": 9
+ },
+ {
+  "address": "10032518",
+  "value": "russia",
+  "length": 6
+ },
+ {
+  "address": "10032524",
+  "value": "pr-china",
+  "length": 8
+ },
+ {
+  "address": "10032530",
+  "value": "pr china",
+  "length": 8
+ },
+ {
+  "address": "1003253c",
+  "value": "portugal",
+  "length": 8
+ },
+ {
+  "address": "10032548",
+  "value": "poland",
+  "length": 6
+ },
+ {
+  "address": "1003255c",
+  "value": "norway",
+  "length": 6
+ },
+ {
+  "address": "10032564",
+  "value": "new-zealand",
+  "length": 11
+ },
+ {
+  "address": "10032570",
+  "value": "new zealand",
+  "length": 11
+ },
+ {
+  "address": "1003257c",
+  "value": "netherlands",
+  "length": 11
+ },
+ {
+  "address": "10032588",
+  "value": "mexico",
+  "length": 6
+ },
+ {
+  "address": "10032594",
+  "value": "korea",
+  "length": 5
+ },
+ {
+  "address": "1003259c",
+  "value": "japan",
+  "length": 5
+ },
+ {
+  "address": "100325a4",
+  "value": "italy",
+  "length": 5
+ },
+ {
+  "address": "100325b0",
+  "value": "ireland",
+  "length": 7
+ },
+ {
+  "address": "100325b8",
+  "value": "iceland",
+  "length": 7
+ },
+ {
+  "address": "100325c0",
+  "value": "hungary",
+  "length": 7
+ },
+ {
+  "address": "100325c8",
+  "value": "hong-kong",
+  "length": 9
+ },
+ {
+  "address": "100325d4",
+  "value": "hong kong",
+  "length": 9
+ },
+ {
+  "address": "100325e0",
+  "value": "holland",
+  "length": 7
+ },
+ {
+  "address": "100325ec",
+  "value": "greece",
+  "length": 6
+ },
+ {
+  "address": "100325f4",
+  "value": "great britain",
+  "length": 13
+ },
+ {
+  "address": "10032608",
+  "value": "germany",
+  "length": 7
+ },
+ {
+  "address": "10032614",
+  "value": "france",
+  "length": 6
+ },
+ {
+  "address": "1003261c",
+  "value": "finland",
+  "length": 7
+ },
+ {
+  "address": "10032624",
+  "value": "england",
+  "length": 7
+ },
+ {
+  "address": "10032630",
+  "value": "denmark",
+  "length": 7
+ },
+ {
+  "address": "10032640",
+  "value": "china",
+  "length": 5
+ },
+ {
+  "address": "1003264c",
+  "value": "canada",
+  "length": 6
+ },
+ {
+  "address": "10032658",
+  "value": "britain",
+  "length": 7
+ },
+ {
+  "address": "1003266c",
+  "value": "belgium",
+  "length": 7
+ },
+ {
+  "address": "1003267c",
+  "value": "austria",
+  "length": 7
+ },
+ {
+  "address": "10032684",
+  "value": "australia",
+  "length": 9
+ },
+ {
+  "address": "10032694",
+  "value": "america",
+  "length": 7
+ },
+ {
+  "address": "100326a8",
+  "value": "turkish",
+  "length": 7
+ },
+ {
+  "address": "100326b4",
+  "value": "swiss",
+  "length": 5
+ },
+ {
+  "address": "100326bc",
+  "value": "swedish",
+  "length": 7
+ },
+ {
+  "address": "100326c8",
+  "value": "spanish-modern",
+  "length": 14
+ },
+ {
+  "address": "100326d8",
+  "value": "spanish-mexican",
+  "length": 15
+ },
+ {
+  "address": "100326e8",
+  "value": "spanish",
+  "length": 7
+ },
+ {
+  "address": "100326fc",
+  "value": "russian",
+  "length": 7
+ },
+ {
+  "address": "10032710",
+  "value": "portuguese-brazilian",
+  "length": 20
+ },
+ {
+  "address": "10032728",
+  "value": "portuguese",
+  "length": 10
+ },
+ {
+  "address": "10032734",
+  "value": "polish",
+  "length": 6
+ },
+ {
+  "address": "10032740",
+  "value": "norwegian-nynorsk",
+  "length": 17
+ },
+ {
+  "address": "10032754",
+  "value": "norwegian-bokmal",
+  "length": 16
+ },
+ {
+  "address": "10032768",
+  "value": "norwegian",
+  "length": 9
+ },
+ {
+  "address": "10032784",
+  "value": "korean",
+  "length": 6
+ },
+ {
+  "address": "10032794",
+  "value": "japanese",
+  "length": 8
+ },
+ {
+  "address": "100327a4",
+  "value": "italian-swiss",
+  "length": 13
+ },
+ {
+  "address": "100327b4",
+  "value": "italian",
+  "length": 7
+ },
+ {
+  "address": "100327c4",
+  "value": "irish-english",
+  "length": 13
+ },
+ {
+  "address": "100327d4",
+  "value": "icelandic",
+  "length": 9
+ },
+ {
+  "address": "100327e0",
+  "value": "hungarian",
+  "length": 9
+ },
+ {
+  "address": "100327f0",
+  "value": "greek",
+  "length": 5
+ },
+ {
+  "address": "100327f8",
+  "value": "german-swiss",
+  "length": 12
+ },
+ {
+  "address": "10032808",
+  "value": "german-austrian",
+  "length": 15
+ },
+ {
+  "address": "10032818",
+  "value": "german",
+  "length": 6
+ },
+ {
+  "address": "10032824",
+  "value": "french-swiss",
+  "length": 12
+ },
+ {
+  "address": "10032834",
+  "value": "french-canadian",
+  "length": 15
+ },
+ {
+  "address": "10032844",
+  "value": "french-belgian",
+  "length": 14
+ },
+ {
+  "address": "10032854",
+  "value": "french",
+  "length": 6
+ },
+ {
+  "address": "10032868",
+  "value": "finnish",
+  "length": 7
+ },
+ {
+  "address": "1003288c",
+  "value": "english-usa",
+  "length": 11
+ },
+ {
+  "address": "10032898",
+  "value": "english-us",
+  "length": 10
+ },
+ {
+  "address": "100328a4",
+  "value": "english-uk",
+  "length": 10
+ },
+ {
+  "address": "100328b0",
+  "value": "english-nz",
+  "length": 10
+ },
+ {
+  "address": "100328bc",
+  "value": "english-ire",
+  "length": 11
+ },
+ {
+  "address": "100328c8",
+  "value": "english-can",
+  "length": 11
+ },
+ {
+  "address": "100328d4",
+  "value": "english-aus",
+  "length": 11
+ },
+ {
+  "address": "100328e0",
+  "value": "english-american",
+  "length": 16
+ },
+ {
+  "address": "100328f4",
+  "value": "english",
+  "length": 7
+ },
+ {
+  "address": "1003290c",
+  "value": "dutch-belgian",
+  "length": 13
+ },
+ {
+  "address": "1003291c",
+  "value": "dutch",
+  "length": 5
+ },
+ {
+  "address": "10032930",
+  "value": "danish",
+  "length": 6
+ },
+ {
+  "address": "10032950",
+  "value": "chinese-traditional",
+  "length": 19
+ },
+ {
+  "address": "10032964",
+  "value": "chinese-singapore",
+  "length": 17
+ },
+ {
+  "address": "10032978",
+  "value": "chinese-simplified",
+  "length": 18
+ },
+ {
+  "address": "1003298c",
+  "value": "chinese-hongkong",
+  "length": 16
+ },
+ {
+  "address": "100329a0",
+  "value": "chinese",
+  "length": 7
+ },
+ {
+  "address": "100329b0",
+  "value": "canadian",
+  "length": 8
+ },
+ {
+  "address": "100329bc",
+  "value": "belgian",
+  "length": 7
+ },
+ {
+  "address": "100329c4",
+  "value": "australian",
+  "length": 10
+ },
+ {
+  "address": "100329d0",
+  "value": "american-english",
+  "length": 16
+ },
+ {
+  "address": "100329e4",
+  "value": "american english",
+  "length": 16
+ },
+ {
+  "address": "100329f8",
+  "value": "american",
+  "length": 8
+ },
+ {
+  "address": "10032a04",
+  "value": "H:mm:ss",
+  "length": 7
+ },
+ {
+  "address": "10032a0c",
+  "value": "dddd, MMMM dd, yyyy",
+  "length": 19
+ },
+ {
+  "address": "10032a20",
+  "value": "M/d/yy",
+  "length": 6
+ },
+ {
+  "address": "10032a30",
+  "value": "December",
+  "length": 8
+ },
+ {
+  "address": "10032a3c",
+  "value": "November",
+  "length": 8
+ },
+ {
+  "address": "10032a48",
+  "value": "October",
+  "length": 7
+ },
+ {
+  "address": "10032a50",
+  "value": "September",
+  "length": 9
+ },
+ {
+  "address": "10032a5c",
+  "value": "August",
+  "length": 6
+ },
+ {
+  "address": "10032a74",
+  "value": "April",
+  "length": 5
+ },
+ {
+  "address": "10032a7c",
+  "value": "March",
+  "length": 5
+ },
+ {
+  "address": "10032a84",
+  "value": "February",
+  "length": 8
+ },
+ {
+  "address": "10032a90",
+  "value": "January",
+  "length": 7
+ },
+ {
+  "address": "10032ac8",
+  "value": "Saturday",
+  "length": 8
+ },
+ {
+  "address": "10032ad4",
+  "value": "Friday",
+  "length": 6
+ },
+ {
+  "address": "10032adc",
+  "value": "Thursday",
+  "length": 8
+ },
+ {
+  "address": "10032ae8",
+  "value": "Wednesday",
+  "length": 9
+ },
+ {
+  "address": "10032af4",
+  "value": "Tuesday",
+  "length": 7
+ },
+ {
+  "address": "10032afc",
+  "value": "Monday",
+  "length": 6
+ },
+ {
+  "address": "10032b04",
+  "value": "Sunday",
+  "length": 6
+ },
+ {
+  "address": "10032b28",
+  "value": "SunMonTueWedThuFriSat",
+  "length": 21
+ },
+ {
+  "address": "10032b40",
+  "value": "JanFebMarAprMayJunJulAugSepOctNovDec",
+  "length": 36
+ },
+ {
+  "address": "10032ba2",
+  "value": "Eng3.dll",
+  "length": 8
+ },
+ {
+  "address": "10032bab",
+  "value": "PC_DLLEngineMain",
+  "length": 16
+ },
+ {
+  "address": "1003516c",
+  "value": "DEMO MODE",
+  "length": 9
+ },
+ {
+  "address": "10035178",
+  "value": "LOADING",
+  "length": 7
+ },
+ {
+  "address": "10035180",
+  "value": "PLEASE INSERT CD",
+  "length": 16
+ },
+ {
+  "address": "10035194",
+  "value": "PLEASE CORRECT",
+  "length": 14
+ },
+ {
+  "address": "100351a4",
+  "value": "CDROM",
+  "length": 5
+ },
+ {
+  "address": "100351ac",
+  "value": "UNABLE TO READ",
+  "length": 14
+ },
+ {
+  "address": "100351bc",
+  "value": "CONTROLLER PORT [",
+  "length": 17
+ },
+ {
+  "address": "100351d0",
+  "value": "CONTROLLER INTO",
+  "length": 15
+ },
+ {
+  "address": "100351e0",
+  "value": "PLEASE INSERT A",
+  "length": 15
+ },
+ {
+  "address": "100351f8",
+  "value": "ARE YOU SURE \\",
+  "length": 14
+ },
+ {
+  "address": "10035210",
+  "value": "CONTINUE",
+  "length": 8
+ },
+ {
+  "address": "1003521c",
+  "value": "PAUSED",
+  "length": 6
+ },
+ {
+  "address": "10035224",
+  "value": "\\ANIMPSX.BIN",
+  "length": 12
+ },
+ {
+  "address": "10035234",
+  "value": "Illegal Dbase %d \n",
+  "length": 18
+ },
+ {
+  "address": "100352a0",
+  "value": "M:\\DEMO\\DEMO.DAT",
+  "length": 16
+ },
+ {
+  "address": "100352b4",
+  "value": "M:\\DEMO\\DEMO1_1.DAT",
+  "length": 19
+ },
+ {
+  "address": "100352c8",
+  "value": "M:\\DEMO\\DEMO1_2.DAT",
+  "length": 19
+ },
+ {
+  "address": "100352dc",
+  "value": "M:\\DEMO\\DEMO1_3.DAT",
+  "length": 19
+ },
+ {
+  "address": "100352f0",
+  "value": "M:\\DEMO\\DEMO2_1.DAT",
+  "length": 19
+ },
+ {
+  "address": "10035304",
+  "value": "M:\\DEMO\\DEMO3_1.DAT",
+  "length": 19
+ },
+ {
+  "address": "10035318",
+  "value": "M:\\DEMO\\DEMO5_1.DAT",
+  "length": 19
+ },
+ {
+  "address": "1003532c",
+  "value": "M:\\DEMO\\DEMO5_2.DAT",
+  "length": 19
+ },
+ {
+  "address": "10035340",
+  "value": "\\TITLE\\ENGINE\\TITLE",
+  "length": 19
+ },
+ {
+  "address": "10035354",
+  "value": "\\ENGINE1\\ENGINE\\ENGINE1",
+  "length": 23
+ },
+ {
+  "address": "1003536c",
+  "value": "\\ENGINE3\\ENGINE\\ENGINE3",
+  "length": 23
+ },
+ {
+  "address": "10035384",
+  "value": "m:\\language\\srclang\\stpanel2.dat",
+  "length": 32
+ },
+ {
+  "address": "100353a8",
+  "value": "\n LinkedSoundFx %d :: %d %d",
+  "length": 27
+ },
+ {
+  "address": "100353c4",
+  "value": "\n 0x%x 0x%x 0x%x \n",
+  "length": 18
+ },
+ {
+  "address": "100353d8",
+  "value": "\n RemoveFxLinks(0x%x)",
+  "length": 21
+ },
+ {
+  "address": "100353f0",
+  "value": "\n RemoveFxIdLinks(%d,0x%x)",
+  "length": 26
+ },
+ {
+  "address": "1003540c",
+  "value": "\n RemoveFxLinks(0x%x)",
+  "length": 21
+ },
+ {
+  "address": "10035424",
+  "value": "\n RemoveFxIdLinks(%d,0x%x)",
+  "length": 26
+ },
+ {
+  "address": "10035440",
+  "value": "\n ClearAllSoundFx()",
+  "length": 19
+ },
+ {
+  "address": "10035454",
+  "value": "\n ClearAllSoundFx_Excpt(%d)",
+  "length": 27
+ },
+ {
+  "address": "10035478",
+  "value": "Unable to open %s%s \n",
+  "length": 21
+ },
+ {
+  "address": "10035490",
+  "value": "Loading %s @ 0x%x,size %d ",
+  "length": 26
+ },
+ {
+  "address": "100354ac",
+  "value": "- Loaded \n",
+  "length": 10
+ },
+ {
+  "address": "100381c8",
+  "value": "MAP_PSX.BIN",
+  "length": 11
+ },
+ {
+  "address": "100384e0",
+  "value": "-------------------------------------------\n",
+  "length": 44
+ },
+ {
+  "address": "10038648",
+  "value": "O:\\TORMENT\\",
+  "length": 11
+ },
+ {
+  "address": "10038660",
+  "value": "O:\\GAUNTLET\\",
+  "length": 12
+ },
+ {
+  "address": "10039610",
+  "value": "P:\\SRC3\\ALIEN1\\SOULS",
+  "length": 20
+ },
+ {
+  "address": "10039628",
+  "value": "P:\\SRC3\\HERO\\LETTERS",
+  "length": 20
+ },
+ {
+  "address": "10039640",
+  "value": "P:\\SRC3\\ALIEN1\\CYEND",
+  "length": 20
+ },
+ {
+  "address": "10039658",
+  "value": "P:\\SRC3\\ALIEN1\\PEOPLE",
+  "length": 21
+ },
+ {
+  "address": "10039670",
+  "value": "P:\\SRC3\\ALIEN1\\CYCLOPS",
+  "length": 22
+ },
+ {
+  "address": "10039688",
+  "value": "P:\\SRC3\\ALIEN1\\TORMENT",
+  "length": 22
+ },
+ {
+  "address": "100396a0",
+  "value": "P:\\SRC3\\ALIEN1\\ALIEN1",
+  "length": 21
+ },
+ {
+  "address": "100396b8",
+  "value": "P:\\SRC3\\HERO\\XTRA_DB1",
+  "length": 21
+ },
+ {
+  "address": "100396d0",
+  "value": "P:\\SRC3\\HERO\\HERCULES",
+  "length": 21
+ },
+ {
+  "address": "100451d2",
+  "value": "GetCommandLineA",
+  "length": 15
+ },
+ {
+  "address": "100451e4",
+  "value": "GetProcAddress",
+  "length": 14
+ },
+ {
+  "address": "100451f6",
+  "value": "GetModuleHandleA",
+  "length": 16
+ },
+ {
+  "address": "1004520a",
+  "value": "GetVersion",
+  "length": 10
+ },
+ {
+  "address": "10045218",
+  "value": "ExitProcess",
+  "length": 11
+ },
+ {
+  "address": "10045226",
+  "value": "TerminateProcess",
+  "length": 16
+ },
+ {
+  "address": "1004523a",
+  "value": "GetCurrentProcess",
+  "length": 17
+ },
+ {
+  "address": "1004524e",
+  "value": "GetCurrentThreadId",
+  "length": 18
+ },
+ {
+  "address": "10045264",
+  "value": "TlsSetValue",
+  "length": 11
+ },
+ {
+  "address": "10045272",
+  "value": "TlsAlloc",
+  "length": 8
+ },
+ {
+  "address": "1004527e",
+  "value": "TlsFree",
+  "length": 7
+ },
+ {
+  "address": "10045288",
+  "value": "SetLastError",
+  "length": 12
+ },
+ {
+  "address": "10045298",
+  "value": "TlsGetValue",
+  "length": 11
+ },
+ {
+  "address": "100452a6",
+  "value": "GetLastError",
+  "length": 12
+ },
+ {
+  "address": "100452b6",
+  "value": "SetHandleCount",
+  "length": 14
+ },
+ {
+  "address": "100452c8",
+  "value": "GetStdHandle",
+  "length": 12
+ },
+ {
+  "address": "100452d8",
+  "value": "GetFileType",
+  "length": 11
+ },
+ {
+  "address": "100452e6",
+  "value": "GetStartupInfoA",
+  "length": 15
+ },
+ {
+  "address": "100452f8",
+  "value": "DeleteCriticalSection",
+  "length": 21
+ },
+ {
+  "address": "10045310",
+  "value": "GetModuleFileNameA",
+  "length": 18
+ },
+ {
+  "address": "10045326",
+  "value": "GetCPInfo",
+  "length": 9
+ },
+ {
+  "address": "10045332",
+  "value": "GetACP",
+  "length": 6
+ },
+ {
+  "address": "1004533c",
+  "value": "GetOEMCP",
+  "length": 8
+ },
+ {
+  "address": "10045348",
+  "value": "FreeEnvironmentStringsA",
+  "length": 23
+ },
+ {
+  "address": "10045362",
+  "value": "MultiByteToWideChar",
+  "length": 19
+ },
+ {
+  "address": "10045378",
+  "value": "FreeEnvironmentStringsW",
+  "length": 23
+ },
+ {
+  "address": "10045392",
+  "value": "GetEnvironmentStrings",
+  "length": 21
+ },
+ {
+  "address": "100453aa",
+  "value": "GetEnvironmentStringsW",
+  "length": 22
+ },
+ {
+  "address": "100453c4",
+  "value": "WideCharToMultiByte",
+  "length": 19
+ },
+ {
+  "address": "100453da",
+  "value": "HeapDestroy",
+  "length": 11
+ },
+ {
+  "address": "100453e8",
+  "value": "HeapCreate",
+  "length": 10
+ },
+ {
+  "address": "100453f6",
+  "value": "VirtualFree",
+  "length": 11
+ },
+ {
+  "address": "10045404",
+  "value": "WriteFile",
+  "length": 9
+ },
+ {
+  "address": "10045410",
+  "value": "SetFilePointer",
+  "length": 14
+ },
+ {
+  "address": "10045422",
+  "value": "InterlockedDecrement",
+  "length": 20
+ },
+ {
+  "address": "1004543a",
+  "value": "InterlockedIncrement",
+  "length": 20
+ },
+ {
+  "address": "10045452",
+  "value": "InitializeCriticalSection",
+  "length": 25
+ },
+ {
+  "address": "1004546e",
+  "value": "EnterCriticalSection",
+  "length": 20
+ },
+ {
+  "address": "10045486",
+  "value": "LeaveCriticalSection",
+  "length": 20
+ },
+ {
+  "address": "1004549e",
+  "value": "HeapAlloc",
+  "length": 9
+ },
+ {
+  "address": "100454aa",
+  "value": "HeapFree",
+  "length": 8
+ },
+ {
+  "address": "100454b6",
+  "value": "VirtualAlloc",
+  "length": 12
+ },
+ {
+  "address": "100454c6",
+  "value": "LoadLibraryA",
+  "length": 12
+ },
+ {
+  "address": "100454d6",
+  "value": "SetStdHandle",
+  "length": 12
+ },
+ {
+  "address": "100454e6",
+  "value": "GetStringTypeA",
+  "length": 14
+ },
+ {
+  "address": "100454f8",
+  "value": "GetStringTypeW",
+  "length": 14
+ },
+ {
+  "address": "1004550a",
+  "value": "LCMapStringA",
+  "length": 12
+ },
+ {
+  "address": "1004551a",
+  "value": "LCMapStringW",
+  "length": 12
+ },
+ {
+  "address": "1004552a",
+  "value": "FlushFileBuffers",
+  "length": 16
+ },
+ {
+  "address": "1004553e",
+  "value": "CloseHandle",
+  "length": 11
+ },
+ {
+  "address": "1004554c",
+  "value": "GetLocaleInfoA",
+  "length": 14
+ },
+ {
+  "address": "1004555e",
+  "value": "GetLocaleInfoW",
+  "length": 14
+ },
+ {
+  "address": "1004556e",
+  "value": "KERNEL32.dll",
+  "length": 12
+ }
+]

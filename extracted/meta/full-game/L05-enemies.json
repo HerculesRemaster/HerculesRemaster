@@ -1,0 +1,314 @@
+{
+ "_doc": "Static digest of a level's actor handlers (L*.RE enemy tasks) -> extracted/meta/full-game/<SLUG>-enemies.json.",
+ "level": {
+  "id": 6,
+  "dir": "HYDRA",
+  "config_record": "0x68c10"
+ },
+ "kinds": [
+  {
+   "kind": "0x0031",
+   "count": 2,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1001dd00",
+    "update": "FUN_10022180"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0028",
+   "count": 0,
+   "bank": "P:\\SRC1\\ALIEN1\\ALIEN1",
+   "handlers": {
+    "spawn": "HERO_Alien1Spawn",
+    "update": "HERO_Alien1Update"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0029",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1001cf50",
+    "update": "HERO_HydraNeckUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "sounds": [
+    "0x183"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002a",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1001dcc0",
+    "update": "FUN_10022180"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002b",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1001bc20",
+    "update": "FUN_1001c200"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002c",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1001ed00",
+    "update": "FUN_1001ed30"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x192"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002d",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "HERO_HydraHeadSpawn",
+    "update": "HERO_HydraHeadUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [
+    "0x188",
+    "0x5984"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x002e",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1001c220",
+    "update": "FUN_1001c2a0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x002f",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1001e320",
+    "update": "FUN_1001e3f0"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "sounds": [
+    "0x188",
+    "0x189",
+    "0x18a"
+   ],
+   "spawns": []
+  },
+  {
+   "kind": "0x0030",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\HYDRA",
+   "handlers": {
+    "spawn": "HERO_HydraSpawn3",
+    "update": "HERO_HydraUpdate3"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0032",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\HYDRA",
+   "handlers": {
+    "spawn": "HERO_HydraSpawn4",
+    "update": "HERO_HydraUpdate4"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0033",
+   "count": 0,
+   "bank": null,
+   "handlers": {
+    "spawn": "FUN_1001e500",
+    "update": "FUN_1001e600"
+   },
+   "hits": [
+    {
+     "strength": 0,
+     "index": 0,
+     "damage_beginner_medium_herculean": [
+      5,
+      12,
+      15
+     ]
+    }
+   ],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "sounds": [],
+   "spawns": [
+    "0x202d",
+    "0x2032"
+   ]
+  },
+  {
+   "kind": "0x0034",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\HYDRA",
+   "handlers": {
+    "spawn": "HERO_HydraSpawn",
+    "update": "HERO_HydraUpdate"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  },
+  {
+   "kind": "0x0035",
+   "count": 0,
+   "bank": "P:\\SRC1\\BOSS\\HYDRA",
+   "handlers": {
+    "spawn": "HERO_HydraSpawn2",
+    "update": "HERO_HydraUpdate2"
+   },
+   "hits": [],
+   "hp_constants": [],
+   "enemy_init_hp": false,
+   "can_be_hit": false,
+   "punch_strength": false,
+   "difficulty_reads": 0,
+   "states": [],
+   "sounds": [],
+   "spawns": []
+  }
+ ]
+}

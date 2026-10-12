@@ -1,0 +1,210 @@
+[
+ {
+  "name": "WriteFile",
+  "address": "EXTERNAL:00000001"
+ },
+ {
+  "name": "GetProcAddress",
+  "address": "EXTERNAL:00000002"
+ },
+ {
+  "name": "GetModuleHandleA",
+  "address": "EXTERNAL:00000003"
+ },
+ {
+  "name": "GetVersion",
+  "address": "EXTERNAL:00000004"
+ },
+ {
+  "name": "ExitProcess",
+  "address": "EXTERNAL:00000005"
+ },
+ {
+  "name": "TerminateProcess",
+  "address": "EXTERNAL:00000006"
+ },
+ {
+  "name": "GetCurrentProcess",
+  "address": "EXTERNAL:00000007"
+ },
+ {
+  "name": "GetCurrentThreadId",
+  "address": "EXTERNAL:00000008"
+ },
+ {
+  "name": "TlsSetValue",
+  "address": "EXTERNAL:00000009"
+ },
+ {
+  "name": "TlsAlloc",
+  "address": "EXTERNAL:0000000a"
+ },
+ {
+  "name": "TlsFree",
+  "address": "EXTERNAL:0000000b"
+ },
+ {
+  "name": "SetLastError",
+  "address": "EXTERNAL:0000000c"
+ },
+ {
+  "name": "TlsGetValue",
+  "address": "EXTERNAL:0000000d"
+ },
+ {
+  "name": "GetLastError",
+  "address": "EXTERNAL:0000000e"
+ },
+ {
+  "name": "SetHandleCount",
+  "address": "EXTERNAL:0000000f"
+ },
+ {
+  "name": "GetStdHandle",
+  "address": "EXTERNAL:00000010"
+ },
+ {
+  "name": "GetFileType",
+  "address": "EXTERNAL:00000011"
+ },
+ {
+  "name": "GetStartupInfoA",
+  "address": "EXTERNAL:00000012"
+ },
+ {
+  "name": "DeleteCriticalSection",
+  "address": "EXTERNAL:00000013"
+ },
+ {
+  "name": "GetModuleFileNameA",
+  "address": "EXTERNAL:00000014"
+ },
+ {
+  "name": "GetCPInfo",
+  "address": "EXTERNAL:00000015"
+ },
+ {
+  "name": "GetACP",
+  "address": "EXTERNAL:00000016"
+ },
+ {
+  "name": "GetOEMCP",
+  "address": "EXTERNAL:00000017"
+ },
+ {
+  "name": "FreeEnvironmentStringsA",
+  "address": "EXTERNAL:00000018"
+ },
+ {
+  "name": "MultiByteToWideChar",
+  "address": "EXTERNAL:00000019"
+ },
+ {
+  "name": "FreeEnvironmentStringsW",
+  "address": "EXTERNAL:0000001a"
+ },
+ {
+  "name": "GetEnvironmentStrings",
+  "address": "EXTERNAL:0000001b"
+ },
+ {
+  "name": "GetEnvironmentStringsW",
+  "address": "EXTERNAL:0000001c"
+ },
+ {
+  "name": "WideCharToMultiByte",
+  "address": "EXTERNAL:0000001d"
+ },
+ {
+  "name": "HeapDestroy",
+  "address": "EXTERNAL:0000001e"
+ },
+ {
+  "name": "HeapCreate",
+  "address": "EXTERNAL:0000001f"
+ },
+ {
+  "name": "VirtualFree",
+  "address": "EXTERNAL:00000020"
+ },
+ {
+  "name": "GetCommandLineA",
+  "address": "EXTERNAL:00000021"
+ },
+ {
+  "name": "SetFilePointer",
+  "address": "EXTERNAL:00000022"
+ },
+ {
+  "name": "InterlockedDecrement",
+  "address": "EXTERNAL:00000023"
+ },
+ {
+  "name": "InterlockedIncrement",
+  "address": "EXTERNAL:00000024"
+ },
+ {
+  "name": "InitializeCriticalSection",
+  "address": "EXTERNAL:00000025"
+ },
+ {
+  "name": "EnterCriticalSection",
+  "address": "EXTERNAL:00000026"
+ },
+ {
+  "name": "LeaveCriticalSection",
+  "address": "EXTERNAL:00000027"
+ },
+ {
+  "name": "HeapAlloc",
+  "address": "EXTERNAL:00000028"
+ },
+ {
+  "name": "HeapFree",
+  "address": "EXTERNAL:00000029"
+ },
+ {
+  "name": "VirtualAlloc",
+  "address": "EXTERNAL:0000002a"
+ },
+ {
+  "name": "LoadLibraryA",
+  "address": "EXTERNAL:0000002b"
+ },
+ {
+  "name": "SetStdHandle",
+  "address": "EXTERNAL:0000002c"
+ },
+ {
+  "name": "GetStringTypeA",
+  "address": "EXTERNAL:0000002d"
+ },
+ {
+  "name": "GetStringTypeW",
+  "address": "EXTERNAL:0000002e"
+ },
+ {
+  "name": "LCMapStringA",
+  "address": "EXTERNAL:0000002f"
+ },
+ {
+  "name": "LCMapStringW",
+  "address": "EXTERNAL:00000030"
+ },
+ {
+  "name": "FlushFileBuffers",
+  "address": "EXTERNAL:00000031"
+ },
+ {
+  "name": "CloseHandle",
+  "address": "EXTERNAL:00000032"
+ },
+ {
+  "name": "GetLocaleInfoA",
+  "address": "EXTERNAL:00000033"
+ },
+ {
+  "name": "GetLocaleInfoW",
+  "address": "EXTERNAL:00000034"
+ }
+]

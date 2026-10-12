@@ -1,0 +1,157 @@
+{
+ "schema_version": 1,
+ "scenario_id": "L03.nessus-approach",
+ "run_id": "20261012-070937-password-medium",
+ "entry_method": {
+  "method": "password",
+  "debug_only": true,
+  "debug_start": 5,
+  "debug_level": null,
+  "replay_of": null,
+  "pad_script": "300-302:0040,340-342:4000,620-622:0040,664-666:0040,708-710:0020,748-750:0040,792-794:0040,836-838:0040,880-882:0020,920-922:0040,964-966:0080,1004-1006:0080,1044-1046:0080,1084-1086:0040,1158-1160:0008,1278-1280:0008,1398-1400:0008,1650-1700:0020"
+ },
+ "difficulty": {
+  "requested": "Medium",
+  "mechanism": "F2 Game Play option preset in memory (HERC_HOOK_DIFFICULTY -> EXE 0xb9e864 before 0x4ac0)",
+  "observed_at_level_load": 1
+ },
+ "hashes": {
+  "HERCULES.EXE": "b3ab3ee9e5c973bb245d8eed795e8e7065d7dfc371e412e602b2059af894a551",
+  "ENG1.DLL": "01b78ae814892007bb6031b2470f10e09bdd912fdb8d30de9f4cfea7c638f757",
+  "ENG3.DLL": "aefa1147deae55c4cb2290282f5142df00baa49a9cd59f671f7a3ce5b8b7fca7",
+  "TITLE.DLL": "b17a37fb1bd5002c54cedb6dba1509bc1ca2d8483fa9724d8e4ade04fe79188b",
+  "HERCULES.FS": "affa380e45918448895932cd466ea9a02096b8dcf08644f91b9da5ec34cd48b4"
+ },
+ "tracer": {
+  "hercules_hook.dll": "c83cb893968fc8b645095c6e5fa1cb0b80696ab06194231749d24a3eae155c7a",
+  "ddraw.dll (proxy)": "5e72b4e0837d7b21469d2d4877e53cd94cf2a8e22ab3d4946ae58b8030ad6ae5",
+  "hercules_display.ini": "600eb6fce1404a47030ce7366d5a9f33e6169388234b7d53588b7426a690aed6",
+  "env": {
+   "HERC_DISPLAY_MODE": "windowed",
+   "HERC_HOOK_ACTIVE": "1",
+   "HERC_HOOK_DIFFICULTY": "1",
+   "HERC_HOOK_DIR": "C:\\Games\\GameHercules\\Remaster\\analysis\\traces\\full-game\\l03-the-centaurs-forest\\nessus-approach\\20261012-070937-password-medium",
+   "HERC_HOOK_FRAMES": "C:\\Games\\GameHercules\\Remaster\\analysis\\traces\\full-game\\l03-the-centaurs-forest\\nessus-approach\\20261012-070937-password-medium\\frames.bin",
+   "HERC_HOOK_HERO": "1",
+   "HERC_HOOK_LEVEL": "",
+   "HERC_HOOK_NOINPUT": "1",
+   "HERC_HOOK_PAD": "300-302:0040,340-342:4000,620-622:0040,664-666:0040,708-710:0020,748-750:0040,792-794:0040,836-838:0040,880-882:0020,920-922:0040,964-966:0080,1004-1006:0080,1044-1046:0080,1084-1086:0040,1158-1160:0008,1278-1280:0008,1398-1400:0008,1650-1700:0020",
+   "HERC_HOOK_PAIRS": "16",
+   "HERC_HOOK_START": "5",
+   "HERC_HOOK_VRAM_TICKS": "",
+   "HERC_HOOK_WINDOWED": "1",
+   "HERC_RENDERER": "gpu"
+  }
+ },
+ "initial_state": {
+  "level": 3,
+  "start": 5,
+  "lives": 4,
+  "health": 128,
+  "difficulty": 1
+ },
+ "identity_events": [
+  {
+   "tick": 0,
+   "ev": "module_load",
+   "module": "TITLE",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 255,
+   "start": null,
+   "difficulty": 0
+  },
+  {
+   "tick": 1566,
+   "ev": "module_load",
+   "module": "ENG1",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 3,
+   "start": null,
+   "difficulty": 1
+  },
+  {
+   "tick": 1567,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG1",
+   "path": "M:\\GRAFIX\\MAPS\\FOREST\\MAP_PSX.BIN",
+   "index": 515,
+   "id": "49716801",
+   "level": 3,
+   "start": 5,
+   "difficulty": 1
+  },
+  {
+   "tick": 1567,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG1",
+   "path": "M:\\GRAFIX\\MAPS\\FOREST\\MAP_PSX.BIN",
+   "index": 515,
+   "id": "49716801",
+   "level": 3,
+   "start": 5,
+   "difficulty": 1
+  },
+  {
+   "tick": 1567,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG1",
+   "path": "M:\\GRAFIX\\MAPS\\FOREST\\MAP_PSX.BIN",
+   "index": 515,
+   "id": "49716801",
+   "level": 3,
+   "start": 5,
+   "difficulty": 1
+  },
+  {
+   "tick": 4111,
+   "ev": "module_load",
+   "module": "TITLE",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 3,
+   "start": null,
+   "difficulty": 1
+  }
+ ],
+ "ticks": {
+  "first": 0,
+  "last": 4513
+ },
+ "frame_tick_index": {
+  "file": "frames.bin",
+  "frames": 4510,
+  "first": {
+   "tick": 0,
+   "ms": 42.4699
+  },
+  "last": {
+   "tick": 4513,
+   "ms": 149990.5417
+  }
+ },
+ "audio_origin": {
+  "first_sound_event": {
+   "t": 894.3,
+   "tick": 8,
+   "ev": "esf_decode"
+  },
+  "clock": "t = ms since hook start (QueryPerformanceCounter)"
+ },
+ "cd_audio": "absent: music is CD track 2 (docs/music-transport.md); no CD in this setup, so no music plays",
+ "files": [
+  "frames.bin",
+  "input.jsonl",
+  "resource-usage.jsonl"
+ ]
+}

@@ -1,0 +1,332 @@
+{
+ "_doc": "Per-level Sonix banks (S5.03) -> extracted/meta/full-game/audio-banks.json. See tools/decode/level_sonix.py (VERIFIED-STATIC).",
+ "levels": {
+  "(id 0) PLAYROOM": {
+   "engine": "ENG1",
+   "level_id": 0,
+   "descriptor_field": "0x5a6a4",
+   "record": "0x5cdf4",
+   "music_volume": 128,
+   "sfx_volume": 128,
+   "music": {
+    "id": 11,
+    "dir": "q:\\VORTEX\\",
+    "music_mus": 604,
+    "sfx_sfx": 615
+   },
+   "sfx": [
+    {
+     "id": 24,
+     "dir": "q:\\VORTEX\\",
+     "music_mus": 604,
+     "sfx_sfx": 615
+    }
+   ]
+  },
+  "TRAINING": {
+   "engine": "ENG1",
+   "level_id": 1,
+   "descriptor_field": "0x5a6bc",
+   "record": "0x685f8",
+   "music_volume": 70,
+   "sfx_volume": 112,
+   "music": {
+    "id": 1,
+    "dir": "q:\\TRAINING\\",
+    "music_mus": 745,
+    "sfx_sfx": 597
+   },
+   "sfx": [
+    {
+     "id": 14,
+     "dir": "q:\\TRAINING\\",
+     "music_mus": 745,
+     "sfx_sfx": 597
+    },
+    {
+     "id": 26,
+     "dir": "q:\\HERC_TRA\\",
+     "music_mus": null,
+     "sfx_sfx": 593
+    }
+   ]
+  },
+  "FOREST": {
+   "engine": "ENG1",
+   "level_id": 3,
+   "descriptor_field": "0x5a6ec",
+   "record": "0x4f258",
+   "music_volume": 80,
+   "sfx_volume": 110,
+   "music": {
+    "id": 3,
+    "dir": "q:\\FOREST\\",
+    "music_mus": 600,
+    "sfx_sfx": 612
+   },
+   "sfx": [
+    {
+     "id": 28,
+     "dir": "q:\\HERC_FOR\\",
+     "music_mus": null,
+     "sfx_sfx": 582
+    },
+    {
+     "id": 16,
+     "dir": "q:\\FOREST\\",
+     "music_mus": 600,
+     "sfx_sfx": 612
+    }
+   ]
+  },
+  "(id 4) NESSUS": {
+   "engine": "ENG1",
+   "level_id": 4,
+   "descriptor_field": "0x5a704",
+   "record": "0x4f358",
+   "music_volume": 128,
+   "sfx_volume": 128,
+   "music": {
+    "id": 4,
+    "dir": "q:\\NESSUS\\",
+    "music_mus": 589,
+    "sfx_sfx": 605
+   },
+   "sfx": [
+    {
+     "id": 17,
+     "dir": "q:\\NESSUS\\",
+     "music_mus": 589,
+     "sfx_sfx": 605
+    }
+   ]
+  },
+  "THEBES": {
+   "engine": "ENG1",
+   "level_id": 5,
+   "descriptor_field": "0x5a71c",
+   "record": "0x61778",
+   "music_volume": 70,
+   "sfx_volume": 110,
+   "music": {
+    "id": 5,
+    "dir": "q:\\THEBES\\",
+    "music_mus": 591,
+    "sfx_sfx": 607
+   },
+   "sfx": [
+    {
+     "id": 18,
+     "dir": "q:\\THEBES\\",
+     "music_mus": 591,
+     "sfx_sfx": 607
+    },
+    {
+     "id": 30,
+     "dir": "q:\\HERC_THE\\",
+     "music_mus": null,
+     "sfx_sfx": 594
+    }
+   ]
+  },
+  "HYDRA": {
+   "engine": "ENG1",
+   "level_id": 6,
+   "descriptor_field": "0x5a734",
+   "record": "0x58870",
+   "music_volume": 80,
+   "sfx_volume": 110,
+   "music": {
+    "id": 6,
+    "dir": "q:\\HYDRA\\",
+    "music_mus": 613,
+    "sfx_sfx": 475
+   },
+   "sfx": [
+    {
+     "id": 31,
+     "dir": "q:\\HERC_HYD\\",
+     "music_mus": null,
+     "sfx_sfx": 586
+    },
+    {
+     "id": 19,
+     "dir": "q:\\HYDRA\\",
+     "music_mus": 613,
+     "sfx_sfx": 475
+    }
+   ]
+  },
+  "MEDUSA": {
+   "engine": "ENG1",
+   "level_id": 7,
+   "descriptor_field": "0x5a74c",
+   "record": "0x5a028",
+   "music_volume": 80,
+   "sfx_volume": 110,
+   "music": {
+    "id": 7,
+    "dir": "q:\\MEDUSA\\",
+    "music_mus": 576,
+    "sfx_sfx": 588
+   },
+   "sfx": [
+    {
+     "id": 32,
+     "dir": "q:\\HERC_MED\\",
+     "music_mus": null,
+     "sfx_sfx": 590
+    },
+    {
+     "id": 20,
+     "dir": "q:\\MEDUSA\\",
+     "music_mus": 576,
+     "sfx_sfx": 588
+    }
+   ]
+  },
+  "TITANS": {
+   "engine": "ENG1",
+   "level_id": 9,
+   "descriptor_field": "0x5a77c",
+   "record": "0x630f8",
+   "music_volume": 72,
+   "sfx_volume": 110,
+   "fe_arg": 47,
+   "music": {
+    "id": 9,
+    "dir": "q:\\TITANS\\",
+    "music_mus": 592,
+    "sfx_sfx": 608
+   },
+   "sfx": [
+    {
+     "id": 22,
+     "dir": "q:\\TITANS\\",
+     "music_mus": 592,
+     "sfx_sfx": 608
+    },
+    {
+     "id": 34,
+     "dir": "q:\\HERC_TIT\\",
+     "music_mus": null,
+     "sfx_sfx": 596
+    }
+   ]
+  },
+  "VORTEX": {
+   "engine": "ENG1",
+   "level_id": 11,
+   "descriptor_field": "0x5a7ac",
+   "record": "0x6b168",
+   "music_volume": 72,
+   "sfx_volume": 100,
+   "fe_arg": 40,
+   "music": {
+    "id": 11,
+    "dir": "q:\\VORTEX\\",
+    "music_mus": 604,
+    "sfx_sfx": 615
+   },
+   "sfx": [
+    {
+     "id": 24,
+     "dir": "q:\\VORTEX\\",
+     "music_mus": 604,
+     "sfx_sfx": 615
+    },
+    {
+     "id": 36,
+     "dir": "q:\\HERC_VOR\\",
+     "music_mus": null,
+     "sfx_sfx": 598
+    }
+   ]
+  },
+  "GAUNTLET": {
+   "engine": "ENG3",
+   "level_id": 2,
+   "descriptor_field": "0x3856c",
+   "record": "0x382c0",
+   "music_volume": 70,
+   "sfx_volume": 110,
+   "music": {
+    "id": 2,
+    "dir": "q:\\GAUNTLET\\",
+    "music_mus": 643,
+    "sfx_sfx": 585
+   },
+   "sfx": [
+    {
+     "id": 15,
+     "dir": "q:\\GAUNTLET\\",
+     "music_mus": 643,
+     "sfx_sfx": 585
+    },
+    {
+     "id": 27,
+     "dir": "q:\\HERC_GAU\\",
+     "music_mus": null,
+     "sfx_sfx": 583
+    }
+   ]
+  },
+  "CYCLOPS": {
+   "engine": "ENG3",
+   "level_id": 8,
+   "descriptor_field": "0x385fc",
+   "record": "0x38398",
+   "music_volume": 75,
+   "sfx_volume": 110,
+   "music": {
+    "id": 8,
+    "dir": "q:\\CYCLOPS\\",
+    "music_mus": 580,
+    "sfx_sfx": 587
+   },
+   "sfx": [
+    {
+     "id": 21,
+     "dir": "q:\\CYCLOPS\\",
+     "music_mus": 580,
+     "sfx_sfx": 587
+    },
+    {
+     "id": 33,
+     "dir": "q:\\HERC_CYC\\",
+     "music_mus": null,
+     "sfx_sfx": 581
+    }
+   ]
+  },
+  "TORMENT": {
+   "engine": "ENG3",
+   "level_id": 10,
+   "descriptor_field": "0x3862c",
+   "record": "0x38440",
+   "music_volume": 70,
+   "sfx_volume": 110,
+   "fe_arg": 40,
+   "music": {
+    "id": 10,
+    "dir": "q:\\TORMENT\\",
+    "music_mus": 572,
+    "sfx_sfx": 578
+   },
+   "sfx": [
+    {
+     "id": 35,
+     "dir": "q:\\HERC_TOR\\",
+     "music_mus": null,
+     "sfx_sfx": 595
+    },
+    {
+     "id": 23,
+     "dir": "q:\\TORMENT\\",
+     "music_mus": 572,
+     "sfx_sfx": 578
+    }
+   ]
+  }
+ }
+}

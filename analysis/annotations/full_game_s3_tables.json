@@ -1,0 +1,130 @@
+{
+ "ENG3.DLL": {
+  "functions": {
+   "0x1001fa70": [
+    "MOD_ReadPad",
+    "slot 0x84 thunk: pad -> gs+0x5c/+0x5e (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1001f920": [
+    "MOD_StreamReadStep",
+    "slot 0x2c thunk: async CD read step (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1001fa90": [
+    "MOD_ExeTimerTick",
+    "slot 0x8c thunk: countdown 0x4352b0 while gs+0x1b00 = 2 (meaning open) (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1000acb0": [
+    "GFX_FadeStep",
+    "brightness 0x3fa44 toward 0x80/0 by step 0x4254c (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1000a700": [
+    "GFX_BeginFrame",
+    "clear OT, reset primitive pointer (docs/full-game/eng3-tables.md)"
+   ],
+   "0x10008540": [
+    "LVL_BankLoadStep",
+    "next bank in state 1 (table 0x39558) -> ANIMPSX.BIN load (docs/full-game/eng3-tables.md)"
+   ],
+   "0x100222c0": [
+    "LVL_CameraFollow",
+    "camera 0x405e0.. follows target 0x431d4 (docs/full-game/eng3-tables.md)"
+   ],
+   "0x10022070": [
+    "GFX_SetupView",
+    "camera track x/z -> world + yaw via track paths 0x40540 (docs/full-game/eng3-tables.md)"
+   ],
+   "0x10020190": [
+    "GFX_DrawLevel",
+    "current track + visible tracks; drawn column range -> 0x4078c (docs/full-game/eng3-tables.md)"
+   ],
+   "0x10008b20": [
+    "GFX_DrawObjects",
+    "depth-sort pools, models/sprites draw (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1001b9f0": [
+    "LVL_UpdateObjects",
+    "pass 1 handlers (flags bit 0), runs LVL_SpawnStep first (docs/full-game/eng3-tables.md)"
+   ],
+   "0x100085a0": [
+    "LVL_BankReleaseStep",
+    "banks in state 4/7 freed (docs/full-game/eng3-tables.md)"
+   ],
+   "0x10001880": [
+    "LVL_CyclopsTick",
+    "level 8 only: Cyclops controller 0x3610 (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1001bd40": [
+    "LVL_PostUpdateObjects",
+    "pass 2 handlers (flags bit 1), hero-ride object, x wrap (docs/full-game/eng3-tables.md)"
+   ],
+   "0x100250f0": [
+    "GFX_DrawHud",
+    "timer, health bar, panel sprites (docs/full-game/eng3-tables.md)"
+   ],
+   "0x10008050": [
+    "GFX_AnimateTextures",
+    "i1.a n10 table: frame = (gs+0x38/period) % n (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1000aa70": [
+    "GFX_FlushPendingUpload",
+    "deferred LoadImage when 0x43178 set (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1000b512": [
+    "MOD_UpdateSfxVoices",
+    "24 positional voices 0x41ec8 (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1000b059": [
+    "MOD_CheckExit",
+    "gs+3 command: 0x12/0x13 -> TITLE, 0x21 -> section restart (docs/full-game/eng3-tables.md)"
+   ],
+   "0x10022790": [
+    "LVL_BuildTrackPaths",
+    "track +0xa turn list -> 0x40540[track] world path (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1001c010": [
+    "LVL_InitSpawnLists",
+    "track spawn lists (8-byte {x,y,z,template}) -> 0x3fbd0[track] 0x14-byte entries (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1001c430": [
+    "LVL_SpawnStep",
+    "spawn entries with x in (end col*128, +256), routed by type & 0x7000 (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1001d9b0": [
+    "LVL_SelectObjectConfig",
+    "config 0x3b900 (0x48/level, u16 id, 999 end) -> kind tables 0x40b8c.. (docs/full-game/eng3-tables.md)"
+   ],
+   "0x10008120": [
+    "GFX_ScrollTexture",
+    "i1.a n12 scrolling texture (idx, dx, dy) (docs/full-game/eng3-tables.md)"
+   ],
+   "0x1001b4a0": [
+    "LVL_CellAttribute",
+    "zone -> attr record -> obstacle/trigger code (docs/full-game/eng3-tables.md)"
+   ],
+   "0x10024870": [
+    "GFX_ModelHitbox",
+    "model hitbox k (centre/size packed), scaled by obj+0x3a (docs/full-game/eng3-tables.md)"
+   ],
+   "0x10002390": [
+    "RT_StubVoid",
+    "single RET; shared no-op entry: hero state 4 (table 0x41c80) and the default actor/pickup handler in the kind tables (150 actor entries in GAUNTLET)"
+   ],
+   "0x10022620": [
+    "LVL_SetObjectTrack",
+    "obj+0x38 = track, x -= branch column*128; camera target also sets 0x40638 and shifts camera x"
+   ],
+   "0x10022b30": [
+    "LVL_TriggerCode",
+    "code -> config 0x3b900 +0x44 u16: 0x8000 -> func table +0x38(low byte); 0x100 -> LVL_SetObjectTrack(low byte)"
+   ],
+   "0x10023860": [
+    "GFX_FrameHitbox",
+    "obj frame box k (frame record: s8 boxes at +1, 6 s8 each = z0, y0, x0*2, z1, y1, x1*2) scaled by obj+0x3a/256; bank 0 -> GFX_ModelHitbox"
+   ],
+   "0x1001f1a0": [
+    "LVL_ObjWorldBox",
+    "GFX_FrameHitbox + obj position, mirrored by obj+0x54 flags 0x10 (x) / 0x20 (y) -> {z0,y0,x0,z1,y1,x1}"
+   ]
+  }
+ }
+}

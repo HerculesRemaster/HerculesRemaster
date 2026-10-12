@@ -1,0 +1,46 @@
+{
+ "sheet": [
+  1536,
+  1024
+ ],
+ "scale": 9,
+ "cells": [
+  {
+   "entry": "ui/STPANEL1",
+   "kind": "region",
+   "rect": [
+    0,
+    0,
+    80,
+    37
+   ],
+   "at": [
+    16,
+    16
+   ],
+   "size": [
+    720,
+    333
+   ]
+  },
+  {
+   "entry": "ui/STPANEL1",
+   "kind": "region",
+   "rect": [
+    136,
+    0,
+    64,
+    31
+   ],
+   "at": [
+    16,
+    311
+   ],
+   "size": [
+    576,
+    279
+   ]
+  }
+ ],
+ "family": "ui"
+}

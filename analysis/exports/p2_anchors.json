@@ -1,0 +1,1093 @@
+{
+ "HERCULES.EXE": {
+  "strings": [
+   {
+    "address": "00436618",
+    "value": "hercules.fs",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "00405044",
+      "type": "DATA",
+      "from_function": "FUN_00405020"
+     }
+    ]
+   },
+   {
+    "address": "00436bac",
+    "value": "Hercules is not installed.\nRun SETUP from the CD.",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "004076d2",
+      "type": "DATA"
+     }
+    ]
+   },
+   {
+    "address": "00436868",
+    "value": "PC_DLLEngineMain",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "00405c8f",
+      "type": "DATA",
+      "from_function": "FUN_00405c20"
+     }
+    ]
+   },
+   {
+    "address": "00435d58",
+    "value": "\n LoadLevelSonix setting Music %d Sfx %d",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "00401775",
+      "type": "DATA",
+      "from_function": "FUN_004016b0"
+     }
+    ]
+   },
+   {
+    "address": "00435d84",
+    "value": "LoadLevelSonix ------- ------- ------\n",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "004016de",
+      "type": "DATA",
+      "from_function": "FUN_004016b0"
+     }
+    ]
+   },
+   {
+    "address": "00436833",
+    "value": "s Hercules - Demo Mode",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "0042f260",
+    "value": "user32.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "004193fe",
+      "type": "DATA",
+      "from_function": "FUN_004193f0"
+     }
+    ]
+   },
+   {
+    "address": "00431800",
+    "value": "COMCTL32.DLL",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "0042c526",
+      "type": "DATA",
+      "from_function": "FUN_0042c502"
+     }
+    ]
+   },
+   {
+    "address": "0043687c",
+    "value": "m:\\pc\\eng3\\release\\eng3.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "00405daf",
+      "type": "READ",
+      "from_function": "FUN_00405cd0"
+     },
+     {
+      "from_address": "00405da7",
+      "type": "DATA",
+      "from_function": "FUN_00405cd0"
+     }
+    ]
+   },
+   {
+    "address": "004368a0",
+    "value": "m:\\pc\\eng1\\release\\eng1.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "00405d76",
+      "type": "READ",
+      "from_function": "FUN_00405cd0"
+     },
+     {
+      "from_address": "00405d6e",
+      "type": "DATA",
+      "from_function": "FUN_00405cd0"
+     }
+    ]
+   },
+   {
+    "address": "004368c4",
+    "value": "m:\\pc\\title\\release\\title.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "00405d3d",
+      "type": "READ",
+      "from_function": "FUN_00405cd0"
+     },
+     {
+      "from_address": "00405d35",
+      "type": "DATA",
+      "from_function": "FUN_00405cd0"
+     }
+    ]
+   },
+   {
+    "address": "0043e4f8",
+    "value": "KERNEL32.DLL",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "004202df",
+      "type": "DATA",
+      "from_function": "FUN_004202d0"
+     }
+    ]
+   },
+   {
+    "address": "00ba5b54",
+    "value": "DDRAW.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba5b72",
+    "value": "DSOUND.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba5bec",
+    "value": "WINMM.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba6366",
+    "value": "KERNEL32.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba6c3c",
+    "value": "USER32.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba6e98",
+    "value": "GDI32.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba6ea2",
+    "value": "comdlg32.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba6f4a",
+    "value": "ADVAPI32.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba6f78",
+    "value": "SHELL32.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba6fe2",
+    "value": "COMCTL32.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba6bf0",
+    "value": "OffsetRect",
+    "encoding": "ascii",
+    "xrefs": []
+   },
+   {
+    "address": "00ba6d9c",
+    "value": "OffsetViewportOrgEx",
+    "encoding": "ascii",
+    "xrefs": []
+   }
+  ],
+  "imports": [
+   {
+    "name": "DirectDrawCreate",
+    "address": "EXTERNAL:00000001",
+    "xrefs": [
+     {
+      "from_address": "00ba5648",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00410a20",
+      "type": "COMPUTED_JUMP",
+      "from_function": "DirectDrawCreate"
+     }
+    ]
+   },
+   {
+    "name": "DirectSoundCreate",
+    "address": "EXTERNAL:00000002",
+    "xrefs": [
+     {
+      "from_address": "00ba5650",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00410a26",
+      "type": "COMPUTED_JUMP",
+      "from_function": "DirectSoundCreate"
+     }
+    ]
+   },
+   {
+    "name": "joyGetPosEx",
+    "address": "EXTERNAL:00000003",
+    "xrefs": [
+     {
+      "from_address": "00ba5b0c",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00407dac",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407c50"
+     }
+    ]
+   },
+   {
+    "name": "joyGetPos",
+    "address": "EXTERNAL:00000004",
+    "xrefs": [
+     {
+      "from_address": "00ba5b10",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00407beb",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407bb0"
+     }
+    ]
+   },
+   {
+    "name": "mciSendStringA",
+    "address": "EXTERNAL:00000005",
+    "xrefs": [
+     {
+      "from_address": "00ba5b14",
+      "type": "DATA"
+     },
+     {
+      "from_address": "0040a139",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_0040a120"
+     },
+     {
+      "from_address": "00409c51",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409c30"
+     },
+     {
+      "from_address": "00409c70",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409c30"
+     },
+     {
+      "from_address": "00409c9c",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409c30"
+     },
+     {
+      "from_address": "00409d7d",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409d60"
+     },
+     {
+      "from_address": "00409dcd",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409db0"
+     },
+     {
+      "from_address": "00409ec4",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409e60"
+     },
+     {
+      "from_address": "00409f17",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409e60"
+     },
+     {
+      "from_address": "00409e2d",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409e10"
+     },
+     {
+      "from_address": "00409faf",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409f60"
+     },
+     {
+      "from_address": "0040a05d",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409f60"
+     }
+    ]
+   },
+   {
+    "name": "timeBeginPeriod",
+    "address": "EXTERNAL:00000007",
+    "xrefs": [
+     {
+      "from_address": "00ba5b1c",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00405e12",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00405e10"
+     },
+     {
+      "from_address": "0040314e",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00403140"
+     }
+    ]
+   },
+   {
+    "name": "timeGetTime",
+    "address": "EXTERNAL:00000009",
+    "xrefs": [
+     {
+      "from_address": "00ba5b24",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00409d22",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409cd0"
+     },
+     {
+      "from_address": "00409d8c",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409d60"
+     },
+     {
+      "from_address": "00409ddc",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409db0"
+     },
+     {
+      "from_address": "00409f33",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409e60"
+     },
+     {
+      "from_address": "00409fba",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409f60"
+     },
+     {
+      "from_address": "0040a072",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00409f60"
+     },
+     {
+      "from_address": "00405f27",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00405f20"
+     },
+     {
+      "from_address": "0040380b",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004037a0"
+     },
+     {
+      "from_address": "00403aeb",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004037a0"
+     },
+     {
+      "from_address": "0040397e",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004037a0"
+     },
+     {
+      "from_address": "0040385b",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004037a0"
+     }
+    ]
+   },
+   {
+    "name": "ReadFile",
+    "address": "EXTERNAL:00000054",
+    "xrefs": [
+     {
+      "from_address": "00ba5824",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00414097",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00413f30"
+     },
+     {
+      "from_address": "00413fb6",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00413f30"
+     },
+     {
+      "from_address": "0040319b",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00403140"
+     },
+     {
+      "from_address": "00403449",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004033e0"
+     }
+    ]
+   },
+   {
+    "name": "SetFilePointer",
+    "address": "EXTERNAL:00000056",
+    "xrefs": [
+     {
+      "from_address": "00ba582c",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00413562",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00413530"
+     }
+    ]
+   },
+   {
+    "name": "CreateFileA",
+    "address": "EXTERNAL:00000059",
+    "xrefs": [
+     {
+      "from_address": "00ba5838",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00418087",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00417ec0"
+     },
+     {
+      "from_address": "00403177",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00403140"
+     }
+    ]
+   },
+   {
+    "name": "LoadLibraryA",
+    "address": "EXTERNAL:00000072",
+    "xrefs": [
+     {
+      "from_address": "00ba589c",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00419403",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004193f0"
+     },
+     {
+      "from_address": "00405c75",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00405c20"
+     }
+    ]
+   },
+   {
+    "name": "FreeLibrary",
+    "address": "EXTERNAL:00000074",
+    "xrefs": [
+     {
+      "from_address": "00ba58a4",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00405c3a",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00405c20"
+     },
+     {
+      "from_address": "0042cd3a",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_0042cd0c"
+     }
+    ]
+   },
+   {
+    "name": "GetProcAddress",
+    "address": "EXTERNAL:00000076",
+    "xrefs": [
+     {
+      "from_address": "00ba58ac",
+      "type": "DATA"
+     },
+     {
+      "from_address": "004202f0",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004202d0"
+     },
+     {
+      "from_address": "0041941b",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004193f0"
+     },
+     {
+      "from_address": "0041942c",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004193f0"
+     },
+     {
+      "from_address": "00419439",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004193f0"
+     },
+     {
+      "from_address": "00405c95",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00405c20"
+     },
+     {
+      "from_address": "00413845",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00413830"
+     }
+    ]
+   },
+   {
+    "name": "GetAsyncKeyState",
+    "address": "EXTERNAL:000000e0",
+    "xrefs": [
+     {
+      "from_address": "00ba5a64",
+      "type": "DATA"
+     },
+     {
+      "from_address": "00408415",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_004083f0"
+     },
+     {
+      "from_address": "00428f08",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00428eeb"
+     },
+     {
+      "from_address": "00407c2a",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407bb0"
+     },
+     {
+      "from_address": "00407f4a",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00407f5a",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00407f69",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00407f78",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00407f8d",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00407f9f",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00407fb1",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00407fc6",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00407fd8",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00407fed",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00408002",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "00408017",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     },
+     {
+      "from_address": "0040802c",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_00407f30"
+     }
+    ]
+   }
+  ]
+ },
+ "ENG1.DLL": {
+  "strings": [
+   {
+    "address": "1004cb3b",
+    "value": "PC_DLLEngineMain",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "1004cb2c",
+      "type": "DATA"
+     }
+    ]
+   },
+   {
+    "address": "1004d85c",
+    "value": "DEMO MODE",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "1004d758",
+      "type": "DATA"
+     }
+    ]
+   },
+   {
+    "address": "1004c008",
+    "value": "kernel32.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "100465f7",
+      "type": "DATA",
+      "from_function": "FUN_100465c0"
+     }
+    ]
+   },
+   {
+    "address": "1004c3ac",
+    "value": "user32.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "100496ae",
+      "type": "DATA",
+      "from_function": "FUN_100496a0"
+     }
+    ]
+   },
+   {
+    "address": "1004cb32",
+    "value": "Eng1.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "1004cb0c",
+      "type": "DATA"
+     }
+    ]
+   },
+   {
+    "address": "1007556e",
+    "value": "KERNEL32.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   }
+  ],
+  "imports": [
+   {
+    "name": "GetProcAddress",
+    "address": "EXTERNAL:00000002",
+    "xrefs": [
+     {
+      "from_address": "10075100",
+      "type": "DATA"
+     },
+     {
+      "from_address": "1004660c",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_100465c0"
+     },
+     {
+      "from_address": "100496cb",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_100496a0"
+     },
+     {
+      "from_address": "100496dc",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_100496a0"
+     },
+     {
+      "from_address": "100496e9",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_100496a0"
+     }
+    ]
+   },
+   {
+    "name": "SetFilePointer",
+    "address": "EXTERNAL:00000022",
+    "xrefs": [
+     {
+      "from_address": "10075180",
+      "type": "DATA"
+     },
+     {
+      "from_address": "10048532",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_10048500"
+     }
+    ]
+   },
+   {
+    "name": "LoadLibraryA",
+    "address": "EXTERNAL:0000002b",
+    "xrefs": [
+     {
+      "from_address": "100751a4",
+      "type": "DATA"
+     },
+     {
+      "from_address": "100496b3",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_100496a0"
+     }
+    ]
+   }
+  ]
+ },
+ "ENG3.DLL": {
+  "strings": [
+   {
+    "address": "10032bab",
+    "value": "PC_DLLEngineMain",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "10032b9c",
+      "type": "DATA"
+     }
+    ]
+   },
+   {
+    "address": "1003516c",
+    "value": "DEMO MODE",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "10035068",
+      "type": "DATA"
+     }
+    ]
+   },
+   {
+    "address": "10032018",
+    "value": "kernel32.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "1002a347",
+      "type": "DATA",
+      "from_function": "FUN_1002a310"
+     }
+    ]
+   },
+   {
+    "address": "10032400",
+    "value": "user32.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "1002e81e",
+      "type": "DATA",
+      "from_function": "FUN_1002e810"
+     }
+    ]
+   },
+   {
+    "address": "10032ba2",
+    "value": "Eng3.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "10032b7c",
+      "type": "DATA"
+     }
+    ]
+   },
+   {
+    "address": "1004556e",
+    "value": "KERNEL32.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   }
+  ],
+  "imports": [
+   {
+    "name": "GetProcAddress",
+    "address": "EXTERNAL:00000002",
+    "xrefs": [
+     {
+      "from_address": "10045100",
+      "type": "DATA"
+     },
+     {
+      "from_address": "1002e83b",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1002e810"
+     },
+     {
+      "from_address": "1002e84c",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1002e810"
+     },
+     {
+      "from_address": "1002e859",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1002e810"
+     },
+     {
+      "from_address": "1002a35c",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1002a310"
+     },
+     {
+      "from_address": "1002b1e5",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1002b1d0"
+     }
+    ]
+   },
+   {
+    "name": "SetFilePointer",
+    "address": "EXTERNAL:00000022",
+    "xrefs": [
+     {
+      "from_address": "10045180",
+      "type": "DATA"
+     },
+     {
+      "from_address": "1002c882",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1002c850"
+     }
+    ]
+   },
+   {
+    "name": "LoadLibraryA",
+    "address": "EXTERNAL:0000002b",
+    "xrefs": [
+     {
+      "from_address": "100451a4",
+      "type": "DATA"
+     },
+     {
+      "from_address": "1002e823",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1002e810"
+     }
+    ]
+   }
+  ]
+ },
+ "TITLE.DLL": {
+  "strings": [
+   {
+    "address": "1002138c",
+    "value": "PC_DLLEngineMain",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "1002137c",
+      "type": "DATA"
+     }
+    ]
+   },
+   {
+    "address": "10021008",
+    "value": "kernel32.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "1001d817",
+      "type": "DATA",
+      "from_function": "FUN_1001d7e0"
+     }
+    ]
+   },
+   {
+    "address": "10021338",
+    "value": "user32.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "1001f5fe",
+      "type": "DATA",
+      "from_function": "FUN_1001f5f0"
+     }
+    ]
+   },
+   {
+    "address": "10021382",
+    "value": "Title.dll",
+    "encoding": "ascii",
+    "xrefs": [
+     {
+      "from_address": "1002135c",
+      "type": "DATA"
+     }
+    ]
+   },
+   {
+    "address": "10030490",
+    "value": "KERNEL32.dll",
+    "encoding": "ascii",
+    "xrefs": []
+   }
+  ],
+  "imports": [
+   {
+    "name": "GetProcAddress",
+    "address": "EXTERNAL:00000001",
+    "xrefs": [
+     {
+      "from_address": "100300e4",
+      "type": "DATA"
+     },
+     {
+      "from_address": "1001f61b",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1001f5f0"
+     },
+     {
+      "from_address": "1001f62c",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1001f5f0"
+     },
+     {
+      "from_address": "1001f639",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1001f5f0"
+     },
+     {
+      "from_address": "1001d82c",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1001d7e0"
+     }
+    ]
+   },
+   {
+    "name": "LoadLibraryA",
+    "address": "EXTERNAL:00000027",
+    "xrefs": [
+     {
+      "from_address": "1003017c",
+      "type": "DATA"
+     },
+     {
+      "from_address": "1001f603",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_1001f5f0"
+     }
+    ]
+   },
+   {
+    "name": "SetFilePointer",
+    "address": "EXTERNAL:0000002b",
+    "xrefs": [
+     {
+      "from_address": "1003018c",
+      "type": "DATA"
+     },
+     {
+      "from_address": "10020442",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_10020410"
+     }
+    ]
+   },
+   {
+    "name": "ReadFile",
+    "address": "EXTERNAL:0000002c",
+    "xrefs": [
+     {
+      "from_address": "10030190",
+      "type": "DATA"
+     },
+     {
+      "from_address": "10020677",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_10020510"
+     },
+     {
+      "from_address": "10020596",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_10020510"
+     }
+    ]
+   },
+   {
+    "name": "CreateFileA",
+    "address": "EXTERNAL:0000002d",
+    "xrefs": [
+     {
+      "from_address": "10030194",
+      "type": "DATA"
+     },
+     {
+      "from_address": "10020927",
+      "type": "COMPUTED_CALL",
+      "from_function": "FUN_10020760"
+     }
+    ]
+   }
+  ]
+ }
+}

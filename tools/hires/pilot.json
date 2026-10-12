@@ -1,0 +1,19 @@
+{
+ "_doc": "P7 pilot set (docs/art-guide.md). Sprite sequences list manifest frames in play order; labels from tools/decode/anim_labels.json and the bank contact sheets.",
+ "subjects": {
+  "hero": "Hercules, a young muscular Greek hero: auburn hair with a headband, red-brown short tunic with a gold belt buckle, blue cape, bronze wrist bracers, brown sandals, holding a bronze-hilted sword when shown",
+  "bird": "a Stymphalian bird: a menacing mythological bird with dark blue-black metallic feathers, sharp blade-like wing feathers, hooked beak and a small red eye"
+ },
+ "sequences": [
+  {"name": "hero_idle", "subject": "hero", "action": "idle stance, breathing", "bank": 765, "frames": [1, 2, 3, 4, 5, 6, 7, 8], "loop": true},
+  {"name": "hero_run", "subject": "hero", "action": "running cycle", "bank": 560, "frames": [2, 3, 10, 11, 12, 13, 14, 15, 4, 5, 6, 7, 8, 9], "loop": true},
+  {"name": "hero_attack_sword_thrust", "subject": "hero", "action": "sword thrust attack", "bank": 560, "frames": [211, 212, 213, 214, 215, 216, 217, 246, 247], "loop": false},
+  {"name": "bird_flap", "subject": "bird", "action": "flying, wing-flap cycle", "bank": 485, "frames": [9, 10, 11, 12, 13, 14, 15, 16], "loop": true},
+  {"name": "bird_dive", "subject": "bird", "action": "diving attack", "bank": 485, "frames": [17, 18, 19, 20, 21, 22, 23, 24], "loop": false}
+ ],
+ "regions": [
+  {"name": "background_training", "entry": "level/TRAINING", "note": "whole TRAINING VRAM image: every level texture of the slice"},
+  {"name": "tile_training_936", "entry": "level/TRAINING", "rect": [576, 0, 64, 64], "note": "most used quad texture (27 quads), tiles vertically"},
+  {"name": "ui_hud", "entry": "ui/STPANEL1", "note": "HUD sheet: clouds, orbs, health bar, gauge"}
+ ]
+}

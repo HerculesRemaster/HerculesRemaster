@@ -1,0 +1,170 @@
+{
+ "sheet": [
+  1536,
+  1024
+ ],
+ "scale": 8,
+ "cells": [
+  {
+   "entry": "sprite/0485/f0017",
+   "kind": "frame",
+   "offset": [
+    12,
+    10
+   ],
+   "canvas": [
+    28,
+    32
+   ],
+   "at": [
+    16,
+    16
+   ],
+   "size": [
+    352,
+    336
+   ]
+  },
+  {
+   "entry": "sprite/0485/f0018",
+   "kind": "frame",
+   "offset": [
+    8,
+    8
+   ],
+   "canvas": [
+    32,
+    32
+   ],
+   "at": [
+    384,
+    16
+   ],
+   "size": [
+    352,
+    336
+   ]
+  },
+  {
+   "entry": "sprite/0485/f0019",
+   "kind": "frame",
+   "offset": [
+    4,
+    14
+   ],
+   "canvas": [
+    40,
+    24
+   ],
+   "at": [
+    752,
+    16
+   ],
+   "size": [
+    352,
+    336
+   ]
+  },
+  {
+   "entry": "sprite/0485/f0020",
+   "kind": "frame",
+   "offset": [
+    2,
+    0
+   ],
+   "canvas": [
+    40,
+    32
+   ],
+   "at": [
+    1120,
+    16
+   ],
+   "size": [
+    352,
+    336
+   ]
+  },
+  {
+   "entry": "sprite/0485/f0021",
+   "kind": "frame",
+   "offset": [
+    0,
+    4
+   ],
+   "canvas": [
+    40,
+    32
+   ],
+   "at": [
+    16,
+    368
+   ],
+   "size": [
+    352,
+    336
+   ]
+  },
+  {
+   "entry": "sprite/0485/f0022",
+   "kind": "frame",
+   "offset": [
+    0,
+    2
+   ],
+   "canvas": [
+    40,
+    40
+   ],
+   "at": [
+    384,
+    368
+   ],
+   "size": [
+    352,
+    336
+   ]
+  },
+  {
+   "entry": "sprite/0485/f0023",
+   "kind": "frame",
+   "offset": [
+    0,
+    2
+   ],
+   "canvas": [
+    40,
+    40
+   ],
+   "at": [
+    752,
+    368
+   ],
+   "size": [
+    352,
+    336
+   ]
+  },
+  {
+   "entry": "sprite/0485/f0024",
+   "kind": "frame",
+   "offset": [
+    0,
+    4
+   ],
+   "canvas": [
+    40,
+    32
+   ],
+   "at": [
+    1120,
+    368
+   ],
+   "size": [
+    352,
+    336
+   ]
+  }
+ ],
+ "family": "sprite"
+}

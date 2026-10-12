@@ -1,0 +1,15 @@
+[
+ {
+  "name": "entry",
+  "address": "00411ea0",
+  "symbol_type": "Function",
+  "kind": "external_entry",
+  "param_count": 0
+ },
+ {
+  "name": "IMAGE_DOS_HEADER_00400000",
+  "address": "00400000",
+  "symbol_type": "Label",
+  "kind": "program_entry"
+ }
+]

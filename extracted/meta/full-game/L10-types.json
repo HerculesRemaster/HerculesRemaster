@@ -1,0 +1,177 @@
+{
+ "_doc": "Spawn kind -> type-table entry -> handler names for one ENG1 level (L*.RE.01 / L*.RE.02). See tools/level/level_types.py.",
+ "level": {
+  "id": 11,
+  "dir": "VORTEX",
+  "config_record": "0x68ce8"
+ },
+ "config": {
+  "record_rva": "0x68ce8",
+  "level_id": 11,
+  "actor_pool_count": 20,
+  "marker_pool_count_minus5": 60,
+  "pickup_pool_count_minus5": 148,
+  "unknown_08": 2,
+  "unknown_0a": 3,
+  "unknown_0c": 10,
+  "unknown_0e": 20,
+  "unknown_10": 60,
+  "unknown_12": 128,
+  "unknown_14": 30,
+  "slot_list_count": 4,
+  "actor_kind_anim": "0x6a6b8",
+  "actor_kind_funcs": "0x6a968",
+  "marker_kind_anim": "0x6ab70",
+  "marker_kind_funcs": "0x6acb0",
+  "pickup_kind_anim": "0x6adf0",
+  "pickup_kind_funcs": "0x6af60",
+  "unused_30": "0x6b0d0",
+  "anim_event_table": "0x6b0e8",
+  "attribute_funcs": "0x6b100",
+  "zero_3c": 0,
+  "spawn_templates": "0x702a8",
+  "attribute_flags": "0x6b118"
+ },
+ "starts": {
+  "table_rva": "0x6b178",
+  "points": [
+   {
+    "index": 0,
+    "x": 144,
+    "y": 416,
+    "z": 128,
+    "raw": "9000a0010100000060b10610000000000000000000000000"
+   }
+  ]
+ },
+ "start_and_level_banks": {
+  "level_list": [
+   1,
+   4,
+   2,
+   80
+  ],
+  "start_lists": [
+   []
+  ],
+  "banks": [
+   {
+    "id": 1,
+    "path": "P:\\SRC1\\HERO\\HERCULES",
+    "archive_index": 560
+   },
+   {
+    "id": 2,
+    "path": "P:\\SRC1\\HERO\\XTRA_DB1",
+    "archive_index": 552
+   },
+   {
+    "id": 4,
+    "path": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE",
+    "archive_index": 765
+   },
+   {
+    "id": 80,
+    "path": "P:\\SRC1\\BOSS\\HADES",
+    "archive_index": 803
+   }
+  ]
+ },
+ "kinds": [
+  {
+   "kind": "0x0028",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x445a0",
+     "name": "HERO_HadesSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x447c0",
+     "name": "HERO_HadesUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 80,
+    "path": "P:\\SRC1\\BOSS\\HADES"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x0029",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x45a50",
+     "name": "HERO_HadesEffectSpawn"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x45a80",
+     "name": "HERO_HadesEffectUpdate"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 80,
+    "path": "P:\\SRC1\\BOSS\\HADES"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": []
+  },
+  {
+   "kind": "0x002a",
+   "class": "actor",
+   "count": 0,
+   "name": null,
+   "source": "code (not in the map)",
+   "entry": {
+    "spawn": {
+     "rva": "0x45e20",
+     "name": "HERO_HadesSpawn2"
+    },
+    "stub": {
+     "rva": "0xc720",
+     "name": "FUN_1000c720"
+    },
+    "update": {
+     "rva": "0x45ef0",
+     "name": "HERO_HadesUpdate2"
+    }
+   },
+   "anim_script": null,
+   "bank": {
+    "id": 80,
+    "path": "P:\\SRC1\\BOSS\\HADES"
+   },
+   "flags": [],
+   "x_range": null,
+   "category": "boss_animation",
+   "category_rule": "class + bank path (tools/level/level_types.py CAT_RULES; LEAD)",
+   "sounds": [
+    "0xc2ca"
+   ]
+  }
+ ]
+}

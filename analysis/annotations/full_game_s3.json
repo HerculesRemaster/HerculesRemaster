@@ -1,0 +1,234 @@
+{
+ "ENG3.DLL": {
+  "functions": {
+   "0x1001abb0": [
+    "MOD_Tick",
+    "ENG3 tick: init (pools, LVL_LoadMap, panel, level init, demo) then per-tick update/draw; gs+4 = pause"
+   ],
+   "0x1001a930": [
+    "LVL_LoadMap",
+    "descriptor 0x38528[level] (+0 path, +4 whole map size): reads all of MAP_PSX.BIN, tag check vs gs+0x8c"
+   ],
+   "0x1001a330": [
+    "LVL_AllocPools",
+    "object pools (0x134-byte objects as ENG1), per-level table 0x39860 (0x20/level) +0x18 count"
+   ],
+   "0x10025060": [
+    "GFX_LoadPanel2",
+    "reads m:\\language\\srclang\\stpanel2.dat (0x21000 bytes) and uploads it (rect 0x39868): ENG3 HUD sheet"
+   ],
+   "0x1001b8f0": [
+    "LVL_InitLevel",
+    "level init calls (0x1f360, 0x1ce10, 0x1d320, 0x1d860)"
+   ],
+   "0x1001a560": [
+    "LVL_StartSection",
+    "section start: start record descriptor+0xc + start*0x18 (+8 byte list) -> 0x8340; flags 0x39860+0x10/+0x14; hero init"
+   ],
+   "0x1001c720": [
+    "HERO_Init",
+    "hero from start record {u16 x, u16 y, u8 z, u8 section(+5) -> hero+0x38}; camera limits; level 8/10 tweaks"
+   ],
+   "0x1001b2e0": [
+    "LVL_FindSurface",
+    "(x, y, z, track): blocks listed in table hdr+0x30 [track*0x10+6]; cell (x>>7, (z+0x300)>>7): bit0 empty, bits1-10 profile (n8 array), bit24 mirror, top byte signed height; returns above/below distances"
+   ],
+   "0x1001b100": [
+    "LVL_ProfileHeight",
+    "(sub x 0..63, sub z 0..63, profile): height in a 128-unit cell"
+   ],
+   "0x1001af10": [
+    "LVL_ParseHeader",
+    "i1.a header: counts +8..+14, tables +0x28/+0x2c/+0x30, colour +0x34, blocks at +0x38 (u16 rows 12, u16 cols, u32 cells), 4 rel ptrs, arrays"
+   ],
+   "0x1001aa30": [
+    "LVL_UploadVram",
+    "+0x18 image -> VRAM (0,0) 768x512, +0x1c -> (768,256) 256x256"
+   ],
+   "0x10023b00": [
+    "GFX_ObjectLightColour",
+    "object colour from the cell under it: cell bits 11-23 -> table 0x4067c (+2 u16: bits0-2 ramp, bit3 flat, >>4 corner index) -> 0x40678 four corner bytes, bilinear by sub-position -> ramp 0x41460[ramp*64+level], scaled by obj+0x4a; returns colour | 0x2c/0x2e000000"
+   ],
+   "0x10018600": [
+    "HERO_State00",
+    "ENG3 hero state 0 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x10018950": [
+    "HERO_State01",
+    "ENG3 hero state 1 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x10018eb0": [
+    "HERO_State02",
+    "ENG3 hero state 2 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x10019030": [
+    "HERO_State03",
+    "ENG3 hero state 3 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x10002390": [
+    "HERO_State04",
+    "ENG3 hero state 4 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x100195d0": [
+    "HERO_State05",
+    "ENG3 hero state 5 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x10019b70": [
+    "HERO_State06",
+    "ENG3 hero state 6 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x10019d40": [
+    "HERO_State07",
+    "ENG3 hero state 7 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x10018880": [
+    "HERO_State08",
+    "ENG3 hero state 8 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x10019cd0": [
+    "HERO_State09",
+    "ENG3 hero state 9 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x10018c90": [
+    "HERO_State10",
+    "ENG3 hero state 10 (table 0x41c80, set by HERO_InitStates); meaning: S3.07"
+   ],
+   "0x100178a0": [
+    "HERO_InitStates",
+    "fills state table 0x41c80 (11 handlers), state 0x41cb4 = 0, hero = pool A slot 0 (0x41d54), lives gs+0xc clamped 1..9, health gs+0x24 0x80, cheat flags gs+0x30 0x200..0x1000 -> gs+0x26..0x2c, y = 448 for levels 2/8"
+   ],
+   "0x100174e0": [
+    "HERO_Tick",
+    "per tick: section 0x40638 -> active blocks 0x41c64..0x41c68 per level, gated actions, surface, state handler [0x41c80 + state*4], CYCLOPS lane clamp"
+   ],
+   "0x10019a30": [
+    "HERO_Die",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10019c20": [
+    "HERO_LevelComplete",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10019200": [
+    "HERO_Hit",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10019410": [
+    "HERO_ApplyDamage",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10019f30": [
+    "HERO_StepForward",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x1001a070": [
+    "HERO_StepLane",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10018d00": [
+    "HERO_LaneInput",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x1001a180": [
+    "HERO_AirStep",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x1001a110": [
+    "HERO_ClampFloor",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10018370": [
+    "ANIM_HeroStep",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10018690": [
+    "HERO_EnterRun",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10018de0": [
+    "HERO_EnterJump",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10018dc0": [
+    "HERO_TryJump",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10018f70": [
+    "HERO_EnterFall",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10018790": [
+    "HERO_EnterDash",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10018bc0": [
+    "HERO_EnterRide",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x100185c0": [
+    "HERO_EnterStand",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10018630": [
+    "HERO_StandInput",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x100180e0": [
+    "HERO_PreStep",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10017ae0": [
+    "HERO_SurfaceTriggers",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x1001e8e0": [
+    "HERO_GroundCheck",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x1001eaf0": [
+    "HERO_LandCheck",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x1001ea60": [
+    "HERO_SnapToSurface",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x1001ecf0": [
+    "LVL_TriggerAt",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x1001b650": [
+    "LVL_TrackSpline",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10016240": [
+    "HERO_RideStart",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10016320": [
+    "LVL_EndObjectUpdate",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x100059d0": [
+    "LVL_PitKill",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x100284f0": [
+    "HERO_CrushDeath",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10017210": [
+    "HERO_HudUpdate",
+    "S3.07 runner model, docs/full-game/gameplay/chase.md"
+   ],
+   "0x10023ef0": [
+    "GFX_DrawModel",
+    "(obj, model record): faces from hdr+0x28 table (0x40650; u32 face = 4 x 6-bit vertex index + flags byte), texture words hdr+0x2c (0x40658), per-model vertex function table 0x39528[obj+0x23]"
+   ],
+   "0x10024420": [
+    "GFX_ModelVertices",
+    "model vertex blend between two keyframes (factor obj+0x4c), model table 0x40654[obj+0x36], GTE 0x1fd80/0x1fdc0/0x1fca0"
+   ]
+  }
+ }
+}

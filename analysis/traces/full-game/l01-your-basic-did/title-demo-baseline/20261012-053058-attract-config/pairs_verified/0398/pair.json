@@ -1,0 +1,22 @@
+{
+ "archive_index": 398,
+ "name": "m:\\language\\sonix\\pc_769.esf",
+ "id": "0A10F823",
+ "decoder": "HERCULES.EXE+0x2410",
+ "input": "adpcm_in.bin (1248 bytes, archive bytes 16..)",
+ "input_read_pos": 16,
+ "output": "pcm_out.s16le",
+ "format": "PCM s16le mono",
+ "samples": 2497,
+ "rate": 22050,
+ "state_in": 0,
+ "tick": 2017,
+ "scene": 7,
+ "level": 255,
+ "payload": "payload.bin",
+ "verified": {
+  "input_equals_payload_16": true,
+  "independent_ima_decode_equals_output": true
+ },
+ "source_run": "analysis\\traces\\full-game\\l01-your-basic-did\\title-demo-baseline\\20261012-053058-attract-config"
+}

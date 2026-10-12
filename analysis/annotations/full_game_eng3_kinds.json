@@ -1,0 +1,638 @@
+{
+ "ENG3.DLL": {
+  "functions": {
+   "0x10001010": [
+    "LVL_Rand",
+    "local LCG (0x33070/0x33074) returning value % n (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10001140": [
+    "LVL_InSphere",
+    "true if |a-b|^2 < r^2 using integer x/y/z (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10001190": [
+    "LVL_GroupSeparate",
+    "pairwise box test inside an object group; flips lane sign +0x96 and sets +0xe0=0x18 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10001420": [
+    "LVL_ObjDelta",
+    "writes (a-b)>>16 for x/y/z as s16[3] (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10001600": [
+    "LVL_ObjFallStep",
+    "gravity/bounce step for falling pieces; halves speeds on ground or GAUNTLET water y>=448; returns 1 when settled (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10001aa0": [
+    "LVL_CycColumnFwdSpawn",
+    "0x2b: 4-piece column (models 1/11/2/3 or 0x2a) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10001fe0": [
+    "LVL_CycColumnFwdTick",
+    "0x2b: topples (angle -6) at (byte+7)*128 or Cyclops signal; hit 2 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100023a0": [
+    "LVL_CycCrossChariotSpawn",
+    "0x2d: PEOPLE script 5 (side-view chariot 85-99) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10002440": [
+    "LVL_CycCrossChariotTick",
+    "0x2d: crosses z +8/tick when hero <768, hit 0x400 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10002580": [
+    "LVL_CycColumnBackSpawn",
+    "0x2e: 4-piece column (top model 0x28 or 0x33) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10002ac0": [
+    "LVL_CycColumnBackTick",
+    "0x2e: topples (angle +6); hit 2 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10002eb0": [
+    "LVL_CycChariotSpawn",
+    "0x2f: body + 2 dust parts (0x4030) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10003020": [
+    "LVL_CycChariotTick",
+    "0x2f: drives forward, hit 0x400, fades out behind hero (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10003bf0": [
+    "LVL_CycFleeGroupSpawn",
+    "0x35: 3 citizens (0x402c) with random speeds (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10003dc0": [
+    "LVL_CycFleeGroupTick",
+    "0x35: run along the street, no hero test (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10003ef0": [
+    "LVL_CycSinkFloorSpawn",
+    "0x39: 18 tiles 0x402f, models table 0x34f98 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10004100": [
+    "LVL_CycSinkFloorTick",
+    "0x39: hero <1024: shake, SFX 0x213, 14 tiles sink (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10004580": [
+    "LVL_CycBoulderSpawn",
+    "0x2a: 256 above ground, random model from 0x34fe0 (RT_RandMod_slot(5)) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10004650": [
+    "LVL_CycBoulderTick",
+    "0x2a: falls when hero <1024, shake 0x405fc, hit 0x200 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10004c10": [
+    "LVL_CycSwooperSpawn",
+    "0x3d: appears 2304 ahead of hero (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10004ca0": [
+    "LVL_CycSwooperTick",
+    "0x3d: flies at hero in a widening spiral, hit 0x800 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10004dc0": [
+    "LVL_CycFlyerDropSpawn",
+    "0x3e: one flyer 0x4032 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10005070": [
+    "LVL_CycFlyerDropTick",
+    "0x3e: carries kind 0x43 rock, drops it when hero <768, dives, hit 4 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100053a0": [
+    "LVL_CycCrowdSourceInit",
+    "0x3f init (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100053f0": [
+    "LVL_CycCrowdSourceTick",
+    "0x3f: spawns 0-5 citizens 0x4033 ahead of hero; trigger 0x6e/0x6f/0x70 change rate/stop (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100056a0": [
+    "LVL_CycFleeingCitizenInit",
+    "0x4033 init (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10005760": [
+    "LVL_CycFleeingCitizenTick",
+    "0x4033: runs ahead zig-zagging, hit 4, scream SFX (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10005a20": [
+    "LVL_CycBystanderSpawn",
+    "0x42: idle citizen chosen by spawn byte (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10005b40": [
+    "LVL_CycBystanderTick",
+    "0x42: walks to wall then runs with hero, hit 4 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100062f0": [
+    "LVL_CycOpeningColumnsSpawn",
+    "0x45: 4-piece column, random fall speed (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100067d0": [
+    "LVL_CycOpeningColumnsTick",
+    "0x45: falls once hero x > 256; no hero test (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10006af0": [
+    "LVL_CycFlutterSpawn",
+    "0x47: random script (301-308 / 312-319) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10006b90": [
+    "LVL_CycFlutterTick",
+    "0x47: drifts in z and bobs; no hero test (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10006c20": [
+    "LVL_CycCrateSpawn",
+    "0x48: model 0x34 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10006ca0": [
+    "LVL_CycCrateTick",
+    "0x48: model hitbox hit 0x36; dash smashes it (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000bc47": [
+    "AUD_PlaySfx",
+    "plays sound id (gs+0x2f0 table) with positional pan from object screen x/depth; 24 voices 0x41ec8 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000d280": [
+    "LVL_GntToppleStatueSpawn",
+    "0x29: model 2 with two 0x4029 parts, random fall speeds (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000d410": [
+    "LVL_GntToppleStatueTick",
+    "0x29: falls when hero <1224 ahead, hit 0x21, 3 dust 0x2016 on landing (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000d7d0": [
+    "LVL_GntStackSwayFwdSpawn",
+    "0x2a: 4 stacked 0x402a pieces (model 3) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000dae0": [
+    "LVL_StackPieceOrbit",
+    "places piece k of a 4-piece stack on a circle of radius 0x40*k around the base by angle +0x116; reports when the fall angle limit is reached (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000dc20": [
+    "LVL_GntStackSwayFwdTick",
+    "0x2a: sways, collapses when hero <640, hit 2 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000e020": [
+    "LVL_GntStackSwayBackSpawn",
+    "0x35: as 0x2a, other fall direction (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000e2f0": [
+    "LVL_GntStackSwayBackTick",
+    "0x35: as 0x2a with angle decreasing (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000ebe0": [
+    "LVL_GntPunchBagSpawn",
+    "0x40: random phase, script 0 (264-272) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000ec60": [
+    "LVL_GntPunchBagTick",
+    "0x40: pendulum swing across z, hit 0x23 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000ee00": [
+    "LVL_GntRopeInit",
+    "0x41: static frame 637 (rope) with shadow (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000ee40": [
+    "LVL_GntSwordDummySpawn",
+    "0x2c: ALIEN1 script 4 (frames 403-439) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000eeb0": [
+    "LVL_GntSwordDummyTick",
+    "0x2c: slides across lanes, hit 0x22 breaks it into debris (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000f460": [
+    "LVL_GntSpinnerSpawn",
+    "0x2e: 2x2 0x402d pieces model 23 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000f7b0": [
+    "LVL_GntSpinnerTick",
+    "0x2e: rotating pieces, hit 0x2b (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000f980": [
+    "LVL_GntSlideWallRSpawn",
+    "0x2f: model 9 + two 0x402f parts, two 0x3f wheels (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000fab0": [
+    "LVL_GntSlideWallRTick",
+    "0x2f: slides +z 172, hit 0x28 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000fec0": [
+    "LVL_GntSlideWallLSpawn",
+    "0x30: mirror of 0x2f (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1000ffd0": [
+    "LVL_GntSlideWallLTick",
+    "0x30: slides -z, SFX 0x60a3/0xe0a4, hit 0x28 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10010370": [
+    "LVL_GntRollerGroupSpawn",
+    "0x2b: N (= spawn byte) model-13 rollers (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10010590": [
+    "LVL_GntRollerGroupTick",
+    "0x2b: bounce between wall codes 0x5d/0x5e, hit 0x26/0x27, dash smash (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10010b10": [
+    "LVL_GntTotemSquadSpawn",
+    "0x2d: 4 marker 0x402c totem dummies (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10010df0": [
+    "LVL_GntTotemSquadTick",
+    "0x2d: wander, hit 0x22 breaks one into debris (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100113f0": [
+    "LVL_GntSharkSpawn",
+    "0x32: y = 488 (water), script 0 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10011470": [
+    "LVL_GntSharkTick",
+    "0x32: leap arc on anim pos 6..17, hit 0x2a (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10011760": [
+    "LVL_GntPendulumSpawn",
+    "0x37: 4 hanging 0x402a segments, models 12/12/12/11 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10011a80": [
+    "LVL_GntPendulumTick",
+    "0x37: swings; bottom model 11 box hit 0x2c (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10011b90": [
+    "LVL_PendulumPlace",
+    "places pendulum segment k at radius 0x78*k below the pivot by angle +0x116; swish SFX 0x6094/0x6095 on the bottom piece (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10011d30": [
+    "LVL_GntRingTargetSpawn",
+    "0x38: ALIEN1 script 0 (85-108) above a fire ring (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10011d80": [
+    "LVL_GntRingTargetTick",
+    "0x38: on state 2 poofs (138-156) and throws a kind-8 health potion (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10011ef0": [
+    "LVL_GntPhilSpawn",
+    "0x3a: ALIEN1 bank, script 0 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10011f90": [
+    "LVL_GntPhilTick",
+    "0x3a: when hero <640 picks a cue by track/health via 0x1faf0 and an animation (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10012200": [
+    "LVL_GntFireRingSpawn",
+    "0x3c: script 2 (fire ring 273-280) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10012250": [
+    "LVL_GntFireRingTick",
+    "0x3c: bobs +-32; centre pass scores, rim hit 0x40 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10012500": [
+    "LVL_GntHangingWeightSpawn",
+    "0x3e: 4 segments, bottom model 21 (spawn byte 0) or 22 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10012820": [
+    "LVL_GntHangingWeightTick",
+    "0x3e: swings; hit 0x25 only for bottom model 21 (GFX_ModelHitbox) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10012be0": [
+    "LVL_GntSweeperSpawn",
+    "0x48: model 24, spin 0x10 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10012c40": [
+    "LVL_GntSweeperTick",
+    "0x48: rotating two-arm bar, hit 0x2d (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10012e40": [
+    "LVL_GntWheelDecoSpawn",
+    "0x3f: model 16 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10012e80": [
+    "LVL_GntWheelDecoTick",
+    "0x3f: rotates by spawn byte / parent role, no hero test (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013010": [
+    "LVL_GntGoatWalkerSpawn",
+    "0x43: random CLUT/scale/timers (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100130e0": [
+    "LVL_GntGoatWalkerTick",
+    "0x43: wanders across z, flees when hero <512 with bleat 0x6083 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013330": [
+    "LVL_GntChaserDummySpawn",
+    "0x44: script 4 (403-439) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100133b0": [
+    "LVL_GntChaserDummyTick",
+    "0x44: homes on hero z, moves -8 x/tick, hit 0x22 breaks it (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013840": [
+    "LVL_GntHerdSourceInit",
+    "0x46 init (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013860": [
+    "LVL_GntHerdSourceTick",
+    "0x46: scrolls texture 1, spawns 5 then 1-by-1 0x45 goats (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013a40": [
+    "LVL_GntHerdGoatSpawn",
+    "0x45: child of 0x46 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013a90": [
+    "LVL_GntHerdGoatTick",
+    "0x45: moves z-2, y-1 per tick; at z<-512 tells parent to spawn another (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013b30": [
+    "LVL_GntGoatIdleSpawn",
+    "0x47: random CLUT/scale/anim offset (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013c10": [
+    "LVL_GntGoatIdleTick",
+    "0x47: idle anim, random bleat 0x6083 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013cb0": [
+    "LVL_GntEndPostSpawn",
+    "0x49: model 25 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013d00": [
+    "LVL_GntDustTrailInit",
+    "0x4a: script 0 (596-603) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013d30": [
+    "LVL_GntDustTrailTick",
+    "0x4a: animates, freed by parent (+0xe0) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013d70": [
+    "LVL_GntEndSceneryInit",
+    "0x4b: model 28/29/30 by spawn byte, z = 0 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10013e00": [
+    "LVL_StaticTick",
+    "only frees when off screen (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10014270": [
+    "LVL_ModelShadowInit",
+    "0x2002 init (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100142b0": [
+    "LVL_ModelShadowTick",
+    "0x2002: shadow sprite (bank 1 frames 0xcd-0xcf) projected on the ground under the parent model (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100145a0": [
+    "LVL_SpriteShadowInit",
+    "0x2017 init (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100145d0": [
+    "LVL_SpriteShadowTick",
+    "0x2017: copy of the parent frame flattened on the ground (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10014820": [
+    "LVL_WaterShadowInit",
+    "0x2018 init (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10014850": [
+    "LVL_WaterShadowTick",
+    "0x2018: as 0x2017 but also projects on the water level 0x410e0 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10014b30": [
+    "LVL_DustPuffInit",
+    "0x2016: per-level explosion/dust frames (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10014bb0": [
+    "LVL_DustPuffTick",
+    "0x2016: steps the frame, frees after the last one (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10014c30": [
+    "LVL_DebrisInit",
+    "0x4001: random throw velocities, shadow 0x2017 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10014d40": [
+    "LVL_DebrisTick",
+    "0x4001: spins, bounces (0x1460), frees 32 behind hero (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10015340": [
+    "LVL_ProbeGround",
+    "LVL_FindSurface under the object: sets +0x25 bit 2 if none, stores ground dy at +0x28 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10015440": [
+    "LVL_BonusItemSpawn",
+    "kind 6 init: subtype = spawn byte +0xc picks script/bank (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10015680": [
+    "LVL_BonusItemTick",
+    "kind 6 tick: sprite overlap with hero gives health/coins/letters/dash/lives (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100165f0": [
+    "LVL_PegasusCheckpointInit",
+    "pickups 0x200b..0x2014: checkpoint, active if (kind+6)&15 == gs+2 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10016670": [
+    "LVL_PegasusCheckpointTick",
+    "activates when hero is <700 ahead on same track: gs+2 = (kind+6)&15, SFX 0x6028, sparkles 0x201b (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100168b0": [
+    "LVL_SparkleInit",
+    "0x201b: script 0x37c30, random spin (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100168f0": [
+    "LVL_SparkleTick",
+    "0x201b: rises/wobbles and fades (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001b890": [
+    "LVL_CamMarkerMaxTick",
+    "0x2019: when on screen, 0x3fb88 = max(obj+0xe); 0x3fb8c = 1 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001b8c0": [
+    "LVL_CamMarkerMinTick",
+    "0x201a: when on screen, 0x38520 = min(obj+0xe); 0x3fb8c = 1 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001b920": [
+    "LVL_IsOffscreen",
+    "returns 1 when object x is outside the drawn column range of its track (+margin) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001cb00": [
+    "LVL_NewActor",
+    "allocates a pool-A actor of kind n and copies the actor anim entry (0x40ba4) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001cb90": [
+    "LVL_FreeActor",
+    "frees an actor (or dispatches 0x6000 kinds), writes back spawn-list state (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001d110": [
+    "LVL_NewMarker",
+    "allocates a 0x4000-class object, kind|0x4000, marker anim entry 0x40bac (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001d600": [
+    "LVL_AttachPickup",
+    "creates a 0x2000-class child (shadow etc.) linked via +0x5c and runs its init (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001d670": [
+    "LVL_NewPickup",
+    "allocates a 0x2000-class object, kind|0x2000, pickup anim entry 0x40bbc (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001d6e0": [
+    "LVL_FreeObject",
+    "frees a 0x2000-class object (else LVL_FreeActor) and clears the spawn-list bit (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001dbc0": [
+    "GFX_AnimStepActor",
+    "actor anim script interpreter: dword {frame, ticks}, opcodes -0x30..-1 (SFX -0x28, loop -1) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001e000": [
+    "GFX_AnimStepObject",
+    "pickup/marker anim script interpreter (u16 stream, -9 duration, -0x28/-0x27 SFX, -1 loop) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001e2e0": [
+    "GFX_SetAnimScript",
+    "obj+0x64 = script list (+0x110)[n], resets timer/position (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001eeb0": [
+    "LVL_SnapToSurface",
+    "moves y onto LVL_FindSurface result (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001eff0": [
+    "LVL_ObjOverlap",
+    "sprite/frame box overlap of two objects via 0x1f1a0 (0x23860 frame rect) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001f3c0": [
+    "LVL_GroupAlloc",
+    "takes a free object-group list from 0x40be0 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001f410": [
+    "LVL_GroupAddMarker",
+    "LVL_NewMarker + init + append to group list (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001f480": [
+    "LVL_GroupRemove",
+    "removes one object from a group list (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001f4d0": [
+    "LVL_GroupFree",
+    "frees every object in a group and releases the list (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001f550": [
+    "LVL_ObjMoveStep",
+    "forward speed/accel (+0xa8..+0xb4) and vertical speed (+0xb8..+0xc4) step (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001f620": [
+    "LVL_ObjLaneStep",
+    "lane speed (+0xc8..+0xd4) step, sign from +0x96 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1001faf0": [
+    "AUD_ExeCue",
+    "thunk to EXE slot 0x850 with a small id (0x16/0x19/0x1a/0x1b/0x1c from Phil); meaning open (LEAD: voice cue) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10022bd0": [
+    "LVL_SpawnKind",
+    "spawns any kind by class bits (actor / 0x2000 / 0x4000) and runs its init (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10025700": [
+    "LVL_TrmChariotSpawn",
+    "0x29: TORMENT script 0 (352-358) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10025770": [
+    "LVL_TrmChariotTick",
+    "0x29: overtakes hero, drops up to 5 kind-0x2a fireballs (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10025ec0": [
+    "LVL_TrmGhostFlockSpawn",
+    "0x2e: 4 flyers 0x4029 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10026340": [
+    "LVL_TrmGhostFlockTick",
+    "0x2e: fly at hero in sine paths, random wail; ends at trigger 0x86 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10026550": [
+    "LVL_TrmLostSoulSpawn",
+    "0x2f: SOULS script 3 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10026600": [
+    "LVL_TrmLostSoulTick",
+    "0x2f: rises, dissolves at y<-96 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100266a0": [
+    "LVL_TrmStalactiteSpawn",
+    "0x30: model 2, 1024 above (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10026770": [
+    "LVL_TrmStalactiteTick",
+    "0x30: drips at <1156, falls at <1000, hit 0x31 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10026b80": [
+    "LVL_TrmSkeletonWalkSpawn",
+    "0x31: TORMENT script 0, random CLUT (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10026c60": [
+    "LVL_TrmSkeletonWalkTick",
+    "0x31: walks -6/tick, attacks at <320, hit 4 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10026f00": [
+    "LVL_TrmSkeletonDropSpawn",
+    "0x33: y = -384 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10026fe0": [
+    "LVL_TrmSkeletonDropTick",
+    "0x33: drops at <964, lands (0x629b), hit 0x2f (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10027130": [
+    "LVL_TrmTiltRaftSpawn",
+    "0x34: model 1 platform (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10027180": [
+    "LVL_TrmTiltRaftTick",
+    "0x34: tilts toward hero and sinks to 80/64 under him (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100272e0": [
+    "LVL_TrmBoneWallSpawn",
+    "0x35: frame 175 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10027370": [
+    "LVL_TrmBoneWallTick",
+    "0x35: topples at <768, bursts into 0x36/0x37/0x3b (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100287b0": [
+    "LVL_TrmFireBeastSpawn",
+    "0x3d: script 1 (223-236) (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10028840": [
+    "LVL_TrmFireBeastTick",
+    "0x3d: at anim pos 9 spawns kind 0x3e; body hit 2 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10028a90": [
+    "LVL_TrmBonePileSpawn",
+    "0x40: frame 6 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10028ae0": [
+    "LVL_TrmBonePileTick",
+    "0x40: hero touch: hit 0x32, shatters into 0x41 bones + 0x3b (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10029140": [
+    "LVL_TrmRollerGroupSpawn",
+    "0x45: 4 model-7 rollers 0x402a (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100292f0": [
+    "LVL_TrmRollerGroupTick",
+    "0x45: as GAUNTLET 0x2b, hit 0x26, dash smash (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x100297d0": [
+    "LVL_TrmRockfallSpawn",
+    "0x46: 20 model-7 rocks 0x402b at y -384 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10029a10": [
+    "LVL_TrmRockfallTick",
+    "0x46: shake, rocks fall at <700, hit 0x34 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10029e50": [
+    "LVL_TrmStartGateSpawn",
+    "0x47: model 10 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x10029ea0": [
+    "LVL_TrmStartGateTick",
+    "0x47: rises when hero <512, scrolls texture 0 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1002a040": [
+    "LVL_TrmEndPostSpawn",
+    "0x48: model 15 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1002a090": [
+    "LVL_EndPostTick",
+    "touch (+-32) -> wobble and one 0x35 hit; GAUNTLET 0x49, TORMENT 0x48 (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ],
+   "0x1002a180": [
+    "LVL_TrmEndSceneryInit",
+    "0x49: model 13/14/16 by spawn byte (analysis/exports/full-game/eng3_kind_handlers.json)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,5997 @@
+{
+ "_doc": "Bank -> engine -> level index (S4.01) -> extracted/meta/full-game/animation-coverage.json. See tools/decode/bank_index.py for the rules and labels.",
+ "eng1_levels": {
+  "0": {
+   "name": "(id 0)",
+   "record_rva": "0x5a690",
+   "level_list": [
+    1,
+    2
+   ],
+   "start_lists": [
+    [],
+    []
+   ]
+  },
+  "1": {
+   "name": "TRAINING",
+   "record_rva": "0x5a6a8",
+   "level_list": [
+    1,
+    2,
+    4,
+    39,
+    13,
+    15,
+    35
+   ],
+   "start_lists": [
+    [
+     31,
+     16
+    ],
+    [
+     46
+    ],
+    [
+     32
+    ],
+    [
+     31,
+     46
+    ],
+    [
+     46
+    ],
+    [
+     17
+    ],
+    [
+     46
+    ],
+    [
+     17
+    ]
+   ]
+  },
+  "3": {
+   "name": "FOREST",
+   "record_rva": "0x5a6d8",
+   "level_list": [
+    1,
+    2,
+    4,
+    39,
+    58
+   ],
+   "start_lists": [
+    [
+     38,
+     45,
+     46,
+     59
+    ],
+    [
+     27,
+     38,
+     45,
+     46,
+     58,
+     59
+    ],
+    [
+     45,
+     46,
+     58,
+     59,
+     43
+    ],
+    [
+     43,
+     45,
+     46,
+     58,
+     59
+    ],
+    [
+     60,
+     42,
+     45,
+     46,
+     58,
+     59
+    ],
+    [
+     68,
+     58
+    ],
+    [
+     38,
+     45,
+     46,
+     59
+    ],
+    [
+     38,
+     45,
+     46,
+     59
+    ],
+    [
+     38,
+     45,
+     46,
+     59
+    ],
+    [
+     38,
+     45,
+     46,
+     59
+    ]
+   ]
+  },
+  "4": {
+   "name": "(id 4)",
+   "record_rva": "0x5a6f0",
+   "level_list": [
+    1,
+    2,
+    4
+   ],
+   "start_lists": [
+    [
+     39
+    ]
+   ]
+  },
+  "5": {
+   "name": "THEBES",
+   "record_rva": "0x5a708",
+   "level_list": [
+    1,
+    2,
+    4,
+    39
+   ],
+   "start_lists": [
+    [
+     38,
+     20,
+     23,
+     24,
+     28
+    ],
+    [
+     25,
+     38
+    ],
+    [
+     25,
+     40,
+     38
+    ],
+    [
+     38,
+     30,
+     41
+    ],
+    [
+     38,
+     20,
+     25,
+     22,
+     21,
+     36
+    ],
+    [
+     38,
+     25,
+     22,
+     29
+    ],
+    [
+     38
+    ],
+    [
+     38,
+     23,
+     24,
+     25,
+     36,
+     28
+    ]
+   ]
+  },
+  "6": {
+   "name": "HYDRA",
+   "record_rva": "0x5a720",
+   "level_list": [
+    1,
+    4,
+    2,
+    79
+   ],
+   "start_lists": [
+    [],
+    []
+   ]
+  },
+  "7": {
+   "name": "MEDUSA",
+   "record_rva": "0x5a738",
+   "level_list": [
+    1,
+    4,
+    2,
+    77,
+    78
+   ],
+   "start_lists": [
+    [
+     39
+    ],
+    [
+     39
+    ]
+   ]
+  },
+  "9": {
+   "name": "TITANS",
+   "record_rva": "0x5a768",
+   "level_list": [
+    48,
+    2
+   ],
+   "start_lists": [
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ],
+    [
+     63,
+     49,
+     62,
+     64
+    ]
+   ]
+  },
+  "11": {
+   "name": "VORTEX",
+   "record_rva": "0x5a798",
+   "level_list": [
+    1,
+    4,
+    2,
+    80
+   ],
+   "start_lists": [
+    []
+   ]
+  }
+ },
+ "eng3_levels": {
+  "2": {
+   "name": "GAUNTLET",
+   "record_rva": "0x38558",
+   "level_list": [
+    1
+   ],
+   "start_lists": [
+    [
+     3,
+     2,
+     8
+    ],
+    [
+     3,
+     2,
+     8
+    ],
+    [
+     3,
+     2,
+     8
+    ],
+    [
+     3,
+     2,
+     8
+    ],
+    [
+     3,
+     2,
+     8
+    ],
+    [
+     3,
+     2,
+     8
+    ],
+    [
+     3,
+     2,
+     8
+    ],
+    [
+     3,
+     2,
+     8
+    ]
+   ]
+  },
+  "8": {
+   "name": "CYCLOPS",
+   "record_rva": "0x385e8",
+   "level_list": [
+    1
+   ],
+   "start_lists": [
+    [
+     6,
+     5,
+     7,
+     2,
+     8
+    ],
+    [
+     6,
+     5,
+     7,
+     2,
+     8
+    ],
+    [
+     6,
+     5,
+     7,
+     2,
+     8
+    ],
+    [
+     6,
+     5,
+     7,
+     2,
+     8
+    ],
+    [
+     6,
+     5,
+     7,
+     2,
+     8
+    ],
+    [
+     6,
+     5,
+     7,
+     2,
+     8
+    ]
+   ]
+  },
+  "10": {
+   "name": "TORMENT",
+   "record_rva": "0x38618",
+   "level_list": [
+    1
+   ],
+   "start_lists": [
+    [
+     4,
+     2,
+     8,
+     9
+    ],
+    [
+     4,
+     2,
+     8,
+     9
+    ],
+    [
+     4,
+     2,
+     8,
+     9
+    ],
+    [
+     4,
+     2,
+     8,
+     9
+    ],
+    [
+     4,
+     2,
+     8,
+     9
+    ],
+    [
+     4,
+     2,
+     8,
+     9
+    ]
+   ]
+  }
+ },
+ "eng1_map_triggers": {
+  "FOREST": [
+   {
+    "kind": "0x1c02",
+    "x": 1554,
+    "op": "letters_free",
+    "banks": [
+     7
+    ]
+   },
+   {
+    "kind": "0x1402",
+    "x": 1684,
+    "op": "letters_request",
+    "banks": [
+     7
+    ]
+   },
+   {
+    "kind": "0x182d",
+    "x": 2316,
+    "op": "free",
+    "banks": [
+     45
+    ]
+   },
+   {
+    "kind": "0x1402",
+    "x": 3094,
+    "op": "letters_request",
+    "banks": [
+     7
+    ]
+   },
+   {
+    "kind": "0x1c02",
+    "x": 3344,
+    "op": "letters_free",
+    "banks": [
+     7
+    ]
+   },
+   {
+    "kind": "0x182b",
+    "x": 5404,
+    "op": "free",
+    "banks": [
+     43
+    ]
+   },
+   {
+    "kind": "0x182b",
+    "x": 5408,
+    "op": "free",
+    "banks": [
+     43
+    ]
+   },
+   {
+    "kind": "0x1826",
+    "x": 5892,
+    "op": "free",
+    "banks": [
+     38
+    ]
+   },
+   {
+    "kind": "0x181b",
+    "x": 6541,
+    "op": "free",
+    "banks": [
+     27
+    ]
+   },
+   {
+    "kind": "0x182b",
+    "x": 7120,
+    "op": "free",
+    "banks": [
+     43
+    ]
+   },
+   {
+    "kind": "0x102b",
+    "x": 7510,
+    "op": "request",
+    "banks": [
+     43
+    ]
+   },
+   {
+    "kind": "0x1c18",
+    "x": 11015,
+    "op": "letters_free",
+    "banks": [
+     9,
+     10
+    ]
+   },
+   {
+    "kind": "0x182b",
+    "x": 11153,
+    "op": "free",
+    "banks": [
+     43
+    ]
+   },
+   {
+    "kind": "0x1418",
+    "x": 11203,
+    "op": "letters_request",
+    "banks": [
+     9,
+     10
+    ]
+   },
+   {
+    "kind": "0x1c40",
+    "x": 11574,
+    "op": "letters_free",
+    "banks": [
+     7
+    ]
+   },
+   {
+    "kind": "0x1440",
+    "x": 11834,
+    "op": "letters_request",
+    "banks": [
+     7
+    ]
+   },
+   {
+    "kind": "0x1c20",
+    "x": 12101,
+    "op": "letters_free",
+    "banks": [
+     11
+    ]
+   },
+   {
+    "kind": "0x1418",
+    "x": 12237,
+    "op": "letters_request",
+    "banks": [
+     9,
+     10
+    ]
+   },
+   {
+    "kind": "0x1420",
+    "x": 12285,
+    "op": "letters_request",
+    "banks": [
+     11
+    ]
+   },
+   {
+    "kind": "0x1c18",
+    "x": 12488,
+    "op": "letters_free",
+    "banks": [
+     9,
+     10
+    ]
+   },
+   {
+    "kind": "0x1440",
+    "x": 12880,
+    "op": "letters_request",
+    "banks": [
+     7
+    ]
+   },
+   {
+    "kind": "0x1c40",
+    "x": 13125,
+    "op": "letters_free",
+    "banks": [
+     7
+    ]
+   },
+   {
+    "kind": "0x1420",
+    "x": 13156,
+    "op": "letters_request",
+    "banks": [
+     11
+    ]
+   },
+   {
+    "kind": "0x1c20",
+    "x": 13399,
+    "op": "letters_free",
+    "banks": [
+     11
+    ]
+   },
+   {
+    "kind": "0x183c",
+    "x": 13796,
+    "op": "free",
+    "banks": [
+     60
+    ]
+   },
+   {
+    "kind": "0x103c",
+    "x": 14602,
+    "op": "request",
+    "banks": [
+     60
+    ]
+   },
+   {
+    "kind": "0x1844",
+    "x": 17384,
+    "op": "free",
+    "banks": [
+     68
+    ]
+   },
+   {
+    "kind": "0x182a",
+    "x": 17700,
+    "op": "free",
+    "banks": [
+     42
+    ]
+   },
+   {
+    "kind": "0x1826",
+    "x": 17700,
+    "op": "free",
+    "banks": [
+     38
+    ]
+   },
+   {
+    "kind": "0x182e",
+    "x": 17700,
+    "op": "free",
+    "banks": [
+     46
+    ]
+   },
+   {
+    "kind": "0x183c",
+    "x": 17700,
+    "op": "free",
+    "banks": [
+     60
+    ]
+   },
+   {
+    "kind": "0x1044",
+    "x": 17987,
+    "op": "request",
+    "banks": [
+     68
+    ]
+   }
+  ],
+  "HYDRA": [],
+  "MEDUSA": [],
+  "THEBES": [
+   {
+    "kind": "0x1024",
+    "x": 576,
+    "op": "request",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x1015",
+    "x": 640,
+    "op": "request",
+    "banks": [
+     21
+    ]
+   },
+   {
+    "kind": "0x1024",
+    "x": 2048,
+    "op": "request",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x181b",
+    "x": 2112,
+    "op": "free",
+    "banks": [
+     27
+    ]
+   },
+   {
+    "kind": "0x1817",
+    "x": 2112,
+    "op": "free",
+    "banks": [
+     23
+    ]
+   },
+   {
+    "kind": "0x1824",
+    "x": 2112,
+    "op": "free",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x101b",
+    "x": 2176,
+    "op": "request",
+    "banks": [
+     27
+    ]
+   },
+   {
+    "kind": "0x181d",
+    "x": 2944,
+    "op": "free",
+    "banks": [
+     29
+    ]
+   },
+   {
+    "kind": "0x101d",
+    "x": 3144,
+    "op": "request",
+    "banks": [
+     29
+    ]
+   },
+   {
+    "kind": "0x101c",
+    "x": 3456,
+    "op": "request",
+    "banks": [
+     28
+    ]
+   },
+   {
+    "kind": "0x1018",
+    "x": 3624,
+    "op": "request",
+    "banks": [
+     24
+    ]
+   },
+   {
+    "kind": "0x1816",
+    "x": 3648,
+    "op": "free",
+    "banks": [
+     22
+    ]
+   },
+   {
+    "kind": "0x181c",
+    "x": 3688,
+    "op": "free",
+    "banks": [
+     28
+    ]
+   },
+   {
+    "kind": "0x1818",
+    "x": 3736,
+    "op": "free",
+    "banks": [
+     24
+    ]
+   },
+   {
+    "kind": "0x1016",
+    "x": 3776,
+    "op": "request",
+    "banks": [
+     22
+    ]
+   },
+   {
+    "kind": "0x1814",
+    "x": 3776,
+    "op": "free",
+    "banks": [
+     20
+    ]
+   },
+   {
+    "kind": "0x1815",
+    "x": 3776,
+    "op": "free",
+    "banks": [
+     21
+    ]
+   },
+   {
+    "kind": "0x101b",
+    "x": 3840,
+    "op": "request",
+    "banks": [
+     27
+    ]
+   },
+   {
+    "kind": "0x181b",
+    "x": 3968,
+    "op": "free",
+    "banks": [
+     27
+    ]
+   },
+   {
+    "kind": "0x1819",
+    "x": 4096,
+    "op": "free",
+    "banks": [
+     25
+    ]
+   },
+   {
+    "kind": "0x1019",
+    "x": 4160,
+    "op": "request",
+    "banks": [
+     25
+    ]
+   },
+   {
+    "kind": "0x101d",
+    "x": 4408,
+    "op": "request",
+    "banks": [
+     29
+    ]
+   },
+   {
+    "kind": "0x181d",
+    "x": 4992,
+    "op": "free",
+    "banks": [
+     29
+    ]
+   },
+   {
+    "kind": "0x1828",
+    "x": 5000,
+    "op": "free",
+    "banks": [
+     40
+    ]
+   },
+   {
+    "kind": "0x1815",
+    "x": 5056,
+    "op": "free",
+    "banks": [
+     21
+    ]
+   },
+   {
+    "kind": "0x1824",
+    "x": 5056,
+    "op": "free",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x181a",
+    "x": 5056,
+    "op": "free",
+    "banks": [
+     26
+    ]
+   },
+   {
+    "kind": "0x1816",
+    "x": 5056,
+    "op": "free",
+    "banks": [
+     22
+    ]
+   },
+   {
+    "kind": "0x181c",
+    "x": 5056,
+    "op": "free",
+    "banks": [
+     28
+    ]
+   },
+   {
+    "kind": "0x1818",
+    "x": 5056,
+    "op": "free",
+    "banks": [
+     24
+    ]
+   },
+   {
+    "kind": "0x1814",
+    "x": 5056,
+    "op": "free",
+    "banks": [
+     20
+    ]
+   },
+   {
+    "kind": "0x1028",
+    "x": 5096,
+    "op": "request",
+    "banks": [
+     40
+    ]
+   },
+   {
+    "kind": "0x1019",
+    "x": 5128,
+    "op": "request",
+    "banks": [
+     25
+    ]
+   },
+   {
+    "kind": "0x1819",
+    "x": 5184,
+    "op": "free",
+    "banks": [
+     25
+    ]
+   },
+   {
+    "kind": "0x1803",
+    "x": 5312,
+    "op": "free",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x1003",
+    "x": 5376,
+    "op": "request",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x1003",
+    "x": 6248,
+    "op": "request",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x1803",
+    "x": 6400,
+    "op": "free",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x1825",
+    "x": 6408,
+    "op": "free",
+    "banks": [
+     37
+    ]
+   },
+   {
+    "kind": "0x1828",
+    "x": 6408,
+    "op": "free",
+    "banks": [
+     40
+    ]
+   },
+   {
+    "kind": "0x1824",
+    "x": 6416,
+    "op": "free",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x1025",
+    "x": 6600,
+    "op": "request",
+    "banks": [
+     37
+    ]
+   },
+   {
+    "kind": "0x1024",
+    "x": 7016,
+    "op": "request",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x1025",
+    "x": 8224,
+    "op": "request",
+    "banks": [
+     37
+    ]
+   },
+   {
+    "kind": "0x1024",
+    "x": 8264,
+    "op": "request",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x1819",
+    "x": 8424,
+    "op": "free",
+    "banks": [
+     25
+    ]
+   },
+   {
+    "kind": "0x181c",
+    "x": 8424,
+    "op": "free",
+    "banks": [
+     28
+    ]
+   },
+   {
+    "kind": "0x181e",
+    "x": 8424,
+    "op": "free",
+    "banks": [
+     30
+    ]
+   },
+   {
+    "kind": "0x1829",
+    "x": 8424,
+    "op": "free",
+    "banks": [
+     41
+    ]
+   },
+   {
+    "kind": "0x1825",
+    "x": 8424,
+    "op": "free",
+    "banks": [
+     37
+    ]
+   },
+   {
+    "kind": "0x181d",
+    "x": 8432,
+    "op": "free",
+    "banks": [
+     29
+    ]
+   },
+   {
+    "kind": "0x1029",
+    "x": 8752,
+    "op": "request",
+    "banks": [
+     41
+    ]
+   },
+   {
+    "kind": "0x101e",
+    "x": 8800,
+    "op": "request",
+    "banks": [
+     30
+    ]
+   },
+   {
+    "kind": "0x101e",
+    "x": 10752,
+    "op": "request",
+    "banks": [
+     30
+    ]
+   },
+   {
+    "kind": "0x181c",
+    "x": 11008,
+    "op": "free",
+    "banks": [
+     28
+    ]
+   },
+   {
+    "kind": "0x1814",
+    "x": 11008,
+    "op": "free",
+    "banks": [
+     20
+    ]
+   },
+   {
+    "kind": "0x1816",
+    "x": 11008,
+    "op": "free",
+    "banks": [
+     22
+    ]
+   },
+   {
+    "kind": "0x181d",
+    "x": 11008,
+    "op": "free",
+    "banks": [
+     29
+    ]
+   },
+   {
+    "kind": "0x181a",
+    "x": 11008,
+    "op": "free",
+    "banks": [
+     26
+    ]
+   },
+   {
+    "kind": "0x1815",
+    "x": 11008,
+    "op": "free",
+    "banks": [
+     21
+    ]
+   },
+   {
+    "kind": "0x1819",
+    "x": 11104,
+    "op": "free",
+    "banks": [
+     25
+    ]
+   },
+   {
+    "kind": "0x1829",
+    "x": 11200,
+    "op": "free",
+    "banks": [
+     41
+    ]
+   },
+   {
+    "kind": "0x181e",
+    "x": 11216,
+    "op": "free",
+    "banks": [
+     30
+    ]
+   },
+   {
+    "kind": "0x1019",
+    "x": 11296,
+    "op": "request",
+    "banks": [
+     25
+    ]
+   },
+   {
+    "kind": "0x1015",
+    "x": 11456,
+    "op": "request",
+    "banks": [
+     21
+    ]
+   },
+   {
+    "kind": "0x1024",
+    "x": 11480,
+    "op": "request",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x1016",
+    "x": 11648,
+    "op": "request",
+    "banks": [
+     22
+    ]
+   },
+   {
+    "kind": "0x1c0c",
+    "x": 12928,
+    "op": "letters_free",
+    "banks": [
+     8,
+     9
+    ]
+   },
+   {
+    "kind": "0x140c",
+    "x": 13032,
+    "op": "letters_request",
+    "banks": [
+     8,
+     9
+    ]
+   },
+   {
+    "kind": "0x1024",
+    "x": 14384,
+    "op": "request",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x181a",
+    "x": 14480,
+    "op": "free",
+    "banks": [
+     26
+    ]
+   },
+   {
+    "kind": "0x1824",
+    "x": 14480,
+    "op": "free",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x1818",
+    "x": 14480,
+    "op": "free",
+    "banks": [
+     24
+    ]
+   },
+   {
+    "kind": "0x181d",
+    "x": 14480,
+    "op": "free",
+    "banks": [
+     29
+    ]
+   },
+   {
+    "kind": "0x140c",
+    "x": 14600,
+    "op": "letters_request",
+    "banks": [
+     8,
+     9
+    ]
+   },
+   {
+    "kind": "0x101d",
+    "x": 14616,
+    "op": "request",
+    "banks": [
+     29
+    ]
+   },
+   {
+    "kind": "0x1c0c",
+    "x": 14656,
+    "op": "letters_free",
+    "banks": [
+     8,
+     9
+    ]
+   },
+   {
+    "kind": "0x1814",
+    "x": 15616,
+    "op": "free",
+    "banks": [
+     20
+    ]
+   },
+   {
+    "kind": "0x1815",
+    "x": 15624,
+    "op": "free",
+    "banks": [
+     21
+    ]
+   },
+   {
+    "kind": "0x1016",
+    "x": 15648,
+    "op": "request",
+    "banks": [
+     22
+    ]
+   },
+   {
+    "kind": "0x1816",
+    "x": 15752,
+    "op": "free",
+    "banks": [
+     22
+    ]
+   },
+   {
+    "kind": "0x1818",
+    "x": 15808,
+    "op": "free",
+    "banks": [
+     24
+    ]
+   },
+   {
+    "kind": "0x181b",
+    "x": 15808,
+    "op": "free",
+    "banks": [
+     27
+    ]
+   },
+   {
+    "kind": "0x101b",
+    "x": 15872,
+    "op": "request",
+    "banks": [
+     27
+    ]
+   },
+   {
+    "kind": "0x181c",
+    "x": 16544,
+    "op": "free",
+    "banks": [
+     28
+    ]
+   },
+   {
+    "kind": "0x101c",
+    "x": 16664,
+    "op": "request",
+    "banks": [
+     28
+    ]
+   },
+   {
+    "kind": "0x1015",
+    "x": 16696,
+    "op": "request",
+    "banks": [
+     21
+    ]
+   },
+   {
+    "kind": "0x101d",
+    "x": 16768,
+    "op": "request",
+    "banks": [
+     29
+    ]
+   },
+   {
+    "kind": "0x1803",
+    "x": 16896,
+    "op": "free",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x181d",
+    "x": 16896,
+    "op": "free",
+    "banks": [
+     29
+    ]
+   },
+   {
+    "kind": "0x101b",
+    "x": 17088,
+    "op": "request",
+    "banks": [
+     27
+    ]
+   },
+   {
+    "kind": "0x1818",
+    "x": 17152,
+    "op": "free",
+    "banks": [
+     24
+    ]
+   },
+   {
+    "kind": "0x1003",
+    "x": 17152,
+    "op": "request",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x1819",
+    "x": 17152,
+    "op": "free",
+    "banks": [
+     25
+    ]
+   },
+   {
+    "kind": "0x1817",
+    "x": 17160,
+    "op": "free",
+    "banks": [
+     23
+    ]
+   },
+   {
+    "kind": "0x181b",
+    "x": 17264,
+    "op": "free",
+    "banks": [
+     27
+    ]
+   },
+   {
+    "kind": "0x1824",
+    "x": 17264,
+    "op": "free",
+    "banks": [
+     36
+    ]
+   },
+   {
+    "kind": "0x1c80",
+    "x": 17528,
+    "op": "letters_free",
+    "banks": [
+     12
+    ]
+   },
+   {
+    "kind": "0x1019",
+    "x": 17600,
+    "op": "request",
+    "banks": [
+     25
+    ]
+   },
+   {
+    "kind": "0x1480",
+    "x": 17648,
+    "op": "letters_request",
+    "banks": [
+     12
+    ]
+   },
+   {
+    "kind": "0x1805",
+    "x": 17792,
+    "op": "free",
+    "banks": [
+     5
+    ]
+   },
+   {
+    "kind": "0x1003",
+    "x": 17792,
+    "op": "request",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x1005",
+    "x": 17920,
+    "op": "request",
+    "banks": [
+     5
+    ]
+   },
+   {
+    "kind": "0x1803",
+    "x": 17928,
+    "op": "free",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x1015",
+    "x": 17984,
+    "op": "request",
+    "banks": [
+     21
+    ]
+   },
+   {
+    "kind": "0x1815",
+    "x": 18176,
+    "op": "free",
+    "banks": [
+     21
+    ]
+   },
+   {
+    "kind": "0x1c40",
+    "x": 18248,
+    "op": "letters_free",
+    "banks": [
+     7
+    ]
+   },
+   {
+    "kind": "0x1440",
+    "x": 18320,
+    "op": "letters_request",
+    "banks": [
+     7
+    ]
+   },
+   {
+    "kind": "0x1480",
+    "x": 18456,
+    "op": "letters_request",
+    "banks": [
+     12
+    ]
+   },
+   {
+    "kind": "0x1c80",
+    "x": 18552,
+    "op": "letters_free",
+    "banks": [
+     12
+    ]
+   }
+  ],
+  "TITANS": [],
+  "TRAINING": [
+   {
+    "kind": "0x1010",
+    "x": 1240,
+    "op": "request",
+    "banks": [
+     16
+    ]
+   },
+   {
+    "kind": "0x1010",
+    "x": 1240,
+    "op": "request",
+    "banks": [
+     16
+    ]
+   },
+   {
+    "kind": "0x1022",
+    "x": 1248,
+    "op": "request",
+    "banks": [
+     34
+    ]
+   },
+   {
+    "kind": "0x1403",
+    "x": 1256,
+    "op": "letters_request",
+    "banks": [
+     6,
+     7
+    ]
+   },
+   {
+    "kind": "0x1022",
+    "x": 7680,
+    "op": "request",
+    "banks": [
+     34
+    ]
+   },
+   {
+    "kind": "0x1010",
+    "x": 7696,
+    "op": "request",
+    "banks": [
+     16
+    ]
+   },
+   {
+    "kind": "0x182e",
+    "x": 7736,
+    "op": "free",
+    "banks": [
+     46
+    ]
+   },
+   {
+    "kind": "0x101f",
+    "x": 7872,
+    "op": "request",
+    "banks": [
+     31
+    ]
+   },
+   {
+    "kind": "0x1822",
+    "x": 7904,
+    "op": "free",
+    "banks": [
+     34
+    ]
+   },
+   {
+    "kind": "0x102e",
+    "x": 8192,
+    "op": "request",
+    "banks": [
+     46
+    ]
+   },
+   {
+    "kind": "0x1810",
+    "x": 8448,
+    "op": "free",
+    "banks": [
+     16
+    ]
+   },
+   {
+    "kind": "0x1403",
+    "x": 8640,
+    "op": "letters_request",
+    "banks": [
+     6,
+     7
+    ]
+   },
+   {
+    "kind": "0x1c03",
+    "x": 8704,
+    "op": "letters_free",
+    "banks": [
+     6,
+     7
+    ]
+   },
+   {
+    "kind": "0x181f",
+    "x": 8712,
+    "op": "free",
+    "banks": [
+     31
+    ]
+   },
+   {
+    "kind": "0x180f",
+    "x": 8896,
+    "op": "free",
+    "banks": [
+     15
+    ]
+   },
+   {
+    "kind": "0x100f",
+    "x": 9024,
+    "op": "request",
+    "banks": [
+     15
+    ]
+   },
+   {
+    "kind": "0x100e",
+    "x": 9088,
+    "op": "request",
+    "banks": [
+     14
+    ]
+   },
+   {
+    "kind": "0x180e",
+    "x": 9152,
+    "op": "free",
+    "banks": [
+     14
+    ]
+   },
+   {
+    "kind": "0x1826",
+    "x": 9224,
+    "op": "free",
+    "banks": [
+     38
+    ]
+   },
+   {
+    "kind": "0x1026",
+    "x": 9600,
+    "op": "request",
+    "banks": [
+     38
+    ]
+   },
+   {
+    "kind": "0x1821",
+    "x": 11584,
+    "op": "free",
+    "banks": [
+     33
+    ]
+   },
+   {
+    "kind": "0x1021",
+    "x": 11768,
+    "op": "request",
+    "banks": [
+     33
+    ]
+   },
+   {
+    "kind": "0x102e",
+    "x": 15400,
+    "op": "request",
+    "banks": [
+     46
+    ]
+   },
+   {
+    "kind": "0x1021",
+    "x": 15736,
+    "op": "request",
+    "banks": [
+     33
+    ]
+   },
+   {
+    "kind": "0x1821",
+    "x": 15792,
+    "op": "free",
+    "banks": [
+     33
+    ]
+   },
+   {
+    "kind": "0x1820",
+    "x": 15792,
+    "op": "free",
+    "banks": [
+     32
+    ]
+   },
+   {
+    "kind": "0x182e",
+    "x": 15792,
+    "op": "free",
+    "banks": [
+     46
+    ]
+   },
+   {
+    "kind": "0x181f",
+    "x": 15800,
+    "op": "free",
+    "banks": [
+     31
+    ]
+   },
+   {
+    "kind": "0x1020",
+    "x": 15864,
+    "op": "request",
+    "banks": [
+     32
+    ]
+   },
+   {
+    "kind": "0x101f",
+    "x": 16320,
+    "op": "request",
+    "banks": [
+     31
+    ]
+   },
+   {
+    "kind": "0x101f",
+    "x": 17472,
+    "op": "request",
+    "banks": [
+     31
+    ]
+   },
+   {
+    "kind": "0x102e",
+    "x": 17536,
+    "op": "request",
+    "banks": [
+     46
+    ]
+   },
+   {
+    "kind": "0x181f",
+    "x": 18240,
+    "op": "free",
+    "banks": [
+     31
+    ]
+   },
+   {
+    "kind": "0x1020",
+    "x": 18368,
+    "op": "request",
+    "banks": [
+     32
+    ]
+   },
+   {
+    "kind": "0x1820",
+    "x": 18496,
+    "op": "free",
+    "banks": [
+     32
+    ]
+   },
+   {
+    "kind": "0x181f",
+    "x": 19584,
+    "op": "free",
+    "banks": [
+     31
+    ]
+   },
+   {
+    "kind": "0x1803",
+    "x": 19648,
+    "op": "free",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x101f",
+    "x": 19712,
+    "op": "request",
+    "banks": [
+     31
+    ]
+   },
+   {
+    "kind": "0x1003",
+    "x": 19968,
+    "op": "request",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x1003",
+    "x": 22464,
+    "op": "request",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x101f",
+    "x": 22528,
+    "op": "request",
+    "banks": [
+     31
+    ]
+   },
+   {
+    "kind": "0x181f",
+    "x": 22784,
+    "op": "free",
+    "banks": [
+     31
+    ]
+   },
+   {
+    "kind": "0x1803",
+    "x": 22848,
+    "op": "free",
+    "banks": [
+     3
+    ]
+   },
+   {
+    "kind": "0x182e",
+    "x": 26304,
+    "op": "free",
+    "banks": [
+     46
+    ]
+   },
+   {
+    "kind": "0x1811",
+    "x": 30536,
+    "op": "free",
+    "banks": [
+     17
+    ]
+   },
+   {
+    "kind": "0x180e",
+    "x": 30720,
+    "op": "free",
+    "banks": [
+     14
+    ]
+   },
+   {
+    "kind": "0x1810",
+    "x": 30720,
+    "op": "free",
+    "banks": [
+     16
+    ]
+   },
+   {
+    "kind": "0x1805",
+    "x": 30784,
+    "op": "free",
+    "banks": [
+     5
+    ]
+   },
+   {
+    "kind": "0x1011",
+    "x": 30912,
+    "op": "request",
+    "banks": [
+     17
+    ]
+   },
+   {
+    "kind": "0x1005",
+    "x": 31040,
+    "op": "request",
+    "banks": [
+     5
+    ]
+   }
+  ],
+  "VORTEX": []
+ },
+ "banks": [
+  {
+   "engine": "ENG1",
+   "id": 0,
+   "record_rva": "0x5cee0",
+   "path": "(none: empty directory string 0x6ffc0)",
+   "frames": 0,
+   "archive_index": null,
+   "extracted": null,
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "LEAD (no static loader found)"
+  },
+  {
+   "engine": "ENG1",
+   "id": 1,
+   "record_rva": "0x5cef4",
+   "path": "P:\\SRC1\\HERO\\HERCULES",
+   "frames": 593,
+   "archive_index": 560,
+   "extracted": "0560_SRC1_HERO_HERCULES",
+   "levels": [
+    "(id 0)",
+    "(id 4)",
+    "FOREST",
+    "HYDRA",
+    "MEDUSA",
+    "THEBES",
+    "TRAINING",
+    "VORTEX"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "CYCLOPS",
+    "GAUNTLET",
+    "TORMENT"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 443,
+    "frames_pixel_matched": 209,
+    "frames_shown": 322,
+    "shown_levels": [
+     1,
+     3,
+     5,
+     6,
+     7
+    ],
+    "object_types": [
+     1,
+     8228,
+     40967
+    ],
+    "shown_but_not_in_catalog": [
+     26,
+     27,
+     28,
+     94,
+     95,
+     96,
+     97,
+     98,
+     139,
+     140,
+     141,
+     142,
+     143,
+     144,
+     145,
+     186,
+     187,
+     248,
+     273,
+     274,
+     275,
+     276,
+     277,
+     278,
+     279,
+     280,
+     281,
+     282,
+     283,
+     284,
+     285,
+     286,
+     287,
+     288,
+     289,
+     290,
+     291,
+     294,
+     295,
+     296
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 2,
+   "record_rva": "0x5cf08",
+   "path": "P:\\SRC1\\HERO\\XTRA_DB1",
+   "frames": 282,
+   "archive_index": 552,
+   "extracted": "0552_SRC1_HERO_XTRA_DB1",
+   "levels": [
+    "(id 0)",
+    "(id 4)",
+    "FOREST",
+    "HYDRA",
+    "MEDUSA",
+    "THEBES",
+    "TITANS",
+    "TRAINING",
+    "VORTEX"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST",
+    "THEBES",
+    "TITANS",
+    "TRAINING"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 271,
+    "frames_pixel_matched": 173,
+    "frames_shown": 229,
+    "shown_levels": [
+     1,
+     3,
+     5,
+     6,
+     7,
+     9,
+     11
+    ],
+    "object_types": [
+     0,
+     8194,
+     8195,
+     8203,
+     8204,
+     8208,
+     8209,
+     8210,
+     8211,
+     8212,
+     8213,
+     8214,
+     8215,
+     8216,
+     8217,
+     8218,
+     8219,
+     8220,
+     8227,
+     16389,
+     16393,
+     16394,
+     16395,
+     16396,
+     16397,
+     16399,
+     16402,
+     16421,
+     40967
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     29,
+     30,
+     31,
+     32,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     60,
+     184,
+     185,
+     186,
+     187,
+     188,
+     189,
+     190,
+     191,
+     192,
+     193,
+     194,
+     195,
+     196,
+     197,
+     198,
+     199,
+     200,
+     201,
+     202,
+     203,
+     204,
+     205,
+     206,
+     207,
+     224,
+     225,
+     226
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 3,
+   "record_rva": "0x5cf1c",
+   "path": "P:\\SRC1\\HERO\\HERCULES\\HC_THROW",
+   "frames": 87,
+   "archive_index": 761,
+   "extracted": "0761_SRC1_HERO_HERCULES_HC_THROW",
+   "levels": [
+    "THEBES",
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "THEBES",
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "CYCLOPS",
+    "GAUNTLET",
+    "TORMENT"
+   ],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 76,
+    "frames_pixel_matched": 0,
+    "frames_shown": 56,
+    "shown_levels": [
+     1
+    ],
+    "object_types": [
+     1,
+     8228
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 4,
+   "record_rva": "0x5cf30",
+   "path": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE",
+   "frames": 37,
+   "archive_index": 765,
+   "extracted": "0765_SRC1_HERO_HERCULES_HC_DIE",
+   "levels": [
+    "(id 4)",
+    "FOREST",
+    "HYDRA",
+    "MEDUSA",
+    "THEBES",
+    "TRAINING",
+    "VORTEX"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TORMENT"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 36,
+    "frames_pixel_matched": 26,
+    "frames_shown": 35,
+    "shown_levels": [
+     1,
+     3,
+     5,
+     6,
+     7,
+     11
+    ],
+    "object_types": [
+     1,
+     8228
+    ],
+    "shown_but_not_in_catalog": [
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 5,
+   "record_rva": "0x5cf44",
+   "path": "P:\\SRC1\\HERO\\HERCULES\\HC_DUNIT",
+   "frames": 64,
+   "archive_index": 760,
+   "extracted": "0760_SRC1_HERO_HERCULES_HC_DUNIT",
+   "levels": [
+    "THEBES",
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "THEBES",
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "CYCLOPS",
+    "THEBES",
+    "TRAINING"
+   ],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 63,
+    "frames_pixel_matched": 1,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 6,
+   "record_rva": "0x5cf58",
+   "path": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERH",
+   "frames": 24,
+   "archive_index": 777,
+   "extracted": "0777_SRC1_HERO_XTRA_DB1_LETTERH",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "CYCLOPS",
+    "GAUNTLET",
+    "TORMENT"
+   ],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 22,
+    "frames_pixel_matched": 0,
+    "frames_shown": 23,
+    "shown_levels": [
+     3
+    ],
+    "object_types": [
+     8203
+    ],
+    "shown_but_not_in_catalog": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 7,
+   "record_rva": "0x5cf6c",
+   "path": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERE",
+   "frames": 24,
+   "archive_index": 776,
+   "extracted": "0776_SRC1_HERO_XTRA_DB1_LETTERE",
+   "levels": [
+    "FOREST",
+    "THEBES",
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "FOREST",
+    "THEBES",
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 22,
+    "frames_pixel_matched": 0,
+    "frames_shown": 23,
+    "shown_levels": [
+     3,
+     5
+    ],
+    "object_types": [
+     8203
+    ],
+    "shown_but_not_in_catalog": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 8,
+   "record_rva": "0x5cf80",
+   "path": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERR",
+   "frames": 24,
+   "archive_index": 779,
+   "extracted": "0779_SRC1_HERO_XTRA_DB1_LETTERR",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 22,
+    "frames_pixel_matched": 0,
+    "frames_shown": 23,
+    "shown_levels": [
+     1,
+     3
+    ],
+    "object_types": [
+     8203,
+     8204
+    ],
+    "shown_but_not_in_catalog": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 9,
+   "record_rva": "0x5cf94",
+   "path": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERC",
+   "frames": 24,
+   "archive_index": 775,
+   "extracted": "0775_SRC1_HERO_XTRA_DB1_LETTERC",
+   "levels": [
+    "FOREST",
+    "THEBES"
+   ],
+   "map_triggers": [
+    "FOREST",
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "TORMENT"
+   ],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 22,
+    "frames_pixel_matched": 0,
+    "frames_shown": 23,
+    "shown_levels": [
+     1
+    ],
+    "object_types": [
+     8203
+    ],
+    "shown_but_not_in_catalog": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 10,
+   "record_rva": "0x5cfa8",
+   "path": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERU",
+   "frames": 24,
+   "archive_index": 781,
+   "extracted": "0781_SRC1_HERO_XTRA_DB1_LETTERU",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [
+    "FOREST"
+   ],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 22,
+    "frames_pixel_matched": 0,
+    "frames_shown": 23,
+    "shown_levels": [
+     1,
+     5
+    ],
+    "object_types": [
+     8203
+    ],
+    "shown_but_not_in_catalog": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 11,
+   "record_rva": "0x5cfbc",
+   "path": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERL",
+   "frames": 24,
+   "archive_index": 778,
+   "extracted": "0778_SRC1_HERO_XTRA_DB1_LETTERL",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [
+    "FOREST"
+   ],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 22,
+    "frames_pixel_matched": 0,
+    "frames_shown": 23,
+    "shown_levels": [
+     1,
+     5
+    ],
+    "object_types": [
+     8203,
+     8204
+    ],
+    "shown_but_not_in_catalog": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 12,
+   "record_rva": "0x5cfd0",
+   "path": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERS",
+   "frames": 24,
+   "archive_index": 780,
+   "extracted": "0780_SRC1_HERO_XTRA_DB1_LETTERS",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 22,
+    "frames_pixel_matched": 0,
+    "frames_shown": 23,
+    "shown_levels": [
+     3
+    ],
+    "object_types": [
+     8203
+    ],
+    "shown_but_not_in_catalog": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 13,
+   "record_rva": "0x5cfe4",
+   "path": "P:\\SRC1\\ALIEN1\\PHIL",
+   "frames": 115,
+   "archive_index": 811,
+   "extracted": "0811_SRC1_ALIEN1_PHIL",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TRAINING"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 114,
+    "frames_pixel_matched": 10,
+    "frames_shown": 81,
+    "shown_levels": [
+     1
+    ],
+    "object_types": [
+     49
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     60
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 14,
+   "record_rva": "0x5cff8",
+   "path": "P:\\SRC1\\ALIEN1\\PHIL\\CLIMB",
+   "frames": 111,
+   "archive_index": 640,
+   "extracted": "0640_SRC1_ALIEN1_PHIL_CLIMB",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 0,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 15,
+   "record_rva": "0x5d00c",
+   "path": "P:\\SRC1\\ALIEN1\\PHIL\\REACT",
+   "frames": 60,
+   "archive_index": 620,
+   "extracted": "0620_SRC1_ALIEN1_PHIL_REACT",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 59,
+    "frames_pixel_matched": 0,
+    "frames_shown": 59,
+    "shown_levels": [
+     1
+    ],
+    "object_types": [
+     49
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 16,
+   "record_rva": "0x5d020",
+   "path": "P:\\SRC1\\ALIEN1\\PHIL\\MACHINE",
+   "frames": 212,
+   "archive_index": 611,
+   "extracted": "0611_SRC1_ALIEN1_PHIL_MACHINE",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 153,
+    "frames_pixel_matched": 0,
+    "frames_shown": 2,
+    "shown_levels": [
+     1
+    ],
+    "object_types": [
+     8233,
+     8235
+    ],
+    "shown_but_not_in_catalog": [
+     102,
+     131
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 17,
+   "record_rva": "0x5d034",
+   "path": "P:\\SRC1\\ALIEN1\\PHIL\\DANCE",
+   "frames": 64,
+   "archive_index": 621,
+   "extracted": "0621_SRC1_ALIEN1_PHIL_DANCE",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 63,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 18,
+   "record_rva": "0x5d048",
+   "path": "P:\\SRC1\\ALIEN1\\PAIN",
+   "frames": 179,
+   "archive_index": 812,
+   "extracted": "0812_SRC1_ALIEN1_PAIN",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "LEAD (no static loader found)",
+   "runtime": {
+    "frames_decoded": 141,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 19,
+   "record_rva": "0x5d05c",
+   "path": "P:\\SRC1\\ALIEN1\\PANIC",
+   "frames": 181,
+   "archive_index": 532,
+   "extracted": "0532_SRC1_ALIEN1_PANIC",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "LEAD (no static loader found)",
+   "runtime": {
+    "frames_decoded": 131,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 20,
+   "record_rva": "0x5d070",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THSNOW",
+   "frames": 59,
+   "archive_index": 766,
+   "extracted": "0766_SRC1_ALIEN1_THEBIANS_THSNOW",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 46,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 21,
+   "record_rva": "0x5d084",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFLOOD",
+   "frames": 31,
+   "archive_index": 767,
+   "extracted": "0767_SRC1_ALIEN1_THEBIANS_THFLOOD",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 29,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 22,
+   "record_rva": "0x5d098",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THEQ",
+   "frames": 103,
+   "archive_index": 329,
+   "extracted": "0329_SRC1_ALIEN1_THEBIANS_THEQ",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 98,
+    "frames_pixel_matched": 0,
+    "frames_shown": 34,
+    "shown_levels": [
+     5
+    ],
+    "object_types": [
+     43
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     102
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 23,
+   "record_rva": "0x5d0ac",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFAT",
+   "frames": 24,
+   "archive_index": 800,
+   "extracted": "0800_SRC1_ALIEN1_THEBIANS_THFAT",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 21,
+    "frames_pixel_matched": 12,
+    "frames_shown": 21,
+    "shown_levels": [
+     5
+    ],
+    "object_types": [
+     68
+    ],
+    "shown_but_not_in_catalog": [
+     4,
+     5,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 24,
+   "record_rva": "0x5d0c0",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THOLD",
+   "frames": 25,
+   "archive_index": 820,
+   "extracted": "0820_SRC1_ALIEN1_THEBIANS_THOLD",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 20,
+    "frames_pixel_matched": 20,
+    "frames_shown": 21,
+    "shown_levels": [
+     5
+    ],
+    "object_types": [
+     51
+    ],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 25,
+   "record_rva": "0x5d0d4",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFLASH",
+   "frames": 43,
+   "archive_index": 768,
+   "extracted": "0768_SRC1_ALIEN1_THEBIANS_THFLASH",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 42,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 26,
+   "record_rva": "0x5d0e8",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THBURNT",
+   "frames": 55,
+   "archive_index": 808,
+   "extracted": "0808_SRC1_ALIEN1_THEBIANS_THBURNT",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 53,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 27,
+   "record_rva": "0x5d0fc",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS",
+   "frames": 163,
+   "archive_index": 817,
+   "extracted": "0817_SRC1_ALIEN1_THEBIANS_THUGS",
+   "levels": [
+    "FOREST",
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST",
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 154,
+    "frames_pixel_matched": 0,
+    "frames_shown": 36,
+    "shown_levels": [
+     3,
+     5
+    ],
+    "object_types": [
+     38,
+     39,
+     16423
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     69,
+     70,
+     71,
+     72,
+     75,
+     80,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     162
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 28,
+   "record_rva": "0x5d110",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THEWGUY",
+   "frames": 64,
+   "archive_index": 815,
+   "extracted": "0815_SRC1_ALIEN1_THEBIANS_THEWGUY",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 63,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 29,
+   "record_rva": "0x5d124",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR",
+   "frames": 116,
+   "archive_index": 763,
+   "extracted": "0763_SRC1_ALIEN1_THEBIANS_THCHAR",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 52,
+    "frames_pixel_matched": 0,
+    "frames_shown": 49,
+    "shown_levels": [
+     5
+    ],
+    "object_types": [
+     45,
+     63,
+     64,
+     8238
+    ],
+    "shown_but_not_in_catalog": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 30,
+   "record_rva": "0x5d138",
+   "path": "P:\\SRC1\\ALIEN1\\THEBIANS\\THHAFOOD",
+   "frames": 130,
+   "archive_index": 484,
+   "extracted": "0484_SRC1_ALIEN1_THEBIANS_THHAFOOD",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 120,
+    "frames_pixel_matched": 13,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 31,
+   "record_rva": "0x5d14c",
+   "path": "P:\\SRC1\\ALIEN1\\TRAINING",
+   "frames": 160,
+   "archive_index": 501,
+   "extracted": "0501_SRC1_ALIEN1_TRAINING",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "TRAINING"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 116,
+    "frames_pixel_matched": 0,
+    "frames_shown": 35,
+    "shown_levels": [
+     1
+    ],
+    "object_types": [
+     47,
+     48,
+     52,
+     54,
+     8241,
+     16434,
+     16447
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     76,
+     89,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107,
+     108,
+     109,
+     110,
+     111,
+     112,
+     113,
+     114,
+     115,
+     127,
+     145,
+     146,
+     147,
+     148,
+     149,
+     150,
+     151,
+     152,
+     153,
+     154,
+     155,
+     156,
+     157,
+     158,
+     159
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 32,
+   "record_rva": "0x5d160",
+   "path": "P:\\SRC1\\ALIEN1\\TRAINING\\TOPS",
+   "frames": 257,
+   "archive_index": 437,
+   "extracted": "0437_SRC1_ALIEN1_TRAINING_TOPS",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "TRAINING"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 137,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 33,
+   "record_rva": "0x5d174",
+   "path": "P:\\SRC1\\ALIEN1\\TRAINING\\SHARK",
+   "frames": 46,
+   "archive_index": 369,
+   "extracted": "0369_SRC1_ALIEN1_TRAINING_SHARK",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "TRAINING"
+   ],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 43,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 34,
+   "record_rva": "0x5d188",
+   "path": "P:\\SRC1\\ALIEN1\\TRAINING\\PEG",
+   "frames": 38,
+   "archive_index": 619,
+   "extracted": "0619_SRC1_ALIEN1_TRAINING_PEG",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "TRAINING"
+   ],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 37,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 35,
+   "record_rva": "0x5d19c",
+   "path": "P:\\SRC1\\ALIEN1\\TRAINING\\TRAINFX",
+   "frames": 11,
+   "archive_index": 773,
+   "extracted": "0773_SRC1_ALIEN1_TRAINING_TRAINFX",
+   "levels": [
+    "TRAINING"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 10,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 36,
+   "record_rva": "0x5d1b0",
+   "path": "P:\\SRC1\\ALIEN1\\FANGIRLS",
+   "frames": 194,
+   "archive_index": 481,
+   "extracted": "0481_SRC1_ALIEN1_FANGIRLS",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 193,
+    "frames_pixel_matched": 0,
+    "frames_shown": 42,
+    "shown_levels": [
+     5
+    ],
+    "object_types": [
+     48,
+     49,
+     50
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     13,
+     67,
+     73,
+     75,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     111,
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118,
+     163,
+     164,
+     165,
+     166,
+     167,
+     168
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 37,
+   "record_rva": "0x5d1c4",
+   "path": "P:\\SRC1\\ALIEN1\\SKELETON",
+   "frames": 192,
+   "archive_index": 486,
+   "extracted": "0486_SRC1_ALIEN1_SKELETON",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (map trigger)",
+   "runtime": {
+    "frames_decoded": 149,
+    "frames_pixel_matched": 0,
+    "frames_shown": 67,
+    "shown_levels": [
+     5
+    ],
+    "object_types": [
+     62,
+     16427
+    ],
+    "shown_but_not_in_catalog": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     110,
+     128,
+     158
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 38,
+   "record_rva": "0x5d1d8",
+   "path": "P:\\SRC1\\ALIEN1\\GENERIC1",
+   "frames": 120,
+   "archive_index": 487,
+   "extracted": "0487_SRC1_ALIEN1_GENERIC1",
+   "levels": [
+    "FOREST",
+    "THEBES",
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST",
+    "THEBES",
+    "TRAINING"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 116,
+    "frames_pixel_matched": 43,
+    "frames_shown": 91,
+    "shown_levels": [
+     3,
+     5
+    ],
+    "object_types": [
+     37
+    ],
+    "shown_but_not_in_catalog": [
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     57,
+     58,
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73,
+     76,
+     77,
+     78,
+     79,
+     80,
+     81,
+     82,
+     83
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 39,
+   "record_rva": "0x5d1ec",
+   "path": "P:\\SRC1\\ALIEN1\\ALIEN1",
+   "frames": 42,
+   "archive_index": 497,
+   "extracted": "0497_SRC1_ALIEN1_ALIEN1",
+   "levels": [
+    "(id 4)",
+    "FOREST",
+    "MEDUSA",
+    "THEBES",
+    "TRAINING"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "HYDRA",
+    "TRAINING"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 40,
+    "frames_pixel_matched": 12,
+    "frames_shown": 18,
+    "shown_levels": [
+     1,
+     3,
+     5
+    ],
+    "object_types": [
+     8226,
+     8231,
+     8232,
+     16424
+    ],
+    "shown_but_not_in_catalog": [
+     9,
+     24,
+     39,
+     40,
+     41
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 40,
+   "record_rva": "0x5d200",
+   "path": "P:\\SRC1\\ALIEN1\\MINOTAUR",
+   "frames": 126,
+   "archive_index": 496,
+   "extracted": "0496_SRC1_ALIEN1_MINOTAUR",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 109,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 41,
+   "record_rva": "0x5d214",
+   "path": "P:\\SRC1\\ALIEN1\\HARPIES",
+   "frames": 113,
+   "archive_index": 479,
+   "extracted": "0479_SRC1_ALIEN1_HARPIES",
+   "levels": [
+    "THEBES"
+   ],
+   "map_triggers": [
+    "THEBES"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "THEBES"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 112,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 42,
+   "record_rva": "0x5d228",
+   "path": "P:\\SRC1\\ALIEN2\\ROCKC",
+   "frames": 97,
+   "archive_index": 542,
+   "extracted": "0542_SRC1_ALIEN2_ROCKC",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 96,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 43,
+   "record_rva": "0x5d23c",
+   "path": "P:\\SRC1\\ALIEN2\\WRESTLEC",
+   "frames": 109,
+   "archive_index": 535,
+   "extracted": "0535_SRC1_ALIEN2_WRESTLEC",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [
+    "FOREST"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 97,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 44,
+   "record_rva": "0x5d250",
+   "path": "P:\\SRC1\\ALIEN2\\ARCHERC",
+   "frames": 131,
+   "archive_index": 474,
+   "extracted": "0474_SRC1_ALIEN2_ARCHERC",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 130,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 45,
+   "record_rva": "0x5d264",
+   "path": "P:\\SRC1\\ALIEN2\\ALEXFISH",
+   "frames": 118,
+   "archive_index": 477,
+   "extracted": "0477_SRC1_ALIEN2_ALEXFISH",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 91,
+    "frames_pixel_matched": 0,
+    "frames_shown": 106,
+    "shown_levels": [
+     3
+    ],
+    "object_types": [
+     43,
+     77,
+     86,
+     8228
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     59,
+     60,
+     61,
+     62,
+     63
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 46,
+   "record_rva": "0x5d278",
+   "path": "P:\\SRC1\\ALIEN2\\STYBIRD",
+   "frames": 198,
+   "archive_index": 485,
+   "extracted": "0485_SRC1_ALIEN2_STYBIRD",
+   "levels": [
+    "FOREST",
+    "TRAINING"
+   ],
+   "map_triggers": [
+    "TRAINING"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST",
+    "TRAINING"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 175,
+    "frames_pixel_matched": 115,
+    "frames_shown": 115,
+    "shown_levels": [
+     1,
+     3
+    ],
+    "object_types": [
+     46,
+     56,
+     81,
+     82,
+     8227,
+     16424,
+     16425,
+     16426,
+     16427,
+     16428,
+     16429,
+     16430,
+     16431,
+     16432
+    ],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 47,
+   "record_rva": "0x5d28c",
+   "path": "P:\\SRC1\\ALIEN2\\FPHIL",
+   "frames": 105,
+   "archive_index": 527,
+   "extracted": "0527_SRC1_ALIEN2_FPHIL",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 104,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 48,
+   "record_rva": "0x5d2a0",
+   "path": "P:\\SRC1\\ALIEN2\\PEGASUS",
+   "frames": 133,
+   "archive_index": 492,
+   "extracted": "0492_SRC1_ALIEN2_PEGASUS",
+   "levels": [
+    "TITANS"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 127,
+    "frames_pixel_matched": 87,
+    "frames_shown": 109,
+    "shown_levels": [
+     9
+    ],
+    "object_types": [
+     1,
+     16424,
+     16425,
+     40967
+    ],
+    "shown_but_not_in_catalog": [
+     69,
+     71,
+     73,
+     75,
+     76,
+     77,
+     78,
+     79,
+     80,
+     81,
+     82,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     128,
+     129,
+     130,
+     131,
+     132
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 49,
+   "record_rva": "0x5d2b4",
+   "path": "P:\\SRC1\\ALIEN2\\RockT",
+   "frames": 66,
+   "archive_index": 568,
+   "extracted": "0568_SRC1_ALIEN2_ROCKT",
+   "levels": [
+    "TITANS"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 65,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 50,
+   "record_rva": "0x5d2c8",
+   "path": "P:\\SRC1\\ALIEN2\\IceT",
+   "frames": 51,
+   "archive_index": 786,
+   "extracted": "0786_SRC1_ALIEN2_ICET",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 50,
+    "frames_pixel_matched": 0,
+    "frames_shown": 51,
+    "shown_levels": [],
+    "object_types": [
+     41
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 51,
+   "record_rva": "0x5d2dc",
+   "path": "P:\\SRC1\\ALIEN2\\LavaT",
+   "frames": 84,
+   "archive_index": 563,
+   "extracted": "0563_SRC1_ALIEN2_LAVAT",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 83,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 52,
+   "record_rva": "0x5d2f0",
+   "path": "P:\\SRC1\\ALIEN2\\TornadoT",
+   "frames": 40,
+   "archive_index": 483,
+   "extracted": "0483_SRC1_ALIEN2_TORNADOT",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 39,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 53,
+   "record_rva": "0x5d304",
+   "path": "P:\\SRC1\\ALIEN2\\Aphrod",
+   "frames": 16,
+   "archive_index": 502,
+   "extracted": "0502_SRC1_ALIEN2_APHROD",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 15,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 54,
+   "record_rva": "0x5d318",
+   "path": "P:\\SRC1\\ALIEN2\\Apollo",
+   "frames": 15,
+   "archive_index": 495,
+   "extracted": "0495_SRC1_ALIEN2_APOLLO",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 14,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 55,
+   "record_rva": "0x5d32c",
+   "path": "P:\\SRC1\\ALIEN2\\Ares",
+   "frames": 14,
+   "archive_index": 764,
+   "extracted": "0764_SRC1_ALIEN2_ARES",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 13,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 56,
+   "record_rva": "0x5d340",
+   "path": "P:\\SRC1\\ALIEN2\\Athena",
+   "frames": 15,
+   "archive_index": 498,
+   "extracted": "0498_SRC1_ALIEN2_ATHENA",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 14,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 57,
+   "record_rva": "0x5d354",
+   "path": "P:\\SRC1\\ALIEN2\\Bacchus",
+   "frames": 17,
+   "archive_index": 476,
+   "extracted": "0476_SRC1_ALIEN2_BACCHUS",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 16,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 58,
+   "record_rva": "0x5d368",
+   "path": "P:\\SRC1\\ALIEN2\\Water",
+   "frames": 18,
+   "archive_index": 571,
+   "extracted": "0571_SRC1_ALIEN2_WATER",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 17,
+    "frames_pixel_matched": 0,
+    "frames_shown": 18,
+    "shown_levels": [
+     3
+    ],
+    "object_types": [
+     49,
+     72,
+     73
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 59,
+   "record_rva": "0x5d37c",
+   "path": "P:\\SRC1\\ALIEN2\\RcRock",
+   "frames": 15,
+   "archive_index": 524,
+   "extracted": "0524_SRC1_ALIEN2_RCROCK",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 14,
+    "frames_pixel_matched": 0,
+    "frames_shown": 6,
+    "shown_levels": [
+     3
+    ],
+    "object_types": [
+     8228,
+     16443,
+     16444,
+     16445,
+     16446,
+     16447,
+     16448
+    ],
+    "shown_but_not_in_catalog": [
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 60,
+   "record_rva": "0x5d390",
+   "path": "P:\\SRC1\\ALIEN2\\Griffon",
+   "frames": 141,
+   "archive_index": 478,
+   "extracted": "0478_SRC1_ALIEN2_GRIFFON",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [
+    "FOREST"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 109,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 61,
+   "record_rva": "0x5d3a4",
+   "path": "P:\\SRC1\\ALIEN2\\Zeus",
+   "frames": 14,
+   "archive_index": 0,
+   "extracted": "0000_SRC1_ALIEN2_ZEUS",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 13,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 62,
+   "record_rva": "0x5d3b8",
+   "path": "P:\\SRC1\\ALIEN2\\RtRock",
+   "frames": 9,
+   "archive_index": 525,
+   "extracted": "0525_SRC1_ALIEN2_RTROCK",
+   "levels": [
+    "TITANS"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 8,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 63,
+   "record_rva": "0x5d3cc",
+   "path": "P:\\SRC1\\ALIEN2\\Harp",
+   "frames": 69,
+   "archive_index": 774,
+   "extracted": "0774_SRC1_ALIEN2_HARP",
+   "levels": [
+    "TITANS"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 57,
+    "frames_pixel_matched": 8,
+    "frames_shown": 29,
+    "shown_levels": [
+     9
+    ],
+    "object_types": [
+     92,
+     16426
+    ],
+    "shown_but_not_in_catalog": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 64,
+   "record_rva": "0x5d3e0",
+   "path": "P:\\SRC1\\ALIEN2\\Spy",
+   "frames": 34,
+   "archive_index": 807,
+   "extracted": "0807_SRC1_ALIEN2_SPY",
+   "levels": [
+    "TITANS"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 33,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 65,
+   "record_rva": "0x5d3f4",
+   "path": "P:\\SRC1\\ALIEN2\\Pig",
+   "frames": 178,
+   "archive_index": 793,
+   "extracted": "0793_SRC1_ALIEN2_PIG",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 177,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 66,
+   "record_rva": "0x5d408",
+   "path": "P:\\SRC1\\ALIEN2\\Grif",
+   "frames": 498,
+   "archive_index": 769,
+   "extracted": "0769_SRC1_ALIEN2_GRIF",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 490,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 67,
+   "record_rva": "0x5d41c",
+   "path": "P:\\SRC1\\ALIEN2\\Merv",
+   "frames": 271,
+   "archive_index": 799,
+   "extracted": "0799_SRC1_ALIEN2_MERV",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "TITANS"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 270,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 68,
+   "record_rva": "0x5d430",
+   "path": "P:\\SRC1\\ALIEN2\\NESSUS\\Basic",
+   "frames": 42,
+   "archive_index": 599,
+   "extracted": "0599_SRC1_ALIEN2_NESSUS_BASIC",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [
+    "FOREST"
+   ],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list, map trigger)",
+   "runtime": {
+    "frames_decoded": 41,
+    "frames_pixel_matched": 0,
+    "frames_shown": 31,
+    "shown_levels": [
+     3
+    ],
+    "object_types": [
+     47,
+     8228
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 69,
+   "record_rva": "0x5d444",
+   "path": "P:\\SRC1\\ALIEN2\\NESSUS\\Punch",
+   "frames": 12,
+   "archive_index": 614,
+   "extracted": "0614_SRC1_ALIEN2_NESSUS_PUNCH",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [
+    "FOREST"
+   ],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (ANIM_RequestBank in a level handler)",
+   "runtime": {
+    "frames_decoded": 11,
+    "frames_pixel_matched": 0,
+    "frames_shown": 12,
+    "shown_levels": [
+     3
+    ],
+    "object_types": [
+     47,
+     8228
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 70,
+   "record_rva": "0x5d458",
+   "path": "P:\\SRC1\\ALIEN2\\NESSUS\\Kick",
+   "frames": 38,
+   "archive_index": 602,
+   "extracted": "0602_SRC1_ALIEN2_NESSUS_KICK",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [
+    "FOREST"
+   ],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (ANIM_RequestBank in a level handler)",
+   "runtime": {
+    "frames_decoded": 20,
+    "frames_pixel_matched": 0,
+    "frames_shown": 20,
+    "shown_levels": [
+     3
+    ],
+    "object_types": [
+     47,
+     8228
+    ],
+    "shown_but_not_in_catalog": [
+     7,
+     8,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 71,
+   "record_rva": "0x5d46c",
+   "path": "P:\\SRC1\\ALIEN2\\NESSUS\\Look",
+   "frames": 14,
+   "archive_index": 609,
+   "extracted": "0609_SRC1_ALIEN2_NESSUS_LOOK",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [
+    "FOREST"
+   ],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (ANIM_RequestBank in a level handler)",
+   "runtime": {
+    "frames_decoded": 13,
+    "frames_pixel_matched": 0,
+    "frames_shown": 14,
+    "shown_levels": [
+     3
+    ],
+    "object_types": [
+     47,
+     8228
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 72,
+   "record_rva": "0x5d480",
+   "path": "P:\\SRC1\\ALIEN2\\NESSUS\\Ride",
+   "frames": 53,
+   "archive_index": 603,
+   "extracted": "0603_SRC1_ALIEN2_NESSUS_RIDE",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [
+    "FOREST"
+   ],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (ANIM_RequestBank in a level handler)",
+   "runtime": {
+    "frames_decoded": 52,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 73,
+   "record_rva": "0x5d494",
+   "path": "P:\\SRC1\\ALIEN2\\NESSUS\\Reject",
+   "frames": 14,
+   "archive_index": 819,
+   "extracted": "0819_SRC1_ALIEN2_NESSUS_REJECT",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [
+    "FOREST"
+   ],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (ANIM_RequestBank in a level handler)",
+   "runtime": {
+    "frames_decoded": 13,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 74,
+   "record_rva": "0x5d4a8",
+   "path": "P:\\SRC1\\ALIEN2\\NESSUS\\Finish",
+   "frames": 6,
+   "archive_index": 797,
+   "extracted": "0797_SRC1_ALIEN2_NESSUS_FINISH",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [
+    "FOREST"
+   ],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (ANIM_RequestBank in a level handler)",
+   "runtime": {
+    "frames_decoded": 5,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 75,
+   "record_rva": "0x5d4bc",
+   "path": "P:\\SRC1\\ALIEN2\\NESSUS\\Defeat",
+   "frames": 199,
+   "archive_index": 818,
+   "extracted": "0818_SRC1_ALIEN2_NESSUS_DEFEAT",
+   "levels": [
+    "FOREST"
+   ],
+   "map_triggers": [],
+   "code_requests": [
+    "FOREST"
+   ],
+   "type_table_levels": [],
+   "level_evidence": "VERIFIED-STATIC (ANIM_RequestBank in a level handler)",
+   "runtime": {
+    "frames_decoded": 174,
+    "frames_pixel_matched": 0,
+    "frames_shown": 0,
+    "shown_levels": [],
+    "object_types": [],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 76,
+   "record_rva": "0x5d4d0",
+   "path": "P:\\SRC1\\ALIEN2\\Meg",
+   "frames": 46,
+   "archive_index": 785,
+   "extracted": "0785_SRC1_ALIEN2_MEG",
+   "levels": [],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "FOREST"
+   ],
+   "level_evidence": "LEAD (drawn by a type-table kind; load path open)",
+   "runtime": {
+    "frames_decoded": 14,
+    "frames_pixel_matched": 0,
+    "frames_shown": 15,
+    "shown_levels": [
+     3
+    ],
+    "object_types": [
+     85
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 77,
+   "record_rva": "0x5d4e4",
+   "path": "P:\\SRC1\\BOSS\\MEDUSA",
+   "frames": 148,
+   "archive_index": 816,
+   "extracted": "0816_SRC1_BOSS_MEDUSA",
+   "levels": [
+    "MEDUSA"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "MEDUSA"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 147,
+    "frames_pixel_matched": 97,
+    "frames_shown": 97,
+    "shown_levels": [
+     7
+    ],
+    "object_types": [
+     46,
+     51,
+     8233,
+     8234,
+     8235,
+     8236,
+     8239,
+     8243
+    ],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 78,
+   "record_rva": "0x5d4f8",
+   "path": "P:\\SRC1\\BOSS\\SKELWAR",
+   "frames": 161,
+   "archive_index": 566,
+   "extracted": "0566_SRC1_BOSS_SKELWAR",
+   "levels": [
+    "MEDUSA"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "MEDUSA"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 160,
+    "frames_pixel_matched": 68,
+    "frames_shown": 82,
+    "shown_levels": [
+     7
+    ],
+    "object_types": [
+     50,
+     41006
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     12,
+     13,
+     14,
+     17,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     60
+    ]
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 79,
+   "record_rva": "0x5d50c",
+   "path": "P:\\SRC1\\BOSS\\HYDRA",
+   "frames": 105,
+   "archive_index": 804,
+   "extracted": "0804_SRC1_BOSS_HYDRA",
+   "levels": [
+    "HYDRA"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "HYDRA"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 102,
+    "frames_pixel_matched": 61,
+    "frames_shown": 45,
+    "shown_levels": [
+     6
+    ],
+    "object_types": [
+     52,
+     53,
+     8237,
+     8240,
+     8242
+    ],
+    "shown_but_not_in_catalog": []
+   }
+  },
+  {
+   "engine": "ENG1",
+   "id": 80,
+   "record_rva": "0x5d520",
+   "path": "P:\\SRC1\\BOSS\\HADES",
+   "frames": 698,
+   "archive_index": 803,
+   "extracted": "0803_SRC1_BOSS_HADES",
+   "levels": [
+    "VORTEX"
+   ],
+   "map_triggers": [],
+   "code_requests": [],
+   "type_table_levels": [
+    "VORTEX"
+   ],
+   "level_evidence": "VERIFIED-STATIC (level/start list)",
+   "runtime": {
+    "frames_decoded": 515,
+    "frames_pixel_matched": 327,
+    "frames_shown": 322,
+    "shown_levels": [
+     11
+    ],
+    "object_types": [
+     40,
+     41,
+     42,
+     8233,
+     8234,
+     8235,
+     8236,
+     41000
+    ],
+    "shown_but_not_in_catalog": [
+     448,
+     449,
+     450,
+     451,
+     452,
+     453,
+     454,
+     455
+    ]
+   }
+  },
+  {
+   "engine": "ENG3",
+   "id": 0,
+   "record_rva": "0x39548",
+   "path": "(none: empty directory string 0x3fc80)",
+   "frames": 0,
+   "archive_index": null,
+   "extracted": null,
+   "levels": [],
+   "level_evidence": "LEAD (not in an ENG3 level list)"
+  },
+  {
+   "engine": "ENG3",
+   "id": 1,
+   "record_rva": "0x3955c",
+   "path": "P:\\SRC3\\HERO\\HERCULES",
+   "frames": 323,
+   "archive_index": 561,
+   "extracted": "0561_SRC3_HERO_HERCULES",
+   "levels": [
+    "CYCLOPS",
+    "GAUNTLET",
+    "TORMENT"
+   ],
+   "level_evidence": "VERIFIED-STATIC (ENG3 level/start list)",
+   "runtime": {
+    "frames_decoded": 247,
+    "frames_pixel_matched": 0,
+    "frames_shown": 149,
+    "shown_levels": [
+     2,
+     8,
+     10
+    ],
+    "object_types": [
+     1,
+     6,
+     8194,
+     8203,
+     8204,
+     8205,
+     8216,
+     8219
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     20,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59,
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66,
+     67,
+     68,
+     69,
+     70
+    ]
+   }
+  },
+  {
+   "engine": "ENG3",
+   "id": 2,
+   "record_rva": "0x39570",
+   "path": "P:\\SRC3\\HERO\\XTRA_DB1",
+   "frames": 135,
+   "archive_index": 553,
+   "extracted": "0553_SRC3_HERO_XTRA_DB1",
+   "levels": [
+    "CYCLOPS",
+    "GAUNTLET",
+    "TORMENT"
+   ],
+   "level_evidence": "VERIFIED-STATIC (ENG3 level/start list)",
+   "runtime": {
+    "frames_decoded": 26,
+    "frames_pixel_matched": 0,
+    "frames_shown": 22,
+    "shown_levels": [
+     2,
+     8,
+     10
+    ],
+    "object_types": [
+     6
+    ],
+    "shown_but_not_in_catalog": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38
+    ]
+   }
+  },
+  {
+   "engine": "ENG3",
+   "id": 3,
+   "record_rva": "0x39584",
+   "path": "P:\\SRC3\\ALIEN1\\ALIEN1",
+   "frames": 828,
+   "archive_index": 499,
+   "extracted": "0499_SRC3_ALIEN1_ALIEN1",
+   "levels": [
+    "GAUNTLET"
+   ],
+   "level_evidence": "VERIFIED-STATIC (ENG3 level/start list)",
+   "runtime": {
+    "frames_decoded": 500,
+    "frames_pixel_matched": 0,
+    "frames_shown": 180,
+    "shown_levels": [
+     2
+    ],
+    "object_types": [
+     44,
+     56,
+     58,
+     60,
+     64,
+     65,
+     67,
+     68,
+     69,
+     71,
+     74,
+     8214,
+     8215,
+     16385
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100,
+     101,
+     102,
+     103,
+     104,
+     105,
+     106,
+     107,
+     108,
+     264,
+     265,
+     266,
+     267,
+     268,
+     269,
+     270,
+     271,
+     272,
+     273,
+     274,
+     275,
+     276,
+     277,
+     278
+    ]
+   }
+  },
+  {
+   "engine": "ENG3",
+   "id": 4,
+   "record_rva": "0x39598",
+   "path": "P:\\SRC3\\ALIEN1\\TORMENT",
+   "frames": 395,
+   "archive_index": 482,
+   "extracted": "0482_SRC3_ALIEN1_TORMENT",
+   "levels": [
+    "TORMENT"
+   ],
+   "level_evidence": "VERIFIED-STATIC (ENG3 level/start list)",
+   "runtime": {
+    "frames_decoded": 263,
+    "frames_pixel_matched": 0,
+    "frames_shown": 26,
+    "shown_levels": [
+     10
+    ],
+    "object_types": [
+     59,
+     65,
+     8214
+    ],
+    "shown_but_not_in_catalog": [
+     180,
+     181,
+     182,
+     183,
+     184,
+     185,
+     186,
+     187,
+     188,
+     189,
+     190,
+     191,
+     192,
+     193,
+     310,
+     311,
+     312,
+     313,
+     314,
+     315,
+     316,
+     317,
+     338,
+     347,
+     348,
+     349
+    ]
+   }
+  },
+  {
+   "engine": "ENG3",
+   "id": 5,
+   "record_rva": "0x395ac",
+   "path": "P:\\SRC3\\ALIEN1\\CYCLOPS",
+   "frames": 167,
+   "archive_index": 480,
+   "extracted": "0480_SRC3_ALIEN1_CYCLOPS",
+   "levels": [
+    "CYCLOPS"
+   ],
+   "level_evidence": "VERIFIED-STATIC (ENG3 level/start list)",
+   "runtime": {
+    "frames_decoded": 93,
+    "frames_pixel_matched": 0,
+    "frames_shown": 90,
+    "shown_levels": [
+     8
+    ],
+    "object_types": [
+     41
+    ],
+    "shown_but_not_in_catalog": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     55,
+     56,
+     57,
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91,
+     92,
+     93,
+     94,
+     96,
+     97,
+     98
+    ]
+   }
+  },
+  {
+   "engine": "ENG3",
+   "id": 6,
+   "record_rva": "0x395c0",
+   "path": "P:\\SRC3\\ALIEN1\\PEOPLE",
+   "frames": 325,
+   "archive_index": 547,
+   "extracted": "0547_SRC3_ALIEN1_PEOPLE",
+   "levels": [
+    "CYCLOPS"
+   ],
+   "level_evidence": "VERIFIED-STATIC (ENG3 level/start list)",
+   "runtime": {
+    "frames_decoded": 230,
+    "frames_pixel_matched": 0,
+    "frames_shown": 148,
+    "shown_levels": [
+     8
+    ],
+    "object_types": [
+     60,
+     66,
+     71,
+     8214,
+     16386,
+     16387,
+     16435
+    ],
+    "shown_but_not_in_catalog": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     14,
+     15,
+     16,
+     18,
+     19,
+     20,
+     21,
+     22,
+     26,
+     27,
+     28,
+     31,
+     32,
+     33,
+     34,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     46,
+     47,
+     48,
+     53,
+     54,
+     55,
+     56,
+     57,
+     58,
+     59
+    ]
+   }
+  },
+  {
+   "engine": "ENG3",
+   "id": 7,
+   "record_rva": "0x395d4",
+   "path": "P:\\SRC3\\ALIEN1\\CYEND",
+   "frames": 33,
+   "archive_index": 493,
+   "extracted": "0493_SRC3_ALIEN1_CYEND",
+   "levels": [
+    "CYCLOPS"
+   ],
+   "level_evidence": "VERIFIED-STATIC (ENG3 level/start list)",
+   "runtime": {
+    "frames_decoded": 32,
+    "frames_pixel_matched": 0,
+    "frames_shown": 33,
+    "shown_levels": [
+     8
+    ],
+    "object_types": [
+     41
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   }
+  },
+  {
+   "engine": "ENG3",
+   "id": 8,
+   "record_rva": "0x395e8",
+   "path": "P:\\SRC3\\HERO\\LETTERS",
+   "frames": 168,
+   "archive_index": 577,
+   "extracted": "0577_SRC3_HERO_LETTERS",
+   "levels": [
+    "CYCLOPS",
+    "GAUNTLET",
+    "TORMENT"
+   ],
+   "level_evidence": "VERIFIED-STATIC (ENG3 level/start list)",
+   "runtime": {
+    "frames_decoded": 167,
+    "frames_pixel_matched": 0,
+    "frames_shown": 53,
+    "shown_levels": [
+     2,
+     8,
+     10
+    ],
+    "object_types": [
+     6
+    ],
+    "shown_but_not_in_catalog": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40
+    ]
+   }
+  },
+  {
+   "engine": "ENG3",
+   "id": 9,
+   "record_rva": "0x395fc",
+   "path": "P:\\SRC3\\ALIEN1\\SOULS",
+   "frames": 20,
+   "archive_index": 569,
+   "extracted": "0569_SRC3_ALIEN1_SOULS",
+   "levels": [
+    "TORMENT"
+   ],
+   "level_evidence": "VERIFIED-STATIC (ENG3 level/start list)",
+   "runtime": {
+    "frames_decoded": 19,
+    "frames_pixel_matched": 0,
+    "frames_shown": 18,
+    "shown_levels": [
+     10
+    ],
+    "object_types": [
+     47
+    ],
+    "shown_but_not_in_catalog": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19
+    ]
+   }
+  }
+ ],
+ "runtime_doc": "Offline bank frames vs runtime (S4.05) -> \"runtime\" block per bank in animation-coverage.json. See tools/decode/bank_runtime.py. Catalog keys: 18186."
+}

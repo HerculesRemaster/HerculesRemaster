@@ -1,0 +1,8212 @@
+[
+ {
+  "index": 0,
+  "id": "005C2A6A",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\ZEUS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 42995,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 1,
+  "id": "010AF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_100.ESF",
+  "family": "esf_audio",
+  "size": 13347,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 2,
+  "id": "010AF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_200.ESF",
+  "family": "esf_audio",
+  "size": 2901,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 3,
+  "id": "010AF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_400.ESF",
+  "family": "esf_audio",
+  "size": 10774,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 4,
+  "id": "010AF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_600.ESF",
+  "family": "esf_audio",
+  "size": 11464,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 5,
+  "id": "010AF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_800.ESF",
+  "family": "esf_audio",
+  "size": 3262,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 6,
+  "id": "010BF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_110.ESF",
+  "family": "esf_audio",
+  "size": 5201,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 7,
+  "id": "010BF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_210.ESF",
+  "family": "esf_audio",
+  "size": 6915,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 8,
+  "id": "010BF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_610.ESF",
+  "family": "esf_audio",
+  "size": 3874,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 9,
+  "id": "010CF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_320.ESF",
+  "family": "esf_audio",
+  "size": 3014,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 10,
+  "id": "010CF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_520.ESF",
+  "family": "esf_audio",
+  "size": 6366,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 11,
+  "id": "010CF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_720.ESF",
+  "family": "esf_audio",
+  "size": 10448,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 12,
+  "id": "010CF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_820.ESF",
+  "family": "esf_audio",
+  "size": 1382,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 13,
+  "id": "010DF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_130.ESF",
+  "family": "esf_audio",
+  "size": 9654,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 14,
+  "id": "010DF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_230.ESF",
+  "family": "esf_audio",
+  "size": 4124,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 15,
+  "id": "010DF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_330.ESF",
+  "family": "esf_audio",
+  "size": 7980,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 16,
+  "id": "010DF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_530.ESF",
+  "family": "esf_audio",
+  "size": 26066,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 17,
+  "id": "010DF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_630.ESF",
+  "family": "esf_audio",
+  "size": 5964,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 18,
+  "id": "010EF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_140.ESF",
+  "family": "esf_audio",
+  "size": 11850,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 19,
+  "id": "010EF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_340.ESF",
+  "family": "esf_audio",
+  "size": 1900,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 20,
+  "id": "010EF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_540.ESF",
+  "family": "esf_audio",
+  "size": 7348,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 21,
+  "id": "010EF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_640.ESF",
+  "family": "esf_audio",
+  "size": 10845,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 22,
+  "id": "010FF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_150.ESF",
+  "family": "esf_audio",
+  "size": 3517,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 23,
+  "id": "010FF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_350.ESF",
+  "family": "esf_audio",
+  "size": 10577,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 24,
+  "id": "010FF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_450.ESF",
+  "family": "esf_audio",
+  "size": 8391,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 25,
+  "id": "010FF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_550.ESF",
+  "family": "esf_audio",
+  "size": 6622,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 26,
+  "id": "010FF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_650.ESF",
+  "family": "esf_audio",
+  "size": 11335,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 27,
+  "id": "0110F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_160.ESF",
+  "family": "esf_audio",
+  "size": 5710,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 28,
+  "id": "0110F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_260.ESF",
+  "family": "esf_audio",
+  "size": 5928,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 29,
+  "id": "0110F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_360.ESF",
+  "family": "esf_audio",
+  "size": 4789,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 30,
+  "id": "0110F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_460.ESF",
+  "family": "esf_audio",
+  "size": 26384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 31,
+  "id": "0110F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_660.ESF",
+  "family": "esf_audio",
+  "size": 7499,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 32,
+  "id": "0111F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_270.ESF",
+  "family": "esf_audio",
+  "size": 8032,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 33,
+  "id": "0111F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_470.ESF",
+  "family": "esf_audio",
+  "size": 1539,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 34,
+  "id": "0111F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_670.ESF",
+  "family": "esf_audio",
+  "size": 8115,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 35,
+  "id": "0111F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_770.ESF",
+  "family": "esf_audio",
+  "size": 2522,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 36,
+  "id": "0112F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_480.ESF",
+  "family": "esf_audio",
+  "size": 1652,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 37,
+  "id": "0112F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_580.ESF",
+  "family": "esf_audio",
+  "size": 3978,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 38,
+  "id": "0112F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_680.ESF",
+  "family": "esf_audio",
+  "size": 15120,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 39,
+  "id": "0112F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_780.ESF",
+  "family": "esf_audio",
+  "size": 7085,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 40,
+  "id": "0113F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_390.ESF",
+  "family": "esf_audio",
+  "size": 5820,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 41,
+  "id": "0113F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_490.ESF",
+  "family": "esf_audio",
+  "size": 9920,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 42,
+  "id": "0113F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_590.ESF",
+  "family": "esf_audio",
+  "size": 25616,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 43,
+  "id": "0113F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_790.ESF",
+  "family": "esf_audio",
+  "size": 30992,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 44,
+  "id": "020AF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_101.ESF",
+  "family": "esf_audio",
+  "size": 5188,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 45,
+  "id": "020AF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_201.ESF",
+  "family": "esf_audio",
+  "size": 4346,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 46,
+  "id": "020AF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_601.ESF",
+  "family": "esf_audio",
+  "size": 15871,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 47,
+  "id": "020AF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_801.ESF",
+  "family": "esf_audio",
+  "size": 1975,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 48,
+  "id": "020BF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_111.ESF",
+  "family": "esf_audio",
+  "size": 12274,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 49,
+  "id": "020BF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_211.ESF",
+  "family": "esf_audio",
+  "size": 7577,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 50,
+  "id": "020BF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_611.ESF",
+  "family": "esf_audio",
+  "size": 4001,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 51,
+  "id": "020BF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_711.ESF",
+  "family": "esf_audio",
+  "size": 23280,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 52,
+  "id": "020CF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_221.ESF",
+  "family": "esf_audio",
+  "size": 5579,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 53,
+  "id": "020CF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_321.ESF",
+  "family": "esf_audio",
+  "size": 7249,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 54,
+  "id": "020CF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_521.ESF",
+  "family": "esf_audio",
+  "size": 6366,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 55,
+  "id": "020CF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_821.ESF",
+  "family": "esf_audio",
+  "size": 1382,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 56,
+  "id": "020DF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_131.ESF",
+  "family": "esf_audio",
+  "size": 3471,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 57,
+  "id": "020DF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_231.ESF",
+  "family": "esf_audio",
+  "size": 5183,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 58,
+  "id": "020DF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_331.ESF",
+  "family": "esf_audio",
+  "size": 3336,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 59,
+  "id": "020DF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_531.ESF",
+  "family": "esf_audio",
+  "size": 29712,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 60,
+  "id": "020DF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_631.ESF",
+  "family": "esf_audio",
+  "size": 7366,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 61,
+  "id": "020EF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_141.ESF",
+  "family": "esf_audio",
+  "size": 8247,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 62,
+  "id": "020EF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_341.ESF",
+  "family": "esf_audio",
+  "size": 26859,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 63,
+  "id": "020EF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_541.ESF",
+  "family": "esf_audio",
+  "size": 6234,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 64,
+  "id": "020EF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_641.ESF",
+  "family": "esf_audio",
+  "size": 12592,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 65,
+  "id": "020FF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_151.ESF",
+  "family": "esf_audio",
+  "size": 2074,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 66,
+  "id": "020FF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_351.ESF",
+  "family": "esf_audio",
+  "size": 3668,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 67,
+  "id": "020FF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_451.ESF",
+  "family": "esf_audio",
+  "size": 6857,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 68,
+  "id": "020FF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_551.ESF",
+  "family": "esf_audio",
+  "size": 5689,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 69,
+  "id": "020FF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_651.ESF",
+  "family": "esf_audio",
+  "size": 11072,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 70,
+  "id": "0210F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_161.ESF",
+  "family": "esf_audio",
+  "size": 4949,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 71,
+  "id": "0210F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_261.ESF",
+  "family": "esf_audio",
+  "size": 2584,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 72,
+  "id": "0210F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_361.ESF",
+  "family": "esf_audio",
+  "size": 4293,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 73,
+  "id": "0210F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_461.ESF",
+  "family": "esf_audio",
+  "size": 41360,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 74,
+  "id": "0210F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_661.ESF",
+  "family": "esf_audio",
+  "size": 9056,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 75,
+  "id": "0211F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_271.ESF",
+  "family": "esf_audio",
+  "size": 1930,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 76,
+  "id": "0211F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_471.ESF",
+  "family": "esf_audio",
+  "size": 1639,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 77,
+  "id": "0211F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_671.ESF",
+  "family": "esf_audio",
+  "size": 7232,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 78,
+  "id": "0211F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_771.ESF",
+  "family": "esf_audio",
+  "size": 14608,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 79,
+  "id": "0212F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_481.ESF",
+  "family": "esf_audio",
+  "size": 1652,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 80,
+  "id": "0212F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_581.ESF",
+  "family": "esf_audio",
+  "size": 4213,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 81,
+  "id": "0212F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_781.ESF",
+  "family": "esf_audio",
+  "size": 2497,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 82,
+  "id": "0213F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_391.ESF",
+  "family": "esf_audio",
+  "size": 4197,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 83,
+  "id": "0213F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_591.ESF",
+  "family": "esf_audio",
+  "size": 15872,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 84,
+  "id": "0213F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_791.ESF",
+  "family": "esf_audio",
+  "size": 7777,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 85,
+  "id": "030AF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_102.ESF",
+  "family": "esf_audio",
+  "size": 5821,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 86,
+  "id": "030AF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_202.ESF",
+  "family": "esf_audio",
+  "size": 4955,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 87,
+  "id": "030AF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_402.ESF",
+  "family": "esf_audio",
+  "size": 5476,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 88,
+  "id": "030AF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_602.ESF",
+  "family": "esf_audio",
+  "size": 18870,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 89,
+  "id": "030AF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_802.ESF",
+  "family": "esf_audio",
+  "size": 3440,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 90,
+  "id": "030BF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_112.ESF",
+  "family": "esf_audio",
+  "size": 7133,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 91,
+  "id": "030BF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_412.ESF",
+  "family": "esf_audio",
+  "size": 21654,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 92,
+  "id": "030BF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_512.ESF",
+  "family": "esf_audio",
+  "size": 4576,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 93,
+  "id": "030BF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_612.ESF",
+  "family": "esf_audio",
+  "size": 5116,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 94,
+  "id": "030BF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_712.ESF",
+  "family": "esf_audio",
+  "size": 13360,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 95,
+  "id": "030CF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_222.ESF",
+  "family": "esf_audio",
+  "size": 3670,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 96,
+  "id": "030CF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_322.ESF",
+  "family": "esf_audio",
+  "size": 7888,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 97,
+  "id": "030CF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_522.ESF",
+  "family": "esf_audio",
+  "size": 5768,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 98,
+  "id": "030CF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_822.ESF",
+  "family": "esf_audio",
+  "size": 1382,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 99,
+  "id": "030DF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_132.ESF",
+  "family": "esf_audio",
+  "size": 3446,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 100,
+  "id": "030DF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_332.ESF",
+  "family": "esf_audio",
+  "size": 2998,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 101,
+  "id": "030DF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_532.ESF",
+  "family": "esf_audio",
+  "size": 2537,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 102,
+  "id": "030DF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_632.ESF",
+  "family": "esf_audio",
+  "size": 12560,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 103,
+  "id": "030EF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_142.ESF",
+  "family": "esf_audio",
+  "size": 3721,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 104,
+  "id": "030EF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_342.ESF",
+  "family": "esf_audio",
+  "size": 3916,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 105,
+  "id": "030EF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_542.ESF",
+  "family": "esf_audio",
+  "size": 6043,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 106,
+  "id": "030EF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_642.ESF",
+  "family": "esf_audio",
+  "size": 14704,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 107,
+  "id": "030FF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_152.ESF",
+  "family": "esf_audio",
+  "size": 5961,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 108,
+  "id": "030FF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_352.ESF",
+  "family": "esf_audio",
+  "size": 3473,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 109,
+  "id": "030FF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_452.ESF",
+  "family": "esf_audio",
+  "size": 5779,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 110,
+  "id": "030FF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_652.ESF",
+  "family": "esf_audio",
+  "size": 10609,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 111,
+  "id": "0310F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_162.ESF",
+  "family": "esf_audio",
+  "size": 3689,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 112,
+  "id": "0310F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_262.ESF",
+  "family": "esf_audio",
+  "size": 1378,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 113,
+  "id": "0310F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_462.ESF",
+  "family": "esf_audio",
+  "size": 5259,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 114,
+  "id": "0310F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_662.ESF",
+  "family": "esf_audio",
+  "size": 7840,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 115,
+  "id": "0311F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_272.ESF",
+  "family": "esf_audio",
+  "size": 4798,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 116,
+  "id": "0311F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_472.ESF",
+  "family": "esf_audio",
+  "size": 3548,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 117,
+  "id": "0311F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_672.ESF",
+  "family": "esf_audio",
+  "size": 6979,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 118,
+  "id": "0311F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_772.ESF",
+  "family": "esf_audio",
+  "size": 1996,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 119,
+  "id": "0312F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_482.ESF",
+  "family": "esf_audio",
+  "size": 1759,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 120,
+  "id": "0312F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_582.ESF",
+  "family": "esf_audio",
+  "size": 18240,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 121,
+  "id": "0312F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_782.ESF",
+  "family": "esf_audio",
+  "size": 1146,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 122,
+  "id": "0313F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_192.ESF",
+  "family": "esf_audio",
+  "size": 2759,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 123,
+  "id": "0313F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_392.ESF",
+  "family": "esf_audio",
+  "size": 7756,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 124,
+  "id": "0313F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_592.ESF",
+  "family": "esf_audio",
+  "size": 11472,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 125,
+  "id": "0313F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_792.ESF",
+  "family": "esf_audio",
+  "size": 2578,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 126,
+  "id": "040AF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_103.ESF",
+  "family": "esf_audio",
+  "size": 3662,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 127,
+  "id": "040AF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_203.ESF",
+  "family": "esf_audio",
+  "size": 7660,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 128,
+  "id": "040AF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_403.ESF",
+  "family": "esf_audio",
+  "size": 7724,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 129,
+  "id": "040AF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_603.ESF",
+  "family": "esf_audio",
+  "size": 5327,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 130,
+  "id": "040AF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_803.ESF",
+  "family": "esf_audio",
+  "size": 5778,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 131,
+  "id": "040BF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_113.ESF",
+  "family": "esf_audio",
+  "size": 9662,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 132,
+  "id": "040BF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_213.ESF",
+  "family": "esf_audio",
+  "size": 2296,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 133,
+  "id": "040BF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_413.ESF",
+  "family": "esf_audio",
+  "size": 5422,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 134,
+  "id": "040BF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_513.ESF",
+  "family": "esf_audio",
+  "size": 3941,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 135,
+  "id": "040BF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_613.ESF",
+  "family": "esf_audio",
+  "size": 3860,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 136,
+  "id": "040BF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_713.ESF",
+  "family": "esf_audio",
+  "size": 106070,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 137,
+  "id": "040CF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_223.ESF",
+  "family": "esf_audio",
+  "size": 4097,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 138,
+  "id": "040CF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_523.ESF",
+  "family": "esf_audio",
+  "size": 6659,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 139,
+  "id": "040CF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_823.ESF",
+  "family": "esf_audio",
+  "size": 573,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 140,
+  "id": "040DF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_133.ESF",
+  "family": "esf_audio",
+  "size": 4011,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 141,
+  "id": "040DF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_333.ESF",
+  "family": "esf_audio",
+  "size": 3896,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 142,
+  "id": "040DF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_533.ESF",
+  "family": "esf_audio",
+  "size": 3447,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 143,
+  "id": "040DF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_633.ESF",
+  "family": "esf_audio",
+  "size": 7366,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 144,
+  "id": "040EF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_143.ESF",
+  "family": "esf_audio",
+  "size": 5750,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 145,
+  "id": "040EF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_343.ESF",
+  "family": "esf_audio",
+  "size": 3329,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 146,
+  "id": "040EF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_543.ESF",
+  "family": "esf_audio",
+  "size": 6043,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 147,
+  "id": "040EF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_643.ESF",
+  "family": "esf_audio",
+  "size": 10152,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 148,
+  "id": "040FF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_153.ESF",
+  "family": "esf_audio",
+  "size": 13688,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 149,
+  "id": "040FF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_353.ESF",
+  "family": "esf_audio",
+  "size": 7049,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 150,
+  "id": "040FF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_453.ESF",
+  "family": "esf_audio",
+  "size": 7054,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 151,
+  "id": "040FF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_653.ESF",
+  "family": "esf_audio",
+  "size": 9936,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 152,
+  "id": "0410F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_163.ESF",
+  "family": "esf_audio",
+  "size": 2202,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 153,
+  "id": "0410F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_263.ESF",
+  "family": "esf_audio",
+  "size": 5343,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 154,
+  "id": "0410F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_463.ESF",
+  "family": "esf_audio",
+  "size": 14640,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 155,
+  "id": "0410F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_663.ESF",
+  "family": "esf_audio",
+  "size": 9117,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 156,
+  "id": "0411F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_273.ESF",
+  "family": "esf_audio",
+  "size": 2097,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 157,
+  "id": "0411F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_473.ESF",
+  "family": "esf_audio",
+  "size": 3164,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 158,
+  "id": "0411F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_673.ESF",
+  "family": "esf_audio",
+  "size": 10128,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 159,
+  "id": "0411F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_773.ESF",
+  "family": "esf_audio",
+  "size": 3019,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 160,
+  "id": "0412F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_483.ESF",
+  "family": "esf_audio",
+  "size": 1569,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 161,
+  "id": "0412F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_583.ESF",
+  "family": "esf_audio",
+  "size": 14656,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 162,
+  "id": "0412F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_783.ESF",
+  "family": "esf_audio",
+  "size": 1596,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 163,
+  "id": "0413F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_193.ESF",
+  "family": "esf_audio",
+  "size": 1969,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 164,
+  "id": "0413F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_393.ESF",
+  "family": "esf_audio",
+  "size": 4944,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 165,
+  "id": "0413F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_593.ESF",
+  "family": "esf_audio",
+  "size": 10608,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 166,
+  "id": "0413F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_793.ESF",
+  "family": "esf_audio",
+  "size": 69761,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 167,
+  "id": "050AF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_104.ESF",
+  "family": "esf_audio",
+  "size": 5042,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 168,
+  "id": "050AF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_204.ESF",
+  "family": "esf_audio",
+  "size": 9644,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 169,
+  "id": "050AF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_404.ESF",
+  "family": "esf_audio",
+  "size": 7732,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 170,
+  "id": "050AF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_604.ESF",
+  "family": "esf_audio",
+  "size": 6332,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 171,
+  "id": "050AF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_704.ESF",
+  "family": "esf_audio",
+  "size": 44453,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 172,
+  "id": "050AF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_804.ESF",
+  "family": "esf_audio",
+  "size": 1264,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 173,
+  "id": "050BF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_114.ESF",
+  "family": "esf_audio",
+  "size": 2406,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 174,
+  "id": "050BF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_214.ESF",
+  "family": "esf_audio",
+  "size": 3256,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 175,
+  "id": "050BF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_414.ESF",
+  "family": "esf_audio",
+  "size": 2521,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 176,
+  "id": "050BF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_514.ESF",
+  "family": "esf_audio",
+  "size": 6936,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 177,
+  "id": "050BF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_714.ESF",
+  "family": "esf_audio",
+  "size": 19855,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 178,
+  "id": "050CF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_224.ESF",
+  "family": "esf_audio",
+  "size": 3296,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 179,
+  "id": "050CF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_324.ESF",
+  "family": "esf_audio",
+  "size": 5355,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 180,
+  "id": "050CF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_524.ESF",
+  "family": "esf_audio",
+  "size": 10347,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 181,
+  "id": "050CF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_824.ESF",
+  "family": "esf_audio",
+  "size": 8576,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 182,
+  "id": "050DF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_334.ESF",
+  "family": "esf_audio",
+  "size": 9895,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 183,
+  "id": "050DF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_534.ESF",
+  "family": "esf_audio",
+  "size": 11732,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 184,
+  "id": "050DF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_634.ESF",
+  "family": "esf_audio",
+  "size": 917,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 185,
+  "id": "050EF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_144.ESF",
+  "family": "esf_audio",
+  "size": 2577,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 186,
+  "id": "050EF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_344.ESF",
+  "family": "esf_audio",
+  "size": 2570,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 187,
+  "id": "050EF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_544.ESF",
+  "family": "esf_audio",
+  "size": 2569,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 188,
+  "id": "050EF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_644.ESF",
+  "family": "esf_audio",
+  "size": 10448,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 189,
+  "id": "050FF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_154.ESF",
+  "family": "esf_audio",
+  "size": 25792,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 190,
+  "id": "050FF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_354.ESF",
+  "family": "esf_audio",
+  "size": 4854,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 191,
+  "id": "050FF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_454.ESF",
+  "family": "esf_audio",
+  "size": 43123,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 192,
+  "id": "050FF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_654.ESF",
+  "family": "esf_audio",
+  "size": 18640,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 193,
+  "id": "0510F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_164.ESF",
+  "family": "esf_audio",
+  "size": 8952,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 194,
+  "id": "0510F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_264.ESF",
+  "family": "esf_audio",
+  "size": 8032,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 195,
+  "id": "0510F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_464.ESF",
+  "family": "esf_audio",
+  "size": 4524,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 196,
+  "id": "0510F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_664.ESF",
+  "family": "esf_audio",
+  "size": 7328,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 197,
+  "id": "0511F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_274.ESF",
+  "family": "esf_audio",
+  "size": 4156,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 198,
+  "id": "0511F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_474.ESF",
+  "family": "esf_audio",
+  "size": 2902,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 199,
+  "id": "0511F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_674.ESF",
+  "family": "esf_audio",
+  "size": 30096,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 200,
+  "id": "0511F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_774.ESF",
+  "family": "esf_audio",
+  "size": 3767,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 201,
+  "id": "0512F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_384.ESF",
+  "family": "esf_audio",
+  "size": 32429,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 202,
+  "id": "0512F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_484.ESF",
+  "family": "esf_audio",
+  "size": 1533,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 203,
+  "id": "0512F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_584.ESF",
+  "family": "esf_audio",
+  "size": 12368,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 204,
+  "id": "0512F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_784.ESF",
+  "family": "esf_audio",
+  "size": 1416,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 205,
+  "id": "0513F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_194.ESF",
+  "family": "esf_audio",
+  "size": 3106,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 206,
+  "id": "0513F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_394.ESF",
+  "family": "esf_audio",
+  "size": 3081,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 207,
+  "id": "0513F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_594.ESF",
+  "family": "esf_audio",
+  "size": 7986,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 208,
+  "id": "0513F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_794.ESF",
+  "family": "esf_audio",
+  "size": 1264,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 209,
+  "id": "060AF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_105.ESF",
+  "family": "esf_audio",
+  "size": 7123,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 210,
+  "id": "060AF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_205.ESF",
+  "family": "esf_audio",
+  "size": 7133,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 211,
+  "id": "060AF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_405.ESF",
+  "family": "esf_audio",
+  "size": 7563,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 212,
+  "id": "060AF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_605.ESF",
+  "family": "esf_audio",
+  "size": 4206,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 213,
+  "id": "060AF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_705.ESF",
+  "family": "esf_audio",
+  "size": 27664,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 214,
+  "id": "060AF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_805.ESF",
+  "family": "esf_audio",
+  "size": 30992,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 215,
+  "id": "060BF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_215.ESF",
+  "family": "esf_audio",
+  "size": 1183,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 216,
+  "id": "060BF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_415.ESF",
+  "family": "esf_audio",
+  "size": 11507,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 217,
+  "id": "060BF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_515.ESF",
+  "family": "esf_audio",
+  "size": 6936,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 218,
+  "id": "060BF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_715.ESF",
+  "family": "esf_audio",
+  "size": 14085,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 219,
+  "id": "060CF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_225.ESF",
+  "family": "esf_audio",
+  "size": 1509,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 220,
+  "id": "060CF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_325.ESF",
+  "family": "esf_audio",
+  "size": 6096,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 221,
+  "id": "060CF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_525.ESF",
+  "family": "esf_audio",
+  "size": 4073,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 222,
+  "id": "060CF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_825.ESF",
+  "family": "esf_audio",
+  "size": 2124,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 223,
+  "id": "060DF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_335.ESF",
+  "family": "esf_audio",
+  "size": 6895,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 224,
+  "id": "060DF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_535.ESF",
+  "family": "esf_audio",
+  "size": 6742,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 225,
+  "id": "060DF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_635.ESF",
+  "family": "esf_audio",
+  "size": 6896,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 226,
+  "id": "060EF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_145.ESF",
+  "family": "esf_audio",
+  "size": 2298,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 227,
+  "id": "060EF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_345.ESF",
+  "family": "esf_audio",
+  "size": 3640,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 228,
+  "id": "060EF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_545.ESF",
+  "family": "esf_audio",
+  "size": 2882,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 229,
+  "id": "060EF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_645.ESF",
+  "family": "esf_audio",
+  "size": 13808,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 230,
+  "id": "060FF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_155.ESF",
+  "family": "esf_audio",
+  "size": 8428,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 231,
+  "id": "060FF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_355.ESF",
+  "family": "esf_audio",
+  "size": 12999,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 232,
+  "id": "060FF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_455.ESF",
+  "family": "esf_audio",
+  "size": 17016,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 233,
+  "id": "060FF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_555.ESF",
+  "family": "esf_audio",
+  "size": 11055,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 234,
+  "id": "060FF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_655.ESF",
+  "family": "esf_audio",
+  "size": 21392,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 235,
+  "id": "0610F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_165.ESF",
+  "family": "esf_audio",
+  "size": 4381,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 236,
+  "id": "0610F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_265.ESF",
+  "family": "esf_audio",
+  "size": 3413,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 237,
+  "id": "0610F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_465.ESF",
+  "family": "esf_audio",
+  "size": 3697,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 238,
+  "id": "0610F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_665.ESF",
+  "family": "esf_audio",
+  "size": 9584,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 239,
+  "id": "0611F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_475.ESF",
+  "family": "esf_audio",
+  "size": 1466,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 240,
+  "id": "0611F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_675.ESF",
+  "family": "esf_audio",
+  "size": 8737,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 241,
+  "id": "0611F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_775.ESF",
+  "family": "esf_audio",
+  "size": 2248,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 242,
+  "id": "0612F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_485.ESF",
+  "family": "esf_audio",
+  "size": 2841,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 243,
+  "id": "0612F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_585.ESF",
+  "family": "esf_audio",
+  "size": 3745,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 244,
+  "id": "0612F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_785.ESF",
+  "family": "esf_audio",
+  "size": 9889,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 245,
+  "id": "0613F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_195.ESF",
+  "family": "esf_audio",
+  "size": 3342,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 246,
+  "id": "0613F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_395.ESF",
+  "family": "esf_audio",
+  "size": 11162,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 247,
+  "id": "0613F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_595.ESF",
+  "family": "esf_audio",
+  "size": 4220,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 248,
+  "id": "0613F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_795.ESF",
+  "family": "esf_audio",
+  "size": 7600,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 249,
+  "id": "070AF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_106.ESF",
+  "family": "esf_audio",
+  "size": 3376,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 250,
+  "id": "070AF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_206.ESF",
+  "family": "esf_audio",
+  "size": 4624,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 251,
+  "id": "070AF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_406.ESF",
+  "family": "esf_audio",
+  "size": 4312,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 252,
+  "id": "070AF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_606.ESF",
+  "family": "esf_audio",
+  "size": 4293,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 253,
+  "id": "070AF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_706.ESF",
+  "family": "esf_audio",
+  "size": 102064,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 254,
+  "id": "070AF923",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_806.ESF",
+  "family": "esf_audio",
+  "size": 8976,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 255,
+  "id": "070BF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_216.ESF",
+  "family": "esf_audio",
+  "size": 1026,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 256,
+  "id": "070BF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_416.ESF",
+  "family": "esf_audio",
+  "size": 4066,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 257,
+  "id": "070BF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_516.ESF",
+  "family": "esf_audio",
+  "size": 8643,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 258,
+  "id": "070BF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_716.ESF",
+  "family": "esf_audio",
+  "size": 19088,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 259,
+  "id": "070CF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_226.ESF",
+  "family": "esf_audio",
+  "size": 7612,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 260,
+  "id": "070CF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_326.ESF",
+  "family": "esf_audio",
+  "size": 5832,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 261,
+  "id": "070CF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_526.ESF",
+  "family": "esf_audio",
+  "size": 4345,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 262,
+  "id": "070DF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_336.ESF",
+  "family": "esf_audio",
+  "size": 8110,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 263,
+  "id": "070DF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_536.ESF",
+  "family": "esf_audio",
+  "size": 3035,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 264,
+  "id": "070DF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_636.ESF",
+  "family": "esf_audio",
+  "size": 5456,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 265,
+  "id": "070EF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_146.ESF",
+  "family": "esf_audio",
+  "size": 8737,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 266,
+  "id": "070EF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_346.ESF",
+  "family": "esf_audio",
+  "size": 1794,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 267,
+  "id": "070EF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_546.ESF",
+  "family": "esf_audio",
+  "size": 4435,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 268,
+  "id": "070EF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_646.ESF",
+  "family": "esf_audio",
+  "size": 16656,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 269,
+  "id": "070FF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_156.ESF",
+  "family": "esf_audio",
+  "size": 9078,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 270,
+  "id": "070FF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_256.ESF",
+  "family": "esf_audio",
+  "size": 28478,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 271,
+  "id": "070FF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_356.ESF",
+  "family": "esf_audio",
+  "size": 9801,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 272,
+  "id": "070FF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_456.ESF",
+  "family": "esf_audio",
+  "size": 3900,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 273,
+  "id": "070FF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_556.ESF",
+  "family": "esf_audio",
+  "size": 37112,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 274,
+  "id": "070FF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_656.ESF",
+  "family": "esf_audio",
+  "size": 23888,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 275,
+  "id": "0710F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_166.ESF",
+  "family": "esf_audio",
+  "size": 5694,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 276,
+  "id": "0710F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_266.ESF",
+  "family": "esf_audio",
+  "size": 5123,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 277,
+  "id": "0710F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_466.ESF",
+  "family": "esf_audio",
+  "size": 12080,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 278,
+  "id": "0710F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_666.ESF",
+  "family": "esf_audio",
+  "size": 11145,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 279,
+  "id": "0711F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_476.ESF",
+  "family": "esf_audio",
+  "size": 1653,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 280,
+  "id": "0711F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_576.ESF",
+  "family": "esf_audio",
+  "size": 8944,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 281,
+  "id": "0711F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_676.ESF",
+  "family": "esf_audio",
+  "size": 12592,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 282,
+  "id": "0711F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_776.ESF",
+  "family": "esf_audio",
+  "size": 798,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 283,
+  "id": "0712F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_486.ESF",
+  "family": "esf_audio",
+  "size": 4600,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 284,
+  "id": "0712F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_586.ESF",
+  "family": "esf_audio",
+  "size": 3536,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 285,
+  "id": "0712F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_786.ESF",
+  "family": "esf_audio",
+  "size": 9889,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 286,
+  "id": "0713F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_196.ESF",
+  "family": "esf_audio",
+  "size": 2859,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 287,
+  "id": "0713F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_396.ESF",
+  "family": "esf_audio",
+  "size": 6471,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 288,
+  "id": "0713F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_596.ESF",
+  "family": "esf_audio",
+  "size": 12832,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 289,
+  "id": "0713F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_796.ESF",
+  "family": "esf_audio",
+  "size": 6035,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 290,
+  "id": "080AF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_107.ESF",
+  "family": "esf_audio",
+  "size": 3920,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 291,
+  "id": "080AF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_207.ESF",
+  "family": "esf_audio",
+  "size": 9662,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 292,
+  "id": "080AF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_407.ESF",
+  "family": "esf_audio",
+  "size": 5023,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 293,
+  "id": "080AF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_607.ESF",
+  "family": "esf_audio",
+  "size": 17744,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 294,
+  "id": "080AF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_707.ESF",
+  "family": "esf_audio",
+  "size": 111712,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 295,
+  "id": "080BF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_217.ESF",
+  "family": "esf_audio",
+  "size": 4880,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 296,
+  "id": "080BF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_417.ESF",
+  "family": "esf_audio",
+  "size": 5168,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 297,
+  "id": "080BF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_517.ESF",
+  "family": "esf_audio",
+  "size": 9118,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 298,
+  "id": "080BF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_717.ESF",
+  "family": "esf_audio",
+  "size": 22224,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 299,
+  "id": "080CF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_227.ESF",
+  "family": "esf_audio",
+  "size": 7827,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 300,
+  "id": "080CF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_327.ESF",
+  "family": "esf_audio",
+  "size": 10796,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 301,
+  "id": "080CF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_527.ESF",
+  "family": "esf_audio",
+  "size": 4069,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 302,
+  "id": "080DF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_137.ESF",
+  "family": "esf_audio",
+  "size": 9488,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 303,
+  "id": "080DF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_337.ESF",
+  "family": "esf_audio",
+  "size": 4062,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 304,
+  "id": "080DF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_637.ESF",
+  "family": "esf_audio",
+  "size": 4080,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 305,
+  "id": "080EF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_147.ESF",
+  "family": "esf_audio",
+  "size": 10592,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 306,
+  "id": "080EF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_347.ESF",
+  "family": "esf_audio",
+  "size": 6325,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 307,
+  "id": "080EF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_547.ESF",
+  "family": "esf_audio",
+  "size": 5327,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 308,
+  "id": "080EF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_647.ESF",
+  "family": "esf_audio",
+  "size": 9664,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 309,
+  "id": "080FF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_157.ESF",
+  "family": "esf_audio",
+  "size": 3761,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 310,
+  "id": "080FF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_257.ESF",
+  "family": "esf_audio",
+  "size": 7497,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 311,
+  "id": "080FF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_357.ESF",
+  "family": "esf_audio",
+  "size": 2569,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 312,
+  "id": "080FF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_457.ESF",
+  "family": "esf_audio",
+  "size": 6800,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 313,
+  "id": "080FF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_557.ESF",
+  "family": "esf_audio",
+  "size": 32679,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 314,
+  "id": "080FF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_657.ESF",
+  "family": "esf_audio",
+  "size": 19088,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 315,
+  "id": "0810F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_167.ESF",
+  "family": "esf_audio",
+  "size": 6549,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 316,
+  "id": "0810F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_267.ESF",
+  "family": "esf_audio",
+  "size": 14048,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 317,
+  "id": "0810F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_467.ESF",
+  "family": "esf_audio",
+  "size": 13557,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 318,
+  "id": "0810F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_667.ESF",
+  "family": "esf_audio",
+  "size": 9888,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 319,
+  "id": "0811F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_477.ESF",
+  "family": "esf_audio",
+  "size": 2047,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 320,
+  "id": "0811F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_577.ESF",
+  "family": "esf_audio",
+  "size": 11248,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 321,
+  "id": "0811F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_677.ESF",
+  "family": "esf_audio",
+  "size": 11552,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 322,
+  "id": "0812F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_387.ESF",
+  "family": "esf_audio",
+  "size": 16378,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 323,
+  "id": "0812F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_487.ESF",
+  "family": "esf_audio",
+  "size": 4196,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 324,
+  "id": "0812F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_587.ESF",
+  "family": "esf_audio",
+  "size": 3338,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 325,
+  "id": "0812F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_787.ESF",
+  "family": "esf_audio",
+  "size": 9889,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 326,
+  "id": "0813F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_197.ESF",
+  "family": "esf_audio",
+  "size": 2214,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 327,
+  "id": "0813F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_397.ESF",
+  "family": "esf_audio",
+  "size": 5856,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 328,
+  "id": "0813F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_797.ESF",
+  "family": "esf_audio",
+  "size": 12624,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 329,
+  "id": "08DE990F",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THEQ\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 120293,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 330,
+  "id": "090AF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_208.ESF",
+  "family": "esf_audio",
+  "size": 2406,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 331,
+  "id": "090AF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_408.ESF",
+  "family": "esf_audio",
+  "size": 5815,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 332,
+  "id": "090AF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_608.ESF",
+  "family": "esf_audio",
+  "size": 2469,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 333,
+  "id": "090AF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_708.ESF",
+  "family": "esf_audio",
+  "size": 118576,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 334,
+  "id": "090BF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_218.ESF",
+  "family": "esf_audio",
+  "size": 5396,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 335,
+  "id": "090BF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_418.ESF",
+  "family": "esf_audio",
+  "size": 10574,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 336,
+  "id": "090BF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_518.ESF",
+  "family": "esf_audio",
+  "size": 8377,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 337,
+  "id": "090BF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_718.ESF",
+  "family": "esf_audio",
+  "size": 24048,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 338,
+  "id": "090CF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_128.ESF",
+  "family": "esf_audio",
+  "size": 5552,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 339,
+  "id": "090CF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_228.ESF",
+  "family": "esf_audio",
+  "size": 3037,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 340,
+  "id": "090CF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_328.ESF",
+  "family": "esf_audio",
+  "size": 4320,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 341,
+  "id": "090DF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_138.ESF",
+  "family": "esf_audio",
+  "size": 10604,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 342,
+  "id": "090DF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_338.ESF",
+  "family": "esf_audio",
+  "size": 3880,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 343,
+  "id": "090DF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_638.ESF",
+  "family": "esf_audio",
+  "size": 2867,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 344,
+  "id": "090EF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_148.ESF",
+  "family": "esf_audio",
+  "size": 11711,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 345,
+  "id": "090EF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_348.ESF",
+  "family": "esf_audio",
+  "size": 4387,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 346,
+  "id": "090EF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_448.ESF",
+  "family": "esf_audio",
+  "size": 10208,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 347,
+  "id": "090EF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_548.ESF",
+  "family": "esf_audio",
+  "size": 4815,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 348,
+  "id": "090EF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_648.ESF",
+  "family": "esf_audio",
+  "size": 16496,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 349,
+  "id": "090FF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_158.ESF",
+  "family": "esf_audio",
+  "size": 8976,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 350,
+  "id": "090FF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_258.ESF",
+  "family": "esf_audio",
+  "size": 7634,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 351,
+  "id": "090FF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_358.ESF",
+  "family": "esf_audio",
+  "size": 2155,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 352,
+  "id": "090FF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_458.ESF",
+  "family": "esf_audio",
+  "size": 7778,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 353,
+  "id": "0910F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_168.ESF",
+  "family": "esf_audio",
+  "size": 12576,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 354,
+  "id": "0910F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_268.ESF",
+  "family": "esf_audio",
+  "size": 14657,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 355,
+  "id": "0910F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_468.ESF",
+  "family": "esf_audio",
+  "size": 6545,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 356,
+  "id": "0910F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_668.ESF",
+  "family": "esf_audio",
+  "size": 7616,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 357,
+  "id": "0910F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_768.ESF",
+  "family": "esf_audio",
+  "size": 1460,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 358,
+  "id": "0911F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_478.ESF",
+  "family": "esf_audio",
+  "size": 2600,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 359,
+  "id": "0911F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_578.ESF",
+  "family": "esf_audio",
+  "size": 4062,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 360,
+  "id": "0911F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_678.ESF",
+  "family": "esf_audio",
+  "size": 10528,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 361,
+  "id": "0911F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_778.ESF",
+  "family": "esf_audio",
+  "size": 6224,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 362,
+  "id": "0912F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_388.ESF",
+  "family": "esf_audio",
+  "size": 5422,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 363,
+  "id": "0912F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_488.ESF",
+  "family": "esf_audio",
+  "size": 4792,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 364,
+  "id": "0912F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_588.ESF",
+  "family": "esf_audio",
+  "size": 2362,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 365,
+  "id": "0913F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_198.ESF",
+  "family": "esf_audio",
+  "size": 2921,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 366,
+  "id": "0913F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_398.ESF",
+  "family": "esf_audio",
+  "size": 9564,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 367,
+  "id": "0913F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_598.ESF",
+  "family": "esf_audio",
+  "size": 12556,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 368,
+  "id": "0913F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_798.ESF",
+  "family": "esf_audio",
+  "size": 11024,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 369,
+  "id": "09BE9984",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\TRAINING\\SHARK\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 43703,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 370,
+  "id": "0A0AF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_209.ESF",
+  "family": "esf_audio",
+  "size": 4620,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 371,
+  "id": "0A0AF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_409.ESF",
+  "family": "esf_audio",
+  "size": 3584,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 372,
+  "id": "0A0AF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_609.ESF",
+  "family": "esf_audio",
+  "size": 2769,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 373,
+  "id": "0A0AF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_709.ESF",
+  "family": "esf_audio",
+  "size": 23760,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 374,
+  "id": "0A0BF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_519.ESF",
+  "family": "esf_audio",
+  "size": 4271,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 375,
+  "id": "0A0BF823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_719.ESF",
+  "family": "esf_audio",
+  "size": 17712,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 376,
+  "id": "0A0CF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_129.ESF",
+  "family": "esf_audio",
+  "size": 7932,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 377,
+  "id": "0A0CF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_229.ESF",
+  "family": "esf_audio",
+  "size": 2088,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 378,
+  "id": "0A0CF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_329.ESF",
+  "family": "esf_audio",
+  "size": 5799,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 379,
+  "id": "0A0CF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_529.ESF",
+  "family": "esf_audio",
+  "size": 34963,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 380,
+  "id": "0A0DF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_139.ESF",
+  "family": "esf_audio",
+  "size": 11186,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 381,
+  "id": "0A0DF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_339.ESF",
+  "family": "esf_audio",
+  "size": 1695,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 382,
+  "id": "0A0DF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_539.ESF",
+  "family": "esf_audio",
+  "size": 4120,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 383,
+  "id": "0A0DF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_639.ESF",
+  "family": "esf_audio",
+  "size": 4171,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 384,
+  "id": "0A0EF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_149.ESF",
+  "family": "esf_audio",
+  "size": 12406,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 385,
+  "id": "0A0EF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_349.ESF",
+  "family": "esf_audio",
+  "size": 3368,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 386,
+  "id": "0A0EF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_449.ESF",
+  "family": "esf_audio",
+  "size": 11130,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 387,
+  "id": "0A0EF623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_549.ESF",
+  "family": "esf_audio",
+  "size": 5827,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 388,
+  "id": "0A0EF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_649.ESF",
+  "family": "esf_audio",
+  "size": 16666,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 389,
+  "id": "0A0FF223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_159.ESF",
+  "family": "esf_audio",
+  "size": 10385,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 390,
+  "id": "0A0FF323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_259.ESF",
+  "family": "esf_audio",
+  "size": 10542,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 391,
+  "id": "0A0FF423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_359.ESF",
+  "family": "esf_audio",
+  "size": 4206,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 392,
+  "id": "0A0FF523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_459.ESF",
+  "family": "esf_audio",
+  "size": 3959,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 393,
+  "id": "0A0FF723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_659.ESF",
+  "family": "esf_audio",
+  "size": 6832,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 394,
+  "id": "0A10F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_169.ESF",
+  "family": "esf_audio",
+  "size": 11055,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 395,
+  "id": "0A10F323",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_269.ESF",
+  "family": "esf_audio",
+  "size": 13680,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 396,
+  "id": "0A10F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_469.ESF",
+  "family": "esf_audio",
+  "size": 2758,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 397,
+  "id": "0A10F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_669.ESF",
+  "family": "esf_audio",
+  "size": 7616,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 398,
+  "id": "0A10F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_769.ESF",
+  "family": "esf_audio",
+  "size": 1264,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 399,
+  "id": "0A11F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_479.ESF",
+  "family": "esf_audio",
+  "size": 3876,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 400,
+  "id": "0A11F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_579.ESF",
+  "family": "esf_audio",
+  "size": 3756,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 401,
+  "id": "0A11F723",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_679.ESF",
+  "family": "esf_audio",
+  "size": 26859,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 402,
+  "id": "0A12F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_389.ESF",
+  "family": "esf_audio",
+  "size": 9696,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 403,
+  "id": "0A12F523",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_489.ESF",
+  "family": "esf_audio",
+  "size": 4524,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 404,
+  "id": "0A12F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_589.ESF",
+  "family": "esf_audio",
+  "size": 2501,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 405,
+  "id": "0A13F223",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_199.ESF",
+  "family": "esf_audio",
+  "size": 2248,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 406,
+  "id": "0A13F423",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_399.ESF",
+  "family": "esf_audio",
+  "size": 6245,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 407,
+  "id": "0A13F623",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_599.ESF",
+  "family": "esf_audio",
+  "size": 9643,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 408,
+  "id": "0A13F823",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_799.ESF",
+  "family": "esf_audio",
+  "size": 2766,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 409,
+  "id": "0A443995",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 424508,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 410,
+  "id": "0DFCDB6C",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1000.ESF",
+  "family": "esf_audio",
+  "size": 50615,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 411,
+  "id": "0DFCDB6D",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1001.ESF",
+  "family": "esf_audio",
+  "size": 36387,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 412,
+  "id": "0DFCDB6E",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1002.ESF",
+  "family": "esf_audio",
+  "size": 40943,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 413,
+  "id": "0DFCDB6F",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1003.ESF",
+  "family": "esf_audio",
+  "size": 21040,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 414,
+  "id": "0DFCDB70",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1004.ESF",
+  "family": "esf_audio",
+  "size": 31461,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 415,
+  "id": "0DFCDB71",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1005.ESF",
+  "family": "esf_audio",
+  "size": 49873,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 416,
+  "id": "0DFCDB72",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1006.ESF",
+  "family": "esf_audio",
+  "size": 78418,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 417,
+  "id": "0DFCDB73",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1007.ESF",
+  "family": "esf_audio",
+  "size": 80942,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 418,
+  "id": "0DFCDB74",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1008.ESF",
+  "family": "esf_audio",
+  "size": 34125,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 419,
+  "id": "0DFCDB75",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1009.ESF",
+  "family": "esf_audio",
+  "size": 21602,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 420,
+  "id": "0DFDDB74",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1108.ESF",
+  "family": "esf_audio",
+  "size": 54148,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 421,
+  "id": "0DFDDB75",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1109.ESF",
+  "family": "esf_audio",
+  "size": 30884,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 422,
+  "id": "0EFCDB6C",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1010.ESF",
+  "family": "esf_audio",
+  "size": 27608,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 423,
+  "id": "0EFCDB6E",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1012.ESF",
+  "family": "esf_audio",
+  "size": 48505,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 424,
+  "id": "0EFCDB70",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1014.ESF",
+  "family": "esf_audio",
+  "size": 83820,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 425,
+  "id": "0EFCDB71",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1015.ESF",
+  "family": "esf_audio",
+  "size": 82754,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 426,
+  "id": "0EFCDB72",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1016.ESF",
+  "family": "esf_audio",
+  "size": 55270,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 427,
+  "id": "0EFCDB73",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1017.ESF",
+  "family": "esf_audio",
+  "size": 89439,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 428,
+  "id": "0EFCDB74",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1018.ESF",
+  "family": "esf_audio",
+  "size": 52040,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 429,
+  "id": "0EFCDB75",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1019.ESF",
+  "family": "esf_audio",
+  "size": 34180,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 430,
+  "id": "0EFDDB6C",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1110.ESF",
+  "family": "esf_audio",
+  "size": 19093,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 431,
+  "id": "0EFDDB6D",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1111.ESF",
+  "family": "esf_audio",
+  "size": 49240,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 432,
+  "id": "0EFDDB6E",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1112.ESF",
+  "family": "esf_audio",
+  "size": 36090,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 433,
+  "id": "0EFDDB6F",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1113.ESF",
+  "family": "esf_audio",
+  "size": 23384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 434,
+  "id": "0EFDDB71",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1115.ESF",
+  "family": "esf_audio",
+  "size": 24124,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 435,
+  "id": "0EFDDB72",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1116.ESF",
+  "family": "esf_audio",
+  "size": 53220,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 436,
+  "id": "0EFDDB73",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1117.ESF",
+  "family": "esf_audio",
+  "size": 43376,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 437,
+  "id": "0FE49C21",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\TRAINING\\TOPS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 160799,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 438,
+  "id": "0FFCDB6C",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1020.ESF",
+  "family": "esf_audio",
+  "size": 44427,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 439,
+  "id": "0FFCDB6D",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1021.ESF",
+  "family": "esf_audio",
+  "size": 19557,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 440,
+  "id": "0FFCDB6E",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1022.ESF",
+  "family": "esf_audio",
+  "size": 35482,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 441,
+  "id": "0FFCDB70",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1024.ESF",
+  "family": "esf_audio",
+  "size": 44937,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 442,
+  "id": "0FFCDB71",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1025.ESF",
+  "family": "esf_audio",
+  "size": 87136,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 443,
+  "id": "0FFCDB72",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1026.ESF",
+  "family": "esf_audio",
+  "size": 63950,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 444,
+  "id": "0FFCDB73",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1027.ESF",
+  "family": "esf_audio",
+  "size": 49926,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 445,
+  "id": "0FFCDB74",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1028.ESF",
+  "family": "esf_audio",
+  "size": 71996,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 446,
+  "id": "10FCDB6D",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1031.ESF",
+  "family": "esf_audio",
+  "size": 54460,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 447,
+  "id": "10FCDB6F",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1033.ESF",
+  "family": "esf_audio",
+  "size": 38160,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 448,
+  "id": "10FCDB70",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1034.ESF",
+  "family": "esf_audio",
+  "size": 38992,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 449,
+  "id": "10FCDB74",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1038.ESF",
+  "family": "esf_audio",
+  "size": 24948,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 450,
+  "id": "10FCDB75",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1039.ESF",
+  "family": "esf_audio",
+  "size": 21355,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 451,
+  "id": "11FCDB6C",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1040.ESF",
+  "family": "esf_audio",
+  "size": 21784,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 452,
+  "id": "11FCDB6D",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1041.ESF",
+  "family": "esf_audio",
+  "size": 34937,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 453,
+  "id": "11FCDB6E",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1042.ESF",
+  "family": "esf_audio",
+  "size": 28976,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 454,
+  "id": "1395548B",
+  "name": "M:\\LANGUAGE\\SONIX\\TALLY\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 455,
+  "id": "13FCDB70",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1064.ESF",
+  "family": "esf_audio",
+  "size": 22177,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 456,
+  "id": "13FCDB71",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1065.ESF",
+  "family": "esf_audio",
+  "size": 15893,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 457,
+  "id": "13FCDB72",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1066.ESF",
+  "family": "esf_audio",
+  "size": 29548,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 458,
+  "id": "14FCDB6F",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1073.ESF",
+  "family": "esf_audio",
+  "size": 24457,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 459,
+  "id": "14FCDB70",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1074.ESF",
+  "family": "esf_audio",
+  "size": 51465,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 460,
+  "id": "14FCDB71",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1075.ESF",
+  "family": "esf_audio",
+  "size": 30868,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 461,
+  "id": "14FCDB72",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1076.ESF",
+  "family": "esf_audio",
+  "size": 95487,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 462,
+  "id": "14FCDB73",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1077.ESF",
+  "family": "esf_audio",
+  "size": 183197,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 463,
+  "id": "15FCDB71",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1085.ESF",
+  "family": "esf_audio",
+  "size": 19535,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 464,
+  "id": "16FCDB6C",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1090.ESF",
+  "family": "esf_audio",
+  "size": 65440,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 465,
+  "id": "16FCDB71",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1095.ESF",
+  "family": "esf_audio",
+  "size": 54718,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 466,
+  "id": "19504F5B",
+  "name": "M:\\LANGUAGE\\SRCLANG\\LOADING.DAT",
+  "family": "lang_dat",
+  "size": 32000,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 467,
+  "id": "1E7E6D5E",
+  "name": "M:\\DEMO\\DEMO1_1.DAT",
+  "family": "demo_dat",
+  "size": 4096,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 468,
+  "id": "1E7E6D5F",
+  "name": "M:\\DEMO\\DEMO2_1.DAT",
+  "family": "demo_dat",
+  "size": 4096,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 469,
+  "id": "1E7E6D60",
+  "name": "M:\\DEMO\\DEMO3_1.DAT",
+  "family": "demo_dat",
+  "size": 4096,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 470,
+  "id": "1E7E6D62",
+  "name": "M:\\DEMO\\DEMO5_1.DAT",
+  "family": "demo_dat",
+  "size": 4096,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 471,
+  "id": "1E7F6D5E",
+  "name": "M:\\DEMO\\DEMO1_2.DAT",
+  "family": "demo_dat",
+  "size": 4096,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 472,
+  "id": "1E7F6D62",
+  "name": "M:\\DEMO\\DEMO5_2.DAT",
+  "family": "demo_dat",
+  "size": 4096,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 473,
+  "id": "1E806D5E",
+  "name": "M:\\DEMO\\DEMO1_3.DAT",
+  "family": "demo_dat",
+  "size": 4096,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 474,
+  "id": "283960E3",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\ARCHERC\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 353108,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 475,
+  "id": "2B715A83",
+  "name": "M:\\LANGUAGE\\SONIX\\HYDRA\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 476,
+  "id": "2C3470D5",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\BACCHUS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 21930,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 477,
+  "id": "2DA96DBE",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\ALEXFISH\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 18182,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 478,
+  "id": "2F3771E0",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\GRIFFON\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 178728,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 479,
+  "id": "33417EC5",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\HARPIES\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 138894,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 480,
+  "id": "343F6FE8",
+  "name": "M:\\GRAFIX\\CHOP\\SRC3\\ALIEN1\\CYCLOPS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 233069,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 481,
+  "id": "35A36EBC",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\FANGIRLS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 138230,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 482,
+  "id": "3B407FDC",
+  "name": "M:\\GRAFIX\\CHOP\\SRC3\\ALIEN1\\TORMENT\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 427082,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 483,
+  "id": "3BAB76BC",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\TORNADOT\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 148986,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 484,
+  "id": "3D30E859",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THHAFOOD\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 192271,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 485,
+  "id": "3E3377E5",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\STYBIRD\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 57531,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 486,
+  "id": "3EA368C8",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\SKELETON\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 208989,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 487,
+  "id": "3F7F65B7",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\GENERIC1\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 53867,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 488,
+  "id": "3F8165B7",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\GENERIC3\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 28742,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 489,
+  "id": "439E67B2",
+  "name": null,
+  "family": "unknown",
+  "size": 0,
+  "status": "empty",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 490,
+  "id": "443A1114",
+  "name": "M:\\DEMO\\DEMO.DAT",
+  "family": "demo_dat",
+  "size": 4096,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 491,
+  "id": "4482B8EF",
+  "name": "M:\\GRAFIX\\MAPS\\CYCLOPS\\MAP_PSX.BIN",
+  "family": "map_bin",
+  "size": 1200516,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 492,
+  "id": "453274D9",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\PEGASUS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 161514,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 493,
+  "id": "45540283",
+  "name": "M:\\GRAFIX\\CHOP\\SRC3\\ALIEN1\\CYEND\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 87328,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 494,
+  "id": "4582B0EF",
+  "name": "M:\\GRAFIX\\MAPS\\CYCLOPS\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 495,
+  "id": "463911E2",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\APOLLO\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 26556,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 496,
+  "id": "47AA77B3",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\MINOTAUR\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 338803,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 497,
+  "id": "48320AC0",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\ALIEN1\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 30945,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 498,
+  "id": "48320AD8",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\ATHENA\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 22222,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 499,
+  "id": "48340AC0",
+  "name": "M:\\GRAFIX\\CHOP\\SRC3\\ALIEN1\\ALIEN1\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 644866,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 500,
+  "id": "48340AC1",
+  "name": "M:\\GRAFIX\\CHOP\\SRC3\\ALIEN1\\ALIEN2\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 3888,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 501,
+  "id": "489963C4",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\TRAINING\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 94091,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 502,
+  "id": "493F0AD7",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\APHROD\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 17193,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 503,
+  "id": "494BAFA4",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 123596,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 504,
+  "id": "495690A9",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\SEQ1\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 56020,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 505,
+  "id": "495691A9",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\SEQ2\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 54124,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 506,
+  "id": "495692A9",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\SEQ3\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 53660,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 507,
+  "id": "495693A9",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\SEQ4\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 55029,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 508,
+  "id": "495694A9",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\SEQ5\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 56912,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 509,
+  "id": "495695A9",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\SEQ6\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 53396,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 510,
+  "id": "495696A9",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\SEQ7\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 55790,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 511,
+  "id": "495697A9",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\SEQ8\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 57197,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 512,
+  "id": "495698A9",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\SEQ9\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 54659,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 513,
+  "id": "496E5AF9",
+  "name": "M:\\GRAFIX\\MAPS\\THEBES\\MAP_PSX.BIN",
+  "family": "map_bin",
+  "size": 1214464,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 514,
+  "id": "496F5AF1",
+  "name": "M:\\GRAFIX\\MAPS\\THEBES\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 515,
+  "id": "49716801",
+  "name": "M:\\GRAFIX\\MAPS\\FOREST\\MAP_PSX.BIN",
+  "family": "map_bin",
+  "size": 1304576,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 516,
+  "id": "497267F9",
+  "name": "M:\\GRAFIX\\MAPS\\FOREST\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 517,
+  "id": "4A7C50A9",
+  "name": "M:\\GRAFIX\\MAPS\\HYDRA\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 518,
+  "id": "4B806805",
+  "name": "M:\\GRAFIX\\MAPS\\VORTEX\\MAP_PSX.BIN",
+  "family": "map_bin",
+  "size": 917504,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 519,
+  "id": "4B8167FD",
+  "name": "M:\\GRAFIX\\MAPS\\VORTEX\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 520,
+  "id": "4B83C8E3",
+  "name": "M:\\GRAFIX\\MAPS\\TORMENT\\MAP_PSX.BIN",
+  "family": "map_bin",
+  "size": 1085500,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 521,
+  "id": "4C83C0E3",
+  "name": "M:\\GRAFIX\\MAPS\\TORMENT\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 522,
+  "id": "4D99AF90",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\MENU1\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 546640,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 523,
+  "id": "4D9E8B93",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\SEQ10\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 56320,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 524,
+  "id": "4E3C14D1",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\RCROCK\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 6732,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 525,
+  "id": "4E3C14E2",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\RTROCK\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 10237,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 526,
+  "id": "4F533787",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\T010.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 527,
+  "id": "504D067A",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\FPHIL\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 48863,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 528,
+  "id": "50523787",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\T001.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 529,
+  "id": "50734C86",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ1.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 530,
+  "id": "508159E4",
+  "name": "M:\\GRAFIX\\MAPS\\MEDUSA\\MAP_PSX.BIN",
+  "family": "map_bin",
+  "size": 847872,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 531,
+  "id": "508259DC",
+  "name": "M:\\GRAFIX\\MAPS\\MEDUSA\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 532,
+  "id": "514D0B6B",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\PANIC\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 57651,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 533,
+  "id": "51533787",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\T012.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 534,
+  "id": "51734C86",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ2.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 535,
+  "id": "519F5FC7",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\WRESTLEC\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 294690,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 536,
+  "id": "52523787",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\T003.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 537,
+  "id": "52533787",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\T013.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 538,
+  "id": "526D69FA",
+  "name": "M:\\GRAFIX\\MAPS\\TITANS\\MAP_PSX.BIN",
+  "family": "map_bin",
+  "size": 1228800,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 539,
+  "id": "526E69F2",
+  "name": "M:\\GRAFIX\\MAPS\\TITANS\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 540,
+  "id": "52734C86",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ3.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 541,
+  "id": "527C4FA9",
+  "name": "M:\\GRAFIX\\MAPS\\HYDRA\\MAP_PSX.BIN",
+  "family": "map_bin",
+  "size": 997376,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 542,
+  "id": "534F0179",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\ROCKC\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 119246,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 543,
+  "id": "53523787",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\T004.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 544,
+  "id": "53734C86",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ4.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 545,
+  "id": "54533787",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\T015.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 546,
+  "id": "54734C86",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ5.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 547,
+  "id": "553F10CD",
+  "name": "M:\\GRAFIX\\CHOP\\SRC3\\ALIEN1\\PEOPLE\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 353415,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 548,
+  "id": "55734C86",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ6.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 549,
+  "id": "56523787",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\T007.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 550,
+  "id": "56734C86",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ7.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 551,
+  "id": "568026CA",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ10.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 552,
+  "id": "573240CA",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 137829,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 553,
+  "id": "573440CA",
+  "name": "M:\\GRAFIX\\CHOP\\SRC3\\HERO\\XTRA_DB1\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 17630,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 554,
+  "id": "5753A3AF",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\PSWD\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 873071,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 555,
+  "id": "57734C86",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ8.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 556,
+  "id": "57DDA3D7",
+  "name": "M:\\GRAFIX\\MAPS\\GAUNTLET\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 557,
+  "id": "57E5A3D6",
+  "name": "M:\\GRAFIX\\MAPS\\GAUNTLET\\MAP_PSX.BIN",
+  "family": "map_bin",
+  "size": 1220136,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 558,
+  "id": "58734C86",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\SEQ9.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 559,
+  "id": "58BDA896",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\OPTNS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 685372,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 560,
+  "id": "5A2B26EE",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\HERCULES\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 499026,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 561,
+  "id": "5A2D26EE",
+  "name": "M:\\GRAFIX\\CHOP\\SRC3\\HERO\\HERCULES\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 237238,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 562,
+  "id": "5B4A444A",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\ENDEASY.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 563,
+  "id": "5E45146B",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\LAVAT\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 216017,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 564,
+  "id": "5ECB98E5",
+  "name": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 565,
+  "id": "5ED398E4",
+  "name": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.BIN",
+  "family": "map_bin",
+  "size": 1259520,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 566,
+  "id": "633E3985",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\BOSS\\SKELWAR\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 209053,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 567,
+  "id": "63795A83",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 568,
+  "id": "644F0179",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\ROCKT\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 316761,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 569,
+  "id": "64521279",
+  "name": "M:\\GRAFIX\\CHOP\\SRC3\\ALIEN1\\SOULS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 23453,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 570,
+  "id": "667429DE",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\CHEAT.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 571,
+  "id": "6749126B",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\WATER\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 40717,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 572,
+  "id": "68B4C3E3",
+  "name": "M:\\LANGUAGE\\SONIX\\TORMENT\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 573,
+  "id": "69B9BFE4",
+  "name": "M:\\LANGUAGE\\SONIX\\OPTIONS\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 574,
+  "id": "6D514E52",
+  "name": "M:\\LANGUAGE\\SRCLANG\\STPANEL1.DAT",
+  "family": "lang_dat",
+  "size": 131072,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 575,
+  "id": "6E514E52",
+  "name": "M:\\LANGUAGE\\SRCLANG\\STPANEL2.DAT",
+  "family": "lang_dat",
+  "size": 131072,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 576,
+  "id": "6E5BB4DA",
+  "name": "M:\\LANGUAGE\\SONIX\\MEDUSA\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 577,
+  "id": "6F4A1693",
+  "name": "M:\\GRAFIX\\CHOP\\SRC3\\HERO\\LETTERS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 27634,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 578,
+  "id": "717753F1",
+  "name": "M:\\LANGUAGE\\SONIX\\TORMENT\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 579,
+  "id": "727C4FF2",
+  "name": "M:\\LANGUAGE\\SONIX\\OPTIONS\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 580,
+  "id": "74ADC2D3",
+  "name": "M:\\LANGUAGE\\SONIX\\CYCLOPS\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 581,
+  "id": "7669B2D3",
+  "name": "M:\\LANGUAGE\\SONIX\\HERC_CYC\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 582,
+  "id": "7969C1C9",
+  "name": "M:\\LANGUAGE\\SONIX\\HERC_FOR\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 583,
+  "id": "7A69C4BB",
+  "name": "M:\\LANGUAGE\\SONIX\\HERC_GAU\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 584,
+  "id": "7A7D26D6",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\MENUB.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 585,
+  "id": "7B5DCEC2",
+  "name": "M:\\LANGUAGE\\SONIX\\GAUNTLET\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 586,
+  "id": "7B69B3D3",
+  "name": "M:\\LANGUAGE\\SONIX\\HERC_HYD\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 587,
+  "id": "7D7052E1",
+  "name": "M:\\LANGUAGE\\SONIX\\CYCLOPS\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 588,
+  "id": "7E647768",
+  "name": "M:\\LANGUAGE\\SONIX\\MEDUSA\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 589,
+  "id": "805EB2E9",
+  "name": "M:\\LANGUAGE\\SONIX\\NESSUS\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 590,
+  "id": "8069B3BF",
+  "name": "M:\\LANGUAGE\\SONIX\\HERC_MED\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 591,
+  "id": "8354A1DB",
+  "name": "M:\\LANGUAGE\\SONIX\\THEBES\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 592,
+  "id": "845DA0EA",
+  "name": "M:\\LANGUAGE\\SONIX\\TITANS\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 593,
+  "id": "8769B0CC",
+  "name": "M:\\LANGUAGE\\SONIX\\HERC_TRA\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 594,
+  "id": "8769B4C2",
+  "name": "M:\\LANGUAGE\\SONIX\\HERC_THE\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 595,
+  "id": "8769C1C9",
+  "name": "M:\\LANGUAGE\\SONIX\\HERC_TOR\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 596,
+  "id": "8769C3C3",
+  "name": "M:\\LANGUAGE\\SONIX\\HERC_TIT\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 597,
+  "id": "8964BCB7",
+  "name": "M:\\LANGUAGE\\SONIX\\TRAINING\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 598,
+  "id": "8969C1C9",
+  "name": "M:\\LANGUAGE\\SONIX\\HERC_VOR\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 599,
+  "id": "8AE1CE18",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\NESSUS\\BASIC\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 140186,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 600,
+  "id": "8B54A4E8",
+  "name": "M:\\LANGUAGE\\SONIX\\FOREST\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 601,
+  "id": "8CC1D92A",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 23178,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 602,
+  "id": "8E8FD51E",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\NESSUS\\KICK\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 87010,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 603,
+  "id": "8E96CF1F",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\NESSUS\\RIDE\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 198336,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 604,
+  "id": "8F56B3E8",
+  "name": "M:\\LANGUAGE\\SONIX\\VORTEX\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 605,
+  "id": "90677577",
+  "name": "M:\\LANGUAGE\\SONIX\\NESSUS\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 606,
+  "id": "91CB0630",
+  "name": "M:\\GRAFIX\\MAPS\\TITLE\\CHEAT\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 607,
+  "id": "935D6469",
+  "name": "M:\\LANGUAGE\\SONIX\\THEBES\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 608,
+  "id": "94666378",
+  "name": "M:\\LANGUAGE\\SONIX\\TITANS\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 609,
+  "id": "9490D52A",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\NESSUS\\LOOK\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 54916,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 610,
+  "id": "98C41C3B",
+  "name": "M:\\GRAFIX\\MAPS\\TITLE\\TALLY\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 611,
+  "id": "9ADDAD0B",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\PHIL\\MACHINE\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 83452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 612,
+  "id": "9B5D6776",
+  "name": "M:\\LANGUAGE\\SONIX\\FOREST\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 613,
+  "id": "9B6151C2",
+  "name": "M:\\LANGUAGE\\SONIX\\HYDRA\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 614,
+  "id": "9EF4C813",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\NESSUS\\PUNCH\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 44972,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 615,
+  "id": "9F5F7676",
+  "name": "M:\\LANGUAGE\\SONIX\\VORTEX\\SFX.SFX",
+  "family": "sonix_sfx",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 616,
+  "id": "A0CCBA43",
+  "name": "M:\\GRAFIX\\MAPS\\TITLE\\PSWD\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 617,
+  "id": "A18FF8FF",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 8041,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 618,
+  "id": "A196DA37",
+  "name": null,
+  "family": "unknown",
+  "size": 3888,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 619,
+  "id": "A4E0A918",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\TRAINING\\PEG\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 74914,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 620,
+  "id": "A87A5035",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\PHIL\\REACT\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 30707,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 621,
+  "id": "A8874C18",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\PHIL\\DANCE\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 32329,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 622,
+  "id": "AAD3F426",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C1.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 623,
+  "id": "AAD4F426",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C2.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 624,
+  "id": "AAD5F426",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C3.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 625,
+  "id": "AAD6F426",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C4.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 626,
+  "id": "AAD7F426",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C5.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 627,
+  "id": "AAD8F426",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C6.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 628,
+  "id": "AAD9F426",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C7.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 629,
+  "id": "AADAF426",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C8.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 630,
+  "id": "AADBF426",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C9.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 631,
+  "id": "AEA7A830",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 136574,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 632,
+  "id": "AEA7A831",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 259618,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 633,
+  "id": "AEA7A832",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 240450,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 634,
+  "id": "AEA7A833",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 219604,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 635,
+  "id": "AEA7A834",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 268142,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 636,
+  "id": "AEA7A835",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 149786,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 637,
+  "id": "AEA7A836",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 416530,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 638,
+  "id": "AEA7A837",
+  "name": null,
+  "family": "icontainer_unnamed",
+  "size": 249632,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 639,
+  "id": "B1AC93FC",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\TALLYUP\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 810709,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 640,
+  "id": "B2825714",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\PHIL\\CLIMB\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 980,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 641,
+  "id": "B3A193A0",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\JOYPAD\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 5987,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 642,
+  "id": "B8AF848E",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\LSGAME\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 87100,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 643,
+  "id": "B8CDBEBB",
+  "name": "M:\\LANGUAGE\\SONIX\\GAUNTLET\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 644,
+  "id": "B8FE0039",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_10.ESF",
+  "family": "esf_audio",
+  "size": 2740,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 645,
+  "id": "B8FE0139",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_20.ESF",
+  "family": "esf_audio",
+  "size": 4942,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 646,
+  "id": "B8FE0239",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_30.ESF",
+  "family": "esf_audio",
+  "size": 2052,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 647,
+  "id": "B8FE0339",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_40.ESF",
+  "family": "esf_audio",
+  "size": 18320,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 648,
+  "id": "B8FE0439",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_50.ESF",
+  "family": "esf_audio",
+  "size": 4620,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 649,
+  "id": "B8FE0539",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_60.ESF",
+  "family": "esf_audio",
+  "size": 22498,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 650,
+  "id": "B8FE0639",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_70.ESF",
+  "family": "esf_audio",
+  "size": 12602,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 651,
+  "id": "B8FE0739",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_80.ESF",
+  "family": "esf_audio",
+  "size": 3056,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 652,
+  "id": "B8FE0839",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_90.ESF",
+  "family": "esf_audio",
+  "size": 8247,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 653,
+  "id": "B8FF0039",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_11.ESF",
+  "family": "esf_audio",
+  "size": 8155,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 654,
+  "id": "B8FF0139",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_21.ESF",
+  "family": "esf_audio",
+  "size": 14577,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 655,
+  "id": "B8FF0239",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_31.ESF",
+  "family": "esf_audio",
+  "size": 1992,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 656,
+  "id": "B8FF0339",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_41.ESF",
+  "family": "esf_audio",
+  "size": 5320,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 657,
+  "id": "B8FF0439",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_51.ESF",
+  "family": "esf_audio",
+  "size": 4666,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 658,
+  "id": "B8FF0539",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_61.ESF",
+  "family": "esf_audio",
+  "size": 11141,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 659,
+  "id": "B8FF0639",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_71.ESF",
+  "family": "esf_audio",
+  "size": 5328,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 660,
+  "id": "B8FF0739",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_81.ESF",
+  "family": "esf_audio",
+  "size": 1798,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 661,
+  "id": "B8FF0839",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_91.ESF",
+  "family": "esf_audio",
+  "size": 3866,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 662,
+  "id": "B9000039",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_12.ESF",
+  "family": "esf_audio",
+  "size": 4734,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 663,
+  "id": "B9000139",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_22.ESF",
+  "family": "esf_audio",
+  "size": 3441,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 664,
+  "id": "B9000239",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_32.ESF",
+  "family": "esf_audio",
+  "size": 1935,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 665,
+  "id": "B9000339",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_42.ESF",
+  "family": "esf_audio",
+  "size": 10739,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 666,
+  "id": "B9000439",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_52.ESF",
+  "family": "esf_audio",
+  "size": 4581,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 667,
+  "id": "B9000539",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_62.ESF",
+  "family": "esf_audio",
+  "size": 25295,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 668,
+  "id": "B9000639",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_72.ESF",
+  "family": "esf_audio",
+  "size": 5403,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 669,
+  "id": "B9000739",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_82.ESF",
+  "family": "esf_audio",
+  "size": 5181,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 670,
+  "id": "B9000839",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_92.ESF",
+  "family": "esf_audio",
+  "size": 5201,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 671,
+  "id": "B9010039",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_13.ESF",
+  "family": "esf_audio",
+  "size": 9824,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 672,
+  "id": "B9010139",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_23.ESF",
+  "family": "esf_audio",
+  "size": 5133,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 673,
+  "id": "B9010239",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_33.ESF",
+  "family": "esf_audio",
+  "size": 3837,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 674,
+  "id": "B9010339",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_43.ESF",
+  "family": "esf_audio",
+  "size": 3056,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 675,
+  "id": "B9010439",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_53.ESF",
+  "family": "esf_audio",
+  "size": 5184,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 676,
+  "id": "B9010539",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_63.ESF",
+  "family": "esf_audio",
+  "size": 10432,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 677,
+  "id": "B9010639",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_73.ESF",
+  "family": "esf_audio",
+  "size": 19567,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 678,
+  "id": "B9010739",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_83.ESF",
+  "family": "esf_audio",
+  "size": 4788,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 679,
+  "id": "B9010839",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_93.ESF",
+  "family": "esf_audio",
+  "size": 964,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 680,
+  "id": "B9020039",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_14.ESF",
+  "family": "esf_audio",
+  "size": 2130,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 681,
+  "id": "B9020139",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_24.ESF",
+  "family": "esf_audio",
+  "size": 2856,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 682,
+  "id": "B9020239",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_34.ESF",
+  "family": "esf_audio",
+  "size": 3694,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 683,
+  "id": "B9020339",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_44.ESF",
+  "family": "esf_audio",
+  "size": 34225,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 684,
+  "id": "B9020439",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_54.ESF",
+  "family": "esf_audio",
+  "size": 4620,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 685,
+  "id": "B9020539",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_64.ESF",
+  "family": "esf_audio",
+  "size": 2142,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 686,
+  "id": "B9020639",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_74.ESF",
+  "family": "esf_audio",
+  "size": 10373,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 687,
+  "id": "B9020739",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_84.ESF",
+  "family": "esf_audio",
+  "size": 5694,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 688,
+  "id": "B9020839",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_94.ESF",
+  "family": "esf_audio",
+  "size": 1143,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 689,
+  "id": "B9030039",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_15.ESF",
+  "family": "esf_audio",
+  "size": 2389,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 690,
+  "id": "B9030139",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_25.ESF",
+  "family": "esf_audio",
+  "size": 3763,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 691,
+  "id": "B9030239",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_35.ESF",
+  "family": "esf_audio",
+  "size": 4846,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 692,
+  "id": "B9030339",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_45.ESF",
+  "family": "esf_audio",
+  "size": 4437,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 693,
+  "id": "B9030439",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_55.ESF",
+  "family": "esf_audio",
+  "size": 4736,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 694,
+  "id": "B9030539",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_65.ESF",
+  "family": "esf_audio",
+  "size": 5552,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 695,
+  "id": "B9030639",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_75.ESF",
+  "family": "esf_audio",
+  "size": 2991,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 696,
+  "id": "B9030739",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_85.ESF",
+  "family": "esf_audio",
+  "size": 6549,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 697,
+  "id": "B9030839",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_95.ESF",
+  "family": "esf_audio",
+  "size": 2331,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 698,
+  "id": "B9040039",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_16.ESF",
+  "family": "esf_audio",
+  "size": 2894,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 699,
+  "id": "B9040139",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_26.ESF",
+  "family": "esf_audio",
+  "size": 5360,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 700,
+  "id": "B9040239",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_36.ESF",
+  "family": "esf_audio",
+  "size": 1708,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 701,
+  "id": "B9040339",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_46.ESF",
+  "family": "esf_audio",
+  "size": 6041,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 702,
+  "id": "B9040439",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_56.ESF",
+  "family": "esf_audio",
+  "size": 3962,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 703,
+  "id": "B9040539",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_66.ESF",
+  "family": "esf_audio",
+  "size": 6656,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 704,
+  "id": "B9040639",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_76.ESF",
+  "family": "esf_audio",
+  "size": 3983,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 705,
+  "id": "B9040739",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_86.ESF",
+  "family": "esf_audio",
+  "size": 8209,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 706,
+  "id": "B9040839",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_96.ESF",
+  "family": "esf_audio",
+  "size": 8560,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 707,
+  "id": "B9050039",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_17.ESF",
+  "family": "esf_audio",
+  "size": 9784,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 708,
+  "id": "B9050139",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_27.ESF",
+  "family": "esf_audio",
+  "size": 3076,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 709,
+  "id": "B9050239",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_37.ESF",
+  "family": "esf_audio",
+  "size": 1784,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 710,
+  "id": "B9050339",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_47.ESF",
+  "family": "esf_audio",
+  "size": 2163,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 711,
+  "id": "B9050439",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_57.ESF",
+  "family": "esf_audio",
+  "size": 1741,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 712,
+  "id": "B9050539",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_67.ESF",
+  "family": "esf_audio",
+  "size": 3460,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 713,
+  "id": "B9050639",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_77.ESF",
+  "family": "esf_audio",
+  "size": 3015,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 714,
+  "id": "B9050739",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_87.ESF",
+  "family": "esf_audio",
+  "size": 4048,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 715,
+  "id": "B9050839",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_97.ESF",
+  "family": "esf_audio",
+  "size": 9654,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 716,
+  "id": "B9060039",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_18.ESF",
+  "family": "esf_audio",
+  "size": 3742,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 717,
+  "id": "B9060139",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_28.ESF",
+  "family": "esf_audio",
+  "size": 5919,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 718,
+  "id": "B9060239",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_38.ESF",
+  "family": "esf_audio",
+  "size": 8675,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 719,
+  "id": "B9060339",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_48.ESF",
+  "family": "esf_audio",
+  "size": 2164,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 720,
+  "id": "B9060439",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_58.ESF",
+  "family": "esf_audio",
+  "size": 1723,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 721,
+  "id": "B9060539",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_68.ESF",
+  "family": "esf_audio",
+  "size": 7756,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 722,
+  "id": "B9060639",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_78.ESF",
+  "family": "esf_audio",
+  "size": 5846,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 723,
+  "id": "B9060739",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_88.ESF",
+  "family": "esf_audio",
+  "size": 3822,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 724,
+  "id": "B9060839",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_98.ESF",
+  "family": "esf_audio",
+  "size": 9654,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 725,
+  "id": "B9070039",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_19.ESF",
+  "family": "esf_audio",
+  "size": 5219,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 726,
+  "id": "B9070139",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_29.ESF",
+  "family": "esf_audio",
+  "size": 4555,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 727,
+  "id": "B9070239",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_39.ESF",
+  "family": "esf_audio",
+  "size": 573,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 728,
+  "id": "B9070339",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_49.ESF",
+  "family": "esf_audio",
+  "size": 1992,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 729,
+  "id": "B9070439",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_59.ESF",
+  "family": "esf_audio",
+  "size": 10900,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 730,
+  "id": "B9070539",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_69.ESF",
+  "family": "esf_audio",
+  "size": 4011,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 731,
+  "id": "B9070639",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_79.ESF",
+  "family": "esf_audio",
+  "size": 5025,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 732,
+  "id": "B9070739",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_89.ESF",
+  "family": "esf_audio",
+  "size": 3608,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 733,
+  "id": "B9070839",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_99.ESF",
+  "family": "esf_audio",
+  "size": 14139,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 734,
+  "id": "BBAD848C",
+  "name": "M:\\LANGUAGE\\GRAFIX\\CHOP\\TITLE\\CHEATS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 55130,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 735,
+  "id": "BFCB8128",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV1.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 736,
+  "id": "BFCB8129",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV2.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 737,
+  "id": "BFCB812A",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV3.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 738,
+  "id": "BFCB812B",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV4.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 739,
+  "id": "BFCB812C",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV5.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 740,
+  "id": "BFCB812D",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV6.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 741,
+  "id": "BFCB812E",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV7.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 742,
+  "id": "BFCB812F",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV8.TGA",
+  "family": "tga_cmap",
+  "size": 77586,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 743,
+  "id": "BFCB8130",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV9.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 744,
+  "id": "C2E20B1D",
+  "name": null,
+  "family": "unknown",
+  "size": 8192,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 745,
+  "id": "C6D4ACB0",
+  "name": "M:\\LANGUAGE\\SONIX\\TRAINING\\MUSIC.MUS",
+  "family": "sonix_mus",
+  "size": 452,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 746,
+  "id": "C7D11025",
+  "name": null,
+  "family": "unknown",
+  "size": 2048,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 747,
+  "id": "CCA5C42F",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV10.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 748,
+  "id": "CCA5C52F",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV11.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 749,
+  "id": "CCA5C62F",
+  "name": "M:\\GRAFIX\\MOVIE\\SCREENS\\PSWD\\LEV12.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 750,
+  "id": "CFB5F346",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_1.ESF",
+  "family": "esf_audio",
+  "size": 2902,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 751,
+  "id": "CFB5F446",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_2.ESF",
+  "family": "esf_audio",
+  "size": 2429,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 752,
+  "id": "CFB5F546",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_3.ESF",
+  "family": "esf_audio",
+  "size": 2724,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 753,
+  "id": "CFB5F646",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_4.ESF",
+  "family": "esf_audio",
+  "size": 4073,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 754,
+  "id": "CFB5F746",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_5.ESF",
+  "family": "esf_audio",
+  "size": 3528,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 755,
+  "id": "CFB5F846",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_6.ESF",
+  "family": "esf_audio",
+  "size": 10601,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 756,
+  "id": "CFB5F946",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_7.ESF",
+  "family": "esf_audio",
+  "size": 2696,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 757,
+  "id": "CFB5FA46",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_8.ESF",
+  "family": "esf_audio",
+  "size": 3736,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 758,
+  "id": "CFB5FB46",
+  "name": "M:\\LANGUAGE\\SONIX\\PC_9.ESF",
+  "family": "esf_audio",
+  "size": 3288,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 759,
+  "id": "D2A3EE2A",
+  "name": null,
+  "family": "unknown",
+  "size": 32000,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 760,
+  "id": "D4CD339A",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\HERCULES\\HC_DUNIT\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 71492,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 761,
+  "id": "D8C046A0",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\HERCULES\\HC_THROW\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 99103,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 762,
+  "id": "E10004A6",
+  "name": "M:\\GRAFIX\\MAPS\\TITLE\\MAINMENU\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 763,
+  "id": "E3CA0765",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THCHAR\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 125810,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 764,
+  "id": "E75C1A77",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\ARES\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 17700,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 765,
+  "id": "E7D3C33C",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\HERCULES\\HC_DIE\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 44557,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 766,
+  "id": "E9DA0C73",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THSNOW\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 18992,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 767,
+  "id": "EC28FF5D",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THFLOOD\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 41559,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 768,
+  "id": "EC2D034F",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THFLASH\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 59847,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 769,
+  "id": "ED4F1E77",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\GRIF\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 762766,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 770,
+  "id": "EDDA0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C10.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 771,
+  "id": "EDDB0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C20.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 772,
+  "id": "EDDC0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C30.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 773,
+  "id": "EE32FC6E",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\TRAINING\\TRAINFX\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 1668,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 774,
+  "id": "EE592766",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\HARP\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 81413,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 775,
+  "id": "EEC3F169",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\XTRA_DB1\\LETTERC\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 3507,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 776,
+  "id": "EEC3F16B",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\XTRA_DB1\\LETTERE\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 4175,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 777,
+  "id": "EEC3F16E",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\XTRA_DB1\\LETTERH\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 4994,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 778,
+  "id": "EEC3F172",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\XTRA_DB1\\LETTERL\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 3720,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 779,
+  "id": "EEC3F178",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\XTRA_DB1\\LETTERR\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 4535,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 780,
+  "id": "EEC3F179",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\XTRA_DB1\\LETTERS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 3362,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 781,
+  "id": "EEC3F17B",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\HERO\\XTRA_DB1\\LETTERU\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 5058,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 782,
+  "id": "EEDA0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C11.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 783,
+  "id": "EEDB0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C21.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 784,
+  "id": "EEDC0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C31.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 785,
+  "id": "EEF12180",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\MEG\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 12476,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 786,
+  "id": "EF5D1A68",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\ICET\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 152381,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 787,
+  "id": "EFDA0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C12.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 788,
+  "id": "EFDB0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C22.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 789,
+  "id": "F0DA0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C13.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 790,
+  "id": "F0DB0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C23.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 791,
+  "id": "F1DA0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C14.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 792,
+  "id": "F1DB0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C24.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 793,
+  "id": "F1F12184",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\PIG\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 77000,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 794,
+  "id": "F20AF941",
+  "name": "M:\\GRAFIX\\MAPS\\TITLE\\LOADLEV\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 795,
+  "id": "F2DA0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C15.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 796,
+  "id": "F2DB0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C25.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 797,
+  "id": "F2F0B718",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\NESSUS\\FINISH\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 29751,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 798,
+  "id": "F31CED41",
+  "name": "M:\\GRAFIX\\MAPS\\TITLE\\CREDITS\\MAP_PSX.CIF",
+  "family": "map_cif",
+  "size": 336384,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 799,
+  "id": "F35F276A",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\MERV\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 633099,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 800,
+  "id": "F3C89D7C",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THFAT\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 40364,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 801,
+  "id": "F3DA0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C16.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 802,
+  "id": "F3DB0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C26.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 803,
+  "id": "F3E0468F",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\BOSS\\HADES\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 502624,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 804,
+  "id": "F3F8349C",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\BOSS\\HYDRA\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 93474,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 805,
+  "id": "F4DA0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C17.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 806,
+  "id": "F4DB0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C27.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 807,
+  "id": "F4F1338B",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\SPY\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 97158,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 808,
+  "id": "F534FE60",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THBURNT\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 47718,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 809,
+  "id": "F5DA0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C18.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 810,
+  "id": "F5DB0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C28.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 811,
+  "id": "F6551D6D",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\PHIL\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 55836,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 812,
+  "id": "F6571D66",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\PAIN\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 62727,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 813,
+  "id": "F6DA0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C19.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 814,
+  "id": "F6DB0101",
+  "name": "M:\\LANGUAGE\\GRAFIX\\MOVIE\\SCREENS\\C29.TGA",
+  "family": "tga_cmap",
+  "size": 82706,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 815,
+  "id": "F73D0555",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THEWGUY\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 56264,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 816,
+  "id": "F83D4689",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\BOSS\\MEDUSA\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 281712,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 817,
+  "id": "F9D79D7B",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THUGS\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 182303,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 818,
+  "id": "FADCB310",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\NESSUS\\DEFEAT\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 373961,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 819,
+  "id": "FAECB314",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN2\\NESSUS\\REJECT\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 57026,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ },
+ {
+  "index": 820,
+  "id": "FED19D6C",
+  "name": "M:\\GRAFIX\\CHOP\\SRC1\\ALIEN1\\THEBIANS\\THOLD\\ANIMPSX.BIN",
+  "family": "anim_bin",
+  "size": 22898,
+  "status": "raw",
+  "decoder": null,
+  "outputs": []
+ }
+]

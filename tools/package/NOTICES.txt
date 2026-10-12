@@ -1,0 +1,8 @@
+Hercules Remaster {version} - notices
+
+Disney's Hercules is (c) Disney. This package contains none of the game's files; it requires a
+legally owned, installed copy. Replacement art, where included, was made for private use under the
+project's authorization scope; it is not licensed for redistribution.
+
+Third-party components: none. ddraw.dll is built from this project's own sources with Microsoft
+Visual C++ and uses only Windows components (Direct3D 11, DXGI, D3DCompiler, WIC, GDI, User32).

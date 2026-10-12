@@ -1,0 +1,36 @@
+{
+ "program": "ENG1.DLL",
+ "references_by_address": {
+  "1005a7cc": [],
+  "1005a7f0": [
+   {
+    "from_address": "1005a708",
+    "type": "DATA"
+   }
+  ],
+  "1005a814": [],
+  "10058a68": [
+   {
+    "from_address": "1001facc",
+    "type": "DATA",
+    "from_function": "FUN_1001f9e0"
+   },
+   {
+    "from_address": "1001fb5f",
+    "type": "DATA",
+    "from_function": "FUN_1001f9e0"
+   },
+   {
+    "from_address": "1001f778",
+    "type": "DATA",
+    "from_function": "FUN_1001f750"
+   },
+   {
+    "from_address": "1001f7e8",
+    "type": "DATA",
+    "from_function": "FUN_1001f750"
+   }
+  ]
+ },
+ "count": 4
+}

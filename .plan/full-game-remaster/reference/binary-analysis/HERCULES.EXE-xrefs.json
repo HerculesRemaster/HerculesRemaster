@@ -1,0 +1,38 @@
+{
+ "program": "HERCULES.EXE",
+ "references_by_address": {
+  "00435130": [
+   {
+    "from_address": "00435108",
+    "type": "DATA"
+   }
+  ],
+  "00435148": [
+   {
+    "from_address": "00435104",
+    "type": "DATA"
+   }
+  ],
+  "0043a498": [
+   {
+    "from_address": "0040f1ec",
+    "type": "DATA",
+    "from_function": "FUN_0040f100"
+   }
+  ],
+  "0043a4e4": [
+   {
+    "from_address": "0040f114",
+    "type": "DATA",
+    "from_function": "FUN_0040f100"
+   }
+  ],
+  "00405760": [
+   {
+    "from_address": "004363fc",
+    "type": "DATA"
+   }
+  ]
+ },
+ "count": 5
+}

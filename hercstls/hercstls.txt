@@ -1,0 +1,12 @@
+Disney's Hercules tools v1.1
+(c) CTPAX-X Team 2012,2020
+http://www.CTPAX-X.org/
+
+Version history:
+v1.1 [2020.06.27]
+- both tools rewritten in C without Assembler
+- add hashes for demo-version .WAV files
+- external file "herchash.txt" compacted and packed into internal buffer
+
+v1.0 [2012.03.05]
+- first public release

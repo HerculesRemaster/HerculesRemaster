@@ -1,0 +1,2859 @@
+{
+ "_doc": "Kind -> type-table entry -> handler names for the ENG3 levels (L02/L07/L09 RE.02). See tools/level/eng3_types.py for the rules.",
+ "level": {
+  "id": 2,
+  "dir": "GAUNTLET",
+  "config_record": "0x3b900"
+ },
+ "config": {
+  "record_rva": "0x3b900",
+  "u16_02_16": [
+   85,
+   145,
+   68,
+   17,
+   1,
+   15,
+   85,
+   145,
+   68,
+   50,
+   15
+  ],
+  "actor_anim": "0x35e10",
+  "actor_funcs": "0x362e0",
+  "marker_anim": "0x36680",
+  "marker_funcs": "0x36800",
+  "pickup_anim": "0x36980",
+  "pickup_funcs": "0x36b80",
+  "t30": "0x36d80",
+  "t34": "0x36d98",
+  "t38": "0x36db0",
+  "t3c": 0,
+  "t40": "0x36dc8",
+  "t44": "0x371b0"
+ },
+ "start_and_level_banks": {
+  "name": "GAUNTLET",
+  "record_rva": "0x38558",
+  "level_list": [
+   1
+  ],
+  "start_lists": [
+   [
+    3,
+    2,
+    8
+   ],
+   [
+    3,
+    2,
+    8
+   ],
+   [
+    3,
+    2,
+    8
+   ],
+   [
+    3,
+    2,
+    8
+   ],
+   [
+    3,
+    2,
+    8
+   ],
+   [
+    3,
+    2,
+    8
+   ],
+   [
+    3,
+    2,
+    8
+   ],
+   [
+    3,
+    2,
+    8
+   ]
+  ]
+ },
+ "runtime_runs": [
+  "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
+  "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+  "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
+  "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
+ ],
+ "runtime_other_types": {},
+ "map_types_without_table_entry": [],
+ "kinds": [
+  {
+   "kind": "0x0001",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\HERO\\HERCULES": 56
+    }
+   },
+   "stub_entry": true,
+   "map": null,
+   "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO_Tick 0x174e0",
+   "evidence": "VERIFIED-STATIC",
+   "damage": null,
+   "gives": null,
+   "category": "hero_animation"
+  },
+  {
+   "kind": "0x0002",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x1aac0",
+     "name": "FUN_1001aac0"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x1ab20",
+     "name": "FUN_1001ab20"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x0003",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x1aaf0",
+     "name": "FUN_1001aaf0"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x1ab20",
+     "name": "FUN_1001ab20"
+    }
+   },
+   "anim_entry": "00000000000000000000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x0004",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x146d0",
+     "name": "FUN_100146d0"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x14760",
+     "name": "FUN_10014760"
+    }
+   },
+   "anim_entry": "00000000000000000000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x0005",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x153b0",
+     "name": "FUN_100153b0"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x15410",
+     "name": "FUN_10015410"
+    }
+   },
+   "anim_entry": "687b0310000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x0006",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x15440",
+     "name": "LVL_BonusItemSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x15680",
+     "name": "LVL_BonusItemTick"
+    }
+   },
+   "anim_entry": "00000000d07a03100000000001000000",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\HERO\\LETTERS": 53,
+     "P:\\SRC3\\HERO\\XTRA_DB1": 22,
+     "P:\\SRC3\\HERO\\HERCULES": 54
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 326,
+    "tracks": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     219,
+     15931
+    ]
+   },
+   "what": "bonus item; subtype = spawn byte +0xc: 0=golden helmet (bank 1 105-118): 0x3fae4=1, hero+0xec=200 ticks invulnerable, SFX 0x603e; 1=blue potion (120-135): health gs+0x24 += 0x20, capped at max gs+0x1e, SFX 0x603b; 2=large coin (bank 2 XTRA_DB1 17-38): gs+0x18 += 1, SFX 0x603f; 3=winged sandals (152-167): dash, hero+0xee=0x56, 0x3fb20=1, HUD 0x3fae8=1, SFX 0x602c; 4=small coin (bank 2 17-38, scale 0xc0): gs+0x14 += 1, SFX 0x603f; 5=urn (211-218): secret counter 0x3faec += 1 and gs+0x11 bit (GAUNTLET by track: 0->1, 1-2->2, 3-6->4, 7-10->8; CYCLOPS by count 1..4 -> 1/2/4/8; TORMENT track 0->1, 1-2->4, 3-4->8), SFX 0x603e; 6=amphora (250-257): lives gs+0xc += 1, 0x41c72=1, SFX 0x603d (spawn turns it into subtype 1 when lives > 8); 7=mini Hercules (310-313): max health gs+0x1e += 0x20 (0xff cap), SFX 0x603d; 8-15=letters H,E,R,C,U,L,E,S (bank 8 LETTERS, scripts 10-16, E twice): 0x41cb0 = 0..7, gs+0x1c |= 1<<n, 0x41d50=1, SFX 0x603c",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "0=golden helmet (bank 1 105-118): 0x3fae4=1, hero+0xec=200 ticks invulnerable, SFX 0x603e; 1=blue potion (120-135): health gs+0x24 += 0x20, capped at max gs+0x1e, SFX 0x603b; 2=large coin (bank 2 XTRA_DB1 17-38): gs+0x18 += 1, SFX 0x603f; 3=winged sandals (152-167): dash, hero+0xee=0x56, 0x3fb20=1, HUD 0x3fae8=1, SFX 0x602c; 4=small coin (bank 2 17-38, scale 0xc0): gs+0x14 += 1, SFX 0x603f; 5=urn (211-218): secret counter 0x3faec += 1 and gs+0x11 bit (GAUNTLET by track: 0->1, 1-2->2, 3-6->4, 7-10->8; CYCLOPS by count 1..4 -> 1/2/4/8; TORMENT track 0->1, 1-2->4, 3-4->8), SFX 0x603e; 6=amphora (250-257): lives gs+0xc += 1, 0x41c72=1, SFX 0x603d (spawn turns it into subtype 1 when lives > 8); 7=mini Hercules (310-313): max health gs+0x1e += 0x20 (0xff cap), SFX 0x603d; 8-15=letters H,E,R,C,U,L,E,S (bank 8 LETTERS, scripts 10-16, E twice): 0x41cb0 = 0..7, gs+0x1c |= 1<<n, 0x41d50=1, SFX 0x603c",
+   "category": "props_pickups"
+  },
+  {
+   "kind": "0x0007",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x16240",
+     "name": "HERO_RideStart"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x16320",
+     "name": "LVL_EndObjectUpdate"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x0008",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x15e90",
+     "name": "FUN_10015e90"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x15f30",
+     "name": "FUN_10015f30"
+    }
+   },
+   "anim_entry": "00000000d07a03100000000001000000",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x0029",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0xd280",
+     "name": "LVL_GntToppleStatueSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0xd410",
+     "name": "LVL_GntToppleStatueTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 7,
+    "tracks": [
+     0,
+     2,
+     3,
+     4,
+     6
+    ],
+    "wx_range": [
+     5143,
+     15997
+    ]
+   },
+   "what": "toppling statue/column (level model 2 + two 0x4029 parts) that falls toward the hero",
+   "evidence": "LEAD",
+   "damage": "hit code 0x21 via HERO_Hit 0x19200 (box |z|<128,|x|<128,|y|<192) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "category": "chase_hazards"
+  },
+  {
+   "kind": "0x002a",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0xd7d0",
+     "name": "LVL_GntStackSwayFwdSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0xdc20",
+     "name": "LVL_GntStackSwayFwdTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 11,
+    "tracks": [
+     1,
+     5,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     5179,
+     9127
+    ]
+   },
+   "what": "swaying stack of 4 blocks (model 3, 0x402a) that collapses forward when the hero is near",
+   "evidence": "LEAD",
+   "damage": "hit code 0x2 via HERO_Hit 0x19200 (falling piece box) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "category": "chase_hazards"
+  },
+  {
+   "kind": "0x002b",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x10370",
+     "name": "LVL_GntRollerGroupSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x10590",
+     "name": "LVL_GntRollerGroupTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 10,
+    "tracks": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     3293,
+     14615
+    ]
+   },
+   "what": "group of rolling model-13 objects (spawn byte = count: 1 large x2 scale, or 6 small) bouncing between lane walls",
+   "evidence": "LEAD",
+   "damage": "hit code 0x26 via HERO_Hit 0x19200 (large one, box |z|<64,|x|<96,|y|<80) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0; ignored while dashing; small ones hit code 0x27 via HERO_Hit 0x19200 (LVL_InSphere r=64) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": "large one hit while dashing (0x3fb20): smashed (16 debris 0x4004, SFX 0xe0a9) and, on tracks != 0 with gs+0x11&8 clear, a kind-8 prize with script 5 (urn: secret counter)",
+   "category": "chase_hazards"
+  },
+  {
+   "kind": "0x002c",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0xee40",
+     "name": "LVL_GntSwordDummySpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0xeeb0",
+     "name": "LVL_GntSwordDummyTick"
+    }
+   },
+   "anim_entry": "00000000905d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 19
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 16,
+    "tracks": [
+     0,
+     2,
+     4,
+     6
+    ],
+    "wx_range": [
+     6621,
+     8597
+    ]
+   },
+   "what": "training dummy with swords (ALIEN1 403-439) sliding across lanes; breaks on contact",
+   "evidence": "VISUAL",
+   "damage": "hit code 0x22 via HERO_Hit 0x19200 (box |z|<32,|x|<32) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 knock-back x-1.0; ignored while dashing",
+   "gives": null,
+   "category": "enemy_animation"
+  },
+  {
+   "kind": "0x002d",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x10b10",
+     "name": "LVL_GntTotemSquadSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x10df0",
+     "name": "LVL_GntTotemSquadTick"
+    }
+   },
+   "anim_entry": "00000000905d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 2,
+    "tracks": [
+     3,
+     4
+    ],
+    "wx_range": [
+     2403,
+     5995
+    ]
+   },
+   "what": "squad of 4 walking totem dummies (ALIEN1 477-523) wandering; each breaks on contact",
+   "evidence": "VISUAL",
+   "damage": "hit code 0x22 via HERO_Hit 0x19200 (box |z|<16,-16<x<32) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 knock-back x-1.0; ignored while dashing",
+   "gives": null,
+   "category": "enemy_animation"
+  },
+  {
+   "kind": "0x002e",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0xf460",
+     "name": "LVL_GntSpinnerSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0xf7b0",
+     "name": "LVL_GntSpinnerTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 23,
+    "tracks": [
+     0,
+     1,
+     4,
+     5,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     4735,
+     14545
+    ]
+   },
+   "what": "rotating obstacle of 4 model-23 pieces (0x402d) in a 2x2 block",
+   "evidence": "LEAD",
+   "damage": "hit code 0x2b via HERO_Hit 0x19200 (box |z|<64 (state 8: |z|<54), |x|<64) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 1.0 away",
+   "gives": null,
+   "category": "chase_hazards"
+  },
+  {
+   "kind": "0x002f",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0xf980",
+     "name": "LVL_GntSlideWallRSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0xfab0",
+     "name": "LVL_GntSlideWallRTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 18,
+    "tracks": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     3283,
+     14677
+    ]
+   },
+   "what": "sliding wall (model 9 + 2 parts 0x402f, 2 wheels 0x3f) that slides +z across the lane and back",
+   "evidence": "LEAD",
+   "damage": "hit code 0x28 via HERO_Hit 0x19200 (box |z|<84, -78<dx<53) -> HERO_ApplyDamage T2 = 20/25/35 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": null,
+   "category": "chase_hazards"
+  },
+  {
+   "kind": "0x0030",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0xfec0",
+     "name": "LVL_GntSlideWallLSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0xffd0",
+     "name": "LVL_GntSlideWallLTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 18,
+    "tracks": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     3285,
+     14677
+    ]
+   },
+   "what": "sliding wall, mirror of 0x2f (slides -z); with 0x2f forms a closing gate",
+   "evidence": "LEAD",
+   "damage": "hit code 0x28 via HERO_Hit 0x19200 (box |z|<84, -78<dx<53) -> HERO_ApplyDamage T2 = 20/25/35 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": null,
+   "category": "props_pickups"
+  },
+  {
+   "kind": "0x0031",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0xe700",
+     "name": "FUN_1000e700"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0xe960",
+     "name": "FUN_1000e960"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x0032",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x113f0",
+     "name": "LVL_GntSharkSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x11470",
+     "name": "LVL_GntSharkTick"
+    }
+   },
+   "anim_entry": "00000000b85d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 10,
+    "tracks": [
+     2,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     3149,
+     12129
+    ]
+   },
+   "what": "shark leaping out of the water (ALIEN1 0,16-26,53-58,167-175)",
+   "evidence": "VISUAL",
+   "damage": "hit code 0x2a via HERO_Hit 0x19200 (sprite overlap 0x1eff0) -> HERO_ApplyDamage T1+T1+T0 = 40/55/85 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "category": "enemy_animation"
+  },
+  {
+   "kind": "0x0033",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x115e0",
+     "name": "FUN_100115e0"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x11630",
+     "name": "FUN_10011630"
+    }
+   },
+   "anim_entry": "00000000b85d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x0035",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0xe020",
+     "name": "LVL_GntStackSwayBackSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0xe2f0",
+     "name": "LVL_GntStackSwayBackTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 15,
+    "tracks": [
+     1,
+     5,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     4433,
+     8759
+    ]
+   },
+   "what": "as 0x2a, falling the other way (angle decreasing)",
+   "evidence": "LEAD",
+   "damage": "hit code 0x2 via HERO_Hit 0x19200 (falling piece box) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "category": "chase_hazards"
+  },
+  {
+   "kind": "0x0036",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x11710",
+     "name": "FUN_10011710"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    }
+   },
+   "anim_entry": "00000000000000000000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x0037",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x11760",
+     "name": "LVL_GntPendulumSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x11a80",
+     "name": "LVL_GntPendulumTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 23,
+    "tracks": [
+     0,
+     1,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     2347,
+     13399
+    ]
+   },
+   "what": "hanging pendulum of 4 segments (models 12,12,12 + 11 weight)",
+   "evidence": "LEAD",
+   "damage": "hit code 0x2c via HERO_Hit 0x19200 (bottom model 11 box |z|<130, |x|<8) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "category": "chase_hazards"
+  },
+  {
+   "kind": "0x0038",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x11d30",
+     "name": "LVL_GntRingTargetSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x11d80",
+     "name": "LVL_GntRingTargetTick"
+    }
+   },
+   "anim_entry": "00000000e05d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 24
+    }
+   },
+   "stub_entry": false,
+   "map": null,
+   "what": "bonus figure above the fire ring (ALIEN1 85-108); poofs (138-156) when the hero jumps through the ring",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "throws a kind-8 prize at the hero with script 1 = blue potion (health +0x20); SFX 0x603e",
+   "category": "props_pickups"
+  },
+  {
+   "kind": "0x0039",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x11e50",
+     "name": "FUN_10011e50"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x11ea0",
+     "name": "FUN_10011ea0"
+    }
+   },
+   "anim_entry": "00000000a85d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x003a",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x11ef0",
+     "name": "LVL_GntPhilSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x11f90",
+     "name": "LVL_GntPhilTick"
+    }
+   },
+   "anim_entry": "00000000c85d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 38
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 11,
+    "tracks": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     1523,
+     14449
+    ]
+   },
+   "what": "Phil (satyr trainer, ALIEN1 646-820) commenting as the hero passes",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "nothing; calls EXE slot 0x850 (0x1faf0) once with: track 0 -> 0x19; track >6 -> 0x1b; else by health gs+0x24 vs max gs+0x1e: full 0x1b, >1/2 0x1a, >1/4 0x16, <=1/4 0x1c",
+   "category": "npc_animation"
+  },
+  {
+   "kind": "0x003b",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x121c0",
+     "name": "FUN_100121c0"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x121f0",
+     "name": "FUN_100121f0"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x003c",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x12200",
+     "name": "LVL_GntFireRingSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x12250",
+     "name": "LVL_GntFireRingTick"
+    }
+   },
+   "anim_entry": "00000000a85d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 8
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 8,
+    "tracks": [
+     0,
+     1,
+     3,
+     4,
+     6
+    ],
+    "wx_range": [
+     4771,
+     12923
+    ]
+   },
+   "what": "flaming ring (ALIEN1 273-280) bobbing on a rope (0x41) with a bonus figure (0x38)",
+   "evidence": "VISUAL",
+   "damage": "hit code 0x40 via HERO_Hit 0x19200 (ring rim: inside |z|<56,|x|<16,-70<y<95 but outside the centre |z|<=39, 8<=y<=75) -> HERO_ApplyDamage T1+T0 = 25/35/55 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": "centre pass (once): hero+0xd8 += 1 and the 0x38 figure releases a health potion",
+   "category": "props_pickups"
+  },
+  {
+   "kind": "0x003d",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x11740",
+     "name": "FUN_10011740"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    }
+   },
+   "anim_entry": "00000000000000000000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x003e",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x12500",
+     "name": "LVL_GntHangingWeightSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x12820",
+     "name": "LVL_GntHangingWeightTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 30,
+    "tracks": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     1471,
+     13759
+    ]
+   },
+   "what": "hanging weight on 4 segments (model 12 x3 + model 21/22), half swing (byte 0) or full swing (byte 1)",
+   "evidence": "LEAD",
+   "damage": "hit code 0x25 via HERO_Hit 0x19200 (GFX_ModelHitbox of the bottom piece, only when it is model 21 (spawn byte 0)) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "category": "chase_hazards"
+  },
+  {
+   "kind": "0x003f",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x12e40",
+     "name": "LVL_GntWheelDecoSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x12e80",
+     "name": "LVL_GntWheelDecoTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 5,
+    "tracks": [
+     0
+    ],
+    "wx_range": [
+     1789,
+     2037
+    ]
+   },
+   "what": "rotating decoration (model 16, or 20 for byte 1); also used as the wheels of 0x2f/0x30",
+   "evidence": "LEAD",
+   "damage": null,
+   "gives": null,
+   "category": "props_pickups"
+  },
+  {
+   "kind": "0x0040",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0xebe0",
+     "name": "LVL_GntPunchBagSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0xec60",
+     "name": "LVL_GntPunchBagTick"
+    }
+   },
+   "anim_entry": "00000000e85d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 9
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 43,
+    "tracks": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     2787,
+     14755
+    ]
+   },
+   "what": "swinging punching bag on a rope (ALIEN1 264-272)",
+   "evidence": "VISUAL",
+   "damage": "hit code 0x23 via HERO_Hit 0x19200 (swing z window +-16 around the arc, |x|<64) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": null,
+   "category": "chase_hazards"
+  },
+  {
+   "kind": "0x0041",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0xee00",
+     "name": "LVL_GntRopeInit"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    }
+   },
+   "anim_entry": "00000000e85d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 1
+    }
+   },
+   "stub_entry": false,
+   "map": null,
+   "what": "rope sprite (frame 637) above the fire ring",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x0042",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x12190",
+     "name": "FUN_10012190"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x121b0",
+     "name": "FUN_100121b0"
+    }
+   },
+   "anim_entry": "00000000000000000000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x0043",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x13010",
+     "name": "LVL_GntGoatWalkerSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x130e0",
+     "name": "LVL_GntGoatWalkerTick"
+    }
+   },
+   "anim_entry": "00000000f05d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 43
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 66,
+    "tracks": [
+     0,
+     1,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     415,
+     14349
+    ]
+   },
+   "what": "wandering goats (ALIEN1 329-389) that flee when the hero approaches",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "npc_animation"
+  },
+  {
+   "kind": "0x0044",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x13330",
+     "name": "LVL_GntChaserDummySpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x133b0",
+     "name": "LVL_GntChaserDummyTick"
+    }
+   },
+   "anim_entry": "00000000905d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 19
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 13,
+    "tracks": [
+     0,
+     1,
+     3,
+     4,
+     6
+    ],
+    "wx_range": [
+     3205,
+     16217
+    ]
+   },
+   "what": "training dummy that homes on the hero lane (ALIEN1 403-439); breaks on contact",
+   "evidence": "VISUAL",
+   "damage": "hit code 0x22 via HERO_Hit 0x19200 (box |z|<32,|x|<32) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 knock-back x-1.0; ignored while dashing",
+   "gives": null,
+   "category": "enemy_animation"
+  },
+  {
+   "kind": "0x0045",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x13a40",
+     "name": "LVL_GntHerdGoatSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x13a90",
+     "name": "LVL_GntHerdGoatTick"
+    }
+   },
+   "anim_entry": "00000000905d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 9
+    }
+   },
+   "stub_entry": false,
+   "map": null,
+   "what": "goat in a herd crossing diagonally (first one ALIEN1 821-828)",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "npc_animation"
+  },
+  {
+   "kind": "0x0046",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x13840",
+     "name": "LVL_GntHerdSourceInit"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x13860",
+     "name": "LVL_GntHerdSourceTick"
+    }
+   },
+   "anim_entry": "00000000905d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 1,
+    "tracks": [
+     0
+    ],
+    "wx_range": [
+     1913,
+     1913
+    ]
+   },
+   "what": "goat-herd source near the start; scrolls VRAM texture 1 every tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "npc_animation"
+  },
+  {
+   "kind": "0x0047",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x13b30",
+     "name": "LVL_GntGoatIdleSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x13c10",
+     "name": "LVL_GntGoatIdleTick"
+    }
+   },
+   "anim_entry": "00000000f05d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 12
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 145,
+    "tracks": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     1069,
+     16077
+    ]
+   },
+   "what": "idle goats (ALIEN1 354-365)",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "npc_animation"
+  },
+  {
+   "kind": "0x0048",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x12be0",
+     "name": "LVL_GntSweeperSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x12c40",
+     "name": "LVL_GntSweeperTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 15,
+    "tracks": [
+     0,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     2955,
+     12683
+    ]
+   },
+   "what": "rotating two-arm sweeper (model 24)",
+   "evidence": "LEAD",
+   "damage": "hit code 0x2d via HERO_Hit 0x19200 (arm ends box z+-64, y+-110, x+-94) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "category": "chase_hazards"
+  },
+  {
+   "kind": "0x0049",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x13cb0",
+     "name": "LVL_GntEndPostSpawn"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x2a090",
+     "name": "LVL_EndPostTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 3,
+    "tracks": [
+     0,
+     1,
+     2
+    ],
+    "wx_range": [
+     15101,
+     15121
+    ]
+   },
+   "what": "end post (model 25) near the finish (x 15101-15121)",
+   "evidence": "LEAD",
+   "damage": "hit code 0x35 via HERO_Hit 0x19200 (touch +-32, once) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 z push 3.5/3.0 by side",
+   "gives": null,
+   "category": "props_pickups"
+  },
+  {
+   "kind": "0x004a",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x13d00",
+     "name": "LVL_GntDustTrailInit"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x13d30",
+     "name": "LVL_GntDustTrailTick"
+    }
+   },
+   "anim_entry": "00000000085e03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 8
+    }
+   },
+   "stub_entry": false,
+   "map": null,
+   "what": "dust trail under the dummies (ALIEN1 596-603)",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x004b",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x13d70",
+     "name": "LVL_GntEndSceneryInit"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x13e00",
+     "name": "LVL_StaticTick"
+    }
+   },
+   "anim_entry": "00000000000000000000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 6,
+    "tracks": [
+     0,
+     1,
+     2
+    ],
+    "wx_range": [
+     15443,
+     15707
+    ]
+   },
+   "what": "finish scenery (models 28/29/30 by spawn byte, z = 0)",
+   "evidence": "LEAD",
+   "damage": null,
+   "gives": null,
+   "category": "props_pickups"
+  },
+  {
+   "kind": "0x004c",
+   "class": "actor",
+   "entry": {
+    "spawn": {
+     "rva": "0x13e30",
+     "name": "FUN_10013e30"
+    },
+    "stub": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "update": {
+     "rva": "0x13ea0",
+     "name": "FUN_10013ea0"
+    }
+   },
+   "anim_entry": "00000000a85d03100000000003000000",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x4001",
+   "class": "marker",
+   "entry": {
+    "init": {
+     "rva": "0x14c30",
+     "name": "LVL_DebrisInit"
+    },
+    "tick": {
+     "rva": "0x14d40",
+     "name": "LVL_DebrisTick"
+    }
+   },
+   "anim_entry": "0000000000000000",
+   "bank": null,
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 7
+    }
+   },
+   "stub_entry": false,
+   "map": null,
+   "what": "debris piece (thrown frame) with bounce",
+   "evidence": "VERIFIED-STATIC",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x4002",
+   "class": "marker",
+   "entry": {
+    "init": {
+     "rva": "0x14d90",
+     "name": "LVL_RockShardInit"
+    },
+    "tick": {
+     "rva": "0x14f00",
+     "name": "LVL_RockShardTick"
+    }
+   },
+   "anim_entry": "d07a031000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "what": "debris shard marker. On CYCLOPS it is a tumbling stone chunk (PEOPLE 284-290, script 0x37658, 1 tick per frame, loop): the 4 pieces of the Cyclops's thrown rock",
+   "evidence": "VISUAL (PEOPLE 284-290 = orange stone wedges)",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x4003",
+   "class": "marker",
+   "entry": {
+    "init": {
+     "rva": "0x14fd0",
+     "name": "LVL_CycStoneChunkInit"
+    },
+    "tick": {
+     "rva": "0x15110",
+     "name": "LVL_CycStoneChunkTick"
+    }
+   },
+   "anim_entry": "0000000000000600",
+   "bank": {
+    "id": 6,
+    "path": "P:\\SRC3\\ALIEN1\\PEOPLE"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "what": "stone chunk debris (same PEOPLE 284-290 script 0x37658) for CYCLOPS boulders 0x2a and columns 0x2b/0x2e",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x4004",
+   "class": "marker",
+   "entry": {
+    "init": {
+     "rva": "0x15170",
+     "name": "FUN_10015170"
+    },
+    "tick": {
+     "rva": "0x152c0",
+     "name": "FUN_100152c0"
+    }
+   },
+   "anim_entry": "0000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x4029",
+   "class": "marker",
+   "entry": {
+    "init": {
+     "rva": "0xf3a0",
+     "name": "FUN_1000f3a0"
+    },
+    "tick": {
+     "rva": "0xf3d0",
+     "name": "FUN_1000f3d0"
+    }
+   },
+   "anim_entry": "0000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x402d",
+   "class": "marker",
+   "entry": {
+    "init": {
+     "rva": "0xf650",
+     "name": "FUN_1000f650"
+    },
+    "tick": {
+     "rva": "0xf780",
+     "name": "FUN_1000f780"
+    }
+   },
+   "anim_entry": "0000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x402e",
+   "class": "marker",
+   "entry": {
+    "init": {
+     "rva": "0xe790",
+     "name": "FUN_1000e790"
+    },
+    "tick": {
+     "rva": "0xe7b0",
+     "name": "FUN_1000e7b0"
+    }
+   },
+   "anim_entry": "a85d031000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x402f",
+   "class": "marker",
+   "entry": {
+    "init": {
+     "rva": "0xf400",
+     "name": "FUN_1000f400"
+    },
+    "tick": {
+     "rva": "0xf430",
+     "name": "FUN_1000f430"
+    }
+   },
+   "anim_entry": "0000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x2002",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14270",
+     "name": "LVL_ModelShadowInit"
+    },
+    "tick": {
+     "rva": "0x142b0",
+     "name": "LVL_ModelShadowTick"
+    }
+   },
+   "anim_entry": "307b031000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": {
+    "spawns": 42,
+    "drawn": {
+     "P:\\SRC3\\HERO\\HERCULES": 3
+    }
+   },
+   "stub_entry": false,
+   "map": null,
+   "what": "ground shadow under model objects (bank 1 frames 205-207)",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x200b",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x165f0",
+     "name": "LVL_PegasusCheckpointInit"
+    },
+    "tick": {
+     "rva": "0x16670",
+     "name": "LVL_PegasusCheckpointTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\HERO\\HERCULES": 15
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 1,
+    "tracks": [
+     0
+    ],
+    "wx_range": [
+     1009,
+     1009
+    ]
+   },
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 1; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "gs+2 = 1",
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x200c",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x165f0",
+     "name": "LVL_PegasusCheckpointInit"
+    },
+    "tick": {
+     "rva": "0x16670",
+     "name": "LVL_PegasusCheckpointTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\HERO\\HERCULES": 6
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 1,
+    "tracks": [
+     1
+    ],
+    "wx_range": [
+     1483,
+     1483
+    ]
+   },
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 2; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "gs+2 = 2",
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x200d",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x165f0",
+     "name": "LVL_PegasusCheckpointInit"
+    },
+    "tick": {
+     "rva": "0x16670",
+     "name": "LVL_PegasusCheckpointTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": {
+    "spawns": 0,
+    "drawn": {
+     "P:\\SRC3\\HERO\\HERCULES": 6
+    }
+   },
+   "stub_entry": false,
+   "map": {
+    "count": 1,
+    "tracks": [
+     2
+    ],
+    "wx_range": [
+     1369,
+     1369
+    ]
+   },
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 3; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "gs+2 = 3",
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x200e",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x165f0",
+     "name": "LVL_PegasusCheckpointInit"
+    },
+    "tick": {
+     "rva": "0x16670",
+     "name": "LVL_PegasusCheckpointTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 1,
+    "tracks": [
+     3
+    ],
+    "wx_range": [
+     1293,
+     1293
+    ]
+   },
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 4; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "gs+2 = 4",
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x200f",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x165f0",
+     "name": "LVL_PegasusCheckpointInit"
+    },
+    "tick": {
+     "rva": "0x16670",
+     "name": "LVL_PegasusCheckpointTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 1,
+    "tracks": [
+     4
+    ],
+    "wx_range": [
+     1485,
+     1485
+    ]
+   },
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 5; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "gs+2 = 5",
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x2010",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x165f0",
+     "name": "LVL_PegasusCheckpointInit"
+    },
+    "tick": {
+     "rva": "0x16670",
+     "name": "LVL_PegasusCheckpointTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 1,
+    "tracks": [
+     5
+    ],
+    "wx_range": [
+     993,
+     993
+    ]
+   },
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 6; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "gs+2 = 6",
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x2011",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x165f0",
+     "name": "LVL_PegasusCheckpointInit"
+    },
+    "tick": {
+     "rva": "0x16670",
+     "name": "LVL_PegasusCheckpointTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 1,
+    "tracks": [
+     6
+    ],
+    "wx_range": [
+     1465,
+     1465
+    ]
+   },
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 7; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "gs+2 = 7",
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x2012",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x165f0",
+     "name": "LVL_PegasusCheckpointInit"
+    },
+    "tick": {
+     "rva": "0x16670",
+     "name": "LVL_PegasusCheckpointTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 1; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "gs+2 = 1",
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x2013",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x165f0",
+     "name": "LVL_PegasusCheckpointInit"
+    },
+    "tick": {
+     "rva": "0x16670",
+     "name": "LVL_PegasusCheckpointTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 1; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "gs+2 = 1",
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x2014",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x165f0",
+     "name": "LVL_PegasusCheckpointInit"
+    },
+    "tick": {
+     "rva": "0x16670",
+     "name": "LVL_PegasusCheckpointTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 1; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": "gs+2 = 1",
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x2015",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14a80",
+     "name": "FUN_10014a80"
+    },
+    "tick": {
+     "rva": "0x14ad0",
+     "name": "FUN_10014ad0"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x2016",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14b30",
+     "name": "LVL_DustPuffInit"
+    },
+    "tick": {
+     "rva": "0x14bb0",
+     "name": "LVL_DustPuffTick"
+    }
+   },
+   "anim_entry": "0000000000000600",
+   "bank": {
+    "id": 6,
+    "path": "P:\\SRC3\\ALIEN1\\PEOPLE"
+   },
+   "runtime": {
+    "spawns": 21,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 14
+    }
+   },
+   "stub_entry": false,
+   "map": null,
+   "what": "explosion/dust puff (GAUNTLET bank 3 frames 604-616; CYCLOPS bank 6 209-221; TORMENT bank 4 180-192)",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x2017",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x145a0",
+     "name": "LVL_SpriteShadowInit"
+    },
+    "tick": {
+     "rva": "0x145d0",
+     "name": "LVL_SpriteShadowTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": {
+    "spawns": 158,
+    "drawn": {
+     "P:\\SRC3\\ALIEN1\\ALIEN1": 26
+    }
+   },
+   "stub_entry": false,
+   "map": null,
+   "what": "sprite drop shadow (parent frame flattened on the ground)",
+   "evidence": "VERIFIED-STATIC",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x2018",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14820",
+     "name": "LVL_WaterShadowInit"
+    },
+    "tick": {
+     "rva": "0x14850",
+     "name": "LVL_WaterShadowTick"
+    }
+   },
+   "anim_entry": "0000000000000100",
+   "bank": {
+    "id": 1,
+    "path": "P:\\SRC3\\HERO\\HERCULES"
+   },
+   "runtime": {
+    "spawns": 6,
+    "drawn": {
+     "P:\\SRC3\\HERO\\HERCULES": 55
+    }
+   },
+   "stub_entry": false,
+   "map": null,
+   "what": "sprite shadow that also lies on the water level 0x410e0",
+   "evidence": "VERIFIED-STATIC",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x2019",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "tick": {
+     "rva": "0x1b890",
+     "name": "LVL_CamMarkerMaxTick"
+    }
+   },
+   "anim_entry": "0000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 10,
+    "tracks": [
+     2,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     2477,
+     11395
+    ]
+   },
+   "what": "camera marker: max of obj+0xe while on screen -> 0x3fb88, 0x3fb8c = 1",
+   "evidence": "VERIFIED-STATIC",
+   "damage": null,
+   "gives": null,
+   "category": "collision_camera"
+  },
+  {
+   "kind": "0x201a",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x2390",
+     "name": "RT_StubVoid"
+    },
+    "tick": {
+     "rva": "0x1b8c0",
+     "name": "LVL_CamMarkerMinTick"
+    }
+   },
+   "anim_entry": "0000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": {
+    "count": 10,
+    "tracks": [
+     2,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "wx_range": [
+     3767,
+     12853
+    ]
+   },
+   "what": "camera marker: min of obj+0xe while on screen -> 0x38520, 0x3fb8c = 1",
+   "evidence": "VERIFIED-STATIC",
+   "damage": null,
+   "gives": null,
+   "category": "collision_camera"
+  },
+  {
+   "kind": "0x201b",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x168b0",
+     "name": "LVL_SparkleInit"
+    },
+    "tick": {
+     "rva": "0x168f0",
+     "name": "LVL_SparkleTick"
+    }
+   },
+   "anim_entry": "0000000000000000",
+   "bank": null,
+   "runtime": {
+    "spawns": 900,
+    "drawn": {
+     "P:\\SRC3\\HERO\\HERCULES": 2
+    }
+   },
+   "stub_entry": false,
+   "map": null,
+   "what": "checkpoint sparkle",
+   "evidence": "VERIFIED-STATIC",
+   "damage": null,
+   "gives": null,
+   "category": "checkpoint_state"
+  },
+  {
+   "kind": "0x2029",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14270",
+     "name": "LVL_ModelShadowInit"
+    },
+    "tick": {
+     "rva": "0x142b0",
+     "name": "LVL_ModelShadowTick"
+    }
+   },
+   "anim_entry": "307b031000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "what": "ground shadow under model objects (bank 1 frames 205-207)",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x2033",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14190",
+     "name": "FUN_10014190"
+    },
+    "tick": {
+     "rva": "0x14200",
+     "name": "FUN_10014200"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x2034",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14190",
+     "name": "FUN_10014190"
+    },
+    "tick": {
+     "rva": "0x14200",
+     "name": "FUN_10014200"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x2035",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14190",
+     "name": "FUN_10014190"
+    },
+    "tick": {
+     "rva": "0x14200",
+     "name": "FUN_10014200"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x2036",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14190",
+     "name": "FUN_10014190"
+    },
+    "tick": {
+     "rva": "0x14200",
+     "name": "FUN_10014200"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x2037",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14190",
+     "name": "FUN_10014190"
+    },
+    "tick": {
+     "rva": "0x14200",
+     "name": "FUN_10014200"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x2038",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14190",
+     "name": "FUN_10014190"
+    },
+    "tick": {
+     "rva": "0x14200",
+     "name": "FUN_10014200"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x2039",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14190",
+     "name": "FUN_10014190"
+    },
+    "tick": {
+     "rva": "0x14200",
+     "name": "FUN_10014200"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x203a",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14190",
+     "name": "FUN_10014190"
+    },
+    "tick": {
+     "rva": "0x14200",
+     "name": "FUN_10014200"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x203b",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14190",
+     "name": "FUN_10014190"
+    },
+    "tick": {
+     "rva": "0x14200",
+     "name": "FUN_10014200"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x203c",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14190",
+     "name": "FUN_10014190"
+    },
+    "tick": {
+     "rva": "0x14200",
+     "name": "FUN_10014200"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x203d",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14a80",
+     "name": "FUN_10014a80"
+    },
+    "tick": {
+     "rva": "0x14ad0",
+     "name": "FUN_10014ad0"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "category": null
+  },
+  {
+   "kind": "0x203e",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x14b30",
+     "name": "LVL_DustPuffInit"
+    },
+    "tick": {
+     "rva": "0x14bb0",
+     "name": "LVL_DustPuffTick"
+    }
+   },
+   "anim_entry": "0000000000000300",
+   "bank": {
+    "id": 3,
+    "path": "P:\\SRC3\\ALIEN1\\ALIEN1"
+   },
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "what": "explosion/dust puff (GAUNTLET bank 3 frames 604-616; CYCLOPS bank 6 209-221; TORMENT bank 4 180-192)",
+   "evidence": "VISUAL",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  },
+  {
+   "kind": "0x203f",
+   "class": "pickup",
+   "entry": {
+    "init": {
+     "rva": "0x145a0",
+     "name": "LVL_SpriteShadowInit"
+    },
+    "tick": {
+     "rva": "0x145d0",
+     "name": "LVL_SpriteShadowTick"
+    }
+   },
+   "anim_entry": "0000000000000000",
+   "bank": null,
+   "runtime": null,
+   "stub_entry": false,
+   "map": null,
+   "what": "sprite drop shadow (parent frame flattened on the ground)",
+   "evidence": "VERIFIED-STATIC",
+   "damage": null,
+   "gives": null,
+   "category": "fx_projectiles"
+  }
+ ]
+}

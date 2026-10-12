@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Full-game capture scenario",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "scenario_id",
+    "level_id",
+    "level_slug",
+    "public_title",
+    "internal_level_id",
+    "engine",
+    "scenario_type",
+    "scene_group",
+    "difficulty",
+    "required",
+    "entry_method",
+    "route_actions",
+    "checkpoints",
+    "expected_asset_categories",
+    "capture_boundaries",
+    "evidence",
+    "coverage"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "scenario_id": {
+      "type": "string",
+      "pattern": "^L[0-9]{2}\\.[a-z0-9-]+$"
+    },
+    "level_id": {
+      "type": "string",
+      "pattern": "^L[0-9]{2}$"
+    },
+    "level_slug": {
+      "type": "string"
+    },
+    "public_title": {
+      "type": "string"
+    },
+    "internal_level_id": {
+      "type": "integer"
+    },
+    "engine": {
+      "enum": [
+        "ENG1.DLL",
+        "ENG3.DLL"
+      ]
+    },
+    "scenario_type": {
+      "enum": [
+        "scene",
+        "progression",
+        "difficulty_comparison",
+        "availability",
+        "legacy_demo"
+      ]
+    },
+    "scene_group": {
+      "type": "string"
+    },
+    "difficulty": {
+      "enum": [
+        "Beginner",
+        "Medium",
+        "Herculean",
+        "Unknown"
+      ]
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "entry_method": {
+      "type": "object",
+      "required": [
+        "primary",
+        "description",
+        "prerequisites",
+        "verification_status"
+      ]
+    },
+    "route_actions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "step",
+          "action"
+        ]
+      }
+    },
+    "checkpoints": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "condition",
+          "status"
+        ]
+      }
+    },
+    "expected_asset_categories": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "boss_animation",
+          "chase_hazards",
+          "checkpoint_state",
+          "collision_camera",
+          "depth_routes",
+          "ending_media",
+          "enemy_animation",
+          "flight_animation",
+          "fx_projectiles",
+          "hero_animation",
+          "hud_score",
+          "loading_tally",
+          "map_layers_tiles",
+          "music_transport",
+          "npc_animation",
+          "palette_clut",
+          "props_pickups",
+          "script_triggers",
+          "sfx_esf_sonix"
+        ]
+      }
+    },
+    "capture_boundaries": {
+      "type": "object",
+      "required": [
+        "start",
+        "scene_start",
+        "scene_end",
+        "stop",
+        "streams"
+      ]
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "status",
+        "reference_status",
+        "source_ids",
+        "runs",
+        "trace_intervals"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "PLANNED",
+            "REFERENCED",
+            "CAPTURED",
+            "TRACED",
+            "VERIFIED",
+            "PARTIAL",
+            "FAILED_ENTRY",
+            "UNAVAILABLE_BY_DESIGN"
+          ]
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "capture",
+        "trace",
+        "asset_extraction",
+        "gameplay_specification"
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "scenario_type": {
+            "const": "legacy_demo"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "difficulty": {
+            "enum": [
+              "Beginner",
+              "Medium",
+              "Herculean"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

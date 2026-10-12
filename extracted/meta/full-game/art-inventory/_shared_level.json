@@ -1,0 +1,45 @@
+{
+ "_doc": "Per-level art inventory (full-game S7.01) -> extracted/meta/full-game/art-inventory/<DIR>.json. See tools/hires/inventory.py.",
+ "name": "_shared_level",
+ "keys": 1,
+ "by_family": {
+  "level": 1,
+  "ui": 1
+ },
+ "items": [
+  {
+   "key": "fa0cb157407b6c62",
+   "w": 24,
+   "h": 1,
+   "file": "fa0cb157407b6c62_24x1.png",
+   "module": "ENG1",
+   "first_frame": 1560,
+   "screen_xy": [
+    278,
+    38
+   ],
+   "sources": [
+    {
+     "family": "level",
+     "id": "level/FOREST",
+     "rect": [
+      256,
+      0,
+      24,
+      1
+     ]
+    },
+    {
+     "family": "ui",
+     "id": "ui/STPANEL1",
+     "rect": [
+      200,
+      17,
+      24,
+      1
+     ]
+    }
+   ]
+  }
+ ]
+}

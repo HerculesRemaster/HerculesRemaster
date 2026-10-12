@@ -1,0 +1,23 @@
+{
+ "_doc": "Descriptor-referenced ENG3 strings read from the raw bytes of backups/originals/ENG3.DLL (S3.02). Ghidra's list_strings (strings.json) misses O:\\CYCLOPS\\ because it has no defined string data there.",
+ "strings": [
+  {
+   "address": "10038660",
+   "value": "O:\\GAUNTLET\\",
+   "length": 12,
+   "referenced_by": "descriptor 0x38558 +0 (level 2)"
+  },
+  {
+   "address": "10038654",
+   "value": "O:\\CYCLOPS\\",
+   "length": 11,
+   "referenced_by": "descriptor 0x385e8 +0 (level 8)"
+  },
+  {
+   "address": "10038648",
+   "value": "O:\\TORMENT\\",
+   "length": 11,
+   "referenced_by": "descriptor 0x38618 +0 (level 10)"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+[
+ {
+  "name": "Headers",
+  "start": "10000000",
+  "end": "100003ff",
+  "size": 1024,
+  "readable": true,
+  "writable": false,
+  "executable": false,
+  "initialized": true
+ },
+ {
+  "name": ".text",
+  "start": "10001000",
+  "end": "1004bfff",
+  "size": 307200,
+  "readable": true,
+  "writable": false,
+  "executable": true,
+  "initialized": true
+ },
+ {
+  "name": ".rdata",
+  "start": "1004c000",
+  "end": "1004cbff",
+  "size": 3072,
+  "readable": true,
+  "writable": false,
+  "executable": false,
+  "initialized": true
+ },
+ {
+  "name": ".data",
+  "start": "1004d000",
+  "end": "10074657",
+  "size": 161368,
+  "readable": true,
+  "writable": true,
+  "executable": false,
+  "initialized": true
+ },
+ {
+  "name": ".idata",
+  "start": "10075000",
+  "end": "100755ff",
+  "size": 1536,
+  "readable": true,
+  "writable": true,
+  "executable": false,
+  "initialized": true
+ },
+ {
+  "name": ".reloc",
+  "start": "10076000",
+  "end": "1007d9ff",
+  "size": 31232,
+  "readable": true,
+  "writable": false,
+  "executable": false,
+  "initialized": true
+ }
+]

@@ -1,0 +1,6 @@
+[submodule "ghidra-mcp"]
+	path = ghidra-mcp
+	url = https://github.com/bethington/ghidra-mcp.git
+[submodule "x64dbg"]
+	path = x64dbg
+	url = https://github.com/x64dbg/x64dbg.git

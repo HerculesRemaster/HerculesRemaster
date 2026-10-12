@@ -1,0 +1,18 @@
+{
+    "mcpServers": {
+        "ghidra-mcp": {
+            "command": "C:\\Users\\Thanh\\.local\\bin\\uv.exe",
+            "args": [
+                "run",
+                "--directory",
+                "C:\\Games\\GameHercules\\ghidra-mcp",
+                "bridge-mcp-ghidra",
+                "--transport",
+                "stdio"
+            ],
+            "env": {
+                "GHIDRA_MCP_URL": "http://127.0.0.1:8089"
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+ "program": "TITLE.DLL",
+ "status": "success",
+ "address": "1000c3d0",
+ "name": "FUN_1000c3d0",
+ "decompiled": "\r\nvoid __cdecl FUN_1000c3d0(undefined4 param_1,undefined4 param_2)\r\n\r\n{\r\n  (*DAT_1002bba4)(param_1,param_2);\r\n  return;\r\n}\r\n\r\n"
+}

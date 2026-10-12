@@ -1,0 +1,62 @@
+{
+ "programs": [
+  {
+   "name": "HERCULES.EXE",
+   "path": "/HERCULES.EXE",
+   "is_current": false,
+   "executable_path": "/C:/Games/GameHercules/HERCULES.EXE",
+   "language": "x86:LE:32:default",
+   "compiler": "windows",
+   "image_base": "00400000",
+   "memory_size": 8035112,
+   "function_count": 1513,
+   "has_multiple_address_spaces": false,
+   "has_overlay_spaces": false,
+   "overlay_space_count": 0
+  },
+  {
+   "name": "ENG1.DLL",
+   "path": "/ENG1.DLL",
+   "is_current": false,
+   "executable_path": "/C:/Games/GameHercules/Remaster/backups/originals/ENG1.DLL",
+   "language": "x86:LE:32:default",
+   "compiler": "windows",
+   "image_base": "10000000",
+   "memory_size": 505432,
+   "function_count": 1050,
+   "has_multiple_address_spaces": false,
+   "has_overlay_spaces": false,
+   "overlay_space_count": 0
+  },
+  {
+   "name": "ENG3.DLL",
+   "path": "/ENG3.DLL",
+   "is_current": false,
+   "executable_path": "/C:/Games/GameHercules/Remaster/backups/originals/ENG3.DLL",
+   "language": "x86:LE:32:default",
+   "compiler": "windows",
+   "image_base": "10000000",
+   "memory_size": 293172,
+   "function_count": 670,
+   "has_multiple_address_spaces": false,
+   "has_overlay_spaces": false,
+   "overlay_space_count": 0
+  },
+  {
+   "name": "TITLE.DLL",
+   "path": "/TITLE.DLL",
+   "is_current": true,
+   "executable_path": "/C:/Games/GameHercules/Remaster/backups/originals/TITLE.DLL",
+   "language": "x86:LE:32:default",
+   "compiler": "windows",
+   "image_base": "10000000",
+   "memory_size": 205048,
+   "function_count": 446,
+   "has_multiple_address_spaces": false,
+   "has_overlay_spaces": false,
+   "overlay_space_count": 0
+  }
+ ],
+ "count": 4,
+ "current_program": "TITLE.DLL"
+}

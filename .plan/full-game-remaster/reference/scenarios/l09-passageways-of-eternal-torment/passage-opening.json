@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "scenario_id": "L09.passage-opening",
+  "level_id": "L09",
+  "level_slug": "l09-passageways-of-eternal-torment",
+  "public_title": "Passageways of Eternal Torment",
+  "internal_level_id": 10,
+  "engine": "ENG3.DLL",
+  "scenario_type": "scene",
+  "scene_group": "Opening torment passage",
+  "difficulty": "Medium",
+  "required": true,
+  "entry_method": {
+    "primary": "linked_new_game_progression",
+    "description": "Enter L09 on Medium from a new game or the linked preceding level; navigate to the scene before marking its interval.",
+    "alternatives_after_verification": [
+      "accepted_password",
+      "unlocked_F3_level_select",
+      "recorded_input_replay",
+      "verified_checkpoint_retry"
+    ],
+    "parameters": {
+      "password_icons": null,
+      "checkpoint_id": null,
+      "input_recording": null
+    },
+    "prerequisites": [
+      "P2F fullscreen-4K prerequisite passed",
+      "canonical build/archive hashes match",
+      "one game process",
+      "record actual difficulty/controls/initial state"
+    ],
+    "verification_status": "PENDING_RUNTIME"
+  },
+  "route_actions": [
+    {
+      "step": 1,
+      "action": "Begin tracing/capture before entry or verified checkpoint restore; log resident resources and initial state."
+    },
+    {
+      "step": 2,
+      "action": "Enter on Medium, record chase/route initialization and first passage hazards."
+    },
+    {
+      "step": 3,
+      "action": "Record exact scene IDs, camera/route, input/tick sequence, assets and event outcomes; retain the following transition."
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "entry",
+      "kind": "observation_boundary",
+      "condition": "Actual level entry/restore request",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "scene-start",
+      "kind": "observation_boundary",
+      "condition": "First frame/state of the targeted scene",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "event",
+      "kind": "observation_boundary",
+      "condition": "Opening torment passage event/action result",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "exit",
+      "kind": "observation_boundary",
+      "condition": "First observed passage section boundary",
+      "game_checkpoint_id": null,
+      "tick": null,
+      "status": "UNRESOLVED"
+    }
+  ],
+  "expected_asset_categories": [
+    "chase_hazards",
+    "collision_camera",
+    "hero_animation",
+    "hud_score",
+    "map_layers_tiles",
+    "music_transport",
+    "palette_clut",
+    "sfx_esf_sonix"
+  ],
+  "expected_assets_status": "CANDIDATES_UNTIL_OBSERVED",
+  "capture_boundaries": {
+    "start": {
+      "condition": "Before entry/load or verified restore request",
+      "tick": null
+    },
+    "scene_start": {
+      "condition": "First targeted scene frame/state",
+      "tick": null
+    },
+    "scene_end": {
+      "condition": "First observed passage section boundary",
+      "tick": null
+    },
+    "stop": {
+      "condition": "After result and following transition/unload are logged",
+      "tick": null
+    },
+    "streams": [
+      "lossless game pixels/palette",
+      "frame-to-tick index",
+      "input pad bits",
+      "audio and timestamp origin",
+      "resource/decoder/consumer events",
+      "checkpoint/state events"
+    ],
+    "display": "Keep P2F proxy; record fullscreen/windowed capture override separately from the completed 4K prerequisite."
+  },
+  "differential_trace_policy": {
+    "compare_difficulties": [
+      "Herculean"
+    ],
+    "matched_state": [
+      "route/actions",
+      "entry/checkpoint",
+      "controls",
+      "health/lives/power-ups",
+      "RNG/state when recovered",
+      "capture boundaries"
+    ],
+    "expand_when": "Resource/variant, spawn, damage, timing, route, phase or progression differs.",
+    "unknown_differences": "Remain pending; do not assume equality."
+  },
+  "evidence": {
+    "status": "PARTIAL",
+    "reference_status": "REFERENCED",
+    "source_ids": [
+      "windows-manual",
+      "build-static-map"
+    ],
+    "source_locator": "The World of Hercules / How to Play / relevant named level",
+    "runs": [
+      {
+        "run_id": "20261012-081627-cheat_select-medium",
+        "path": "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+        "entry": "cheat_select",
+        "debug_only": false,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 5124
+        }
+      }
+    ],
+    "captures": [],
+    "trace_intervals": [
+      {
+        "run_id": "20261012-081627-cheat_select-medium",
+        "level_load_tick": 3996,
+        "last_tick": 5124,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      }
+    ],
+    "asset_associations": [],
+    "gameplay_specifications": []
+  },
+  "coverage": {
+    "capture": "PENDING",
+    "trace": "PARTIAL",
+    "asset_extraction": "PENDING",
+    "gameplay_specification": "PENDING"
+  },
+  "open_questions": [
+    "Recover exact route/checkpoint/scene IDs and tick/event bounds from this build.",
+    "Confirm candidate asset categories and split additional observed phases/routes into stable scenarios."
+  ]
+}

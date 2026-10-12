@@ -1,0 +1,11 @@
+{
+ "program": "ENG1.DLL",
+ "references_by_address": {
+  "1005a6f4": [],
+  "1005a6f8": [],
+  "1005a6fc": [],
+  "1005a700": [],
+  "1005a704": []
+ },
+ "count": 5
+}

@@ -1,0 +1,7 @@
+{
+ "program": "ENG3.DLL",
+ "status": "success",
+ "address": "1001fa20",
+ "name": "FUN_1001fa20",
+ "decompiled": "\r\nvoid __cdecl\r\nFUN_1001fa20(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)\r\n\r\n{\r\n  (*DAT_10040808)(param_1,param_2,param_3,param_4);\r\n  return;\r\n}\r\n\r\n"
+}

@@ -1,0 +1,932 @@
+{
+ "schema_version": 1,
+ "plan_status": "deferred",
+ "platform": "Windows x86 canonical local build",
+ "source_sha256": {
+  "HERCULES.EXE": "b3ab3ee9e5c973bb245d8eed795e8e7065d7dfc371e412e602b2059af894a551",
+  "ENG1.DLL": "01b78ae814892007bb6031b2470f10e09bdd912fdb8d30de9f4cfea7c638f757",
+  "ENG3.DLL": "aefa1147deae55c4cb2290282f5142df00baa49a9cd59f671f7a3ce5b8b7fca7",
+  "TITLE.DLL": "b17a37fb1bd5002c54cedb6dba1509bc1ca2d8483fa9724d8e4ade04fe79188b",
+  "HERCULES.FS": "affa380e45918448895932cd466ea9a02096b8dcf08644f91b9da5ec34cd48b4"
+ },
+ "path_roots": {
+  "plan": ".plan/full-game-remaster",
+  "workspace": ".",
+  "new_trace_outputs": "analysis/traces/full-game",
+  "new_media_outputs": "reference/captures/full-game"
+ },
+ "progression": {
+  "difficulty": "Medium",
+  "level_order": [
+   "L01",
+   "L02",
+   "L03",
+   "L04",
+   "L05",
+   "L06",
+   "L07",
+   "L08",
+   "L09",
+   "L10"
+  ],
+  "required_endpoint": "L10 completion and ending",
+  "beginner_unavailable": [
+   "L09",
+   "L10"
+  ],
+  "runtime_verification": "PENDING"
+ },
+ "levels": [
+  {
+   "level_id": "L01",
+   "slug": "l01-your-basic-did",
+   "public_title": "Your Basic D.I.D.",
+   "internal_level_id": 1,
+   "internal_label": "TRAINING GROUND",
+   "engine": "ENG1.DLL",
+   "archive_directory": "M:\\GRAFIX\\MAPS\\TRAINING\\",
+   "maps": {
+    "bin": {
+     "index": 565,
+     "id": "5ED398E4",
+     "offset": 26744020,
+     "size": 1259520,
+     "sha256": "4529e134ee5d4c61949f104ae7f01bfa09ca8c0d3f1492de0ac769e682c7761e",
+     "magic": "69322e35",
+     "file": "extracted/raw/0565_5ED398E4.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.BIN"
+    },
+    "cif": {
+     "index": 564,
+     "id": "5ECB98E5",
+     "offset": 39386162,
+     "size": 336384,
+     "sha256": "3cef394222de36e89121f86afe5e03a3222acb73edce932f82867f8508e64b82",
+     "magic": "00000005",
+     "file": "extracted/raw/0564_5ECB98E5.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.CIF"
+    }
+   },
+   "load_routines": {
+    "map": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f750"
+    },
+    "stream_chunk": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f9e0"
+    },
+    "palette": {
+     "program": "HERCULES.EXE",
+     "rva": "0x5760",
+     "selector_id": 1,
+     "path_string_rva": "0x36744"
+    },
+    "module_request": {
+     "program": "TITLE.DLL",
+     "rva": "0x16300"
+    },
+    "host_module_change": {
+     "program": "HERCULES.EXE",
+     "rva": "0x4040"
+    }
+   },
+   "descriptors": {
+    "engine_table_entry_rva": "0x5a6a8",
+    "title_descriptor_rva": "0x234bc",
+    "title_module_pointer_rva": "0x2228c"
+   },
+   "difficulty": {
+    "baseline": "Medium",
+    "playable": [
+     "Beginner",
+     "Medium",
+     "Herculean"
+    ],
+    "availability_source": "Windows manual; build-runtime check pending"
+   },
+   "verification": {
+    "public_spelling": "VERIFIED_WINDOWS_MANUAL",
+    "in_game_title_capture": "PENDING",
+    "id_directory_engine_load_routine": "VERIFIED_STATIC",
+    "archive_ids_payload_hashes": "VERIFIED",
+    "runtime_load": "TRACED_DEMO_ONLY",
+    "full_level_completion": "PENDING"
+   },
+   "evidence": [
+    "reference/binary-analysis/dispatch-tables.json",
+    "reference/binary-analysis/map-archive-entries.json",
+    "analysis/exports/p2_decomp/00405760.c",
+    "docs/module-interface.md"
+   ],
+   "runtime_questions": [
+    "Confirm level/substage/difficulty at load and record accepted entry methods.",
+    "Recover actual scene/checkpoint IDs, routes, state transitions and completion evidence."
+   ]
+  },
+  {
+   "level_id": "L02",
+   "slug": "l02-heros-gauntlet",
+   "public_title": "Hero's Gauntlet",
+   "internal_level_id": 2,
+   "internal_label": "TRAINING GAUNTLET",
+   "engine": "ENG3.DLL",
+   "archive_directory": "M:\\GRAFIX\\MAPS\\GAUNTLET\\",
+   "maps": {
+    "bin": {
+     "index": 557,
+     "id": "57E5A3D6",
+     "offset": 20149872,
+     "size": 1220136,
+     "sha256": "95e4ca0052a92b174748489a6dcfcd7a76e351c54a3f9af1535e9454550eaa5c",
+     "magic": "69312e61",
+     "file": "extracted/raw/0557_57E5A3D6.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\GAUNTLET\\MAP_PSX.BIN"
+    },
+    "cif": {
+     "index": 556,
+     "id": "57DDA3D7",
+     "offset": 35349554,
+     "size": 336384,
+     "sha256": "60c1440fd666ad5a9cedf3425842643ed6810d2c825abbd22c4a7b05a6455e5f",
+     "magic": "00000005",
+     "file": "extracted/raw/0556_57DDA3D7.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\GAUNTLET\\MAP_PSX.CIF"
+    }
+   },
+   "load_routines": {
+    "map": {
+     "program": "ENG3.DLL",
+     "rva": "0x1a930"
+    },
+    "stream_chunk": null,
+    "palette": {
+     "program": "HERCULES.EXE",
+     "rva": "0x5760",
+     "selector_id": 2,
+     "path_string_rva": "0x36684"
+    },
+    "module_request": {
+     "program": "TITLE.DLL",
+     "rva": "0x16300"
+    },
+    "host_module_change": {
+     "program": "HERCULES.EXE",
+     "rva": "0x4040"
+    }
+   },
+   "descriptors": {
+    "engine_table_entry_rva": "0x38558",
+    "title_descriptor_rva": "0x234c8",
+    "title_module_pointer_rva": "0x22290"
+   },
+   "difficulty": {
+    "baseline": "Medium",
+    "playable": [
+     "Beginner",
+     "Medium",
+     "Herculean"
+    ],
+    "availability_source": "Windows manual; build-runtime check pending"
+   },
+   "verification": {
+    "public_spelling": "VERIFIED_WINDOWS_MANUAL",
+    "in_game_title_capture": "PENDING",
+    "id_directory_engine_load_routine": "VERIFIED_STATIC",
+    "archive_ids_payload_hashes": "VERIFIED",
+    "runtime_load": "PENDING",
+    "full_level_completion": "PENDING"
+   },
+   "evidence": [
+    "reference/binary-analysis/dispatch-tables.json",
+    "reference/binary-analysis/map-archive-entries.json",
+    "analysis/exports/p2_decomp/00405760.c",
+    "docs/module-interface.md"
+   ],
+   "runtime_questions": [
+    "Confirm level/substage/difficulty at load and record accepted entry methods.",
+    "Recover actual scene/checkpoint IDs, routes, state transitions and completion evidence."
+   ]
+  },
+  {
+   "level_id": "L03",
+   "slug": "l03-the-centaurs-forest",
+   "public_title": "The Centaur's Forest",
+   "internal_level_id": 3,
+   "internal_label": "FOREST OF CENTAURS",
+   "engine": "ENG1.DLL",
+   "archive_directory": "M:\\GRAFIX\\MAPS\\FOREST\\",
+   "maps": {
+    "bin": {
+     "index": 515,
+     "id": "49716801",
+     "offset": 18845296,
+     "size": 1304576,
+     "sha256": "78bc5a60ecce1c99e752fb30a16bc5ace4ee80f686365e1da8136a0decbd69cb",
+     "magic": "69322e35",
+     "file": "extracted/raw/0515_49716801.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\FOREST\\MAP_PSX.BIN"
+    },
+    "cif": {
+     "index": 516,
+     "id": "497267F9",
+     "offset": 35013170,
+     "size": 336384,
+     "sha256": "db53596305532dde182b68879960e6e1f8f3440e5d9236237834b202c9326277",
+     "magic": "00000005",
+     "file": "extracted/raw/0516_497267F9.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\FOREST\\MAP_PSX.CIF"
+    }
+   },
+   "load_routines": {
+    "map": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f750"
+    },
+    "stream_chunk": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f9e0"
+    },
+    "palette": {
+     "program": "HERCULES.EXE",
+     "rva": "0x5760",
+     "selector_id": 3,
+     "path_string_rva": "0x3672c"
+    },
+    "module_request": {
+     "program": "TITLE.DLL",
+     "rva": "0x16300"
+    },
+    "host_module_change": {
+     "program": "HERCULES.EXE",
+     "rva": "0x4040"
+    }
+   },
+   "descriptors": {
+    "engine_table_entry_rva": "0x5a6d8",
+    "title_descriptor_rva": "0x234d4",
+    "title_module_pointer_rva": "0x22294"
+   },
+   "difficulty": {
+    "baseline": "Medium",
+    "playable": [
+     "Beginner",
+     "Medium",
+     "Herculean"
+    ],
+    "availability_source": "Windows manual; build-runtime check pending"
+   },
+   "verification": {
+    "public_spelling": "VERIFIED_WINDOWS_MANUAL",
+    "in_game_title_capture": "PENDING",
+    "id_directory_engine_load_routine": "VERIFIED_STATIC",
+    "archive_ids_payload_hashes": "VERIFIED",
+    "runtime_load": "PENDING",
+    "full_level_completion": "PENDING"
+   },
+   "evidence": [
+    "reference/binary-analysis/dispatch-tables.json",
+    "reference/binary-analysis/map-archive-entries.json",
+    "analysis/exports/p2_decomp/00405760.c",
+    "docs/module-interface.md"
+   ],
+   "runtime_questions": [
+    "Confirm level/substage/difficulty at load and record accepted entry methods.",
+    "Recover actual scene/checkpoint IDs, routes, state transitions and completion evidence.",
+    "Determine whether internal ID 4/Nessus is ever entered, unused, or remapped; no separate named Nessus map exists."
+   ]
+  },
+  {
+   "level_id": "L04",
+   "slug": "l04-the-big-olive",
+   "public_title": "The Big Olive",
+   "internal_level_id": 5,
+   "internal_label": "VISIT TO THEBES",
+   "engine": "ENG1.DLL",
+   "archive_directory": "M:\\GRAFIX\\MAPS\\THEBES\\",
+   "maps": {
+    "bin": {
+     "index": 513,
+     "id": "496E5AF9",
+     "offset": 23215256,
+     "size": 1214464,
+     "sha256": "f0ac0524dd1c84b6fcb74e320b6d61eba618d4bc6a4fafd7b49dd63d55da9f93",
+     "magic": "69322e35",
+     "file": "extracted/raw/0513_496E5AF9.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\THEBES\\MAP_PSX.BIN"
+    },
+    "cif": {
+     "index": 514,
+     "id": "496F5AF1",
+     "offset": 36358706,
+     "size": 336384,
+     "sha256": "79a39f2e11b2411d504a3fac2e86a63663bd614f3128d8673a33a69fbb08a095",
+     "magic": "00000005",
+     "file": "extracted/raw/0514_496F5AF1.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\THEBES\\MAP_PSX.CIF"
+    }
+   },
+   "load_routines": {
+    "map": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f750"
+    },
+    "stream_chunk": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f9e0"
+    },
+    "palette": {
+     "program": "HERCULES.EXE",
+     "rva": "0x5760",
+     "selector_id": 5,
+     "path_string_rva": "0x36714"
+    },
+    "module_request": {
+     "program": "TITLE.DLL",
+     "rva": "0x16300"
+    },
+    "host_module_change": {
+     "program": "HERCULES.EXE",
+     "rva": "0x4040"
+    }
+   },
+   "descriptors": {
+    "engine_table_entry_rva": "0x5a708",
+    "title_descriptor_rva": "0x234ec",
+    "title_module_pointer_rva": "0x2229c"
+   },
+   "difficulty": {
+    "baseline": "Medium",
+    "playable": [
+     "Beginner",
+     "Medium",
+     "Herculean"
+    ],
+    "availability_source": "Windows manual; build-runtime check pending"
+   },
+   "verification": {
+    "public_spelling": "VERIFIED_WINDOWS_MANUAL",
+    "in_game_title_capture": "PENDING",
+    "id_directory_engine_load_routine": "VERIFIED_STATIC",
+    "archive_ids_payload_hashes": "VERIFIED",
+    "runtime_load": "PENDING",
+    "full_level_completion": "PENDING"
+   },
+   "evidence": [
+    "reference/binary-analysis/dispatch-tables.json",
+    "reference/binary-analysis/map-archive-entries.json",
+    "analysis/exports/p2_decomp/00405760.c",
+    "docs/module-interface.md"
+   ],
+   "runtime_questions": [
+    "Confirm level/substage/difficulty at load and record accepted entry methods.",
+    "Recover actual scene/checkpoint IDs, routes, state transitions and completion evidence.",
+    "Verify reported Thebes part-2/section transitions; DEMO5_1/5_2 alone do not establish stage boundaries."
+   ]
+  },
+  {
+   "level_id": "L05",
+   "slug": "l05-hydra-canyon",
+   "public_title": "Hydra Canyon",
+   "internal_level_id": 6,
+   "internal_label": "HYDRA BATTLE",
+   "engine": "ENG1.DLL",
+   "archive_directory": "M:\\GRAFIX\\MAPS\\HYDRA\\",
+   "maps": {
+    "bin": {
+     "index": 541,
+     "id": "527C4FA9",
+     "offset": 21370008,
+     "size": 997376,
+     "sha256": "7d4793ac02408d2b35d286f7bc05779517c5aab72ef09226fd86171f266eb5db",
+     "magic": "69322e35",
+     "file": "extracted/raw/0541_527C4FA9.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\HYDRA\\MAP_PSX.BIN"
+    },
+    "cif": {
+     "index": 517,
+     "id": "4A7C50A9",
+     "offset": 35685938,
+     "size": 336384,
+     "sha256": "0d31de1d60577fa117a4b41298c65becd827410d57beb69ea8dbfa362cab2a61",
+     "magic": "00000005",
+     "file": "extracted/raw/0517_4A7C50A9.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\HYDRA\\MAP_PSX.CIF"
+    }
+   },
+   "load_routines": {
+    "map": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f750"
+    },
+    "stream_chunk": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f9e0"
+    },
+    "palette": {
+     "program": "HERCULES.EXE",
+     "rva": "0x5760",
+     "selector_id": 6,
+     "path_string_rva": "0x366fc"
+    },
+    "module_request": {
+     "program": "TITLE.DLL",
+     "rva": "0x16300"
+    },
+    "host_module_change": {
+     "program": "HERCULES.EXE",
+     "rva": "0x4040"
+    }
+   },
+   "descriptors": {
+    "engine_table_entry_rva": "0x5a720",
+    "title_descriptor_rva": "0x234f8",
+    "title_module_pointer_rva": "0x222a0"
+   },
+   "difficulty": {
+    "baseline": "Medium",
+    "playable": [
+     "Beginner",
+     "Medium",
+     "Herculean"
+    ],
+    "availability_source": "Windows manual; build-runtime check pending"
+   },
+   "verification": {
+    "public_spelling": "VERIFIED_WINDOWS_MANUAL",
+    "in_game_title_capture": "PENDING",
+    "id_directory_engine_load_routine": "VERIFIED_STATIC",
+    "archive_ids_payload_hashes": "VERIFIED",
+    "runtime_load": "PENDING",
+    "full_level_completion": "PENDING"
+   },
+   "evidence": [
+    "reference/binary-analysis/dispatch-tables.json",
+    "reference/binary-analysis/map-archive-entries.json",
+    "analysis/exports/p2_decomp/00405760.c",
+    "docs/module-interface.md"
+   ],
+   "runtime_questions": [
+    "Confirm level/substage/difficulty at load and record accepted entry methods.",
+    "Recover actual scene/checkpoint IDs, routes, state transitions and completion evidence."
+   ]
+  },
+  {
+   "level_id": "L06",
+   "slug": "l06-medusas-lair",
+   "public_title": "Medusa's Lair",
+   "internal_level_id": 7,
+   "internal_label": "MEDUSA BATTLE",
+   "engine": "ENG1.DLL",
+   "archive_directory": "M:\\GRAFIX\\MAPS\\MEDUSA\\",
+   "maps": {
+    "bin": {
+     "index": 530,
+     "id": "508159E4",
+     "offset": 22367384,
+     "size": 847872,
+     "sha256": "39bd41f031f8e1e69bc4bbe57b3568dfc2c904c0f7b01e14adb8a775225975cf",
+     "magic": "69322e35",
+     "file": "extracted/raw/0530_508159E4.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\MEDUSA\\MAP_PSX.BIN"
+    },
+    "cif": {
+     "index": 531,
+     "id": "508259DC",
+     "offset": 36022322,
+     "size": 336384,
+     "sha256": "4d6cde643d0285ea68a12bc83cdfe2bb7716c87d4c61ff86be7590889a6a84c0",
+     "magic": "00000005",
+     "file": "extracted/raw/0531_508259DC.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\MEDUSA\\MAP_PSX.CIF"
+    }
+   },
+   "load_routines": {
+    "map": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f750"
+    },
+    "stream_chunk": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f9e0"
+    },
+    "palette": {
+     "program": "HERCULES.EXE",
+     "rva": "0x5760",
+     "selector_id": 7,
+     "path_string_rva": "0x366e4"
+    },
+    "module_request": {
+     "program": "TITLE.DLL",
+     "rva": "0x16300"
+    },
+    "host_module_change": {
+     "program": "HERCULES.EXE",
+     "rva": "0x4040"
+    }
+   },
+   "descriptors": {
+    "engine_table_entry_rva": "0x5a738",
+    "title_descriptor_rva": "0x23504",
+    "title_module_pointer_rva": "0x222a4"
+   },
+   "difficulty": {
+    "baseline": "Medium",
+    "playable": [
+     "Beginner",
+     "Medium",
+     "Herculean"
+    ],
+    "availability_source": "Windows manual; build-runtime check pending"
+   },
+   "verification": {
+    "public_spelling": "VERIFIED_WINDOWS_MANUAL",
+    "in_game_title_capture": "PENDING",
+    "id_directory_engine_load_routine": "VERIFIED_STATIC",
+    "archive_ids_payload_hashes": "VERIFIED",
+    "runtime_load": "PENDING",
+    "full_level_completion": "PENDING"
+   },
+   "evidence": [
+    "reference/binary-analysis/dispatch-tables.json",
+    "reference/binary-analysis/map-archive-entries.json",
+    "analysis/exports/p2_decomp/00405760.c",
+    "docs/module-interface.md"
+   ],
+   "runtime_questions": [
+    "Confirm level/substage/difficulty at load and record accepted entry methods.",
+    "Recover actual scene/checkpoint IDs, routes, state transitions and completion evidence."
+   ]
+  },
+  {
+   "level_id": "L07",
+   "slug": "l07-cyclops-attack",
+   "public_title": "Cyclops Attack",
+   "internal_level_id": 8,
+   "internal_label": "CYCLOPS CHASE",
+   "engine": "ENG3.DLL",
+   "archive_directory": "M:\\GRAFIX\\MAPS\\CYCLOPS\\",
+   "maps": {
+    "bin": {
+     "index": 491,
+     "id": "4482B8EF",
+     "offset": 17644780,
+     "size": 1200516,
+     "sha256": "523372a1d74701252677cb8afa879f5a126de7cd7b95d455d88a3c17537b2450",
+     "magic": "69312e61",
+     "file": "extracted/raw/0491_4482B8EF.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\CYCLOPS\\MAP_PSX.BIN"
+    },
+    "cif": {
+     "index": 494,
+     "id": "4582B0EF",
+     "offset": 34676786,
+     "size": 336384,
+     "sha256": "5d5af9095f66dce6354eab54af619ea4dffa420b6b2902f4829194e3441d1c17",
+     "magic": "00000005",
+     "file": "extracted/raw/0494_4582B0EF.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\CYCLOPS\\MAP_PSX.CIF"
+    }
+   },
+   "load_routines": {
+    "map": {
+     "program": "ENG3.DLL",
+     "rva": "0x1a930"
+    },
+    "stream_chunk": null,
+    "palette": {
+     "program": "HERCULES.EXE",
+     "rva": "0x5760",
+     "selector_id": 8,
+     "path_string_rva": "0x3666c"
+    },
+    "module_request": {
+     "program": "TITLE.DLL",
+     "rva": "0x16300"
+    },
+    "host_module_change": {
+     "program": "HERCULES.EXE",
+     "rva": "0x4040"
+    }
+   },
+   "descriptors": {
+    "engine_table_entry_rva": "0x385e8",
+    "title_descriptor_rva": "0x23510",
+    "title_module_pointer_rva": "0x222a8"
+   },
+   "difficulty": {
+    "baseline": "Medium",
+    "playable": [
+     "Beginner",
+     "Medium",
+     "Herculean"
+    ],
+    "availability_source": "Windows manual; build-runtime check pending"
+   },
+   "verification": {
+    "public_spelling": "VERIFIED_WINDOWS_MANUAL",
+    "in_game_title_capture": "PENDING",
+    "id_directory_engine_load_routine": "VERIFIED_STATIC",
+    "archive_ids_payload_hashes": "VERIFIED",
+    "runtime_load": "PENDING",
+    "full_level_completion": "PENDING"
+   },
+   "evidence": [
+    "reference/binary-analysis/dispatch-tables.json",
+    "reference/binary-analysis/map-archive-entries.json",
+    "analysis/exports/p2_decomp/00405760.c",
+    "docs/module-interface.md"
+   ],
+   "runtime_questions": [
+    "Confirm level/substage/difficulty at load and record accepted entry methods.",
+    "Recover actual scene/checkpoint IDs, routes, state transitions and completion evidence."
+   ]
+  },
+  {
+   "level_id": "L08",
+   "slug": "l08-titan-flight",
+   "public_title": "Titan Flight",
+   "internal_level_id": 9,
+   "internal_label": "BATTLE OF TITANS",
+   "engine": "ENG1.DLL",
+   "archive_directory": "M:\\GRAFIX\\MAPS\\TITANS\\",
+   "maps": {
+    "bin": {
+     "index": 538,
+     "id": "526D69FA",
+     "offset": 24429720,
+     "size": 1228800,
+     "sha256": "b1869b638dd8f109c276718534b3b4d4da0781f5b12b3f41fe5d4c6f8b7bf57d",
+     "magic": "69322e35",
+     "file": "extracted/raw/0538_526D69FA.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\TITANS\\MAP_PSX.BIN"
+    },
+    "cif": {
+     "index": 539,
+     "id": "526E69F2",
+     "offset": 36695090,
+     "size": 336384,
+     "sha256": "b2a12c9b58ddd54d49923df59c5d8408d0889c6a578622c86ca0ce4c400a5571",
+     "magic": "00000005",
+     "file": "extracted/raw/0539_526E69F2.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\TITANS\\MAP_PSX.CIF"
+    }
+   },
+   "load_routines": {
+    "map": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f750"
+    },
+    "stream_chunk": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f9e0"
+    },
+    "palette": {
+     "program": "HERCULES.EXE",
+     "rva": "0x5760",
+     "selector_id": 9,
+     "path_string_rva": "0x366cc"
+    },
+    "module_request": {
+     "program": "TITLE.DLL",
+     "rva": "0x16300"
+    },
+    "host_module_change": {
+     "program": "HERCULES.EXE",
+     "rva": "0x4040"
+    }
+   },
+   "descriptors": {
+    "engine_table_entry_rva": "0x5a768",
+    "title_descriptor_rva": "0x2351c",
+    "title_module_pointer_rva": "0x222ac"
+   },
+   "difficulty": {
+    "baseline": "Medium",
+    "playable": [
+     "Beginner",
+     "Medium",
+     "Herculean"
+    ],
+    "availability_source": "Windows manual; build-runtime check pending"
+   },
+   "verification": {
+    "public_spelling": "VERIFIED_WINDOWS_MANUAL",
+    "in_game_title_capture": "PENDING",
+    "id_directory_engine_load_routine": "VERIFIED_STATIC",
+    "archive_ids_payload_hashes": "VERIFIED",
+    "runtime_load": "PENDING",
+    "full_level_completion": "PENDING"
+   },
+   "evidence": [
+    "reference/binary-analysis/dispatch-tables.json",
+    "reference/binary-analysis/map-archive-entries.json",
+    "analysis/exports/p2_decomp/00405760.c",
+    "docs/module-interface.md"
+   ],
+   "runtime_questions": [
+    "Confirm level/substage/difficulty at load and record accepted entry methods.",
+    "Recover actual scene/checkpoint IDs, routes, state transitions and completion evidence."
+   ]
+  },
+  {
+   "level_id": "L09",
+   "slug": "l09-passageways-of-eternal-torment",
+   "public_title": "Passageways of Eternal Torment",
+   "internal_level_id": 10,
+   "internal_label": "PASSAGEWAYS TORMENT",
+   "engine": "ENG3.DLL",
+   "archive_directory": "M:\\GRAFIX\\MAPS\\TORMENT\\",
+   "maps": {
+    "bin": {
+     "index": 520,
+     "id": "4B83C8E3",
+     "offset": 25658520,
+     "size": 1085500,
+     "sha256": "b5eafa1a5204289ff6e08454a9e972c4654be9baada61ecdec16b7f0bff0c162",
+     "magic": "69312e61",
+     "file": "extracted/raw/0520_4B83C8E3.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\TORMENT\\MAP_PSX.BIN"
+    },
+    "cif": {
+     "index": 521,
+     "id": "4C83C0E3",
+     "offset": 39049778,
+     "size": 336384,
+     "sha256": "47cd479c216c25353d62d0e4cbb5538c8ac102df9d745fb0b6cabd03242b663a",
+     "magic": "00000005",
+     "file": "extracted/raw/0521_4C83C0E3.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\TORMENT\\MAP_PSX.CIF"
+    }
+   },
+   "load_routines": {
+    "map": {
+     "program": "ENG3.DLL",
+     "rva": "0x1a930"
+    },
+    "stream_chunk": null,
+    "palette": {
+     "program": "HERCULES.EXE",
+     "rva": "0x5760",
+     "selector_id": 10,
+     "path_string_rva": "0x3669c"
+    },
+    "module_request": {
+     "program": "TITLE.DLL",
+     "rva": "0x16300"
+    },
+    "host_module_change": {
+     "program": "HERCULES.EXE",
+     "rva": "0x4040"
+    }
+   },
+   "descriptors": {
+    "engine_table_entry_rva": "0x38618",
+    "title_descriptor_rva": "0x23528",
+    "title_module_pointer_rva": "0x222b0"
+   },
+   "difficulty": {
+    "baseline": "Medium",
+    "playable": [
+     "Medium",
+     "Herculean"
+    ],
+    "availability_source": "Windows manual; build-runtime check pending"
+   },
+   "verification": {
+    "public_spelling": "VERIFIED_WINDOWS_MANUAL",
+    "in_game_title_capture": "PENDING",
+    "id_directory_engine_load_routine": "VERIFIED_STATIC",
+    "archive_ids_payload_hashes": "VERIFIED",
+    "runtime_load": "PENDING",
+    "full_level_completion": "PENDING"
+   },
+   "evidence": [
+    "reference/binary-analysis/dispatch-tables.json",
+    "reference/binary-analysis/map-archive-entries.json",
+    "analysis/exports/p2_decomp/00405760.c",
+    "docs/module-interface.md"
+   ],
+   "runtime_questions": [
+    "Confirm level/substage/difficulty at load and record accepted entry methods.",
+    "Recover actual scene/checkpoint IDs, routes, state transitions and completion evidence."
+   ]
+  },
+  {
+   "level_id": "L10",
+   "slug": "l10-vortex-of-souls",
+   "public_title": "Vortex of Souls",
+   "internal_level_id": 11,
+   "internal_label": "VORTEX OF SOULS",
+   "engine": "ENG1.DLL",
+   "archive_directory": "M:\\GRAFIX\\MAPS\\VORTEX\\",
+   "maps": {
+    "bin": {
+     "index": 518,
+     "id": "4B806805",
+     "offset": 28003540,
+     "size": 917504,
+     "sha256": "605d5300687d2310a64a4b29e2f7bbd0cda2a5a2ea5f05d41e13153686579d32",
+     "magic": "69322e35",
+     "file": "extracted/raw/0518_4B806805.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\VORTEX\\MAP_PSX.BIN"
+    },
+    "cif": {
+     "index": 519,
+     "id": "4B8167FD",
+     "offset": 39722546,
+     "size": 336384,
+     "sha256": "1193f7f475a2b14a588d5001ba1f854a6c22cbd273be6779f09f4caca384c39a",
+     "magic": "00000005",
+     "file": "extracted/raw/0519_4B8167FD.bin",
+     "archive_path": "M:\\GRAFIX\\MAPS\\VORTEX\\MAP_PSX.CIF"
+    }
+   },
+   "load_routines": {
+    "map": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f750"
+    },
+    "stream_chunk": {
+     "program": "ENG1.DLL",
+     "rva": "0x1f9e0"
+    },
+    "palette": {
+     "program": "HERCULES.EXE",
+     "rva": "0x5760",
+     "selector_id": 11,
+     "path_string_rva": "0x366b4"
+    },
+    "module_request": {
+     "program": "TITLE.DLL",
+     "rva": "0x16300"
+    },
+    "host_module_change": {
+     "program": "HERCULES.EXE",
+     "rva": "0x4040"
+    }
+   },
+   "descriptors": {
+    "engine_table_entry_rva": "0x5a798",
+    "title_descriptor_rva": "0x23534",
+    "title_module_pointer_rva": "0x222b4"
+   },
+   "difficulty": {
+    "baseline": "Medium",
+    "playable": [
+     "Medium",
+     "Herculean"
+    ],
+    "availability_source": "Windows manual; build-runtime check pending"
+   },
+   "verification": {
+    "public_spelling": "VERIFIED_WINDOWS_MANUAL",
+    "in_game_title_capture": "PENDING",
+    "id_directory_engine_load_routine": "VERIFIED_STATIC",
+    "archive_ids_payload_hashes": "VERIFIED",
+    "runtime_load": "PENDING",
+    "full_level_completion": "PENDING"
+   },
+   "evidence": [
+    "reference/binary-analysis/dispatch-tables.json",
+    "reference/binary-analysis/map-archive-entries.json",
+    "analysis/exports/p2_decomp/00405760.c",
+    "docs/module-interface.md"
+   ],
+   "runtime_questions": [
+    "Confirm level/substage/difficulty at load and record accepted entry methods.",
+    "Recover actual scene/checkpoint IDs, routes, state transitions and completion evidence."
+   ]
+  }
+ ],
+ "extra_stage_descriptors": [
+  {
+   "stage_id": "windows-internal-04-nessus",
+   "internal_level_id": 4,
+   "internal_label": "NESSUS BATTLE",
+   "engine": "ENG1.DLL",
+   "engine_descriptor_rva": "0x5a6f0",
+   "title_descriptor_rva": "0x234e0",
+   "candidate_archive_directory": "M:\\GRAFIX\\MAPS\\NESSUS\\",
+   "named_map_entries": [],
+   "candidate_public_level": "L03",
+   "descriptor_status": "VERIFIED_STATIC",
+   "runtime_relationship": "IN_FOREST_SECTION (b)",
+   "note": "Nessus is fought inside FOREST (ID 3); ID 4 is an unused descriptor. No eleventh public level.",
+   "runtime_evidence": {
+    "run": "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium",
+    "entry": "password 14 (FOREST Medium) + DEBUG start index 5 (HERC_HOOK_START; run.json debug_only)",
+    "ticks": {
+     "forest_load": 1567,
+     "nessus_sfx_open": 1568,
+     "nessus_music_open": 1569,
+     "music_switch": 1571,
+     "first_nessus_bank_request": 1582,
+     "game_over_exit": 4112
+    },
+    "observed": "no level-ID change (gs[0] = 3, module ENG1 throughout); q:\\NESSUS\\ SFX/MUSIC streamed by AUD_ForestStreamTick and the music restarted (StopMusic, StartMusic(0,0)); Nessus move banks requested/freed during the fight; deaths restart at start 5",
+    "static": "L03.RE.03: the ID-4 descriptor has no reader and no map file in HERCULES.FS; TITLE forces 4 -> 5 after FOREST (0x168a9)"
+   }
+  }
+ ]
+}

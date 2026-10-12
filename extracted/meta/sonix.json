@@ -1,0 +1,5832 @@
+{
+ "banks": [
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 770,
+     "volume": 85
+    },
+    {
+     "program": 1,
+     "esf_id": 771,
+     "volume": 70
+    },
+    {
+     "program": 2,
+     "esf_id": 783,
+     "volume": 100
+    },
+    {
+     "program": 3,
+     "esf_id": 792,
+     "volume": 80
+    },
+    {
+     "program": 4,
+     "esf_id": 793,
+     "volume": 65
+    },
+    {
+     "program": 5,
+     "esf_id": 794,
+     "volume": 75
+    },
+    {
+     "program": 6,
+     "esf_id": 795,
+     "volume": 50
+    },
+    {
+     "program": 7,
+     "esf_id": 796,
+     "volume": 50
+    },
+    {
+     "program": 8,
+     "esf_id": 797,
+     "volume": 100
+    },
+    {
+     "program": 9,
+     "esf_id": 798,
+     "volume": 100
+    },
+    {
+     "program": 10,
+     "esf_id": 799,
+     "volume": 100
+    },
+    {
+     "program": 11,
+     "esf_id": 800,
+     "volume": 80
+    },
+    {
+     "program": 12,
+     "esf_id": 801,
+     "volume": 100
+    },
+    {
+     "program": 13,
+     "esf_id": 802,
+     "volume": 100
+    },
+    {
+     "program": 14,
+     "esf_id": 803,
+     "volume": 100
+    },
+    {
+     "program": 15,
+     "esf_id": 804,
+     "volume": 100
+    },
+    {
+     "program": 16,
+     "esf_id": 805,
+     "volume": 80
+    }
+   ],
+   "index": 454,
+   "name": "M:\\LANGUAGE\\SONIX\\TALLY\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 384,
+     "volume": 75
+    },
+    {
+     "program": 1,
+     "esf_id": 387,
+     "volume": 125
+    },
+    {
+     "program": 2,
+     "esf_id": 388,
+     "volume": 100
+    },
+    {
+     "program": 3,
+     "esf_id": 389,
+     "volume": 100
+    },
+    {
+     "program": 4,
+     "esf_id": 390,
+     "volume": 100
+    },
+    {
+     "program": 5,
+     "esf_id": 391,
+     "volume": 100
+    },
+    {
+     "program": 6,
+     "esf_id": 392,
+     "volume": 92
+    },
+    {
+     "program": 7,
+     "esf_id": 393,
+     "volume": 92
+    },
+    {
+     "program": 8,
+     "esf_id": 394,
+     "volume": 92
+    },
+    {
+     "program": 9,
+     "esf_id": 395,
+     "volume": 65
+    },
+    {
+     "program": 10,
+     "esf_id": 396,
+     "volume": 110
+    },
+    {
+     "program": 11,
+     "esf_id": 397,
+     "volume": 118
+    },
+    {
+     "program": 12,
+     "esf_id": 398,
+     "volume": 118
+    },
+    {
+     "program": 13,
+     "esf_id": 399,
+     "volume": 118
+    },
+    {
+     "program": 14,
+     "esf_id": 400,
+     "volume": 70
+    },
+    {
+     "program": 15,
+     "esf_id": 402,
+     "volume": 36
+    },
+    {
+     "program": 16,
+     "esf_id": 403,
+     "volume": 110
+    },
+    {
+     "program": 17,
+     "esf_id": 404,
+     "volume": 110
+    },
+    {
+     "program": 18,
+     "esf_id": 405,
+     "volume": 110
+    },
+    {
+     "program": 19,
+     "esf_id": 406,
+     "volume": 102
+    },
+    {
+     "program": 20,
+     "esf_id": 407,
+     "volume": 102
+    },
+    {
+     "program": 21,
+     "esf_id": 408,
+     "volume": 102
+    },
+    {
+     "program": 22,
+     "esf_id": 409,
+     "volume": 110
+    },
+    {
+     "program": 23,
+     "esf_id": 412,
+     "volume": 72
+    },
+    {
+     "program": 24,
+     "esf_id": 413,
+     "volume": 95
+    },
+    {
+     "program": 25,
+     "esf_id": 414,
+     "volume": 125
+    },
+    {
+     "program": 26,
+     "esf_id": 415,
+     "volume": 126
+    },
+    {
+     "program": 27,
+     "esf_id": 416,
+     "volume": 115
+    },
+    {
+     "program": 28,
+     "esf_id": 417,
+     "volume": 115
+    },
+    {
+     "program": 29,
+     "esf_id": 418,
+     "volume": 125
+    },
+    {
+     "program": 30,
+     "esf_id": 1042,
+     "volume": 127
+    }
+   ],
+   "index": 475,
+   "name": "M:\\LANGUAGE\\SONIX\\HYDRA\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 28,
+      "sec": 33,
+      "text": "2:28:33"
+     },
+     "end": {
+      "track": 2,
+      "min": 31,
+      "sec": 8,
+      "text": "2:31:08"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 572,
+   "name": "M:\\LANGUAGE\\SONIX\\TORMENT\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 2,
+      "min": 3,
+      "sec": 11,
+      "text": "2:03:11"
+     },
+     "end": {
+      "track": 2,
+      "min": 4,
+      "sec": 25,
+      "text": "2:04:25"
+     },
+     "silent": false
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 2,
+      "min": 4,
+      "sec": 25,
+      "text": "2:04:25"
+     },
+     "end": {
+      "track": 2,
+      "min": 6,
+      "sec": 55,
+      "text": "2:06:55"
+     },
+     "silent": false
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 2,
+      "min": 2,
+      "sec": 18,
+      "text": "2:02:18"
+     },
+     "end": {
+      "track": 2,
+      "min": 3,
+      "sec": 11,
+      "text": "2:03:11"
+     },
+     "silent": false
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 2,
+      "sec": 18,
+      "text": "2:02:18"
+     },
+     "silent": false
+    }
+   ],
+   "index": 573,
+   "name": "M:\\LANGUAGE\\SONIX\\OPTIONS\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 20,
+      "sec": 56,
+      "text": "2:20:56"
+     },
+     "end": {
+      "track": 2,
+      "min": 22,
+      "sec": 19,
+      "text": "2:22:19"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 576,
+   "name": "M:\\LANGUAGE\\SONIX\\MEDUSA\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 640,
+     "volume": 85
+    },
+    {
+     "program": 1,
+     "esf_id": 641,
+     "volume": 105
+    },
+    {
+     "program": 2,
+     "esf_id": 642,
+     "volume": 90
+    },
+    {
+     "program": 3,
+     "esf_id": 643,
+     "volume": 90
+    },
+    {
+     "program": 4,
+     "esf_id": 644,
+     "volume": 99
+    },
+    {
+     "program": 5,
+     "esf_id": 645,
+     "volume": 92
+    },
+    {
+     "program": 6,
+     "esf_id": 646,
+     "volume": 100
+    },
+    {
+     "program": 7,
+     "esf_id": 647,
+     "volume": 100
+    },
+    {
+     "program": 8,
+     "esf_id": 648,
+     "volume": 122
+    },
+    {
+     "program": 9,
+     "esf_id": 649,
+     "volume": 0
+    },
+    {
+     "program": 10,
+     "esf_id": 650,
+     "volume": 90
+    },
+    {
+     "program": 11,
+     "esf_id": 651,
+     "volume": 90
+    },
+    {
+     "program": 12,
+     "esf_id": 652,
+     "volume": 105
+    },
+    {
+     "program": 13,
+     "esf_id": 653,
+     "volume": 80
+    },
+    {
+     "program": 14,
+     "esf_id": 654,
+     "volume": 90
+    },
+    {
+     "program": 15,
+     "esf_id": 655,
+     "volume": 90
+    },
+    {
+     "program": 16,
+     "esf_id": 656,
+     "volume": 82
+    },
+    {
+     "program": 17,
+     "esf_id": 657,
+     "volume": 90
+    },
+    {
+     "program": 18,
+     "esf_id": 659,
+     "volume": 40
+    },
+    {
+     "program": 19,
+     "esf_id": 660,
+     "volume": 36
+    },
+    {
+     "program": 20,
+     "esf_id": 661,
+     "volume": 65
+    },
+    {
+     "program": 21,
+     "esf_id": 662,
+     "volume": 80
+    },
+    {
+     "program": 22,
+     "esf_id": 663,
+     "volume": 80
+    },
+    {
+     "program": 23,
+     "esf_id": 664,
+     "volume": 80
+    },
+    {
+     "program": 24,
+     "esf_id": 665,
+     "volume": 75
+    },
+    {
+     "program": 25,
+     "esf_id": 666,
+     "volume": 95
+    },
+    {
+     "program": 26,
+     "esf_id": 667,
+     "volume": 87
+    },
+    {
+     "program": 27,
+     "esf_id": 668,
+     "volume": 55
+    },
+    {
+     "program": 28,
+     "esf_id": 669,
+     "volume": 35
+    },
+    {
+     "program": 29,
+     "esf_id": 670,
+     "volume": 30
+    },
+    {
+     "program": 30,
+     "esf_id": 671,
+     "volume": 50
+    },
+    {
+     "program": 31,
+     "esf_id": 672,
+     "volume": 30
+    },
+    {
+     "program": 32,
+     "esf_id": 673,
+     "volume": 73
+    },
+    {
+     "program": 33,
+     "esf_id": 674,
+     "volume": 110
+    },
+    {
+     "program": 34,
+     "esf_id": 675,
+     "volume": 80
+    },
+    {
+     "program": 35,
+     "esf_id": 676,
+     "volume": 100
+    },
+    {
+     "program": 36,
+     "esf_id": 677,
+     "volume": 80
+    },
+    {
+     "program": 37,
+     "esf_id": 678,
+     "volume": 90
+    },
+    {
+     "program": 38,
+     "esf_id": 679,
+     "volume": 120
+    },
+    {
+     "program": 39,
+     "esf_id": 680,
+     "volume": 115
+    }
+   ],
+   "index": 578,
+   "name": "M:\\LANGUAGE\\SONIX\\TORMENT\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 768,
+     "volume": 75
+    },
+    {
+     "program": 1,
+     "esf_id": 769,
+     "volume": 75
+    },
+    {
+     "program": 2,
+     "esf_id": 770,
+     "volume": 85
+    },
+    {
+     "program": 3,
+     "esf_id": 771,
+     "volume": 70
+    },
+    {
+     "program": 4,
+     "esf_id": 772,
+     "volume": 100
+    },
+    {
+     "program": 5,
+     "esf_id": 773,
+     "volume": 80
+    },
+    {
+     "program": 6,
+     "esf_id": 774,
+     "volume": 70
+    },
+    {
+     "program": 7,
+     "esf_id": 775,
+     "volume": 100
+    },
+    {
+     "program": 8,
+     "esf_id": 776,
+     "volume": 70
+    },
+    {
+     "program": 9,
+     "esf_id": 778,
+     "volume": 82
+    },
+    {
+     "program": 10,
+     "esf_id": 780,
+     "volume": 90
+    },
+    {
+     "program": 11,
+     "esf_id": 781,
+     "volume": 110
+    },
+    {
+     "program": 12,
+     "esf_id": 782,
+     "volume": 100
+    },
+    {
+     "program": 13,
+     "esf_id": 783,
+     "volume": 100
+    },
+    {
+     "program": 14,
+     "esf_id": 784,
+     "volume": 100
+    },
+    {
+     "program": 15,
+     "esf_id": 785,
+     "volume": 75
+    },
+    {
+     "program": 16,
+     "esf_id": 786,
+     "volume": 68
+    },
+    {
+     "program": 17,
+     "esf_id": 787,
+     "volume": 60
+    },
+    {
+     "program": 18,
+     "esf_id": 790,
+     "volume": 80
+    },
+    {
+     "program": 19,
+     "esf_id": 791,
+     "volume": 100
+    },
+    {
+     "program": 20,
+     "esf_id": 792,
+     "volume": 80
+    },
+    {
+     "program": 21,
+     "esf_id": 793,
+     "volume": 65
+    },
+    {
+     "program": 22,
+     "esf_id": 794,
+     "volume": 75
+    },
+    {
+     "program": 23,
+     "esf_id": 795,
+     "volume": 50
+    },
+    {
+     "program": 24,
+     "esf_id": 796,
+     "volume": 50
+    },
+    {
+     "program": 25,
+     "esf_id": 797,
+     "volume": 100
+    },
+    {
+     "program": 26,
+     "esf_id": 798,
+     "volume": 100
+    },
+    {
+     "program": 27,
+     "esf_id": 799,
+     "volume": 100
+    },
+    {
+     "program": 28,
+     "esf_id": 800,
+     "volume": 80
+    },
+    {
+     "program": 29,
+     "esf_id": 801,
+     "volume": 100
+    },
+    {
+     "program": 30,
+     "esf_id": 802,
+     "volume": 100
+    },
+    {
+     "program": 31,
+     "esf_id": 803,
+     "volume": 100
+    },
+    {
+     "program": 32,
+     "esf_id": 806,
+     "volume": 100
+    }
+   ],
+   "index": 579,
+   "name": "M:\\LANGUAGE\\SONIX\\OPTIONS\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 22,
+      "sec": 19,
+      "text": "2:22:19"
+     },
+     "end": {
+      "track": 2,
+      "min": 25,
+      "sec": 10,
+      "text": "2:25:10"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 580,
+   "name": "M:\\LANGUAGE\\SONIX\\CYCLOPS\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 58,
+     "volume": 85
+    },
+    {
+     "program": 1,
+     "esf_id": 57,
+     "volume": 85
+    },
+    {
+     "program": 2,
+     "esf_id": 56,
+     "volume": 90
+    },
+    {
+     "program": 3,
+     "esf_id": 55,
+     "volume": 100
+    },
+    {
+     "program": 4,
+     "esf_id": 46,
+     "volume": 100
+    },
+    {
+     "program": 5,
+     "esf_id": 45,
+     "volume": 100
+    },
+    {
+     "program": 6,
+     "esf_id": 44,
+     "volume": 115
+    },
+    {
+     "program": 7,
+     "esf_id": 59,
+     "volume": 95
+    },
+    {
+     "program": 8,
+     "esf_id": 60,
+     "volume": 100
+    },
+    {
+     "program": 9,
+     "esf_id": 61,
+     "volume": 108
+    },
+    {
+     "program": 10,
+     "esf_id": 62,
+     "volume": 95
+    },
+    {
+     "program": 11,
+     "esf_id": 63,
+     "volume": 62
+    },
+    {
+     "program": 12,
+     "esf_id": 40,
+     "volume": 95
+    },
+    {
+     "program": 13,
+     "esf_id": 820,
+     "volume": 39
+    },
+    {
+     "program": 14,
+     "esf_id": 821,
+     "volume": 30
+    },
+    {
+     "program": 15,
+     "esf_id": 822,
+     "volume": 22
+    },
+    {
+     "program": 16,
+     "esf_id": 823,
+     "volume": 75
+    },
+    {
+     "program": 17,
+     "esf_id": 824,
+     "volume": 60
+    },
+    {
+     "program": 18,
+     "esf_id": 825,
+     "volume": 70
+    },
+    {
+     "program": 19,
+     "esf_id": 42,
+     "volume": 95
+    },
+    {
+     "program": 20,
+     "esf_id": 43,
+     "volume": 95
+    },
+    {
+     "program": 21,
+     "esf_id": 13,
+     "volume": 60
+    }
+   ],
+   "index": 581,
+   "name": "M:\\LANGUAGE\\SONIX\\HERC_CYC\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 1,
+     "volume": 70
+    },
+    {
+     "program": 1,
+     "esf_id": 2,
+     "volume": 85
+    },
+    {
+     "program": 2,
+     "esf_id": 3,
+     "volume": 85
+    },
+    {
+     "program": 3,
+     "esf_id": 4,
+     "volume": 85
+    },
+    {
+     "program": 4,
+     "esf_id": 5,
+     "volume": 97
+    },
+    {
+     "program": 5,
+     "esf_id": 6,
+     "volume": 108
+    },
+    {
+     "program": 6,
+     "esf_id": 7,
+     "volume": 90
+    },
+    {
+     "program": 7,
+     "esf_id": 8,
+     "volume": 80
+    },
+    {
+     "program": 8,
+     "esf_id": 9,
+     "volume": 75
+    },
+    {
+     "program": 9,
+     "esf_id": 10,
+     "volume": 80
+    },
+    {
+     "program": 10,
+     "esf_id": 11,
+     "volume": 90
+    },
+    {
+     "program": 11,
+     "esf_id": 12,
+     "volume": 90
+    },
+    {
+     "program": 12,
+     "esf_id": 13,
+     "volume": 60
+    },
+    {
+     "program": 13,
+     "esf_id": 14,
+     "volume": 80
+    },
+    {
+     "program": 14,
+     "esf_id": 15,
+     "volume": 85
+    },
+    {
+     "program": 15,
+     "esf_id": 16,
+     "volume": 88
+    },
+    {
+     "program": 16,
+     "esf_id": 17,
+     "volume": 110
+    },
+    {
+     "program": 17,
+     "esf_id": 18,
+     "volume": 105
+    },
+    {
+     "program": 18,
+     "esf_id": 19,
+     "volume": 125
+    },
+    {
+     "program": 19,
+     "esf_id": 20,
+     "volume": 80
+    },
+    {
+     "program": 20,
+     "esf_id": 35,
+     "volume": 90
+    },
+    {
+     "program": 21,
+     "esf_id": 21,
+     "volume": 100
+    },
+    {
+     "program": 22,
+     "esf_id": 22,
+     "volume": 70
+    },
+    {
+     "program": 23,
+     "esf_id": 23,
+     "volume": 90
+    },
+    {
+     "program": 24,
+     "esf_id": 24,
+     "volume": 100
+    },
+    {
+     "program": 25,
+     "esf_id": 25,
+     "volume": 100
+    },
+    {
+     "program": 26,
+     "esf_id": 26,
+     "volume": 100
+    },
+    {
+     "program": 27,
+     "esf_id": 27,
+     "volume": 100
+    },
+    {
+     "program": 28,
+     "esf_id": 28,
+     "volume": 100
+    },
+    {
+     "program": 29,
+     "esf_id": 29,
+     "volume": 100
+    },
+    {
+     "program": 30,
+     "esf_id": 30,
+     "volume": 85
+    },
+    {
+     "program": 31,
+     "esf_id": 31,
+     "volume": 75
+    },
+    {
+     "program": 32,
+     "esf_id": 32,
+     "volume": 65
+    },
+    {
+     "program": 33,
+     "esf_id": 33,
+     "volume": 60
+    },
+    {
+     "program": 34,
+     "esf_id": 34,
+     "volume": 60
+    },
+    {
+     "program": 35,
+     "esf_id": 36,
+     "volume": 100
+    },
+    {
+     "program": 36,
+     "esf_id": 37,
+     "volume": 100
+    },
+    {
+     "program": 37,
+     "esf_id": 59,
+     "volume": 95
+    },
+    {
+     "program": 38,
+     "esf_id": 60,
+     "volume": 100
+    },
+    {
+     "program": 39,
+     "esf_id": 61,
+     "volume": 108
+    },
+    {
+     "program": 40,
+     "esf_id": 62,
+     "volume": 95
+    },
+    {
+     "program": 41,
+     "esf_id": 63,
+     "volume": 62
+    },
+    {
+     "program": 42,
+     "esf_id": 38,
+     "volume": 105
+    },
+    {
+     "program": 43,
+     "esf_id": 39,
+     "volume": 95
+    },
+    {
+     "program": 44,
+     "esf_id": 40,
+     "volume": 100
+    },
+    {
+     "program": 45,
+     "esf_id": 41,
+     "volume": 90
+    },
+    {
+     "program": 46,
+     "esf_id": 820,
+     "volume": 40
+    },
+    {
+     "program": 47,
+     "esf_id": 821,
+     "volume": 30
+    },
+    {
+     "program": 48,
+     "esf_id": 822,
+     "volume": 22
+    },
+    {
+     "program": 49,
+     "esf_id": 823,
+     "volume": 75
+    },
+    {
+     "program": 50,
+     "esf_id": 824,
+     "volume": 60
+    },
+    {
+     "program": 51,
+     "esf_id": 825,
+     "volume": 70
+    },
+    {
+     "program": 52,
+     "esf_id": 42,
+     "volume": 95
+    },
+    {
+     "program": 53,
+     "esf_id": 43,
+     "volume": 95
+    },
+    {
+     "program": 54,
+     "esf_id": 634,
+     "volume": 82
+    },
+    {
+     "program": 55,
+     "esf_id": 630,
+     "volume": 70
+    }
+   ],
+   "index": 582,
+   "name": "M:\\LANGUAGE\\SONIX\\HERC_FOR\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 58,
+     "volume": 85
+    },
+    {
+     "program": 1,
+     "esf_id": 57,
+     "volume": 85
+    },
+    {
+     "program": 2,
+     "esf_id": 56,
+     "volume": 90
+    },
+    {
+     "program": 3,
+     "esf_id": 55,
+     "volume": 100
+    },
+    {
+     "program": 4,
+     "esf_id": 54,
+     "volume": 108
+    },
+    {
+     "program": 5,
+     "esf_id": 53,
+     "volume": 90
+    },
+    {
+     "program": 6,
+     "esf_id": 52,
+     "volume": 60
+    },
+    {
+     "program": 7,
+     "esf_id": 51,
+     "volume": 60
+    },
+    {
+     "program": 8,
+     "esf_id": 50,
+     "volume": 100
+    },
+    {
+     "program": 9,
+     "esf_id": 49,
+     "volume": 100
+    },
+    {
+     "program": 10,
+     "esf_id": 48,
+     "volume": 90
+    },
+    {
+     "program": 11,
+     "esf_id": 47,
+     "volume": 80
+    },
+    {
+     "program": 12,
+     "esf_id": 46,
+     "volume": 100
+    },
+    {
+     "program": 13,
+     "esf_id": 45,
+     "volume": 100
+    },
+    {
+     "program": 14,
+     "esf_id": 44,
+     "volume": 100
+    },
+    {
+     "program": 15,
+     "esf_id": 59,
+     "volume": 95
+    },
+    {
+     "program": 16,
+     "esf_id": 60,
+     "volume": 100
+    },
+    {
+     "program": 17,
+     "esf_id": 61,
+     "volume": 108
+    },
+    {
+     "program": 18,
+     "esf_id": 62,
+     "volume": 95
+    },
+    {
+     "program": 19,
+     "esf_id": 63,
+     "volume": 62
+    },
+    {
+     "program": 20,
+     "esf_id": 40,
+     "volume": 90
+    },
+    {
+     "program": 21,
+     "esf_id": 820,
+     "volume": 40
+    },
+    {
+     "program": 22,
+     "esf_id": 821,
+     "volume": 30
+    },
+    {
+     "program": 23,
+     "esf_id": 822,
+     "volume": 22
+    },
+    {
+     "program": 24,
+     "esf_id": 823,
+     "volume": 75
+    },
+    {
+     "program": 25,
+     "esf_id": 824,
+     "volume": 60
+    },
+    {
+     "program": 26,
+     "esf_id": 825,
+     "volume": 70
+    },
+    {
+     "program": 27,
+     "esf_id": 42,
+     "volume": 95
+    },
+    {
+     "program": 28,
+     "esf_id": 43,
+     "volume": 95
+    },
+    {
+     "program": 29,
+     "esf_id": 13,
+     "volume": 60
+    }
+   ],
+   "index": 583,
+   "name": "M:\\LANGUAGE\\SONIX\\HERC_GAU\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 128,
+     "volume": 100
+    },
+    {
+     "program": 1,
+     "esf_id": 129,
+     "volume": 90
+    },
+    {
+     "program": 2,
+     "esf_id": 130,
+     "volume": 90
+    },
+    {
+     "program": 3,
+     "esf_id": 131,
+     "volume": 90
+    },
+    {
+     "program": 4,
+     "esf_id": 132,
+     "volume": 80
+    },
+    {
+     "program": 5,
+     "esf_id": 133,
+     "volume": 100
+    },
+    {
+     "program": 6,
+     "esf_id": 137,
+     "volume": 100
+    },
+    {
+     "program": 7,
+     "esf_id": 138,
+     "volume": 100
+    },
+    {
+     "program": 8,
+     "esf_id": 139,
+     "volume": 100
+    },
+    {
+     "program": 9,
+     "esf_id": 140,
+     "volume": 100
+    },
+    {
+     "program": 10,
+     "esf_id": 141,
+     "volume": 85
+    },
+    {
+     "program": 11,
+     "esf_id": 142,
+     "volume": 90
+    },
+    {
+     "program": 12,
+     "esf_id": 143,
+     "volume": 110
+    },
+    {
+     "program": 13,
+     "esf_id": 144,
+     "volume": 90
+    },
+    {
+     "program": 14,
+     "esf_id": 145,
+     "volume": 90
+    },
+    {
+     "program": 15,
+     "esf_id": 146,
+     "volume": 80
+    },
+    {
+     "program": 16,
+     "esf_id": 147,
+     "volume": 90
+    },
+    {
+     "program": 17,
+     "esf_id": 148,
+     "volume": 65
+    },
+    {
+     "program": 18,
+     "esf_id": 149,
+     "volume": 65
+    },
+    {
+     "program": 19,
+     "esf_id": 150,
+     "volume": 50
+    },
+    {
+     "program": 20,
+     "esf_id": 151,
+     "volume": 50
+    },
+    {
+     "program": 21,
+     "esf_id": 152,
+     "volume": 95
+    },
+    {
+     "program": 22,
+     "esf_id": 153,
+     "volume": 100
+    },
+    {
+     "program": 23,
+     "esf_id": 154,
+     "volume": 75
+    },
+    {
+     "program": 24,
+     "esf_id": 155,
+     "volume": 60
+    },
+    {
+     "program": 25,
+     "esf_id": 156,
+     "volume": 70
+    },
+    {
+     "program": 26,
+     "esf_id": 157,
+     "volume": 75
+    },
+    {
+     "program": 27,
+     "esf_id": 158,
+     "volume": 127
+    },
+    {
+     "program": 28,
+     "esf_id": 159,
+     "volume": 70
+    },
+    {
+     "program": 29,
+     "esf_id": 160,
+     "volume": 127
+    },
+    {
+     "program": 30,
+     "esf_id": 161,
+     "volume": 80
+    },
+    {
+     "program": 31,
+     "esf_id": 162,
+     "volume": 60
+    },
+    {
+     "program": 32,
+     "esf_id": 163,
+     "volume": 65
+    },
+    {
+     "program": 33,
+     "esf_id": 164,
+     "volume": 127
+    },
+    {
+     "program": 34,
+     "esf_id": 165,
+     "volume": 55
+    },
+    {
+     "program": 35,
+     "esf_id": 166,
+     "volume": 50
+    },
+    {
+     "program": 36,
+     "esf_id": 167,
+     "volume": 100
+    },
+    {
+     "program": 37,
+     "esf_id": 168,
+     "volume": 110
+    },
+    {
+     "program": 38,
+     "esf_id": 169,
+     "volume": 115
+    },
+    {
+     "program": 39,
+     "esf_id": 1022,
+     "volume": 127
+    },
+    {
+     "program": 40,
+     "esf_id": 1025,
+     "volume": 127
+    },
+    {
+     "program": 41,
+     "esf_id": 1026,
+     "volume": 127
+    },
+    {
+     "program": 42,
+     "esf_id": 1027,
+     "volume": 127
+    },
+    {
+     "program": 43,
+     "esf_id": 1028,
+     "volume": 127
+    }
+   ],
+   "index": 585,
+   "name": "M:\\LANGUAGE\\SONIX\\GAUNTLET\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 1,
+     "volume": 70
+    },
+    {
+     "program": 1,
+     "esf_id": 2,
+     "volume": 85
+    },
+    {
+     "program": 2,
+     "esf_id": 3,
+     "volume": 85
+    },
+    {
+     "program": 3,
+     "esf_id": 4,
+     "volume": 85
+    },
+    {
+     "program": 4,
+     "esf_id": 5,
+     "volume": 97
+    },
+    {
+     "program": 5,
+     "esf_id": 6,
+     "volume": 108
+    },
+    {
+     "program": 6,
+     "esf_id": 13,
+     "volume": 60
+    },
+    {
+     "program": 7,
+     "esf_id": 14,
+     "volume": 80
+    },
+    {
+     "program": 8,
+     "esf_id": 15,
+     "volume": 85
+    },
+    {
+     "program": 9,
+     "esf_id": 20,
+     "volume": 80
+    },
+    {
+     "program": 10,
+     "esf_id": 35,
+     "volume": 90
+    },
+    {
+     "program": 11,
+     "esf_id": 21,
+     "volume": 100
+    },
+    {
+     "program": 12,
+     "esf_id": 22,
+     "volume": 70
+    },
+    {
+     "program": 13,
+     "esf_id": 23,
+     "volume": 90
+    },
+    {
+     "program": 14,
+     "esf_id": 24,
+     "volume": 100
+    },
+    {
+     "program": 15,
+     "esf_id": 25,
+     "volume": 100
+    },
+    {
+     "program": 16,
+     "esf_id": 26,
+     "volume": 100
+    },
+    {
+     "program": 17,
+     "esf_id": 27,
+     "volume": 100
+    },
+    {
+     "program": 18,
+     "esf_id": 28,
+     "volume": 100
+    },
+    {
+     "program": 19,
+     "esf_id": 29,
+     "volume": 100
+    },
+    {
+     "program": 20,
+     "esf_id": 36,
+     "volume": 100
+    },
+    {
+     "program": 21,
+     "esf_id": 37,
+     "volume": 100
+    },
+    {
+     "program": 22,
+     "esf_id": 59,
+     "volume": 95
+    },
+    {
+     "program": 23,
+     "esf_id": 60,
+     "volume": 100
+    },
+    {
+     "program": 24,
+     "esf_id": 61,
+     "volume": 108
+    },
+    {
+     "program": 25,
+     "esf_id": 62,
+     "volume": 95
+    },
+    {
+     "program": 26,
+     "esf_id": 63,
+     "volume": 62
+    },
+    {
+     "program": 27,
+     "esf_id": 39,
+     "volume": 95
+    },
+    {
+     "program": 28,
+     "esf_id": 41,
+     "volume": 90
+    },
+    {
+     "program": 29,
+     "esf_id": 820,
+     "volume": 40
+    },
+    {
+     "program": 30,
+     "esf_id": 821,
+     "volume": 30
+    },
+    {
+     "program": 31,
+     "esf_id": 822,
+     "volume": 22
+    },
+    {
+     "program": 32,
+     "esf_id": 823,
+     "volume": 75
+    },
+    {
+     "program": 33,
+     "esf_id": 824,
+     "volume": 60
+    },
+    {
+     "program": 34,
+     "esf_id": 825,
+     "volume": 70
+    },
+    {
+     "program": 35,
+     "esf_id": 42,
+     "volume": 95
+    },
+    {
+     "program": 36,
+     "esf_id": 43,
+     "volume": 95
+    },
+    {
+     "program": 37,
+     "esf_id": 634,
+     "volume": 82
+    }
+   ],
+   "index": 586,
+   "name": "M:\\LANGUAGE\\SONIX\\HERC_HYD\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 512,
+     "volume": 90
+    },
+    {
+     "program": 1,
+     "esf_id": 513,
+     "volume": 90
+    },
+    {
+     "program": 2,
+     "esf_id": 514,
+     "volume": 100
+    },
+    {
+     "program": 3,
+     "esf_id": 515,
+     "volume": 100
+    },
+    {
+     "program": 4,
+     "esf_id": 516,
+     "volume": 90
+    },
+    {
+     "program": 5,
+     "esf_id": 517,
+     "volume": 100
+    },
+    {
+     "program": 6,
+     "esf_id": 518,
+     "volume": 90
+    },
+    {
+     "program": 7,
+     "esf_id": 519,
+     "volume": 97
+    },
+    {
+     "program": 8,
+     "esf_id": 520,
+     "volume": 100
+    },
+    {
+     "program": 9,
+     "esf_id": 521,
+     "volume": 110
+    },
+    {
+     "program": 10,
+     "esf_id": 522,
+     "volume": 100
+    },
+    {
+     "program": 11,
+     "esf_id": 523,
+     "volume": 100
+    },
+    {
+     "program": 12,
+     "esf_id": 524,
+     "volume": 100
+    },
+    {
+     "program": 13,
+     "esf_id": 525,
+     "volume": 100
+    },
+    {
+     "program": 14,
+     "esf_id": 526,
+     "volume": 100
+    },
+    {
+     "program": 15,
+     "esf_id": 527,
+     "volume": 100
+    },
+    {
+     "program": 16,
+     "esf_id": 529,
+     "volume": 100
+    },
+    {
+     "program": 17,
+     "esf_id": 530,
+     "volume": 100
+    },
+    {
+     "program": 18,
+     "esf_id": 531,
+     "volume": 125
+    },
+    {
+     "program": 19,
+     "esf_id": 532,
+     "volume": 0
+    },
+    {
+     "program": 20,
+     "esf_id": 533,
+     "volume": 87
+    },
+    {
+     "program": 21,
+     "esf_id": 534,
+     "volume": 80
+    },
+    {
+     "program": 22,
+     "esf_id": 535,
+     "volume": 98
+    },
+    {
+     "program": 23,
+     "esf_id": 536,
+     "volume": 98
+    },
+    {
+     "program": 24,
+     "esf_id": 539,
+     "volume": 90
+    },
+    {
+     "program": 25,
+     "esf_id": 540,
+     "volume": 90
+    },
+    {
+     "program": 26,
+     "esf_id": 541,
+     "volume": 55
+    },
+    {
+     "program": 27,
+     "esf_id": 542,
+     "volume": 62
+    },
+    {
+     "program": 28,
+     "esf_id": 543,
+     "volume": 57
+    },
+    {
+     "program": 29,
+     "esf_id": 544,
+     "volume": 90
+    },
+    {
+     "program": 30,
+     "esf_id": 545,
+     "volume": 90
+    },
+    {
+     "program": 31,
+     "esf_id": 546,
+     "volume": 90
+    },
+    {
+     "program": 32,
+     "esf_id": 547,
+     "volume": 90
+    },
+    {
+     "program": 33,
+     "esf_id": 548,
+     "volume": 90
+    },
+    {
+     "program": 34,
+     "esf_id": 549,
+     "volume": 75
+    },
+    {
+     "program": 35,
+     "esf_id": 550,
+     "volume": 115
+    },
+    {
+     "program": 36,
+     "esf_id": 551,
+     "volume": 110
+    },
+    {
+     "program": 37,
+     "esf_id": 555,
+     "volume": 115
+    },
+    {
+     "program": 38,
+     "esf_id": 556,
+     "volume": 107
+    },
+    {
+     "program": 39,
+     "esf_id": 557,
+     "volume": 107
+    }
+   ],
+   "index": 587,
+   "name": "M:\\LANGUAGE\\SONIX\\CYCLOPS\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 448,
+     "volume": 115
+    },
+    {
+     "program": 1,
+     "esf_id": 449,
+     "volume": 95
+    },
+    {
+     "program": 2,
+     "esf_id": 450,
+     "volume": 75
+    },
+    {
+     "program": 3,
+     "esf_id": 451,
+     "volume": 95
+    },
+    {
+     "program": 4,
+     "esf_id": 452,
+     "volume": 90
+    },
+    {
+     "program": 5,
+     "esf_id": 453,
+     "volume": 90
+    },
+    {
+     "program": 6,
+     "esf_id": 454,
+     "volume": 90
+    },
+    {
+     "program": 7,
+     "esf_id": 455,
+     "volume": 85
+    },
+    {
+     "program": 8,
+     "esf_id": 456,
+     "volume": 98
+    },
+    {
+     "program": 9,
+     "esf_id": 457,
+     "volume": 70
+    },
+    {
+     "program": 10,
+     "esf_id": 458,
+     "volume": 93
+    },
+    {
+     "program": 11,
+     "esf_id": 459,
+     "volume": 90
+    },
+    {
+     "program": 12,
+     "esf_id": 460,
+     "volume": 120
+    },
+    {
+     "program": 13,
+     "esf_id": 485,
+     "volume": 120
+    },
+    {
+     "program": 14,
+     "esf_id": 486,
+     "volume": 100
+    },
+    {
+     "program": 15,
+     "esf_id": 461,
+     "volume": 110
+    },
+    {
+     "program": 16,
+     "esf_id": 462,
+     "volume": 112
+    },
+    {
+     "program": 17,
+     "esf_id": 463,
+     "volume": 80
+    },
+    {
+     "program": 18,
+     "esf_id": 464,
+     "volume": 80
+    },
+    {
+     "program": 19,
+     "esf_id": 465,
+     "volume": 54
+    },
+    {
+     "program": 20,
+     "esf_id": 466,
+     "volume": 90
+    },
+    {
+     "program": 21,
+     "esf_id": 467,
+     "volume": 90
+    },
+    {
+     "program": 22,
+     "esf_id": 468,
+     "volume": 90
+    },
+    {
+     "program": 23,
+     "esf_id": 469,
+     "volume": 90
+    },
+    {
+     "program": 24,
+     "esf_id": 470,
+     "volume": 50
+    },
+    {
+     "program": 25,
+     "esf_id": 471,
+     "volume": 46
+    },
+    {
+     "program": 26,
+     "esf_id": 472,
+     "volume": 75
+    },
+    {
+     "program": 27,
+     "esf_id": 473,
+     "volume": 65
+    },
+    {
+     "program": 28,
+     "esf_id": 474,
+     "volume": 80
+    },
+    {
+     "program": 29,
+     "esf_id": 475,
+     "volume": 80
+    },
+    {
+     "program": 30,
+     "esf_id": 476,
+     "volume": 80
+    },
+    {
+     "program": 31,
+     "esf_id": 477,
+     "volume": 80
+    },
+    {
+     "program": 32,
+     "esf_id": 478,
+     "volume": 95
+    },
+    {
+     "program": 33,
+     "esf_id": 479,
+     "volume": 95
+    },
+    {
+     "program": 34,
+     "esf_id": 480,
+     "volume": 50
+    },
+    {
+     "program": 35,
+     "esf_id": 481,
+     "volume": 35
+    },
+    {
+     "program": 36,
+     "esf_id": 482,
+     "volume": 30
+    },
+    {
+     "program": 37,
+     "esf_id": 483,
+     "volume": 45
+    },
+    {
+     "program": 38,
+     "esf_id": 484,
+     "volume": 25
+    },
+    {
+     "program": 39,
+     "esf_id": 487,
+     "volume": 80
+    },
+    {
+     "program": 40,
+     "esf_id": 488,
+     "volume": 70
+    },
+    {
+     "program": 41,
+     "esf_id": 489,
+     "volume": 60
+    },
+    {
+     "program": 42,
+     "esf_id": 490,
+     "volume": 120
+    },
+    {
+     "program": 43,
+     "esf_id": 1038,
+     "volume": 127
+    },
+    {
+     "program": 44,
+     "esf_id": 1039,
+     "volume": 127
+    },
+    {
+     "program": 45,
+     "esf_id": 1040,
+     "volume": 127
+    },
+    {
+     "program": 46,
+     "esf_id": 1041,
+     "volume": 127
+    }
+   ],
+   "index": 588,
+   "name": "M:\\LANGUAGE\\SONIX\\MEDUSA\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 12,
+      "sec": 53,
+      "text": "2:12:53"
+     },
+     "end": {
+      "track": 2,
+      "min": 15,
+      "sec": 29,
+      "text": "2:15:29"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 589,
+   "name": "M:\\LANGUAGE\\SONIX\\NESSUS\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 1,
+     "volume": 70
+    },
+    {
+     "program": 1,
+     "esf_id": 2,
+     "volume": 85
+    },
+    {
+     "program": 2,
+     "esf_id": 3,
+     "volume": 85
+    },
+    {
+     "program": 3,
+     "esf_id": 4,
+     "volume": 85
+    },
+    {
+     "program": 4,
+     "esf_id": 5,
+     "volume": 97
+    },
+    {
+     "program": 5,
+     "esf_id": 6,
+     "volume": 108
+    },
+    {
+     "program": 6,
+     "esf_id": 13,
+     "volume": 60
+    },
+    {
+     "program": 7,
+     "esf_id": 14,
+     "volume": 80
+    },
+    {
+     "program": 8,
+     "esf_id": 15,
+     "volume": 85
+    },
+    {
+     "program": 9,
+     "esf_id": 20,
+     "volume": 80
+    },
+    {
+     "program": 10,
+     "esf_id": 35,
+     "volume": 90
+    },
+    {
+     "program": 11,
+     "esf_id": 21,
+     "volume": 100
+    },
+    {
+     "program": 12,
+     "esf_id": 22,
+     "volume": 70
+    },
+    {
+     "program": 13,
+     "esf_id": 23,
+     "volume": 90
+    },
+    {
+     "program": 14,
+     "esf_id": 24,
+     "volume": 100
+    },
+    {
+     "program": 15,
+     "esf_id": 25,
+     "volume": 100
+    },
+    {
+     "program": 16,
+     "esf_id": 26,
+     "volume": 100
+    },
+    {
+     "program": 17,
+     "esf_id": 27,
+     "volume": 100
+    },
+    {
+     "program": 18,
+     "esf_id": 28,
+     "volume": 100
+    },
+    {
+     "program": 19,
+     "esf_id": 29,
+     "volume": 100
+    },
+    {
+     "program": 20,
+     "esf_id": 36,
+     "volume": 100
+    },
+    {
+     "program": 21,
+     "esf_id": 37,
+     "volume": 100
+    },
+    {
+     "program": 22,
+     "esf_id": 59,
+     "volume": 95
+    },
+    {
+     "program": 23,
+     "esf_id": 60,
+     "volume": 100
+    },
+    {
+     "program": 24,
+     "esf_id": 61,
+     "volume": 108
+    },
+    {
+     "program": 25,
+     "esf_id": 62,
+     "volume": 95
+    },
+    {
+     "program": 26,
+     "esf_id": 63,
+     "volume": 62
+    },
+    {
+     "program": 27,
+     "esf_id": 39,
+     "volume": 95
+    },
+    {
+     "program": 28,
+     "esf_id": 41,
+     "volume": 90
+    },
+    {
+     "program": 29,
+     "esf_id": 820,
+     "volume": 40
+    },
+    {
+     "program": 30,
+     "esf_id": 821,
+     "volume": 30
+    },
+    {
+     "program": 31,
+     "esf_id": 822,
+     "volume": 22
+    },
+    {
+     "program": 32,
+     "esf_id": 823,
+     "volume": 75
+    },
+    {
+     "program": 33,
+     "esf_id": 824,
+     "volume": 60
+    },
+    {
+     "program": 34,
+     "esf_id": 825,
+     "volume": 70
+    },
+    {
+     "program": 35,
+     "esf_id": 42,
+     "volume": 95
+    },
+    {
+     "program": 36,
+     "esf_id": 43,
+     "volume": 95
+    },
+    {
+     "program": 37,
+     "esf_id": 634,
+     "volume": 82
+    }
+   ],
+   "index": 590,
+   "name": "M:\\LANGUAGE\\SONIX\\HERC_MED\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 15,
+      "sec": 29,
+      "text": "2:15:29"
+     },
+     "end": {
+      "track": 2,
+      "min": 18,
+      "sec": 33,
+      "text": "2:18:33"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 591,
+   "name": "M:\\LANGUAGE\\SONIX\\THEBES\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 25,
+      "sec": 10,
+      "text": "2:25:10"
+     },
+     "end": {
+      "track": 2,
+      "min": 28,
+      "sec": 33,
+      "text": "2:28:33"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 592,
+   "name": "M:\\LANGUAGE\\SONIX\\TITANS\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 1,
+     "volume": 70
+    },
+    {
+     "program": 1,
+     "esf_id": 2,
+     "volume": 85
+    },
+    {
+     "program": 2,
+     "esf_id": 3,
+     "volume": 85
+    },
+    {
+     "program": 3,
+     "esf_id": 4,
+     "volume": 85
+    },
+    {
+     "program": 4,
+     "esf_id": 5,
+     "volume": 97
+    },
+    {
+     "program": 5,
+     "esf_id": 6,
+     "volume": 108
+    },
+    {
+     "program": 6,
+     "esf_id": 7,
+     "volume": 90
+    },
+    {
+     "program": 7,
+     "esf_id": 8,
+     "volume": 80
+    },
+    {
+     "program": 8,
+     "esf_id": 9,
+     "volume": 75
+    },
+    {
+     "program": 9,
+     "esf_id": 10,
+     "volume": 80
+    },
+    {
+     "program": 10,
+     "esf_id": 11,
+     "volume": 90
+    },
+    {
+     "program": 11,
+     "esf_id": 12,
+     "volume": 90
+    },
+    {
+     "program": 12,
+     "esf_id": 13,
+     "volume": 60
+    },
+    {
+     "program": 13,
+     "esf_id": 14,
+     "volume": 80
+    },
+    {
+     "program": 14,
+     "esf_id": 15,
+     "volume": 85
+    },
+    {
+     "program": 15,
+     "esf_id": 16,
+     "volume": 88
+    },
+    {
+     "program": 16,
+     "esf_id": 17,
+     "volume": 110
+    },
+    {
+     "program": 17,
+     "esf_id": 18,
+     "volume": 105
+    },
+    {
+     "program": 18,
+     "esf_id": 19,
+     "volume": 125
+    },
+    {
+     "program": 19,
+     "esf_id": 20,
+     "volume": 80
+    },
+    {
+     "program": 20,
+     "esf_id": 35,
+     "volume": 90
+    },
+    {
+     "program": 21,
+     "esf_id": 21,
+     "volume": 100
+    },
+    {
+     "program": 22,
+     "esf_id": 22,
+     "volume": 70
+    },
+    {
+     "program": 23,
+     "esf_id": 23,
+     "volume": 90
+    },
+    {
+     "program": 24,
+     "esf_id": 24,
+     "volume": 100
+    },
+    {
+     "program": 25,
+     "esf_id": 25,
+     "volume": 100
+    },
+    {
+     "program": 26,
+     "esf_id": 26,
+     "volume": 100
+    },
+    {
+     "program": 27,
+     "esf_id": 27,
+     "volume": 100
+    },
+    {
+     "program": 28,
+     "esf_id": 28,
+     "volume": 100
+    },
+    {
+     "program": 29,
+     "esf_id": 29,
+     "volume": 100
+    },
+    {
+     "program": 30,
+     "esf_id": 30,
+     "volume": 85
+    },
+    {
+     "program": 31,
+     "esf_id": 31,
+     "volume": 75
+    },
+    {
+     "program": 32,
+     "esf_id": 32,
+     "volume": 65
+    },
+    {
+     "program": 33,
+     "esf_id": 33,
+     "volume": 60
+    },
+    {
+     "program": 34,
+     "esf_id": 34,
+     "volume": 60
+    },
+    {
+     "program": 35,
+     "esf_id": 36,
+     "volume": 100
+    },
+    {
+     "program": 36,
+     "esf_id": 37,
+     "volume": 100
+    },
+    {
+     "program": 37,
+     "esf_id": 59,
+     "volume": 95
+    },
+    {
+     "program": 38,
+     "esf_id": 60,
+     "volume": 100
+    },
+    {
+     "program": 39,
+     "esf_id": 61,
+     "volume": 108
+    },
+    {
+     "program": 40,
+     "esf_id": 62,
+     "volume": 95
+    },
+    {
+     "program": 41,
+     "esf_id": 63,
+     "volume": 62
+    },
+    {
+     "program": 42,
+     "esf_id": 38,
+     "volume": 105
+    },
+    {
+     "program": 43,
+     "esf_id": 39,
+     "volume": 95
+    },
+    {
+     "program": 44,
+     "esf_id": 40,
+     "volume": 100
+    },
+    {
+     "program": 45,
+     "esf_id": 41,
+     "volume": 90
+    },
+    {
+     "program": 46,
+     "esf_id": 820,
+     "volume": 40
+    },
+    {
+     "program": 47,
+     "esf_id": 821,
+     "volume": 30
+    },
+    {
+     "program": 48,
+     "esf_id": 822,
+     "volume": 22
+    },
+    {
+     "program": 49,
+     "esf_id": 823,
+     "volume": 75
+    },
+    {
+     "program": 50,
+     "esf_id": 824,
+     "volume": 60
+    },
+    {
+     "program": 51,
+     "esf_id": 825,
+     "volume": 70
+    },
+    {
+     "program": 52,
+     "esf_id": 42,
+     "volume": 95
+    },
+    {
+     "program": 53,
+     "esf_id": 43,
+     "volume": 95
+    },
+    {
+     "program": 54,
+     "esf_id": 634,
+     "volume": 82
+    },
+    {
+     "program": 55,
+     "esf_id": 630,
+     "volume": 70
+    }
+   ],
+   "index": 593,
+   "name": "M:\\LANGUAGE\\SONIX\\HERC_TRA\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 1,
+     "volume": 70
+    },
+    {
+     "program": 1,
+     "esf_id": 2,
+     "volume": 85
+    },
+    {
+     "program": 2,
+     "esf_id": 3,
+     "volume": 85
+    },
+    {
+     "program": 3,
+     "esf_id": 4,
+     "volume": 85
+    },
+    {
+     "program": 4,
+     "esf_id": 5,
+     "volume": 97
+    },
+    {
+     "program": 5,
+     "esf_id": 6,
+     "volume": 108
+    },
+    {
+     "program": 6,
+     "esf_id": 7,
+     "volume": 90
+    },
+    {
+     "program": 7,
+     "esf_id": 8,
+     "volume": 80
+    },
+    {
+     "program": 8,
+     "esf_id": 9,
+     "volume": 75
+    },
+    {
+     "program": 9,
+     "esf_id": 10,
+     "volume": 80
+    },
+    {
+     "program": 10,
+     "esf_id": 11,
+     "volume": 90
+    },
+    {
+     "program": 11,
+     "esf_id": 12,
+     "volume": 90
+    },
+    {
+     "program": 12,
+     "esf_id": 13,
+     "volume": 60
+    },
+    {
+     "program": 13,
+     "esf_id": 14,
+     "volume": 80
+    },
+    {
+     "program": 14,
+     "esf_id": 15,
+     "volume": 85
+    },
+    {
+     "program": 15,
+     "esf_id": 16,
+     "volume": 88
+    },
+    {
+     "program": 16,
+     "esf_id": 17,
+     "volume": 110
+    },
+    {
+     "program": 17,
+     "esf_id": 18,
+     "volume": 105
+    },
+    {
+     "program": 18,
+     "esf_id": 19,
+     "volume": 125
+    },
+    {
+     "program": 19,
+     "esf_id": 20,
+     "volume": 80
+    },
+    {
+     "program": 20,
+     "esf_id": 35,
+     "volume": 90
+    },
+    {
+     "program": 21,
+     "esf_id": 21,
+     "volume": 100
+    },
+    {
+     "program": 22,
+     "esf_id": 22,
+     "volume": 70
+    },
+    {
+     "program": 23,
+     "esf_id": 23,
+     "volume": 90
+    },
+    {
+     "program": 24,
+     "esf_id": 24,
+     "volume": 100
+    },
+    {
+     "program": 25,
+     "esf_id": 25,
+     "volume": 100
+    },
+    {
+     "program": 26,
+     "esf_id": 26,
+     "volume": 100
+    },
+    {
+     "program": 27,
+     "esf_id": 27,
+     "volume": 100
+    },
+    {
+     "program": 28,
+     "esf_id": 28,
+     "volume": 100
+    },
+    {
+     "program": 29,
+     "esf_id": 29,
+     "volume": 100
+    },
+    {
+     "program": 30,
+     "esf_id": 36,
+     "volume": 100
+    },
+    {
+     "program": 31,
+     "esf_id": 37,
+     "volume": 100
+    },
+    {
+     "program": 32,
+     "esf_id": 59,
+     "volume": 95
+    },
+    {
+     "program": 33,
+     "esf_id": 60,
+     "volume": 100
+    },
+    {
+     "program": 34,
+     "esf_id": 61,
+     "volume": 108
+    },
+    {
+     "program": 35,
+     "esf_id": 62,
+     "volume": 95
+    },
+    {
+     "program": 36,
+     "esf_id": 63,
+     "volume": 62
+    },
+    {
+     "program": 37,
+     "esf_id": 38,
+     "volume": 105
+    },
+    {
+     "program": 38,
+     "esf_id": 39,
+     "volume": 95
+    },
+    {
+     "program": 39,
+     "esf_id": 40,
+     "volume": 100
+    },
+    {
+     "program": 40,
+     "esf_id": 41,
+     "volume": 90
+    },
+    {
+     "program": 41,
+     "esf_id": 820,
+     "volume": 40
+    },
+    {
+     "program": 42,
+     "esf_id": 821,
+     "volume": 30
+    },
+    {
+     "program": 43,
+     "esf_id": 822,
+     "volume": 22
+    },
+    {
+     "program": 44,
+     "esf_id": 823,
+     "volume": 75
+    },
+    {
+     "program": 45,
+     "esf_id": 824,
+     "volume": 60
+    },
+    {
+     "program": 46,
+     "esf_id": 825,
+     "volume": 70
+    },
+    {
+     "program": 47,
+     "esf_id": 42,
+     "volume": 95
+    },
+    {
+     "program": 48,
+     "esf_id": 43,
+     "volume": 95
+    },
+    {
+     "program": 49,
+     "esf_id": 634,
+     "volume": 82
+    }
+   ],
+   "index": 594,
+   "name": "M:\\LANGUAGE\\SONIX\\HERC_THE\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 58,
+     "volume": 85
+    },
+    {
+     "program": 1,
+     "esf_id": 57,
+     "volume": 85
+    },
+    {
+     "program": 2,
+     "esf_id": 56,
+     "volume": 90
+    },
+    {
+     "program": 3,
+     "esf_id": 55,
+     "volume": 100
+    },
+    {
+     "program": 4,
+     "esf_id": 46,
+     "volume": 100
+    },
+    {
+     "program": 5,
+     "esf_id": 45,
+     "volume": 100
+    },
+    {
+     "program": 6,
+     "esf_id": 44,
+     "volume": 100
+    },
+    {
+     "program": 7,
+     "esf_id": 59,
+     "volume": 95
+    },
+    {
+     "program": 8,
+     "esf_id": 60,
+     "volume": 100
+    },
+    {
+     "program": 9,
+     "esf_id": 61,
+     "volume": 108
+    },
+    {
+     "program": 10,
+     "esf_id": 62,
+     "volume": 95
+    },
+    {
+     "program": 11,
+     "esf_id": 63,
+     "volume": 62
+    },
+    {
+     "program": 12,
+     "esf_id": 40,
+     "volume": 95
+    },
+    {
+     "program": 13,
+     "esf_id": 820,
+     "volume": 40
+    },
+    {
+     "program": 14,
+     "esf_id": 821,
+     "volume": 30
+    },
+    {
+     "program": 15,
+     "esf_id": 822,
+     "volume": 22
+    },
+    {
+     "program": 16,
+     "esf_id": 823,
+     "volume": 75
+    },
+    {
+     "program": 17,
+     "esf_id": 824,
+     "volume": 60
+    },
+    {
+     "program": 18,
+     "esf_id": 825,
+     "volume": 70
+    },
+    {
+     "program": 19,
+     "esf_id": 42,
+     "volume": 95
+    },
+    {
+     "program": 20,
+     "esf_id": 43,
+     "volume": 95
+    },
+    {
+     "program": 21,
+     "esf_id": 13,
+     "volume": 60
+    }
+   ],
+   "index": 595,
+   "name": "M:\\LANGUAGE\\SONIX\\HERC_TOR\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 639,
+     "volume": 70
+    },
+    {
+     "program": 1,
+     "esf_id": 638,
+     "volume": 55
+    },
+    {
+     "program": 2,
+     "esf_id": 637,
+     "volume": 85
+    },
+    {
+     "program": 3,
+     "esf_id": 636,
+     "volume": 85
+    },
+    {
+     "program": 4,
+     "esf_id": 635,
+     "volume": 90
+    },
+    {
+     "program": 5,
+     "esf_id": 16,
+     "volume": 88
+    },
+    {
+     "program": 6,
+     "esf_id": 633,
+     "volume": 110
+    },
+    {
+     "program": 7,
+     "esf_id": 632,
+     "volume": 110
+    },
+    {
+     "program": 8,
+     "esf_id": 631,
+     "volume": 110
+    },
+    {
+     "program": 9,
+     "esf_id": 59,
+     "volume": 95
+    },
+    {
+     "program": 10,
+     "esf_id": 60,
+     "volume": 100
+    },
+    {
+     "program": 11,
+     "esf_id": 61,
+     "volume": 108
+    },
+    {
+     "program": 12,
+     "esf_id": 62,
+     "volume": 95
+    },
+    {
+     "program": 13,
+     "esf_id": 63,
+     "volume": 62
+    },
+    {
+     "program": 14,
+     "esf_id": 17,
+     "volume": 110
+    },
+    {
+     "program": 15,
+     "esf_id": 18,
+     "volume": 105
+    },
+    {
+     "program": 16,
+     "esf_id": 38,
+     "volume": 105
+    },
+    {
+     "program": 17,
+     "esf_id": 39,
+     "volume": 95
+    },
+    {
+     "program": 18,
+     "esf_id": 40,
+     "volume": 100
+    },
+    {
+     "program": 19,
+     "esf_id": 820,
+     "volume": 40
+    },
+    {
+     "program": 20,
+     "esf_id": 821,
+     "volume": 30
+    },
+    {
+     "program": 21,
+     "esf_id": 822,
+     "volume": 22
+    },
+    {
+     "program": 22,
+     "esf_id": 823,
+     "volume": 75
+    },
+    {
+     "program": 23,
+     "esf_id": 824,
+     "volume": 60
+    },
+    {
+     "program": 24,
+     "esf_id": 825,
+     "volume": 70
+    },
+    {
+     "program": 25,
+     "esf_id": 42,
+     "volume": 95
+    },
+    {
+     "program": 26,
+     "esf_id": 634,
+     "volume": 75
+    },
+    {
+     "program": 27,
+     "esf_id": 13,
+     "volume": 60
+    }
+   ],
+   "index": 596,
+   "name": "M:\\LANGUAGE\\SONIX\\HERC_TIT\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 195,
+     "volume": 100
+    },
+    {
+     "program": 1,
+     "esf_id": 196,
+     "volume": 80
+    },
+    {
+     "program": 2,
+     "esf_id": 64,
+     "volume": 90
+    },
+    {
+     "program": 3,
+     "esf_id": 65,
+     "volume": 80
+    },
+    {
+     "program": 4,
+     "esf_id": 66,
+     "volume": 80
+    },
+    {
+     "program": 5,
+     "esf_id": 67,
+     "volume": 100
+    },
+    {
+     "program": 6,
+     "esf_id": 68,
+     "volume": 80
+    },
+    {
+     "program": 7,
+     "esf_id": 69,
+     "volume": 100
+    },
+    {
+     "program": 8,
+     "esf_id": 70,
+     "volume": 100
+    },
+    {
+     "program": 9,
+     "esf_id": 71,
+     "volume": 70
+    },
+    {
+     "program": 10,
+     "esf_id": 72,
+     "volume": 80
+    },
+    {
+     "program": 11,
+     "esf_id": 73,
+     "volume": 120
+    },
+    {
+     "program": 12,
+     "esf_id": 74,
+     "volume": 115
+    },
+    {
+     "program": 13,
+     "esf_id": 75,
+     "volume": 125
+    },
+    {
+     "program": 14,
+     "esf_id": 76,
+     "volume": 127
+    },
+    {
+     "program": 15,
+     "esf_id": 77,
+     "volume": 55
+    },
+    {
+     "program": 16,
+     "esf_id": 78,
+     "volume": 90
+    },
+    {
+     "program": 17,
+     "esf_id": 79,
+     "volume": 90
+    },
+    {
+     "program": 18,
+     "esf_id": 80,
+     "volume": 88
+    },
+    {
+     "program": 19,
+     "esf_id": 81,
+     "volume": 90
+    },
+    {
+     "program": 20,
+     "esf_id": 82,
+     "volume": 100
+    },
+    {
+     "program": 21,
+     "esf_id": 83,
+     "volume": 106
+    },
+    {
+     "program": 22,
+     "esf_id": 84,
+     "volume": 65
+    },
+    {
+     "program": 23,
+     "esf_id": 85,
+     "volume": 100
+    },
+    {
+     "program": 24,
+     "esf_id": 86,
+     "volume": 100
+    },
+    {
+     "program": 25,
+     "esf_id": 87,
+     "volume": 100
+    },
+    {
+     "program": 26,
+     "esf_id": 88,
+     "volume": 100
+    },
+    {
+     "program": 27,
+     "esf_id": 89,
+     "volume": 100
+    },
+    {
+     "program": 28,
+     "esf_id": 90,
+     "volume": 95
+    },
+    {
+     "program": 29,
+     "esf_id": 91,
+     "volume": 120
+    },
+    {
+     "program": 30,
+     "esf_id": 92,
+     "volume": 110
+    },
+    {
+     "program": 31,
+     "esf_id": 93,
+     "volume": 90
+    },
+    {
+     "program": 32,
+     "esf_id": 94,
+     "volume": 90
+    },
+    {
+     "program": 33,
+     "esf_id": 95,
+     "volume": 83
+    },
+    {
+     "program": 34,
+     "esf_id": 96,
+     "volume": 105
+    },
+    {
+     "program": 35,
+     "esf_id": 97,
+     "volume": 92
+    },
+    {
+     "program": 36,
+     "esf_id": 98,
+     "volume": 92
+    },
+    {
+     "program": 37,
+     "esf_id": 99,
+     "volume": 120
+    },
+    {
+     "program": 38,
+     "esf_id": 100,
+     "volume": 120
+    },
+    {
+     "program": 39,
+     "esf_id": 101,
+     "volume": 80
+    },
+    {
+     "program": 40,
+     "esf_id": 102,
+     "volume": 72
+    },
+    {
+     "program": 41,
+     "esf_id": 103,
+     "volume": 90
+    },
+    {
+     "program": 42,
+     "esf_id": 104,
+     "volume": 110
+    },
+    {
+     "program": 43,
+     "esf_id": 105,
+     "volume": 100
+    },
+    {
+     "program": 44,
+     "esf_id": 106,
+     "volume": 100
+    },
+    {
+     "program": 45,
+     "esf_id": 107,
+     "volume": 100
+    },
+    {
+     "program": 46,
+     "esf_id": 110,
+     "volume": 90
+    },
+    {
+     "program": 47,
+     "esf_id": 111,
+     "volume": 110
+    },
+    {
+     "program": 48,
+     "esf_id": 112,
+     "volume": 110
+    },
+    {
+     "program": 49,
+     "esf_id": 113,
+     "volume": 125
+    },
+    {
+     "program": 50,
+     "esf_id": 114,
+     "volume": 110
+    },
+    {
+     "program": 51,
+     "esf_id": 1022,
+     "volume": 127
+    },
+    {
+     "program": 52,
+     "esf_id": 1024,
+     "volume": 127
+    },
+    {
+     "program": 53,
+     "esf_id": 1025,
+     "volume": 127
+    },
+    {
+     "program": 54,
+     "esf_id": 1026,
+     "volume": 127
+    },
+    {
+     "program": 55,
+     "esf_id": 1027,
+     "volume": 127
+    },
+    {
+     "program": 56,
+     "esf_id": 1028,
+     "volume": 127
+    },
+    {
+     "program": 57,
+     "esf_id": 1031,
+     "volume": 127
+    },
+    {
+     "program": 58,
+     "esf_id": 1033,
+     "volume": 127
+    },
+    {
+     "program": 59,
+     "esf_id": 1034,
+     "volume": 127
+    }
+   ],
+   "index": 597,
+   "name": "M:\\LANGUAGE\\SONIX\\TRAINING\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 1,
+     "volume": 70
+    },
+    {
+     "program": 1,
+     "esf_id": 2,
+     "volume": 85
+    },
+    {
+     "program": 2,
+     "esf_id": 3,
+     "volume": 85
+    },
+    {
+     "program": 3,
+     "esf_id": 4,
+     "volume": 85
+    },
+    {
+     "program": 4,
+     "esf_id": 5,
+     "volume": 97
+    },
+    {
+     "program": 5,
+     "esf_id": 6,
+     "volume": 108
+    },
+    {
+     "program": 6,
+     "esf_id": 7,
+     "volume": 90
+    },
+    {
+     "program": 7,
+     "esf_id": 8,
+     "volume": 80
+    },
+    {
+     "program": 8,
+     "esf_id": 9,
+     "volume": 75
+    },
+    {
+     "program": 9,
+     "esf_id": 10,
+     "volume": 80
+    },
+    {
+     "program": 10,
+     "esf_id": 13,
+     "volume": 60
+    },
+    {
+     "program": 11,
+     "esf_id": 14,
+     "volume": 80
+    },
+    {
+     "program": 12,
+     "esf_id": 15,
+     "volume": 85
+    },
+    {
+     "program": 13,
+     "esf_id": 16,
+     "volume": 95
+    },
+    {
+     "program": 14,
+     "esf_id": 17,
+     "volume": 110
+    },
+    {
+     "program": 15,
+     "esf_id": 18,
+     "volume": 105
+    },
+    {
+     "program": 16,
+     "esf_id": 19,
+     "volume": 125
+    },
+    {
+     "program": 17,
+     "esf_id": 20,
+     "volume": 80
+    },
+    {
+     "program": 18,
+     "esf_id": 35,
+     "volume": 90
+    },
+    {
+     "program": 19,
+     "esf_id": 21,
+     "volume": 100
+    },
+    {
+     "program": 20,
+     "esf_id": 22,
+     "volume": 70
+    },
+    {
+     "program": 21,
+     "esf_id": 23,
+     "volume": 90
+    },
+    {
+     "program": 22,
+     "esf_id": 24,
+     "volume": 100
+    },
+    {
+     "program": 23,
+     "esf_id": 25,
+     "volume": 100
+    },
+    {
+     "program": 24,
+     "esf_id": 26,
+     "volume": 100
+    },
+    {
+     "program": 25,
+     "esf_id": 27,
+     "volume": 100
+    },
+    {
+     "program": 26,
+     "esf_id": 28,
+     "volume": 100
+    },
+    {
+     "program": 27,
+     "esf_id": 29,
+     "volume": 100
+    },
+    {
+     "program": 28,
+     "esf_id": 36,
+     "volume": 100
+    },
+    {
+     "program": 29,
+     "esf_id": 37,
+     "volume": 100
+    },
+    {
+     "program": 30,
+     "esf_id": 59,
+     "volume": 95
+    },
+    {
+     "program": 31,
+     "esf_id": 60,
+     "volume": 100
+    },
+    {
+     "program": 32,
+     "esf_id": 61,
+     "volume": 108
+    },
+    {
+     "program": 33,
+     "esf_id": 62,
+     "volume": 95
+    },
+    {
+     "program": 34,
+     "esf_id": 63,
+     "volume": 62
+    },
+    {
+     "program": 35,
+     "esf_id": 38,
+     "volume": 105
+    },
+    {
+     "program": 36,
+     "esf_id": 39,
+     "volume": 95
+    },
+    {
+     "program": 37,
+     "esf_id": 41,
+     "volume": 90
+    },
+    {
+     "program": 38,
+     "esf_id": 820,
+     "volume": 40
+    },
+    {
+     "program": 39,
+     "esf_id": 821,
+     "volume": 30
+    },
+    {
+     "program": 40,
+     "esf_id": 822,
+     "volume": 22
+    },
+    {
+     "program": 41,
+     "esf_id": 823,
+     "volume": 75
+    },
+    {
+     "program": 42,
+     "esf_id": 824,
+     "volume": 60
+    },
+    {
+     "program": 43,
+     "esf_id": 825,
+     "volume": 70
+    },
+    {
+     "program": 44,
+     "esf_id": 42,
+     "volume": 95
+    },
+    {
+     "program": 45,
+     "esf_id": 43,
+     "volume": 95
+    },
+    {
+     "program": 46,
+     "esf_id": 634,
+     "volume": 75
+    }
+   ],
+   "index": 598,
+   "name": "M:\\LANGUAGE\\SONIX\\HERC_VOR\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 8,
+      "sec": 55,
+      "text": "2:08:55"
+     },
+     "end": {
+      "track": 2,
+      "min": 12,
+      "sec": 53,
+      "text": "2:12:53"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 600,
+   "name": "M:\\LANGUAGE\\SONIX\\FOREST\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 31,
+      "sec": 8,
+      "text": "2:31:08"
+     },
+     "end": {
+      "track": 2,
+      "min": 34,
+      "sec": 20,
+      "text": "2:34:20"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 604,
+   "name": "M:\\LANGUAGE\\SONIX\\VORTEX\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 256,
+     "volume": 104
+    },
+    {
+     "program": 1,
+     "esf_id": 257,
+     "volume": 83
+    },
+    {
+     "program": 2,
+     "esf_id": 258,
+     "volume": 83
+    },
+    {
+     "program": 3,
+     "esf_id": 259,
+     "volume": 110
+    },
+    {
+     "program": 4,
+     "esf_id": 260,
+     "volume": 100
+    },
+    {
+     "program": 5,
+     "esf_id": 261,
+     "volume": 99
+    },
+    {
+     "program": 6,
+     "esf_id": 262,
+     "volume": 115
+    },
+    {
+     "program": 7,
+     "esf_id": 263,
+     "volume": 100
+    },
+    {
+     "program": 8,
+     "esf_id": 264,
+     "volume": 95
+    },
+    {
+     "program": 9,
+     "esf_id": 265,
+     "volume": 95
+    },
+    {
+     "program": 10,
+     "esf_id": 266,
+     "volume": 95
+    },
+    {
+     "program": 11,
+     "esf_id": 267,
+     "volume": 110
+    },
+    {
+     "program": 12,
+     "esf_id": 268,
+     "volume": 120
+    },
+    {
+     "program": 13,
+     "esf_id": 269,
+     "volume": 125
+    },
+    {
+     "program": 14,
+     "esf_id": 270,
+     "volume": 107
+    },
+    {
+     "program": 15,
+     "esf_id": 271,
+     "volume": 80
+    },
+    {
+     "program": 16,
+     "esf_id": 272,
+     "volume": 110
+    },
+    {
+     "program": 17,
+     "esf_id": 273,
+     "volume": 90
+    },
+    {
+     "program": 18,
+     "esf_id": 274,
+     "volume": 90
+    },
+    {
+     "program": 19,
+     "esf_id": 197,
+     "volume": 60
+    },
+    {
+     "program": 20,
+     "esf_id": 198,
+     "volume": 60
+    },
+    {
+     "program": 21,
+     "esf_id": 199,
+     "volume": 60
+    },
+    {
+     "program": 22,
+     "esf_id": 200,
+     "volume": 60
+    },
+    {
+     "program": 23,
+     "esf_id": 201,
+     "volume": 60
+    },
+    {
+     "program": 24,
+     "esf_id": 202,
+     "volume": 60
+    }
+   ],
+   "index": 605,
+   "name": "M:\\LANGUAGE\\SONIX\\NESSUS\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 320,
+     "volume": 70
+    },
+    {
+     "program": 1,
+     "esf_id": 321,
+     "volume": 110
+    },
+    {
+     "program": 2,
+     "esf_id": 322,
+     "volume": 100
+    },
+    {
+     "program": 3,
+     "esf_id": 195,
+     "volume": 100
+    },
+    {
+     "program": 4,
+     "esf_id": 196,
+     "volume": 80
+    },
+    {
+     "program": 5,
+     "esf_id": 324,
+     "volume": 110
+    },
+    {
+     "program": 6,
+     "esf_id": 325,
+     "volume": 110
+    },
+    {
+     "program": 7,
+     "esf_id": 326,
+     "volume": 110
+    },
+    {
+     "program": 8,
+     "esf_id": 327,
+     "volume": 110
+    },
+    {
+     "program": 9,
+     "esf_id": 328,
+     "volume": 90
+    },
+    {
+     "program": 10,
+     "esf_id": 329,
+     "volume": 100
+    },
+    {
+     "program": 11,
+     "esf_id": 330,
+     "volume": 100
+    },
+    {
+     "program": 12,
+     "esf_id": 331,
+     "volume": 100
+    },
+    {
+     "program": 13,
+     "esf_id": 332,
+     "volume": 65
+    },
+    {
+     "program": 14,
+     "esf_id": 333,
+     "volume": 108
+    },
+    {
+     "program": 15,
+     "esf_id": 334,
+     "volume": 110
+    },
+    {
+     "program": 16,
+     "esf_id": 335,
+     "volume": 65
+    },
+    {
+     "program": 17,
+     "esf_id": 336,
+     "volume": 100
+    },
+    {
+     "program": 18,
+     "esf_id": 337,
+     "volume": 82
+    },
+    {
+     "program": 19,
+     "esf_id": 338,
+     "volume": 92
+    },
+    {
+     "program": 20,
+     "esf_id": 339,
+     "volume": 65
+    },
+    {
+     "program": 21,
+     "esf_id": 340,
+     "volume": 50
+    },
+    {
+     "program": 22,
+     "esf_id": 341,
+     "volume": 103
+    },
+    {
+     "program": 23,
+     "esf_id": 342,
+     "volume": 100
+    },
+    {
+     "program": 24,
+     "esf_id": 343,
+     "volume": 100
+    },
+    {
+     "program": 25,
+     "esf_id": 344,
+     "volume": 112
+    },
+    {
+     "program": 26,
+     "esf_id": 345,
+     "volume": 112
+    },
+    {
+     "program": 27,
+     "esf_id": 346,
+     "volume": 90
+    },
+    {
+     "program": 28,
+     "esf_id": 347,
+     "volume": 95
+    },
+    {
+     "program": 29,
+     "esf_id": 348,
+     "volume": 100
+    },
+    {
+     "program": 30,
+     "esf_id": 349,
+     "volume": 95
+    },
+    {
+     "program": 31,
+     "esf_id": 350,
+     "volume": 110
+    },
+    {
+     "program": 32,
+     "esf_id": 351,
+     "volume": 100
+    },
+    {
+     "program": 33,
+     "esf_id": 352,
+     "volume": 100
+    },
+    {
+     "program": 34,
+     "esf_id": 353,
+     "volume": 108
+    },
+    {
+     "program": 35,
+     "esf_id": 354,
+     "volume": 94
+    },
+    {
+     "program": 36,
+     "esf_id": 355,
+     "volume": 125
+    },
+    {
+     "program": 37,
+     "esf_id": 356,
+     "volume": 125
+    },
+    {
+     "program": 38,
+     "esf_id": 357,
+     "volume": 60
+    },
+    {
+     "program": 39,
+     "esf_id": 358,
+     "volume": 60
+    },
+    {
+     "program": 40,
+     "esf_id": 359,
+     "volume": 85
+    },
+    {
+     "program": 41,
+     "esf_id": 360,
+     "volume": 88
+    },
+    {
+     "program": 42,
+     "esf_id": 361,
+     "volume": 75
+    },
+    {
+     "program": 43,
+     "esf_id": 468,
+     "volume": 90
+    },
+    {
+     "program": 44,
+     "esf_id": 469,
+     "volume": 90
+    },
+    {
+     "program": 45,
+     "esf_id": 470,
+     "volume": 50
+    },
+    {
+     "program": 46,
+     "esf_id": 471,
+     "volume": 46
+    },
+    {
+     "program": 47,
+     "esf_id": 475,
+     "volume": 80
+    },
+    {
+     "program": 48,
+     "esf_id": 476,
+     "volume": 80
+    },
+    {
+     "program": 49,
+     "esf_id": 477,
+     "volume": 80
+    },
+    {
+     "program": 50,
+     "esf_id": 478,
+     "volume": 75
+    },
+    {
+     "program": 51,
+     "esf_id": 479,
+     "volume": 95
+    },
+    {
+     "program": 52,
+     "esf_id": 480,
+     "volume": 45
+    },
+    {
+     "program": 53,
+     "esf_id": 481,
+     "volume": 35
+    },
+    {
+     "program": 54,
+     "esf_id": 482,
+     "volume": 30
+    },
+    {
+     "program": 55,
+     "esf_id": 483,
+     "volume": 40
+    },
+    {
+     "program": 56,
+     "esf_id": 484,
+     "volume": 30
+    },
+    {
+     "program": 57,
+     "esf_id": 104,
+     "volume": 110
+    },
+    {
+     "program": 58,
+     "esf_id": 105,
+     "volume": 100
+    }
+   ],
+   "index": 607,
+   "name": "M:\\LANGUAGE\\SONIX\\THEBES\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 576,
+     "volume": 110
+    },
+    {
+     "program": 1,
+     "esf_id": 577,
+     "volume": 110
+    },
+    {
+     "program": 2,
+     "esf_id": 578,
+     "volume": 80
+    },
+    {
+     "program": 3,
+     "esf_id": 579,
+     "volume": 85
+    },
+    {
+     "program": 4,
+     "esf_id": 580,
+     "volume": 85
+    },
+    {
+     "program": 5,
+     "esf_id": 581,
+     "volume": 85
+    },
+    {
+     "program": 6,
+     "esf_id": 582,
+     "volume": 90
+    },
+    {
+     "program": 7,
+     "esf_id": 583,
+     "volume": 110
+    },
+    {
+     "program": 8,
+     "esf_id": 584,
+     "volume": 110
+    },
+    {
+     "program": 9,
+     "esf_id": 585,
+     "volume": 75
+    },
+    {
+     "program": 10,
+     "esf_id": 586,
+     "volume": 80
+    },
+    {
+     "program": 11,
+     "esf_id": 587,
+     "volume": 76
+    },
+    {
+     "program": 12,
+     "esf_id": 588,
+     "volume": 100
+    },
+    {
+     "program": 13,
+     "esf_id": 589,
+     "volume": 100
+    },
+    {
+     "program": 14,
+     "esf_id": 590,
+     "volume": 125
+    },
+    {
+     "program": 15,
+     "esf_id": 591,
+     "volume": 120
+    },
+    {
+     "program": 16,
+     "esf_id": 592,
+     "volume": 120
+    },
+    {
+     "program": 17,
+     "esf_id": 593,
+     "volume": 120
+    },
+    {
+     "program": 18,
+     "esf_id": 594,
+     "volume": 110
+    },
+    {
+     "program": 19,
+     "esf_id": 595,
+     "volume": 110
+    },
+    {
+     "program": 20,
+     "esf_id": 596,
+     "volume": 110
+    },
+    {
+     "program": 21,
+     "esf_id": 598,
+     "volume": 80
+    },
+    {
+     "program": 22,
+     "esf_id": 599,
+     "volume": 120
+    },
+    {
+     "program": 23,
+     "esf_id": 600,
+     "volume": 115
+    },
+    {
+     "program": 24,
+     "esf_id": 601,
+     "volume": 120
+    },
+    {
+     "program": 25,
+     "esf_id": 602,
+     "volume": 121
+    },
+    {
+     "program": 26,
+     "esf_id": 603,
+     "volume": 75
+    },
+    {
+     "program": 27,
+     "esf_id": 604,
+     "volume": 75
+    },
+    {
+     "program": 28,
+     "esf_id": 605,
+     "volume": 95
+    },
+    {
+     "program": 29,
+     "esf_id": 606,
+     "volume": 95
+    },
+    {
+     "program": 30,
+     "esf_id": 607,
+     "volume": 125
+    },
+    {
+     "program": 31,
+     "esf_id": 608,
+     "volume": 82
+    },
+    {
+     "program": 32,
+     "esf_id": 609,
+     "volume": 75
+    },
+    {
+     "program": 33,
+     "esf_id": 610,
+     "volume": 105
+    },
+    {
+     "program": 34,
+     "esf_id": 611,
+     "volume": 105
+    },
+    {
+     "program": 35,
+     "esf_id": 612,
+     "volume": 110
+    },
+    {
+     "program": 36,
+     "esf_id": 613,
+     "volume": 105
+    }
+   ],
+   "index": 608,
+   "name": "M:\\LANGUAGE\\SONIX\\TITANS\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 192,
+     "volume": 70
+    },
+    {
+     "program": 1,
+     "esf_id": 193,
+     "volume": 60
+    },
+    {
+     "program": 2,
+     "esf_id": 194,
+     "volume": 80
+    },
+    {
+     "program": 3,
+     "esf_id": 197,
+     "volume": 60
+    },
+    {
+     "program": 4,
+     "esf_id": 198,
+     "volume": 60
+    },
+    {
+     "program": 5,
+     "esf_id": 199,
+     "volume": 60
+    },
+    {
+     "program": 6,
+     "esf_id": 200,
+     "volume": 60
+    },
+    {
+     "program": 7,
+     "esf_id": 201,
+     "volume": 60
+    },
+    {
+     "program": 8,
+     "esf_id": 202,
+     "volume": 60
+    },
+    {
+     "program": 9,
+     "esf_id": 203,
+     "volume": 100
+    },
+    {
+     "program": 10,
+     "esf_id": 204,
+     "volume": 100
+    },
+    {
+     "program": 11,
+     "esf_id": 205,
+     "volume": 100
+    },
+    {
+     "program": 12,
+     "esf_id": 206,
+     "volume": 110
+    },
+    {
+     "program": 13,
+     "esf_id": 207,
+     "volume": 110
+    },
+    {
+     "program": 14,
+     "esf_id": 208,
+     "volume": 110
+    },
+    {
+     "program": 15,
+     "esf_id": 213,
+     "volume": 100
+    },
+    {
+     "program": 16,
+     "esf_id": 214,
+     "volume": 100
+    },
+    {
+     "program": 17,
+     "esf_id": 215,
+     "volume": 90
+    },
+    {
+     "program": 18,
+     "esf_id": 216,
+     "volume": 90
+    },
+    {
+     "program": 19,
+     "esf_id": 217,
+     "volume": 110
+    },
+    {
+     "program": 20,
+     "esf_id": 218,
+     "volume": 110
+    },
+    {
+     "program": 21,
+     "esf_id": 221,
+     "volume": 70
+    },
+    {
+     "program": 22,
+     "esf_id": 222,
+     "volume": 70
+    },
+    {
+     "program": 23,
+     "esf_id": 223,
+     "volume": 110
+    },
+    {
+     "program": 24,
+     "esf_id": 224,
+     "volume": 110
+    },
+    {
+     "program": 25,
+     "esf_id": 225,
+     "volume": 109
+    },
+    {
+     "program": 26,
+     "esf_id": 226,
+     "volume": 107
+    },
+    {
+     "program": 27,
+     "esf_id": 227,
+     "volume": 100
+    },
+    {
+     "program": 28,
+     "esf_id": 228,
+     "volume": 88
+    },
+    {
+     "program": 29,
+     "esf_id": 229,
+     "volume": 105
+    },
+    {
+     "program": 30,
+     "esf_id": 230,
+     "volume": 118
+    },
+    {
+     "program": 31,
+     "esf_id": 231,
+     "volume": 125
+    },
+    {
+     "program": 32,
+     "esf_id": 195,
+     "volume": 95
+    },
+    {
+     "program": 33,
+     "esf_id": 196,
+     "volume": 80
+    },
+    {
+     "program": 34,
+     "esf_id": 77,
+     "volume": 55
+    },
+    {
+     "program": 35,
+     "esf_id": 78,
+     "volume": 90
+    },
+    {
+     "program": 36,
+     "esf_id": 79,
+     "volume": 80
+    },
+    {
+     "program": 37,
+     "esf_id": 342,
+     "volume": 100
+    },
+    {
+     "program": 38,
+     "esf_id": 343,
+     "volume": 100
+    },
+    {
+     "program": 39,
+     "esf_id": 344,
+     "volume": 112
+    },
+    {
+     "program": 40,
+     "esf_id": 345,
+     "volume": 112
+    },
+    {
+     "program": 41,
+     "esf_id": 346,
+     "volume": 90
+    },
+    {
+     "program": 42,
+     "esf_id": 347,
+     "volume": 95
+    },
+    {
+     "program": 43,
+     "esf_id": 348,
+     "volume": 100
+    },
+    {
+     "program": 44,
+     "esf_id": 349,
+     "volume": 95
+    },
+    {
+     "program": 45,
+     "esf_id": 209,
+     "volume": 110
+    },
+    {
+     "program": 46,
+     "esf_id": 210,
+     "volume": 100
+    },
+    {
+     "program": 47,
+     "esf_id": 211,
+     "volume": 120
+    }
+   ],
+   "index": 612,
+   "name": "M:\\LANGUAGE\\SONIX\\FOREST\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 18,
+      "sec": 33,
+      "text": "2:18:33"
+     },
+     "end": {
+      "track": 2,
+      "min": 20,
+      "sec": 56,
+      "text": "2:20:56"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 613,
+   "name": "M:\\LANGUAGE\\SONIX\\HYDRA\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [
+    {
+     "program": 0,
+     "esf_id": 704,
+     "volume": 80
+    },
+    {
+     "program": 1,
+     "esf_id": 705,
+     "volume": 83
+    },
+    {
+     "program": 2,
+     "esf_id": 706,
+     "volume": 110
+    },
+    {
+     "program": 3,
+     "esf_id": 707,
+     "volume": 110
+    },
+    {
+     "program": 4,
+     "esf_id": 708,
+     "volume": 110
+    },
+    {
+     "program": 5,
+     "esf_id": 709,
+     "volume": 100
+    },
+    {
+     "program": 6,
+     "esf_id": 711,
+     "volume": 92
+    },
+    {
+     "program": 7,
+     "esf_id": 712,
+     "volume": 120
+    },
+    {
+     "program": 8,
+     "esf_id": 713,
+     "volume": 90
+    },
+    {
+     "program": 9,
+     "esf_id": 714,
+     "volume": 115
+    },
+    {
+     "program": 10,
+     "esf_id": 715,
+     "volume": 110
+    },
+    {
+     "program": 11,
+     "esf_id": 716,
+     "volume": 90
+    },
+    {
+     "program": 12,
+     "esf_id": 717,
+     "volume": 90
+    },
+    {
+     "program": 13,
+     "esf_id": 718,
+     "volume": 82
+    },
+    {
+     "program": 14,
+     "esf_id": 719,
+     "volume": 90
+    },
+    {
+     "program": 15,
+     "esf_id": 720,
+     "volume": 106
+    },
+    {
+     "program": 16,
+     "esf_id": 1064,
+     "volume": 127
+    },
+    {
+     "program": 17,
+     "esf_id": 1065,
+     "volume": 127
+    },
+    {
+     "program": 18,
+     "esf_id": 1066,
+     "volume": 127
+    },
+    {
+     "program": 19,
+     "esf_id": 1108,
+     "volume": 127
+    },
+    {
+     "program": 20,
+     "esf_id": 1109,
+     "volume": 127
+    },
+    {
+     "program": 21,
+     "esf_id": 1110,
+     "volume": 127
+    },
+    {
+     "program": 22,
+     "esf_id": 1111,
+     "volume": 127
+    },
+    {
+     "program": 23,
+     "esf_id": 1112,
+     "volume": 127
+    },
+    {
+     "program": 24,
+     "esf_id": 1113,
+     "volume": 127
+    },
+    {
+     "program": 25,
+     "esf_id": 1115,
+     "volume": 127
+    },
+    {
+     "program": 26,
+     "esf_id": 1116,
+     "volume": 127
+    },
+    {
+     "program": 27,
+     "esf_id": 1117,
+     "volume": 127
+    }
+   ],
+   "index": 615,
+   "name": "M:\\LANGUAGE\\SONIX\\VORTEX\\SFX.SFX"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 6,
+      "sec": 55,
+      "text": "2:06:55"
+     },
+     "end": {
+      "track": 2,
+      "min": 8,
+      "sec": 55,
+      "text": "2:08:55"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 643,
+   "name": "M:\\LANGUAGE\\SONIX\\GAUNTLET\\MUSIC.MUS"
+  },
+  {
+   "body_offset": 0,
+   "head_offset": 0,
+   "size": 452,
+   "programs": [],
+   "sequences": [
+    {
+     "seq": 0,
+     "offset": 28,
+     "start": {
+      "track": 2,
+      "min": 4,
+      "sec": 25,
+      "text": "2:04:25"
+     },
+     "end": {
+      "track": 2,
+      "min": 6,
+      "sec": 55,
+      "text": "2:06:55"
+     },
+     "silent": false
+    },
+    {
+     "seq": 1,
+     "offset": 36,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 2,
+     "offset": 44,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 3,
+     "offset": 52,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    },
+    {
+     "seq": 4,
+     "offset": 60,
+     "start": {
+      "track": 0,
+      "min": 0,
+      "sec": 0,
+      "text": "0:00:00"
+     },
+     "end": {
+      "track": 2,
+      "min": 0,
+      "sec": 0,
+      "text": "2:00:00"
+     },
+     "silent": true
+    }
+   ],
+   "index": 745,
+   "name": "M:\\LANGUAGE\\SONIX\\TRAINING\\MUSIC.MUS"
+  }
+ ],
+ "esf_ids_referenced_but_missing": []
+}

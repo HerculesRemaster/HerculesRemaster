@@ -1,0 +1,66 @@
+{
+ "ENG1.DLL": {
+  "functions": {
+   "0x100266a0": [
+    "HERO_RequestDamage",
+    "(obj, amount-1, dir): keeps the strongest hit this tick (0x6feb4/0x6feb8/0x6febc), returns invulnerability timer 0x72008"
+   ],
+   "0x1003e6d0": [
+    "HERO_Hazard36Spawn",
+    "TRAINING type 0x36 spawn: anim 0xd, random timer, kind 0x2022"
+   ],
+   "0x1003e770": [
+    "HERO_Hazard36Update",
+    "state 0 wait (hero within 32) -> anim 0x17; 1 on floor, contact -> HERO_RequestDamage(1); hit/anim end -> 9/0x13 rise and free"
+   ]
+  }
+ },
+ "HERCULES.EXE": {
+  "functions": {
+   "0x00407c50": [
+    "RT_PollJoystick",
+    "(joy id): joyGetPosEx buttons 0-27 -> bits 0-27; X/Y beyond +-33% of the calibrated range -> 0x10000000 left, 0x20000000 right, 0x40000000 up, 0x80000000 down; 0 if device flag 0xb9e8a0[id] is clear"
+   ],
+   "0x0040cab0": [
+    "GFX_SpriteCopy",
+    "raw texel copy, 0 = transparent; x clip [0,320), rows [0, clip y1); linear in page"
+   ],
+   "0x0040c8f0": [
+    "GFX_SpriteBlend",
+    "sprite with blend[mode][src*256+dst]"
+   ],
+   "0x0040c700": [
+    "GFX_SpriteShadeBlend",
+    "sprite with blend[mode][shade[b][src]*256+dst]"
+   ],
+   "0x0040d420": [
+    "GFX_PolyOpaque",
+    "opaque textured polygon: same-size axis-aligned rect -> GFX_SpriteCopy; fog/flat by clut level; UV from vertex texel, page wrap"
+   ],
+   "0x0040e680": [
+    "GFX_PolySemi",
+    "semi polygon: brightness != 0x80 -> GFX_PolyShadeBlend; rect -> GFX_SpriteBlend; blend, no fog"
+   ],
+   "0x0040dd70": [
+    "GFX_PolyShadeBlend",
+    "semi polygon with shade table 0x91c488 then blend; rect -> GFX_SpriteShadeBlend"
+   ],
+   "0x0040cc50": [
+    "GFX_PolyFog",
+    "opaque polygon through fog row 0x92c390 + level*256"
+   ],
+   "0x0040c2e0": [
+    "GFX_PolyFlat",
+    "opaque polygon filled with one texel (fog rows identical)"
+   ],
+   "0x004070c0": [
+    "GFX_FrameBrightness",
+    "(b): b != 0xff sets the frame brightness 0x436a0c; 0xff (called by GFX_DrawOTag before present) maps every frame pixel through shade[b] when b != 0x80 (fades)"
+   ],
+   "0x00407140": [
+    "GFX_EndFrame",
+    "flips the DirectDraw back buffer in exclusive mode, clears the frame-locked flag 0xba01f0"
+   ]
+  }
+ }
+}
