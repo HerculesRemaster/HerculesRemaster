@@ -1,6 +1,10 @@
-"""Fallback 4K art for every block without redrawn art: Scale3x applied twice (exactly 9x) on palette indices.
+"""Fallback 4K art for every block without redrawn art, 9x on palette indices.
 
-smooth.py [--out working/game/art/smooth] [--limit N] [--jobs N]
+smooth.py [--out working/game/art/smooth] [--limit N] [--jobs N] [--method xbrz|scale3x]
+
+xbrz (default): runtime catalog blocks (their PNG carries the palette they were dumped with) go through
+index-preserving xBRZ (xbrz_index.py; wrapped edges where the block tiles); blocks without colours
+(manifest-only keys, normally replaced by the xbrz generator's family art) fall back to Scale3x twice.
 
 Sources: every keyed block of the manifest's sprite and level entries (texels from the i1.4 banks and the
 level VRAM images, as contract.py keys them) plus every runtime catalog block (extracted/art_blocks: UI,
@@ -22,6 +26,9 @@ from PIL import Image
 
 import common
 import contract
+import xbrz_index
+
+CATALOG = common.ROOT / "extracted" / "art_blocks"
 
 GRAY = [v for i in range(256) for v in (i, i, i)]
 
@@ -64,14 +71,32 @@ def collect() -> dict:
     return blocks
 
 
+def xbrz_block(name: str, tex: np.ndarray):
+    """Index-preserving xBRZ of a catalog block, or None when the catalog has no colours for it."""
+    src = CATALOG / name
+    if not src.is_file():
+        return None
+    im = Image.open(src)
+    if im.mode != "P":
+        return None
+    pal = np.array(im.getpalette()[:768] + [0] * (768 - len(im.getpalette()[:768])), np.uint8).reshape(256, 3)
+    rgba = np.dstack([pal[tex], np.where(tex == 0, 0, 255).astype(np.uint8)])
+    h, w = tex.shape
+    edge = lambda a, b: np.abs(a.astype(float) - b).mean() <= 12.0 if min(h, w) >= 4 and (tex != 0).all() else False
+    wrap = (edge(rgba[0, :, :3], rgba[-1, :, :3]), edge(rgba[:, 0, :3], rgba[:, -1, :3]))
+    return xbrz_index.upscale(tex, rgba, 9, wrap), im.getpalette()
+
+
 def write_group(args):
-    out, w, h, items = args
+    out, w, h, items, method = args
     a = np.frombuffer(b"".join(t for _, t in items), np.uint8).reshape(len(items), h, w)
     big = scale3x(scale3x(a))
-    for (key, _), img in zip(items, big):
-        im = Image.fromarray(img, "P")
-        im.putpalette(GRAY)
-        im.save(out / f"{key:016x}_{w}x{h}.png", optimize=False, compress_level=6)
+    for (key, _), img, tex in zip(items, big, a):
+        name = f"{key:016x}_{w}x{h}.png"
+        x = xbrz_block(name, tex) if method == "xbrz" else None
+        im = Image.fromarray(x[0] if x else img, "P")
+        im.putpalette(x[1] if x else GRAY)
+        im.save(out / name, optimize=False, compress_level=6)
     return len(items)
 
 
@@ -80,6 +105,7 @@ def main(argv=None) -> int:
     ap.add_argument("--out", type=Path, default=common.ART_DIR / "smooth")
     ap.add_argument("--limit", type=int)
     ap.add_argument("--jobs", type=int, default=8)
+    ap.add_argument("--method", choices=("xbrz", "scale3x"), default="xbrz")
     a = ap.parse_args(argv)
     a.out.mkdir(parents=True, exist_ok=True)
     have = {p.name for p in a.out.glob("*.png")}
@@ -91,7 +117,7 @@ def main(argv=None) -> int:
     groups = []
     for (w, h), items in todo.items():
         step = max(1, 4_000_000 // (w * h * 81))          # ~4 MB of output per task
-        groups += [(a.out, w, h, items[i:i + step]) for i in range(0, len(items), step)]
+        groups += [(a.out, w, h, items[i:i + step], a.method) for i in range(0, len(items), step)]
     if a.limit:
         groups = groups[:a.limit]
     n = 0

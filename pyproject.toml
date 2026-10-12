@@ -8,6 +8,7 @@ dependencies = [
     "numpy>=2",
     "pefile==2024.8.26",
     "pytest>=8",
+    "opencv-python-headless>=5.0.0.93",
 ]
 
 [tool.uv]

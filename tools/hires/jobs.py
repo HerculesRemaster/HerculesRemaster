@@ -10,8 +10,9 @@ jobs.py take [<pack>] [--force] [--grow N] [--no-snap] [--no-align]
                                                           review; failed checks other than size only warn.
                                                           An unchanged sheet is skipped unless --force
 jobs.py add <sel> [--generator NAME] [--settings JSON]    create/refresh jobs (default generator: manual)
-jobs.py run [<sel>] [--limit N]                           generate pending jobs and run the checks
-jobs.py review [<sel>]                                    generated -> review, writes side-by-side sheets
+jobs.py run [<sel>] [--limit N] [--jobs N] [--lenient]    generate pending jobs and run the checks (N worker processes;
+                                                          --lenient: only a size failure blocks, others warn)
+jobs.py review [<sel>] [--no-sheets]                      generated -> review, writes side-by-side sheets (not with --no-sheets)
 jobs.py approve <sel> | reject <sel> [--note TEXT]        review -> approved / back to pending
 jobs.py pack [--allow-partial]                            approved -> packed (atlas.py)
 jobs.py preview                                           review + approved + packed -> working/game/art_preview/
@@ -32,6 +33,7 @@ import sys
 import time
 from pathlib import Path
 
+import numpy as np
 from PIL import Image
 
 import checks
@@ -105,25 +107,37 @@ def cmd_add(db, a):
     print(f"{n} jobs added or reset")
 
 
-def run_job(db, j, lenient=False) -> bool:
-    """Generate + check one pending job; True when it reached 'generated'. lenient: only a size failure
-    blocks (the art is judged by eye in review); other failed checks are kept as a warning."""
-    e = common.entries_by_id()[j["entry"]]
+def generate_one(task):
+    """Generate + check one entry (also runs in worker processes). task = (entry id, generator, settings).
+    Returns (entry id, written, checks) with written True / False (not ready), or None and an error text."""
+    entry_id, generator, settings = task
+    e = common.entries_by_id()[entry_id]
     scale = common.manifest()["scale"]
-    gen = importlib.import_module(j["generator"])
     out = common.output_path(e)
     out.parent.mkdir(parents=True, exist_ok=True)
     try:
-        written = gen.generate(e, common.reference_image(e), out, scale, j["settings"])
+        if not importlib.import_module(generator).generate(e, common.reference_image(e), out, scale, settings):
+            return entry_id, False, None
+        return entry_id, True, [[n, bool(ok), d] for n, ok, d in checks.check(e, Image.open(out), scale, out)]
     except Exception as ex:  # noqa: BLE001 - recorded as a failed attempt
+        return entry_id, None, f"generator error: {ex!r}"
+
+
+def generate_chunk(tasks):
+    return [generate_one(t) for t in tasks]
+
+
+def apply_result(j, written, res, lenient=False) -> bool:
+    """Job state from one generate_one result; True when it reached 'generated'. lenient: only a size
+    failure blocks (the art is judged by eye in review); other failed checks are kept as a warning."""
+    if written is None:
         j["attempts"] += 1
-        log(j, "failed" if j["attempts"] >= MAX_ATTEMPTS else "pending", f"generator error: {ex!r}")
-        save(db)
+        log(j, "failed" if j["attempts"] >= MAX_ATTEMPTS else "pending", res)
+        print(f"FAIL {j['entry']}: {res}")
         return False
     if not written:
         return False                               # e.g. manual art not delivered yet: no attempt counted
-    res = checks.check(e, Image.open(out), scale)
-    j["checks"] = [[n, bool(ok), d] for n, ok, d in res]
+    j["checks"] = res
     bad = "; ".join(f"{n}: {d}" for n, ok, d in res if not ok)
     hard = [n for n, ok, _ in res if not ok and (not lenient or n == "size")]
     if hard:
@@ -131,17 +145,41 @@ def run_job(db, j, lenient=False) -> bool:
         log(j, "failed" if j["attempts"] >= MAX_ATTEMPTS else "pending", bad)
     else:
         log(j, "generated", f"warning: {bad}" if bad else "")
-    save(db)
     if bad:
         print(f"{'FAIL' if hard else 'warn'} {j['entry']}: {bad}")
     return not hard
 
 
+def run_job(db, j, lenient=False) -> bool:
+    _, written, res = generate_one((j["entry"], j["generator"], j["settings"]))
+    ok = apply_result(j, written, res, lenient)
+    save(db)
+    return ok
+
+
 def cmd_run(db, a):
-    todo = select(db, a.pattern, {"pending"})[: a.limit or None]
-    for j in todo:
-        run_job(db, j)
-    print(f"ran {len(todo)} jobs")
+    todo = sorted(select(db, a.pattern, {"pending"}), key=lambda j: j["entry"])[: a.limit or None]
+    tasks = [(j["entry"], j["generator"], j["settings"]) for j in todo]
+    if a.jobs <= 1:
+        results = map(generate_one, tasks)
+    else:
+        from concurrent.futures import ProcessPoolExecutor, as_completed
+        # sprite frames in chunks of 16 (sorted ids: a chunk stays in one bank, whose decode the worker
+        # caches); each whole-image entry (level, ui, screen) is its own chunk; results as chunks finish
+        chunks = [[t] for t in tasks if not t[0].startswith("sprite/")]
+        sprites = [t for t in tasks if t[0].startswith("sprite/")]
+        chunks += [sprites[i:i + 16] for i in range(0, len(sprites), 16)]
+        pool = ProcessPoolExecutor(a.jobs)
+        futures = [pool.submit(generate_chunk, c) for c in chunks]
+        results = (r for f in as_completed(futures) for r in f.result())
+    t0 = time.time()
+    for n, (entry_id, written, res) in enumerate(results, 1):
+        apply_result(db["jobs"][entry_id], written, res, a.lenient)
+        if n % 500 == 0 or n == len(tasks):
+            save(db)
+            print(f"{n}/{len(tasks)} jobs ({time.time() - t0:.0f} s)", flush=True)
+    save(db)
+    print(f"ran {len(tasks)} jobs")
 
 
 def review_job(j):
@@ -150,7 +188,13 @@ def review_job(j):
     sheet_dir = common.REMASTERED / "review"
     sheet_dir.mkdir(parents=True, exist_ok=True)
     ref = common.reference_image(e)
-    out = Image.open(common.output_path(e)).convert("RGBA")
+    out = Image.open(common.output_path(e))
+    idx0 = np.array(out) == 0 if out.mode == "P" else None
+    out = out.convert("RGBA")
+    if idx0 is not None:                           # indexed art: index 0 is the transparent texel
+        a = np.array(out)
+        a[idx0, 3] = 0
+        out = Image.fromarray(a, "RGBA")
     big = ref.resize((ref.width * k, ref.height * k), Image.NEAREST)
     sheet = Image.new("RGBA", (big.width * 2 + 16, big.height), (40, 40, 48, 255))
     if any(not ok for _, ok, _ in j["checks"]):
@@ -164,7 +208,10 @@ def review_job(j):
 def cmd_review(db, a):
     js = select(db, a.pattern, {"generated"})
     for j in js:
-        review_job(j)
+        if a.no_sheets:
+            log(j, "review", j["history"][-1][2])
+        else:
+            review_job(j)
     save(db)
     print(f"{len(js)} jobs in review -> {common.REMASTERED / 'review'}")
 
@@ -268,7 +315,8 @@ def main(argv=None) -> int:
     p.add_argument("--grow", type=int, default=9); p.add_argument("--no-snap", action="store_true"); p.add_argument("--no-align", action="store_true")
     p = sub.add_parser("add"); p.add_argument("pattern"); p.add_argument("--generator", default="manual"); p.add_argument("--settings")
     p = sub.add_parser("run"); p.add_argument("pattern", nargs="?"); p.add_argument("--limit", type=int)
-    p = sub.add_parser("review"); p.add_argument("pattern", nargs="?")
+    p.add_argument("--jobs", type=int, default=1); p.add_argument("--lenient", action="store_true")
+    p = sub.add_parser("review"); p.add_argument("pattern", nargs="?"); p.add_argument("--no-sheets", action="store_true")
     for name in ("approve", "reject"):
         p = sub.add_parser(name); p.add_argument("pattern"); p.add_argument("--note")
     p = sub.add_parser("pack"); p.add_argument("--allow-partial", action="store_true")

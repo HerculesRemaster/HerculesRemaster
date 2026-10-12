@@ -11,6 +11,7 @@ checks.py <entry id> [<image>]     (default image: the entry's output path)
 Frame count per bank is checked when packing (atlas.py).
 """
 import sys
+from pathlib import Path
 
 import numpy as np
 from PIL import Image
@@ -23,14 +24,18 @@ SEAM_TILE = 12.0         # source edges this close (mean abs RGB, 0..255) count 
 SEAM_TOL = 24.0          # output edges may differ by max(SEAM_TOL, 2 x the source difference)
 
 
-def check(entry: dict, img: Image.Image, k: int) -> list[tuple[str, bool, str]]:
+def check(entry: dict, img: Image.Image, k: int, path=None) -> list[tuple[str, bool, str]]:
+    """path: the image's file, so seams can test per-block sidecar files (common.blocks_dir)."""
     res = []
     w, h = entry["geometry"]["size"]
     ok = img.size == (w * k, h * k)
     res.append(("size", ok, f"{img.size} want {(w * k, h * k)}"))
     if not ok:
         return res
-    ref = np.array(common.reference_image(entry))[:, :, 3] > 0
+    rgba = np.array(common.reference_image(entry))
+    ref = rgba[:, :, 3] > 0
+    if entry["family"] == "sprite" and img.mode == "P":   # indexed art: the runtime silhouette is texel != 0
+        ref = common.sprite_indices(entry, rgba) != 0
     cov = common.coverage(img, k) >= 0.5
     diff = (ref != cov).sum()
     ratio = diff / max(ref.sum(), 1)
@@ -41,11 +46,11 @@ def check(entry: dict, img: Image.Image, k: int) -> list[tuple[str, bool, str]]:
         d = float(np.hypot(xs.mean() - xo.mean(), ys.mean() - yo.mean()))
         res.append(("pivot", d <= PIVOT_MAX, f"centroid moved {d:.2f} px (origin {entry['geometry']['origin']} x {k})"))
     if entry["family"] == "level":
-        res.append(seams(entry, img, k))
+        res.append(seams(entry, img, k, path))
     return res
 
 
-def seams(entry, img, k):
+def seams(entry, img, k, path=None):
     ref = np.array(common.reference_image(entry)).astype(float)
     out = np.array(img.convert("RGBA"))                  # uint8: a level canvas is 18432x4608
     bad = tiled = 0
@@ -60,7 +65,8 @@ def seams(entry, img, k):
         if w < 4 or h < 4:
             continue
         r = ref[y:y + h, x:x + w]
-        o = out[y * k:(y + h) * k, x * k:(x + w) * k]
+        side = path and b["key"] and common.blocks_dir(Path(path)) / f"{b['key']}_{w}x{h}.png"
+        o = np.array(Image.open(side).convert("RGBA")) if side and side.is_file() else out[y * k:(y + h) * k, x * k:(x + w) * k]
         for ra, rb, oa, ob in ((r[:, 0], r[:, -1], o[:, 0], o[:, -1]), (r[0], r[-1], o[0], o[-1])):
             rd = edge_diff(ra, rb)
             if rd is not None and rd <= SEAM_TILE:           # the source tiles across this pair of edges
@@ -73,8 +79,8 @@ def seams(entry, img, k):
 
 def run(entry_id: str, path=None) -> list:
     e = common.entries_by_id()[entry_id]
-    img = Image.open(path or common.output_path(e))
-    return check(e, img, common.manifest()["scale"])
+    path = path or common.output_path(e)
+    return check(e, Image.open(path), common.manifest()["scale"], path)
 
 
 if __name__ == "__main__":

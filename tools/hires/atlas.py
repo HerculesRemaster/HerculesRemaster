@@ -2,7 +2,8 @@
 
 atlas.py [--art-dir working/game/art] [--allow-partial]   (normally called by jobs.py pack)
 
-Each manifest block is cut from the approved image at rect x scale and written as
+Each manifest block is cut from the approved image at rect x scale (or taken from the image's
+<stem>.blocks/ sidecar when the generator wrote one, common.blocks_dir) and written as
 <art_dir>/<family>/<key>_<w>x<h>.png (families: sprite, level, ui, screen; the ini's art_families picks
 which the game loads) (indexed images stay indexed, others RGBA). Every block is its own texture
 and the renderer reads it with integer loads (no filtering, no neighbours), so no padding or
@@ -96,7 +97,8 @@ def pack(approved_ids: list[str], art_dir=common.ART_DIR, allow_partial=False, w
     written, conflicts, mem, refs = set(), 0, defaultdict(int), {}
     for i in ok_ids:
         e = ents[i]
-        img = Image.open(common.output_path(e))
+        path = common.output_path(e)
+        img = Image.open(path)
         rgba = img.mode != "P"
         if rgba:
             img = img.convert("RGBA")
@@ -109,7 +111,7 @@ def pack(approved_ids: list[str], art_dir=common.ART_DIR, allow_partial=False, w
                 conflicts += 1
                 continue
             (art_dir / e["family"]).mkdir(parents=True, exist_ok=True)
-            crop = img.crop((x * k, y * k, (x + w) * k, (y + h) * k))
+            crop = common.block_image(path, img, b["rect"], name, k)
             if e["family"] == "level" and rgba:
                 ref = refs.setdefault(e["id"], np.array(common.reference_image(e).convert("RGBA")))[y:y + h, x:x + w]
                 bg = any(ux <= x and uy <= y and x + w <= ux + uw and y + h <= uy + uh

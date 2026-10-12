@@ -1,0 +1,17 @@
+Hercules Remaster {version} - portable
+====================================
+
+Your own copy of Disney's Hercules (1997) with the remaster add-on, ready to run from this folder.
+Nothing to install and no admin rights needed: copy the folder anywhere (another drive, a USB stick)
+and start HERCULES.EXE. For your own use only; this folder contains the game's files.
+
+- fullscreen borderless, GPU renderer at the screen's resolution (9x at 3840x2160), 4:3 with side bars
+- 4K art (art\ folder) at the original size, position and timing; F11 in game switches it on and off
+
+Settings
+  hercules_display.ini: mode = borderless | windowed, renderer = gpu | gdi, scale = integer | fit | stretch.
+  The game's own options are saved to hercules_settings.ini in this folder (portable = on keeps them
+  out of the registry).
+
+Music
+  Put the soundtrack as music\Track02.flac (or .wav, .mp3, .m4a, .wma) in this folder.

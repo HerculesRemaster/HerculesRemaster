@@ -24,6 +24,12 @@ Settings (hercules_display.ini next to HERCULES.EXE)
                                    the first listed folder that has a texture wins)
   dev = on shows a debug overlay.  In game, F11 switches the replacement art on and off.
 
+Music
+  The game plays its music from CD track 2 (Red Book audio). Without the disc, put the soundtrack
+  as music\Track02.flac (or .wav, .mp3, .m4a, .wma) next to HERCULES.EXE: a rip of track 2 of your
+  disc, or Track02 from a digital release converted to FLAC if it is .ogg. The add-on then plays the
+  same segments from that file. music_volume = 0..100 in hercules_display.ini.
+
 Saves and settings
   The game keeps its options in the registry (HKLM\Software\Disney Interactive\Hercules) and its
   progress as before; the add-on reads and writes neither. It writes only hercules_display.log
