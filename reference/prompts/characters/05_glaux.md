@@ -21,8 +21,8 @@ khi chỉ đường. Bay để lại vệt hạt sáng bạc.
 ### G1 — Sheet
 
 ```text
-Creature design sheet of a small mascot owl on a plain dark-blue background. {{GLAUX}}
+Creature design sheet of a small mascot owl on a plain dark-blue background. Glaux: a small silver-grey little owl with huge golden eyes, feathers patterned in fine silver like an ancient Athenian coin, a faint soft silver glow.
 Show: front view perched, side view, flying with wings spread leaving a trail of silver sparkles, head tilted curiously, hooting, and a flat emblem version stamped on an ancient bronze coin. No text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```

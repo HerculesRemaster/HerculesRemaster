@@ -27,17 +27,17 @@ lủng lẳng obol, sandal dây. Ngọn đuốc nhựa thông cháy vàng cam.
 ### I1 — Turnaround
 
 ```text
-Character turnaround model sheet of an original sidekick character. {{IOLAUS}}
+Character turnaround model sheet of an original sidekick character. Iolaus: a wiry 14-year-old Greek boy, light-brown curly hair, freckles, a bright mischievous grin, a saffron-yellow short chiton with a rope belt, a leather satchel, leather sandals, carrying a burning resin torch.
 Four full-body views (front, three-quarter, side, back), plain light-grey background, consistent scale. Insets: the satchel with bronze coins, the resin torch. No text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### I2 — Biểu cảm và tư thế
 
 ```text
-Sheet on plain light-grey background: top row 4 head expressions (cheeky grin, shouting a warning, counting coins greedily, scared), bottom row 4 full-body poses (running with torch raised, thrusting the torch forward, sitting on a crate selling items, cheering with both arms up). {{IOLAUS}}
+Sheet on plain light-grey background: top row 4 head expressions (cheeky grin, shouting a warning, counting coins greedily, scared), bottom row 4 full-body poses (running with torch raised, thrusting the torch forward, sitting on a crate selling items, cheering with both arms up). Iolaus: a wiry 14-year-old Greek boy, light-brown curly hair, freckles, a bright mischievous grin, a saffron-yellow short chiton with a rope belt, a leather satchel, leather sandals, carrying a burning resin torch.
 No text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```

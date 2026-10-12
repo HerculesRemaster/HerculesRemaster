@@ -27,8 +27,9 @@ brief "Brief thiết kế nhân vật & HUD — Greek Myth Platformer (IP gốc)
 2. **Anchor HUD:** [ui/01_hud_items.md](ui/01_hud_items.md), prompt **U1**. Lưu thành `anchors/hud_sheet.png`.
 3. **Anchor nhân vật phụ:** Chiron, Aithon, Iolaus, Glaux, Eris (prompt turnaround của từng file).
 4. **Boss và kẻ thù:** sheet trước, rồi tới cảnh chiến đấu.
-5. **Level:** screenshot gameplay. **Đính kèm** `anchors/alkaios_sheet.png` (và `anchors/hud_sheet.png` nếu có HUD)
-   rồi giữ nguyên câu *"Use the attached character sheet as the exact design of Alkaios"* trong prompt.
+5. **Level:** screenshot gameplay. **Đính kèm** `anchors/alkaios_sheet.png` (và `anchors/hud_sheet.png` nếu có HUD),
+   rồi thêm câu sau vào **đầu** prompt:
+   *"Use the attached images as the exact design of the hero and the HUD; keep face, outfit, colors and HUD shapes identical."*
 6. **UI và màn hình:** title, loading, Level Complete.
 
 Chỉ dùng **ảnh anchor mới đã duyệt** làm reference. Không dùng ảnh trong `reference/CGI/`.

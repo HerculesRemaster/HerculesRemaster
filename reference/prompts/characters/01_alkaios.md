@@ -59,52 +59,52 @@ kích hoạt boon, ăn mừng cuối màn.
 ### A1 — Turnaround (anchor, sinh đầu tiên)
 
 ```text
-Character turnaround model sheet of an original game hero. {{ALKAIOS}}
+Character turnaround model sheet of an original game hero. Alkaios: a young Greek demigod hero of about 18, athletic heroic build with broad shoulders and strong arms (powerful but not exaggerated), tanned Mediterranean skin, short black hair worn in several small braids tied with leather cords, thick dark eyebrows, warm amber-brown eyes, a small scar on his chin, confident lopsided grin; he wears the golden-tawny pelt of the Nemean lion as a hooded cloak, the lion's upper jaw and mane framing his forehead like a helmet and the two front paws knotted across his chest; a verdigris patina-green bronze linothorax cuirass with an embossed lion-head emblem; a terracotta-red short chiton under the armor; dark brown leather pteryges strips with bronze studs; bronze greaves; laced leather sandals; a heavy olive-wood club with bronze bands; a short leaf-bladed bronze xiphos at his hip.
 Layout: four full-body views in a row (front, three-quarter, side profile, back), neutral A-pose, same scale, plain warm light-grey studio background, soft even lighting with subtle rim light, small close-up insets of the lion-pelt hood, the chest emblem, the club and the xiphos along the bottom. No text labels.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### A2 — Biểu cảm
 
 ```text
-Facial expression sheet of an original game hero, head and shoulders only, 3x3 grid on a plain light-grey background. {{ALKAIOS}}
+Facial expression sheet of an original game hero, head and shoulders only, 3x3 grid on a plain light-grey background. Alkaios: a young Greek demigod hero of about 18, athletic heroic build with broad shoulders and strong arms (powerful but not exaggerated), tanned Mediterranean skin, short black hair worn in several small braids tied with leather cords, thick dark eyebrows, warm amber-brown eyes, a small scar on his chin, confident lopsided grin; he wears the golden-tawny pelt of the Nemean lion as a hooded cloak, the lion's upper jaw and mane framing his forehead like a helmet and the two front paws knotted across his chest; a verdigris patina-green bronze linothorax cuirass with an embossed lion-head emblem; a terracotta-red short chiton under the armor; dark brown leather pteryges strips with bronze studs; bronze greaves; laced leather sandals; a heavy olive-wood club with bronze bands; a short leaf-bladed bronze xiphos at his hip.
 Expressions: confident grin, determined battle shout, embarrassed after breaking something, surprised, laughing, exhausted, angry, sad, focused charging a punch. Keep the lion-pelt hood, braided black hair, chin scar and face shape identical in every cell. No text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### A3 — Bộ tư thế hành động
 
 ```text
-Action pose sheet of an original 2.5D platformer hero, side view, 8 full-body poses on a plain light-grey background, consistent scale: running, mid-jump, falling, olive-wood club overhead smash, quick xiphos slash, charging a glowing power punch with amber energy, mid-air downward ground slam with a shockwave, hanging from a ledge with one hand. {{ALKAIOS}}
+Action pose sheet of an original 2.5D platformer hero, side view, 8 full-body poses on a plain light-grey background, consistent scale: running, mid-jump, falling, olive-wood club overhead smash, quick xiphos slash, charging a glowing power punch with amber energy, mid-air downward ground slam with a shockwave, hanging from a ledge with one hand. Alkaios: a young Greek demigod hero of about 18, athletic heroic build with broad shoulders and strong arms (powerful but not exaggerated), tanned Mediterranean skin, short black hair worn in several small braids tied with leather cords, thick dark eyebrows, warm amber-brown eyes, a small scar on his chin, confident lopsided grin; he wears the golden-tawny pelt of the Nemean lion as a hooded cloak, the lion's upper jaw and mane framing his forehead like a helmet and the two front paws knotted across his chest; a verdigris patina-green bronze linothorax cuirass with an embossed lion-head emblem; a terracotta-red short chiton under the armor; dark brown leather pteryges strips with bronze studs; bronze greaves; laced leather sandals; a heavy olive-wood club with bronze bands; a short leaf-bladed bronze xiphos at his hip.
 The lion pelt's back flap and paws react dynamically to motion. No text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### A4 — Chi tiết đạo cụ
 
 ```text
 Prop design sheet on a plain light-grey background: the Nemean lion pelt hood seen front, side and back; the verdigris bronze linothorax cuirass with embossed lion head; the heavy twisted olive-wood club with three bronze bands; the short leaf-bladed bronze xiphos with a leather-wrapped grip and scabbard; bronze greaves with a fine meander engraving; laced leather sandals; a claw-shaped bronze belt buckle. Realistic material rendering: worn bronze with green patina, polished edges, real fur, aged leather, grained wood. No text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### A5 — Bốn boon (power-up)
 
 ```text
-Four-panel character sheet, each panel the same hero in a dynamic attack pose holding a different divine weapon with its own glow: (1) a long war spear with a blazing blood-red tip and red aura, (2) a silver crescent-moon bow shooting a moonlight arrow with silver aura, (3) a round bronze shield bearing a stylized gorgon face with emerald-green protective aura, (4) a heavy forge hammer throwing orange sparks with orange aura. {{ALKAIOS}}
+Four-panel character sheet, each panel the same hero in a dynamic attack pose holding a different divine weapon with its own glow: (1) a long war spear with a blazing blood-red tip and red aura, (2) a silver crescent-moon bow shooting a moonlight arrow with silver aura, (3) a round bronze shield bearing a stylized gorgon face with emerald-green protective aura, (4) a heavy forge hammer throwing orange sparks with orange aura. Alkaios: a young Greek demigod hero of about 18, athletic heroic build with broad shoulders and strong arms (powerful but not exaggerated), tanned Mediterranean skin, short black hair worn in several small braids tied with leather cords, thick dark eyebrows, warm amber-brown eyes, a small scar on his chin, confident lopsided grin; he wears the golden-tawny pelt of the Nemean lion as a hooded cloak, the lion's upper jaw and mane framing his forehead like a helmet and the two front paws knotted across his chest; a verdigris patina-green bronze linothorax cuirass with an embossed lion-head emblem; a terracotta-red short chiton under the armor; dark brown leather pteryges strips with bronze studs; bronze greaves; laced leather sandals; a heavy olive-wood club with bronze bands; a short leaf-bladed bronze xiphos at his hip.
 Plain dark-grey background with a subtle vignette, no text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### A6 — Key art (poster dọc)
 
 ```text
-Vertical key art poster for an original Greek-myth action platformer. {{ALKAIOS}}
+Vertical key art poster for an original Greek-myth action platformer. Alkaios: a young Greek demigod hero of about 18, athletic heroic build with broad shoulders and strong arms (powerful but not exaggerated), tanned Mediterranean skin, short black hair worn in several small braids tied with leather cords, thick dark eyebrows, warm amber-brown eyes, a small scar on his chin, confident lopsided grin; he wears the golden-tawny pelt of the Nemean lion as a hooded cloak, the lion's upper jaw and mane framing his forehead like a helmet and the two front paws knotted across his chest; a verdigris patina-green bronze linothorax cuirass with an embossed lion-head emblem; a terracotta-red short chiton under the armor; dark brown leather pteryges strips with bronze studs; bronze greaves; laced leather sandals; a heavy olive-wood club with bronze bands; a short leaf-bladed bronze xiphos at his hip.
 He stands on a broken marble ledge at the top of a mountain at sunrise, club resting on his shoulder, lion-pelt hood blowing in the wind, looking toward the camera with a confident grin. Behind him a sea of golden clouds, distant temples on floating cliffs, the dark silhouette of a tall goddess holding a glowing golden apple in the storm clouds above. At the bottom, the title "ALKAIOS" in carved gold stone letters with a meander underline.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```

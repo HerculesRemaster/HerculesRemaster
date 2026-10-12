@@ -32,30 +32,30 @@
 
 ```text
 Enemy design sheet for an original Greek-myth action platformer, plain mid-grey background, consistent scale with a human silhouette for reference, no text: (1) straw-and-wicker training dummies with wooden shields painted with a black-figure bull head, on rotating wooden poles; (2) Stymphalian birds the size of cranes with razor-sharp bronze metal feathers, bronze beaks, red eyes and iron legs, shown flying and diving and firing feather darts; (3) small grey wolf pups with yellow eyes, running; (4) Spartoi skeleton warriors in chipped bronze armor and helmets with torn red horsehair crests, round shields and spears, one clawing its way out of a glowing crack in the ground.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### N2 — Kẻ thù L06–L10
 
 ```text
 Enemy design sheet for an original Greek-myth action platformer, plain mid-grey background, consistent scale with a human silhouette for reference, no text: (1) a harpy with a vulture body, grey-brown feathers, a fierce female face with wild hair and golden talons, swooping; (2) Karkinos, a dog-sized crab with a barnacled red-bronze shell and one oversized claw; (3) a mechanical golden hound and a silver hound of Hephaestus with visible gear joints and ruby eyes, leaping; (4) a translucent emerald-green underworld shade in a tattered cloak with a gaunt face; (5) an Empousa, a tall gaunt ghost woman with green flaming hair, one bronze leg and one donkey leg; (6) a rolling ball of violet smoke thorns spitting gold sparks.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### N3 — Dân làng hóa đá
 
 ```text
 Character design sheet of ancient Greek villagers encased in cracked grey stone shells with only their worried faces and a hand showing: a farmer, a potter holding an amphora, an old woman, a child, a fisherman; plus the same villagers freed and cheering, dust and stone chips falling off them, wearing earthy chitons in red, brown and cream. Plain light-grey background, no text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### N4 — Lính Mycenae và Hesperides
 
 ```text
 Character design sheet on a plain light-grey background, no text: (1) two Mycenaean soldiers with boar's-tusk helmets, bronze scale armor and figure-eight ox-hide shields, one saluting and one cheering; (2) the three Hesperides, young garden nymphs in flowing chitons colored like a sunset (soft green, gold and apricot), hair braided with blossoms, holding golden apples, gentle smiles, each with a distinct hairstyle (crown braid, long wavy, short curls).
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
