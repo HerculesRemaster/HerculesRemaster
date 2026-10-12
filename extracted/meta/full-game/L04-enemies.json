@@ -99,11 +99,11 @@
    "hits": [
     {
      "strength": 3,
-     "index": 2,
+     "index": 3,
      "damage_beginner_medium_herculean": [
-      10,
-      25,
-      30
+      12,
+      30,
+      38
      ]
     }
    ],
@@ -309,11 +309,11 @@
    "hits": [
     {
      "strength": 1,
-     "index": 0,
+     "index": 1,
      "damage_beginner_medium_herculean": [
-      5,
-      12,
-      15
+      8,
+      18,
+      22
      ]
     }
    ],
@@ -343,11 +343,11 @@
    "hits": [
     {
      "strength": 3,
-     "index": 2,
+     "index": 3,
      "damage_beginner_medium_herculean": [
-      10,
-      25,
-      30
+      12,
+      30,
+      38
      ]
     }
    ],
@@ -445,11 +445,11 @@
    "hits": [
     {
      "strength": 3,
-     "index": 2,
+     "index": 3,
      "damage_beginner_medium_herculean": [
-      10,
-      25,
-      30
+      12,
+      30,
+      38
      ]
     }
    ],
@@ -480,11 +480,11 @@
    "hits": [
     {
      "strength": 2,
-     "index": 1,
+     "index": 2,
      "damage_beginner_medium_herculean": [
-      8,
-      18,
-      22
+      10,
+      25,
+      30
      ]
     }
    ],
@@ -508,11 +508,11 @@
    "hits": [
     {
      "strength": 2,
-     "index": 1,
+     "index": 2,
      "damage_beginner_medium_herculean": [
-      8,
-      18,
-      22
+      10,
+      25,
+      30
      ]
     }
    ],
@@ -581,11 +581,11 @@
    "hits": [
     {
      "strength": 3,
-     "index": 2,
+     "index": 3,
      "damage_beginner_medium_herculean": [
-      10,
-      25,
-      30
+      12,
+      30,
+      38
      ]
     }
    ],
@@ -739,11 +739,11 @@
    "hits": [
     {
      "strength": 3,
-     "index": 2,
+     "index": 3,
      "damage_beginner_medium_herculean": [
-      10,
-      25,
-      30
+      12,
+      30,
+      38
      ]
     }
    ],

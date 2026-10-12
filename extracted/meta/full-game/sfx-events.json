@@ -1,6 +1,92 @@
 {
  "_doc": "Bind sound plays to the objects that request them (S5.01) -> extracted/meta/full-game/sfx-events.json. See tools/trace/sfx_events.py for the rule.",
  "levels": {
+  "L01": {
+   "9": {
+    "request_ids": [
+     "0x9"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD8646A"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+     "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium"
+    ]
+   },
+   "10": {
+    "request_ids": [
+     "0xa"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD8646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+     "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium"
+    ]
+   },
+   "820": {
+    "request_ids": [
+     "0x334"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD8646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+     "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium"
+    ]
+   },
+   "822": {
+    "request_ids": [
+     "0x336"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD8646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+     "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium"
+    ]
+   }
+  },
   "L02": {
    "13": {
     "request_ids": [
@@ -13,11 +99,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD770B4"
+     "eng3.dll+0xD770B4",
+     "eng3.dll+0xD870B4",
+     "eng3.dll+0xD970B4",
+     "eng3.dll+0xDA70B4"
     ],
-    "plays": 12,
-    "refused": 2,
+    "plays": 84,
+    "refused": 14,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -32,11 +127,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD766C4"
+     "eng3.dll+0xD766C4",
+     "eng3.dll+0xD866C4",
+     "eng3.dll+0xD966C4",
+     "eng3.dll+0xDA66C4"
     ],
-    "plays": 1,
+    "plays": 7,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -51,11 +155,18 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD784F0"
+     "eng3.dll+0xD784F0",
+     "eng3.dll+0xD884F0",
+     "eng3.dll+0xD984F0",
+     "eng3.dll+0xDA84F0"
     ],
-    "plays": 1,
+    "plays": 5,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -70,11 +181,18 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD784F0"
+     "eng3.dll+0xD784F0",
+     "eng3.dll+0xD884F0",
+     "eng3.dll+0xD984F0",
+     "eng3.dll+0xDA84F0"
     ],
-    "plays": 1,
+    "plays": 5,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -89,11 +207,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD757E3"
+     "eng3.dll+0xD757E3",
+     "eng3.dll+0xD857E3",
+     "eng3.dll+0xD957E3",
+     "eng3.dll+0xDA57E3"
     ],
-    "plays": 1,
+    "plays": 7,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -108,11 +235,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD7945E"
+     "eng3.dll+0xD7945E",
+     "eng3.dll+0xD8945E",
+     "eng3.dll+0xD9945E",
+     "eng3.dll+0xDA945E"
     ],
-    "plays": 9,
+    "plays": 53,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -128,11 +264,22 @@
     ],
     "callers": [
      "eng3.dll+0xD76C32",
-     "eng3.dll+0xD790B7"
+     "eng3.dll+0xD790B7",
+     "eng3.dll+0xD86C32",
+     "eng3.dll+0xD890B7",
+     "eng3.dll+0xD96C32",
+     "eng3.dll+0xDA6C32",
+     "eng3.dll+0xDA90B7"
     ],
-    "plays": 10,
+    "plays": 52,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -147,11 +294,15 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD784F0"
+     "eng3.dll+0xD784F0",
+     "eng3.dll+0xD884F0",
+     "eng3.dll+0xDA84F0"
     ],
-    "plays": 1,
+    "plays": 3,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -166,11 +317,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD76BDA"
+     "eng3.dll+0xD76BDA",
+     "eng3.dll+0xD86BDA",
+     "eng3.dll+0xD96BDA",
+     "eng3.dll+0xDA6BDA"
     ],
-    "plays": 62,
+    "plays": 373,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -185,11 +345,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD76ACE"
+     "eng3.dll+0xD76ACE",
+     "eng3.dll+0xD86ACE",
+     "eng3.dll+0xD96ACE",
+     "eng3.dll+0xDA6ACE"
     ],
-    "plays": 67,
+    "plays": 408,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -204,11 +373,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD75B34"
+     "eng3.dll+0xD75B34",
+     "eng3.dll+0xD85B34",
+     "eng3.dll+0xD95B34",
+     "eng3.dll+0xDA5B34"
     ],
-    "plays": 1,
+    "plays": 7,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -224,11 +402,23 @@
     ],
     "callers": [
      "eng3.dll+0xD7577F",
-     "eng3.dll+0xD75824"
+     "eng3.dll+0xD75824",
+     "eng3.dll+0xD8577F",
+     "eng3.dll+0xD85824",
+     "eng3.dll+0xD9577F",
+     "eng3.dll+0xD95824",
+     "eng3.dll+0xDA577F",
+     "eng3.dll+0xDA5824"
     ],
-    "plays": 14,
+    "plays": 83,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -243,11 +433,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD6EDC5"
+     "eng3.dll+0xD6EDC5",
+     "eng3.dll+0xD7EDC5",
+     "eng3.dll+0xD8EDC5",
+     "eng3.dll+0xD9EDC5"
     ],
-    "plays": 4,
+    "plays": 18,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -262,11 +461,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD6ECF6"
+     "eng3.dll+0xD6ECF6",
+     "eng3.dll+0xD7ECF6",
+     "eng3.dll+0xD8ECF6",
+     "eng3.dll+0xD9ECF6"
     ],
-    "plays": 32,
-    "refused": 2,
+    "plays": 194,
+    "refused": 6,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -281,11 +489,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD6ED1C"
+     "eng3.dll+0xD6ED1C",
+     "eng3.dll+0xD7ED1C",
+     "eng3.dll+0xD8ED1C",
+     "eng3.dll+0xD9ED1C"
     ],
-    "plays": 33,
+    "plays": 182,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -305,11 +522,23 @@
     ],
     "callers": [
      "eng3.dll+0xD732FA",
-     "eng3.dll+0xD73C40"
+     "eng3.dll+0xD73C40",
+     "eng3.dll+0xD832FA",
+     "eng3.dll+0xD83C40",
+     "eng3.dll+0xD932FA",
+     "eng3.dll+0xD93C40",
+     "eng3.dll+0xDA32FA",
+     "eng3.dll+0xDA3C40"
     ],
-    "plays": 14,
-    "refused": 5,
+    "plays": 78,
+    "refused": 26,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -324,11 +553,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD7063E"
+     "eng3.dll+0xD7063E",
+     "eng3.dll+0xD8063E",
+     "eng3.dll+0xD9063E",
+     "eng3.dll+0xDA063E"
     ],
-    "plays": 1,
+    "plays": 7,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -343,11 +581,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD71C30"
+     "eng3.dll+0xD71C30",
+     "eng3.dll+0xD81C30",
+     "eng3.dll+0xD91C30",
+     "eng3.dll+0xDA1C30"
     ],
-    "plays": 11,
-    "refused": 2,
+    "plays": 68,
+    "refused": 14,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -362,11 +609,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD71C61"
+     "eng3.dll+0xD71C61",
+     "eng3.dll+0xD81C61",
+     "eng3.dll+0xD91C61",
+     "eng3.dll+0xDA1C61"
     ],
-    "plays": 12,
+    "plays": 73,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -381,11 +637,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD7226E"
+     "eng3.dll+0xD7226E",
+     "eng3.dll+0xD8226E",
+     "eng3.dll+0xD9226E",
+     "eng3.dll+0xDA226E"
     ],
-    "plays": 1,
+    "plays": 7,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -400,11 +665,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD72EDA"
+     "eng3.dll+0xD72EDA",
+     "eng3.dll+0xD82EDA",
+     "eng3.dll+0xD92EDA",
+     "eng3.dll+0xDA2EDA"
     ],
-    "plays": 4,
+    "plays": 22,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -419,11 +693,18 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD6D66D"
+     "eng3.dll+0xD6D66D",
+     "eng3.dll+0xD7D66D",
+     "eng3.dll+0xD8D66D",
+     "eng3.dll+0xD9D66D"
     ],
-    "plays": 3,
+    "plays": 14,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -438,11 +719,18 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD6D478"
+     "eng3.dll+0xD6D478",
+     "eng3.dll+0xD7D478",
+     "eng3.dll+0xD8D478",
+     "eng3.dll+0xD9D478"
     ],
-    "plays": 3,
+    "plays": 14,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -457,11 +745,18 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD6D4AB"
+     "eng3.dll+0xD6D4AB",
+     "eng3.dll+0xD7D4AB",
+     "eng3.dll+0xD8D4AB",
+     "eng3.dll+0xD9D4AB"
     ],
-    "plays": 3,
+    "plays": 14,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -476,11 +771,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD72CDC"
+     "eng3.dll+0xD72CDC",
+     "eng3.dll+0xD82CDC",
+     "eng3.dll+0xD92CDC",
+     "eng3.dll+0xDA2CDC"
     ],
-    "plays": 12,
+    "plays": 84,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -495,11 +799,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD72CA2"
+     "eng3.dll+0xD72CA2",
+     "eng3.dll+0xD82CA2",
+     "eng3.dll+0xD92CA2",
+     "eng3.dll+0xDA2CA2"
     ],
-    "plays": 1,
+    "plays": 7,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -514,11 +827,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD6F802"
+     "eng3.dll+0xD6F802",
+     "eng3.dll+0xD7F802",
+     "eng3.dll+0xD8F802",
+     "eng3.dll+0xD9F802"
     ],
-    "plays": 2,
+    "plays": 8,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -538,11 +860,23 @@
     ],
     "callers": [
      "eng3.dll+0xD6EF31",
-     "eng3.dll+0xD733D5"
+     "eng3.dll+0xD733D5",
+     "eng3.dll+0xD7EF31",
+     "eng3.dll+0xD833D5",
+     "eng3.dll+0xD8EF31",
+     "eng3.dll+0xD933D5",
+     "eng3.dll+0xD9EF31",
+     "eng3.dll+0xDA33D5"
     ],
-    "plays": 8,
+    "plays": 47,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -562,11 +896,23 @@
     ],
     "callers": [
      "eng3.dll+0xD6F0FD",
-     "eng3.dll+0xD73585"
+     "eng3.dll+0xD73585",
+     "eng3.dll+0xD7F0FD",
+     "eng3.dll+0xD83585",
+     "eng3.dll+0xD8F0FD",
+     "eng3.dll+0xD93585",
+     "eng3.dll+0xD9F0FD",
+     "eng3.dll+0xDA3585"
     ],
-    "plays": 5,
+    "plays": 29,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -581,11 +927,20 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD7096B"
+     "eng3.dll+0xD7096B",
+     "eng3.dll+0xD8096B",
+     "eng3.dll+0xD9096B",
+     "eng3.dll+0xDA096B"
     ],
-    "plays": 1,
+    "plays": 7,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -600,11 +955,15 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD6778E"
+     "eng3.dll+0xD6778E",
+     "eng3.dll+0xD7778E",
+     "eng3.dll+0xD9778E"
     ],
-    "plays": 1,
+    "plays": 3,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
      "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
     ]
    },
@@ -619,12 +978,1137 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD6770C"
+     "eng3.dll+0xD6770C",
+     "eng3.dll+0xD7770C",
+     "eng3.dll+0xD9770C"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
+     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+    ]
+   }
+  },
+  "L03": {
+   "9": {
+    "request_ids": [
+     "0x9"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xBA646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+     "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
+    ]
+   },
+   "10": {
+    "request_ids": [
+     "0xa"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xBA646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+     "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
+    ]
+   },
+   "195": {
+    "request_ids": [
+     "0x40c3"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0025",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x2867C",
+     "eng1.dll+0xBB867C"
+    ],
+    "plays": 24,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+     "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
+    ]
+   },
+   "196": {
+    "request_ids": [
+     "0x40c4"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0025",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x2867C",
+     "eng1.dll+0xBB867C"
+    ],
+    "plays": 23,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+     "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
+    ]
+   },
+   "197": {
+    "request_ids": [
+     "0x58c5"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0051",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xB9E4F1",
+     "eng1.dll+0xE4F1"
+    ],
+    "plays": 16,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+     "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
+    ]
+   },
+   "199": {
+    "request_ids": [
+     "0x58c7"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0051",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xB9E4F1",
+     "eng1.dll+0xE4F1"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+     "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
+    ]
+   },
+   "201": {
+    "request_ids": [
+     "0x58c9"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0051",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xB9E4F1",
+     "eng1.dll+0xE4F1"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+     "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
+    ]
+   },
+   "820": {
+    "request_ids": [
+     "0x334"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xBA646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+     "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
+    ]
+   },
+   "822": {
+    "request_ids": [
+     "0x336"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xBA646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+     "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
+    ]
+   }
+  },
+  "L04": {
+   "9": {
+    "request_ids": [
+     "0x9"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD7646A"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium"
+    ]
+   },
+   "10": {
+    "request_ids": [
+     "0xa"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD7646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium"
+    ]
+   },
+   "195": {
+    "request_ids": [
+     "0x40c3"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0025",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x2867C",
+     "eng1.dll+0xD8867C"
+    ],
+    "plays": 11,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium"
+    ]
+   },
+   "196": {
+    "request_ids": [
+     "0x40c4"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0025",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x2867C",
+     "eng1.dll+0xD8867C"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium"
+    ]
+   },
+   "820": {
+    "request_ids": [
+     "0x334"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD7646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium"
+    ]
+   },
+   "822": {
+    "request_ids": [
+     "0x336"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD7646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+     "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium"
+    ]
+   }
+  },
+  "L05": {
+   "28": {
+    "request_ids": [
+     "0x401c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8646A"
+    ],
+    "plays": 5,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "42": {
+    "request_ids": [
+     "0x402a"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8646A"
     ],
     "plays": 1,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium"
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "43": {
+    "request_ids": [
+     "0x402b"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "384": {
+    "request_ids": [
+     "0x180"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8AD5C"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "388": {
+    "request_ids": [
+     "0x5984"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002d",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8B863"
+    ],
+    "plays": 7,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "392": {
+    "request_ids": [
+     "0x188"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8E757"
+    ],
+    "plays": 9,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "393": {
+    "request_ids": [
+     "0x189"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8E757"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "394": {
+    "request_ids": [
+     "0x18a"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8E757"
+    ],
+    "plays": 5,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "396": {
+    "request_ids": [
+     "0x598c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002d",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8D415"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "397": {
+    "request_ids": [
+     "0x598d"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002d",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8D415"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "399": {
+    "request_ids": [
+     "0x598f"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002d",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8D415"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "403": {
+    "request_ids": [
+     "0x193"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8AD6A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "406": {
+    "request_ids": [
+     "0x5196"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002d",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8D47E"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "407": {
+    "request_ids": [
+     "0x5197"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002d",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8D47E"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "412": {
+    "request_ids": [
+     "0x19c"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8EC1E"
+    ],
+    "plays": 5,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "416": {
+    "request_ids": [
+     "0x51a0"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002d",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8D4CD"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "417": {
+    "request_ids": [
+     "0x51a1"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002d",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD8D4CD"
+    ],
+    "plays": 1,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "820": {
+    "request_ids": [
+     "0x334"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4012",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD83704"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "821": {
+    "request_ids": [
+     "0x335"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4012",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD83704"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   },
+   "822": {
+    "request_ids": [
+     "0x336"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4012",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xD83704"
+    ],
+    "plays": 5,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
+    ]
+   }
+  },
+  "L06": {
+   "27": {
+    "request_ids": [
+     "0x401b"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD8646A"
+    ],
+    "plays": 13,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "28": {
+    "request_ids": [
+     "0x401c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD8646A"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "42": {
+    "request_ids": [
+     "0x402a"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD8646A"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "43": {
+    "request_ids": [
+     "0x402b"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x1646A",
+     "eng1.dll+0xD8646A"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "450": {
+    "request_ids": [
+     "0x1c2"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x2186C",
+     "eng1.dll+0xD9186C"
+    ],
+    "plays": 7,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "453": {
+    "request_ids": [
+     "0x1c5"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x22AC1"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "454": {
+    "request_ids": [
+     "0x1c6"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x2117B",
+     "eng1.dll+0xD9117B"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "455": {
+    "request_ids": [
+     "0x1c7"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x21F71",
+     "eng1.dll+0xD91F71"
+    ],
+    "plays": 10,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "456": {
+    "request_ids": [
+     "0x1c8"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x21FD9",
+     "eng1.dll+0xD91FD9"
+    ],
+    "plays": 10,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "461": {
+    "request_ids": [
+     "0x1cd"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x21A8C",
+     "eng1.dll+0xD91A8C"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "467": {
+    "request_ids": [
+     "0x1d3"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x219CF",
+     "eng1.dll+0xD919CF"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "468": {
+    "request_ids": [
+     "0x51d4"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0032",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x23D4C",
+     "eng1.dll+0xD93D4C"
+    ],
+    "plays": 9,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "470": {
+    "request_ids": [
+     "0x51d6"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0032",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x23D4C",
+     "eng1.dll+0xD93D4C"
+    ],
+    "plays": 23,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "471": {
+    "request_ids": [
+     "0x51d7"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0032",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x23D4C",
+     "eng1.dll+0xD93D4C"
+    ],
+    "plays": 7,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "473": {
+    "request_ids": [
+     "0x51d9"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0032",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x23C62",
+     "eng1.dll+0xD93C62"
+    ],
+    "plays": 21,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "474": {
+    "request_ids": [
+     "0x51da"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0032",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x23D4C",
+     "eng1.dll+0xD93D4C"
+    ],
+    "plays": 18,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "475": {
+    "request_ids": [
+     "0x51db"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0032",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x23D4C",
+     "eng1.dll+0xD93D4C"
+    ],
+    "plays": 21,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "476": {
+    "request_ids": [
+     "0x51dc"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0032",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x23D4C",
+     "eng1.dll+0xD93D4C"
+    ],
+    "plays": 12,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "477": {
+    "request_ids": [
+     "0xd1dd"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0032",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x23ECE",
+     "eng1.dll+0xD93ECE"
+    ],
+    "plays": 16,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
+    ]
+   },
+   "486": {
+    "request_ids": [
+     "0x1e6"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x23381",
+     "eng1.dll+0xD93381"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+     "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium"
     ]
    }
   },
@@ -640,11 +2124,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD866C4"
+     "eng3.dll+0x166C4",
+     "eng3.dll+0xB966C4",
+     "eng3.dll+0xD766C4",
+     "eng3.dll+0xD866C4",
+     "eng3.dll+0xD966C4",
+     "eng3.dll+0xDC66C4",
+     "eng3.dll+0xDE66C4"
     ],
-    "plays": 1,
+    "plays": 10,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -659,11 +2158,14 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD884F0"
+     "eng3.dll+0xD884F0",
+     "eng3.dll+0xD984F0"
     ],
-    "plays": 1,
+    "plays": 3,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -678,11 +2180,14 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD884F0"
+     "eng3.dll+0xD884F0",
+     "eng3.dll+0xD984F0"
     ],
-    "plays": 1,
+    "plays": 3,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -697,11 +2202,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8945E"
+     "eng3.dll+0x1945E",
+     "eng3.dll+0xB9945E",
+     "eng3.dll+0xD7945E",
+     "eng3.dll+0xD8945E",
+     "eng3.dll+0xD9945E",
+     "eng3.dll+0xDC945E",
+     "eng3.dll+0xDE945E"
     ],
-    "plays": 8,
+    "plays": 41,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -716,12 +2236,28 @@
      }
     ],
     "callers": [
+     "eng3.dll+0x16C32",
+     "eng3.dll+0xB96C32",
+     "eng3.dll+0xD76C32",
      "eng3.dll+0xD86C32",
-     "eng3.dll+0xD890B7"
+     "eng3.dll+0xD890B7",
+     "eng3.dll+0xD96C32",
+     "eng3.dll+0xD990B7",
+     "eng3.dll+0xDC6C32",
+     "eng3.dll+0xDE6C32"
     ],
-    "plays": 8,
+    "plays": 41,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -736,11 +2272,14 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD884F0"
+     "eng3.dll+0xD884F0",
+     "eng3.dll+0xD984F0"
     ],
-    "plays": 1,
+    "plays": 3,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -755,11 +2294,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD86BEE"
+     "eng3.dll+0x16BEE",
+     "eng3.dll+0xB96BEE",
+     "eng3.dll+0xD76BEE",
+     "eng3.dll+0xD86BEE",
+     "eng3.dll+0xD96BEE",
+     "eng3.dll+0xDC6BEE",
+     "eng3.dll+0xDE6BEE"
     ],
-    "plays": 52,
+    "plays": 294,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -774,11 +2328,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD86AE3"
+     "eng3.dll+0x16AE3",
+     "eng3.dll+0xB96AE3",
+     "eng3.dll+0xD76AE3",
+     "eng3.dll+0xD86AE3",
+     "eng3.dll+0xD96AE3",
+     "eng3.dll+0xDC6AE3",
+     "eng3.dll+0xDE6AE3"
     ],
-    "plays": 55,
+    "plays": 316,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -793,11 +2362,14 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD85824"
+     "eng3.dll+0xD85824",
+     "eng3.dll+0xD95824"
     ],
-    "plays": 2,
+    "plays": 6,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -812,11 +2384,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0x1DE5C",
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD7DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C",
+     "eng3.dll+0xDEDE5C"
     ],
-    "plays": 3,
+    "plays": 17,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -831,11 +2418,19 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C"
     ],
-    "plays": 2,
+    "plays": 7,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -850,11 +2445,19 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C"
     ],
-    "plays": 2,
+    "plays": 7,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -869,11 +2472,19 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C"
     ],
-    "plays": 2,
+    "plays": 7,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -888,13 +2499,37 @@
      }
     ],
     "callers": [
+     "eng3.dll+0x2125",
+     "eng3.dll+0x6854",
+     "eng3.dll+0xB82125",
+     "eng3.dll+0xB82BFE",
+     "eng3.dll+0xB86854",
+     "eng3.dll+0xD62125",
+     "eng3.dll+0xD66854",
      "eng3.dll+0xD72125",
      "eng3.dll+0xD72BFE",
-     "eng3.dll+0xD76854"
+     "eng3.dll+0xD76854",
+     "eng3.dll+0xD82125",
+     "eng3.dll+0xD82BFE",
+     "eng3.dll+0xD86854",
+     "eng3.dll+0xDB2125",
+     "eng3.dll+0xDB2BFE",
+     "eng3.dll+0xDB6854",
+     "eng3.dll+0xDD2125",
+     "eng3.dll+0xDD6854"
     ],
-    "plays": 11,
+    "plays": 64,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -909,13 +2544,37 @@
      }
     ],
     "callers": [
+     "eng3.dll+0x21CC",
+     "eng3.dll+0x6A62",
+     "eng3.dll+0xB821CC",
+     "eng3.dll+0xB82CFF",
+     "eng3.dll+0xB86A62",
+     "eng3.dll+0xD621CC",
+     "eng3.dll+0xD66A62",
      "eng3.dll+0xD721CC",
      "eng3.dll+0xD72CFF",
-     "eng3.dll+0xD76A62"
+     "eng3.dll+0xD76A62",
+     "eng3.dll+0xD821CC",
+     "eng3.dll+0xD82CFF",
+     "eng3.dll+0xD86A62",
+     "eng3.dll+0xDB21CC",
+     "eng3.dll+0xDB2CFF",
+     "eng3.dll+0xDB6A62",
+     "eng3.dll+0xDD21CC",
+     "eng3.dll+0xDD6A62"
     ],
-    "plays": 11,
+    "plays": 59,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -934,12 +2593,30 @@
      }
     ],
     "callers": [
+     "eng3.dll+0x47DC",
+     "eng3.dll+0xB834F9",
+     "eng3.dll+0xB847DC",
+     "eng3.dll+0xD647DC",
      "eng3.dll+0xD734F9",
-     "eng3.dll+0xD747DC"
+     "eng3.dll+0xD747DC",
+     "eng3.dll+0xD834F9",
+     "eng3.dll+0xD847DC",
+     "eng3.dll+0xDB34F9",
+     "eng3.dll+0xDB47DC",
+     "eng3.dll+0xDD47DC"
     ],
-    "plays": 12,
+    "plays": 66,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -954,11 +2631,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD747EA"
+     "eng3.dll+0x47EA",
+     "eng3.dll+0xB847EA",
+     "eng3.dll+0xD647EA",
+     "eng3.dll+0xD747EA",
+     "eng3.dll+0xD847EA",
+     "eng3.dll+0xDB47EA",
+     "eng3.dll+0xDD47EA"
     ],
-    "plays": 11,
+    "plays": 61,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -973,11 +2665,19 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C"
     ],
-    "plays": 2,
+    "plays": 11,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -992,11 +2692,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0x1DE5C",
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD7DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C",
+     "eng3.dll+0xDEDE5C"
     ],
-    "plays": 3,
+    "plays": 18,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1011,11 +2726,18 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C"
     ],
-    "plays": 1,
+    "plays": 5,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1030,11 +2752,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0x1DE5C",
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD7DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C",
+     "eng3.dll+0xDEDE5C"
     ],
-    "plays": 4,
+    "plays": 22,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1049,11 +2786,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0x1DE5C",
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD7DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C",
+     "eng3.dll+0xDEDE5C"
     ],
-    "plays": 8,
+    "plays": 40,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1068,11 +2820,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0x1DE5C",
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD7DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C",
+     "eng3.dll+0xDEDE5C"
     ],
-    "plays": 3,
+    "plays": 18,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1087,11 +2854,19 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD8DE5C"
+     "eng3.dll+0xB9DE5C",
+     "eng3.dll+0xD8DE5C",
+     "eng3.dll+0xD9DE5C",
+     "eng3.dll+0xDCDE5C"
     ],
-    "plays": 2,
+    "plays": 11,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1106,11 +2881,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD76F95"
+     "eng3.dll+0x6F95",
+     "eng3.dll+0xB86F95",
+     "eng3.dll+0xD66F95",
+     "eng3.dll+0xD76F95",
+     "eng3.dll+0xD86F95",
+     "eng3.dll+0xDB6F95",
+     "eng3.dll+0xDD6F95"
     ],
-    "plays": 3,
+    "plays": 14,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1125,11 +2915,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD76FBC"
+     "eng3.dll+0x6FBC",
+     "eng3.dll+0xB86FBC",
+     "eng3.dll+0xD66FBC",
+     "eng3.dll+0xD76FBC",
+     "eng3.dll+0xD86FBC",
+     "eng3.dll+0xDB6FBC",
+     "eng3.dll+0xDD6FBC"
     ],
-    "plays": 1,
+    "plays": 10,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1144,11 +2949,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD7597B"
+     "eng3.dll+0x597B",
+     "eng3.dll+0xB8597B",
+     "eng3.dll+0xD6597B",
+     "eng3.dll+0xD7597B",
+     "eng3.dll+0xD8597B",
+     "eng3.dll+0xDB597B",
+     "eng3.dll+0xDD597B"
     ],
-    "plays": 6,
+    "plays": 33,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1163,12 +2983,30 @@
      }
     ],
     "callers": [
+     "eng3.dll+0x594D",
+     "eng3.dll+0xB8594D",
+     "eng3.dll+0xB85992",
+     "eng3.dll+0xD6594D",
      "eng3.dll+0xD7594D",
-     "eng3.dll+0xD75992"
+     "eng3.dll+0xD75992",
+     "eng3.dll+0xD8594D",
+     "eng3.dll+0xD85992",
+     "eng3.dll+0xDB594D",
+     "eng3.dll+0xDB5992",
+     "eng3.dll+0xDD594D"
     ],
-    "plays": 14,
+    "plays": 74,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1183,11 +3021,19 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD75964"
+     "eng3.dll+0xB85964",
+     "eng3.dll+0xD75964",
+     "eng3.dll+0xD85964",
+     "eng3.dll+0xDB5964"
     ],
-    "plays": 7,
+    "plays": 32,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1202,11 +3048,26 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD75908"
+     "eng3.dll+0x5908",
+     "eng3.dll+0xB85908",
+     "eng3.dll+0xD65908",
+     "eng3.dll+0xD75908",
+     "eng3.dll+0xD85908",
+     "eng3.dll+0xDB5908",
+     "eng3.dll+0xDD5908"
     ],
-    "plays": 4,
+    "plays": 28,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1221,12 +3082,30 @@
      }
     ],
     "callers": [
+     "eng3.dll+0x591F",
+     "eng3.dll+0xB8591F",
+     "eng3.dll+0xB85936",
+     "eng3.dll+0xD6591F",
      "eng3.dll+0xD7591F",
-     "eng3.dll+0xD75936"
+     "eng3.dll+0xD75936",
+     "eng3.dll+0xD8591F",
+     "eng3.dll+0xD85936",
+     "eng3.dll+0xDB591F",
+     "eng3.dll+0xDB5936",
+     "eng3.dll+0xDD591F"
     ],
-    "plays": 13,
+    "plays": 67,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1241,11 +3120,19 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD76FE3"
+     "eng3.dll+0xB86FE3",
+     "eng3.dll+0xD76FE3",
+     "eng3.dll+0xD86FE3",
+     "eng3.dll+0xDB6FE3"
     ],
-    "plays": 1,
+    "plays": 6,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1260,11 +3147,18 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD7700A"
+     "eng3.dll+0xB8700A",
+     "eng3.dll+0xD7700A",
+     "eng3.dll+0xD8700A",
+     "eng3.dll+0xDB700A"
     ],
-    "plays": 1,
+    "plays": 5,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1279,11 +3173,14 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD7778E"
+     "eng3.dll+0xD7778E",
+     "eng3.dll+0xD8778E"
     ],
-    "plays": 1,
+    "plays": 3,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
     ]
    },
@@ -1298,12 +3195,164 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xD7770C"
+     "eng3.dll+0xD7770C",
+     "eng3.dll+0xD8770C"
     ],
-    "plays": 1,
+    "plays": 3,
     "refused": 0,
     "runs": [
+     "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+     "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
      "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
+    ]
+   }
+  },
+  "L08": {
+   "28": {
+    "request_ids": [
+     "0x601c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x370C3",
+     "eng1.dll+0xDB70C3"
+    ],
+    "plays": 0,
+    "refused": 3,
+    "runs": [
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
+    ]
+   },
+   "603": {
+    "request_ids": [
+     "0xe25b"
+    ],
+    "kinds": [
+     {
+      "kind": "0x005c",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x3B35B",
+     "eng1.dll+0xDBB35B"
+    ],
+    "plays": 11,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
+    ]
+   },
+   "604": {
+    "request_ids": [
+     "0xe25c"
+    ],
+    "kinds": [
+     {
+      "kind": "0x005c",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x3B35B",
+     "eng1.dll+0xDBB35B"
+    ],
+    "plays": 9,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
+    ]
+   },
+   "632": {
+    "request_ids": [
+     "0x6278"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x37EFD",
+     "eng1.dll+0xDB7EFD"
+    ],
+    "plays": 10,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
+    ]
+   },
+   "633": {
+    "request_ids": [
+     "0x6279"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x37EFD",
+     "eng1.dll+0xDB7EFD"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
+    ]
+   },
+   "638": {
+    "request_ids": [
+     "0x627e"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4028",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x289B9",
+     "eng1.dll+0xDA89B9"
+    ],
+    "plays": 55,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
+    ]
+   },
+   "639": {
+    "request_ids": [
+     "0x627f"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4028",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0x289B9",
+     "eng1.dll+0xDA89B9"
+    ],
+    "plays": 73,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+     "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
     ]
    }
   },
@@ -1319,12 +3368,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDB70B4"
+     "eng3.dll+0xD770B4",
+     "eng3.dll+0xD870B4",
+     "eng3.dll+0xD970B4",
+     "eng3.dll+0xDA70B4",
+     "eng3.dll+0xDB70B4",
+     "eng3.dll+0xDC70B4",
+     "eng3.dll+0xDE70B4"
     ],
-    "plays": 7,
+    "plays": 49,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "40": {
@@ -1338,12 +3399,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDB66C4"
+     "eng3.dll+0xD766C4",
+     "eng3.dll+0xD866C4",
+     "eng3.dll+0xD966C4",
+     "eng3.dll+0xDA66C4",
+     "eng3.dll+0xDB66C4",
+     "eng3.dll+0xDC66C4",
+     "eng3.dll+0xDE66C4"
     ],
-    "plays": 1,
+    "plays": 7,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "46": {
@@ -1357,12 +3430,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDB945E"
+     "eng3.dll+0xD7945E",
+     "eng3.dll+0xD8945E",
+     "eng3.dll+0xD9945E",
+     "eng3.dll+0xDA945E",
+     "eng3.dll+0xDB945E",
+     "eng3.dll+0xDC945E",
+     "eng3.dll+0xDE945E"
     ],
-    "plays": 1,
+    "plays": 28,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "55": {
@@ -1376,13 +3461,27 @@
      }
     ],
     "callers": [
+     "eng3.dll+0xD76C32",
+     "eng3.dll+0xD790B7",
+     "eng3.dll+0xD86C32",
+     "eng3.dll+0xD890B7",
+     "eng3.dll+0xD96C32",
+     "eng3.dll+0xDA6C32",
      "eng3.dll+0xDB6C32",
-     "eng3.dll+0xDB90B7"
+     "eng3.dll+0xDB90B7",
+     "eng3.dll+0xDC6C32",
+     "eng3.dll+0xDE6C32"
     ],
-    "plays": 2,
+    "plays": 42,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "56": {
@@ -1396,12 +3495,16 @@
      }
     ],
     "callers": [
+     "eng3.dll+0xD784F0",
+     "eng3.dll+0xD884F0",
      "eng3.dll+0xDB84F0"
     ],
-    "plays": 1,
+    "plays": 3,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium"
     ]
    },
    "57": {
@@ -1415,12 +3518,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDB6BEE"
+     "eng3.dll+0xD76BEE",
+     "eng3.dll+0xD86BEE",
+     "eng3.dll+0xD96BEE",
+     "eng3.dll+0xDA6BEE",
+     "eng3.dll+0xDB6BEE",
+     "eng3.dll+0xDC6BEE",
+     "eng3.dll+0xDE6BEE"
     ],
-    "plays": 22,
+    "plays": 189,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "58": {
@@ -1434,12 +3549,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDB6AE3"
+     "eng3.dll+0xD76AE3",
+     "eng3.dll+0xD86AE3",
+     "eng3.dll+0xD96AE3",
+     "eng3.dll+0xDA6AE3",
+     "eng3.dll+0xDB6AE3",
+     "eng3.dll+0xDC6AE3",
+     "eng3.dll+0xDE6AE3"
     ],
-    "plays": 23,
+    "plays": 218,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "60": {
@@ -1453,12 +3580,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDB5B34"
+     "eng3.dll+0xD75B34",
+     "eng3.dll+0xD85B34",
+     "eng3.dll+0xD95B34",
+     "eng3.dll+0xDA5B34",
+     "eng3.dll+0xDB5B34",
+     "eng3.dll+0xDC5B34",
+     "eng3.dll+0xDE5B34"
     ],
-    "plays": 1,
+    "plays": 7,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "646": {
@@ -1472,12 +3611,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDC8BCC"
+     "eng3.dll+0xD88BCC",
+     "eng3.dll+0xD98BCC",
+     "eng3.dll+0xDA8BCC",
+     "eng3.dll+0xDB8BCC",
+     "eng3.dll+0xDC8BCC",
+     "eng3.dll+0xDD8BCC",
+     "eng3.dll+0xDF8BCC"
     ],
-    "plays": 1,
+    "plays": 14,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "655": {
@@ -1491,12 +3642,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDC665D"
+     "eng3.dll+0xD8665D",
+     "eng3.dll+0xD9665D",
+     "eng3.dll+0xDA665D",
+     "eng3.dll+0xDB665D",
+     "eng3.dll+0xDC665D",
+     "eng3.dll+0xDD665D",
+     "eng3.dll+0xDF665D"
     ],
-    "plays": 4,
+    "plays": 47,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "668": {
@@ -1514,13 +3677,31 @@
      }
     ],
     "callers": [
+     "eng3.dll+0xD88403",
+     "eng3.dll+0xD89097",
+     "eng3.dll+0xD98403",
+     "eng3.dll+0xD99097",
+     "eng3.dll+0xDA8403",
+     "eng3.dll+0xDA9097",
+     "eng3.dll+0xDB8403",
+     "eng3.dll+0xDB9097",
      "eng3.dll+0xDC8403",
-     "eng3.dll+0xDC9097"
+     "eng3.dll+0xDC9097",
+     "eng3.dll+0xDD8403",
+     "eng3.dll+0xDD9097",
+     "eng3.dll+0xDF8403",
+     "eng3.dll+0xDF9097"
     ],
-    "plays": 11,
+    "plays": 122,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "669": {
@@ -1538,13 +3719,31 @@
      }
     ],
     "callers": [
+     "eng3.dll+0xD8841A",
+     "eng3.dll+0xD890AE",
+     "eng3.dll+0xD9841A",
+     "eng3.dll+0xD990AE",
+     "eng3.dll+0xDA841A",
+     "eng3.dll+0xDA90AE",
+     "eng3.dll+0xDB841A",
+     "eng3.dll+0xDB90AE",
      "eng3.dll+0xDC841A",
-     "eng3.dll+0xDC90AE"
+     "eng3.dll+0xDC90AE",
+     "eng3.dll+0xDD841A",
+     "eng3.dll+0xDD90AE",
+     "eng3.dll+0xDF841A",
+     "eng3.dll+0xDF90AE"
     ],
-    "plays": 6,
+    "plays": 94,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "670": {
@@ -1562,13 +3761,31 @@
      }
     ],
     "callers": [
+     "eng3.dll+0xD88431",
+     "eng3.dll+0xD890C5",
+     "eng3.dll+0xD98431",
+     "eng3.dll+0xD990C5",
+     "eng3.dll+0xDA8431",
+     "eng3.dll+0xDA90C5",
+     "eng3.dll+0xDB8431",
+     "eng3.dll+0xDB90C5",
      "eng3.dll+0xDC8431",
-     "eng3.dll+0xDC90C5"
+     "eng3.dll+0xDC90C5",
+     "eng3.dll+0xDD8431",
+     "eng3.dll+0xDD90C5",
+     "eng3.dll+0xDF8431",
+     "eng3.dll+0xDF90C5"
     ],
-    "plays": 12,
+    "plays": 108,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "671": {
@@ -1579,15 +3796,35 @@
      {
       "kind": "0x003b",
       "what": ""
+     },
+     {
+      "kind": "0x0041",
+      "what": ""
      }
     ],
     "callers": [
-     "eng3.dll+0xDC8448"
+     "eng3.dll+0xD88448",
+     "eng3.dll+0xD98448",
+     "eng3.dll+0xDA8448",
+     "eng3.dll+0xDA90DC",
+     "eng3.dll+0xDB8448",
+     "eng3.dll+0xDB90DC",
+     "eng3.dll+0xDC8448",
+     "eng3.dll+0xDD8448",
+     "eng3.dll+0xDD90DC",
+     "eng3.dll+0xDF8448",
+     "eng3.dll+0xDF90DC"
     ],
-    "plays": 6,
+    "plays": 101,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "672": {
@@ -1605,13 +3842,31 @@
      }
     ],
     "callers": [
+     "eng3.dll+0xD8845F",
+     "eng3.dll+0xD890F3",
+     "eng3.dll+0xD9845F",
+     "eng3.dll+0xD990F3",
+     "eng3.dll+0xDA845F",
+     "eng3.dll+0xDA90F3",
+     "eng3.dll+0xDB845F",
+     "eng3.dll+0xDB90F3",
      "eng3.dll+0xDC845F",
-     "eng3.dll+0xDC90F3"
+     "eng3.dll+0xDC90F3",
+     "eng3.dll+0xDD845F",
+     "eng3.dll+0xDD90F3",
+     "eng3.dll+0xDF845F",
+     "eng3.dll+0xDF90F3"
     ],
-    "plays": 9,
+    "plays": 109,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "674": {
@@ -1625,12 +3880,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDC9EF3"
+     "eng3.dll+0xD89EF3",
+     "eng3.dll+0xD99EF3",
+     "eng3.dll+0xDA9EF3",
+     "eng3.dll+0xDB9EF3",
+     "eng3.dll+0xDC9EF3",
+     "eng3.dll+0xDD9EF3",
+     "eng3.dll+0xDF9EF3"
     ],
-    "plays": 2,
+    "plays": 17,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "676": {
@@ -1644,12 +3911,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDC9C4A"
+     "eng3.dll+0xD89C4A",
+     "eng3.dll+0xD99C4A",
+     "eng3.dll+0xDA9C4A",
+     "eng3.dll+0xDB9C4A",
+     "eng3.dll+0xDC9C4A",
+     "eng3.dll+0xDD9C4A",
+     "eng3.dll+0xDF9C4A"
     ],
-    "plays": 4,
+    "plays": 30,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "677": {
@@ -1663,12 +3942,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDC9C60"
+     "eng3.dll+0xD89C60",
+     "eng3.dll+0xD99C60",
+     "eng3.dll+0xDA9C60",
+     "eng3.dll+0xDB9C60",
+     "eng3.dll+0xDC9C60",
+     "eng3.dll+0xDD9C60",
+     "eng3.dll+0xDF9C60"
     ],
-    "plays": 8,
+    "plays": 57,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "678": {
@@ -1682,12 +3973,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDC9C76"
+     "eng3.dll+0xD89C76",
+     "eng3.dll+0xD99C76",
+     "eng3.dll+0xDA9C76",
+     "eng3.dll+0xDB9C76",
+     "eng3.dll+0xDC9C76",
+     "eng3.dll+0xDD9C76",
+     "eng3.dll+0xDF9C76"
     ],
-    "plays": 7,
+    "plays": 62,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "679": {
@@ -1701,12 +4004,24 @@
      }
     ],
     "callers": [
-     "eng3.dll+0xDC9ACB"
+     "eng3.dll+0xD89ACB",
+     "eng3.dll+0xD99ACB",
+     "eng3.dll+0xDA9ACB",
+     "eng3.dll+0xDB9ACB",
+     "eng3.dll+0xDC9ACB",
+     "eng3.dll+0xDD9ACB",
+     "eng3.dll+0xDF9ACB"
     ],
-    "plays": 2,
+    "plays": 17,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium"
     ]
    },
    "825": {
@@ -1720,12 +4035,352 @@
      }
     ],
     "callers": [
+     "eng3.dll+0xD6770C",
+     "eng3.dll+0xD7770C",
      "eng3.dll+0xDA770C"
     ],
-    "plays": 1,
+    "plays": 3,
     "refused": 0,
     "runs": [
-     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium"
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+     "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium"
+    ]
+   }
+  },
+  "L10": {
+   "42": {
+    "request_ids": [
+     "0x402a"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xB9646A",
+     "eng1.dll+0xE7646A"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "43": {
+    "request_ids": [
+     "0x402b"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0001",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xB9646A",
+     "eng1.dll+0xE7646A"
+    ],
+    "plays": 4,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "62": {
+    "request_ids": [
+     "0xc03e"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4012",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xB9314D",
+     "eng1.dll+0xE7314D"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "704": {
+    "request_ids": [
+     "0x2c0"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xBC41B6",
+     "eng1.dll+0xEA41B6"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "709": {
+    "request_ids": [
+     "0x42c5"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0028",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xBC4934",
+     "eng1.dll+0xEA4934"
+    ],
+    "plays": 18,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "711": {
+    "request_ids": [
+     "0x42c7"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0028",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xBC4934",
+     "eng1.dll+0xEA4934"
+    ],
+    "plays": 18,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "712": {
+    "request_ids": [
+     "0x42c8"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0028",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xBC4934",
+     "eng1.dll+0xEA4934"
+    ],
+    "plays": 16,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "714": {
+    "request_ids": [
+     "0xc2ca"
+    ],
+    "kinds": [
+     {
+      "kind": "0x002a",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xBC60E7",
+     "eng1.dll+0xEA60E7"
+    ],
+    "plays": 15,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "715": {
+    "request_ids": [
+     "0x4acb"
+    ],
+    "kinds": [
+     {
+      "kind": "0x0028",
+      "what": ""
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xBC5C97",
+     "eng1.dll+0xEA5C97"
+    ],
+    "plays": 36,
+    "refused": 1,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "716": {
+    "request_ids": [
+     "0x2cc"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xBC4555",
+     "eng1.dll+0xEA4555"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "717": {
+    "request_ids": [
+     "0x2cd"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xEA4555"
+    ],
+    "plays": 2,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "718": {
+    "request_ids": [
+     "0x2ce"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xBC4555",
+     "eng1.dll+0xEA4555"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "719": {
+    "request_ids": [
+     "0x2cf"
+    ],
+    "kinds": [
+     {
+      "kind": null,
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xBC4555",
+     "eng1.dll+0xEA4555"
+    ],
+    "plays": 7,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "820": {
+    "request_ids": [
+     "0x334"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4012",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xB93704",
+     "eng1.dll+0xE73704"
+    ],
+    "plays": 6,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "821": {
+    "request_ids": [
+     "0x335"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4012",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xB93704",
+     "eng1.dll+0xE73704"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
+    ]
+   },
+   "822": {
+    "request_ids": [
+     "0x336"
+    ],
+    "kinds": [
+     {
+      "kind": "0x4012",
+      "what": null
+     }
+    ],
+    "callers": [
+     "eng1.dll+0xB93704",
+     "eng1.dll+0xE73704"
+    ],
+    "plays": 3,
+    "refused": 0,
+    "runs": [
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+     "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium"
     ]
    }
   }

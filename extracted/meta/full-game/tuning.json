@@ -8,7 +8,7 @@
    "rva": "0x55348",
    "entity": "hero (ENG1 levels)",
    "scenario": "all ENG1",
-   "representation": "s32 x 8 per difficulty (stride 0x20), index = hit strength - 1",
+   "representation": "s32 x 8 per difficulty (stride 0x20), index = (stored hit - 1) & 7; HERO_RequestDamage(obj, n) stores n + 1 (bit 0x10 cleared = light hit), so index = n & 7 for n < 0x10",
    "by_difficulty": {
     "Beginner": [
      5,
@@ -185,6 +185,558 @@
    },
    "source": "HERO_NessusUpdate ENG1 0xbc50",
    "status": "VERIFIED-STATIC (gamehercules-22)"
+  },
+  {
+   "id": "eng1.medusa_tables",
+   "program": "ENG1.DLL",
+   "rva": [
+    "0x58b08",
+    "0x58ba0",
+    "0x58c40",
+    "0x58ce0",
+    "0x58d10",
+    "0x58d38"
+   ],
+   "entity": "medusa boss",
+   "scenario": "L06 MEDUSA",
+   "representation": "two table addresses per difficulty (-> 0x6fcf8, 0x6fe0c; contents: layout open)",
+   "by_difficulty": {
+    "Beginner": [
+     "0x58b08",
+     "0x58ce0"
+    ],
+    "Medium": [
+     "0x58ba0",
+     "0x58d10"
+    ],
+    "Herculean": [
+     "0x58c40",
+     "0x58d38"
+    ]
+   },
+   "source": "LVL_InitMedusa ENG1 0x21050",
+   "status": "VERIFIED-STATIC"
+  },
+  {
+   "id": "eng1.flight_damage",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "hero in flight (TITANS)",
+   "scenario": "L08 TITANS",
+   "representation": "HERO_ApplyDamageInFlight(level): table 0x55348[difficulty][level] directly (level >= 8: 1); hazards pass level 2 or 3",
+   "by_difficulty": {
+    "Beginner": {
+     "level 2": 10,
+     "level 3": 12
+    },
+    "Medium": {
+     "level 2": 25,
+     "level 3": 30
+    },
+    "Herculean": {
+     "level 2": 30,
+     "level 3": 38
+    }
+   },
+   "source": "HERO_ApplyDamageInFlight ENG1 0x37e30 (callers 0x389c0, 0x39530, 0x398b0, 0x39cf0, 0x3a550, 0x3c4d0, 0x3c510)",
+   "status": "VERIFIED-STATIC"
+  },
+  {
+   "id": "eng1.minotaur_gauge",
+   "program": "ENG1.DLL",
+   "rva": "0x24320",
+   "entity": "Minotaur (kind 0x37)",
+   "scenario": "L04 THEBES",
+   "representation": "formula (boss-gauge step 0x72184)",
+   "formula": "0x72184 = 256/(difficulty*2+6)+1 per hit; 300 on the last hit point",
+   "by_difficulty": {
+    "Beginner": 43,
+    "Medium": 33,
+    "Herculean": 26
+   },
+   "source": "HERO_MinotaurUpdate ENG1 0x24320",
+   "status": "VERIFIED-STATIC"
+  },
+  {
+   "id": "eng1.harpy_gauge",
+   "program": "ENG1.DLL",
+   "rva": "0x105a0",
+   "entity": "harpy (kind 0x38) defeat",
+   "scenario": "L04 THEBES",
+   "representation": "formula (boss-gauge step 0x72184)",
+   "formula": "0x72184 = 256/(difficulty*6+7)+1 at defeat",
+   "by_difficulty": {
+    "Beginner": 37,
+    "Medium": 20,
+    "Herculean": 14
+   },
+   "source": "HERO_HarpiesUpdate ENG1 0x105a0",
+   "status": "VERIFIED-STATIC"
+  },
+  {
+   "id": "eng1.L01.kind0x002b.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "TRAINING kind 0x002b (TOPS)",
+   "scenario": "L01 TRAINING",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_TopsSpawn, HERO_TopsUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L01.kind0x002c.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "TRAINING kind 0x002c (TOPS)",
+   "scenario": "L01 TRAINING",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_TopsSpawn, HERO_TopsUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L01.kind0x002d.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "TRAINING kind 0x002d (TOPS)",
+   "scenario": "L01 TRAINING",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_TopsSpawn, HERO_TopsUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L01.kind0x0036.damage.n0x1",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "TRAINING kind 0x0036 (TRAINING)",
+   "scenario": "L01 TRAINING",
+   "representation": "HERO_RequestDamage n = 0x1 -> s32 table 0x55348 index 1",
+   "by_difficulty": {
+    "Beginner": 8,
+    "Medium": 18,
+    "Herculean": 22
+   },
+   "source": "HERO_Hazard36Spawn, HERO_Hazard36Update",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L01.kind0x0038.damage.n0x11",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "TRAINING kind 0x0038 (STYBIRD)",
+   "scenario": "L01 TRAINING",
+   "representation": "HERO_RequestDamage n = 0x11 -> s32 table 0x55348 index 1",
+   "by_difficulty": {
+    "Beginner": 8,
+    "Medium": 18,
+    "Herculean": 22
+   },
+   "source": "HERO_BirdSpawn, HERO_BirdUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L01.kind0x003c.damage.n0x13",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "TRAINING kind 0x003c (SHARK)",
+   "scenario": "L01 TRAINING",
+   "representation": "HERO_RequestDamage n = 0x13 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_SharkSpawn, HERO_SharkUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L01.kind0x003d.damage.n0x13",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "TRAINING kind 0x003d (SHARK)",
+   "scenario": "L01 TRAINING",
+   "representation": "HERO_RequestDamage n = 0x13 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_SharkSpawn2, HERO_SharkUpdate2",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L01.kind0x002a.damage.n0x1",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "TRAINING kind 0x002a (TRAINING)",
+   "scenario": "L01 TRAINING",
+   "representation": "HERO_RequestDamage n = 0x1 -> s32 table 0x55348 index 1",
+   "by_difficulty": {
+    "Beginner": 8,
+    "Medium": 18,
+    "Herculean": 22
+   },
+   "source": "HERO_TrainingSpawn2, HERO_TrainingUpdate3",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L01.kind0x003a.damage.n0x1",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "TRAINING kind 0x003a (TRAINING)",
+   "scenario": "L01 TRAINING",
+   "representation": "HERO_RequestDamage n = 0x1 -> s32 table 0x55348 index 1",
+   "by_difficulty": {
+    "Beginner": 8,
+    "Medium": 18,
+    "Herculean": 22
+   },
+   "source": "HERO_TrainingSpawn3, HERO_TrainingUpdate4",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L01.kind0x004d.damage.n0x1",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "TRAINING kind 0x004d (TRAINING)",
+   "scenario": "L01 TRAINING",
+   "representation": "HERO_RequestDamage n = 0x1 -> s32 table 0x55348 index 1",
+   "by_difficulty": {
+    "Beginner": 8,
+    "Medium": 18,
+    "Herculean": 22
+   },
+   "source": "HERO_TrainingSpawn, HERO_TrainingUpdate2",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L03.kind0x0009.damage.n0x22",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "FOREST kind 0x0009 (no bank)",
+   "scenario": "L03 FOREST",
+   "representation": "HERO_RequestDamage n = 0x22 -> s32 table 0x55348 index 2",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 25,
+    "Herculean": 30
+   },
+   "source": "FUN_10014de0, FUN_10014e10",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L03.kind0x0027.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "FOREST kind 0x0027 (THUGS)",
+   "scenario": "L03 FOREST",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_ThugsSpawn2, HERO_ThugsUpdate2",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L03.kind0x0029.damage.n0x4",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "FOREST kind 0x0029 (WRESTLEC)",
+   "scenario": "L03 FOREST",
+   "representation": "HERO_RequestDamage n = 0x4 -> s32 table 0x55348 index 4",
+   "by_difficulty": {
+    "Beginner": 15,
+    "Medium": 35,
+    "Herculean": 45
+   },
+   "source": "HERO_WrestlecSpawn, HERO_WrestlecUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L03.kind0x0029.damage.n0x22",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "FOREST kind 0x0029 (WRESTLEC)",
+   "scenario": "L03 FOREST",
+   "representation": "HERO_RequestDamage n = 0x22 -> s32 table 0x55348 index 2",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 25,
+    "Herculean": 30
+   },
+   "source": "HERO_WrestlecSpawn, HERO_WrestlecUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L03.kind0x002a.damage.n0xa",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "FOREST kind 0x002a (ARCHERC)",
+   "scenario": "L03 FOREST",
+   "representation": "HERO_RequestDamage n = 0xa -> s32 table 0x55348 index 2",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 25,
+    "Herculean": 30
+   },
+   "source": "HERO_ArchercSpawn, HERO_ArchercUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L03.kind0x002c.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "FOREST kind 0x002c (RcRock)",
+   "scenario": "L03 FOREST",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_RcrockSpawn, HERO_RcrockUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L03.kind0x002f.damage.n0x5",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "FOREST kind 0x002f (Basic)",
+   "scenario": "L03 FOREST",
+   "representation": "HERO_RequestDamage n = 0x5 -> s32 table 0x55348 index 5",
+   "by_difficulty": {
+    "Beginner": 16,
+    "Medium": 40,
+    "Herculean": 50
+   },
+   "source": "HERO_NessusSpawn, HERO_NessusUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L03.kind0x0030.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "FOREST kind 0x0030 (ARCHERC)",
+   "scenario": "L03 FOREST",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_ArchercSpawn2, HERO_ArchercUpdate2",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L03.kind0x004a.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "FOREST kind 0x004a (RcRock)",
+   "scenario": "L03 FOREST",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_RcrockSpawn2, HERO_RcrockUpdate2",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L04.kind0x0027.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "THEBES kind 0x0027 (THUGS)",
+   "scenario": "L04 THEBES",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_ThugsSpawn2, HERO_ThugsUpdate2",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L04.kind0x0034.damage.n0x1",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "THEBES kind 0x0034 (THEWGUY)",
+   "scenario": "L04 THEBES",
+   "representation": "HERO_RequestDamage n = 0x1 -> s32 table 0x55348 index 1",
+   "by_difficulty": {
+    "Beginner": 8,
+    "Medium": 18,
+    "Herculean": 22
+   },
+   "source": "HERO_ThewguySpawn, HERO_ThewguyUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L04.kind0x0037.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "THEBES kind 0x0037 (MINOTAUR)",
+   "scenario": "L04 THEBES",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_EnemyInitHp, HERO_MinotaurUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L04.kind0x003e.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "THEBES kind 0x003e (SKELETON)",
+   "scenario": "L04 THEBES",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_SkeletonSpawn, HERO_SkeletonUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L04.kind0x003f.damage.n0x2",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "THEBES kind 0x003f (THCHAR)",
+   "scenario": "L04 THEBES",
+   "representation": "HERO_RequestDamage n = 0x2 -> s32 table 0x55348 index 2",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 25,
+    "Herculean": 30
+   },
+   "source": "HERO_ThcharSpawn2, HERO_ThcharUpdate2",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L04.kind0x0040.damage.n0x2",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "THEBES kind 0x0040 (THCHAR)",
+   "scenario": "L04 THEBES",
+   "representation": "HERO_RequestDamage n = 0x2 -> s32 table 0x55348 index 2",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 25,
+    "Herculean": 30
+   },
+   "source": "HERO_ThcharSpawn3, HERO_ThcharUpdate2",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L04.kind0x0047.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "THEBES kind 0x0047 (HARPIES)",
+   "scenario": "L04 THEBES",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "HERO_HarpiesSpawn2, HERO_HarpiesUpdate2",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L04.kind0x0041.damage.n0x3",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "THEBES kind 0x0041 (no bank)",
+   "scenario": "L04 THEBES",
+   "representation": "HERO_RequestDamage n = 0x3 -> s32 table 0x55348 index 3",
+   "by_difficulty": {
+    "Beginner": 12,
+    "Medium": 30,
+    "Herculean": 38
+   },
+   "source": "FUN_100246c0, FUN_10024780",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L05.kind0x0033.damage.n0x0",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "HYDRA kind 0x0033 (no bank)",
+   "scenario": "L05 HYDRA",
+   "representation": "HERO_RequestDamage n = 0x0 -> s32 table 0x55348 index 0",
+   "by_difficulty": {
+    "Beginner": 5,
+    "Medium": 12,
+    "Herculean": 15
+   },
+   "source": "FUN_1001e500, FUN_1001e600",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L06.kind0x0032.damage.n0x1",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "MEDUSA kind 0x0032 (SKELWAR)",
+   "scenario": "L06 MEDUSA",
+   "representation": "HERO_RequestDamage n = 0x1 -> s32 table 0x55348 index 1",
+   "by_difficulty": {
+    "Beginner": 8,
+    "Medium": 18,
+    "Herculean": 22
+   },
+   "source": "HERO_SkelwarSpawn, HERO_SkelwarUpdate",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L06.kind0x0033.damage.n0x2",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "MEDUSA kind 0x0033 (MEDUSA)",
+   "scenario": "L06 MEDUSA",
+   "representation": "HERO_RequestDamage n = 0x2 -> s32 table 0x55348 index 2",
+   "by_difficulty": {
+    "Beginner": 10,
+    "Medium": 25,
+    "Herculean": 30
+   },
+   "source": "HERO_MedusaSpawn6, HERO_MedusaUpdate4",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
+  },
+  {
+   "id": "eng1.L06.kind0x0034.damage.n0x0",
+   "program": "ENG1.DLL",
+   "rva": "0x55348",
+   "entity": "MEDUSA kind 0x0034 (MEDUSA)",
+   "scenario": "L06 MEDUSA",
+   "representation": "HERO_RequestDamage n = 0x0 -> s32 table 0x55348 index 0",
+   "by_difficulty": {
+    "Beginner": 5,
+    "Medium": 12,
+    "Herculean": 15
+   },
+   "source": "HERO_MedusaSpawn4, HERO_MedusaUpdate2",
+   "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"
   },
   {
    "id": "eng3.L02.kind0x0029.damage",

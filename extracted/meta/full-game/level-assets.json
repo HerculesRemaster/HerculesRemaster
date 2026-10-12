@@ -97,8 +97,10 @@
    "id": "48320AC0",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1134,
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -107,6 +109,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -120,14 +123,17 @@
    "id": "489963C4",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 461,
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.traversal",
     "L03.forest-main-route"
    ],
@@ -140,8 +146,10 @@
    "id": "573240CA",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1134,
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -150,6 +158,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -163,8 +172,10 @@
    "id": "5A2B26EE",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1134,
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -173,6 +184,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -185,9 +197,11 @@
    "name": "o:\\training\\map_psx.cif",
    "id": "5ECB98E5",
    "category": "palette_clut",
-   "consumer": "eng1.dll+0x2C3AA",
-   "first_tick": 1134,
+   "consumer": "eng1.dll+0x2C3D5",
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -196,6 +210,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -208,9 +223,11 @@
    "name": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.BIN",
    "id": "5ED398E4",
    "category": "map_layers_tiles",
-   "consumer": "eng1.dll+0x2C3AA",
-   "first_tick": 1134,
+   "consumer": "eng1.dll+0x685F8",
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -219,6 +236,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -232,8 +250,10 @@
    "id": "6D514E52",
    "category": "hud_score",
    "consumer": "eng1.dll+0x2C3AA",
-   "first_tick": 1134,
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -242,6 +262,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -255,13 +276,16 @@
    "id": "9ADDAD0B",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 461,
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.traversal"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -273,13 +297,16 @@
    "id": "A4E0A918",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x55D0",
-   "first_tick": 487,
+   "first_tick": 3542,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.traversal"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -291,8 +318,10 @@
    "id": "A87A5035",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1134,
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -301,6 +330,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -349,8 +379,10 @@
    "id": "E7D3C33C",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1134,
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -359,6 +391,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -372,8 +405,10 @@
    "id": "EE32FC6E",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1134,
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -382,6 +417,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -414,13 +450,16 @@
    "id": "EEC3F16B",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x55D0",
-   "first_tick": 474,
+   "first_tick": 3529,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052101-replay-medium",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052845-new_game-medium"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.traversal"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -431,9 +470,11 @@
    "name": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERH\\ANIMPSX.BIN",
    "id": "EEC3F16E",
    "category": "sprite_bank",
-   "consumer": "eng1.dll+0x55D0",
-   "first_tick": 1264,
+   "consumer": "eng1.dll+0x2C300",
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -442,6 +483,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -506,8 +548,10 @@
    "id": "F6551D6D",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1134,
+   "first_tick": 3516,
    "runs": [
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-095104-cheat_select-medium",
+    "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-052154-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/title-demo-baseline/20261012-053058-attract-config",
     "analysis/traces/full-game/l01-your-basic-did/traversal/20261012-052007-new_game-medium",
@@ -516,6 +560,7 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
+    "L01.full-progression",
     "L01.title-demo-baseline",
     "L01.traversal",
     "L03.forest-main-route"
@@ -549,11 +594,20 @@
    "runs": [
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
     "L02.full-progression",
+    "L02.gauntlet-final",
+    "L02.gauntlet-middle",
+    "L02.gauntlet-opening",
     "L02.hazards",
     "L03.forest-main-route"
    ],
@@ -570,11 +624,20 @@
    "runs": [
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
     "L02.full-progression",
+    "L02.gauntlet-final",
+    "L02.gauntlet-middle",
+    "L02.gauntlet-opening",
     "L02.hazards",
     "L03.forest-main-route"
    ],
@@ -591,11 +654,20 @@
    "runs": [
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
     "L02.full-progression",
+    "L02.gauntlet-final",
+    "L02.gauntlet-middle",
+    "L02.gauntlet-opening",
     "L02.hazards",
     "L03.forest-main-route"
    ],
@@ -612,11 +684,20 @@
    "runs": [
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
     "L02.full-progression",
+    "L02.gauntlet-final",
+    "L02.gauntlet-middle",
+    "L02.gauntlet-opening",
     "L02.hazards",
     "L03.forest-main-route"
    ],
@@ -633,11 +714,20 @@
    "runs": [
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
     "L02.full-progression",
+    "L02.gauntlet-final",
+    "L02.gauntlet-middle",
+    "L02.gauntlet-opening",
     "L02.hazards",
     "L03.forest-main-route"
    ],
@@ -654,11 +744,20 @@
    "runs": [
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
     "L02.full-progression",
+    "L02.gauntlet-final",
+    "L02.gauntlet-middle",
+    "L02.gauntlet-opening",
     "L02.hazards",
     "L03.forest-main-route"
    ],
@@ -675,11 +774,20 @@
    "runs": [
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config",
     "analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-092957-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-final/20261012-094457-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+    "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-opening/20261012-081042-cheat_select-medium",
     "analysis/traces/full-game/l02-heros-gauntlet/hazards/20261012-075659-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config"
    ],
    "scenarios": [
     "L02.full-progression",
+    "L02.gauntlet-final",
+    "L02.gauntlet-middle",
+    "L02.gauntlet-opening",
     "L02.hazards",
     "L03.forest-main-route"
    ],
@@ -1112,10 +1220,13 @@
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
-    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
    ],
    "scenarios": [
-    "L03.forest-main-route"
+    "L03.forest-main-route",
+    "L03.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -1130,10 +1241,13 @@
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
-    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
    ],
    "scenarios": [
-    "L03.forest-main-route"
+    "L03.forest-main-route",
+    "L03.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -1148,10 +1262,13 @@
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
-    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
    ],
    "scenarios": [
-    "L03.forest-main-route"
+    "L03.forest-main-route",
+    "L03.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -1167,10 +1284,13 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L03.full-progression",
     "L03.nessus-approach"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1187,10 +1307,13 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L03.full-progression",
     "L03.nessus-approach"
    ],
    "decoder": "tools/level/level_decode.py"
@@ -1207,10 +1330,13 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L03.full-progression",
     "L03.nessus-approach"
    ],
    "decoder": "tools/level/level_decode.py"
@@ -1226,10 +1352,13 @@
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
-    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
    ],
    "scenarios": [
-    "L03.forest-main-route"
+    "L03.forest-main-route",
+    "L03.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -1261,10 +1390,13 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L03.full-progression",
     "L03.nessus-approach"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1281,10 +1413,13 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L03.full-progression",
     "L03.nessus-approach"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1301,10 +1436,13 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L03.full-progression",
     "L03.nessus-approach"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1321,10 +1459,13 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L03.full-progression",
     "L03.nessus-approach"
    ],
    "decoder": "tools/decode/ifam.py / raw VRAM sheet"
@@ -1453,10 +1594,13 @@
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium",
     "analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L03.full-progression",
     "L03.nessus-approach"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1487,10 +1631,13 @@
    "first_tick": 1567,
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium",
-    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium"
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-071308-password-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-095347-cheat_select-medium",
+    "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium"
    ],
    "scenarios": [
-    "L03.forest-main-route"
+    "L03.forest-main-route",
+    "L03.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -1648,10 +1795,13 @@
    "first_tick": 16806,
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1682,10 +1832,13 @@
    "first_tick": 16806,
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1700,10 +1853,13 @@
    "first_tick": 16806,
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/level/level_decode.py"
@@ -1718,10 +1874,13 @@
    "first_tick": 16806,
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/level/level_decode.py"
@@ -1736,10 +1895,13 @@
    "first_tick": 16806,
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1754,10 +1916,13 @@
    "first_tick": 16806,
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1772,10 +1937,13 @@
    "first_tick": 16806,
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/decode/ifam.py / raw VRAM sheet"
@@ -1806,10 +1974,13 @@
    "first_tick": 16806,
    "runs": [
     "analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
     "L03.forest-main-route",
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1821,11 +1992,14 @@
    "id": "E9DA0C73",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1663,
+   "first_tick": 3695,
    "runs": [
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1901,11 +2075,14 @@
    "id": "F3C89D7C",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1663,
+   "first_tick": 3695,
    "runs": [
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1917,11 +2094,14 @@
    "id": "F73D0555",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1663,
+   "first_tick": 3695,
    "runs": [
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1949,11 +2129,14 @@
    "id": "FED19D6C",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1663,
+   "first_tick": 3695,
    "runs": [
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-095628-cheat_select-medium",
+    "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium",
     "analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium"
    ],
    "scenarios": [
+    "L04.full-progression",
     "L04.streets"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -1968,10 +2151,12 @@
    "first_tick": 461,
    "runs": [
     "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
-    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
    ],
    "scenarios": [
-    "L05.canyon-entry"
+    "L05.canyon-entry",
+    "L05.full-progression"
    ],
    "decoder": "tools/level/level_decode.py"
   },
@@ -1985,10 +2170,12 @@
    "first_tick": 461,
    "runs": [
     "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
-    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
    ],
    "scenarios": [
-    "L05.canyon-entry"
+    "L05.canyon-entry",
+    "L05.full-progression"
    ],
    "decoder": "tools/level/level_decode.py"
   },
@@ -2002,10 +2189,12 @@
    "first_tick": 461,
    "runs": [
     "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
-    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
    ],
    "scenarios": [
-    "L05.canyon-entry"
+    "L05.canyon-entry",
+    "L05.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -2019,10 +2208,12 @@
    "first_tick": 461,
    "runs": [
     "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
-    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
    ],
    "scenarios": [
-    "L05.canyon-entry"
+    "L05.canyon-entry",
+    "L05.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -2036,10 +2227,12 @@
    "first_tick": 461,
    "runs": [
     "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
-    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
    ],
    "scenarios": [
-    "L05.canyon-entry"
+    "L05.canyon-entry",
+    "L05.full-progression"
    ],
    "decoder": "tools/decode/ifam.py / raw VRAM sheet"
   },
@@ -2053,10 +2246,12 @@
    "first_tick": 461,
    "runs": [
     "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
-    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
    ],
    "scenarios": [
-    "L05.canyon-entry"
+    "L05.canyon-entry",
+    "L05.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -2070,10 +2265,12 @@
    "first_tick": 461,
    "runs": [
     "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
-    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium"
+    "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium",
+    "analysis/traces/full-game/l05-hydra-canyon/full-progression/20261012-095909-cheat_select-medium"
    ],
    "scenarios": [
-    "L05.canyon-entry"
+    "L05.canyon-entry",
+    "L05.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -2084,11 +2281,14 @@
    "id": "48320AC0",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1391,
+   "first_tick": 3816,
    "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium",
     "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
    ],
    "scenarios": [
+    "L06.full-progression",
     "L06.lair-traversal"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2100,11 +2300,14 @@
    "id": "508159E4",
    "category": "map_layers_tiles",
    "consumer": "eng1.dll+0x203B3",
-   "first_tick": 1391,
+   "first_tick": 3816,
    "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium",
     "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
    ],
    "scenarios": [
+    "L06.full-progression",
     "L06.lair-traversal"
    ],
    "decoder": "tools/level/level_decode.py"
@@ -2116,11 +2319,14 @@
    "id": "508259DC",
    "category": "palette_clut",
    "consumer": "eng1.dll+0x2C3D5",
-   "first_tick": 1391,
+   "first_tick": 3816,
    "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium",
     "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
    ],
    "scenarios": [
+    "L06.full-progression",
     "L06.lair-traversal"
    ],
    "decoder": "tools/level/level_decode.py"
@@ -2132,11 +2338,14 @@
    "id": "573240CA",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1391,
+   "first_tick": 3816,
    "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium",
     "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
    ],
    "scenarios": [
+    "L06.full-progression",
     "L06.lair-traversal"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2148,11 +2357,14 @@
    "id": "5A2B26EE",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1391,
+   "first_tick": 3816,
    "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium",
     "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
    ],
    "scenarios": [
+    "L06.full-progression",
     "L06.lair-traversal"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2164,11 +2376,14 @@
    "id": "633E3985",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1391,
+   "first_tick": 3816,
    "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium",
     "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
    ],
    "scenarios": [
+    "L06.full-progression",
     "L06.lair-traversal"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2180,11 +2395,14 @@
    "id": "6D514E52",
    "category": "hud_score",
    "consumer": "eng1.dll+0x2C3AA",
-   "first_tick": 1391,
+   "first_tick": 3816,
    "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium",
     "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
    ],
    "scenarios": [
+    "L06.full-progression",
     "L06.lair-traversal"
    ],
    "decoder": "tools/decode/ifam.py / raw VRAM sheet"
@@ -2196,11 +2414,14 @@
    "id": "E7D3C33C",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1391,
+   "first_tick": 3816,
    "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium",
     "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
    ],
    "scenarios": [
+    "L06.full-progression",
     "L06.lair-traversal"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2212,11 +2433,14 @@
    "id": "F83D4689",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1391,
+   "first_tick": 3816,
    "runs": [
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-100150-cheat_select-medium",
+    "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium",
     "analysis/traces/full-game/l06-medusas-lair/lair-traversal/20261012-071743-password-medium"
    ],
    "scenarios": [
+    "L06.full-progression",
     "L06.lair-traversal"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2230,11 +2454,22 @@
    "consumer": "eng3.dll+0x1FA3A",
    "first_tick": 3876,
    "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
    ],
    "scenarios": [
+    "L07.chase-middle",
+    "L07.chase-opening",
     "L07.death-retry",
     "L07.full-progression",
     "L07.obstacles"
@@ -2250,11 +2485,22 @@
    "consumer": "eng3.dll+0x38398",
    "first_tick": 3876,
    "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
    ],
    "scenarios": [
+    "L07.chase-middle",
+    "L07.chase-opening",
     "L07.death-retry",
     "L07.full-progression",
     "L07.obstacles"
@@ -2270,11 +2516,22 @@
    "consumer": "eng3.dll+0x1FA3A",
    "first_tick": 3876,
    "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
    ],
    "scenarios": [
+    "L07.chase-middle",
+    "L07.chase-opening",
     "L07.death-retry",
     "L07.full-progression",
     "L07.obstacles"
@@ -2290,11 +2547,22 @@
    "consumer": "eng3.dll+0x1D38B",
    "first_tick": 3876,
    "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
    ],
    "scenarios": [
+    "L07.chase-middle",
+    "L07.chase-opening",
     "L07.death-retry",
     "L07.full-progression",
     "L07.obstacles"
@@ -2310,11 +2578,22 @@
    "consumer": "eng3.dll+0x1FA3A",
    "first_tick": 3876,
    "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
    ],
    "scenarios": [
+    "L07.chase-middle",
+    "L07.chase-opening",
     "L07.death-retry",
     "L07.full-progression",
     "L07.obstacles"
@@ -2330,11 +2609,22 @@
    "consumer": "eng3.dll+0x1FA3A",
    "first_tick": 3876,
    "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
    ],
    "scenarios": [
+    "L07.chase-middle",
+    "L07.chase-opening",
     "L07.death-retry",
     "L07.full-progression",
     "L07.obstacles"
@@ -2350,11 +2640,22 @@
    "consumer": "eng3.dll+0x1FA3A",
    "first_tick": 3876,
    "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
    ],
    "scenarios": [
+    "L07.chase-middle",
+    "L07.chase-opening",
     "L07.death-retry",
     "L07.full-progression",
     "L07.obstacles"
@@ -2370,11 +2671,22 @@
    "consumer": "eng3.dll+0x1FA3A",
    "first_tick": 3876,
    "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
    ],
    "scenarios": [
+    "L07.chase-middle",
+    "L07.chase-opening",
     "L07.death-retry",
     "L07.full-progression",
     "L07.obstacles"
@@ -2390,11 +2702,22 @@
    "consumer": "eng3.dll+0x1FA3A",
    "first_tick": 3876,
    "runs": [
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-085332-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-093241-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-middle/20261012-094740-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-081336-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-090555-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091001-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091339-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-091642-cheat_select-medium",
+    "analysis/traces/full-game/l07-cyclops-attack/chase-opening/20261012-092038-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/death-retry/20261012-073756-cheat_select-medium",
     "analysis/traces/full-game/l07-cyclops-attack/full-progression/20261012-070546-password-config",
     "analysis/traces/full-game/l07-cyclops-attack/obstacles/20261012-080038-cheat_select-medium"
    ],
    "scenarios": [
+    "L07.chase-middle",
+    "L07.chase-opening",
     "L07.death-retry",
     "L07.full-progression",
     "L07.obstacles"
@@ -2410,10 +2733,13 @@
    "consumer": "eng1.dll+0x2C300",
    "first_tick": 2009,
    "runs": [
-    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
    ],
    "scenarios": [
-    "L08.flight-opening"
+    "L08.flight-opening",
+    "L08.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -2426,10 +2752,13 @@
    "consumer": "eng1.dll+0x2C300",
    "first_tick": 2009,
    "runs": [
-    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
    ],
    "scenarios": [
-    "L08.flight-opening"
+    "L08.flight-opening",
+    "L08.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -2442,10 +2771,13 @@
    "consumer": "eng1.dll+0x203B3",
    "first_tick": 2009,
    "runs": [
-    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
    ],
    "scenarios": [
-    "L08.flight-opening"
+    "L08.flight-opening",
+    "L08.full-progression"
    ],
    "decoder": "tools/level/level_decode.py"
   },
@@ -2458,10 +2790,13 @@
    "consumer": "eng1.dll+0x2C46B",
    "first_tick": 2009,
    "runs": [
-    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
    ],
    "scenarios": [
-    "L08.flight-opening"
+    "L08.flight-opening",
+    "L08.full-progression"
    ],
    "decoder": "tools/level/level_decode.py"
   },
@@ -2474,10 +2809,13 @@
    "consumer": "eng1.dll+0x2C300",
    "first_tick": 2009,
    "runs": [
-    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
    ],
    "scenarios": [
-    "L08.flight-opening"
+    "L08.flight-opening",
+    "L08.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -2490,10 +2828,13 @@
    "consumer": "eng1.dll+0x2C300",
    "first_tick": 2009,
    "runs": [
-    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
    ],
    "scenarios": [
-    "L08.flight-opening"
+    "L08.flight-opening",
+    "L08.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -2506,10 +2847,13 @@
    "consumer": "eng1.dll+0x2C3AA",
    "first_tick": 2009,
    "runs": [
-    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
    ],
    "scenarios": [
-    "L08.flight-opening"
+    "L08.flight-opening",
+    "L08.full-progression"
    ],
    "decoder": "tools/decode/ifam.py / raw VRAM sheet"
   },
@@ -2522,10 +2866,13 @@
    "consumer": "eng1.dll+0x2C300",
    "first_tick": 2009,
    "runs": [
-    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
    ],
    "scenarios": [
-    "L08.flight-opening"
+    "L08.flight-opening",
+    "L08.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -2538,10 +2885,13 @@
    "consumer": "eng1.dll+0x2C300",
    "first_tick": 2009,
    "runs": [
-    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium"
+    "analysis/traces/full-game/l08-titan-flight/flight-opening/20261012-071914-password-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-100432-cheat_select-medium",
+    "analysis/traces/full-game/l08-titan-flight/full-progression/20261012-140311-cheat_select-medium"
    ],
    "scenarios": [
-    "L08.flight-opening"
+    "L08.flight-opening",
+    "L08.full-progression"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
   },
@@ -2556,12 +2906,20 @@
    "runs": [
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
    ],
    "scenarios": [
     "L09.chariot-stalactites",
     "L09.full-progression",
+    "L09.passage-opening",
+    "L09.passage-sections",
     "L09.river-falls"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2577,12 +2935,20 @@
    "runs": [
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
    ],
    "scenarios": [
     "L09.chariot-stalactites",
     "L09.full-progression",
+    "L09.passage-opening",
+    "L09.passage-sections",
     "L09.river-falls"
    ],
    "decoder": "tools/level/eng3_decode.py"
@@ -2598,12 +2964,20 @@
    "runs": [
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
    ],
    "scenarios": [
     "L09.chariot-stalactites",
     "L09.full-progression",
+    "L09.passage-opening",
+    "L09.passage-sections",
     "L09.river-falls"
    ],
    "decoder": "tools/level/eng3_decode.py"
@@ -2619,12 +2993,20 @@
    "runs": [
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
    ],
    "scenarios": [
     "L09.chariot-stalactites",
     "L09.full-progression",
+    "L09.passage-opening",
+    "L09.passage-sections",
     "L09.river-falls"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2640,12 +3022,20 @@
    "runs": [
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
    ],
    "scenarios": [
     "L09.chariot-stalactites",
     "L09.full-progression",
+    "L09.passage-opening",
+    "L09.passage-sections",
     "L09.river-falls"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2661,12 +3051,20 @@
    "runs": [
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
    ],
    "scenarios": [
     "L09.chariot-stalactites",
     "L09.full-progression",
+    "L09.passage-opening",
+    "L09.passage-sections",
     "L09.river-falls"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2682,12 +3080,20 @@
    "runs": [
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
    ],
    "scenarios": [
     "L09.chariot-stalactites",
     "L09.full-progression",
+    "L09.passage-opening",
+    "L09.passage-sections",
     "L09.river-falls"
    ],
    "decoder": "tools/decode/ifam.py / raw VRAM sheet"
@@ -2703,12 +3109,20 @@
    "runs": [
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/chariot-stalactites/20261012-080342-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/full-progression/20261012-070726-password-config",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-opening/20261012-081627-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+    "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072240-password-config",
     "analysis/traces/full-game/l09-passageways-of-eternal-torment/river-falls/20261012-072443-password-config"
    ],
    "scenarios": [
     "L09.chariot-stalactites",
     "L09.full-progression",
+    "L09.passage-opening",
+    "L09.passage-sections",
     "L09.river-falls"
    ],
    "decoder": "tools/decode/ifam.py / raw VRAM sheet"
@@ -2720,11 +3134,14 @@
    "id": "4B806805",
    "category": "map_layers_tiles",
    "consumer": "eng1.dll+0x203B3",
-   "first_tick": 1874,
+   "first_tick": 4055,
    "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium",
     "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
    ],
    "scenarios": [
+    "L10.full-progression",
     "L10.vortex-entry"
    ],
    "decoder": "tools/level/level_decode.py"
@@ -2736,11 +3153,14 @@
    "id": "4B8167FD",
    "category": "palette_clut",
    "consumer": "eng1.dll+0x2C3D5",
-   "first_tick": 1874,
+   "first_tick": 4055,
    "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium",
     "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
    ],
    "scenarios": [
+    "L10.full-progression",
     "L10.vortex-entry"
    ],
    "decoder": "tools/level/level_decode.py"
@@ -2752,11 +3172,14 @@
    "id": "573240CA",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1874,
+   "first_tick": 4055,
    "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium",
     "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
    ],
    "scenarios": [
+    "L10.full-progression",
     "L10.vortex-entry"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2768,11 +3191,14 @@
    "id": "5A2B26EE",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1874,
+   "first_tick": 4055,
    "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium",
     "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
    ],
    "scenarios": [
+    "L10.full-progression",
     "L10.vortex-entry"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2784,11 +3210,14 @@
    "id": "6D514E52",
    "category": "hud_score",
    "consumer": "eng1.dll+0x2C3AA",
-   "first_tick": 1874,
+   "first_tick": 4055,
    "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium",
     "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
    ],
    "scenarios": [
+    "L10.full-progression",
     "L10.vortex-entry"
    ],
    "decoder": "tools/decode/ifam.py / raw VRAM sheet"
@@ -2800,11 +3229,14 @@
    "id": "E7D3C33C",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1874,
+   "first_tick": 4055,
    "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium",
     "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
    ],
    "scenarios": [
+    "L10.full-progression",
     "L10.vortex-entry"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"
@@ -2816,11 +3248,14 @@
    "id": "F3E0468F",
    "category": "sprite_bank",
    "consumer": "eng1.dll+0x2C300",
-   "first_tick": 1874,
+   "first_tick": 4055,
    "runs": [
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-100713-cheat_select-medium",
+    "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium",
     "analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium"
    ],
    "scenarios": [
+    "L10.full-progression",
     "L10.vortex-entry"
    ],
    "decoder": "tools/decode/ifam.py (extracted/sprites/)"

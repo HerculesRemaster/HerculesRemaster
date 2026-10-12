@@ -244,11 +244,11 @@
    "hits": [
     {
      "strength": 0,
-     "index": 7,
+     "index": 0,
      "damage_beginner_medium_herculean": [
-      22,
-      50,
-      60
+      5,
+      12,
+      15
      ]
     }
    ],

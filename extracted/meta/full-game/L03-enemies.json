@@ -17,11 +17,11 @@
    "hits": [
     {
      "strength": 34,
-     "index": 1,
+     "index": 2,
      "damage_beginner_medium_herculean": [
-      8,
-      18,
-      22
+      10,
+      25,
+      30
      ]
     }
    ],
@@ -100,11 +100,11 @@
    "hits": [
     {
      "strength": 3,
-     "index": 2,
+     "index": 3,
      "damage_beginner_medium_herculean": [
-      10,
-      25,
-      30
+      12,
+      30,
+      38
      ]
     }
    ],
@@ -164,20 +164,20 @@
    "hits": [
     {
      "strength": 4,
-     "index": 3,
+     "index": 4,
      "damage_beginner_medium_herculean": [
-      12,
-      30,
-      38
+      15,
+      35,
+      45
      ]
     },
     {
      "strength": 34,
-     "index": 1,
+     "index": 2,
      "damage_beginner_medium_herculean": [
-      8,
-      18,
-      22
+      10,
+      25,
+      30
      ]
     }
    ],
@@ -525,11 +525,11 @@
    "hits": [
     {
      "strength": 10,
-     "index": 1,
+     "index": 2,
      "damage_beginner_medium_herculean": [
-      8,
-      18,
-      22
+      10,
+      25,
+      30
      ]
     }
    ],
@@ -566,11 +566,11 @@
    "hits": [
     {
      "strength": 3,
-     "index": 2,
+     "index": 3,
      "damage_beginner_medium_herculean": [
-      10,
-      25,
-      30
+      12,
+      30,
+      38
      ]
     }
    ],
@@ -620,11 +620,11 @@
    "hits": [
     {
      "strength": 5,
-     "index": 4,
+     "index": 5,
      "damage_beginner_medium_herculean": [
-      15,
-      35,
-      45
+      16,
+      40,
+      50
      ]
     }
    ],
@@ -669,11 +669,11 @@
    "hits": [
     {
      "strength": 3,
-     "index": 2,
+     "index": 3,
      "damage_beginner_medium_herculean": [
-      10,
-      25,
-      30
+      12,
+      30,
+      38
      ]
     }
    ],
@@ -733,11 +733,11 @@
    "hits": [
     {
      "strength": 3,
-     "index": 2,
+     "index": 3,
      "damage_beginner_medium_herculean": [
-      10,
-      25,
-      30
+      12,
+      30,
+      38
      ]
     }
    ],
