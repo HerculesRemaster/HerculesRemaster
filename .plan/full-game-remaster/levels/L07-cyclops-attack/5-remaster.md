@@ -13,7 +13,7 @@ Outputs: `extracted/meta/full-game/art-inventory/CYCLOPS.json`, `remastered/CYCL
 
 - [x] `L07.RM.01` (P8) Run every L07 scenario in GPU mode (`renderer = gpu`, `dev = on`). Run `tools/runtime/gpu_diff.py` against the software frames. Any mismatch means a renderer gap: list it with the primitive type and tick, and fix it in `gpu_renderer.cpp` before making art. Pay attention to the Cyclops draws, the end sequence and any primitive not seen in L02.
 - [x] `L07.RM.02` (S7.01) Build the CYCLOPS art inventory: override keys per scene, linked to the source map data, banks and frames, every lane and the end sequence included.
-- [ ] `L07.RM.03` (S7.03) Generate, check and approve the CYCLOPS art through `tools/hires/jobs.py` and `checks.py`, then pack it into `remastered/CYCLOPS/`.
+- [x] `L07.RM.03` (S7.03) Generate, check and approve the CYCLOPS art through `tools/hires/jobs.py` and `checks.py`, then pack it into `remastered/CYCLOPS/`.
 - [x] `L07.RM.04` (S7.04) Measure performance in the busiest scene (dense traffic with the Cyclops on screen, as found in `L07.TR.05`) against Q-05.
 - [ ] `L07.RM.05` **[HUMAN]** The user plays L07 from entry to the L08 load beside the original and lists any differences. Fix them, then update the content-matrix row.
 
@@ -39,3 +39,7 @@ Outputs: `extracted/meta/full-game/art-inventory/CYCLOPS.json`, `remastered/CYCL
   - Scenes not reached without play (later sections, the other branches) are compared when the played runs exist.
 - `L07.RM.04` (2026-10-12): CYCLOPS at 9× (3840×2160 targets), in-level frames. p95 8.54 ms (p50 6.42), against the Q-05 budget of 16.67 ms. Over budget: 5 of 942 frames. Before the semi-copy fix in `gpu_renderer.cpp` it was p95 17.54 ms. Numbers and method: `docs/gpu-renderer.md` "Performance at 9×".
   - The busiest scenes measured are those reached in a 160 s cheat_select run. Densest-section confirmation follows the played traversal (TR.03).
+- `L07.RM.03` (2026-10-12, done; P7 approved, route = index-preserving xBRZ at 9×):
+  - **Map:** added to the manifest with `tools/hires/contract_eng3.py` (the cell-mesh rects plus the runtime-seen map rects, entry `level/CYCLOPS`). Generated with `jobs.py run` (xbrz adapter); seams warning 1 of 3380 tiling edge pairs. Reviewed as a sheet (`remastered/review/level_CYCLOPS.png`) and in game with the preview art (`analysis/runtime/levels/eng3_art/CYCLOPS` + `CYCLOPS_cmp.png`: replacement drawn on 93–100 % of the drawn blocks, no visible seams or colour shifts). Approved and packed (`jobs.py pack`, all 10,571 entries packed).
+  - **Coverage:** 7271 of 7339 (99 %) of the level's inventory keys now have a packed file (`docs/release/content-matrix.md`).
+  - **Gap:** scaled or rotated quads are keyed per draw and not covered (e.g. the CYCLOPS Cyclops sprite stays original), the same open point as P7's catalog coverage.

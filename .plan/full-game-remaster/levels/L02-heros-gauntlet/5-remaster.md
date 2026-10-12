@@ -13,7 +13,7 @@ Outputs: `extracted/meta/full-game/art-inventory/GAUNTLET.json`, `remastered/GAU
 
 - [x] `L02.RM.01` (P8) Run every L02 scenario in GPU mode (`renderer = gpu`, `dev = on`). Run `tools/runtime/gpu_diff.py` against the software frames. Any mismatch means a renderer gap: list it with the primitive type and tick, and fix it in `gpu_renderer.cpp` before making art. This is the first full ENG3 level through the renderer; `gpu_10500` only shows one attract frame. Pay attention to ENG3-specific primitives found in `S7.02`.
 - [x] `L02.RM.02` (S7.01) Build the GAUNTLET art inventory: override keys per scene, linked to the source map data, banks and frames, both branches of every crossroad included.
-- [ ] `L02.RM.03` (S7.03) Generate, check and approve the GAUNTLET art through `tools/hires/jobs.py` and `checks.py`, then pack it into `remastered/GAUNTLET/`.
+- [x] `L02.RM.03` (S7.03) Generate, check and approve the GAUNTLET art through `tools/hires/jobs.py` and `checks.py`, then pack it into `remastered/GAUNTLET/`.
 - [x] `L02.RM.04` (S7.04) Measure performance in the busiest scene (the densest hazard section found in `L02.TR.03`) against Q-05.
 - [ ] `L02.RM.05` **[HUMAN]** The user plays L02 from entry to the L03 load beside the original and lists any differences. Fix them, then update the content-matrix row.
 
@@ -39,3 +39,7 @@ Outputs: `extracted/meta/full-game/art-inventory/GAUNTLET.json`, `remastered/GAU
   - Scenes not reached without play (later sections, the other branches) are compared when the played runs exist.
 - `L02.RM.04` (2026-10-12): GAUNTLET at 9× (3840×2160 targets), in-level frames. p95 10.55 ms (p50 7.43), against the Q-05 budget of 16.67 ms. Over budget: 7 of 1240 frames. Before the semi-copy fix in `gpu_renderer.cpp` it was p95 21.60 ms. Numbers and method: `docs/gpu-renderer.md` "Performance at 9×".
   - The busiest scenes measured are those reached in a 160 s cheat_select run. Densest-section confirmation follows the played traversal (TR.03).
+- `L02.RM.03` (2026-10-12, done; P7 approved, route = index-preserving xBRZ at 9×):
+  - **Map:** added to the manifest with `tools/hires/contract_eng3.py` (the cell-mesh rects plus the runtime-seen map rects, entry `level/GAUNTLET`). Generated with `jobs.py run` (xbrz adapter); seams warning 34 of 3070 tiling edge pairs. Reviewed as a sheet (`remastered/review/level_GAUNTLET.png`) and in game with the preview art (`analysis/runtime/levels/eng3_art/GAUNTLET` + `GAUNTLET_cmp.png`: replacement drawn on 93–100 % of the drawn blocks, no visible seams or colour shifts). Approved and packed (`jobs.py pack`, all 10,571 entries packed).
+  - **Coverage:** 8492 of 8559 (99 %) of the level's inventory keys now have a packed file (`docs/release/content-matrix.md`).
+  - **Gap:** scaled or rotated quads are keyed per draw and not covered (e.g. the CYCLOPS Cyclops sprite stays original), the same open point as P7's catalog coverage.

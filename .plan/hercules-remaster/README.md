@@ -25,8 +25,9 @@ Plan version 2026-10-12.1 (lean, adds P2F fullscreen). RE uses the bethington/gh
 | [P4](P4-assets.md) | decode audio, images/palettes, animations | P1, P2 (anim: P3) | done |
 | [P5](P5-levels-gameplay.md) | level format, timing, demo format, hero behaviour | P2, P3, P4 | done |
 | [P6](P6-runtime-slice.md) | choose runtime architecture, build a playable slice with original assets | P4, P5 | done |
-| [P7](P7-hires.md) | 4K asset pipeline + approved pilot | P4, P5, P6 | in progress: waiting on the user's pilot images (`docs/ai-image-guide.md`) |
-| [P8](P8-expand-package.md) | all levels, 4K performance, packaging | P7 | todo |
+| [P7](P7-hires.md) | 4K asset pipeline + approved pilot | P4, P5, P6 | done (hero_run_2 regeneration open) |
+| [P8](P8-expand-package.md) | all levels, 4K performance, packaging | P7 | in progress: [HUMAN] clean-VM install of 0.2.0 |
+| W0–W7 | browser/WebAssembly port: [`W0 scope and decisions`](W0-web-scope.md), technical plan in [`docs/wasm/`](../../docs/wasm/README.md) | P6, P8 | W0 in progress: SDK done; local/LAN, music and saves awaiting confirmation |
 
 P2F (fullscreen on 4K) comes before any other runtime or remaster work: the original must be playable fullscreen on the 3840×2160 monitor first. P1 and the Ghidra part of P0 can run in parallel. P4 audio and images can run in parallel once P1 and P2 are done.
 

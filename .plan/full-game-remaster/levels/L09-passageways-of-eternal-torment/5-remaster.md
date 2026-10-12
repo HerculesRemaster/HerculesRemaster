@@ -13,7 +13,7 @@ Outputs: `extracted/meta/full-game/art-inventory/TORMENT.json`, `remastered/TORM
 
 - [x] `L09.RM.01` (P8) Run every L09 Medium and Herculean scenario in GPU mode (`renderer = gpu`, `dev = on`). Run `tools/runtime/gpu_diff.py` against the software frames. Any mismatch means a renderer gap: list it with the primitive type and tick, and fix it in `gpu_renderer.cpp` before making art. Pay attention to fog and semi-transparent draws (both are active in the ENG3 `gpu_10500` overlay) and any primitive not seen in L02/L07.
 - [x] `L09.RM.02` (S7.01) Build the TORMENT art inventory: override keys per scene, linked to the source map data, banks and frames, every section included.
-- [ ] `L09.RM.03` (S7.03) Generate, check and approve the TORMENT art through `tools/hires/jobs.py` and `checks.py`, then pack it into `remastered/TORMENT/`.
+- [x] `L09.RM.03` (S7.03) Generate, check and approve the TORMENT art through `tools/hires/jobs.py` and `checks.py`, then pack it into `remastered/TORMENT/`.
 - [x] `L09.RM.04` (S7.04) Measure performance in the busiest scene (as found in `L09.TR.03`–`TR.05`) against Q-05.
 - [ ] `L09.RM.05` **[HUMAN]** The user plays L09 from entry to the L10 load beside the original and lists any differences. Fix them, then update the content-matrix row.
 
@@ -39,3 +39,8 @@ Outputs: `extracted/meta/full-game/art-inventory/TORMENT.json`, `remastered/TORM
   - Scenes not reached without play (later sections, the other branches) are compared when the played runs exist.
 - `L09.RM.04` (2026-10-12): TORMENT at 9× (3840×2160 targets), in-level frames. p95 14.37 ms (p50 6.64), against the Q-05 budget of 16.67 ms. Over budget: 24 of 1125 frames. Before the semi-copy fix in `gpu_renderer.cpp` it was p95 24.59 ms. Numbers and method: `docs/gpu-renderer.md` "Performance at 9×".
   - The busiest scenes measured are those reached in a 160 s cheat_select run. Densest-section confirmation follows the played traversal (TR.03).
+- `L09.RM.03` (2026-10-12, done; P7 approved, route = index-preserving xBRZ at 9×):
+  - **Map:** added to the manifest with `tools/hires/contract_eng3.py` (the cell-mesh rects plus the runtime-seen map rects, entry `level/TORMENT`). Generated with `jobs.py run` (xbrz adapter); seams warning 7 of 1662 tiling edge pairs. Reviewed as a sheet (`remastered/review/level_TORMENT.png`) and in game with the preview art (`analysis/runtime/levels/eng3_art/TORMENT` + `TORMENT_cmp.png`: replacement drawn on 93–100 % of the drawn blocks, no visible seams or colour shifts). Approved and packed (`jobs.py pack`, all 10,571 entries packed).
+  - **Coverage:** 6432 of 6512 (98 %) of the level's inventory keys now have a packed file (`docs/release/content-matrix.md`).
+  - **Gap:** scaled or rotated quads are keyed per draw and not covered (e.g. the CYCLOPS Cyclops sprite stays original), the same open point as P7's catalog coverage.
+- RM.04 re-check with the packed art (2026-10-12): TORMENT in-level p95 13.9 ms at 9×, 284 MB of art loaded (`analysis/runtime/perf/eng3_TORMENT_art.csv`), within Q-05.

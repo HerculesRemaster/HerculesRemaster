@@ -71,6 +71,7 @@ There is no disc image and there are no CD-audio tracks. Music isn't included.
 | ImHex | `--pl` CLI |
 | rtk | Output condenser on PATH (WinGet). The global `PreToolUse` hook `rtk hook claude` covers the **Bash tool only**. Rewrites: `git`, `cat`→`rtk read`, `grep`, `ls`, `find`, `curl`. `.venv/Scripts/python.exe …` and `pwsh -File …` pass through unchanged. Dry-run a rewrite with `rtk hook check "<cmd>"`; see savings with `rtk gain`. |
 | others | MSVC 2022 x86 (vcvars32), Python 3.13 + uv, Rust, .NET, ffmpeg, 7z |
+| Emscripten SDK | 6.0.12, `C:\Users\Thanh\emsdk` (outside the game folder); activated permanently for the current Windows user. Bundled Node.js 24.19.0 and Python 3.13.3. C11/C++17 WASM compile and Node execution passed (2026-10-13). Usage: `docs/wasm/toolchain.md` |
 | machine | i9-10900K, RTX 3090, 16 GB, 3840x2160 @ 60 Hz |
 
 Game registry: `HKLM\SOFTWARE\WOW6432Node\Disney Interactive\Hercules\1.00` (already imported).
@@ -101,3 +102,7 @@ Game registry: `HKLM\SOFTWARE\WOW6432Node\Disney Interactive\Hercules\1.00` (alr
 | Q-09 | Does the game start on Win11 without a DirectDraw wrapper? | answered by P2F |
 | Q-10 | Fullscreen route: own proxy `ddraw.dll` or an approved third-party wrapper (cnc-ddraw/dgVoodoo2/DxWnd)? | own proxy; ask only if it stalls (P2F) |
 | Q-11 | Fullscreen look: integer 9× with borders, fit, or stretch to 16:9? | integer 9× + borders, switchable in `hercules_display.ini` |
+| D-W0-2 | May the Emscripten SDK be installed (third-party toolchain, rule 7)? | user 2026-10-13: approved installation for the current projects; pinned SDK 6.0.12 installed outside the game folder at `C:\Users\Thanh\emsdk` -> `docs/wasm/toolchain.md` |
+| D-W0-1 | Are web builds limited to local/LAN use with user-supplied game files? | awaiting confirmation (asked 2026-10-13); plan default is local/LAN; release-scope draft in `docs/authorization-scope.md` |
+| D-W0-3 | Proceed without music, or use the user's own CD track 2 rip? | awaiting answer (asked 2026-10-13); no source music is currently available |
+| D-W0-4 | Persist saves in browser storage, or match Windows behavior? | awaiting answer (asked 2026-10-13); original Windows save behavior remains unverified (I-02) |
