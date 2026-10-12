@@ -15,7 +15,7 @@ Outputs: Ghidra renames/structs (`LVL_`, `HERO_`, `GFX_` prefixes, `save_program
   - health, vulnerable windows, phase changes (only those the code supports), defeat
   - difficulty reads (S6.01)
 - [x] `L06.RE.04` (P5.ALL.08) Skeleton enemies: find who loads `P:\SRC1\ALIEN1\SKELETON` (0x1005d938) and `P:\SRC1\BOSS\SKELWAR` (0x1005d55c), and which level's type table references those handlers. This settles whether SKELWAR belongs to L06. Decompile their states, attacks and defeat (including any revive behavior, if the code has one).
-- [ ] `L06.RE.05` (P5.ALL.02, P5.ALL.04, with S2.01) Lair scripts and drawing: T28 model use in the lair and by Medusa, the one animated texture, the arc camera records, depth routes, props/pickups (including any mirror/shield prop the reflection mechanic needs), and the trigger that starts the Medusa fight.
+- [x] `L06.RE.05` (P5.ALL.02, P5.ALL.04, with S2.01) Lair scripts and drawing: T28 model use in the lair and by Medusa, the one animated texture, the arc camera records, depth routes, props/pickups (including any mirror/shield prop the reflection mechanic needs), and the trigger that starts the Medusa fight.
 - [x] `L06.RE.06` (P5.ALL.11) Recover the defeat → completion trigger and the hand-off to tally and to L07 (ID 8, ENG3) through the shared S6 path, including the module change request (TITLE 0x16300 → EXE 0x4040).
 
 ## Done when
@@ -62,7 +62,7 @@ Outputs: Ghidra renames/structs (`LVL_`, `HERO_`, `GFX_` prefixes, `save_program
   - **`HERO_SkelwarUpdate` 0x23b30:**
     - State 0: rises (sfx 0x51d5). State 1: script steps (sfx 0x51d9 walk, …).
     - It moves toward the hero by 0x40000 per tick on the walk script 0x58f18.
-    - Contact (attack box mode 2 vs hero box, 0x201b0) → `HERO_RequestDamage(skel, 1)` → strength 0 → 5/12/15, sfx 0xd1dd.
+    - Contact (attack box mode 2 vs hero box, 0x201b0) → `HERO_RequestDamage(skel, 1)` → index 1 → 8/18/22 (corrected 2026-10-12), sfx 0xd1dd.
     - A hero punch (0x80) removes what 0x19b40 returns for ~0x72168 & 0x7f, with hit script 0x590d0 and sfx 0xd1de. A thrown object or projectile removes 0x80 (instant). 5 invulnerable ticks after a hit.
   - **Death:** hit points < 1, or Medusa's counter 0x6fe20 ≤ 0 (all skeletons die). sfx 0xd1df; a drop (0x24090 → item | 0x280) unless the boss is beaten (0x72014); alive counter − 1; 1-in-8 chance of a hero voice line 0x27/0x28/0x29 (0x2c4c0).
   - No revive code.
@@ -74,10 +74,10 @@ Outputs: Ghidra renames/structs (`LVL_`, `HERO_`, `GFX_` prefixes, `save_program
 - `L06.RE.03` done (2026-10-12, VERIFIED-STATIC; `encounters.md` § Medusa):
   - **Bank:** BOSS\MEDUSA (77) comes from MEDUSA's level list (`ANIM_LoadLevelBanks`). Kinds 0x2d/0x2e/0x31/0x33/0x34/0x35 draw from it.
   - **Medusa (kind 0x2e)** follows the hero's x. `HERO_MedusaPhase1` runs two attack slots (`HERO_MedusaAttackSlot` 0x22440). They behave like reaching arms (z − 0x20 per tick), not a gaze beam:
-    - Slot state 0 tests the actors in its path. Hero (y > 0x2d0, ±16) → `HERO_RequestDamage(medusa, 3)` (strength 2 = 10/25/30), slot ends. A skeleton warrior is killed.
+    - Slot state 0 tests the actors in its path. Hero (y > 0x2d0, ±16) → `HERO_RequestDamage(medusa, 3)` (index 3 → 12/30/38, corrected 2026-10-12), slot ends. A skeleton warrior is killed.
     - Stone column kind 0x30 (counter 0x6fd14 = 0) → state 1: lifts it (y − 4.0 per tick), breaks it into four falling pieces (0x22fe0 parts 7–10) above y 0x240, drop item 0x289 on even slots, sfx 0xd1c0. The pieces (kind 0x2d, `HERO_MedusaUpdate3` 0x22dd0) fall and bounce on y 0x2d0, raising their counter to 6 when they settle.
     - A settled piece (kind 0x2d, counter 6) within ±32 x → state 2: the slot grabs it and pulls it back (30 ticks), then Medusa's reaction anim 1, sfx 0x1c3/0x1c4 and **0x6fe10 = 1**. This is what the reflection LEAD maps to in code: no mirror or shield object exists.
   - **Health:** at each cycle end (both slots spent) `HERO_MedusaPhaseEnd` 0x220c0 takes one of 8 health units (0x6fe20) and 0x20 of the boss gauge, but only if a grab happened (0x6fe10). At 0 → kind 0x31 `HERO_MedusaDefeatTick` (RE.06).
   - **Collapse:** `HERO_MedusaCollapse` (state 2) drops rocks between cycles.
   - **Difficulty:** only the tables 0x58b08/0x58ce0… chosen in `LVL_InitMedusa`; no other read in these handlers.
-
+- `L06.RE.05` done (2026-10-12, VERIFIED-STATIC): completes the progress note above. The animated texture (T38, rect (160,480) 5×29 units, 5 frames) has period 0, and `LVL_AnimateTextures` 0x2cb0 skips period 0, so it never animates (runtime VRAM: frame 0 = file at ticks 4200/5000, L06.AS.02). Depth routes: the lair is one section with 2 layers, 80 columns × 18 rows and one block, and none of its 2,880 cells carries an attribute (bits 24–30 all 0), so there are no trigger cells or route switches; depth changes come only from the arc camera records (77 of 80). The reflection LEAD is closed in RE.03 (grabbed column pieces, no mirror object). Medusa draws as T28 model 61 (progress note above).

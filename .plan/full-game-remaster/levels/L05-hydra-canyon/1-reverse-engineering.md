@@ -43,14 +43,14 @@ Outputs: Ghidra renames/structs (`LVL_`, `HERO_`, `GFX_` prefixes, `save_program
   - HYDRA-specific actor kinds 0x28–0x35 (type table 0x57f10): `extracted/meta/full-game/L05-types.json` covers only map kinds. Heads use T28 models 11–56 (`models.png`).
 - `L05.RE.03` progress (2026-10-12): `docs/full-game/gameplay/encounters.md` § Hydra (partial).
   - Phases 0–8 of the head split.
-  - Contact damage strength 1 (8/18/22), from a box built from the model's carried vertices.
+  - Contact damage `HERO_RequestDamage(head, 0x22)` = index 2 → 10/25/30 (corrected 2026-10-12, was quoted as 8/18/22), from a box built from the model's carried vertices.
   - Cut rule: attack box 2 near the neck, slot +0x49 ≤ 0x38, attack bits & 0x18.
   - Drops and screams.
   - Names: `HERO_HydraHeadSpawn` 0x1b2a0, `HERO_HydraHeadUpdate` 0x1b7f0, `HERO_HydraHeadAI` 0x1b370, `HERO_HydraCutHead` 0x1d6c0.
   - Open: controllers 0x34/0x35 (attack patterns), the table 0x56048 layout, the win condition.
 - `L05.RE.03` done (2026-10-12): `encounters.md` § Hydra.
   - Structure: 8 slots of neck kind 0x29 + head kind 0x2d (cut head 0x30). Neck states 0/1/2/3/4.
-  - Damage: strike and contact strength 1 (8/18/22).
+  - Damage: strike and contact n = 0x22 → index 2 → 10/25/30 (corrected 2026-10-12).
   - Cut window: +0x49 0x26..0x38, attack box 2 near the neck.
   - Win: 8 cuts (counter 0x6efb8, gauge 32 per cut) → 0x72014 → `LVL_TickHydra` explosions → end flag → 0x31 → tally (also covers the ENG1 side of RE.06).
   - Difficulty only changes the drop stream 0x56048/0x560e0/0x56168.
@@ -76,7 +76,7 @@ Outputs: Ghidra renames/structs (`LVL_`, `HERO_`, `GFX_` prefixes, `save_program
   - **Camera:** set by `LVL_InitHydra` (mode 0x70d10 = 0x1f, 0x70ce0 = 0xa0, 0x70d04 = 0xffa0, 0x70d02 = 0x20). The arena is 96 arc camera records.
   - **Hazards and props (HYDRA type table):**
     - 0x2f tumbling debris (`HERO_HydraDebrisUpdate` 0x1e3f0, bounces at y 0x3d8, sfx 0x188–0x18a);
-    - 0x33 falling boulder (`HERO_HydraBoulderUpdate` 0x1e600). Hitting the hero calls `HERO_RequestDamage(rock, 0)` = strength 7 → 22/50/60 (the heaviest table entry); otherwise it lands at y 0x3d8.
+    - 0x33 falling boulder (`HERO_HydraBoulderUpdate` 0x1e600). Hitting the hero calls `HERO_RequestDamage(rock, 0)` = index 0 → 5/12/15, the lightest entry, and no recoil (stored hit 1 < 2 sets the light-hit flag; corrected 2026-10-12, was quoted as 22/50/60); otherwise it lands at y 0x3d8.
     - 0x2a pillar variant (model 9/10, flags 0x12000000, update empty).
     - 0x2c arena stage controller (`HERO_HydraStageTick` 0x1ed30: stages 0x6f4bc 0..5, table 0x589f8, sfx 0x192).
     - 0x2b state-table dispatcher (0x1c200 → table 0x562d0).

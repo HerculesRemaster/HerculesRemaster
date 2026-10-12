@@ -50,7 +50,7 @@ Outputs:
     - FOREST: NESSUS\Basic, Water, Griffon, …; THEBES: Thebians, Minotaur, Harpies; TRAINING: PHIL, TRAINING, TOPS, STYBIRD.
   - The other banks (hero extras, letters, Nessus moves, Titans, gods) are loaded by actor code: LEAD until a runtime load confirms them. ENG3 levels are LEAD (S3).
 - `S4.04` (2026-10-12): `docs/full-game/gameplay/encounters.md`: template (bank, spawn/type entry, states, telegraphs, attack and vulnerable windows, damage, phases, defeat, difficulty guards, effects, evidence per row) and a per-level index.
-  - Worked example: TRAINING bird kind 0x38. Every state of `HERO_BirdUpdate` 0x43440; contact damage `HERO_RequestDamage(bird, 0x11)` = 5/12/15 by difficulty; one-hit defeat `HERO_BirdDefeat` 0x43e20; no difficulty reads.
+  - Worked example: TRAINING bird kind 0x38. Every state of `HERO_BirdUpdate` 0x43440; contact damage `HERO_RequestDamage(bird, 0x11)` = index 1 → 8/18/22 by difficulty (corrected 2026-10-12: index = ((n+1) & ~0x10) − 1); one-hit defeat `HERO_BirdDefeat` 0x43e20; no difficulty reads.
   - New names: `HERO_BirdChooseAction` 0x43b50, `HERO_BirdSteer` 0x43d80, `HERO_FindHitSource` 0x26de0.
   - Open: anim-script sound opcodes, drop table 0x43ff0, telegraph frames.
 - `S4.02` (2026-10-12): no direct consumer exists in this build for 503 and 601 (`i1.4`), 631–638 (`i1.3`) or 409 (`i1.9`). No module string hashes to their ids, neither bank table lists them, and no trace opens them. They stay `UnsupportedVariant` ("unreferenced by this build"; `docs/formats/i-family.md`); re-check against S6.08.

@@ -54,7 +54,7 @@ Outputs: Ghidra renames/structs (`LVL_`, `HERO_` prefixes, `save_program`); `ext
     - The move banks Punch (69), Kick (70), Look (71), … are requested and freed by the Nessus code itself (`ANIM_RequestBank` 0x3520 / `ANIM_FreeBank` 0x3870, ids 0x45..), so they are a mid-level bank switch, not a level change.
   - `HERO_NessusUpdate` reads difficulty (gs+0xe) in its hit counter (RE.04).
 - `L03.RE.04` (2026-10-12, VERIFIED-STATIC): `docs/full-game/gameplay/encounters.md` § Nessus.
-  - Punch/kick cycles: count = rnd(3) + 1 + difficulty; contact damage strength 4 = 15/35/45.
+  - Punch/kick cycles: count = rnd(3) + 1 + difficulty; contact damage `HERO_RequestDamage(nessus, 5)` = index 5 → 16/40/50 (corrected 2026-10-12; the earlier 15/35/45 used index n − 1).
   - Back-off opens a ride window (0x72120 = 1 → 2 when the airborne hero lands in his box, FOREST-only check in 0x17400).
   - Riding drains the boss gauge 0x70832 by 1 every other tick. Then he throws the hero off (`HERO_NessusThrowOff` 0xbb90).
   - At gauge 0 he is dazed and only a charged Power Punch (0x72012 & 2, charge ≥ 101) finishes him.
@@ -80,7 +80,7 @@ Outputs: Ghidra renames/structs (`LVL_`, `HERO_` prefixes, `save_program`); `ext
     - 0x4c ×6 (`LVL_BarrierUpdate` 0xa010): hit points +0xee; each hero punch accepted by the attack bits (~0x72168 & 0x5f) removes 1; a charged Power Punch (bit 2 with charge 0x7082c > 200) or a projectile breaks it at once. Break: sfx 0xcf, debris `FUN_10009db0`, flag 0x6ef90.
     - 0x4e ×4 (`LVL_LayerBarrierUpdate` 0xa490): the same, but only on the hero's depth layer, and its hit points reset to 50 whenever the hero is more than 160 units away (so it must be broken in one approach).
   - **Cracks:** 0x4f ×2 (`LVL_CrackUpdate` 0xfa00). When the hero stands on it (rider list +0xe8) within 64 units and presses the 0x20 attack bit (ground slam), dust 0x2027; states 1/2 swap the collision box tables 0x52050/0x520a8.
-  - **Nessus arena:** 0x09 at x 18456 (`LVL_NessusArenaTick` 0x14e10). When the hero passes it, it arms the Nessus spawn (0x6ef14 = 1), focuses the camera (0x734f4) and locks the left camera limit (0x70ce8). While a Nessus splash is pending (0x72178) it hurts the hero with `HERO_RequestDamage(Nessus, 0x22)` (strength 1), except in the hero's protected states.
+  - **Nessus arena:** 0x09 at x 18456 (`LVL_NessusArenaTick` 0x14e10). When the hero passes it, it arms the Nessus spawn (0x6ef14 = 1), focuses the camera (0x734f4) and locks the left camera limit (0x70ce8). While a Nessus splash is pending (0x72178) it hurts the hero with `HERO_RequestDamage(Nessus, 0x22)` (index 2 → 10/25/30, corrected 2026-10-12), except in the hero's protected states.
   - **After Nessus:** Meg 0x55 at x 19110 (`HERO_MegSpawn`, bank 76) and the decor kind 0x54.
   - **Climbable trees / background paths:** no FOREST-specific object. Depth changes are generic hero code (layer index (z + 0x40) >> 7, blocked by cell attribute flag 2; `LVL_CellAttribute`). Climbing uses the cell collision profiles (S2).
   - **Streaming:** the class-0x1000 trigger kinds load and free banks along the route (`animation-coverage.json` `eng1_map_triggers`).

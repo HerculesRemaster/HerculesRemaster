@@ -32,4 +32,4 @@ Outputs: `analysis/traces/full-game/l10-vortex-of-souls/<scenario>/<run-id>/`, `
   - Audio: AUD_LoadLevelSonix(268874088, 268567475) at 1874, AUD_StartMusic(0, 0) at 1874.
   - Idle deaths: health 0 at 2137 (lives → 3); health 0 at 2585 (lives → 2).
   - The canonical linked-progression entry is S6.08 (gamehercules-40).
-
+- `L10.TR.07` progress (2026-10-12): the ending passwords do not reach the ending. Medium (password 23) and Herculean (35), both result 12: TITLE shows `PSWD\LEV12.TGA`, gs[0] goes 11 → 12 in one tick (`o:\title\loadlev` CIF), then TITLE returns to the main menu (`MENUb.TGA`) and the attract loop. No `PLATE.PIC`, ending TGA, credits or music change. Runs `analysis/traces/full-game/l10-vortex-of-souls/completion-ending/20261012-141410-password-config` and `-141945-password-config`. The ending therefore needs the VORTEX defeat (`FUN_10045780`, encounters.md) in a played run (session 20).
