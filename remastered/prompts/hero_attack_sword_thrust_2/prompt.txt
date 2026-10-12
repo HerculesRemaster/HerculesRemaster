@@ -1,0 +1,11 @@
+Remaster this video-game animation sheet in 4K CGI quality.
+Input: 4 frames of Hercules, a young muscular Greek hero: auburn hair with a headband, red-brown short tunic with a gold belt buckle, blue cape, bronze wrist bracers, brown sandals, holding a bronze-hilted sword when shown, sword thrust attack, from Disney's Hercules (1997 PC game), in a 2x2 grid on flat magenta.
+Redraw every frame as a high-detail 3D-rendered character with realistic skin, cloth and metal materials and soft studio light from the top left, keeping the colours and the hand-animated Disney character design.
+The frames are consecutive animation: the character must look identical in every frame (same face, proportions, costume and colours); only the pose changes, exactly as in the input.
+If a second image (style reference) is attached, match its character design, materials and colours exactly.
+
+Strict rules:
+- Output exactly 1024x1536 pixels with the same 2x2 grid: every cell stays where it is.
+- Keep each subject's exact pose, outline, size and position inside its cell. Do not move, rotate, crop, mirror or rescale anything.
+- Everything outside the subjects stays flat pure magenta #FF00FF: no shadows, floor, glow, sparkles, text, borders or frame numbers.
+- Clean hard edges against the magenta; no magenta tint on the subject.

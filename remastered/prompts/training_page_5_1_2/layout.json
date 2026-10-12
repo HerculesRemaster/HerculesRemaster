@@ -1,0 +1,28 @@
+{
+ "sheet": [
+  1024,
+  1536
+ ],
+ "scale": 5,
+ "cells": [
+  {
+   "entry": "level/TRAINING",
+   "kind": "region",
+   "rect": [
+    1376,
+    256,
+    76,
+    256
+   ],
+   "at": [
+    16,
+    16
+   ],
+   "size": [
+    380,
+    1280
+   ]
+  }
+ ],
+ "family": "level"
+}

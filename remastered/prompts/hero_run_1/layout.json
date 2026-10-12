@@ -1,0 +1,130 @@
+{
+ "sheet": [
+  1536,
+  1024
+ ],
+ "scale": 6,
+ "cells": [
+  {
+   "entry": "sprite/0560/f0002",
+   "kind": "frame",
+   "offset": [
+    12,
+    4
+   ],
+   "canvas": [
+    48,
+    64
+   ],
+   "at": [
+    16,
+    16
+   ],
+   "size": [
+    420,
+    432
+   ]
+  },
+  {
+   "entry": "sprite/0560/f0003",
+   "kind": "frame",
+   "offset": [
+    10,
+    10
+   ],
+   "canvas": [
+    48,
+    56
+   ],
+   "at": [
+    452,
+    16
+   ],
+   "size": [
+    420,
+    432
+   ]
+  },
+  {
+   "entry": "sprite/0560/f0010",
+   "kind": "frame",
+   "offset": [
+    0,
+    12
+   ],
+   "canvas": [
+    56,
+    56
+   ],
+   "at": [
+    888,
+    16
+   ],
+   "size": [
+    420,
+    432
+   ]
+  },
+  {
+   "entry": "sprite/0560/f0011",
+   "kind": "frame",
+   "offset": [
+    2,
+    4
+   ],
+   "canvas": [
+    64,
+    64
+   ],
+   "at": [
+    16,
+    464
+   ],
+   "size": [
+    420,
+    432
+   ]
+  },
+  {
+   "entry": "sprite/0560/f0012",
+   "kind": "frame",
+   "offset": [
+    6,
+    2
+   ],
+   "canvas": [
+    56,
+    64
+   ],
+   "at": [
+    452,
+    464
+   ],
+   "size": [
+    420,
+    432
+   ]
+  },
+  {
+   "entry": "sprite/0560/f0013",
+   "kind": "frame",
+   "offset": [
+    4,
+    0
+   ],
+   "canvas": [
+    64,
+    64
+   ],
+   "at": [
+    888,
+    464
+   ],
+   "size": [
+    420,
+    432
+   ]
+  }
+ ],
+ "family": "sprite"
+}

@@ -1,0 +1,9 @@
+Remaster this seamless game texture in 4K quality.
+Input: one texture from Disney's Hercules (1997 PC game), level TRAINING, on flat magenta.
+Redraw it as a detailed painted-realistic surface with the same colours, layout and lighting from the top left. It is repeated vertically in the game: the top and bottom edges must match so it tiles seamlessly.
+
+Strict rules:
+- Output exactly 1536x1024 pixels with the same 1x1 grid: every cell stays where it is.
+- Keep each subject's exact pose, outline, size and position inside its cell. Do not move, rotate, crop, mirror or rescale anything.
+- Everything outside the subjects stays flat pure magenta #FF00FF: no shadows, floor, glow, sparkles, text, borders or frame numbers.
+- Clean hard edges against the magenta; no magenta tint on the subject.

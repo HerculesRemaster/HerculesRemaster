@@ -1,0 +1,9 @@
+Remaster these game HUD frames in 4K quality.
+Input: 2 status-panel ornaments from Disney's Hercules (1997 PC game): silver-grey stylised Greek clouds with a lightning bolt, on flat magenta.
+Redraw them as polished sculpted silver ornaments with crisp detail and soft light from the top left. Keep the circular opening empty (the game draws the icon orb into it) and keep the exact outline.
+
+Strict rules:
+- Output exactly 1536x1024 pixels with the same 1x2 grid: every cell stays where it is.
+- Keep each subject's exact pose, outline, size and position inside its cell. Do not move, rotate, crop, mirror or rescale anything.
+- Everything outside the subjects stays flat pure magenta #FF00FF: no shadows, floor, glow, sparkles, text, borders or frame numbers.
+- Clean hard edges against the magenta; no magenta tint on the subject.
