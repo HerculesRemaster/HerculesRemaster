@@ -1,0 +1,8384 @@
+{
+ "table": "0x004361b8",
+ "dll_copy": {
+  "ENG1.DLL": "0x10070f20",
+  "ENG3.DLL": "0x100407a0",
+  "TITLE.DLL": "0x1002bb40"
+ },
+ "slots": [
+  {
+   "slot": 0,
+   "offset": "0x000",
+   "value": "0x5ac00cac",
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ]
+   }
+  },
+  {
+   "slot": 1,
+   "offset": "0x004",
+   "value": "0x00615c98",
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_10002180",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10002290",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10002400",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10002430",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10002cb0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10003470",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10003540",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10003870",
+      "callers": 9
+     },
+     {
+      "from": "FUN_10003a50",
+      "callers": 1
+     },
+     {
+      "from": "MOD_Tick",
+      "callers": 1
+     },
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10001880",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10003610",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10007570",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10007680",
+      "callers": 1
+     },
+     {
+      "from": "FUN_100077f0",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10007820",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10007b90",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10008050",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10008540",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10008610",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10008940",
+      "callers": 3
+     },
+     {
+      "from": "FUN_10008b20",
+      "callers": 1
+     },
+     {
+      "from": "MOD_Tick",
+      "callers": 1
+     },
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "100171d3",
+      "callers": null
+     },
+     {
+      "from": "10017200",
+      "callers": null
+     },
+     {
+      "from": "10017212",
+      "callers": null
+     },
+     {
+      "from": "FUN_10002dc0",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10004aa0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10004b70",
+      "callers": 3
+     },
+     {
+      "from": "FUN_10004dd0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10004ea0",
+      "callers": 3
+     },
+     {
+      "from": "FUN_100054f0",
+      "callers": 15
+     },
+     {
+      "from": "FUN_10005ad0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10005bc0",
+      "callers": 0
+     },
+     {
+      "from": "FUN_100095d0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1000cf00",
+      "callers": 0
+     },
+     {
+      "from": "FUN_10018bf0",
+      "callers": 2
+     },
+     {
+      "from": "FUN_1001ac90",
+      "callers": 0
+     },
+     {
+      "from": "FUN_1001d590",
+      "callers": 1
+     },
+     {
+      "from": "MOD_Tick",
+      "callers": 1
+     },
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ]
+   }
+  },
+  {
+   "slot": 2,
+   "offset": "0x008",
+   "value": "0x006177d0",
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ]
+   }
+  },
+  {
+   "slot": 3,
+   "offset": "0x00c",
+   "value": "0x00300000",
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "PC_DLLEngineMain",
+      "callers": 0
+     }
+    ]
+   }
+  },
+  {
+   "slot": 4,
+   "offset": "0x010",
+   "value": "0x00ba25c0",
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "10031997",
+      "callers": null
+     },
+     {
+      "from": "10031a20",
+      "callers": null
+     },
+     {
+      "from": "10031ad2",
+      "callers": null
+     },
+     {
+      "from": "10031bf7",
+      "callers": null
+     },
+     {
+      "from": "10032934",
+      "callers": null
+     },
+     {
+      "from": "10032a30",
+      "callers": null
+     },
+     {
+      "from": "10032aa0",
+      "callers": null
+     },
+     {
+      "from": "FUN_10003270",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10003cd0",
+      "callers": 2
+     },
+     {
+      "from": "FUN_100058e0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002da90",
+      "callers": 2
+     },
+     {
+      "from": "FUN_1002df20",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002e3b0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002e600",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002e6c0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002e7a0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002ea50",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002ed10",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002ef60",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002f120",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002f340",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10031540",
+      "callers": 2
+     },
+     {
+      "from": "FUN_100318d0",
+      "callers": 0
+     },
+     {
+      "from": "FUN_10032300",
+      "callers": 2
+     },
+     {
+      "from": "MOD_Tick",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "10024347",
+      "callers": null
+     },
+     {
+      "from": "10024482",
+      "callers": null
+     },
+     {
+      "from": "FUN_10008340",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10008da0",
+      "callers": 2
+     },
+     {
+      "from": "FUN_1000a760",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10020190",
+      "callers": 2
+     },
+     {
+      "from": "FUN_100206f0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10020b60",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10020c50",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10020ed0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10021200",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10021390",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10021a10",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10023ef0",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10024280",
+      "callers": 0
+     },
+     {
+      "from": "FUN_10024bb0",
+      "callers": 2
+     },
+     {
+      "from": "MOD_Tick",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "10019047",
+      "callers": null
+     },
+     {
+      "from": "100190d0",
+      "callers": null
+     },
+     {
+      "from": "10019182",
+      "callers": null
+     },
+     {
+      "from": "100192a7",
+      "callers": null
+     },
+     {
+      "from": "FUN_10002dc0",
+      "callers": 2
+     },
+     {
+      "from": "FUN_100048a0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10018bf0",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10018f80",
+      "callers": 0
+     },
+     {
+      "from": "FUN_100196c0",
+      "callers": 2
+     },
+     {
+      "from": "MOD_Tick",
+      "callers": 1
+     }
+    ]
+   }
+  },
+  {
+   "slot": 5,
+   "offset": "0x014",
+   "value": "0x00437480",
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "10002adf",
+      "callers": null
+     },
+     {
+      "from": "10013a9c",
+      "callers": null
+     },
+     {
+      "from": "10023575",
+      "callers": null
+     },
+     {
+      "from": "1003294d",
+      "callers": null
+     },
+     {
+      "from": "10034b5f",
+      "callers": null
+     },
+     {
+      "from": "FUN_1002e3b0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002e7a0",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002ea50",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002ef60",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002f120",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002f340",
+      "callers": 1
+     },
+     {
+      "from": "FUN_1002f840",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10031e30",
+      "callers": 0
+     },
+     {
+      "from": "FUN_10032130",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10032300",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10004ca0",
+      "callers": 0
+     },
+     {
+      "from": "FUN_10011a80",
+      "callers": 0
+     },
+     {
+      "from": "FUN_10011b90",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10020b60",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10021200",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10021390",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10021a10",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10022070",
+      "callers": 2
+     },
+     {
+      "from": "FUN_10022790",
+      "callers": 1
+     },
+     {
+      "from": "FUN_10024bb0",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "1000ebad",
+      "callers": null
+     },
+     {
+      "from": "FUN_10002860",
+      "callers": 0
+     },
+     {
+      "from": "FUN_100194e0",
+      "callers": 0
+     }
+    ]
+   }
+  },
+  {
+   "slot": 6,
+   "offset": "0x018",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c200",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f8b0",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c270",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 7,
+   "offset": "0x01c",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c210",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f8c0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c280",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 8,
+   "offset": "0x020",
+   "value": "0x00403d90",
+   "exe_name": "FUN_00403d90",
+   "size": 258,
+   "callees": [
+    "FUN_00401d60",
+    "FUN_004063c0",
+    "FUN_00410f40",
+    "RT_PClseek",
+    "RT_PCopen"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c230",
+      "callers": 4
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f8e0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c2a0",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "FUN_00403d90(undefined4 param_1,undefined4 param_2,int param_3,undefined4 param_4,int param_5)",
+    "lines": 26,
+    "strings": [
+     "s_Unable_to_open__s___d__00436050"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401d60",
+     "FUN_00403d90",
+     "FUN_004063c0",
+     "FUN_0040a210",
+     "FUN_0040a280",
+     "FUN_00410f40"
+    ],
+    "globals": [
+     "DAT_00436024",
+     "DAT_00615c10"
+    ]
+   }
+  },
+  {
+   "slot": 9,
+   "offset": "0x024",
+   "value": "0x00403ea0",
+   "exe_name": "FUN_00403ea0",
+   "size": 84,
+   "callees": [
+    "FUN_004063c0",
+    "RT_PCclose"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c260",
+      "callers": 3
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f910",
+      "callers": 3
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c2d0",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_00403ea0(void)",
+    "lines": 14,
+    "strings": [
+     "s___Failed_00436044"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00403ea0",
+     "FUN_004063c0",
+     "FUN_0040a350"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 10,
+   "offset": "0x028",
+   "value": "0x00401000",
+   "exe_name": "FUN_00401000",
+   "size": 132,
+   "callees": [
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c2e0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401000(void)",
+    "lines": 16,
+    "strings": [],
+    "named_calls": [
+     "CONCAT22"
+    ],
+    "fun_calls": [
+     "FUN_00401000",
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 11,
+   "offset": "0x02c",
+   "value": "0x00403f00",
+   "exe_name": "FUN_00403f00",
+   "size": 314,
+   "callees": [
+    "FUN_00403ea0",
+    "RT_PCread"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c270",
+      "callers": 3
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f920",
+      "callers": 3
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c2f0",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00403f00(void)",
+    "lines": 48,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00403ea0",
+     "FUN_00403f00",
+     "FUN_0040a2f0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 12,
+   "offset": "0x030",
+   "value": "0x00403d30",
+   "exe_name": "FUN_00403d30",
+   "size": 86,
+   "callees": [
+    "FUN_004063c0",
+    "RT_PCclose"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c280",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f930",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c300",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_00403d30(void)",
+    "lines": 13,
+    "strings": [
+     "s___Closed_00436038",
+     "s___Failed_00436044"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00403d30",
+     "FUN_004063c0",
+     "FUN_0040a350"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 13,
+   "offset": "0x034",
+   "value": "0x00404890",
+   "exe_name": "FUN_00404890",
+   "size": 16,
+   "callees": [
+    "RT_CompactMalloc"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c290",
+      "callers": 3
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f940",
+      "callers": 3
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c310",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00404890(undefined4 param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404890",
+     "FUN_004048a0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 14,
+   "offset": "0x038",
+   "value": "0x004048a0",
+   "exe_name": "RT_CompactMalloc",
+   "size": 330,
+   "callees": [
+    "FUN_004043a0",
+    "FUN_00404830",
+    "FUN_004049f0",
+    "FUN_004063c0"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c2a0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_004048a0(int param_1,uint param_2)",
+    "lines": 51,
+    "strings": [
+     "s_CompactMalloc_Heap_d___0x_x_Size_00436130"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_004043a0",
+     "FUN_00404830",
+     "FUN_004048a0",
+     "FUN_004049f0",
+     "FUN_004063c0"
+    ],
+    "globals": [
+     "DAT_00ba29c0",
+     "DAT_00ba29d0"
+    ]
+   }
+  },
+  {
+   "slot": 15,
+   "offset": "0x03c",
+   "value": "0x00401d30",
+   "exe_name": "FUN_00401d30",
+   "size": 42,
+   "callees": [
+    "FUN_0040bdd0"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_00401d30(void)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401d30",
+     "FUN_0040bdd0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 16,
+   "offset": "0x040",
+   "value": "0x00404750",
+   "exe_name": "RT_Free",
+   "size": 102,
+   "callees": [
+    "FUN_00404830",
+    "FUN_004063c0"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c2d0",
+      "callers": 11
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f960",
+      "callers": 6
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c330",
+      "callers": 3
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00404750(uint param_1)",
+    "lines": 25,
+    "strings": [
+     "s_Free_id__d___0x_x_Size____d_00436110"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404750",
+     "FUN_00404830",
+     "FUN_004063c0"
+    ],
+    "globals": [
+     "DAT_00ba29d0"
+    ]
+   }
+  },
+  {
+   "slot": 17,
+   "offset": "0x044",
+   "value": "0x004047c0",
+   "exe_name": "FUN_004047c0",
+   "size": 99,
+   "callees": [
+    "FUN_00404890",
+    "RT_Free"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c2e0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f970",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c340",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_004047c0(int param_1)",
+    "lines": 19,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404750",
+     "FUN_004047c0",
+     "FUN_00404890"
+    ],
+    "globals": [
+     "DAT_00ba29c0",
+     "DAT_00ba29d0",
+     "DAT_00ba29ec"
+    ]
+   }
+  },
+  {
+   "slot": 18,
+   "offset": "0x048",
+   "value": "0x004040d0",
+   "exe_name": "FUN_004040d0",
+   "size": 168,
+   "callees": [
+    "FUN_00410f40",
+    "RT_PCclose",
+    "RT_PClseek",
+    "RT_PCopen"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c2f0",
+      "callers": 3
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f980",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c350",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_004040d0(undefined4 param_1,undefined4 param_2)",
+    "lines": 21,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_004040d0",
+     "FUN_0040a210",
+     "FUN_0040a280",
+     "FUN_0040a350",
+     "FUN_00410f40"
+    ],
+    "globals": [
+     "DAT_00436024",
+     "DAT_00615c10"
+    ]
+   }
+  },
+  {
+   "slot": 19,
+   "offset": "0x04c",
+   "value": "0x00401bd0",
+   "exe_name": "FUN_00401bd0",
+   "size": 291,
+   "callees": [
+    "FUN_00401d00",
+    "FUN_00404300",
+    "FUN_0040ac20"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c310",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f9a0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c370",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401bd0(undefined2 param_1,undefined2 param_2,int param_3,int param_4,undefined2 param_5)",
+    "lines": 31,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401bd0",
+     "FUN_00401d00",
+     "FUN_00404300",
+     "FUN_0040ac20"
+    ],
+    "globals": [
+     "DAT_00ba2da0",
+     "DAT_00ba2db6",
+     "DAT_00ba2db8",
+     "DAT_00ba2e10",
+     "DAT_00ba2e1c",
+     "DAT_00ba2e32"
+    ]
+   }
+  },
+  {
+   "slot": 20,
+   "offset": "0x050",
+   "value": "0x00404450",
+   "exe_name": "RT_SetHeapRange",
+   "size": 20,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c330",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f9c0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c390",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00404450(undefined4 param_1,undefined4 param_2)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404450"
+    ],
+    "globals": [
+     "DAT_00ba29e0",
+     "DAT_00ba29e4"
+    ]
+   }
+  },
+  {
+   "slot": 21,
+   "offset": "0x054",
+   "value": "0x00404510",
+   "exe_name": "RT_InitHeap",
+   "size": 86,
+   "callees": [
+    "FUN_004063c0"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_00404510(uint *param_1,uint param_2,int param_3)",
+    "lines": 18,
+    "strings": [
+     "s_Initheap_Heap_d___0x_x_size__d_0043608c"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404510",
+     "FUN_004063c0"
+    ],
+    "globals": [
+     "DAT_00ba29c0",
+     "DAT_00ba29d0"
+    ]
+   }
+  },
+  {
+   "slot": 22,
+   "offset": "0x058",
+   "value": "0x00410690",
+   "exe_name": "FUN_00410690",
+   "size": 193,
+   "callees": [
+    "FUN_00404180",
+    "FUN_0040a1a0",
+    "FUN_0040ac00",
+    "FUN_0040bce0",
+    "FUN_0040bdf0",
+    "FUN_00410760",
+    "RT_InitHeap",
+    "RT_StubOne",
+    "RT_StubVoid",
+    "RT_StubZero"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_00410690(void)",
+    "lines": 32,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404180",
+     "FUN_00404510",
+     "FUN_0040a1a0",
+     "FUN_0040a340",
+     "FUN_0040ac00",
+     "FUN_0040bce0",
+     "FUN_0040bd40",
+     "FUN_0040bdf0"
+    ],
+    "globals": [
+     "DAT_0043a630",
+     "DAT_0043a640",
+     "DAT_0043a644",
+     "DAT_0043a648",
+     "DAT_0043a64c",
+     "DAT_00ba29e0"
+    ]
+   }
+  },
+  {
+   "slot": 23,
+   "offset": "0x05c",
+   "value": "0x00410760",
+   "exe_name": "FUN_00410760",
+   "size": 85,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c350",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f9e0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c3b0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00410760(void)",
+    "lines": 14,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00410760"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 24,
+   "offset": "0x060",
+   "value": "0x00401d00",
+   "exe_name": "FUN_00401d00",
+   "size": 43,
+   "callees": [
+    "FUN_0040ac10",
+    "FUN_0040bdd0",
+    "RT_StubZero"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c360",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001f9f0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c3c0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401d00(void)",
+    "lines": 8,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401d00",
+     "FUN_0040a340",
+     "FUN_0040ac10",
+     "FUN_0040bdd0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 25,
+   "offset": "0x064",
+   "value": "0x00404040",
+   "exe_name": "MOD_ChangeModule",
+   "size": 143,
+   "callees": [
+    "FUN_004047c0",
+    "FUN_0040bdd0",
+    "MOD_RequestModule",
+    "RT_Free",
+    "RT_StubVoid",
+    "RT_StubZero"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c370",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fa00",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c3d0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_00404040(undefined4 param_1,undefined4 param_2)",
+    "lines": 16,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404040",
+     "FUN_00404750",
+     "FUN_004047c0",
+     "FUN_00405cd0",
+     "FUN_0040a340",
+     "FUN_0040bdd0",
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 26,
+   "offset": "0x068",
+   "value": "0x00403b50",
+   "exe_name": "RT_LoadFile",
+   "size": 256,
+   "callees": [
+    "FUN_00401d60",
+    "FUN_004063c0",
+    "FUN_00410f40",
+    "RT_PCclose",
+    "RT_PCopen",
+    "RT_PCread"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c390",
+      "callers": 4
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fa20",
+      "callers": 4
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c3f0",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_00403b50(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)",
+    "lines": 26,
+    "strings": [
+     "s_Loading__s___0x_x_size__d_00436008",
+     "s_Unable_to_open__s_00435ff4",
+     "s___Loaded_00435fe8"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401d60",
+     "FUN_00403b50",
+     "FUN_004063c0",
+     "FUN_0040a210",
+     "FUN_0040a2f0",
+     "FUN_0040a350",
+     "FUN_00410f40"
+    ],
+    "globals": [
+     "DAT_00436024",
+     "DAT_00615c10"
+    ]
+   }
+  },
+  {
+   "slot": 27,
+   "offset": "0x06c",
+   "value": "0x004016b0",
+   "exe_name": "AUD_LoadLevelSonix",
+   "size": 283,
+   "callees": [
+    "AUD_LoadMusic",
+    "AUD_LoadSfx",
+    "FUN_00401000",
+    "FUN_00401f40",
+    "FUN_004063c0",
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c3b0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fa40",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_004016b0(char *param_1)",
+    "lines": 50,
+    "strings": [
+     "s_LoadLevelSonix___________________00435d84",
+     "s_LoadLevelSonix_setting_Music__d_S_00435d58",
+     "s_Load_Level_Sonix__d_00435d40"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401000",
+     "FUN_00401110",
+     "FUN_00401330",
+     "FUN_004016b0",
+     "FUN_00401f40",
+     "FUN_004063c0",
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 28,
+   "offset": "0x070",
+   "value": "0x00401110",
+   "exe_name": "AUD_LoadMusic",
+   "size": 543,
+   "callees": [
+    "FUN_004040d0",
+    "FUN_004063c0",
+    "FUN_0040c040",
+    "FUN_0040c090",
+    "FUN_0040c240",
+    "RT_LoadFile",
+    "RT_Malloc",
+    "RT_ReMalloc",
+    "RT_StubVoid",
+    "RT_StubZero"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c410",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_00401110(uint param_1,byte param_2)",
+    "lines": 54,
+    "strings": [
+     "s_LoadMusic__d__d_00435c18",
+     "s_MUSIC_MUS_00435c0c",
+     "s_Unable_to_down_load_VAB_00435bd8",
+     "s_Unable_to_open_VAB_00435bf4"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401110",
+     "FUN_00403b50",
+     "FUN_004040d0",
+     "FUN_00404570",
+     "FUN_00404690",
+     "FUN_004063c0",
+     "FUN_0040a340",
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 29,
+   "offset": "0x074",
+   "value": "0x00401330",
+   "exe_name": "AUD_LoadSfx",
+   "size": 659,
+   "callees": [
+    "FUN_004040d0",
+    "FUN_004063c0",
+    "FUN_0040be60",
+    "FUN_0040bec0",
+    "FUN_0040c040",
+    "FUN_0040c090",
+    "FUN_0040c240",
+    "RT_LoadFile",
+    "RT_Malloc",
+    "RT_ReMalloc",
+    "RT_StubVoid",
+    "RT_StubZero"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c430",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_00401330(uint param_1,byte param_2)",
+    "lines": 70,
+    "strings": [
+     "s_LoadSfx__d__d_00435d1c",
+     "s_SFX_SFX_00435d14",
+     "s_Two_or_more_sound_effects_have_b_00435c98",
+     "s_Unable_to_down_load_VAB_00435bd8",
+     "s_Unable_to_open_VAB_00435bf4",
+     "s__________________________________00435c2c"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401330",
+     "FUN_00403b50",
+     "FUN_004040d0",
+     "FUN_00404570",
+     "FUN_00404690",
+     "FUN_004063c0",
+     "FUN_0040a340",
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 30,
+   "offset": "0x078",
+   "value": "0x00404570",
+   "exe_name": "RT_Malloc",
+   "size": 285,
+   "callees": [
+    "FUN_004063c0"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c3c0",
+      "callers": 13
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fa50",
+      "callers": 10
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c450",
+      "callers": 3
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint * FUN_00404570(int *param_1,int param_2,uint param_3)",
+    "lines": 54,
+    "strings": [
+     "s_Malloc_FAILED___Address__x_data___004360cc",
+     "s_Malloc_Heap_d___0x_x_Size__d_004360ac"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404570",
+     "FUN_004063c0"
+    ],
+    "globals": [
+     "DAT_00ba29c0",
+     "DAT_00ba29d0"
+    ]
+   }
+  },
+  {
+   "slot": 31,
+   "offset": "0x07c",
+   "value": "0x004043a0",
+   "exe_name": "FUN_004043a0",
+   "size": 176,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c3e0",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_004043a0(int param_1,uint param_2,uint param_3)",
+    "lines": 55,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_004043a0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 32,
+   "offset": "0x080",
+   "value": "0x00403c50",
+   "exe_name": "FUN_00403c50",
+   "size": 130,
+   "callees": [
+    "FUN_00401d60",
+    "FUN_004063c0",
+    "FUN_00410f40",
+    "RT_PCopen"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c400",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_00403c50(undefined4 param_1,undefined4 param_2)",
+    "lines": 17,
+    "strings": [
+     "s_Opening__s_0043602c",
+     "s_Unable_to_open__s_00435ff4"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401d60",
+     "FUN_00403c50",
+     "FUN_004063c0",
+     "FUN_0040a210",
+     "FUN_00410f40"
+    ],
+    "globals": [
+     "DAT_00436024",
+     "DAT_00615c10"
+    ]
+   }
+  },
+  {
+   "slot": 33,
+   "offset": "0x084",
+   "value": "0x004041a0",
+   "exe_name": "FUN_004041a0",
+   "size": 151,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c420",
+      "callers": 3
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fa70",
+      "callers": 3
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c470",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_004041a0(void)",
+    "lines": 24,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_004041a0"
+    ],
+    "globals": [
+     "DAT_00ba2a40",
+     "DAT_00ba2a41",
+     "DAT_00ba2a42"
+    ]
+   }
+  },
+  {
+   "slot": 34,
+   "offset": "0x088",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c430",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fa80",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c480",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 35,
+   "offset": "0x08c",
+   "value": "0x00401d80",
+   "exe_name": "FUN_00401d80",
+   "size": 72,
+   "callees": [
+    "FUN_0040a150",
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c440",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fa90",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c490",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401d80(void)",
+    "lines": 11,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401d80",
+     "FUN_0040a150",
+     "FUN_0040be30"
+    ],
+    "globals": [
+     "DAT_004352b0"
+    ]
+   }
+  },
+  {
+   "slot": 36,
+   "offset": "0x090",
+   "value": "0x00401090",
+   "exe_name": "FUN_00401090",
+   "size": 31,
+   "callees": [
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c450",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001faa0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401090(void)",
+    "lines": 8,
+    "strings": [],
+    "named_calls": [
+     "CONCAT22"
+    ],
+    "fun_calls": [
+     "FUN_00401090",
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 37,
+   "offset": "0x094",
+   "value": "0x00404260",
+   "exe_name": "RT_RandMod",
+   "size": 26,
+   "callees": [
+    "RT_Rand"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c460",
+      "callers": 147
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fab0",
+      "callers": 26
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c4a0",
+      "callers": 14
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_00404260(uint param_1)",
+    "lines": 9,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404260",
+     "FUN_00404280"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 38,
+   "offset": "0x098",
+   "value": "0x00404280",
+   "exe_name": "RT_Rand",
+   "size": 96,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c470",
+      "callers": 27
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fac0",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_00404280(void)",
+    "lines": 15,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404280"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 39,
+   "offset": "0x09c",
+   "value": "0x00403d00",
+   "exe_name": "FUN_00403d00",
+   "size": 35,
+   "callees": [
+    "RT_PCread"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c480",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00403d00(undefined4 param_1,int param_2)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00403d00",
+     "FUN_0040a2f0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 40,
+   "offset": "0x0a0",
+   "value": "0x00404690",
+   "exe_name": "RT_ReMalloc",
+   "size": 184,
+   "callees": [
+    "FUN_00404830",
+    "FUN_004063c0",
+    "FUN_00410fb0"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c4a0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fad0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "int FUN_00404690(int param_1,int param_2,undefined4 param_3,int param_4)",
+    "lines": 34,
+    "strings": [
+     "s_ReMalloc_Heap_d___0x_x_Size__d_004360f0"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404690",
+     "FUN_00404830",
+     "FUN_004063c0",
+     "FUN_00410fb0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 41,
+   "offset": "0x0a4",
+   "value": "0x00404470",
+   "exe_name": "RT_ReInitHeap",
+   "size": 154,
+   "callees": [
+    "FUN_00404830",
+    "FUN_004063c0"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c4b0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00404470(int param_1)",
+    "lines": 16,
+    "strings": [
+     "s_ReInitheap_Heap_d___0x_x_size__d_00436068"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404470",
+     "FUN_00404830",
+     "FUN_004063c0"
+    ],
+    "globals": [
+     "DAT_00ba29c0",
+     "DAT_00ba29d0",
+     "DAT_00ba29e0",
+     "DAT_00ba29e4",
+     "DAT_00ba29ec"
+    ]
+   }
+  },
+  {
+   "slot": 42,
+   "offset": "0x0a8",
+   "value": "0x00404830",
+   "exe_name": "FUN_00404830",
+   "size": 87,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_00404830(int param_1)",
+    "lines": 18,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404830"
+    ],
+    "globals": [
+     "DAT_00ba29c0",
+     "DAT_00ba29d0"
+    ]
+   }
+  },
+  {
+   "slot": 43,
+   "offset": "0x0ac",
+   "value": "0x00401ee0",
+   "exe_name": "FUN_00401ee0",
+   "size": 83,
+   "callees": [
+    "FUN_0040f7c0",
+    "FUN_00410a40",
+    "RT_StubZero"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c4c0",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_00401ee0(void)",
+    "lines": 17,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401ee0",
+     "FUN_0040a340",
+     "FUN_0040f7c0",
+     "FUN_00410a40"
+    ],
+    "globals": [
+     "DAT_0043e738",
+     "DAT_0043eb38",
+     "DAT_0043f744"
+    ]
+   }
+  },
+  {
+   "slot": 44,
+   "offset": "0x0b0",
+   "value": "0x00401dd0",
+   "exe_name": "FUN_00401dd0",
+   "size": 186,
+   "callees": [
+    "FUN_0040f940",
+    "FUN_0040fbf0"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c4c0",
+      "callers": 6
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001faf0",
+      "callers": 0
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c4d0",
+      "callers": 4
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined * FUN_00401dd0(int param_1)",
+    "lines": 26,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401dd0",
+     "FUN_0040f940",
+     "FUN_0040fbf0"
+    ],
+    "globals": [
+     "DAT_004352b0",
+     "DAT_0043e530",
+     "DAT_0043f744"
+    ]
+   }
+  },
+  {
+   "slot": 45,
+   "offset": "0x0b4",
+   "value": "0x00401e90",
+   "exe_name": "FUN_00401e90",
+   "size": 78,
+   "callees": [
+    "FUN_0040a150",
+    "FUN_0040fa10",
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c4d0",
+      "callers": 4
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fb00",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c4e0",
+      "callers": 3
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401e90(void)",
+    "lines": 12,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401e90",
+     "FUN_0040a150",
+     "FUN_0040be30",
+     "FUN_0040fa10"
+    ],
+    "globals": [
+     "DAT_004352b0",
+     "DAT_0043f744"
+    ]
+   }
+  },
+  {
+   "slot": 46,
+   "offset": "0x0b8",
+   "value": "0x00401b90",
+   "exe_name": "FUN_00401b90",
+   "size": 59,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c4e0",
+      "callers": 3
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fb10",
+      "callers": 3
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c4f0",
+      "callers": 10
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401b90(int param_1)",
+    "lines": 12,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401b90"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 47,
+   "offset": "0x0bc",
+   "value": "0x00401b40",
+   "exe_name": "FUN_00401b40",
+   "size": 68,
+   "callees": [
+    "FUN_0040c200"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_00401b40(void)",
+    "lines": 12,
+    "strings": [],
+    "named_calls": [
+     "CONCAT22"
+    ],
+    "fun_calls": [
+     "FUN_00401b40",
+     "FUN_0040c200"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 48,
+   "offset": "0x0c0",
+   "value": "0x00403ce0",
+   "exe_name": "FUN_00403ce0",
+   "size": 32,
+   "callees": [
+    "RT_PClseek"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c4f0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00403ce0(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00403ce0",
+     "FUN_0040a280"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 49,
+   "offset": "0x0c4",
+   "value": "0x004010b0",
+   "exe_name": "FUN_004010b0",
+   "size": 35,
+   "callees": [
+    "FUN_00401000"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c500",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_004010b0(undefined4 param_1,undefined4 param_2)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401000",
+     "FUN_004010b0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 50,
+   "offset": "0x0c8",
+   "value": "0x00404300",
+   "exe_name": "FUN_00404300",
+   "size": 151,
+   "callees": [
+    "RT_StubZero"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c500",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fb20",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c520",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00404300(int param_1,int param_2)",
+    "lines": 16,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404300",
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 51,
+   "offset": "0x0cc",
+   "value": "0x004042e0",
+   "exe_name": "FUN_004042e0",
+   "size": 24,
+   "callees": [
+    "FUN_0040ac10",
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c520",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fb40",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c540",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_004042e0(undefined4 param_1)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_004042e0",
+     "FUN_0040ac10",
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 52,
+   "offset": "0x0d0",
+   "value": "0x00401a00",
+   "exe_name": "FUN_00401a00",
+   "size": 312,
+   "callees": [
+    "FUN_004010e0",
+    "FUN_0040c100",
+    "FUN_0040c200",
+    "FUN_0040c220",
+    "FUN_0040c2c0",
+    "FUN_0040c2d0",
+    "RT_StubVoid",
+    "RT_StubZero"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c530",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fb50",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c550",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401a00(int param_1)",
+    "lines": 47,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_004010e0",
+     "FUN_00401a00",
+     "FUN_0040a340",
+     "FUN_0040be30",
+     "FUN_0040c100",
+     "FUN_0040c200",
+     "FUN_0040c220",
+     "FUN_0040c2c0"
+    ],
+    "globals": [
+     "DAT_0043f738"
+    ]
+   }
+  },
+  {
+   "slot": 53,
+   "offset": "0x0d4",
+   "value": "0x004017d0",
+   "exe_name": "AUD_StartMusic",
+   "size": 273,
+   "callees": [
+    "AUD_StopMusic",
+    "FUN_00401b40",
+    "FUN_004063c0",
+    "FUN_0040c250",
+    "FUN_0040c280",
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c540",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fb60",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c560",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_004017d0(char param_1,uint param_2)",
+    "lines": 35,
+    "strings": [
+     "s_ERROR_Specified_vabid_is_not_loa_00435ddc",
+     "s_StartMusic_0x_x_0x_x_0x_x_00435dc0",
+     "s_StartMusic__d__d_00435dac"
+    ],
+    "named_calls": [
+     "CONCAT22"
+    ],
+    "fun_calls": [
+     "FUN_004015d0",
+     "FUN_004017d0",
+     "FUN_00401b40",
+     "FUN_004063c0",
+     "FUN_0040be30",
+     "FUN_0040c250",
+     "FUN_0040c280"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 54,
+   "offset": "0x0d8",
+   "value": "0x004018f0",
+   "exe_name": "AUD_StartMusicAlt",
+   "size": 258,
+   "callees": [
+    "AUD_StopMusic",
+    "FUN_00401b40",
+    "FUN_004063c0",
+    "FUN_0040c250",
+    "FUN_0040c280",
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c580",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_004018f0(char param_1,uint param_2)",
+    "lines": 33,
+    "strings": [
+     "s_ERROR_Specified_vabid_is_not_loa_00435ddc",
+     "s_StartMusic_0x_x_0x_x_0x_x_00435dc0",
+     "s_StartMusic__d__d_00435dac"
+    ],
+    "named_calls": [
+     "CONCAT22"
+    ],
+    "fun_calls": [
+     "FUN_004015d0",
+     "FUN_004018f0",
+     "FUN_00401b40",
+     "FUN_004063c0",
+     "FUN_0040be30",
+     "FUN_0040c250",
+     "FUN_0040c280"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 55,
+   "offset": "0x0dc",
+   "value": "0x004015d0",
+   "exe_name": "AUD_StopMusic",
+   "size": 63,
+   "callees": [
+    "AUD_CdStop",
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c560",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c5a0",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_004015d0(void)",
+    "lines": 13,
+    "strings": [],
+    "named_calls": [
+     "CONCAT22",
+     "thunk_FUN_00409e10"
+    ],
+    "fun_calls": [
+     "FUN_004015d0",
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 56,
+   "offset": "0x0e0",
+   "value": "0x00404240",
+   "exe_name": "FUN_00404240",
+   "size": 28,
+   "callees": [
+    "FUN_0040a4a0",
+    "RT_StubZero"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c570",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fb80",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c5b0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00404240(int param_1)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404240",
+     "FUN_0040a340",
+     "FUN_0040a4a0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 57,
+   "offset": "0x0e4",
+   "value": "0x00401610",
+   "exe_name": "AUD_UnloadAllSfxMusic",
+   "size": 154,
+   "callees": [
+    "AUD_StopMusic",
+    "FUN_004063c0",
+    "FUN_0040ac10",
+    "FUN_0040bfe0",
+    "FUN_0040c140",
+    "FUN_0040c2d0",
+    "RT_Free",
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c580",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fb90",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c5c0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401610(void)",
+    "lines": 32,
+    "strings": [
+     "s_UnLoadAllSfxMusic_00435d2c"
+    ],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_004015d0",
+     "FUN_00401610",
+     "FUN_00404750",
+     "FUN_004063c0",
+     "FUN_0040ac10",
+     "FUN_0040be30",
+     "FUN_0040bfe0",
+     "FUN_0040c140"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 58,
+   "offset": "0x0e8",
+   "value": "0x00401090",
+   "exe_name": "FUN_00401090",
+   "size": 31,
+   "callees": [
+    "RT_StubVoid"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c590",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fba0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401090(void)",
+    "lines": 8,
+    "strings": [],
+    "named_calls": [
+     "CONCAT22"
+    ],
+    "fun_calls": [
+     "FUN_00401090",
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 59,
+   "offset": "0x0ec",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c5a0",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fbb0",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c5d0",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 60,
+   "offset": "0x0f0",
+   "value": "0x00401f50",
+   "exe_name": "FUN_00401f50",
+   "size": 11,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c5b0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fbc0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c5e0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00401f50(void)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401f50"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 61,
+   "offset": "0x0f4",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c5f0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 62,
+   "offset": "0x0f8",
+   "value": "0x0040bd40",
+   "exe_name": "RT_StubOne",
+   "size": 6,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c600",
+      "callers": 4
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040bd40(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bd40"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 63,
+   "offset": "0x0fc",
+   "value": "0x0040bd40",
+   "exe_name": "RT_StubOne",
+   "size": 6,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c610",
+      "callers": 4
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040bd40(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bd40"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 64,
+   "offset": "0x100",
+   "value": "0x0040bd40",
+   "exe_name": "RT_StubOne",
+   "size": 6,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c620",
+      "callers": 3
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040bd40(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bd40"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 65,
+   "offset": "0x104",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c630",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 66,
+   "offset": "0x108",
+   "value": "0x0040ac50",
+   "exe_name": "FUN_0040ac50",
+   "size": 15,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c5c0",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fbd0",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c650",
+      "callers": 3
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040ac50(undefined4 *param_1,undefined4 *param_2)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040ac50"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 67,
+   "offset": "0x10c",
+   "value": "0x0040a150",
+   "exe_name": "FUN_0040a150",
+   "size": 56,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a150(char param_1,undefined4 *param_2)",
+    "lines": 12,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a150"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 68,
+   "offset": "0x110",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 69,
+   "offset": "0x114",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 70,
+   "offset": "0x118",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 71,
+   "offset": "0x11c",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 72,
+   "offset": "0x120",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 73,
+   "offset": "0x124",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 74,
+   "offset": "0x128",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 75,
+   "offset": "0x12c",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 76,
+   "offset": "0x130",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 77,
+   "offset": "0x134",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 78,
+   "offset": "0x138",
+   "value": "0x0040a140",
+   "exe_name": "FUN_0040a140",
+   "size": 6,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a140(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a140"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 79,
+   "offset": "0x13c",
+   "value": "0x0040a190",
+   "exe_name": "FUN_0040a190",
+   "size": 6,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a190(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a190"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 80,
+   "offset": "0x140",
+   "value": "0x0040ac00",
+   "exe_name": "FUN_0040ac00",
+   "size": 8,
+   "callees": [
+    "FUN_0040bd80"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c5e0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fbf0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c670",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040ac00(void)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040ac00",
+     "FUN_0040bd80"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 81,
+   "offset": "0x144",
+   "value": "0x0040ac20",
+   "exe_name": "FUN_0040ac20",
+   "size": 32,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c600",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fc10",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c690",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040ac20(undefined4 *param_1,int param_2)",
+    "lines": 16,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040ac20"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 82,
+   "offset": "0x148",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 83,
+   "offset": "0x14c",
+   "value": "0x0040be10",
+   "exe_name": "FUN_0040be10",
+   "size": 18,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "int FUN_0040be10(uint param_1)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be10"
+    ],
+    "globals": [
+     "DAT_00439480"
+    ]
+   }
+  },
+  {
+   "slot": 84,
+   "offset": "0x150",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 85,
+   "offset": "0x154",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 86,
+   "offset": "0x158",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 87,
+   "offset": "0x15c",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 88,
+   "offset": "0x160",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 89,
+   "offset": "0x164",
+   "value": "0x0040ac60",
+   "exe_name": "GFX_DrawOTag",
+   "size": 1676,
+   "callees": [
+    "FUN_00406ee0",
+    "FUN_00406ff0",
+    "FUN_004070c0",
+    "FUN_00407140",
+    "FUN_0040a8f0",
+    "FUN_0040bd80",
+    "FUN_0040c8f0",
+    "FUN_0040cab0",
+    "FUN_0040d420",
+    "FUN_0040e680",
+    "GFX_Present"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c620",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fc30",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c6b0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040ac60(int *param_1)",
+    "lines": 244,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00406620",
+     "FUN_00406ee0",
+     "FUN_00406ff0",
+     "FUN_004070c0",
+     "FUN_00407140",
+     "FUN_0040a8f0",
+     "FUN_0040ac60",
+     "FUN_0040bd80"
+    ],
+    "globals": [
+     "DAT_0043a48c",
+     "DAT_0096e698",
+     "DAT_0096e699",
+     "DAT_0096e69a",
+     "DAT_0096e69b",
+     "DAT_0096e6e0"
+    ]
+   }
+  },
+  {
+   "slot": 90,
+   "offset": "0x168",
+   "value": "0x0040ac40",
+   "exe_name": "thunk_FUN_0040bd80",
+   "size": 5,
+   "callees": [
+    "FUN_0040bd80"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c6c0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void thunk_FUN_0040bd80(void)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bd80"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 91,
+   "offset": "0x16c",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c630",
+      "callers": 7
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fc40",
+      "callers": 7
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c6d0",
+      "callers": 6
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 92,
+   "offset": "0x170",
+   "value": "0x0040bda0",
+   "exe_name": "FUN_0040bda0",
+   "size": 16,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c640",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fc50",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c6e0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040bda0(undefined4 param_1)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bda0"
+    ],
+    "globals": [
+     "DAT_00a8e780"
+    ]
+   }
+  },
+  {
+   "slot": 93,
+   "offset": "0x174",
+   "value": "0x0040bd40",
+   "exe_name": "RT_StubOne",
+   "size": 6,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040bd40(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bd40"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 94,
+   "offset": "0x178",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c650",
+      "callers": 10
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fc60",
+      "callers": 11
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c6f0",
+      "callers": 5
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 95,
+   "offset": "0x17c",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 96,
+   "offset": "0x180",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c660",
+      "callers": 10
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fc70",
+      "callers": 11
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c700",
+      "callers": 5
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 97,
+   "offset": "0x184",
+   "value": "0x0040bcd0",
+   "exe_name": "FUN_0040bcd0",
+   "size": 5,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c710",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040bcd0(undefined4 param_1,undefined4 param_2)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bcd0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 98,
+   "offset": "0x188",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 99,
+   "offset": "0x18c",
+   "value": "0x0040bd40",
+   "exe_name": "RT_StubOne",
+   "size": 6,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c730",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040bd40(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bd40"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 100,
+   "offset": "0x190",
+   "value": "0x0040b6b0",
+   "exe_name": "FUN_0040b6b0",
+   "size": 58,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c670",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fc80",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c740",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b6b0(undefined4 param_1,undefined4 param_2,undefined4 param_3)",
+    "lines": 10,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b6b0"
+    ],
+    "globals": [
+     "DAT_00a8e740",
+     "DAT_00a8e742",
+     "DAT_00a8e744",
+     "DAT_00a8e746",
+     "DAT_00a8e748",
+     "DAT_00a8e74a"
+    ]
+   }
+  },
+  {
+   "slot": 101,
+   "offset": "0x194",
+   "value": "0x0040b6f0",
+   "exe_name": "FUN_0040b6f0",
+   "size": 36,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c690",
+      "callers": 16
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fca0",
+      "callers": 11
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c760",
+      "callers": 5
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b6f0(undefined2 *param_1)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b6f0"
+    ],
+    "globals": [
+     "DAT_00a8e708",
+     "DAT_00a8e70e",
+     "DAT_00a8e714"
+    ]
+   }
+  },
+  {
+   "slot": 102,
+   "offset": "0x198",
+   "value": "0x0040b430",
+   "exe_name": "FUN_0040b430",
+   "size": 106,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c6a0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fcb0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c770",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b430(undefined2 *param_1,undefined2 *param_2,undefined2 *param_3)",
+    "lines": 14,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b430"
+    ],
+    "globals": [
+     "DAT_00a8e708",
+     "DAT_00a8e70a",
+     "DAT_00a8e70e",
+     "DAT_00a8e710",
+     "DAT_00a8e714",
+     "DAT_00a8e716"
+    ]
+   }
+  },
+  {
+   "slot": 103,
+   "offset": "0x19c",
+   "value": "0x0040b840",
+   "exe_name": "FUN_0040b840",
+   "size": 35,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c6c0",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fcd0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c790",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b840(void)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b840"
+    ],
+    "globals": [
+     "DAT_00a8e71c",
+     "DAT_00a8e728",
+     "DAT_00a8e734",
+     "DAT_00a8e770",
+     "DAT_00a8e774",
+     "DAT_00a8e778"
+    ]
+   }
+  },
+  {
+   "slot": 104,
+   "offset": "0x1a0",
+   "value": "0x0040b4b0",
+   "exe_name": "FUN_0040b4b0",
+   "size": 98,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c6d0",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fce0",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c7a0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b4b0(void)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b4b0"
+    ],
+    "globals": [
+     "DAT_00a8e740",
+     "DAT_00a8e742",
+     "DAT_00a8e744",
+     "DAT_00a8e746",
+     "DAT_00a8e748",
+     "DAT_00a8e74a"
+    ]
+   }
+  },
+  {
+   "slot": 105,
+   "offset": "0x1a4",
+   "value": "0x0040b740",
+   "exe_name": "FUN_0040b740",
+   "size": 202,
+   "callees": [],
+   "dll": {
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fcf0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b740(void)",
+    "lines": 19,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b740"
+    ],
+    "globals": [
+     "DAT_00a8e708",
+     "DAT_00a8e70e",
+     "DAT_00a8e714",
+     "DAT_00a8e71c",
+     "DAT_00a8e728",
+     "DAT_00a8e734"
+    ]
+   }
+  },
+  {
+   "slot": 106,
+   "offset": "0x1a8",
+   "value": "0x0040b920",
+   "exe_name": "FUN_0040b920",
+   "size": 78,
+   "callees": [
+    "FUN_0040b740"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c6e0",
+      "callers": 16
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fd00",
+      "callers": 11
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c7b0",
+      "callers": 5
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b920(void)",
+    "lines": 12,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b740",
+     "FUN_0040b920"
+    ],
+    "globals": [
+     "DAT_00a8e71c",
+     "DAT_00a8e728",
+     "DAT_00a8e734",
+     "DAT_00a8e740",
+     "DAT_00a8e746",
+     "DAT_00a8e74c"
+    ]
+   }
+  },
+  {
+   "slot": 107,
+   "offset": "0x1ac",
+   "value": "0x0040b320",
+   "exe_name": "FUN_0040b320",
+   "size": 271,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c6f0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fd10",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c7c0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b320(void)",
+    "lines": 34,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b320"
+    ],
+    "globals": [
+     "DAT_00a8e70e",
+     "DAT_00a8e71c",
+     "DAT_00a8e74c",
+     "DAT_00a8e750",
+     "DAT_00a8e754",
+     "DAT_00a8e75c"
+    ]
+   }
+  },
+  {
+   "slot": 108,
+   "offset": "0x1b0",
+   "value": "0x0040b880",
+   "exe_name": "FUN_0040b880",
+   "size": 50,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c700",
+      "callers": 6
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fd20",
+      "callers": 5
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c7d0",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b880(undefined4 *param_1)",
+    "lines": 10,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b880"
+    ],
+    "globals": [
+     "DAT_00a8e76c"
+    ]
+   }
+  },
+  {
+   "slot": 109,
+   "offset": "0x1b4",
+   "value": "0x0040b8f0",
+   "exe_name": "FUN_0040b8f0",
+   "size": 33,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c710",
+      "callers": 5
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fd30",
+      "callers": 3
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b8f0(int param_1)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b8f0"
+    ],
+    "globals": [
+     "DAT_00a8e770",
+     "DAT_00a8e774",
+     "DAT_00a8e778"
+    ]
+   }
+  },
+  {
+   "slot": 110,
+   "offset": "0x1b8",
+   "value": "0x0040b8c0",
+   "exe_name": "FUN_0040b8c0",
+   "size": 40,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c720",
+      "callers": 6
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fd40",
+      "callers": 4
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c7e0",
+      "callers": 4
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b8c0(undefined4 *param_1)",
+    "lines": 9,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b8c0"
+    ],
+    "globals": [
+     "DAT_00a8e770",
+     "DAT_00a8e774",
+     "DAT_00a8e778"
+    ]
+   }
+  },
+  {
+   "slot": 111,
+   "offset": "0x1bc",
+   "value": "0x0040b2f0",
+   "exe_name": "FUN_0040b2f0",
+   "size": 31,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c730",
+      "callers": 3
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fd50",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c7f0",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b2f0(undefined4 *param_1)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b2f0"
+    ],
+    "globals": [
+     "DAT_00a8e71c",
+     "DAT_00a8e728",
+     "DAT_00a8e734"
+    ]
+   }
+  },
+  {
+   "slot": 112,
+   "offset": "0x1c0",
+   "value": "0x0040b4a0",
+   "exe_name": "FUN_0040b4a0",
+   "size": 13,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c740",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fd60",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c800",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b4a0(undefined4 *param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b4a0"
+    ],
+    "globals": [
+     "DAT_00a8e758"
+    ]
+   }
+  },
+  {
+   "slot": 113,
+   "offset": "0x1c4",
+   "value": "0x0040b810",
+   "exe_name": "FUN_0040b810",
+   "size": 37,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c750",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fd70",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b810(undefined2 *param_1)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b810"
+    ],
+    "globals": [
+     "DAT_00a8e71c",
+     "DAT_00a8e728",
+     "DAT_00a8e734"
+    ]
+   }
+  },
+  {
+   "slot": 114,
+   "offset": "0x1c8",
+   "value": "0x0040b720",
+   "exe_name": "FUN_0040b720",
+   "size": 26,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c760",
+      "callers": 16
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fd80",
+      "callers": 12
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c810",
+      "callers": 6
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b720(undefined2 *param_1)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b720"
+    ],
+    "globals": [
+     "DAT_00a8e740",
+     "DAT_00a8e746"
+    ]
+   }
+  },
+  {
+   "slot": 115,
+   "offset": "0x1cc",
+   "value": "0x0040b610",
+   "exe_name": "FUN_0040b610",
+   "size": 71,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040b610(int param_1)",
+    "lines": 10,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b610"
+    ],
+    "globals": [
+     "DAT_00a8e740",
+     "DAT_00a8e742",
+     "DAT_00a8e744",
+     "DAT_00a8e746",
+     "DAT_00a8e748",
+     "DAT_00a8e74a"
+    ]
+   }
+  },
+  {
+   "slot": 116,
+   "offset": "0x1d0",
+   "value": "0x0040b520",
+   "exe_name": "FUN_0040b520",
+   "size": 71,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040b520(int param_1)",
+    "lines": 10,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b520"
+    ],
+    "globals": [
+     "DAT_00a8e740",
+     "DAT_00a8e742",
+     "DAT_00a8e744",
+     "DAT_00a8e746",
+     "DAT_00a8e748",
+     "DAT_00a8e74a"
+    ]
+   }
+  },
+  {
+   "slot": 117,
+   "offset": "0x1d4",
+   "value": "0x0040b5c0",
+   "exe_name": "FUN_0040b5c0",
+   "size": 71,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c770",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fd90",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c820",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b5c0(int param_1)",
+    "lines": 10,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b5c0"
+    ],
+    "globals": [
+     "DAT_00a8e740",
+     "DAT_00a8e742",
+     "DAT_00a8e744",
+     "DAT_00a8e746",
+     "DAT_00a8e748",
+     "DAT_00a8e74a"
+    ]
+   }
+  },
+  {
+   "slot": 118,
+   "offset": "0x1d8",
+   "value": "0x0040b570",
+   "exe_name": "FUN_0040b570",
+   "size": 71,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c780",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fda0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c830",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b570(int param_1)",
+    "lines": 10,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b570"
+    ],
+    "globals": [
+     "DAT_00a8e740",
+     "DAT_00a8e742",
+     "DAT_00a8e744",
+     "DAT_00a8e746",
+     "DAT_00a8e748",
+     "DAT_00a8e74a"
+    ]
+   }
+  },
+  {
+   "slot": 119,
+   "offset": "0x1dc",
+   "value": "0x0040b660",
+   "exe_name": "FUN_0040b660",
+   "size": 71,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c790",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fdb0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b660(int param_1)",
+    "lines": 10,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b660"
+    ],
+    "globals": [
+     "DAT_00a8e740",
+     "DAT_00a8e742",
+     "DAT_00a8e744",
+     "DAT_00a8e746",
+     "DAT_00a8e748",
+     "DAT_00a8e74a"
+    ]
+   }
+  },
+  {
+   "slot": 120,
+   "offset": "0x1e0",
+   "value": "0x0040b310",
+   "exe_name": "FUN_0040b310",
+   "size": 13,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c7a0",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fdc0",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c840",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b310(undefined4 *param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b310"
+    ],
+    "globals": [
+     "DAT_00a8e734"
+    ]
+   }
+  },
+  {
+   "slot": 121,
+   "offset": "0x1e4",
+   "value": "0x0040b870",
+   "exe_name": "FUN_0040b870",
+   "size": 16,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c7b0",
+      "callers": 4
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fdd0",
+      "callers": 6
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c850",
+      "callers": 3
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b870(undefined2 *param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b870"
+    ],
+    "globals": [
+     "DAT_00a8e734"
+    ]
+   }
+  },
+  {
+   "slot": 122,
+   "offset": "0x1e8",
+   "value": "0x0040a3a0",
+   "exe_name": "FUN_0040a3a0",
+   "size": 20,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c7c0",
+      "callers": 3
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fde0",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_0040a3a0(int param_1,int param_2)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a3a0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 123,
+   "offset": "0x1ec",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 124,
+   "offset": "0x1f0",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 125,
+   "offset": "0x1f4",
+   "value": "0x0040a3f0",
+   "exe_name": "FUN_0040a3f0",
+   "size": 136,
+   "callees": [
+    "RT_StubZero"
+   ],
+   "dll": {
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fe00",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c860",
+      "callers": 4
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_0040a3f0(uint param_1,uint param_2,int param_3,uint param_4)",
+    "lines": 14,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340",
+     "FUN_0040a3f0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 126,
+   "offset": "0x1f8",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c7e0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fe20",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c880",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 127,
+   "offset": "0x1fc",
+   "value": "0x0040bd30",
+   "exe_name": "FUN_0040bd30",
+   "size": 15,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040bd30(undefined4 param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bd30"
+    ],
+    "globals": [
+     "DAT_00a8e78c"
+    ]
+   }
+  },
+  {
+   "slot": 128,
+   "offset": "0x200",
+   "value": "0x0040a3c0",
+   "exe_name": "FUN_0040a3c0",
+   "size": 20,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "uint FUN_0040a3c0(undefined4 param_1,int param_2,int param_3)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a3c0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 129,
+   "offset": "0x204",
+   "value": "0x0040a710",
+   "exe_name": "FUN_0040a710",
+   "size": 469,
+   "callees": [
+    "FUN_0040bd80"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c7f0",
+      "callers": 6
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fe30",
+      "callers": 6
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c890",
+      "callers": 4
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a710(short *param_1,undefined4 *param_2)",
+    "lines": 93,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a710",
+     "FUN_0040bd80"
+    ],
+    "globals": [
+     "DAT_0096e6e0"
+    ]
+   }
+  },
+  {
+   "slot": 130,
+   "offset": "0x208",
+   "value": "0x0040a640",
+   "exe_name": "FUN_0040a640",
+   "size": 193,
+   "callees": [
+    "FUN_0040a710",
+    "RT_StubZero"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c8b0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_0040a640(undefined4 param_1,uint param_2,uint param_3,int param_4,uint param_5,",
+    "lines": 24,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340",
+     "FUN_0040a640",
+     "FUN_0040a710"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 131,
+   "offset": "0x20c",
+   "value": "0x0040a8f0",
+   "exe_name": "FUN_0040a8f0",
+   "size": 771,
+   "callees": [
+    "FUN_0040bd80"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c810",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fe50",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c8e0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a8f0(short *param_1,uint param_2,uint param_3)",
+    "lines": 104,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a8f0",
+     "FUN_0040bd80"
+    ],
+    "globals": [
+     "DAT_0096e6e0"
+    ]
+   }
+  },
+  {
+   "slot": 132,
+   "offset": "0x210",
+   "value": "0x0040bce0",
+   "exe_name": "FUN_0040bce0",
+   "size": 5,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c900",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040bce0(undefined4 param_1)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bce0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 133,
+   "offset": "0x214",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 134,
+   "offset": "0x218",
+   "value": "0x0040bd60",
+   "exe_name": "FUN_0040bd60",
+   "size": 11,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040bd60(void)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bd60"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 135,
+   "offset": "0x21c",
+   "value": "0x0040bd50",
+   "exe_name": "RT_ReadPadBits",
+   "size": 5,
+   "callees": [
+    "RT_ReadPadBits"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void thunk_FUN_00408040(void)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00408040"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 136,
+   "offset": "0x220",
+   "value": "0x0040bd70",
+   "exe_name": "FUN_0040bd70",
+   "size": 11,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040bd70(void)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bd70"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 137,
+   "offset": "0x224",
+   "value": "0x00404b50",
+   "exe_name": "FUN_00404b50",
+   "size": 100,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c910",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_00404b50(uint param_1)",
+    "lines": 16,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404b50"
+    ],
+    "globals": [
+     "DAT_00615c90",
+     "DAT_00b9e85c",
+     "DAT_00b9e870"
+    ]
+   }
+  },
+  {
+   "slot": 138,
+   "offset": "0x228",
+   "value": "0x00410460",
+   "exe_name": "RT_FatalError",
+   "size": 101,
+   "callees": [
+    "FUN_00411d10",
+    "MessageBoxA",
+    "RT_Shutdown",
+    "SendNotifyMessageA"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void RT_FatalError(LPCSTR param_1)",
+    "lines": 17,
+    "strings": [
+     "s_Hercules_Error_0043a598"
+    ],
+    "named_calls": [
+     "MessageBoxA",
+     "SendNotifyMessageA"
+    ],
+    "fun_calls": [
+     "FUN_00405e90",
+     "FUN_00411d10"
+    ],
+    "globals": [
+     "DAT_00ba0200",
+     "DAT_00ba020c",
+     "DAT_00ba023c"
+    ]
+   }
+  },
+  {
+   "slot": 139,
+   "offset": "0x22c",
+   "value": "0x0040f3d0",
+   "exe_name": "AUD_CreateSfx",
+   "size": 826,
+   "callees": [
+    "FS_Close",
+    "FS_Open",
+    "FS_Read",
+    "FUN_00402410",
+    "FUN_0040f710",
+    "FUN_00410f40",
+    "RT_FatalError"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c920",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040f3d0(int **param_1)",
+    "lines": 141,
+    "strings": [
+     "s_PC_CreateSFX_1__0043a500",
+     "s_m__language_sonix_pc__ld_esf_0043a510"
+    ],
+    "named_calls": [
+     "CONCAT22",
+     "FS_Close",
+     "FS_Open",
+     "FS_Read",
+     "RT_FatalError"
+    ],
+    "fun_calls": [
+     "FUN_00402410",
+     "FUN_0040f3d0",
+     "FUN_0040f710",
+     "FUN_00410f40"
+    ],
+    "globals": [
+     "DAT_00435fe4",
+     "DAT_00a98a18",
+     "DAT_00a98ed8",
+     "DAT_00a99838",
+     "DAT_00a9983c",
+     "DAT_00a99840"
+    ]
+   }
+  },
+  {
+   "slot": 140,
+   "offset": "0x230",
+   "value": "0x0040f710",
+   "exe_name": "FUN_0040f710",
+   "size": 80,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c930",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040f710(uint param_1)",
+    "lines": 21,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040f710"
+    ],
+    "globals": [
+     "DAT_00b99908",
+     "DAT_00b9e450"
+    ]
+   }
+  },
+  {
+   "slot": 141,
+   "offset": "0x234",
+   "value": "0x00405750",
+   "exe_name": "FUN_00405750",
+   "size": 10,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c940",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00405750(undefined4 param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00405750"
+    ],
+    "globals": [
+     "DAT_0091c450"
+    ]
+   }
+  },
+  {
+   "slot": 142,
+   "offset": "0x238",
+   "value": "0x004104d0",
+   "exe_name": "RT_Quit",
+   "size": 67,
+   "callees": [
+    "FUN_00411d10",
+    "RT_Shutdown",
+    "SendNotifyMessageA"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c950",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_004104d0(void)",
+    "lines": 13,
+    "strings": [],
+    "named_calls": [
+     "SendNotifyMessageA"
+    ],
+    "fun_calls": [
+     "FUN_00405e90",
+     "FUN_004104d0",
+     "FUN_00411d10"
+    ],
+    "globals": [
+     "DAT_00ba0200",
+     "DAT_00ba023c"
+    ]
+   }
+  },
+  {
+   "slot": 143,
+   "offset": "0x23c",
+   "value": "0x004070c0",
+   "exe_name": "FUN_004070c0",
+   "size": 118,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c830",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fe70",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c960",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_004070c0(char param_1)",
+    "lines": 26,
+    "strings": [],
+    "named_calls": [
+     "CONCAT31"
+    ],
+    "fun_calls": [
+     "FUN_004070c0"
+    ],
+    "globals": [
+     "DAT_00436a0c",
+     "DAT_0091c488",
+     "DAT_00ba01f0",
+     "DAT_00ba0210",
+     "DAT_00ba0214"
+    ]
+   }
+  },
+  {
+   "slot": 144,
+   "offset": "0x240",
+   "value": "0x00404b10",
+   "exe_name": "FUN_00404b10",
+   "size": 51,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c970",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00404b10(int param_1,int param_2)",
+    "lines": 12,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404b10"
+    ],
+    "globals": [
+     "DAT_00b9e85c"
+    ]
+   }
+  },
+  {
+   "slot": 145,
+   "offset": "0x244",
+   "value": "0x00405760",
+   "exe_name": "GFX_LoadLevelPalette",
+   "size": 673,
+   "callees": [
+    "FS_Close",
+    "FS_Open",
+    "FS_Read",
+    "FS_Seek",
+    "FUN_00406780",
+    "FUN_004068c0",
+    "FUN_004069a0",
+    "FUN_00411420"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c840",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fe80",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c990",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00405760(undefined4 param_1,int param_2)",
+    "lines": 229,
+    "strings": [
+     "s_o__cyclops_map_psx_bin_0043666c",
+     "s_o__forest_map_psx_bin_0043672c",
+     "s_o__gauntlet_map_psx_bin_00436684",
+     "s_o__hydra_map_psx_bin_004366fc",
+     "s_o__medusa_map_psx_bin_004366e4",
+     "s_o__thebes_map_psx_bin_00436714"
+    ],
+    "named_calls": [
+     "FS_Close",
+     "FS_Open",
+     "FS_Read",
+     "FS_Seek"
+    ],
+    "fun_calls": [
+     "FUN_00405760",
+     "FUN_00406780",
+     "FUN_004068c0",
+     "FUN_004069a0",
+     "FUN_00411420"
+    ],
+    "globals": [
+     "DAT_00435fe4",
+     "DAT_00436668"
+    ]
+   }
+  },
+  {
+   "slot": 146,
+   "offset": "0x248",
+   "value": "0x00404bc0",
+   "exe_name": "FUN_00404bc0",
+   "size": 32,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c9b0",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00404bc0(int param_1)",
+    "lines": 9,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00404bc0"
+    ],
+    "globals": [
+     "DAT_00b9e860",
+     "DAT_00b9e864"
+    ]
+   }
+  },
+  {
+   "slot": 147,
+   "offset": "0x24c",
+   "value": "0x00407f10",
+   "exe_name": "FUN_00407f10",
+   "size": 29,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c860",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fea0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c9c0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_00407f10(int param_1,int param_2)",
+    "lines": 11,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00407f10"
+    ],
+    "globals": [
+     "DAT_0096e5d0"
+    ]
+   }
+  },
+  {
+   "slot": 148,
+   "offset": "0x250",
+   "value": "0x00405450",
+   "exe_name": "FUN_00405450",
+   "size": 741,
+   "callees": [
+    "AUD_CdStop",
+    "DispatchMessageA",
+    "FUN_00401f60",
+    "FUN_00403140",
+    "FUN_00403680",
+    "FUN_00403770",
+    "FUN_004037a0",
+    "FUN_00405350",
+    "FUN_00405a50",
+    "FUN_00406780",
+    "FUN_00406810",
+    "FUN_004069a0",
+    "FUN_00406ec0",
+    "FUN_00406ff0",
+    "FUN_00407140",
+    "FUN_0040fb10",
+    "FUN_00410f40",
+    "GFX_Present",
+    "GFX_SwitchDisplayMode",
+    "PeekMessageA",
+    "PostMessageA",
+    "RT_PollInput",
+    "TranslateMessage",
+    "WaitMessage"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000c9e0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "int FUN_00405450(undefined4 param_1,undefined4 param_2)",
+    "lines": 137,
+    "strings": [
+     "s_e__data__d_etv_00436658"
+    ],
+    "named_calls": [
+     "DispatchMessageA",
+     "PeekMessageA",
+     "PostMessageA",
+     "TranslateMessage",
+     "WaitMessage"
+    ],
+    "fun_calls": [
+     "FUN_00401f60",
+     "FUN_00403140",
+     "FUN_00403680",
+     "FUN_00403770",
+     "FUN_004037a0",
+     "FUN_00405350",
+     "FUN_00405450",
+     "FUN_00405a50"
+    ],
+    "globals": [
+     "DAT_0043a590",
+     "DAT_0091c44c",
+     "DAT_00b9e440",
+     "DAT_00b9e866",
+     "DAT_00ba01f0",
+     "DAT_00ba0200"
+    ]
+   }
+  },
+  {
+   "slot": 149,
+   "offset": "0x254",
+   "value": "0x00406440",
+   "exe_name": "FUN_00406440",
+   "size": 236,
+   "callees": [
+    "FUN_00410f40",
+    "GetDC",
+    "ReleaseDC",
+    "TextOutA"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_00406440(int param_1,int param_2,undefined4 param_3)",
+    "lines": 42,
+    "strings": [
+     "s___c___s_00436a10"
+    ],
+    "named_calls": [
+     "GetDC",
+     "ReleaseDC",
+     "TextOutA"
+    ],
+    "fun_calls": [
+     "FUN_00406440",
+     "FUN_00410f40"
+    ],
+    "globals": [
+     "DAT_0096e3ec",
+     "DAT_0096e408",
+     "DAT_00ba0200",
+     "DAT_00ba020c"
+    ]
+   }
+  },
+  {
+   "slot": 150,
+   "offset": "0x258",
+   "value": "0x0040bcf0",
+   "exe_name": "RT_PollInput",
+   "size": 59,
+   "callees": [
+    "FUN_0040bdb0",
+    "FUN_0040be40",
+    "FUN_0040f820",
+    "RT_ReadPadBits"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c880",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fec0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000ca00",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040bcf0(void)",
+    "lines": 14,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00408040",
+     "FUN_0040bcf0",
+     "FUN_0040bdb0",
+     "FUN_0040be40",
+     "FUN_0040f820"
+    ],
+    "globals": [
+     "DAT_00a8e78c"
+    ]
+   }
+  },
+  {
+   "slot": 151,
+   "offset": "0x25c",
+   "value": "0x00405740",
+   "exe_name": "FUN_00405740",
+   "size": 15,
+   "callees": [
+    "FUN_00401ff0",
+    "FUN_0040ff40"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_00405740(void)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00401ff0",
+     "FUN_00405740",
+     "FUN_0040ff40"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 152,
+   "offset": "0x260",
+   "value": "0x0040a350",
+   "exe_name": "RT_PCclose",
+   "size": 74,
+   "callees": [
+    "FS_Close"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c890",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fed0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a350(int param_1)",
+    "lines": 14,
+    "strings": [],
+    "named_calls": [
+     "FS_Close"
+    ],
+    "fun_calls": [
+     "FUN_0040a350"
+    ],
+    "globals": [
+     "DAT_0096e638",
+     "DAT_0096e63c"
+    ]
+   }
+  },
+  {
+   "slot": 153,
+   "offset": "0x264",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 154,
+   "offset": "0x268",
+   "value": "0x0040a1a0",
+   "exe_name": "FUN_0040a1a0",
+   "size": 98,
+   "callees": [
+    "RT_PCclose"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a1a0(void)",
+    "lines": 25,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a1a0",
+     "FUN_0040a350"
+    ],
+    "globals": [
+     "DAT_0043744c",
+     "DAT_0096e638",
+     "DAT_0096e640",
+     "DAT_0096e644"
+    ]
+   }
+  },
+  {
+   "slot": 155,
+   "offset": "0x26c",
+   "value": "0x0040a280",
+   "exe_name": "RT_PClseek",
+   "size": 102,
+   "callees": [
+    "FS_Seek",
+    "FS_Tell",
+    "RT_FatalError"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040a280(int param_1,undefined4 param_2,int param_3)",
+    "lines": 14,
+    "strings": [
+     "s_PClseek_1__00437468"
+    ],
+    "named_calls": [
+     "FS_Seek",
+     "FS_Tell",
+     "RT_FatalError"
+    ],
+    "fun_calls": [
+     "FUN_0040a280"
+    ],
+    "globals": [
+     "DAT_0096e638",
+     "DAT_0096e63c"
+    ]
+   }
+  },
+  {
+   "slot": 156,
+   "offset": "0x270",
+   "value": "0x0040a210",
+   "exe_name": "RT_PCopen",
+   "size": 109,
+   "callees": [
+    "FS_Open",
+    "RT_FatalError"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c8a0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fee0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "int FUN_0040a210(undefined4 param_1,int param_2)",
+    "lines": 23,
+    "strings": [
+     "s_PCopen_1__0043745c",
+     "s_PCopen_2__00437450"
+    ],
+    "named_calls": [
+     "FS_Open",
+     "RT_FatalError"
+    ],
+    "fun_calls": [
+     "FUN_0040a210"
+    ],
+    "globals": [
+     "DAT_00435fe4",
+     "DAT_0096e638",
+     "DAT_0096e640"
+    ]
+   }
+  },
+  {
+   "slot": 157,
+   "offset": "0x274",
+   "value": "0x0040a2f0",
+   "exe_name": "RT_PCread",
+   "size": 73,
+   "callees": [
+    "FS_Read",
+    "RT_FatalError"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c8c0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001ff00",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a2f0(int param_1,undefined4 param_2,undefined4 param_3)",
+    "lines": 8,
+    "strings": [
+     "s_PCread_1__00437474"
+    ],
+    "named_calls": [
+     "FS_Read",
+     "RT_FatalError"
+    ],
+    "fun_calls": [
+     "FUN_0040a2f0"
+    ],
+    "globals": [
+     "DAT_0096e638",
+     "DAT_0096e63c"
+    ]
+   }
+  },
+  {
+   "slot": 158,
+   "offset": "0x278",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 159,
+   "offset": "0x27c",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c8e0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001ff20",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000ca10",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 160,
+   "offset": "0x280",
+   "value": "0x0040a4a0",
+   "exe_name": "FUN_0040a4a0",
+   "size": 23,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c8f0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001ff30",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000ca20",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a4a0(undefined4 *param_1)",
+    "lines": 12,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a4a0"
+    ],
+    "globals": [
+     "DAT_0096e680"
+    ]
+   }
+  },
+  {
+   "slot": 161,
+   "offset": "0x284",
+   "value": "0x0040bdf0",
+   "exe_name": "FUN_0040bdf0",
+   "size": 23,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000ca30",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040bdf0(void)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bdf0"
+    ],
+    "globals": [
+     "DAT_00a8e780",
+     "DAT_00a8e784",
+     "DAT_00a8e788"
+    ]
+   }
+  },
+  {
+   "slot": 162,
+   "offset": "0x288",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 163,
+   "offset": "0x28c",
+   "value": "0x0040b9e0",
+   "exe_name": "FUN_0040b9e0",
+   "size": 280,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c900",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b9e0(short *param_1,undefined2 *param_2)",
+    "lines": 28,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b9e0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 164,
+   "offset": "0x290",
+   "value": "0x0040bb00",
+   "exe_name": "FUN_0040bb00",
+   "size": 300,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c920",
+      "callers": 5
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001ff40",
+      "callers": 4
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000ca40",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040bb00(short *param_1,undefined2 *param_2)",
+    "lines": 28,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bb00"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 165,
+   "offset": "0x294",
+   "value": "0x0040bc30",
+   "exe_name": "FUN_0040bc30",
+   "size": 159,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c940",
+      "callers": 5
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001ff60",
+      "callers": 4
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000ca60",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040bc30(short *param_1,int *param_2)",
+    "lines": 13,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bc30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 166,
+   "offset": "0x298",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000ca80",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 167,
+   "offset": "0x29c",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cab0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 168,
+   "offset": "0x2a0",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cae0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 169,
+   "offset": "0x2a4",
+   "value": "0x0040a5f0",
+   "exe_name": "FUN_0040a5f0",
+   "size": 24,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c960",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001ff80",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a5f0(int param_1,undefined4 *param_2)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a5f0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 170,
+   "offset": "0x2a8",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 171,
+   "offset": "0x2ac",
+   "value": "0x0040a540",
+   "exe_name": "FUN_0040a540",
+   "size": 23,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c980",
+      "callers": 3
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001ffa0",
+      "callers": 3
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a540(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,",
+    "lines": 8,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a540"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 172,
+   "offset": "0x2b0",
+   "value": "0x0040a610",
+   "exe_name": "FUN_0040a610",
+   "size": 42,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c9b0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001ffd0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a610(int param_1,undefined4 *param_2,undefined2 param_3,undefined2 param_4)",
+    "lines": 9,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a610"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 173,
+   "offset": "0x2b4",
+   "value": "0x0040a4c0",
+   "exe_name": "FUN_0040a4c0",
+   "size": 128,
+   "callees": [
+    "RT_StubZero"
+   ],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000caf0",
+      "callers": 3
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a4c0(int param_1,int param_2,int param_3,uint param_4)",
+    "lines": 18,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340",
+     "FUN_0040a4c0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 174,
+   "offset": "0x2b8",
+   "value": "0x0040b970",
+   "exe_name": "FUN_0040b970",
+   "size": 20,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c9d0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_1001fff0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cb10",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b970(undefined4 param_1,undefined4 param_2)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b970"
+    ],
+    "globals": [
+     "DAT_00a8e74c",
+     "DAT_00a8e750"
+    ]
+   }
+  },
+  {
+   "slot": 175,
+   "offset": "0x2bc",
+   "value": "0x0040b990",
+   "exe_name": "FUN_0040b990",
+   "size": 10,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002c9f0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020010",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cb30",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040b990(undefined4 param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b990"
+    ],
+    "globals": [
+     "DAT_00a8e754"
+    ]
+   }
+  },
+  {
+   "slot": 176,
+   "offset": "0x2c0",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 177,
+   "offset": "0x2c4",
+   "value": "0x0040a560",
+   "exe_name": "FUN_0040a560",
+   "size": 9,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040a560(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a560"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 178,
+   "offset": "0x2c8",
+   "value": "0x0040a570",
+   "exe_name": "FUN_0040a570",
+   "size": 9,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cb40",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a570(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a570"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 179,
+   "offset": "0x2cc",
+   "value": "0x0040a580",
+   "exe_name": "FUN_0040a580",
+   "size": 9,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002ca00",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020020",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a580(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a580"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 180,
+   "offset": "0x2d0",
+   "value": "0x0040a590",
+   "exe_name": "FUN_0040a590",
+   "size": 9,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002ca10",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a590(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a590"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 181,
+   "offset": "0x2d4",
+   "value": "0x0040a5a0",
+   "exe_name": "FUN_0040a5a0",
+   "size": 9,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040a5a0(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a5a0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 182,
+   "offset": "0x2d8",
+   "value": "0x0040a5b0",
+   "exe_name": "FUN_0040a5b0",
+   "size": 9,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040a5b0(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a5b0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 183,
+   "offset": "0x2dc",
+   "value": "0x0040a5c0",
+   "exe_name": "FUN_0040a5c0",
+   "size": 9,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040a5c0(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a5c0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 184,
+   "offset": "0x2e0",
+   "value": "0x0040a5d0",
+   "exe_name": "FUN_0040a5d0",
+   "size": 9,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cb50",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a5d0(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a5d0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 185,
+   "offset": "0x2e4",
+   "value": "0x0040b9a0",
+   "exe_name": "FUN_0040b9a0",
+   "size": 14,
+   "callees": [
+    "FUN_0040b880"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040b9a0(undefined4 param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b880",
+     "FUN_0040b9a0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 186,
+   "offset": "0x2e8",
+   "value": "0x0040a480",
+   "exe_name": "FUN_0040a480",
+   "size": 29,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002ca20",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040a480(int param_1,int param_2)",
+    "lines": 9,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a480"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 187,
+   "offset": "0x2ec",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002ca40",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020030",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cb60",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 188,
+   "offset": "0x2f0",
+   "value": "0x0040a5e0",
+   "exe_name": "FUN_0040a5e0",
+   "size": 9,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040a5e0(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a5e0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 189,
+   "offset": "0x2f4",
+   "value": "0x0040a3e0",
+   "exe_name": "FUN_0040a3e0",
+   "size": 9,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040a3e0(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a3e0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 190,
+   "offset": "0x2f8",
+   "value": "0x0040b9b0",
+   "exe_name": "FUN_0040b9b0",
+   "size": 14,
+   "callees": [
+    "FUN_0040b8f0"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040b9b0(undefined4 param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b8f0",
+     "FUN_0040b9b0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 191,
+   "offset": "0x2fc",
+   "value": "0x0040bce0",
+   "exe_name": "FUN_0040bce0",
+   "size": 5,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040bce0(undefined4 param_1)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bce0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 192,
+   "offset": "0x300",
+   "value": "0x0040c0f0",
+   "exe_name": "FUN_0040c0f0",
+   "size": 14,
+   "callees": [
+    "FUN_0040f8d0"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002ca60",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020050",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cb70",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040c0f0(undefined4 param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c0f0",
+     "FUN_0040f8d0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 193,
+   "offset": "0x304",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 194,
+   "offset": "0x308",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 195,
+   "offset": "0x30c",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 196,
+   "offset": "0x310",
+   "value": "0x0040c0e0",
+   "exe_name": "FUN_0040c0e0",
+   "size": 11,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002ca70",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020060",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cb80",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040c0e0(undefined4 param_1,undefined4 *param_2)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c0e0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 197,
+   "offset": "0x314",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 198,
+   "offset": "0x318",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 199,
+   "offset": "0x31c",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 200,
+   "offset": "0x320",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 201,
+   "offset": "0x324",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002ca90",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020080",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 202,
+   "offset": "0x328",
+   "value": "0x0040c100",
+   "exe_name": "FUN_0040c100",
+   "size": 56,
+   "callees": [
+    "FUN_0040ff40"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040c100(void)",
+    "lines": 19,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c100",
+     "FUN_0040ff40"
+    ],
+    "globals": [
+     "DAT_0043a480",
+     "DAT_0043a484",
+     "DAT_00a8e790",
+     "DAT_00a8e890"
+    ]
+   }
+  },
+  {
+   "slot": 203,
+   "offset": "0x32c",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 204,
+   "offset": "0x330",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002caa0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020090",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cba0",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 205,
+   "offset": "0x334",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 206,
+   "offset": "0x338",
+   "value": "0x0040c250",
+   "exe_name": "FUN_0040c250",
+   "size": 38,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "int FUN_0040c250(undefined4 param_1)",
+    "lines": 14,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c250"
+    ],
+    "globals": [
+     "DAT_00a8e890"
+    ]
+   }
+  },
+  {
+   "slot": 207,
+   "offset": "0x33c",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 208,
+   "offset": "0x340",
+   "value": "0x0040c280",
+   "exe_name": "FUN_0040c280",
+   "size": 41,
+   "callees": [
+    "FUN_00409e60"
+   ],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040c280(short param_1)",
+    "lines": 9,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_00409e60",
+     "FUN_0040c280"
+    ],
+    "globals": [
+     "DAT_00a8e890"
+    ]
+   }
+  },
+  {
+   "slot": 209,
+   "offset": "0x344",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 210,
+   "offset": "0x348",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 211,
+   "offset": "0x34c",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 212,
+   "offset": "0x350",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 213,
+   "offset": "0x354",
+   "value": "0x0040c2b0",
+   "exe_name": "AUD_CdStop",
+   "size": 5,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void thunk_FUN_00409e10(void)",
+    "lines": 16,
+    "strings": [
+     "s_stop_cdaudio_wait_00437394"
+    ],
+    "named_calls": [
+     "mciSendStringA"
+    ],
+    "fun_calls": [
+     "FUN_00409c30"
+    ],
+    "globals": [
+     "DAT_0096e61c",
+     "DAT_0096e620",
+     "DAT_0096e624",
+     "DAT_0096e628",
+     "DAT_0096e62c"
+    ]
+   }
+  },
+  {
+   "slot": 214,
+   "offset": "0x358",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 215,
+   "offset": "0x35c",
+   "value": "0x0040c200",
+   "exe_name": "FUN_0040c200",
+   "size": 24,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cab0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_100200a0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cbb0",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040c200(undefined2 param_1,undefined2 param_2)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c200"
+    ],
+    "globals": [
+     "DAT_0043a480",
+     "DAT_0043a484"
+    ]
+   }
+  },
+  {
+   "slot": 216,
+   "offset": "0x360",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 217,
+   "offset": "0x364",
+   "value": "0x0040c2d0",
+   "exe_name": "FUN_0040c2d0",
+   "size": 16,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040c2d0(undefined4 param_1)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c2d0"
+    ],
+    "globals": [
+     "DAT_00a8e90c"
+    ]
+   }
+  },
+  {
+   "slot": 218,
+   "offset": "0x368",
+   "value": "0x0040c220",
+   "exe_name": "FUN_0040c220",
+   "size": 18,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cad0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_100200c0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040c220(int param_1)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c220"
+    ],
+    "globals": [
+     "DAT_00a8e910"
+    ]
+   }
+  },
+  {
+   "slot": 219,
+   "offset": "0x36c",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cae0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_100200d0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 220,
+   "offset": "0x370",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002caf0",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_100200e0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cbd0",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 221,
+   "offset": "0x374",
+   "value": "0x0040c1c0",
+   "exe_name": "FUN_0040c1c0",
+   "size": 53,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cb00",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_100200f0",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cbe0",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_0040c1c0(short param_1,undefined2 *param_2,undefined2 *param_3)",
+    "lines": 10,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c1c0"
+    ],
+    "globals": [
+     "DAT_00a8e7d0",
+     "DAT_00a8e830"
+    ]
+   }
+  },
+  {
+   "slot": 222,
+   "offset": "0x378",
+   "value": "0x0040be60",
+   "exe_name": "FUN_0040be60",
+   "size": 85,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cb20",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_0040be60(short param_1,short param_2,undefined4 *param_3)",
+    "lines": 13,
+    "strings": [],
+    "named_calls": [
+     "CONCAT22"
+    ],
+    "fun_calls": [
+     "FUN_0040be60"
+    ],
+    "globals": [
+     "DAT_00a8e790"
+    ]
+   }
+  },
+  {
+   "slot": 223,
+   "offset": "0x37c",
+   "value": "0x0040bec0",
+   "exe_name": "FUN_0040bec0",
+   "size": 85,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cb40",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "int FUN_0040bec0(short param_1,short param_2,undefined4 param_3,undefined4 *param_4)",
+    "lines": 15,
+    "strings": [],
+    "named_calls": [
+     "CONCAT22"
+    ],
+    "fun_calls": [
+     "FUN_0040bec0"
+    ],
+    "globals": [
+     "DAT_00a8e790"
+    ]
+   }
+  },
+  {
+   "slot": 224,
+   "offset": "0x380",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cb60",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 225,
+   "offset": "0x384",
+   "value": "0x0040c140",
+   "exe_name": "FUN_0040c140",
+   "size": 19,
+   "callees": [
+    "FUN_0040fa10"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cb70",
+      "callers": 6
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020110",
+      "callers": 6
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cc00",
+      "callers": 3
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_0040c140(undefined4 param_1)",
+    "lines": 6,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c140",
+     "FUN_0040fa10"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 226,
+   "offset": "0x388",
+   "value": "0x0040bf20",
+   "exe_name": "FUN_0040bf20",
+   "size": 189,
+   "callees": [
+    "FUN_0040c160",
+    "FUN_0040f940"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cb80",
+      "callers": 2
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020120",
+      "callers": 2
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cc10",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_0040bf20(short param_1,short param_2)",
+    "lines": 26,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bf20",
+     "FUN_0040c160",
+     "FUN_0040f940"
+    ],
+    "globals": [
+     "DAT_00a8e790"
+    ]
+   }
+  },
+  {
+   "slot": 227,
+   "offset": "0x38c",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 228,
+   "offset": "0x390",
+   "value": "0x0040c160",
+   "exe_name": "FUN_0040c160",
+   "size": 91,
+   "callees": [
+    "FUN_0040fbf0"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cbb0",
+      "callers": 1
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020150",
+      "callers": 1
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cc40",
+      "callers": 0
+     }
+    ]
+   },
+   "hints": {
+    "sig": "uint FUN_0040c160(undefined4 param_1,short param_2,short param_3)",
+    "lines": 15,
+    "strings": [],
+    "named_calls": [
+     "CONCAT22"
+    ],
+    "fun_calls": [
+     "FUN_0040c160",
+     "FUN_0040fbf0"
+    ],
+    "globals": [
+     "DAT_0043a480",
+     "DAT_0043a484",
+     "DAT_00a8e7d0",
+     "DAT_00a8e830"
+    ]
+   }
+  },
+  {
+   "slot": 229,
+   "offset": "0x394",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 230,
+   "offset": "0x398",
+   "value": "0x0040c2c0",
+   "exe_name": "FUN_0040c2c0",
+   "size": 4,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined2 FUN_0040c2c0(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c2c0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 231,
+   "offset": "0x39c",
+   "value": "0x0040bfe0",
+   "exe_name": "FUN_0040bfe0",
+   "size": 90,
+   "callees": [
+    "FUN_0040f710"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cbd0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "void FUN_0040bfe0(short param_1)",
+    "lines": 16,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bfe0",
+     "FUN_0040f710"
+    ],
+    "globals": [
+     "DAT_00a8e790"
+    ]
+   }
+  },
+  {
+   "slot": 232,
+   "offset": "0x3a0",
+   "value": "0x0040c040",
+   "exe_name": "FUN_0040c040",
+   "size": 71,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cbe0",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "short FUN_0040c040(undefined4 param_1,short param_2)",
+    "lines": 18,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c040"
+    ],
+    "globals": [
+     "DAT_00a8e790"
+    ]
+   }
+  },
+  {
+   "slot": 233,
+   "offset": "0x3a4",
+   "value": "0x0040c090",
+   "exe_name": "FUN_0040c090",
+   "size": 73,
+   "callees": [
+    "AUD_CreateSfx"
+   ],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cc00",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040c090(undefined4 param_1,short param_2)",
+    "lines": 21,
+    "strings": [],
+    "named_calls": [
+     "CONCAT22"
+    ],
+    "fun_calls": [
+     "FUN_0040c090",
+     "FUN_0040f3d0"
+    ],
+    "globals": [
+     "DAT_00a8e790"
+    ]
+   }
+  },
+  {
+   "slot": 234,
+   "offset": "0x3a8",
+   "value": "0x0040c240",
+   "exe_name": "FUN_0040c240",
+   "size": 5,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cc20",
+      "callers": 1
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined2 FUN_0040c240(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040c240"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 235,
+   "offset": "0x3ac",
+   "value": "0x0040bd40",
+   "exe_name": "RT_StubOne",
+   "size": 6,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040bd40(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bd40"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 236,
+   "offset": "0x3b0",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 237,
+   "offset": "0x3b4",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 238,
+   "offset": "0x3b8",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 239,
+   "offset": "0x3bc",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 240,
+   "offset": "0x3c0",
+   "value": "0x0040bde0",
+   "exe_name": "FUN_0040bde0",
+   "size": 13,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "undefined4 FUN_0040bde0(void)",
+    "lines": 5,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bde0"
+    ],
+    "globals": [
+     "DAT_00a8e788"
+    ]
+   }
+  },
+  {
+   "slot": 241,
+   "offset": "0x3c4",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 242,
+   "offset": "0x3c8",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 243,
+   "offset": "0x3cc",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 244,
+   "offset": "0x3d0",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 245,
+   "offset": "0x3d4",
+   "value": "0x0040be30",
+   "exe_name": "RT_StubVoid",
+   "size": 1,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040be30(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040be30"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 246,
+   "offset": "0x3d8",
+   "value": "0x0040a340",
+   "exe_name": "RT_StubZero",
+   "size": 3,
+   "callees": [],
+   "dll": {
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cc60",
+      "callers": 4
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040a340(void)",
+    "lines": 4,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040a340"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 247,
+   "offset": "0x3dc",
+   "value": "0x0040b9c0",
+   "exe_name": "FUN_0040b9c0",
+   "size": 26,
+   "callees": [],
+   "dll": {},
+   "hints": {
+    "sig": "void FUN_0040b9c0(int param_1,undefined4 *param_2)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040b9c0"
+    ],
+    "globals": []
+   }
+  },
+  {
+   "slot": 248,
+   "offset": "0x3e0",
+   "value": "0x0040ac10",
+   "exe_name": "FUN_0040ac10",
+   "size": 16,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cc30",
+      "callers": 5
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020170",
+      "callers": 4
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cc70",
+      "callers": 4
+     }
+    ]
+   },
+   "hints": {
+    "sig": "int FUN_0040ac10(void)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040ac10"
+    ],
+    "globals": [
+     "DAT_00a8e700"
+    ]
+   }
+  },
+  {
+   "slot": 249,
+   "offset": "0x3e4",
+   "value": "0x0040bdd0",
+   "exe_name": "FUN_0040bdd0",
+   "size": 16,
+   "callees": [],
+   "dll": {
+    "ENG1.DLL": [
+     {
+      "from": "FUN_1002cc40",
+      "callers": 4
+     }
+    ],
+    "ENG3.DLL": [
+     {
+      "from": "FUN_10020180",
+      "callers": 4
+     }
+    ],
+    "TITLE.DLL": [
+     {
+      "from": "FUN_1000cc80",
+      "callers": 2
+     }
+    ]
+   },
+   "hints": {
+    "sig": "undefined4 FUN_0040bdd0(undefined4 param_1)",
+    "lines": 7,
+    "strings": [],
+    "named_calls": [],
+    "fun_calls": [
+     "FUN_0040bdd0"
+    ],
+    "globals": [
+     "DAT_00a8e784"
+    ]
+   }
+  }
+ ]
+}

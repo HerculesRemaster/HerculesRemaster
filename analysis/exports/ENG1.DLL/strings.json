@@ -1,0 +1,1847 @@
+[
+ {
+  "address": "10021f60",
+  "value": "QSUVWj",
+  "length": 6
+ },
+ {
+  "address": "1004c000",
+  "value": "IsTNT",
+  "length": 5
+ },
+ {
+  "address": "1004c008",
+  "value": "kernel32.dll",
+  "length": 12
+ },
+ {
+  "address": "1004c076",
+  "value": "null)",
+  "length": 5
+ },
+ {
+  "address": "1004c085",
+  "value": "null)",
+  "length": 5
+ },
+ {
+  "address": "1004c08c",
+  "value": "runtime error ",
+  "length": 14
+ },
+ {
+  "address": "1004c0a0",
+  "value": "TLOSS error\r\n",
+  "length": 13
+ },
+ {
+  "address": "1004c0b0",
+  "value": "SING error\r\n",
+  "length": 12
+ },
+ {
+  "address": "1004c0c0",
+  "value": "DOMAIN error\r\n",
+  "length": 14
+ },
+ {
+  "address": "1004c0d0",
+  "value": "R6028\r\n- unable to initialize heap\r\n",
+  "length": 36
+ },
+ {
+  "address": "1004c0f8",
+  "value": "R6027\r\n- not enough space for lowio initialization\r\n",
+  "length": 52
+ },
+ {
+  "address": "1004c130",
+  "value": "R6026\r\n- not enough space for stdio initialization\r\n",
+  "length": 52
+ },
+ {
+  "address": "1004c168",
+  "value": "R6025\r\n- pure virtual function call\r\n",
+  "length": 37
+ },
+ {
+  "address": "1004c190",
+  "value": "R6024\r\n- not enough space for _onexit/atexit table\r\n",
+  "length": 52
+ },
+ {
+  "address": "1004c1c8",
+  "value": "R6019\r\n- unable to open console device\r\n",
+  "length": 40
+ },
+ {
+  "address": "1004c1f4",
+  "value": "R6018\r\n- unexpected heap error\r\n",
+  "length": 32
+ },
+ {
+  "address": "1004c218",
+  "value": "R6017\r\n- unexpected multithread lock error\r\n",
+  "length": 44
+ },
+ {
+  "address": "1004c248",
+  "value": "R6016\r\n- not enough space for thread data\r\n",
+  "length": 43
+ },
+ {
+  "address": "1004c274",
+  "value": "\r\nabnormal program termination\r\n",
+  "length": 32
+ },
+ {
+  "address": "1004c298",
+  "value": "R6009\r\n- not enough space for environment\r\n",
+  "length": 43
+ },
+ {
+  "address": "1004c2c4",
+  "value": "R6008\r\n- not enough space for arguments\r\n",
+  "length": 41
+ },
+ {
+  "address": "1004c2f0",
+  "value": "R6002\r\n- floating point not loaded\r\n",
+  "length": 36
+ },
+ {
+  "address": "1004c318",
+  "value": "Microsoft Visual C++ Runtime Library",
+  "length": 36
+ },
+ {
+  "address": "1004c344",
+  "value": "Runtime Error!\n\nProgram: ",
+  "length": 25
+ },
+ {
+  "address": "1004c364",
+  "value": "<program name unknown>",
+  "length": 22
+ },
+ {
+  "address": "1004c37c",
+  "value": "GetLastActivePopup",
+  "length": 18
+ },
+ {
+  "address": "1004c390",
+  "value": "GetActiveWindow",
+  "length": 15
+ },
+ {
+  "address": "1004c3a0",
+  "value": "MessageBoxA",
+  "length": 11
+ },
+ {
+  "address": "1004c3ac",
+  "value": "user32.dll",
+  "length": 10
+ },
+ {
+  "address": "1004c3b8",
+  "value": "LC_TIME",
+  "length": 7
+ },
+ {
+  "address": "1004c3c0",
+  "value": "LC_NUMERIC",
+  "length": 10
+ },
+ {
+  "address": "1004c3cc",
+  "value": "LC_MONETARY",
+  "length": 11
+ },
+ {
+  "address": "1004c3d8",
+  "value": "LC_CTYPE",
+  "length": 8
+ },
+ {
+  "address": "1004c3e4",
+  "value": "LC_COLLATE",
+  "length": 10
+ },
+ {
+  "address": "1004c3f0",
+  "value": "LC_ALL",
+  "length": 6
+ },
+ {
+  "address": "1004c3fc",
+  "value": "united-states",
+  "length": 13
+ },
+ {
+  "address": "1004c40c",
+  "value": "united-kingdom",
+  "length": 14
+ },
+ {
+  "address": "1004c41c",
+  "value": "united states",
+  "length": 13
+ },
+ {
+  "address": "1004c42c",
+  "value": "united kingdom",
+  "length": 14
+ },
+ {
+  "address": "1004c440",
+  "value": "turkey",
+  "length": 6
+ },
+ {
+  "address": "1004c454",
+  "value": "switzerland",
+  "length": 11
+ },
+ {
+  "address": "1004c460",
+  "value": "sweden",
+  "length": 6
+ },
+ {
+  "address": "1004c470",
+  "value": "spain",
+  "length": 5
+ },
+ {
+  "address": "1004c478",
+  "value": "south-korea",
+  "length": 11
+ },
+ {
+  "address": "1004c484",
+  "value": "south korea",
+  "length": 11
+ },
+ {
+  "address": "1004c494",
+  "value": "singapore",
+  "length": 9
+ },
+ {
+  "address": "1004c4a0",
+  "value": "russia",
+  "length": 6
+ },
+ {
+  "address": "1004c4ac",
+  "value": "pr-china",
+  "length": 8
+ },
+ {
+  "address": "1004c4b8",
+  "value": "pr china",
+  "length": 8
+ },
+ {
+  "address": "1004c4c4",
+  "value": "portugal",
+  "length": 8
+ },
+ {
+  "address": "1004c4d0",
+  "value": "poland",
+  "length": 6
+ },
+ {
+  "address": "1004c4e4",
+  "value": "norway",
+  "length": 6
+ },
+ {
+  "address": "1004c4ec",
+  "value": "new-zealand",
+  "length": 11
+ },
+ {
+  "address": "1004c4f8",
+  "value": "new zealand",
+  "length": 11
+ },
+ {
+  "address": "1004c504",
+  "value": "netherlands",
+  "length": 11
+ },
+ {
+  "address": "1004c510",
+  "value": "mexico",
+  "length": 6
+ },
+ {
+  "address": "1004c51c",
+  "value": "korea",
+  "length": 5
+ },
+ {
+  "address": "1004c524",
+  "value": "japan",
+  "length": 5
+ },
+ {
+  "address": "1004c52c",
+  "value": "italy",
+  "length": 5
+ },
+ {
+  "address": "1004c538",
+  "value": "ireland",
+  "length": 7
+ },
+ {
+  "address": "1004c540",
+  "value": "iceland",
+  "length": 7
+ },
+ {
+  "address": "1004c548",
+  "value": "hungary",
+  "length": 7
+ },
+ {
+  "address": "1004c550",
+  "value": "hong-kong",
+  "length": 9
+ },
+ {
+  "address": "1004c55c",
+  "value": "hong kong",
+  "length": 9
+ },
+ {
+  "address": "1004c568",
+  "value": "holland",
+  "length": 7
+ },
+ {
+  "address": "1004c574",
+  "value": "greece",
+  "length": 6
+ },
+ {
+  "address": "1004c57c",
+  "value": "great britain",
+  "length": 13
+ },
+ {
+  "address": "1004c590",
+  "value": "germany",
+  "length": 7
+ },
+ {
+  "address": "1004c59c",
+  "value": "france",
+  "length": 6
+ },
+ {
+  "address": "1004c5a4",
+  "value": "finland",
+  "length": 7
+ },
+ {
+  "address": "1004c5ac",
+  "value": "england",
+  "length": 7
+ },
+ {
+  "address": "1004c5b8",
+  "value": "denmark",
+  "length": 7
+ },
+ {
+  "address": "1004c5c8",
+  "value": "china",
+  "length": 5
+ },
+ {
+  "address": "1004c5d4",
+  "value": "canada",
+  "length": 6
+ },
+ {
+  "address": "1004c5e0",
+  "value": "britain",
+  "length": 7
+ },
+ {
+  "address": "1004c5f4",
+  "value": "belgium",
+  "length": 7
+ },
+ {
+  "address": "1004c604",
+  "value": "austria",
+  "length": 7
+ },
+ {
+  "address": "1004c60c",
+  "value": "australia",
+  "length": 9
+ },
+ {
+  "address": "1004c61c",
+  "value": "america",
+  "length": 7
+ },
+ {
+  "address": "1004c630",
+  "value": "turkish",
+  "length": 7
+ },
+ {
+  "address": "1004c63c",
+  "value": "swiss",
+  "length": 5
+ },
+ {
+  "address": "1004c644",
+  "value": "swedish",
+  "length": 7
+ },
+ {
+  "address": "1004c650",
+  "value": "spanish-modern",
+  "length": 14
+ },
+ {
+  "address": "1004c660",
+  "value": "spanish-mexican",
+  "length": 15
+ },
+ {
+  "address": "1004c670",
+  "value": "spanish",
+  "length": 7
+ },
+ {
+  "address": "1004c684",
+  "value": "russian",
+  "length": 7
+ },
+ {
+  "address": "1004c698",
+  "value": "portuguese-brazilian",
+  "length": 20
+ },
+ {
+  "address": "1004c6b0",
+  "value": "portuguese",
+  "length": 10
+ },
+ {
+  "address": "1004c6bc",
+  "value": "polish",
+  "length": 6
+ },
+ {
+  "address": "1004c6c8",
+  "value": "norwegian-nynorsk",
+  "length": 17
+ },
+ {
+  "address": "1004c6dc",
+  "value": "norwegian-bokmal",
+  "length": 16
+ },
+ {
+  "address": "1004c6f0",
+  "value": "norwegian",
+  "length": 9
+ },
+ {
+  "address": "1004c70c",
+  "value": "korean",
+  "length": 6
+ },
+ {
+  "address": "1004c71c",
+  "value": "japanese",
+  "length": 8
+ },
+ {
+  "address": "1004c72c",
+  "value": "italian-swiss",
+  "length": 13
+ },
+ {
+  "address": "1004c73c",
+  "value": "italian",
+  "length": 7
+ },
+ {
+  "address": "1004c74c",
+  "value": "irish-english",
+  "length": 13
+ },
+ {
+  "address": "1004c75c",
+  "value": "icelandic",
+  "length": 9
+ },
+ {
+  "address": "1004c768",
+  "value": "hungarian",
+  "length": 9
+ },
+ {
+  "address": "1004c778",
+  "value": "greek",
+  "length": 5
+ },
+ {
+  "address": "1004c780",
+  "value": "german-swiss",
+  "length": 12
+ },
+ {
+  "address": "1004c790",
+  "value": "german-austrian",
+  "length": 15
+ },
+ {
+  "address": "1004c7a0",
+  "value": "german",
+  "length": 6
+ },
+ {
+  "address": "1004c7ac",
+  "value": "french-swiss",
+  "length": 12
+ },
+ {
+  "address": "1004c7bc",
+  "value": "french-canadian",
+  "length": 15
+ },
+ {
+  "address": "1004c7cc",
+  "value": "french-belgian",
+  "length": 14
+ },
+ {
+  "address": "1004c7dc",
+  "value": "french",
+  "length": 6
+ },
+ {
+  "address": "1004c7f0",
+  "value": "finnish",
+  "length": 7
+ },
+ {
+  "address": "1004c814",
+  "value": "english-usa",
+  "length": 11
+ },
+ {
+  "address": "1004c820",
+  "value": "english-us",
+  "length": 10
+ },
+ {
+  "address": "1004c82c",
+  "value": "english-uk",
+  "length": 10
+ },
+ {
+  "address": "1004c838",
+  "value": "english-nz",
+  "length": 10
+ },
+ {
+  "address": "1004c844",
+  "value": "english-ire",
+  "length": 11
+ },
+ {
+  "address": "1004c850",
+  "value": "english-can",
+  "length": 11
+ },
+ {
+  "address": "1004c85c",
+  "value": "english-aus",
+  "length": 11
+ },
+ {
+  "address": "1004c868",
+  "value": "english-american",
+  "length": 16
+ },
+ {
+  "address": "1004c87c",
+  "value": "english",
+  "length": 7
+ },
+ {
+  "address": "1004c894",
+  "value": "dutch-belgian",
+  "length": 13
+ },
+ {
+  "address": "1004c8a4",
+  "value": "dutch",
+  "length": 5
+ },
+ {
+  "address": "1004c8b8",
+  "value": "danish",
+  "length": 6
+ },
+ {
+  "address": "1004c8d8",
+  "value": "chinese-traditional",
+  "length": 19
+ },
+ {
+  "address": "1004c8ec",
+  "value": "chinese-singapore",
+  "length": 17
+ },
+ {
+  "address": "1004c900",
+  "value": "chinese-simplified",
+  "length": 18
+ },
+ {
+  "address": "1004c914",
+  "value": "chinese-hongkong",
+  "length": 16
+ },
+ {
+  "address": "1004c928",
+  "value": "chinese",
+  "length": 7
+ },
+ {
+  "address": "1004c938",
+  "value": "canadian",
+  "length": 8
+ },
+ {
+  "address": "1004c944",
+  "value": "belgian",
+  "length": 7
+ },
+ {
+  "address": "1004c94c",
+  "value": "australian",
+  "length": 10
+ },
+ {
+  "address": "1004c958",
+  "value": "american-english",
+  "length": 16
+ },
+ {
+  "address": "1004c96c",
+  "value": "american english",
+  "length": 16
+ },
+ {
+  "address": "1004c980",
+  "value": "american",
+  "length": 8
+ },
+ {
+  "address": "1004c98c",
+  "value": "H:mm:ss",
+  "length": 7
+ },
+ {
+  "address": "1004c994",
+  "value": "dddd, MMMM dd, yyyy",
+  "length": 19
+ },
+ {
+  "address": "1004c9a8",
+  "value": "M/d/yy",
+  "length": 6
+ },
+ {
+  "address": "1004c9b8",
+  "value": "December",
+  "length": 8
+ },
+ {
+  "address": "1004c9c4",
+  "value": "November",
+  "length": 8
+ },
+ {
+  "address": "1004c9d0",
+  "value": "October",
+  "length": 7
+ },
+ {
+  "address": "1004c9d8",
+  "value": "September",
+  "length": 9
+ },
+ {
+  "address": "1004c9e4",
+  "value": "August",
+  "length": 6
+ },
+ {
+  "address": "1004c9fc",
+  "value": "April",
+  "length": 5
+ },
+ {
+  "address": "1004ca04",
+  "value": "March",
+  "length": 5
+ },
+ {
+  "address": "1004ca0c",
+  "value": "February",
+  "length": 8
+ },
+ {
+  "address": "1004ca18",
+  "value": "January",
+  "length": 7
+ },
+ {
+  "address": "1004ca50",
+  "value": "Saturday",
+  "length": 8
+ },
+ {
+  "address": "1004ca5c",
+  "value": "Friday",
+  "length": 6
+ },
+ {
+  "address": "1004ca64",
+  "value": "Thursday",
+  "length": 8
+ },
+ {
+  "address": "1004ca70",
+  "value": "Wednesday",
+  "length": 9
+ },
+ {
+  "address": "1004ca7c",
+  "value": "Tuesday",
+  "length": 7
+ },
+ {
+  "address": "1004ca84",
+  "value": "Monday",
+  "length": 6
+ },
+ {
+  "address": "1004ca8c",
+  "value": "Sunday",
+  "length": 6
+ },
+ {
+  "address": "1004cab8",
+  "value": "SunMonTueWedThuFriSat",
+  "length": 21
+ },
+ {
+  "address": "1004cad0",
+  "value": "JanFebMarAprMayJunJulAugSepOctNovDec",
+  "length": 36
+ },
+ {
+  "address": "1004cb32",
+  "value": "Eng1.dll",
+  "length": 8
+ },
+ {
+  "address": "1004cb3b",
+  "value": "PC_DLLEngineMain",
+  "length": 16
+ },
+ {
+  "address": "1004d85c",
+  "value": "DEMO MODE",
+  "length": 9
+ },
+ {
+  "address": "1004d868",
+  "value": "LOADING",
+  "length": 7
+ },
+ {
+  "address": "1004d870",
+  "value": "PLEASE INSERT CD",
+  "length": 16
+ },
+ {
+  "address": "1004d884",
+  "value": "PLEASE CORRECT",
+  "length": 14
+ },
+ {
+  "address": "1004d894",
+  "value": "CDROM",
+  "length": 5
+ },
+ {
+  "address": "1004d89c",
+  "value": "UNABLE TO READ",
+  "length": 14
+ },
+ {
+  "address": "1004d8ac",
+  "value": "CONTROLLER PORT [",
+  "length": 17
+ },
+ {
+  "address": "1004d8c0",
+  "value": "CONTROLLER INTO",
+  "length": 15
+ },
+ {
+  "address": "1004d8d0",
+  "value": "PLEASE INSERT A",
+  "length": 15
+ },
+ {
+  "address": "1004d8e8",
+  "value": "ARE YOU SURE \\",
+  "length": 14
+ },
+ {
+  "address": "1004d900",
+  "value": "CONTINUE",
+  "length": 8
+ },
+ {
+  "address": "1004d90c",
+  "value": "PAUSED",
+  "length": 6
+ },
+ {
+  "address": "1004d914",
+  "value": "\\ANIMPSX.BIN",
+  "length": 12
+ },
+ {
+  "address": "1004d924",
+  "value": "Illegal Dbase %d \n",
+  "length": 18
+ },
+ {
+  "address": "1004da1c",
+  "value": "M:\\DEMO\\DEMO.DAT",
+  "length": 16
+ },
+ {
+  "address": "1004da30",
+  "value": "M:\\DEMO\\DEMO1_1.DAT",
+  "length": 19
+ },
+ {
+  "address": "1004da44",
+  "value": "M:\\DEMO\\DEMO1_2.DAT",
+  "length": 19
+ },
+ {
+  "address": "1004da58",
+  "value": "M:\\DEMO\\DEMO1_3.DAT",
+  "length": 19
+ },
+ {
+  "address": "1004da6c",
+  "value": "M:\\DEMO\\DEMO2_1.DAT",
+  "length": 19
+ },
+ {
+  "address": "1004da80",
+  "value": "M:\\DEMO\\DEMO3_1.DAT",
+  "length": 19
+ },
+ {
+  "address": "1004da94",
+  "value": "M:\\DEMO\\DEMO5_1.DAT",
+  "length": 19
+ },
+ {
+  "address": "1004daa8",
+  "value": "M:\\DEMO\\DEMO5_2.DAT",
+  "length": 19
+ },
+ {
+  "address": "1004dabc",
+  "value": "\\TITLE\\ENGINE\\TITLE",
+  "length": 19
+ },
+ {
+  "address": "1004dad0",
+  "value": "\\ENGINE1\\ENGINE\\ENGINE1",
+  "length": 23
+ },
+ {
+  "address": "1004dae8",
+  "value": "\\ENGINE3\\ENGINE\\ENGINE3",
+  "length": 23
+ },
+ {
+  "address": "1004db00",
+  "value": "m:\\language\\srclang\\stpanel1.dat",
+  "length": 32
+ },
+ {
+  "address": "1004db24",
+  "value": "\n LinkedSoundFx %d :: %d %d",
+  "length": 27
+ },
+ {
+  "address": "1004db40",
+  "value": "\n 0x%x 0x%x 0x%x \n",
+  "length": 18
+ },
+ {
+  "address": "1004db54",
+  "value": "\n RemoveFxLinks(0x%x)",
+  "length": 21
+ },
+ {
+  "address": "1004db6c",
+  "value": "\n RemoveFxIdLinks(%d,0x%x)",
+  "length": 26
+ },
+ {
+  "address": "1004db88",
+  "value": "\n RemoveFxLinks(0x%x)",
+  "length": 21
+ },
+ {
+  "address": "1004dba0",
+  "value": "\n RemoveFxIdLinks(%d,0x%x)",
+  "length": 26
+ },
+ {
+  "address": "1004dbbc",
+  "value": "\n ClearAllSoundFx()",
+  "length": 19
+ },
+ {
+  "address": "1004dbd0",
+  "value": "\n ClearAllSoundFx_Excpt(%d)",
+  "length": 27
+ },
+ {
+  "address": "1004dbf4",
+  "value": "Unable to open %s%s \n",
+  "length": 21
+ },
+ {
+  "address": "1004dc0c",
+  "value": "Loading %s @ 0x%x,size %d ",
+  "length": 26
+ },
+ {
+  "address": "1004dc28",
+  "value": "- Loaded \n",
+  "length": 10
+ },
+ {
+  "address": "100515f8",
+  "value": "WCENTAUR WALKING\n",
+  "length": 17
+ },
+ {
+  "address": "1005160c",
+  "value": " Range is %d\n",
+  "length": 13
+ },
+ {
+  "address": "1005161c",
+  "value": " LCROCK->NAStatus = %d\n",
+  "length": 23
+ },
+ {
+  "address": "10051634",
+  "value": "BensMusicControl here\n",
+  "length": 22
+ },
+ {
+  "address": "1005164c",
+  "value": "SALMON SHOULDN'T BE HERE\n",
+  "length": 25
+ },
+ {
+  "address": "10051668",
+  "value": "FloorRubbleNoise here, delay %d\n",
+  "length": 32
+ },
+ {
+  "address": "100517d8",
+  "value": "q:\\TALLY\\",
+  "length": 9
+ },
+ {
+  "address": "100517f4",
+  "value": "q:\\HERC_TOR\\",
+  "length": 12
+ },
+ {
+  "address": "10051804",
+  "value": "q:\\HERC_TIT\\",
+  "length": 12
+ },
+ {
+  "address": "10051824",
+  "value": "q:\\HERC_MED\\",
+  "length": 12
+ },
+ {
+  "address": "10051844",
+  "value": "q:\\HERC_THE\\",
+  "length": 12
+ },
+ {
+  "address": "10051854",
+  "value": "q:\\HERC_NES\\",
+  "length": 12
+ },
+ {
+  "address": "10051864",
+  "value": "q:\\HERC_FOR\\",
+  "length": 12
+ },
+ {
+  "address": "10051884",
+  "value": "q:\\HERC_TRA\\",
+  "length": 12
+ },
+ {
+  "address": "10051894",
+  "value": "q:\\OPTIONS\\",
+  "length": 11
+ },
+ {
+  "address": "100518ac",
+  "value": "q:\\TORMENT\\",
+  "length": 11
+ },
+ {
+  "address": "100518b8",
+  "value": "q:\\TITANS\\",
+  "length": 10
+ },
+ {
+  "address": "100518f4",
+  "value": "q:\\NESSUS\\",
+  "length": 10
+ },
+ {
+  "address": "10051900",
+  "value": "q:\\FOREST\\",
+  "length": 10
+ },
+ {
+  "address": "1005190c",
+  "value": "q:\\GAUNTLET\\",
+  "length": 12
+ },
+ {
+  "address": "1005191c",
+  "value": "q:\\TRAINING\\",
+  "length": 12
+ },
+ {
+  "address": "1005193c",
+  "value": "SFX.SFX",
+  "length": 7
+ },
+ {
+  "address": "10051944",
+  "value": "ReplaceSfx Found Bank ! UnLoadSfx %d %d :: 0x%x 0x%x \n",
+  "length": 54
+ },
+ {
+  "address": "1005197c",
+  "value": "\n\n***********************************************************",
+  "length": 61
+ },
+ {
+  "address": "100519bc",
+  "value": "\nattribute number:: FX_ID %d Attribute %d",
+  "length": 41
+ },
+ {
+  "address": "100519e8",
+  "value": "\n\nTwo or more sound effects have been assigned the same ",
+  "length": 56
+ },
+ {
+  "address": "10051a24",
+  "value": "\n***********************************************************",
+  "length": 60
+ },
+ {
+  "address": "10051a64",
+  "value": "\n Unable to down load VAB\n",
+  "length": 26
+ },
+ {
+  "address": "10051a80",
+  "value": "\n Unable to open VAB\n",
+  "length": 21
+ },
+ {
+  "address": "10051a98",
+  "value": "MUSIC.MUS",
+  "length": 9
+ },
+ {
+  "address": "10051aa4",
+  "value": "LoadMusicSeqData %d %d\n",
+  "length": 23
+ },
+ {
+  "address": "10058a68",
+  "value": "MAP_PSX.BIN",
+  "length": 11
+ },
+ {
+  "address": "10058ac8",
+  "value": "-------------------------------------------\n",
+  "length": 44
+ },
+ {
+  "address": "1005a7cc",
+  "value": "O:\\TITANS\\",
+  "length": 10
+ },
+ {
+  "address": "1005a7d8",
+  "value": "O:\\MEDUSA\\",
+  "length": 10
+ },
+ {
+  "address": "1005a7e4",
+  "value": "O:\\HYDRA\\",
+  "length": 9
+ },
+ {
+  "address": "1005a7f0",
+  "value": "O:\\THEBES\\",
+  "length": 10
+ },
+ {
+  "address": "1005a7fc",
+  "value": "O:\\NESSUS\\",
+  "length": 10
+ },
+ {
+  "address": "1005a808",
+  "value": "O:\\FOREST\\",
+  "length": 10
+ },
+ {
+  "address": "1005a814",
+  "value": "O:\\TRAINING\\",
+  "length": 12
+ },
+ {
+  "address": "1005a824",
+  "value": "O:\\PLAYROOM\\",
+  "length": 12
+ },
+ {
+  "address": "1005d534",
+  "value": "P:\\SRC1\\BOSS\\HADES",
+  "length": 18
+ },
+ {
+  "address": "1005d548",
+  "value": "P:\\SRC1\\BOSS\\HYDRA",
+  "length": 18
+ },
+ {
+  "address": "1005d55c",
+  "value": "P:\\SRC1\\BOSS\\SKELWAR",
+  "length": 20
+ },
+ {
+  "address": "1005d574",
+  "value": "P:\\SRC1\\BOSS\\MEDUSA",
+  "length": 19
+ },
+ {
+  "address": "1005d59c",
+  "value": "P:\\SRC1\\ALIEN2\\NESSUS\\Defeat",
+  "length": 28
+ },
+ {
+  "address": "1005d5bc",
+  "value": "P:\\SRC1\\ALIEN2\\NESSUS\\Finish",
+  "length": 28
+ },
+ {
+  "address": "1005d5dc",
+  "value": "P:\\SRC1\\ALIEN2\\NESSUS\\Reject",
+  "length": 28
+ },
+ {
+  "address": "1005d5fc",
+  "value": "P:\\SRC1\\ALIEN2\\NESSUS\\Ride",
+  "length": 26
+ },
+ {
+  "address": "1005d618",
+  "value": "P:\\SRC1\\ALIEN2\\NESSUS\\Look",
+  "length": 26
+ },
+ {
+  "address": "1005d634",
+  "value": "P:\\SRC1\\ALIEN2\\NESSUS\\Kick",
+  "length": 26
+ },
+ {
+  "address": "1005d650",
+  "value": "P:\\SRC1\\ALIEN2\\NESSUS\\Punch",
+  "length": 27
+ },
+ {
+  "address": "1005d66c",
+  "value": "P:\\SRC1\\ALIEN2\\NESSUS\\Basic",
+  "length": 27
+ },
+ {
+  "address": "1005d688",
+  "value": "P:\\SRC1\\ALIEN2\\Merv",
+  "length": 19
+ },
+ {
+  "address": "1005d69c",
+  "value": "P:\\SRC1\\ALIEN2\\Grif",
+  "length": 19
+ },
+ {
+  "address": "1005d6d8",
+  "value": "P:\\SRC1\\ALIEN2\\Harp",
+  "length": 19
+ },
+ {
+  "address": "1005d6ec",
+  "value": "P:\\SRC1\\ALIEN2\\RtRock",
+  "length": 21
+ },
+ {
+  "address": "1005d704",
+  "value": "P:\\SRC1\\ALIEN2\\Zeus",
+  "length": 19
+ },
+ {
+  "address": "1005d718",
+  "value": "P:\\SRC1\\ALIEN2\\Griffon",
+  "length": 22
+ },
+ {
+  "address": "1005d730",
+  "value": "P:\\SRC1\\ALIEN2\\RcRock",
+  "length": 21
+ },
+ {
+  "address": "1005d748",
+  "value": "P:\\SRC1\\ALIEN2\\Water",
+  "length": 20
+ },
+ {
+  "address": "1005d760",
+  "value": "P:\\SRC1\\ALIEN2\\Bacchus",
+  "length": 22
+ },
+ {
+  "address": "1005d778",
+  "value": "P:\\SRC1\\ALIEN2\\Athena",
+  "length": 21
+ },
+ {
+  "address": "1005d790",
+  "value": "P:\\SRC1\\ALIEN2\\Ares",
+  "length": 19
+ },
+ {
+  "address": "1005d7a4",
+  "value": "P:\\SRC1\\ALIEN2\\Apollo",
+  "length": 21
+ },
+ {
+  "address": "1005d7bc",
+  "value": "P:\\SRC1\\ALIEN2\\Aphrod",
+  "length": 21
+ },
+ {
+  "address": "1005d7d4",
+  "value": "P:\\SRC1\\ALIEN2\\TornadoT",
+  "length": 23
+ },
+ {
+  "address": "1005d7ec",
+  "value": "P:\\SRC1\\ALIEN2\\LavaT",
+  "length": 20
+ },
+ {
+  "address": "1005d804",
+  "value": "P:\\SRC1\\ALIEN2\\IceT",
+  "length": 19
+ },
+ {
+  "address": "1005d818",
+  "value": "P:\\SRC1\\ALIEN2\\RockT",
+  "length": 20
+ },
+ {
+  "address": "1005d830",
+  "value": "P:\\SRC1\\ALIEN2\\PEGASUS",
+  "length": 22
+ },
+ {
+  "address": "1005d848",
+  "value": "P:\\SRC1\\ALIEN2\\FPHIL",
+  "length": 20
+ },
+ {
+  "address": "1005d860",
+  "value": "P:\\SRC1\\ALIEN2\\STYBIRD",
+  "length": 22
+ },
+ {
+  "address": "1005d878",
+  "value": "P:\\SRC1\\ALIEN2\\ALEXFISH",
+  "length": 23
+ },
+ {
+  "address": "1005d890",
+  "value": "P:\\SRC1\\ALIEN2\\ARCHERC",
+  "length": 22
+ },
+ {
+  "address": "1005d8a8",
+  "value": "P:\\SRC1\\ALIEN2\\WRESTLEC",
+  "length": 23
+ },
+ {
+  "address": "1005d8c0",
+  "value": "P:\\SRC1\\ALIEN2\\ROCKC",
+  "length": 20
+ },
+ {
+  "address": "1005d8d8",
+  "value": "P:\\SRC1\\ALIEN1\\HARPIES",
+  "length": 22
+ },
+ {
+  "address": "1005d8f0",
+  "value": "P:\\SRC1\\ALIEN1\\MINOTAUR",
+  "length": 23
+ },
+ {
+  "address": "1005d908",
+  "value": "P:\\SRC1\\ALIEN1\\ALIEN1",
+  "length": 21
+ },
+ {
+  "address": "1005d920",
+  "value": "P:\\SRC1\\ALIEN1\\GENERIC1",
+  "length": 23
+ },
+ {
+  "address": "1005d938",
+  "value": "P:\\SRC1\\ALIEN1\\SKELETON",
+  "length": 23
+ },
+ {
+  "address": "1005d950",
+  "value": "P:\\SRC1\\ALIEN1\\FANGIRLS",
+  "length": 23
+ },
+ {
+  "address": "1005d968",
+  "value": "P:\\SRC1\\ALIEN1\\TRAINING\\TRAINFX",
+  "length": 31
+ },
+ {
+  "address": "1005d988",
+  "value": "P:\\SRC1\\ALIEN1\\TRAINING\\PEG",
+  "length": 27
+ },
+ {
+  "address": "1005d9a4",
+  "value": "P:\\SRC1\\ALIEN1\\TRAINING\\SHARK",
+  "length": 29
+ },
+ {
+  "address": "1005d9c4",
+  "value": "P:\\SRC1\\ALIEN1\\TRAINING\\TOPS",
+  "length": 28
+ },
+ {
+  "address": "1005d9e4",
+  "value": "P:\\SRC1\\ALIEN1\\TRAINING",
+  "length": 23
+ },
+ {
+  "address": "1005d9fc",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THHAFOOD",
+  "length": 32
+ },
+ {
+  "address": "1005da20",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR",
+  "length": 30
+ },
+ {
+  "address": "1005da40",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THEWGUY",
+  "length": 31
+ },
+ {
+  "address": "1005da60",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS",
+  "length": 29
+ },
+ {
+  "address": "1005da80",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THBURNT",
+  "length": 31
+ },
+ {
+  "address": "1005daa0",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFLASH",
+  "length": 31
+ },
+ {
+  "address": "1005dac0",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THOLD",
+  "length": 29
+ },
+ {
+  "address": "1005dae0",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFAT",
+  "length": 29
+ },
+ {
+  "address": "1005db00",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THEQ",
+  "length": 28
+ },
+ {
+  "address": "1005db20",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THFLOOD",
+  "length": 31
+ },
+ {
+  "address": "1005db40",
+  "value": "P:\\SRC1\\ALIEN1\\THEBIANS\\THSNOW",
+  "length": 30
+ },
+ {
+  "address": "1005db60",
+  "value": "P:\\SRC1\\ALIEN1\\PANIC",
+  "length": 20
+ },
+ {
+  "address": "1005db78",
+  "value": "P:\\SRC1\\ALIEN1\\PAIN",
+  "length": 19
+ },
+ {
+  "address": "1005db8c",
+  "value": "P:\\SRC1\\ALIEN1\\PHIL\\DANCE",
+  "length": 25
+ },
+ {
+  "address": "1005dba8",
+  "value": "P:\\SRC1\\ALIEN1\\PHIL\\MACHINE",
+  "length": 27
+ },
+ {
+  "address": "1005dbc4",
+  "value": "P:\\SRC1\\ALIEN1\\PHIL\\REACT",
+  "length": 25
+ },
+ {
+  "address": "1005dbe0",
+  "value": "P:\\SRC1\\ALIEN1\\PHIL\\CLIMB",
+  "length": 25
+ },
+ {
+  "address": "1005dbfc",
+  "value": "P:\\SRC1\\ALIEN1\\PHIL",
+  "length": 19
+ },
+ {
+  "address": "1005dc10",
+  "value": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERS",
+  "length": 29
+ },
+ {
+  "address": "1005dc30",
+  "value": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERL",
+  "length": 29
+ },
+ {
+  "address": "1005dc50",
+  "value": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERU",
+  "length": 29
+ },
+ {
+  "address": "1005dc70",
+  "value": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERC",
+  "length": 29
+ },
+ {
+  "address": "1005dc90",
+  "value": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERR",
+  "length": 29
+ },
+ {
+  "address": "1005dcb0",
+  "value": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERE",
+  "length": 29
+ },
+ {
+  "address": "1005dcd0",
+  "value": "P:\\SRC1\\HERO\\XTRA_DB1\\LETTERH",
+  "length": 29
+ },
+ {
+  "address": "1005dcf0",
+  "value": "P:\\SRC1\\HERO\\HERCULES\\HC_DUNIT",
+  "length": 30
+ },
+ {
+  "address": "1005dd10",
+  "value": "P:\\SRC1\\HERO\\HERCULES\\HC_DIE",
+  "length": 28
+ },
+ {
+  "address": "1005dd30",
+  "value": "P:\\SRC1\\HERO\\HERCULES\\HC_THROW",
+  "length": 30
+ },
+ {
+  "address": "1005dd50",
+  "value": "P:\\SRC1\\HERO\\XTRA_DB1",
+  "length": 21
+ },
+ {
+  "address": "1005dd68",
+  "value": "P:\\SRC1\\HERO\\HERCULES",
+  "length": 21
+ },
+ {
+  "address": "100655d0",
+  "value": " GoodbyeRockT %d, %d, %d\n",
+  "length": 25
+ },
+ {
+  "address": "100655ec",
+  "value": "FIRE Here, Special1 = %d",
+  "length": 24
+ },
+ {
+  "address": "10065608",
+  "value": " FirBAll %d, %d, %d\n",
+  "length": 20
+ },
+ {
+  "address": "10065620",
+  "value": " WofBall at %d, %d, %d\n",
+  "length": 23
+ },
+ {
+  "address": "10065638",
+  "value": "TTRAIN raining\n",
+  "length": 15
+ },
+ {
+  "address": "10065648",
+  "value": "TTRAIN here\n",
+  "length": 12
+ },
+ {
+  "address": "10065658",
+  "value": "God Here, Type %d, X %d, Y %d\n",
+  "length": 30
+ },
+ {
+  "address": "100751d2",
+  "value": "GetCommandLineA",
+  "length": 15
+ },
+ {
+  "address": "100751e4",
+  "value": "GetProcAddress",
+  "length": 14
+ },
+ {
+  "address": "100751f6",
+  "value": "GetModuleHandleA",
+  "length": 16
+ },
+ {
+  "address": "1007520a",
+  "value": "GetVersion",
+  "length": 10
+ },
+ {
+  "address": "10075218",
+  "value": "ExitProcess",
+  "length": 11
+ },
+ {
+  "address": "10075226",
+  "value": "TerminateProcess",
+  "length": 16
+ },
+ {
+  "address": "1007523a",
+  "value": "GetCurrentProcess",
+  "length": 17
+ },
+ {
+  "address": "1007524e",
+  "value": "GetCurrentThreadId",
+  "length": 18
+ },
+ {
+  "address": "10075264",
+  "value": "TlsSetValue",
+  "length": 11
+ },
+ {
+  "address": "10075272",
+  "value": "TlsAlloc",
+  "length": 8
+ },
+ {
+  "address": "1007527e",
+  "value": "TlsFree",
+  "length": 7
+ },
+ {
+  "address": "10075288",
+  "value": "SetLastError",
+  "length": 12
+ },
+ {
+  "address": "10075298",
+  "value": "TlsGetValue",
+  "length": 11
+ },
+ {
+  "address": "100752a6",
+  "value": "GetLastError",
+  "length": 12
+ },
+ {
+  "address": "100752b6",
+  "value": "SetHandleCount",
+  "length": 14
+ },
+ {
+  "address": "100752c8",
+  "value": "GetStdHandle",
+  "length": 12
+ },
+ {
+  "address": "100752d8",
+  "value": "GetFileType",
+  "length": 11
+ },
+ {
+  "address": "100752e6",
+  "value": "GetStartupInfoA",
+  "length": 15
+ },
+ {
+  "address": "100752f8",
+  "value": "DeleteCriticalSection",
+  "length": 21
+ },
+ {
+  "address": "10075310",
+  "value": "GetModuleFileNameA",
+  "length": 18
+ },
+ {
+  "address": "10075326",
+  "value": "GetCPInfo",
+  "length": 9
+ },
+ {
+  "address": "10075332",
+  "value": "GetACP",
+  "length": 6
+ },
+ {
+  "address": "1007533c",
+  "value": "GetOEMCP",
+  "length": 8
+ },
+ {
+  "address": "10075348",
+  "value": "FreeEnvironmentStringsA",
+  "length": 23
+ },
+ {
+  "address": "10075362",
+  "value": "MultiByteToWideChar",
+  "length": 19
+ },
+ {
+  "address": "10075378",
+  "value": "FreeEnvironmentStringsW",
+  "length": 23
+ },
+ {
+  "address": "10075392",
+  "value": "GetEnvironmentStrings",
+  "length": 21
+ },
+ {
+  "address": "100753aa",
+  "value": "GetEnvironmentStringsW",
+  "length": 22
+ },
+ {
+  "address": "100753c4",
+  "value": "WideCharToMultiByte",
+  "length": 19
+ },
+ {
+  "address": "100753da",
+  "value": "HeapDestroy",
+  "length": 11
+ },
+ {
+  "address": "100753e8",
+  "value": "HeapCreate",
+  "length": 10
+ },
+ {
+  "address": "100753f6",
+  "value": "VirtualFree",
+  "length": 11
+ },
+ {
+  "address": "10075404",
+  "value": "WriteFile",
+  "length": 9
+ },
+ {
+  "address": "10075410",
+  "value": "SetFilePointer",
+  "length": 14
+ },
+ {
+  "address": "10075422",
+  "value": "InterlockedDecrement",
+  "length": 20
+ },
+ {
+  "address": "1007543a",
+  "value": "InterlockedIncrement",
+  "length": 20
+ },
+ {
+  "address": "10075452",
+  "value": "InitializeCriticalSection",
+  "length": 25
+ },
+ {
+  "address": "1007546e",
+  "value": "EnterCriticalSection",
+  "length": 20
+ },
+ {
+  "address": "10075486",
+  "value": "LeaveCriticalSection",
+  "length": 20
+ },
+ {
+  "address": "1007549e",
+  "value": "HeapAlloc",
+  "length": 9
+ },
+ {
+  "address": "100754aa",
+  "value": "HeapFree",
+  "length": 8
+ },
+ {
+  "address": "100754b6",
+  "value": "VirtualAlloc",
+  "length": 12
+ },
+ {
+  "address": "100754c6",
+  "value": "LoadLibraryA",
+  "length": 12
+ },
+ {
+  "address": "100754d6",
+  "value": "SetStdHandle",
+  "length": 12
+ },
+ {
+  "address": "100754e6",
+  "value": "FlushFileBuffers",
+  "length": 16
+ },
+ {
+  "address": "100754fa",
+  "value": "CloseHandle",
+  "length": 11
+ },
+ {
+  "address": "10075508",
+  "value": "GetStringTypeA",
+  "length": 14
+ },
+ {
+  "address": "1007551a",
+  "value": "GetStringTypeW",
+  "length": 14
+ },
+ {
+  "address": "1007552c",
+  "value": "GetLocaleInfoA",
+  "length": 14
+ },
+ {
+  "address": "1007553e",
+  "value": "GetLocaleInfoW",
+  "length": 14
+ },
+ {
+  "address": "10075550",
+  "value": "LCMapStringA",
+  "length": 12
+ },
+ {
+  "address": "10075560",
+  "value": "LCMapStringW",
+  "length": 12
+ },
+ {
+  "address": "1007556e",
+  "value": "KERNEL32.dll",
+  "length": 12
+ }
+]

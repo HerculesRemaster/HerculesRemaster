@@ -1,0 +1,14 @@
+{
+ "program_name": "ENG1.DLL",
+ "executable_path": "/C:/Games/GameHercules/Remaster/backups/originals/ENG1.DLL",
+ "architecture": "x86",
+ "compiler": "windows",
+ "language": "x86:LE:32:default",
+ "endian": "little",
+ "address_size_bits": 32,
+ "base_address": "10000000",
+ "memory_blocks": 6,
+ "total_memory_size": 505432,
+ "function_count": 1050,
+ "symbol_count": 5452
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "name": "Ordinal_1",
+  "address": "1002c180",
+  "symbol_type": "Label",
+  "kind": "external_entry"
+ },
+ {
+  "name": "PC_DLLEngineMain",
+  "address": "1002c180",
+  "symbol_type": "Function",
+  "kind": "external_entry",
+  "param_count": 2
+ },
+ {
+  "name": "entry",
+  "address": "10046730",
+  "symbol_type": "Function",
+  "kind": "external_entry",
+  "param_count": 3
+ },
+ {
+  "name": "IMAGE_DOS_HEADER_10000000",
+  "address": "10000000",
+  "symbol_type": "Label",
+  "kind": "program_entry"
+ }
+]

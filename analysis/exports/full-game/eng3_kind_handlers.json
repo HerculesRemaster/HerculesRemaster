@@ -1,0 +1,1801 @@
+{
+ "_doc": "ENG3 object kinds per runner level (RE static, ghidra ENG3.DLL). Hit damage per difficulty from chase.md table 0x380a0. Evidence: VERIFIED-STATIC = behaviour and role from code; VISUAL = role from code, identity from the sprite frames; LEAD = identity from the walkthrough only (behaviour still from code). All names are proposals; nothing was renamed in Ghidra.",
+ "L02": {
+  "0x0001": {
+   "what": "Hercules (hero, pool A slot 0); type entry is the stub, driven by HERO_Tick 0x174e0",
+   "evidence": "VERIFIED-STATIC",
+   "handlers": {},
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "runtime only (HERCULES bank drawn 38 frames); not a map object",
+   "count": 0
+  },
+  "0x0006": {
+   "what": "bonus item; subtype = spawn byte +0xc: 0=golden helmet (bank 1 105-118): 0x3fae4=1, hero+0xec=200 ticks invulnerable, SFX 0x603e; 1=blue potion (120-135): health gs+0x24 += 0x20, capped at max gs+0x1e, SFX 0x603b; 2=large coin (bank 2 XTRA_DB1 17-38): gs+0x18 += 1, SFX 0x603f; 3=winged sandals (152-167): dash, hero+0xee=0x56, 0x3fb20=1, HUD 0x3fae8=1, SFX 0x602c; 4=small coin (bank 2 17-38, scale 0xc0): gs+0x14 += 1, SFX 0x603f; 5=urn (211-218): secret counter 0x3faec += 1 and gs+0x11 bit (GAUNTLET by track: 0->1, 1-2->2, 3-6->4, 7-10->8; CYCLOPS by count 1..4 -> 1/2/4/8; TORMENT track 0->1, 1-2->4, 3-4->8), SFX 0x603e; 6=amphora (250-257): lives gs+0xc += 1, 0x41c72=1, SFX 0x603d (spawn turns it into subtype 1 when lives > 8); 7=mini Hercules (310-313): max health gs+0x1e += 0x20 (0xff cap), SFX 0x603d; 8-15=letters H,E,R,C,U,L,E,S (bank 8 LETTERS, scripts 10-16, E twice): 0x41cb0 = 0..7, gs+0x1c |= 1<<n, 0x41d50=1, SFX 0x603c",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x15440": "LVL_BonusItemSpawn",
+    "0x15680": "LVL_BonusItemTick"
+   },
+   "damage": null,
+   "gives": "0=golden helmet (bank 1 105-118): 0x3fae4=1, hero+0xec=200 ticks invulnerable, SFX 0x603e; 1=blue potion (120-135): health gs+0x24 += 0x20, capped at max gs+0x1e, SFX 0x603b; 2=large coin (bank 2 XTRA_DB1 17-38): gs+0x18 += 1, SFX 0x603f; 3=winged sandals (152-167): dash, hero+0xee=0x56, 0x3fb20=1, HUD 0x3fae8=1, SFX 0x602c; 4=small coin (bank 2 17-38, scale 0xc0): gs+0x14 += 1, SFX 0x603f; 5=urn (211-218): secret counter 0x3faec += 1 and gs+0x11 bit (GAUNTLET by track: 0->1, 1-2->2, 3-6->4, 7-10->8; CYCLOPS by count 1..4 -> 1/2/4/8; TORMENT track 0->1, 1-2->4, 3-4->8), SFX 0x603e; 6=amphora (250-257): lives gs+0xc += 1, 0x41c72=1, SFX 0x603d (spawn turns it into subtype 1 when lives > 8); 7=mini Hercules (310-313): max health gs+0x1e += 0x20 (0xff cap), SFX 0x603d; 8-15=letters H,E,R,C,U,L,E,S (bank 8 LETTERS, scripts 10-16, E twice): 0x41cb0 = 0..7, gs+0x1c |= 1<<n, 0x41d50=1, SFX 0x603c",
+   "random": "RT_RandMod_slot 0x1fab0 (spawn: vertical speed 0x2f)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0); spawn reads lives gs+0xc (>8 turns extra life into potion)",
+   "notes": "GAUNTLET subtypes: 4x198, 2x45, 1x29, 7x11, 5x7, 0/3x5, 6x4, letters 8-15 x1/1/2/2/4/4/4/4. Collected item plays script 7 (sparkle 220-229) and rises. Pickup test = sprite overlap 0x1eff0.",
+   "count": 326
+  },
+  "0x0029": {
+   "what": "toppling statue/column (level model 2 + two 0x4029 parts) that falls toward the hero",
+   "evidence": "LEAD",
+   "handlers": {
+    "0xd280": "LVL_GntToppleStatueSpawn",
+    "0xd410": "LVL_GntToppleStatueTick"
+   },
+   "damage": "hit code 0x21 via HERO_Hit 0x19200 (box |z|<128,|x|<128,|y|<192) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (fall speeds)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "falls when hero is <1224 (0x4c8) ahead; SFX 0x609d, 0xe09e on landing, calls 0xd3d0(2); spawns 3 dust 0x2016; despawns 64 behind hero",
+   "count": 7
+  },
+  "0x002a": {
+   "what": "swaying stack of 4 blocks (model 3, 0x402a) that collapses forward when the hero is near",
+   "evidence": "LEAD",
+   "handlers": {
+    "0xd7d0": "LVL_GntStackSwayFwdSpawn",
+    "0xdc20": "LVL_GntStackSwayFwdTick"
+   },
+   "damage": "hit code 0x2 via HERO_Hit 0x19200 (falling piece box) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (8 debris markers 0x4002 per piece)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "sways (sin) until hero <640 (0x280); then falls (angle +), pieces drop with LVL_ObjFallStep; SFX 0x6096/0x6097/0x6098/0x6099; 3 upper pieces carry shadows 0x2002",
+   "count": 11
+  },
+  "0x002b": {
+   "what": "group of rolling model-13 objects (spawn byte = count: 1 large x2 scale, or 6 small) bouncing between lane walls",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x10370": "LVL_GntRollerGroupSpawn",
+    "0x10590": "LVL_GntRollerGroupTick"
+   },
+   "damage": "hit code 0x26 via HERO_Hit 0x19200 (large one, box |z|<64,|x|<96,|y|<80) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0; ignored while dashing; small ones hit code 0x27 via HERO_Hit 0x19200 (LVL_InSphere r=64) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": "large one hit while dashing (0x3fb20): smashed (16 debris 0x4004, SFX 0xe0a9) and, on tracks != 0 with gs+0x11&8 clear, a kind-8 prize with script 5 (urn: secret counter)",
+   "random": "RT_RandMod_slot 0x1fab0, LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "lane bounce on cell codes 0x5d/0x5e (LVL_CellAttribute); separation 0x1190",
+   "count": 10
+  },
+  "0x002c": {
+   "what": "training dummy with swords (ALIEN1 403-439) sliding across lanes; breaks on contact",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0xee40": "LVL_GntSwordDummySpawn",
+    "0xeeb0": "LVL_GntSwordDummyTick"
+   },
+   "damage": "hit code 0x22 via HERO_Hit 0x19200 (box |z|<32,|x|<32) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 knock-back x-1.0; ignored while dashing",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0, LVL_Rand 0x1010 (debris)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "z oscillates to +-194 (0xc2), x follows sin; on hit: SFX 0xe0a7, dust 0x2016, 8 debris 0x4001 frames 619-625; two 0x4a dust children; SFX 0x28a6 at start. Defeated by touching it (dash ignores the damage)",
+   "count": 16
+  },
+  "0x002d": {
+   "what": "squad of 4 walking totem dummies (ALIEN1 477-523) wandering; each breaks on contact",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x10b10": "LVL_GntTotemSquadSpawn",
+    "0x10df0": "LVL_GntTotemSquadTick"
+   },
+   "damage": "hit code 0x22 via HERO_Hit 0x19200 (box |z|<16,-16<x<32) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 knock-back x-1.0; ignored while dashing",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0, LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "marker 0x402c, lane bounce on 0x5d/0x5e; on hit 8 debris 0x4001 frames 628-634, SFX 0xe0a7",
+   "count": 2
+  },
+  "0x002e": {
+   "what": "rotating obstacle of 4 model-23 pieces (0x402d) in a 2x2 block",
+   "evidence": "LEAD",
+   "handlers": {
+    "0xf460": "LVL_GntSpinnerSpawn",
+    "0xf7b0": "LVL_GntSpinnerTick"
+   },
+   "damage": "hit code 0x2b via HERO_Hit 0x19200 (box |z|<64 (state 8: |z|<54), |x|<64) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 1.0 away",
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "SFX 0x28a5; spin rate +-0x20 per tick",
+   "count": 23
+  },
+  "0x002f": {
+   "what": "sliding wall (model 9 + 2 parts 0x402f, 2 wheels 0x3f) that slides +z across the lane and back",
+   "evidence": "LEAD",
+   "handlers": {
+    "0xf980": "LVL_GntSlideWallRSpawn",
+    "0xfab0": "LVL_GntSlideWallRTick"
+   },
+   "damage": "hit code 0x28 via HERO_Hit 0x19200 (box |z|<84, -78<dx<53) -> HERO_ApplyDamage T2 = 20/25/35 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (dust)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "paired with 0x30 (same counts and x); spawn byte 0 = slow (0x24000/0x240000), else fast; stops (state 8) once behind hero",
+   "count": 18
+  },
+  "0x0030": {
+   "what": "sliding wall, mirror of 0x2f (slides -z); with 0x2f forms a closing gate",
+   "evidence": "LEAD",
+   "handlers": {
+    "0xfec0": "LVL_GntSlideWallLSpawn",
+    "0xffd0": "LVL_GntSlideWallLTick"
+   },
+   "damage": "hit code 0x28 via HERO_Hit 0x19200 (box |z|<84, -78<dx<53) -> HERO_ApplyDamage T2 = 20/25/35 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "SFX 0x60a3 opening, 0xe0a4 closing",
+   "count": 18
+  },
+  "0x0032": {
+   "what": "shark leaping out of the water (ALIEN1 0,16-26,53-58,167-175)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x113f0": "LVL_GntSharkSpawn",
+    "0x11470": "LVL_GntSharkTick"
+   },
+   "damage": "hit code 0x2a via HERO_Hit 0x19200 (sprite overlap 0x1eff0) -> HERO_ApplyDamage T1+T1+T0 = 40/55/85 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (side drift sign)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "y fixed 488 (water); arc during anim positions 6..17; resets at position 0x1a; shadow 0x2018 on water",
+   "count": 10
+  },
+  "0x0035": {
+   "what": "as 0x2a, falling the other way (angle decreasing)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0xe020": "LVL_GntStackSwayBackSpawn",
+    "0xe2f0": "LVL_GntStackSwayBackTick"
+   },
+   "damage": "hit code 0x2 via HERO_Hit 0x19200 (falling piece box) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "same structure as 0x2a; different placement tracks",
+   "count": 15
+  },
+  "0x0037": {
+   "what": "hanging pendulum of 4 segments (models 12,12,12 + 11 weight)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x11760": "LVL_GntPendulumSpawn",
+    "0x11a80": "LVL_GntPendulumTick"
+   },
+   "damage": "hit code 0x2c via HERO_Hit 0x19200 (bottom model 11 box |z|<130, |x|<8) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (swing speed 12-17)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "placement via 0x11b90, swish SFX 0x6094/0x6095",
+   "count": 23
+  },
+  "0x0038": {
+   "what": "bonus figure above the fire ring (ALIEN1 85-108); poofs (138-156) when the hero jumps through the ring",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x11d30": "LVL_GntRingTargetSpawn",
+    "0x11d80": "LVL_GntRingTargetTick"
+   },
+   "damage": null,
+   "gives": "throws a kind-8 prize at the hero with script 1 = blue potion (health +0x20); SFX 0x603e",
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "spawned by 0x3c (not placed)",
+   "count": 0
+  },
+  "0x003a": {
+   "what": "Phil (satyr trainer, ALIEN1 646-820) commenting as the hero passes",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x11ef0": "LVL_GntPhilSpawn",
+    "0x11f90": "LVL_GntPhilTick"
+   },
+   "damage": null,
+   "gives": "nothing; calls EXE slot 0x850 (0x1faf0) once with: track 0 -> 0x19; track >6 -> 0x1b; else by health gs+0x24 vs max gs+0x1e: full 0x1b, >1/2 0x1a, >1/4 0x16, <=1/4 0x1c",
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "trigger: hero <640 ahead; scripts 1-4 by branch",
+   "count": 11
+  },
+  "0x003c": {
+   "what": "flaming ring (ALIEN1 273-280) bobbing on a rope (0x41) with a bonus figure (0x38)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x12200": "LVL_GntFireRingSpawn",
+    "0x12250": "LVL_GntFireRingTick"
+   },
+   "damage": "hit code 0x40 via HERO_Hit 0x19200 (ring rim: inside |z|<56,|x|<16,-70<y<95 but outside the centre |z|<=39, 8<=y<=75) -> HERO_ApplyDamage T1+T0 = 25/35/55 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": "centre pass (once): hero+0xd8 += 1 and the 0x38 figure releases a health potion",
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "SFX 0x289a; y +-32 around spawn",
+   "count": 8
+  },
+  "0x003e": {
+   "what": "hanging weight on 4 segments (model 12 x3 + model 21/22), half swing (byte 0) or full swing (byte 1)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x12500": "LVL_GntHangingWeightSpawn",
+    "0x12820": "LVL_GntHangingWeightTick"
+   },
+   "damage": "hit code 0x25 via HERO_Hit 0x19200 (GFX_ModelHitbox of the bottom piece, only when it is model 21 (spawn byte 0)) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "byte 1 (15 placed) uses model 22 and SFX 0x60a0/0x609f; the hit test checks model 0x15 only, so byte-1 weights deal no damage here (open: intended?)",
+   "count": 30
+  },
+  "0x003f": {
+   "what": "rotating decoration (model 16, or 20 for byte 1); also used as the wheels of 0x2f/0x30",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x12e40": "LVL_GntWheelDecoSpawn",
+    "0x12e80": "LVL_GntWheelDecoTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "no hero test; SFX 0x289b for byte 1; despawns 128 behind hero",
+   "count": 5
+  },
+  "0x0040": {
+   "what": "swinging punching bag on a rope (ALIEN1 264-272)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0xebe0": "LVL_GntPunchBagSpawn",
+    "0xec60": "LVL_GntPunchBagTick"
+   },
+   "damage": "hit code 0x23 via HERO_Hit 0x19200 (swing z window +-16 around the arc, |x|<64) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (initial phase 0..0x7ff)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "SFX 0x6081/0x6082 swing, 0x6080 on hit; shadow 0x2017",
+   "count": 43
+  },
+  "0x0041": {
+   "what": "rope sprite (frame 637) above the fire ring",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0xee00": "LVL_GntRopeInit"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "runtime only, spawned by 0x3c; update is the stub",
+   "count": 0
+  },
+  "0x0043": {
+   "what": "wandering goats (ALIEN1 329-389) that flee when the hero approaches",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x13010": "LVL_GntGoatWalkerSpawn",
+    "0x130e0": "LVL_GntGoatWalkerTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "LVL_Rand 0x1010 (CLUT, scale, timers, bleat chance)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "decoration, no hero test; bleat SFX 0x6083 when fleeing (hero <512)",
+   "count": 66
+  },
+  "0x0044": {
+   "what": "training dummy that homes on the hero lane (ALIEN1 403-439); breaks on contact",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x13330": "LVL_GntChaserDummySpawn",
+    "0x133b0": "LVL_GntChaserDummyTick"
+   },
+   "damage": "hit code 0x22 via HERO_Hit 0x19200 (box |z|<32,|x|<32) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 knock-back x-1.0; ignored while dashing",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0, LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "samples hero z every 5 ticks and moves 3.0/tick toward it; x -8/tick",
+   "count": 13
+  },
+  "0x0045": {
+   "what": "goat in a herd crossing diagonally (first one ALIEN1 821-828)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x13a40": "LVL_GntHerdGoatSpawn",
+    "0x13a90": "LVL_GntHerdGoatTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "runtime only (child of 0x46); no hero test",
+   "count": 0
+  },
+  "0x0046": {
+   "what": "goat-herd source near the start; scrolls VRAM texture 1 every tick",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x13840": "LVL_GntHerdSourceInit",
+    "0x13860": "LVL_GntHerdSourceTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "GFX_ScrollTexture(1,0,1); spawns 5 then refills 0x45",
+   "count": 1
+  },
+  "0x0047": {
+   "what": "idle goats (ALIEN1 354-365)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x13b30": "LVL_GntGoatIdleSpawn",
+    "0x13c10": "LVL_GntGoatIdleTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "decoration; byte 1 = mirrored; random bleat 0x6083",
+   "count": 145
+  },
+  "0x0048": {
+   "what": "rotating two-arm sweeper (model 24)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x12be0": "LVL_GntSweeperSpawn",
+    "0x12c40": "LVL_GntSweeperTick"
+   },
+   "damage": "hit code 0x2d via HERO_Hit 0x19200 (arm ends box z+-64, y+-110, x+-94) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "SFX 0x28a2, 0x60a1 per sweep; slows from 0x10 to 8 after a hit; calls 0x16550",
+   "count": 15
+  },
+  "0x0049": {
+   "what": "end post (model 25) near the finish (x 15101-15121)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x13cb0": "LVL_GntEndPostSpawn",
+    "0x2a090": "LVL_EndPostTick"
+   },
+   "damage": "hit code 0x35 via HERO_Hit 0x19200 (touch +-32, once) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 z push 3.5/3.0 by side",
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 3
+  },
+  "0x004a": {
+   "what": "dust trail under the dummies (ALIEN1 596-603)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x13d00": "LVL_GntDustTrailInit",
+    "0x13d30": "LVL_GntDustTrailTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "runtime only, children of 0x2c/0x2d/0x44",
+   "count": 0
+  },
+  "0x004b": {
+   "what": "finish scenery (models 28/29/30 by spawn byte, z = 0)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x13d70": "LVL_GntEndSceneryInit",
+    "0x13e00": "LVL_StaticTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "no hero test",
+   "count": 6
+  },
+  "0x2002": {
+   "what": "ground shadow under model objects (bank 1 frames 205-207)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x14270": "LVL_ModelShadowInit",
+    "0x142b0": "LVL_ModelShadowTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "runtime only; per-model offsets for GAUNTLET/CYCLOPS",
+   "count": 0
+  },
+  "0x200b": {
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 1; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 1",
+   "random": "RT_RandMod_slot 0x1fab0 (sparkle offsets)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x200c": {
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 2; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 2",
+   "random": "RT_RandMod_slot 0x1fab0 (sparkle offsets)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x200d": {
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 3; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 3",
+   "random": "RT_RandMod_slot 0x1fab0 (sparkle offsets)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x200e": {
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 4; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 4",
+   "random": "RT_RandMod_slot 0x1fab0 (sparkle offsets)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x200f": {
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 5; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 5",
+   "random": "RT_RandMod_slot 0x1fab0 (sparkle offsets)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x2010": {
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 6; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 6",
+   "random": "RT_RandMod_slot 0x1fab0 (sparkle offsets)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x2011": {
+   "what": "Pegasus checkpoint (bank 1 230-249) for restart section 7; checkpoint: active when (kind+6)&15 == gs+2. Inactive (script 0x37c00, bank 1 230-235) until the hero is on the same track and <700 ahead; then SFX 0x6028 and gs+2 = (kind+6)&15 (restart section used by HERO_Die gs+1=gs+2). While active (script 0x37ba8, 236-249) it spawns 3 sparkles 0x201b every other tick",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 7",
+   "random": "RT_RandMod_slot 0x1fab0 (sparkle offsets)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x2016": {
+   "what": "explosion/dust puff (GAUNTLET bank 3 frames 604-616; CYCLOPS bank 6 209-221; TORMENT bank 4 180-192)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x14b30": "LVL_DustPuffInit",
+    "0x14bb0": "LVL_DustPuffTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "runtime only",
+   "count": 0
+  },
+  "0x2017": {
+   "what": "sprite drop shadow (parent frame flattened on the ground)",
+   "evidence": "VERIFIED-STATIC",
+   "handlers": {
+    "0x145a0": "LVL_SpriteShadowInit",
+    "0x145d0": "LVL_SpriteShadowTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "runtime only",
+   "count": 0
+  },
+  "0x2018": {
+   "what": "sprite shadow that also lies on the water level 0x410e0",
+   "evidence": "VERIFIED-STATIC",
+   "handlers": {
+    "0x14820": "LVL_WaterShadowInit",
+    "0x14850": "LVL_WaterShadowTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "runtime only (shark)",
+   "count": 0
+  },
+  "0x2019": {
+   "what": "camera marker: max of obj+0xe while on screen -> 0x3fb88, 0x3fb8c = 1",
+   "evidence": "VERIFIED-STATIC",
+   "handlers": {
+    "0x1b890": "LVL_CamMarkerMaxTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "invisible; consumer of 0x3fb88/0x38520/0x3fb8c open",
+   "count": 10
+  },
+  "0x201a": {
+   "what": "camera marker: min of obj+0xe while on screen -> 0x38520, 0x3fb8c = 1",
+   "evidence": "VERIFIED-STATIC",
+   "handlers": {
+    "0x1b8c0": "LVL_CamMarkerMinTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "pairs with 0x2019",
+   "count": 10
+  },
+  "0x201b": {
+   "what": "checkpoint sparkle",
+   "evidence": "VERIFIED-STATIC",
+   "handlers": {
+    "0x168b0": "LVL_SparkleInit",
+    "0x168f0": "LVL_SparkleTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (spin)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "runtime only",
+   "count": 0
+  },
+  "0x4001": {
+   "what": "debris piece (thrown frame) with bounce",
+   "evidence": "VERIFIED-STATIC",
+   "handlers": {
+    "0x14c30": "LVL_DebrisInit",
+    "0x14d40": "LVL_DebrisTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0, LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "runtime only",
+   "count": 0
+  }
+ },
+ "L07": {
+  "0x0006": {
+   "what": "bonus item, same handler as L02 0x0006",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x15440": "LVL_BonusItemSpawn",
+    "0x15680": "LVL_BonusItemTick"
+   },
+   "damage": null,
+   "gives": "see L02 0x0006",
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "CYCLOPS subtypes: 4x207, 2x26, 1x18, 3x6, 7/5x4, 0x3, 6x2, letters x1; urn sets gs+0x11 by count 1..4",
+   "count": 278
+  },
+  "0x002a": {
+   "what": "falling boulder / rubble (random model 2,1,11,33,36 from 0x34fe0) that drops when the hero is near",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x4580": "LVL_CycBoulderSpawn",
+    "0x4650": "LVL_CycBoulderTick"
+   },
+   "damage": "hit code 0x200 via HERO_Hit 0x19200 (box |z|<54, -10<dx<96, dy<24) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (model, tumble, debris)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "starts 256 above ground; falls at <1024; camera shake 0x405fc; SFX 0xe206/0xe207; dust + 8 debris 0x4003",
+   "count": 55
+  },
+  "0x002b": {
+   "what": "toppling column (models 1/11/2 + capital 3 or 0x2a)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x1aa0": "LVL_CycColumnFwdSpawn",
+    "0x1fe0": "LVL_CycColumnFwdTick"
+   },
+   "damage": "hit code 0x2 via HERO_Hit 0x19200 (LVL_InSphere r=128 per piece) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (6 debris 0x4003 per piece)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "falls when hero dx < (byte+7)*128 or when the Cyclops (0x3fb0c)+0x11e == 1; SFX 0x6204, 0xe205",
+   "count": 14
+  },
+  "0x002d": {
+   "what": "chariot crossing the street (PEOPLE side view 85-99)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x23a0": "LVL_CycCrossChariotSpawn",
+    "0x2440": "LVL_CycCrossChariotTick"
+   },
+   "damage": "hit code 0x400 via HERO_Hit 0x19200 (sprite overlap) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "starts when hero <768; z +8/tick; freed at wall code 0x5d; SFX 0x2a16",
+   "count": 7
+  },
+  "0x002e": {
+   "what": "toppling column falling the other way (capital 0x28 or 0x33)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x2580": "LVL_CycColumnBackSpawn",
+    "0x2ac0": "LVL_CycColumnBackTick"
+   },
+   "damage": "hit code 0x2 via HERO_Hit 0x19200 (LVL_InSphere r=128 per piece) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "as 0x2b, angle +6",
+   "count": 26
+  },
+  "0x002f": {
+   "what": "chariot driving down the street toward the camera (PEOPLE front view 101-124) with dust clouds (126-133)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x2eb0": "LVL_CycChariotSpawn",
+    "0x3020": "LVL_CycChariotTick"
+   },
+   "damage": "hit code 0x400 via HERO_Hit 0x19200 (sprite overlap, body only) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (pass SFX 0x6217/0x6218)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "fades once 32 behind hero",
+   "count": 7
+  },
+  "0x0035": {
+   "what": "group of 3 fleeing citizens (PEOPLE scripts 10-14: goat 265-275, old man 136-145, lady 162-181)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x3bf0": "LVL_CycFleeGroupSpawn",
+    "0x3dc0": "LVL_CycFleeGroupTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "decoration: no hero test; turn on wall code 0x5e",
+   "count": 7
+  },
+  "0x0039": {
+   "what": "collapsing street section: 18 tiles (3x6) that sink with shaking",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x3ef0": "LVL_CycSinkFloorSpawn",
+    "0x4100": "LVL_CycSinkFloorTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (sink speed, delay)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "hero <1024: camera shake, SFX 0x213, 14 tiles sink to y 448 with dust; no direct hit (fall handled by ground)",
+   "count": 2
+  },
+  "0x003d": {
+   "what": "flying swooper that circles in from 2304 ahead (PEOPLE 243-253, frames not decoded)",
+   "evidence": "VERIFIED-STATIC",
+   "handlers": {
+    "0x4c10": "LVL_CycSwooperSpawn",
+    "0x4ca0": "LVL_CycSwooperTick"
+   },
+   "damage": "hit code 0x800 via HERO_Hit 0x19200 (sprite overlap) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0",
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "identity open (frames 243-253 empty in the decoded bank)",
+   "count": 3
+  },
+  "0x003e": {
+   "what": "flyer carrying a rock (kind 0x43, model 2) that it drops before the hero, then dives",
+   "evidence": "VERIFIED-STATIC",
+   "handlers": {
+    "0x4dc0": "LVL_CycFlyerDropSpawn",
+    "0x5070": "LVL_CycFlyerDropTick"
+   },
+   "damage": "hit code 0x4 via HERO_Hit 0x19200 (flyer sprite overlap) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 keeps running at 8.0; ignored while invulnerable; dropped rock 0x43 (0x5ee0) hit code 0x200 via HERO_Hit 0x19200 (rock) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (call SFX 0x6222/0x6223, speeds)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "drop at hero <768 (SFX 0x6224); dive at <900; frames 243-253 not decoded, identity open",
+   "count": 10
+  },
+  "0x003f": {
+   "what": "crowd source: spawns fleeing citizens (0x4033) ahead of the hero",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x53a0": "LVL_CycCrowdSourceInit",
+    "0x53f0": "LVL_CycCrowdSourceTick",
+    "0x56a0": "LVL_CycFleeingCitizenInit",
+    "0x5760": "LVL_CycFleeingCitizenTick"
+   },
+   "damage": "citizen 0x4033: hit code 0x4 via HERO_Hit 0x19200 (box +-32) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 keeps running at 8.0; ignored while invulnerable",
+   "gives": null,
+   "random": "LVL_Rand 0x1010 (count 0-5, x, script 0..10, CLUT), RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "max 32; interval +0xdc; hero trigger codes 0x6e (64), 0x6f (32), 0x70 (stop and free); scream SFX 0xe215/0xe21b-0xe21e",
+   "count": 8
+  },
+  "0x0042": {
+   "what": "bystander (byte 0 lady / 1 man / 2 old man) who starts running with the hero",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x5a20": "LVL_CycBystanderSpawn",
+    "0x5b40": "LVL_CycBystanderTick"
+   },
+   "damage": "hit code 0x4 via HERO_Hit 0x19200 (sprite overlap while running) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 keeps running at 8.0; ignored while invulnerable",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 15
+  },
+  "0x0045": {
+   "what": "opening columns that collapse at the start (x 1597-1613, track 0)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x62f0": "LVL_CycOpeningColumnsSpawn",
+    "0x67d0": "LVL_CycOpeningColumnsTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "LVL_Rand 0x1010, RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "fall when hero x > 256; no hero test; SFX 0x6204/0xe205",
+   "count": 4
+  },
+  "0x0047": {
+   "what": "fluttering cloth/leaves (PEOPLE 301-308, 312-319)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x6af0": "LVL_CycFlutterSpawn",
+    "0x6b90": "LVL_CycFlutterTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "decoration",
+   "count": 90
+  },
+  "0x0048": {
+   "what": "breakable obstacle (model 0x34)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x6c20": "LVL_CycCrateSpawn",
+    "0x6ca0": "LVL_CycCrateTick"
+   },
+   "damage": "hit code 0x36 via HERO_Hit 0x19200 (GFX_ModelHitbox) -> HERO_ApplyDamage T2 = 20/25/35 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away; ignored while dashing",
+   "gives": "smashed by dash: dust, SFX 0x22b, 16 debris 0x4004",
+   "random": "RT_RandMod_slot 0x1fab0, LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 9
+  },
+  "0x200b": {
+   "what": "Pegasus checkpoint, same handler as L02 0x200b",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 1",
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "one per track 0-2 at the start (x 407-507)",
+   "count": 1
+  },
+  "0x200c": {
+   "what": "Pegasus checkpoint, same handler as L02 0x200b",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 2",
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "one per track 0-2 at the start (x 407-507)",
+   "count": 1
+  },
+  "0x200d": {
+   "what": "Pegasus checkpoint, same handler as L02 0x200b",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 3",
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "one per track 0-2 at the start (x 407-507)",
+   "count": 1
+  }
+ },
+ "L09": {
+  "0x0006": {
+   "what": "bonus item, same handler as L02 0x0006",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x15440": "LVL_BonusItemSpawn",
+    "0x15680": "LVL_BonusItemTick"
+   },
+   "damage": null,
+   "gives": "see L02 0x0006",
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "TORMENT subtypes: 4x107, 2x54, 1x15, 7x7, 5/3x5, letters 1-2 each, 6x1",
+   "count": 207
+  },
+  "0x0029": {
+   "what": "flying chariot pulled by a winged beast (TORMENT 352-358) that overtakes the hero and drops fireballs",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x25700": "LVL_TrmChariotSpawn",
+    "0x25770": "LVL_TrmChariotTick"
+   },
+   "damage": "fireball 0x2a (0x259e0) lands and spawns flame 0x2b (0x25d80): hit code 0x30 via HERO_Hit 0x19200 (flame) -> HERO_ApplyDamage T2 = 20/25/35 (Beginner/Medium/Herculean); state 5 keeps running at 8.0; ignored while invulnerable",
+   "gives": null,
+   "random": "LVL_Rand 0x1010 (side z +-16)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "appears 384 behind hero at y -64 (SFX 0x282), x +1.375/tick relative; drops up to 5 0x2a (SFX 0x2a84) while 412<dx<601; walkthrough mentions a chariot",
+   "count": 3
+  },
+  "0x002e": {
+   "what": "flock of 4 flying spirits (TORMENT 71-82, frames not decoded) weaving toward the hero",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x25ec0": "LVL_TrmGhostFlockSpawn",
+    "0x26340": "LVL_TrmGhostFlockTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0 (wail 0xe28e-0xe291), LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "no hero test; trail sprites 0x43; respawn 2304 ahead when 128 behind; ends at trigger code 0x86 or track change",
+   "count": 5
+  },
+  "0x002f": {
+   "what": "lost soul rising and dissolving (SOULS 13-20, then 1-12)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x26550": "LVL_TrmLostSoulSpawn",
+    "0x26600": "LVL_TrmLostSoulTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0, LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "decoration; SFX 0xe28f at y<-96",
+   "count": 46
+  },
+  "0x0030": {
+   "what": "falling stalactite (model 2, starts 1024 above)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x266a0": "LVL_TrmStalactiteSpawn",
+    "0x26770": "LVL_TrmStalactiteTick"
+   },
+   "damage": "hit code 0x31 via HERO_Hit 0x19200 (box +-32) -> HERO_ApplyDamage T2 = 20/25/35 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "random": "LVL_Rand 0x1010 (5 drips 0x3b), RT_RandMod_slot 0x1fab0 (debris)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "drips at <1156, falls at <1000 (SFX 0x6280), lands SFX 0xe281, model 3 when broken; walkthrough: falling stalactites",
+   "count": 120
+  },
+  "0x0031": {
+   "what": "walking skeleton (TORMENT 121-148)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x26b80": "LVL_TrmSkeletonWalkSpawn",
+    "0x26c60": "LVL_TrmSkeletonWalkTick"
+   },
+   "damage": "hit code 0x4 via HERO_Hit 0x19200 (sprite overlap) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 keeps running at 8.0; ignored while invulnerable",
+   "gives": null,
+   "random": "LVL_Rand 0x1010 (CLUT)",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "walks -6/tick; attack anim at <320; cannot be defeated (no hero-attack path)",
+   "count": 32
+  },
+  "0x0033": {
+   "what": "skeleton dropping from above (TORMENT 155-174)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x26f00": "LVL_TrmSkeletonDropSpawn",
+    "0x26fe0": "LVL_TrmSkeletonDropTick"
+   },
+   "damage": "hit code 0x2f via HERO_Hit 0x19200 (sprite overlap) -> HERO_ApplyDamage T2 = 20/25/35 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": null,
+   "random": "LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "y -384, drops at <964 (SFX 0x62a1), lands 0x629b; SFX 0x6282 on hit",
+   "count": 47
+  },
+  "0x0034": {
+   "what": "tilting raft/platform (model 1) that sinks under the hero",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x27130": "LVL_TrmTiltRaftSpawn",
+    "0x27180": "LVL_TrmTiltRaftTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "target y 80 then 64 when hero within +-148 x and hero y >= 64; tilts toward hero; River Styx LEAD",
+   "count": 10
+  },
+  "0x0035": {
+   "what": "bone wall / rib-cage (TORMENT frame 175) that topples and bursts",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x272e0": "LVL_TrmBoneWallSpawn",
+    "0x27370": "LVL_TrmBoneWallTick"
+   },
+   "damage": "child 0x36 (0x27b50): hit code 0x33 via HERO_Hit 0x19200 (child) -> HERO_ApplyDamage T2 = 20/25/35 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0, LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "hero <768: SFX 0xe287, dust; when rotated 0xff: SFX 0xe288, spawns 0x36, 4x 0x37, 12x 0x3b",
+   "count": 10
+  },
+  "0x003d": {
+   "what": "winged fire beast (TORMENT 223-236) spitting fire (kind 0x3e)",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x287b0": "LVL_TrmFireBeastSpawn",
+    "0x28840": "LVL_TrmFireBeastTick"
+   },
+   "damage": "hit code 0x2 via HERO_Hit 0x19200 (hero box +0x88 vs object (0x1f0a0)) -> HERO_ApplyDamage T3 = 25/30/40 (Beginner/Medium/Herculean); state 5 knock-back x-1.0, z 3.0 away",
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "spawn byte = side of the fire; 0x3e handler not traced",
+   "count": 16
+  },
+  "0x0040": {
+   "what": "bone pile (frame 6) that shatters when touched",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x28a90": "LVL_TrmBonePileSpawn",
+    "0x28ae0": "LVL_TrmBonePileTick"
+   },
+   "damage": "hit code 0x32 via HERO_Hit 0x19200 (box |z|<60,|x|<16,y<30) -> HERO_ApplyDamage T2 = 20/25/35 (Beginner/Medium/Herculean); state 5 keeps running at 8.0; ignored while dashing",
+   "gives": null,
+   "random": "LVL_Rand 0x1010, RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "8 bones 0x41 (frames 310-317) + 12 debris 0x3b; SFX 0xe286",
+   "count": 31
+  },
+  "0x0045": {
+   "what": "group of 4 rolling model-7 objects (TORMENT version of GAUNTLET 0x2b)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x29140": "LVL_TrmRollerGroupSpawn",
+    "0x292f0": "LVL_TrmRollerGroupTick"
+   },
+   "damage": "hit code 0x26 via HERO_Hit 0x19200 (GFX_ModelHitbox) -> HERO_ApplyDamage T1 = 15/20/30 (Beginner/Medium/Herculean); state 5 knock-back x-1.0; ignored while dashing",
+   "gives": "dash smash: debris, SFX 0xe2a8, and on track 0 with byte != 0 and gs+0x11&2 clear a kind-8 urn prize",
+   "random": "RT_RandMod_slot 0x1fab0, LVL_Rand 0x1010",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "SFX 0x2aa3",
+   "count": 13
+  },
+  "0x0046": {
+   "what": "rock fall: 20 model-7 rocks of graded size dropping in a line",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x297d0": "LVL_TrmRockfallSpawn",
+    "0x29a10": "LVL_TrmRockfallTick"
+   },
+   "damage": "hit code 0x34 via HERO_Hit 0x19200 (GFX_ModelHitbox per rock) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 keeps running at 8.0",
+   "gives": null,
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "camera shake 100 ticks, SFX 0x2a7; rocks fall at <700 with landing SFX 0xe2a4/0xe2a5/0xe2a6 by scale",
+   "count": 6
+  },
+  "0x0047": {
+   "what": "start gate (model 10) rising out of the way",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x29e50": "LVL_TrmStartGateSpawn",
+    "0x29ea0": "LVL_TrmStartGateTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": "LVL_Rand 0x1010, RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "x 1277 track 0; hero <512: GFX_ScrollTexture(0,0,-1), SFX 0x2a2, 16 debris 0x4002",
+   "count": 1
+  },
+  "0x0048": {
+   "what": "end post (model 15) at x 29445",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x2a040": "LVL_TrmEndPostSpawn",
+    "0x2a090": "LVL_EndPostTick"
+   },
+   "damage": "hit code 0x35 via HERO_Hit 0x19200 (touch +-32, once) -> HERO_ApplyDamage T0 = 10/15/25 (Beginner/Medium/Herculean); state 5 z push 3.5/3.0 by side",
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "shares LVL_EndPostTick with GAUNTLET 0x49",
+   "count": 1
+  },
+  "0x0049": {
+   "what": "end scenery (models 13/14/16 by spawn byte)",
+   "evidence": "LEAD",
+   "handlers": {
+    "0x2a180": "LVL_TrmEndSceneryInit",
+    "0x13e00": "LVL_StaticTick"
+   },
+   "damage": null,
+   "gives": null,
+   "random": null,
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "no hero test",
+   "count": 7
+  },
+  "0x200b": {
+   "what": "Pegasus checkpoint, same handler as L02 0x200b",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 1",
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x200c": {
+   "what": "Pegasus checkpoint, same handler as L02 0x200b",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 2",
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x200d": {
+   "what": "Pegasus checkpoint, same handler as L02 0x200b",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 3",
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x200e": {
+   "what": "Pegasus checkpoint, same handler as L02 0x200b",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 4",
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  },
+  "0x200f": {
+   "what": "Pegasus checkpoint, same handler as L02 0x200b",
+   "evidence": "VISUAL",
+   "handlers": {
+    "0x165f0": "LVL_PegasusCheckpointInit",
+    "0x16670": "LVL_PegasusCheckpointTick"
+   },
+   "damage": null,
+   "gives": "gs+2 = 5",
+   "random": "RT_RandMod_slot 0x1fab0",
+   "difficulty": "none read in handler (gs+0xe only via HERO_ApplyDamage table 0x380a0)",
+   "notes": "",
+   "count": 1
+  }
+ },
+ "proposed_names": {
+  "0x10001010": [
+   "LVL_Rand",
+   "local LCG (0x33070/0x33074) returning value % n"
+  ],
+  "0x10001140": [
+   "LVL_InSphere",
+   "true if |a-b|^2 < r^2 using integer x/y/z"
+  ],
+  "0x10001190": [
+   "LVL_GroupSeparate",
+   "pairwise box test inside an object group; flips lane sign +0x96 and sets +0xe0=0x18"
+  ],
+  "0x10001420": [
+   "LVL_ObjDelta",
+   "writes (a-b)>>16 for x/y/z as s16[3]"
+  ],
+  "0x10001600": [
+   "LVL_ObjFallStep",
+   "gravity/bounce step for falling pieces; halves speeds on ground or GAUNTLET water y>=448; returns 1 when settled"
+  ],
+  "0x10001aa0": [
+   "LVL_CycColumnFwdSpawn",
+   "0x2b: 4-piece column (models 1/11/2/3 or 0x2a)"
+  ],
+  "0x10001fe0": [
+   "LVL_CycColumnFwdTick",
+   "0x2b: topples (angle -6) at (byte+7)*128 or Cyclops signal; hit 2"
+  ],
+  "0x100023a0": [
+   "LVL_CycCrossChariotSpawn",
+   "0x2d: PEOPLE script 5 (side-view chariot 85-99)"
+  ],
+  "0x10002440": [
+   "LVL_CycCrossChariotTick",
+   "0x2d: crosses z +8/tick when hero <768, hit 0x400"
+  ],
+  "0x10002580": [
+   "LVL_CycColumnBackSpawn",
+   "0x2e: 4-piece column (top model 0x28 or 0x33)"
+  ],
+  "0x10002ac0": [
+   "LVL_CycColumnBackTick",
+   "0x2e: topples (angle +6); hit 2"
+  ],
+  "0x10002eb0": [
+   "LVL_CycChariotSpawn",
+   "0x2f: body + 2 dust parts (0x4030)"
+  ],
+  "0x10003020": [
+   "LVL_CycChariotTick",
+   "0x2f: drives forward, hit 0x400, fades out behind hero"
+  ],
+  "0x10003bf0": [
+   "LVL_CycFleeGroupSpawn",
+   "0x35: 3 citizens (0x402c) with random speeds"
+  ],
+  "0x10003dc0": [
+   "LVL_CycFleeGroupTick",
+   "0x35: run along the street, no hero test"
+  ],
+  "0x10003ef0": [
+   "LVL_CycSinkFloorSpawn",
+   "0x39: 18 tiles 0x402f, models table 0x34f98"
+  ],
+  "0x10004100": [
+   "LVL_CycSinkFloorTick",
+   "0x39: hero <1024: shake, SFX 0x213, 14 tiles sink"
+  ],
+  "0x10004580": [
+   "LVL_CycBoulderSpawn",
+   "0x2a: 256 above ground, random model from 0x34fe0 (RT_RandMod_slot(5))"
+  ],
+  "0x10004650": [
+   "LVL_CycBoulderTick",
+   "0x2a: falls when hero <1024, shake 0x405fc, hit 0x200"
+  ],
+  "0x10004c10": [
+   "LVL_CycSwooperSpawn",
+   "0x3d: appears 2304 ahead of hero"
+  ],
+  "0x10004ca0": [
+   "LVL_CycSwooperTick",
+   "0x3d: flies at hero in a widening spiral, hit 0x800"
+  ],
+  "0x10004dc0": [
+   "LVL_CycFlyerDropSpawn",
+   "0x3e: one flyer 0x4032"
+  ],
+  "0x10005070": [
+   "LVL_CycFlyerDropTick",
+   "0x3e: carries kind 0x43 rock, drops it when hero <768, dives, hit 4"
+  ],
+  "0x100053a0": [
+   "LVL_CycCrowdSourceInit",
+   "0x3f init"
+  ],
+  "0x100053f0": [
+   "LVL_CycCrowdSourceTick",
+   "0x3f: spawns 0-5 citizens 0x4033 ahead of hero; trigger 0x6e/0x6f/0x70 change rate/stop"
+  ],
+  "0x100056a0": [
+   "LVL_CycFleeingCitizenInit",
+   "0x4033 init"
+  ],
+  "0x10005760": [
+   "LVL_CycFleeingCitizenTick",
+   "0x4033: runs ahead zig-zagging, hit 4, scream SFX"
+  ],
+  "0x10005a20": [
+   "LVL_CycBystanderSpawn",
+   "0x42: idle citizen chosen by spawn byte"
+  ],
+  "0x10005b40": [
+   "LVL_CycBystanderTick",
+   "0x42: walks to wall then runs with hero, hit 4"
+  ],
+  "0x100062f0": [
+   "LVL_CycOpeningColumnsSpawn",
+   "0x45: 4-piece column, random fall speed"
+  ],
+  "0x100067d0": [
+   "LVL_CycOpeningColumnsTick",
+   "0x45: falls once hero x > 256; no hero test"
+  ],
+  "0x10006af0": [
+   "LVL_CycFlutterSpawn",
+   "0x47: random script (301-308 / 312-319)"
+  ],
+  "0x10006b90": [
+   "LVL_CycFlutterTick",
+   "0x47: drifts in z and bobs; no hero test"
+  ],
+  "0x10006c20": [
+   "LVL_CycCrateSpawn",
+   "0x48: model 0x34"
+  ],
+  "0x10006ca0": [
+   "LVL_CycCrateTick",
+   "0x48: model hitbox hit 0x36; dash smashes it"
+  ],
+  "0x1000bc47": [
+   "AUD_PlaySfx",
+   "plays sound id (gs+0x2f0 table) with positional pan from object screen x/depth; 24 voices 0x41ec8"
+  ],
+  "0x1000d280": [
+   "LVL_GntToppleStatueSpawn",
+   "0x29: model 2 with two 0x4029 parts, random fall speeds"
+  ],
+  "0x1000d410": [
+   "LVL_GntToppleStatueTick",
+   "0x29: falls when hero <1224 ahead, hit 0x21, 3 dust 0x2016 on landing"
+  ],
+  "0x1000d7d0": [
+   "LVL_GntStackSwayFwdSpawn",
+   "0x2a: 4 stacked 0x402a pieces (model 3)"
+  ],
+  "0x1000dae0": [
+   "LVL_StackPieceOrbit",
+   "places piece k of a 4-piece stack on a circle of radius 0x40*k around the base by angle +0x116; reports when the fall angle limit is reached"
+  ],
+  "0x1000dc20": [
+   "LVL_GntStackSwayFwdTick",
+   "0x2a: sways, collapses when hero <640, hit 2"
+  ],
+  "0x1000e020": [
+   "LVL_GntStackSwayBackSpawn",
+   "0x35: as 0x2a, other fall direction"
+  ],
+  "0x1000e2f0": [
+   "LVL_GntStackSwayBackTick",
+   "0x35: as 0x2a with angle decreasing"
+  ],
+  "0x1000ebe0": [
+   "LVL_GntPunchBagSpawn",
+   "0x40: random phase, script 0 (264-272)"
+  ],
+  "0x1000ec60": [
+   "LVL_GntPunchBagTick",
+   "0x40: pendulum swing across z, hit 0x23"
+  ],
+  "0x1000ee00": [
+   "LVL_GntRopeInit",
+   "0x41: static frame 637 (rope) with shadow"
+  ],
+  "0x1000ee40": [
+   "LVL_GntSwordDummySpawn",
+   "0x2c: ALIEN1 script 4 (frames 403-439)"
+  ],
+  "0x1000eeb0": [
+   "LVL_GntSwordDummyTick",
+   "0x2c: slides across lanes, hit 0x22 breaks it into debris"
+  ],
+  "0x1000f460": [
+   "LVL_GntSpinnerSpawn",
+   "0x2e: 2x2 0x402d pieces model 23"
+  ],
+  "0x1000f7b0": [
+   "LVL_GntSpinnerTick",
+   "0x2e: rotating pieces, hit 0x2b"
+  ],
+  "0x1000f980": [
+   "LVL_GntSlideWallRSpawn",
+   "0x2f: model 9 + two 0x402f parts, two 0x3f wheels"
+  ],
+  "0x1000fab0": [
+   "LVL_GntSlideWallRTick",
+   "0x2f: slides +z 172, hit 0x28"
+  ],
+  "0x1000fec0": [
+   "LVL_GntSlideWallLSpawn",
+   "0x30: mirror of 0x2f"
+  ],
+  "0x1000ffd0": [
+   "LVL_GntSlideWallLTick",
+   "0x30: slides -z, SFX 0x60a3/0xe0a4, hit 0x28"
+  ],
+  "0x10010370": [
+   "LVL_GntRollerGroupSpawn",
+   "0x2b: N (= spawn byte) model-13 rollers"
+  ],
+  "0x10010590": [
+   "LVL_GntRollerGroupTick",
+   "0x2b: bounce between wall codes 0x5d/0x5e, hit 0x26/0x27, dash smash"
+  ],
+  "0x10010b10": [
+   "LVL_GntTotemSquadSpawn",
+   "0x2d: 4 marker 0x402c totem dummies"
+  ],
+  "0x10010df0": [
+   "LVL_GntTotemSquadTick",
+   "0x2d: wander, hit 0x22 breaks one into debris"
+  ],
+  "0x100113f0": [
+   "LVL_GntSharkSpawn",
+   "0x32: y = 488 (water), script 0"
+  ],
+  "0x10011470": [
+   "LVL_GntSharkTick",
+   "0x32: leap arc on anim pos 6..17, hit 0x2a"
+  ],
+  "0x10011760": [
+   "LVL_GntPendulumSpawn",
+   "0x37: 4 hanging 0x402a segments, models 12/12/12/11"
+  ],
+  "0x10011a80": [
+   "LVL_GntPendulumTick",
+   "0x37: swings; bottom model 11 box hit 0x2c"
+  ],
+  "0x10011b90": [
+   "LVL_PendulumPlace",
+   "places pendulum segment k at radius 0x78*k below the pivot by angle +0x116; swish SFX 0x6094/0x6095 on the bottom piece"
+  ],
+  "0x10011d30": [
+   "LVL_GntRingTargetSpawn",
+   "0x38: ALIEN1 script 0 (85-108) above a fire ring"
+  ],
+  "0x10011d80": [
+   "LVL_GntRingTargetTick",
+   "0x38: on state 2 poofs (138-156) and throws a kind-8 health potion"
+  ],
+  "0x10011ef0": [
+   "LVL_GntPhilSpawn",
+   "0x3a: ALIEN1 bank, script 0"
+  ],
+  "0x10011f90": [
+   "LVL_GntPhilTick",
+   "0x3a: when hero <640 picks a cue by track/health via 0x1faf0 and an animation"
+  ],
+  "0x10012200": [
+   "LVL_GntFireRingSpawn",
+   "0x3c: script 2 (fire ring 273-280)"
+  ],
+  "0x10012250": [
+   "LVL_GntFireRingTick",
+   "0x3c: bobs +-32; centre pass scores, rim hit 0x40"
+  ],
+  "0x10012500": [
+   "LVL_GntHangingWeightSpawn",
+   "0x3e: 4 segments, bottom model 21 (spawn byte 0) or 22"
+  ],
+  "0x10012820": [
+   "LVL_GntHangingWeightTick",
+   "0x3e: swings; hit 0x25 only for bottom model 21 (GFX_ModelHitbox)"
+  ],
+  "0x10012be0": [
+   "LVL_GntSweeperSpawn",
+   "0x48: model 24, spin 0x10"
+  ],
+  "0x10012c40": [
+   "LVL_GntSweeperTick",
+   "0x48: rotating two-arm bar, hit 0x2d"
+  ],
+  "0x10012e40": [
+   "LVL_GntWheelDecoSpawn",
+   "0x3f: model 16"
+  ],
+  "0x10012e80": [
+   "LVL_GntWheelDecoTick",
+   "0x3f: rotates by spawn byte / parent role, no hero test"
+  ],
+  "0x10013010": [
+   "LVL_GntGoatWalkerSpawn",
+   "0x43: random CLUT/scale/timers"
+  ],
+  "0x100130e0": [
+   "LVL_GntGoatWalkerTick",
+   "0x43: wanders across z, flees when hero <512 with bleat 0x6083"
+  ],
+  "0x10013330": [
+   "LVL_GntChaserDummySpawn",
+   "0x44: script 4 (403-439)"
+  ],
+  "0x100133b0": [
+   "LVL_GntChaserDummyTick",
+   "0x44: homes on hero z, moves -8 x/tick, hit 0x22 breaks it"
+  ],
+  "0x10013840": [
+   "LVL_GntHerdSourceInit",
+   "0x46 init"
+  ],
+  "0x10013860": [
+   "LVL_GntHerdSourceTick",
+   "0x46: scrolls texture 1, spawns 5 then 1-by-1 0x45 goats"
+  ],
+  "0x10013a40": [
+   "LVL_GntHerdGoatSpawn",
+   "0x45: child of 0x46"
+  ],
+  "0x10013a90": [
+   "LVL_GntHerdGoatTick",
+   "0x45: moves z-2, y-1 per tick; at z<-512 tells parent to spawn another"
+  ],
+  "0x10013b30": [
+   "LVL_GntGoatIdleSpawn",
+   "0x47: random CLUT/scale/anim offset"
+  ],
+  "0x10013c10": [
+   "LVL_GntGoatIdleTick",
+   "0x47: idle anim, random bleat 0x6083"
+  ],
+  "0x10013cb0": [
+   "LVL_GntEndPostSpawn",
+   "0x49: model 25"
+  ],
+  "0x10013d00": [
+   "LVL_GntDustTrailInit",
+   "0x4a: script 0 (596-603)"
+  ],
+  "0x10013d30": [
+   "LVL_GntDustTrailTick",
+   "0x4a: animates, freed by parent (+0xe0)"
+  ],
+  "0x10013d70": [
+   "LVL_GntEndSceneryInit",
+   "0x4b: model 28/29/30 by spawn byte, z = 0"
+  ],
+  "0x10013e00": [
+   "LVL_StaticTick",
+   "only frees when off screen"
+  ],
+  "0x10014270": [
+   "LVL_ModelShadowInit",
+   "0x2002 init"
+  ],
+  "0x100142b0": [
+   "LVL_ModelShadowTick",
+   "0x2002: shadow sprite (bank 1 frames 0xcd-0xcf) projected on the ground under the parent model"
+  ],
+  "0x100145a0": [
+   "LVL_SpriteShadowInit",
+   "0x2017 init"
+  ],
+  "0x100145d0": [
+   "LVL_SpriteShadowTick",
+   "0x2017: copy of the parent frame flattened on the ground"
+  ],
+  "0x10014820": [
+   "LVL_WaterShadowInit",
+   "0x2018 init"
+  ],
+  "0x10014850": [
+   "LVL_WaterShadowTick",
+   "0x2018: as 0x2017 but also projects on the water level 0x410e0"
+  ],
+  "0x10014b30": [
+   "LVL_DustPuffInit",
+   "0x2016: per-level explosion/dust frames"
+  ],
+  "0x10014bb0": [
+   "LVL_DustPuffTick",
+   "0x2016: steps the frame, frees after the last one"
+  ],
+  "0x10014c30": [
+   "LVL_DebrisInit",
+   "0x4001: random throw velocities, shadow 0x2017"
+  ],
+  "0x10014d40": [
+   "LVL_DebrisTick",
+   "0x4001: spins, bounces (0x1460), frees 32 behind hero"
+  ],
+  "0x10015340": [
+   "LVL_ProbeGround",
+   "LVL_FindSurface under the object: sets +0x25 bit 2 if none, stores ground dy at +0x28"
+  ],
+  "0x10015440": [
+   "LVL_BonusItemSpawn",
+   "kind 6 init: subtype = spawn byte +0xc picks script/bank"
+  ],
+  "0x10015680": [
+   "LVL_BonusItemTick",
+   "kind 6 tick: sprite overlap with hero gives health/coins/letters/dash/lives"
+  ],
+  "0x100165f0": [
+   "LVL_PegasusCheckpointInit",
+   "pickups 0x200b..0x2014: checkpoint, active if (kind+6)&15 == gs+2"
+  ],
+  "0x10016670": [
+   "LVL_PegasusCheckpointTick",
+   "activates when hero is <700 ahead on same track: gs+2 = (kind+6)&15, SFX 0x6028, sparkles 0x201b"
+  ],
+  "0x100168b0": [
+   "LVL_SparkleInit",
+   "0x201b: script 0x37c30, random spin"
+  ],
+  "0x100168f0": [
+   "LVL_SparkleTick",
+   "0x201b: rises/wobbles and fades"
+  ],
+  "0x1001b890": [
+   "LVL_CamMarkerMaxTick",
+   "0x2019: when on screen, 0x3fb88 = max(obj+0xe); 0x3fb8c = 1"
+  ],
+  "0x1001b8c0": [
+   "LVL_CamMarkerMinTick",
+   "0x201a: when on screen, 0x38520 = min(obj+0xe); 0x3fb8c = 1"
+  ],
+  "0x1001b920": [
+   "LVL_IsOffscreen",
+   "returns 1 when object x is outside the drawn column range of its track (+margin)"
+  ],
+  "0x1001cb00": [
+   "LVL_NewActor",
+   "allocates a pool-A actor of kind n and copies the actor anim entry (0x40ba4)"
+  ],
+  "0x1001cb90": [
+   "LVL_FreeActor",
+   "frees an actor (or dispatches 0x6000 kinds), writes back spawn-list state"
+  ],
+  "0x1001d110": [
+   "LVL_NewMarker",
+   "allocates a 0x4000-class object, kind|0x4000, marker anim entry 0x40bac"
+  ],
+  "0x1001d600": [
+   "LVL_AttachPickup",
+   "creates a 0x2000-class child (shadow etc.) linked via +0x5c and runs its init"
+  ],
+  "0x1001d670": [
+   "LVL_NewPickup",
+   "allocates a 0x2000-class object, kind|0x2000, pickup anim entry 0x40bbc"
+  ],
+  "0x1001d6e0": [
+   "LVL_FreeObject",
+   "frees a 0x2000-class object (else LVL_FreeActor) and clears the spawn-list bit"
+  ],
+  "0x1001dbc0": [
+   "GFX_AnimStepActor",
+   "actor anim script interpreter: dword {frame, ticks}, opcodes -0x30..-1 (SFX -0x28, loop -1)"
+  ],
+  "0x1001e000": [
+   "GFX_AnimStepObject",
+   "pickup/marker anim script interpreter (u16 stream, -9 duration, -0x28/-0x27 SFX, -1 loop)"
+  ],
+  "0x1001e2e0": [
+   "GFX_SetAnimScript",
+   "obj+0x64 = script list (+0x110)[n], resets timer/position"
+  ],
+  "0x1001eeb0": [
+   "LVL_SnapToSurface",
+   "moves y onto LVL_FindSurface result"
+  ],
+  "0x1001eff0": [
+   "LVL_ObjOverlap",
+   "sprite/frame box overlap of two objects via 0x1f1a0 (0x23860 frame rect)"
+  ],
+  "0x1001f3c0": [
+   "LVL_GroupAlloc",
+   "takes a free object-group list from 0x40be0"
+  ],
+  "0x1001f410": [
+   "LVL_GroupAddMarker",
+   "LVL_NewMarker + init + append to group list"
+  ],
+  "0x1001f480": [
+   "LVL_GroupRemove",
+   "removes one object from a group list"
+  ],
+  "0x1001f4d0": [
+   "LVL_GroupFree",
+   "frees every object in a group and releases the list"
+  ],
+  "0x1001f550": [
+   "LVL_ObjMoveStep",
+   "forward speed/accel (+0xa8..+0xb4) and vertical speed (+0xb8..+0xc4) step"
+  ],
+  "0x1001f620": [
+   "LVL_ObjLaneStep",
+   "lane speed (+0xc8..+0xd4) step, sign from +0x96"
+  ],
+  "0x1001faf0": [
+   "AUD_ExeCue",
+   "thunk to EXE slot 0x850 with a small id (0x16/0x19/0x1a/0x1b/0x1c from Phil); meaning open (LEAD: voice cue)"
+  ],
+  "0x10022bd0": [
+   "LVL_SpawnKind",
+   "spawns any kind by class bits (actor / 0x2000 / 0x4000) and runs its init"
+  ],
+  "0x10025700": [
+   "LVL_TrmChariotSpawn",
+   "0x29: TORMENT script 0 (352-358)"
+  ],
+  "0x10025770": [
+   "LVL_TrmChariotTick",
+   "0x29: overtakes hero, drops up to 5 kind-0x2a fireballs"
+  ],
+  "0x10025ec0": [
+   "LVL_TrmGhostFlockSpawn",
+   "0x2e: 4 flyers 0x4029"
+  ],
+  "0x10026340": [
+   "LVL_TrmGhostFlockTick",
+   "0x2e: fly at hero in sine paths, random wail; ends at trigger 0x86"
+  ],
+  "0x10026550": [
+   "LVL_TrmLostSoulSpawn",
+   "0x2f: SOULS script 3"
+  ],
+  "0x10026600": [
+   "LVL_TrmLostSoulTick",
+   "0x2f: rises, dissolves at y<-96"
+  ],
+  "0x100266a0": [
+   "LVL_TrmStalactiteSpawn",
+   "0x30: model 2, 1024 above"
+  ],
+  "0x10026770": [
+   "LVL_TrmStalactiteTick",
+   "0x30: drips at <1156, falls at <1000, hit 0x31"
+  ],
+  "0x10026b80": [
+   "LVL_TrmSkeletonWalkSpawn",
+   "0x31: TORMENT script 0, random CLUT"
+  ],
+  "0x10026c60": [
+   "LVL_TrmSkeletonWalkTick",
+   "0x31: walks -6/tick, attacks at <320, hit 4"
+  ],
+  "0x10026f00": [
+   "LVL_TrmSkeletonDropSpawn",
+   "0x33: y = -384"
+  ],
+  "0x10026fe0": [
+   "LVL_TrmSkeletonDropTick",
+   "0x33: drops at <964, lands (0x629b), hit 0x2f"
+  ],
+  "0x10027130": [
+   "LVL_TrmTiltRaftSpawn",
+   "0x34: model 1 platform"
+  ],
+  "0x10027180": [
+   "LVL_TrmTiltRaftTick",
+   "0x34: tilts toward hero and sinks to 80/64 under him"
+  ],
+  "0x100272e0": [
+   "LVL_TrmBoneWallSpawn",
+   "0x35: frame 175"
+  ],
+  "0x10027370": [
+   "LVL_TrmBoneWallTick",
+   "0x35: topples at <768, bursts into 0x36/0x37/0x3b"
+  ],
+  "0x100287b0": [
+   "LVL_TrmFireBeastSpawn",
+   "0x3d: script 1 (223-236)"
+  ],
+  "0x10028840": [
+   "LVL_TrmFireBeastTick",
+   "0x3d: at anim pos 9 spawns kind 0x3e; body hit 2"
+  ],
+  "0x10028a90": [
+   "LVL_TrmBonePileSpawn",
+   "0x40: frame 6"
+  ],
+  "0x10028ae0": [
+   "LVL_TrmBonePileTick",
+   "0x40: hero touch: hit 0x32, shatters into 0x41 bones + 0x3b"
+  ],
+  "0x10029140": [
+   "LVL_TrmRollerGroupSpawn",
+   "0x45: 4 model-7 rollers 0x402a"
+  ],
+  "0x100292f0": [
+   "LVL_TrmRollerGroupTick",
+   "0x45: as GAUNTLET 0x2b, hit 0x26, dash smash"
+  ],
+  "0x100297d0": [
+   "LVL_TrmRockfallSpawn",
+   "0x46: 20 model-7 rocks 0x402b at y -384"
+  ],
+  "0x10029a10": [
+   "LVL_TrmRockfallTick",
+   "0x46: shake, rocks fall at <700, hit 0x34"
+  ],
+  "0x10029e50": [
+   "LVL_TrmStartGateSpawn",
+   "0x47: model 10"
+  ],
+  "0x10029ea0": [
+   "LVL_TrmStartGateTick",
+   "0x47: rises when hero <512, scrolls texture 0"
+  ],
+  "0x1002a040": [
+   "LVL_TrmEndPostSpawn",
+   "0x48: model 15"
+  ],
+  "0x1002a090": [
+   "LVL_EndPostTick",
+   "touch (+-32) -> wobble and one 0x35 hit; GAUNTLET 0x49, TORMENT 0x48"
+  ],
+  "0x1002a180": [
+   "LVL_TrmEndSceneryInit",
+   "0x49: model 13/14/16 by spawn byte"
+  ]
+ }
+}

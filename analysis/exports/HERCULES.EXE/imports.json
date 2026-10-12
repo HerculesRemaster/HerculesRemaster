@@ -1,0 +1,1279 @@
+[
+ {
+  "name": "DirectDrawCreate",
+  "address": "EXTERNAL:00000001"
+ },
+ {
+  "name": "DirectSoundCreate",
+  "address": "EXTERNAL:00000002"
+ },
+ {
+  "name": "joyGetPosEx",
+  "address": "EXTERNAL:00000003"
+ },
+ {
+  "name": "joyGetPos",
+  "address": "EXTERNAL:00000004"
+ },
+ {
+  "name": "mciSendStringA",
+  "address": "EXTERNAL:00000005"
+ },
+ {
+  "name": "joyGetDevCapsA",
+  "address": "EXTERNAL:00000006"
+ },
+ {
+  "name": "timeBeginPeriod",
+  "address": "EXTERNAL:00000007"
+ },
+ {
+  "name": "timeEndPeriod",
+  "address": "EXTERNAL:00000008"
+ },
+ {
+  "name": "timeGetTime",
+  "address": "EXTERNAL:00000009"
+ },
+ {
+  "name": "GlobalAddAtomA",
+  "address": "EXTERNAL:0000000a"
+ },
+ {
+  "name": "GlobalGetAtomNameA",
+  "address": "EXTERNAL:0000000b"
+ },
+ {
+  "name": "lstrcpynA",
+  "address": "EXTERNAL:0000000c"
+ },
+ {
+  "name": "lstrlenA",
+  "address": "EXTERNAL:0000000d"
+ },
+ {
+  "name": "lstrcpyA",
+  "address": "EXTERNAL:0000000e"
+ },
+ {
+  "name": "MulDiv",
+  "address": "EXTERNAL:0000000f"
+ },
+ {
+  "name": "SizeofResource",
+  "address": "EXTERNAL:00000010"
+ },
+ {
+  "name": "GetProcessVersion",
+  "address": "EXTERNAL:00000011"
+ },
+ {
+  "name": "GlobalFlags",
+  "address": "EXTERNAL:00000012"
+ },
+ {
+  "name": "GlobalAlloc",
+  "address": "EXTERNAL:00000013"
+ },
+ {
+  "name": "GlobalHandle",
+  "address": "EXTERNAL:00000014"
+ },
+ {
+  "name": "GlobalReAlloc",
+  "address": "EXTERNAL:00000015"
+ },
+ {
+  "name": "LocalReAlloc",
+  "address": "EXTERNAL:00000016"
+ },
+ {
+  "name": "GetVersionExA",
+  "address": "EXTERNAL:00000017"
+ },
+ {
+  "name": "WritePrivateProfileStringA",
+  "address": "EXTERNAL:00000018"
+ },
+ {
+  "name": "GlobalUnlock",
+  "address": "EXTERNAL:00000019"
+ },
+ {
+  "name": "lstrcatA",
+  "address": "EXTERNAL:0000001a"
+ },
+ {
+  "name": "lstrcmpiA",
+  "address": "EXTERNAL:0000001b"
+ },
+ {
+  "name": "GlobalDeleteAtom",
+  "address": "EXTERNAL:0000001c"
+ },
+ {
+  "name": "lstrcmpA",
+  "address": "EXTERNAL:0000001d"
+ },
+ {
+  "name": "LocalAlloc",
+  "address": "EXTERNAL:0000001e"
+ },
+ {
+  "name": "LocalFree",
+  "address": "EXTERNAL:0000001f"
+ },
+ {
+  "name": "GlobalLock",
+  "address": "EXTERNAL:00000020"
+ },
+ {
+  "name": "SetErrorMode",
+  "address": "EXTERNAL:00000021"
+ },
+ {
+  "name": "GetLogicalDrives",
+  "address": "EXTERNAL:00000022"
+ },
+ {
+  "name": "GetDriveTypeA",
+  "address": "EXTERNAL:00000023"
+ },
+ {
+  "name": "SetCurrentDirectoryA",
+  "address": "EXTERNAL:00000024"
+ },
+ {
+  "name": "ResumeThread",
+  "address": "EXTERNAL:00000025"
+ },
+ {
+  "name": "CloseHandle",
+  "address": "EXTERNAL:00000026"
+ },
+ {
+  "name": "TerminateThread",
+  "address": "EXTERNAL:00000027"
+ },
+ {
+  "name": "LoadResource",
+  "address": "EXTERNAL:00000028"
+ },
+ {
+  "name": "SetPriorityClass",
+  "address": "EXTERNAL:00000029"
+ },
+ {
+  "name": "SetThreadPriority",
+  "address": "EXTERNAL:0000002a"
+ },
+ {
+  "name": "GetCurrentProcess",
+  "address": "EXTERNAL:0000002b"
+ },
+ {
+  "name": "GetCurrentThread",
+  "address": "EXTERNAL:0000002c"
+ },
+ {
+  "name": "GetPriorityClass",
+  "address": "EXTERNAL:0000002d"
+ },
+ {
+  "name": "GetThreadPriority",
+  "address": "EXTERNAL:0000002e"
+ },
+ {
+  "name": "FindResourceA",
+  "address": "EXTERNAL:0000002f"
+ },
+ {
+  "name": "LockResource",
+  "address": "EXTERNAL:00000030"
+ },
+ {
+  "name": "GlobalFree",
+  "address": "EXTERNAL:00000031"
+ },
+ {
+  "name": "GetLocaleInfoW",
+  "address": "EXTERNAL:00000032"
+ },
+ {
+  "name": "GetLocaleInfoA",
+  "address": "EXTERNAL:00000033"
+ },
+ {
+  "name": "LCMapStringW",
+  "address": "EXTERNAL:00000034"
+ },
+ {
+  "name": "GetStringTypeA",
+  "address": "EXTERNAL:00000035"
+ },
+ {
+  "name": "LCMapStringA",
+  "address": "EXTERNAL:00000036"
+ },
+ {
+  "name": "GetStringTypeW",
+  "address": "EXTERNAL:00000037"
+ },
+ {
+  "name": "IsBadCodePtr",
+  "address": "EXTERNAL:00000038"
+ },
+ {
+  "name": "SetEndOfFile",
+  "address": "EXTERNAL:00000039"
+ },
+ {
+  "name": "SetUnhandledExceptionFilter",
+  "address": "EXTERNAL:0000003a"
+ },
+ {
+  "name": "IsBadWritePtr",
+  "address": "EXTERNAL:0000003b"
+ },
+ {
+  "name": "IsBadReadPtr",
+  "address": "EXTERNAL:0000003c"
+ },
+ {
+  "name": "FlushFileBuffers",
+  "address": "EXTERNAL:0000003d"
+ },
+ {
+  "name": "InterlockedIncrement",
+  "address": "EXTERNAL:0000003e"
+ },
+ {
+  "name": "InterlockedDecrement",
+  "address": "EXTERNAL:0000003f"
+ },
+ {
+  "name": "GetEnvironmentStringsW",
+  "address": "EXTERNAL:00000040"
+ },
+ {
+  "name": "SetStdHandle",
+  "address": "EXTERNAL:00000041"
+ },
+ {
+  "name": "WideCharToMultiByte",
+  "address": "EXTERNAL:00000042"
+ },
+ {
+  "name": "MultiByteToWideChar",
+  "address": "EXTERNAL:00000043"
+ },
+ {
+  "name": "GetEnvironmentStrings",
+  "address": "EXTERNAL:00000044"
+ },
+ {
+  "name": "FreeEnvironmentStringsW",
+  "address": "EXTERNAL:00000045"
+ },
+ {
+  "name": "HeapSize",
+  "address": "EXTERNAL:00000046"
+ },
+ {
+  "name": "FreeEnvironmentStringsA",
+  "address": "EXTERNAL:00000047"
+ },
+ {
+  "name": "UnhandledExceptionFilter",
+  "address": "EXTERNAL:00000048"
+ },
+ {
+  "name": "GetACP",
+  "address": "EXTERNAL:00000049"
+ },
+ {
+  "name": "HeapReAlloc",
+  "address": "EXTERNAL:0000004a"
+ },
+ {
+  "name": "GetOEMCP",
+  "address": "EXTERNAL:0000004b"
+ },
+ {
+  "name": "GetStdHandle",
+  "address": "EXTERNAL:0000004c"
+ },
+ {
+  "name": "GetCPInfo",
+  "address": "EXTERNAL:0000004d"
+ },
+ {
+  "name": "SuspendThread",
+  "address": "EXTERNAL:0000004e"
+ },
+ {
+  "name": "GetFileType",
+  "address": "EXTERNAL:0000004f"
+ },
+ {
+  "name": "FindClose",
+  "address": "EXTERNAL:00000050"
+ },
+ {
+  "name": "FindFirstFileA",
+  "address": "EXTERNAL:00000051"
+ },
+ {
+  "name": "WriteFile",
+  "address": "EXTERNAL:00000052"
+ },
+ {
+  "name": "CreateThread",
+  "address": "EXTERNAL:00000053"
+ },
+ {
+  "name": "ReadFile",
+  "address": "EXTERNAL:00000054"
+ },
+ {
+  "name": "SetHandleCount",
+  "address": "EXTERNAL:00000055"
+ },
+ {
+  "name": "SetFilePointer",
+  "address": "EXTERNAL:00000056"
+ },
+ {
+  "name": "GetVolumeInformationA",
+  "address": "EXTERNAL:00000057"
+ },
+ {
+  "name": "LeaveCriticalSection",
+  "address": "EXTERNAL:00000058"
+ },
+ {
+  "name": "CreateFileA",
+  "address": "EXTERNAL:00000059"
+ },
+ {
+  "name": "VirtualAlloc",
+  "address": "EXTERNAL:0000005a"
+ },
+ {
+  "name": "InitializeCriticalSection",
+  "address": "EXTERNAL:0000005b"
+ },
+ {
+  "name": "EnterCriticalSection",
+  "address": "EXTERNAL:0000005c"
+ },
+ {
+  "name": "DeleteCriticalSection",
+  "address": "EXTERNAL:0000005d"
+ },
+ {
+  "name": "HeapDestroy",
+  "address": "EXTERNAL:0000005e"
+ },
+ {
+  "name": "VirtualFree",
+  "address": "EXTERNAL:0000005f"
+ },
+ {
+  "name": "HeapCreate",
+  "address": "EXTERNAL:00000060"
+ },
+ {
+  "name": "TlsGetValue",
+  "address": "EXTERNAL:00000061"
+ },
+ {
+  "name": "SetLastError",
+  "address": "EXTERNAL:00000062"
+ },
+ {
+  "name": "GetCurrentThreadId",
+  "address": "EXTERNAL:00000063"
+ },
+ {
+  "name": "TlsAlloc",
+  "address": "EXTERNAL:00000064"
+ },
+ {
+  "name": "TlsSetValue",
+  "address": "EXTERNAL:00000065"
+ },
+ {
+  "name": "GetStartupInfoA",
+  "address": "EXTERNAL:00000066"
+ },
+ {
+  "name": "GetVersion",
+  "address": "EXTERNAL:00000067"
+ },
+ {
+  "name": "GetCommandLineA",
+  "address": "EXTERNAL:00000068"
+ },
+ {
+  "name": "ExitProcess",
+  "address": "EXTERNAL:00000069"
+ },
+ {
+  "name": "GetModuleHandleA",
+  "address": "EXTERNAL:0000006a"
+ },
+ {
+  "name": "TerminateProcess",
+  "address": "EXTERNAL:0000006b"
+ },
+ {
+  "name": "HeapAlloc",
+  "address": "EXTERNAL:0000006c"
+ },
+ {
+  "name": "RtlUnwind",
+  "address": "EXTERNAL:0000006d"
+ },
+ {
+  "name": "GetFileAttributesA",
+  "address": "EXTERNAL:0000006e"
+ },
+ {
+  "name": "GetLastError",
+  "address": "EXTERNAL:0000006f"
+ },
+ {
+  "name": "HeapFree",
+  "address": "EXTERNAL:00000070"
+ },
+ {
+  "name": "CreateFileMappingA",
+  "address": "EXTERNAL:00000071"
+ },
+ {
+  "name": "LoadLibraryA",
+  "address": "EXTERNAL:00000072"
+ },
+ {
+  "name": "GetModuleFileNameA",
+  "address": "EXTERNAL:00000073"
+ },
+ {
+  "name": "FreeLibrary",
+  "address": "EXTERNAL:00000074"
+ },
+ {
+  "name": "GetFullPathNameA",
+  "address": "EXTERNAL:00000075"
+ },
+ {
+  "name": "GetProcAddress",
+  "address": "EXTERNAL:00000076"
+ },
+ {
+  "name": "Sleep",
+  "address": "EXTERNAL:00000077"
+ },
+ {
+  "name": "RaiseException",
+  "address": "EXTERNAL:00000078"
+ },
+ {
+  "name": "GetProfileStringA",
+  "address": "EXTERNAL:00000079"
+ },
+ {
+  "name": "GetClassNameA",
+  "address": "EXTERNAL:0000007a"
+ },
+ {
+  "name": "LoadBitmapA",
+  "address": "EXTERNAL:0000007b"
+ },
+ {
+  "name": "GetMenuCheckMarkDimensions",
+  "address": "EXTERNAL:0000007c"
+ },
+ {
+  "name": "PostQuitMessage",
+  "address": "EXTERNAL:0000007d"
+ },
+ {
+  "name": "ShowOwnedPopups",
+  "address": "EXTERNAL:0000007e"
+ },
+ {
+  "name": "GetCursorPos",
+  "address": "EXTERNAL:0000007f"
+ },
+ {
+  "name": "ValidateRect",
+  "address": "EXTERNAL:00000080"
+ },
+ {
+  "name": "GetMessageA",
+  "address": "EXTERNAL:00000081"
+ },
+ {
+  "name": "ReleaseCapture",
+  "address": "EXTERNAL:00000082"
+ },
+ {
+  "name": "GetDesktopWindow",
+  "address": "EXTERNAL:00000083"
+ },
+ {
+  "name": "WindowFromPoint",
+  "address": "EXTERNAL:00000084"
+ },
+ {
+  "name": "ClientToScreen",
+  "address": "EXTERNAL:00000085"
+ },
+ {
+  "name": "SetRectEmpty",
+  "address": "EXTERNAL:00000086"
+ },
+ {
+  "name": "LoadAcceleratorsA",
+  "address": "EXTERNAL:00000087"
+ },
+ {
+  "name": "TranslateAcceleratorA",
+  "address": "EXTERNAL:00000088"
+ },
+ {
+  "name": "DestroyMenu",
+  "address": "EXTERNAL:00000089"
+ },
+ {
+  "name": "LoadMenuA",
+  "address": "EXTERNAL:0000008a"
+ },
+ {
+  "name": "ReuseDDElParam",
+  "address": "EXTERNAL:0000008b"
+ },
+ {
+  "name": "UnpackDDElParam",
+  "address": "EXTERNAL:0000008c"
+ },
+ {
+  "name": "IsIconic",
+  "address": "EXTERNAL:0000008d"
+ },
+ {
+  "name": "BringWindowToTop",
+  "address": "EXTERNAL:0000008e"
+ },
+ {
+  "name": "GetWindowDC",
+  "address": "EXTERNAL:0000008f"
+ },
+ {
+  "name": "BeginPaint",
+  "address": "EXTERNAL:00000090"
+ },
+ {
+  "name": "EndPaint",
+  "address": "EXTERNAL:00000091"
+ },
+ {
+  "name": "TabbedTextOutA",
+  "address": "EXTERNAL:00000092"
+ },
+ {
+  "name": "DrawTextA",
+  "address": "EXTERNAL:00000093"
+ },
+ {
+  "name": "GrayStringA",
+  "address": "EXTERNAL:00000094"
+ },
+ {
+  "name": "LoadStringA",
+  "address": "EXTERNAL:00000095"
+ },
+ {
+  "name": "SetMenuItemBitmaps",
+  "address": "EXTERNAL:00000096"
+ },
+ {
+  "name": "GetMenuState",
+  "address": "EXTERNAL:00000097"
+ },
+ {
+  "name": "PtInRect",
+  "address": "EXTERNAL:00000098"
+ },
+ {
+  "name": "FindWindowA",
+  "address": "EXTERNAL:00000099"
+ },
+ {
+  "name": "OffsetRect",
+  "address": "EXTERNAL:0000009a"
+ },
+ {
+  "name": "CharUpperA",
+  "address": "EXTERNAL:0000009b"
+ },
+ {
+  "name": "IntersectRect",
+  "address": "EXTERNAL:0000009c"
+ },
+ {
+  "name": "InflateRect",
+  "address": "EXTERNAL:0000009d"
+ },
+ {
+  "name": "UnregisterClassA",
+  "address": "EXTERNAL:0000009e"
+ },
+ {
+  "name": "SendDlgItemMessageA",
+  "address": "EXTERNAL:0000009f"
+ },
+ {
+  "name": "MapWindowPoints",
+  "address": "EXTERNAL:000000a0"
+ },
+ {
+  "name": "GetSysColor",
+  "address": "EXTERNAL:000000a1"
+ },
+ {
+  "name": "AdjustWindowRectEx",
+  "address": "EXTERNAL:000000a2"
+ },
+ {
+  "name": "EqualRect",
+  "address": "EXTERNAL:000000a3"
+ },
+ {
+  "name": "DeferWindowPos",
+  "address": "EXTERNAL:000000a4"
+ },
+ {
+  "name": "BeginDeferWindowPos",
+  "address": "EXTERNAL:000000a5"
+ },
+ {
+  "name": "CopyRect",
+  "address": "EXTERNAL:000000a6"
+ },
+ {
+  "name": "EndDeferWindowPos",
+  "address": "EXTERNAL:000000a7"
+ },
+ {
+  "name": "IsWindowVisible",
+  "address": "EXTERNAL:000000a8"
+ },
+ {
+  "name": "ScrollWindow",
+  "address": "EXTERNAL:000000a9"
+ },
+ {
+  "name": "SetScrollInfo",
+  "address": "EXTERNAL:000000aa"
+ },
+ {
+  "name": "ShowScrollBar",
+  "address": "EXTERNAL:000000ab"
+ },
+ {
+  "name": "SetScrollRange",
+  "address": "EXTERNAL:000000ac"
+ },
+ {
+  "name": "GetScrollPos",
+  "address": "EXTERNAL:000000ad"
+ },
+ {
+  "name": "SetScrollPos",
+  "address": "EXTERNAL:000000ae"
+ },
+ {
+  "name": "GetTopWindow",
+  "address": "EXTERNAL:000000af"
+ },
+ {
+  "name": "GetSysColorBrush",
+  "address": "EXTERNAL:000000b0"
+ },
+ {
+  "name": "EnableMenuItem",
+  "address": "EXTERNAL:000000b1"
+ },
+ {
+  "name": "CheckMenuItem",
+  "address": "EXTERNAL:000000b2"
+ },
+ {
+  "name": "GetMenuItemCount",
+  "address": "EXTERNAL:000000b3"
+ },
+ {
+  "name": "GetSubMenu",
+  "address": "EXTERNAL:000000b4"
+ },
+ {
+  "name": "GetMenuItemID",
+  "address": "EXTERNAL:000000b5"
+ },
+ {
+  "name": "GetWindowTextLengthA",
+  "address": "EXTERNAL:000000b6"
+ },
+ {
+  "name": "GetWindowTextA",
+  "address": "EXTERNAL:000000b7"
+ },
+ {
+  "name": "GetDlgCtrlID",
+  "address": "EXTERNAL:000000b8"
+ },
+ {
+  "name": "CreateWindowExA",
+  "address": "EXTERNAL:000000b9"
+ },
+ {
+  "name": "SetWindowsHookExA",
+  "address": "EXTERNAL:000000ba"
+ },
+ {
+  "name": "CallNextHookEx",
+  "address": "EXTERNAL:000000bb"
+ },
+ {
+  "name": "SetPropA",
+  "address": "EXTERNAL:000000bc"
+ },
+ {
+  "name": "GetForegroundWindow",
+  "address": "EXTERNAL:000000bd"
+ },
+ {
+  "name": "SetForegroundWindow",
+  "address": "EXTERNAL:000000be"
+ },
+ {
+  "name": "GetPropA",
+  "address": "EXTERNAL:000000bf"
+ },
+ {
+  "name": "CallWindowProcA",
+  "address": "EXTERNAL:000000c0"
+ },
+ {
+  "name": "GetMessageTime",
+  "address": "EXTERNAL:000000c1"
+ },
+ {
+  "name": "GetMessagePos",
+  "address": "EXTERNAL:000000c2"
+ },
+ {
+  "name": "GetWindow",
+  "address": "EXTERNAL:000000c3"
+ },
+ {
+  "name": "RegisterWindowMessageA",
+  "address": "EXTERNAL:000000c4"
+ },
+ {
+  "name": "GetNextDlgTabItem",
+  "address": "EXTERNAL:000000c5"
+ },
+ {
+  "name": "EndDialog",
+  "address": "EXTERNAL:000000c6"
+ },
+ {
+  "name": "IsWindow",
+  "address": "EXTERNAL:000000c7"
+ },
+ {
+  "name": "CreateDialogIndirectParamA",
+  "address": "EXTERNAL:000000c8"
+ },
+ {
+  "name": "DestroyWindow",
+  "address": "EXTERNAL:000000c9"
+ },
+ {
+  "name": "ScreenToClient",
+  "address": "EXTERNAL:000000ca"
+ },
+ {
+  "name": "MapDialogRect",
+  "address": "EXTERNAL:000000cb"
+ },
+ {
+  "name": "GetCapture",
+  "address": "EXTERNAL:000000cc"
+ },
+ {
+  "name": "GetActiveWindow",
+  "address": "EXTERNAL:000000cd"
+ },
+ {
+  "name": "SetActiveWindow",
+  "address": "EXTERNAL:000000ce"
+ },
+ {
+  "name": "GetDlgItem",
+  "address": "EXTERNAL:000000cf"
+ },
+ {
+  "name": "GetWindowLongA",
+  "address": "EXTERNAL:000000d0"
+ },
+ {
+  "name": "IsWindowEnabled",
+  "address": "EXTERNAL:000000d1"
+ },
+ {
+  "name": "SetFocus",
+  "address": "EXTERNAL:000000d2"
+ },
+ {
+  "name": "GetParent",
+  "address": "EXTERNAL:000000d3"
+ },
+ {
+  "name": "GetKeyState",
+  "address": "EXTERNAL:000000d4"
+ },
+ {
+  "name": "SendNotifyMessageA",
+  "address": "EXTERNAL:000000d5"
+ },
+ {
+  "name": "SetCursor",
+  "address": "EXTERNAL:000000d6"
+ },
+ {
+  "name": "IsChild",
+  "address": "EXTERNAL:000000d7"
+ },
+ {
+  "name": "SystemParametersInfoA",
+  "address": "EXTERNAL:000000d8"
+ },
+ {
+  "name": "LoadCursorA",
+  "address": "EXTERNAL:000000d9"
+ },
+ {
+  "name": "LoadIconA",
+  "address": "EXTERNAL:000000da"
+ },
+ {
+  "name": "MapVirtualKeyA",
+  "address": "EXTERNAL:000000db"
+ },
+ {
+  "name": "KillTimer",
+  "address": "EXTERNAL:000000dc"
+ },
+ {
+  "name": "SetTimer",
+  "address": "EXTERNAL:000000dd"
+ },
+ {
+  "name": "SendMessageA",
+  "address": "EXTERNAL:000000de"
+ },
+ {
+  "name": "GetFocus",
+  "address": "EXTERNAL:000000df"
+ },
+ {
+  "name": "GetAsyncKeyState",
+  "address": "EXTERNAL:000000e0"
+ },
+ {
+  "name": "ModifyMenuA",
+  "address": "EXTERNAL:000000e1"
+ },
+ {
+  "name": "UpdateWindow",
+  "address": "EXTERNAL:000000e2"
+ },
+ {
+  "name": "GetWindowPlacement",
+  "address": "EXTERNAL:000000e3"
+ },
+ {
+  "name": "ShowWindow",
+  "address": "EXTERNAL:000000e4"
+ },
+ {
+  "name": "GetWindowRect",
+  "address": "EXTERNAL:000000e5"
+ },
+ {
+  "name": "GetMenu",
+  "address": "EXTERNAL:000000e6"
+ },
+ {
+  "name": "SetMenu",
+  "address": "EXTERNAL:000000e7"
+ },
+ {
+  "name": "SetWindowLongA",
+  "address": "EXTERNAL:000000e8"
+ },
+ {
+  "name": "GetSystemMetrics",
+  "address": "EXTERNAL:000000e9"
+ },
+ {
+  "name": "SetWindowPos",
+  "address": "EXTERNAL:000000ea"
+ },
+ {
+  "name": "ShowCursor",
+  "address": "EXTERNAL:000000eb"
+ },
+ {
+  "name": "GetClientRect",
+  "address": "EXTERNAL:000000ec"
+ },
+ {
+  "name": "FillRect",
+  "address": "EXTERNAL:000000ed"
+ },
+ {
+  "name": "GetDC",
+  "address": "EXTERNAL:000000ee"
+ },
+ {
+  "name": "ReleaseDC",
+  "address": "EXTERNAL:000000ef"
+ },
+ {
+  "name": "IsDialogMessageA",
+  "address": "EXTERNAL:000000f0"
+ },
+ {
+  "name": "EnableWindow",
+  "address": "EXTERNAL:000000f1"
+ },
+ {
+  "name": "SetWindowTextA",
+  "address": "EXTERNAL:000000f2"
+ },
+ {
+  "name": "PeekMessageA",
+  "address": "EXTERNAL:000000f3"
+ },
+ {
+  "name": "TranslateMessage",
+  "address": "EXTERNAL:000000f4"
+ },
+ {
+  "name": "DispatchMessageA",
+  "address": "EXTERNAL:000000f5"
+ },
+ {
+  "name": "WaitMessage",
+  "address": "EXTERNAL:000000f6"
+ },
+ {
+  "name": "GetClassInfoA",
+  "address": "EXTERNAL:000000f7"
+ },
+ {
+  "name": "WinHelpA",
+  "address": "EXTERNAL:000000f8"
+ },
+ {
+  "name": "wsprintfA",
+  "address": "EXTERNAL:000000f9"
+ },
+ {
+  "name": "RegisterClassA",
+  "address": "EXTERNAL:000000fa"
+ },
+ {
+  "name": "PostMessageA",
+  "address": "EXTERNAL:000000fb"
+ },
+ {
+  "name": "MessageBoxA",
+  "address": "EXTERNAL:000000fc"
+ },
+ {
+  "name": "InvalidateRect",
+  "address": "EXTERNAL:000000fd"
+ },
+ {
+  "name": "GetLastActivePopup",
+  "address": "EXTERNAL:000000fe"
+ },
+ {
+  "name": "UnhookWindowsHookEx",
+  "address": "EXTERNAL:000000ff"
+ },
+ {
+  "name": "RemovePropA",
+  "address": "EXTERNAL:00000100"
+ },
+ {
+  "name": "DefWindowProcA",
+  "address": "EXTERNAL:00000101"
+ },
+ {
+  "name": "DefDlgProcA",
+  "address": "EXTERNAL:00000102"
+ },
+ {
+  "name": "HideCaret",
+  "address": "EXTERNAL:00000103"
+ },
+ {
+  "name": "ShowCaret",
+  "address": "EXTERNAL:00000104"
+ },
+ {
+  "name": "ExcludeUpdateRgn",
+  "address": "EXTERNAL:00000105"
+ },
+ {
+  "name": "DrawFocusRect",
+  "address": "EXTERNAL:00000106"
+ },
+ {
+  "name": "IsWindowUnicode",
+  "address": "EXTERNAL:00000107"
+ },
+ {
+  "name": "CharNextA",
+  "address": "EXTERNAL:00000108"
+ },
+ {
+  "name": "TextOutA",
+  "address": "EXTERNAL:00000109"
+ },
+ {
+  "name": "RealizePalette",
+  "address": "EXTERNAL:0000010a"
+ },
+ {
+  "name": "SelectPalette",
+  "address": "EXTERNAL:0000010b"
+ },
+ {
+  "name": "StretchDIBits",
+  "address": "EXTERNAL:0000010c"
+ },
+ {
+  "name": "SetPaletteEntries",
+  "address": "EXTERNAL:0000010d"
+ },
+ {
+  "name": "CreatePalette",
+  "address": "EXTERNAL:0000010e"
+ },
+ {
+  "name": "UnrealizeObject",
+  "address": "EXTERNAL:0000010f"
+ },
+ {
+  "name": "DeleteObject",
+  "address": "EXTERNAL:00000110"
+ },
+ {
+  "name": "SetTextColor",
+  "address": "EXTERNAL:00000111"
+ },
+ {
+  "name": "CreateDIBSection",
+  "address": "EXTERNAL:00000112"
+ },
+ {
+  "name": "GetObjectA",
+  "address": "EXTERNAL:00000113"
+ },
+ {
+  "name": "CreateBitmap",
+  "address": "EXTERNAL:00000114"
+ },
+ {
+  "name": "SetBkColor",
+  "address": "EXTERNAL:00000115"
+ },
+ {
+  "name": "SaveDC",
+  "address": "EXTERNAL:00000116"
+ },
+ {
+  "name": "DeleteDC",
+  "address": "EXTERNAL:00000117"
+ },
+ {
+  "name": "SelectObject",
+  "address": "EXTERNAL:00000118"
+ },
+ {
+  "name": "GetStockObject",
+  "address": "EXTERNAL:00000119"
+ },
+ {
+  "name": "RestoreDC",
+  "address": "EXTERNAL:0000011a"
+ },
+ {
+  "name": "SetBkMode",
+  "address": "EXTERNAL:0000011b"
+ },
+ {
+  "name": "SetMapMode",
+  "address": "EXTERNAL:0000011c"
+ },
+ {
+  "name": "SetViewportOrgEx",
+  "address": "EXTERNAL:0000011d"
+ },
+ {
+  "name": "SetViewportExtEx",
+  "address": "EXTERNAL:0000011e"
+ },
+ {
+  "name": "ScaleViewportExtEx",
+  "address": "EXTERNAL:0000011f"
+ },
+ {
+  "name": "OffsetViewportOrgEx",
+  "address": "EXTERNAL:00000120"
+ },
+ {
+  "name": "SetWindowExtEx",
+  "address": "EXTERNAL:00000121"
+ },
+ {
+  "name": "GetClipBox",
+  "address": "EXTERNAL:00000122"
+ },
+ {
+  "name": "GetDeviceCaps",
+  "address": "EXTERNAL:00000123"
+ },
+ {
+  "name": "CreateSolidBrush",
+  "address": "EXTERNAL:00000124"
+ },
+ {
+  "name": "PtVisible",
+  "address": "EXTERNAL:00000125"
+ },
+ {
+  "name": "ExtTextOutA",
+  "address": "EXTERNAL:00000126"
+ },
+ {
+  "name": "Escape",
+  "address": "EXTERNAL:00000127"
+ },
+ {
+  "name": "RectVisible",
+  "address": "EXTERNAL:00000128"
+ },
+ {
+  "name": "GetTextExtentPointA",
+  "address": "EXTERNAL:00000129"
+ },
+ {
+  "name": "PatBlt",
+  "address": "EXTERNAL:0000012a"
+ },
+ {
+  "name": "CreateCompatibleDC",
+  "address": "EXTERNAL:0000012b"
+ },
+ {
+  "name": "CreateDIBitmap",
+  "address": "EXTERNAL:0000012c"
+ },
+ {
+  "name": "BitBlt",
+  "address": "EXTERNAL:0000012d"
+ },
+ {
+  "name": "IntersectClipRect",
+  "address": "EXTERNAL:0000012e"
+ },
+ {
+  "name": "ScaleWindowExtEx",
+  "address": "EXTERNAL:0000012f"
+ },
+ {
+  "name": "GdiFlush",
+  "address": "EXTERNAL:00000130"
+ },
+ {
+  "name": "OpenPrinterA",
+  "address": "EXTERNAL:00000131"
+ },
+ {
+  "name": "ClosePrinter",
+  "address": "EXTERNAL:00000132"
+ },
+ {
+  "name": "DocumentPropertiesA",
+  "address": "EXTERNAL:00000133"
+ },
+ {
+  "name": "RegCloseKey",
+  "address": "EXTERNAL:00000134"
+ },
+ {
+  "name": "RegCreateKeyExA",
+  "address": "EXTERNAL:00000135"
+ },
+ {
+  "name": "RegSetValueExA",
+  "address": "EXTERNAL:00000136"
+ },
+ {
+  "name": "RegOpenKeyExA",
+  "address": "EXTERNAL:00000137"
+ },
+ {
+  "name": "RegQueryValueExA",
+  "address": "EXTERNAL:00000138"
+ },
+ {
+  "name": "DragFinish",
+  "address": "EXTERNAL:00000139"
+ },
+ {
+  "name": "DragQueryFileA",
+  "address": "EXTERNAL:0000013a"
+ },
+ {
+  "name": "ImageList_Destroy",
+  "address": "EXTERNAL:0000013b"
+ },
+ {
+  "name": "InitCommonControls",
+  "address": "EXTERNAL:0000013c",
+  "original_imported_name": "Ordinal_17"
+ },
+ {
+  "name": "CreatePropertySheetPageA",
+  "address": "EXTERNAL:0000013d"
+ },
+ {
+  "name": "DestroyPropertySheetPage",
+  "address": "EXTERNAL:0000013e"
+ },
+ {
+  "name": "PropertySheetA",
+  "address": "EXTERNAL:0000013f"
+ }
+]

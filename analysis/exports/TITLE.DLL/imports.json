@@ -1,0 +1,186 @@
+[
+ {
+  "name": "GetProcAddress",
+  "address": "EXTERNAL:00000001"
+ },
+ {
+  "name": "GetModuleHandleA",
+  "address": "EXTERNAL:00000002"
+ },
+ {
+  "name": "GetVersion",
+  "address": "EXTERNAL:00000003"
+ },
+ {
+  "name": "GetCurrentThreadId",
+  "address": "EXTERNAL:00000004"
+ },
+ {
+  "name": "TlsSetValue",
+  "address": "EXTERNAL:00000005"
+ },
+ {
+  "name": "TlsAlloc",
+  "address": "EXTERNAL:00000006"
+ },
+ {
+  "name": "TlsFree",
+  "address": "EXTERNAL:00000007"
+ },
+ {
+  "name": "SetLastError",
+  "address": "EXTERNAL:00000008"
+ },
+ {
+  "name": "TlsGetValue",
+  "address": "EXTERNAL:00000009"
+ },
+ {
+  "name": "GetLastError",
+  "address": "EXTERNAL:0000000a"
+ },
+ {
+  "name": "ExitProcess",
+  "address": "EXTERNAL:0000000b"
+ },
+ {
+  "name": "TerminateProcess",
+  "address": "EXTERNAL:0000000c"
+ },
+ {
+  "name": "GetCurrentProcess",
+  "address": "EXTERNAL:0000000d"
+ },
+ {
+  "name": "SetHandleCount",
+  "address": "EXTERNAL:0000000e"
+ },
+ {
+  "name": "GetStdHandle",
+  "address": "EXTERNAL:0000000f"
+ },
+ {
+  "name": "GetFileType",
+  "address": "EXTERNAL:00000010"
+ },
+ {
+  "name": "GetStartupInfoA",
+  "address": "EXTERNAL:00000011"
+ },
+ {
+  "name": "DeleteCriticalSection",
+  "address": "EXTERNAL:00000012"
+ },
+ {
+  "name": "GetModuleFileNameA",
+  "address": "EXTERNAL:00000013"
+ },
+ {
+  "name": "GetCPInfo",
+  "address": "EXTERNAL:00000014"
+ },
+ {
+  "name": "GetACP",
+  "address": "EXTERNAL:00000015"
+ },
+ {
+  "name": "GetOEMCP",
+  "address": "EXTERNAL:00000016"
+ },
+ {
+  "name": "FreeEnvironmentStringsA",
+  "address": "EXTERNAL:00000017"
+ },
+ {
+  "name": "GetCommandLineA",
+  "address": "EXTERNAL:00000018"
+ },
+ {
+  "name": "FreeEnvironmentStringsW",
+  "address": "EXTERNAL:00000019"
+ },
+ {
+  "name": "GetEnvironmentStrings",
+  "address": "EXTERNAL:0000001a"
+ },
+ {
+  "name": "GetEnvironmentStringsW",
+  "address": "EXTERNAL:0000001b"
+ },
+ {
+  "name": "WideCharToMultiByte",
+  "address": "EXTERNAL:0000001c"
+ },
+ {
+  "name": "HeapDestroy",
+  "address": "EXTERNAL:0000001d"
+ },
+ {
+  "name": "HeapCreate",
+  "address": "EXTERNAL:0000001e"
+ },
+ {
+  "name": "VirtualFree",
+  "address": "EXTERNAL:0000001f"
+ },
+ {
+  "name": "WriteFile",
+  "address": "EXTERNAL:00000020"
+ },
+ {
+  "name": "HeapAlloc",
+  "address": "EXTERNAL:00000021"
+ },
+ {
+  "name": "InitializeCriticalSection",
+  "address": "EXTERNAL:00000022"
+ },
+ {
+  "name": "EnterCriticalSection",
+  "address": "EXTERNAL:00000023"
+ },
+ {
+  "name": "LeaveCriticalSection",
+  "address": "EXTERNAL:00000024"
+ },
+ {
+  "name": "HeapFree",
+  "address": "EXTERNAL:00000025"
+ },
+ {
+  "name": "VirtualAlloc",
+  "address": "EXTERNAL:00000026"
+ },
+ {
+  "name": "LoadLibraryA",
+  "address": "EXTERNAL:00000027"
+ },
+ {
+  "name": "FlushFileBuffers",
+  "address": "EXTERNAL:00000028"
+ },
+ {
+  "name": "CloseHandle",
+  "address": "EXTERNAL:00000029"
+ },
+ {
+  "name": "SetStdHandle",
+  "address": "EXTERNAL:0000002a"
+ },
+ {
+  "name": "SetFilePointer",
+  "address": "EXTERNAL:0000002b"
+ },
+ {
+  "name": "ReadFile",
+  "address": "EXTERNAL:0000002c"
+ },
+ {
+  "name": "CreateFileA",
+  "address": "EXTERNAL:0000002d"
+ },
+ {
+  "name": "SetEndOfFile",
+  "address": "EXTERNAL:0000002e"
+ }
+]

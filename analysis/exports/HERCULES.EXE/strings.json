@@ -1,0 +1,4027 @@
+[
+ {
+  "address": "0042ee07",
+  "value": "?IsProcessorFeaturePresent",
+  "length": 26
+ },
+ {
+  "address": "0042ee24",
+  "value": "KERNEL32",
+  "length": 8
+ },
+ {
+  "address": "0042ee9e",
+  "value": "null)",
+  "length": 5
+ },
+ {
+  "address": "0042eead",
+  "value": "null)",
+  "length": 5
+ },
+ {
+  "address": "0042ef40",
+  "value": "runtime error ",
+  "length": 14
+ },
+ {
+  "address": "0042ef54",
+  "value": "TLOSS error\r\n",
+  "length": 13
+ },
+ {
+  "address": "0042ef64",
+  "value": "SING error\r\n",
+  "length": 12
+ },
+ {
+  "address": "0042ef74",
+  "value": "DOMAIN error\r\n",
+  "length": 14
+ },
+ {
+  "address": "0042ef84",
+  "value": "R6028\r\n- unable to initialize heap\r\n",
+  "length": 36
+ },
+ {
+  "address": "0042efac",
+  "value": "R6027\r\n- not enough space for lowio initialization\r\n",
+  "length": 52
+ },
+ {
+  "address": "0042efe4",
+  "value": "R6026\r\n- not enough space for stdio initialization\r\n",
+  "length": 52
+ },
+ {
+  "address": "0042f01c",
+  "value": "R6025\r\n- pure virtual function call\r\n",
+  "length": 37
+ },
+ {
+  "address": "0042f044",
+  "value": "R6024\r\n- not enough space for _onexit/atexit table\r\n",
+  "length": 52
+ },
+ {
+  "address": "0042f07c",
+  "value": "R6019\r\n- unable to open console device\r\n",
+  "length": 40
+ },
+ {
+  "address": "0042f0a8",
+  "value": "R6018\r\n- unexpected heap error\r\n",
+  "length": 32
+ },
+ {
+  "address": "0042f0cc",
+  "value": "R6017\r\n- unexpected multithread lock error\r\n",
+  "length": 44
+ },
+ {
+  "address": "0042f0fc",
+  "value": "R6016\r\n- not enough space for thread data\r\n",
+  "length": 43
+ },
+ {
+  "address": "0042f128",
+  "value": "\r\nabnormal program termination\r\n",
+  "length": 32
+ },
+ {
+  "address": "0042f14c",
+  "value": "R6009\r\n- not enough space for environment\r\n",
+  "length": 43
+ },
+ {
+  "address": "0042f178",
+  "value": "R6008\r\n- not enough space for arguments\r\n",
+  "length": 41
+ },
+ {
+  "address": "0042f1a4",
+  "value": "R6002\r\n- floating point not loaded\r\n",
+  "length": 36
+ },
+ {
+  "address": "0042f1cc",
+  "value": "Microsoft Visual C++ Runtime Library",
+  "length": 36
+ },
+ {
+  "address": "0042f1f8",
+  "value": "Runtime Error!\n\nProgram: ",
+  "length": 25
+ },
+ {
+  "address": "0042f218",
+  "value": "<program name unknown>",
+  "length": 22
+ },
+ {
+  "address": "0042f230",
+  "value": "GetLastActivePopup",
+  "length": 18
+ },
+ {
+  "address": "0042f244",
+  "value": "GetActiveWindow",
+  "length": 15
+ },
+ {
+  "address": "0042f254",
+  "value": "MessageBoxA",
+  "length": 11
+ },
+ {
+  "address": "0042f260",
+  "value": "user32.dll",
+  "length": 10
+ },
+ {
+  "address": "0042f274",
+  "value": "LC_TIME",
+  "length": 7
+ },
+ {
+  "address": "0042f27c",
+  "value": "LC_NUMERIC",
+  "length": 10
+ },
+ {
+  "address": "0042f288",
+  "value": "LC_MONETARY",
+  "length": 11
+ },
+ {
+  "address": "0042f294",
+  "value": "LC_CTYPE",
+  "length": 8
+ },
+ {
+  "address": "0042f2a0",
+  "value": "LC_COLLATE",
+  "length": 10
+ },
+ {
+  "address": "0042f2ac",
+  "value": "LC_ALL",
+  "length": 6
+ },
+ {
+  "address": "0042f2d8",
+  "value": "united-states",
+  "length": 13
+ },
+ {
+  "address": "0042f2e8",
+  "value": "united-kingdom",
+  "length": 14
+ },
+ {
+  "address": "0042f2f8",
+  "value": "united states",
+  "length": 13
+ },
+ {
+  "address": "0042f308",
+  "value": "united kingdom",
+  "length": 14
+ },
+ {
+  "address": "0042f31c",
+  "value": "turkey",
+  "length": 6
+ },
+ {
+  "address": "0042f330",
+  "value": "switzerland",
+  "length": 11
+ },
+ {
+  "address": "0042f33c",
+  "value": "sweden",
+  "length": 6
+ },
+ {
+  "address": "0042f34c",
+  "value": "spain",
+  "length": 5
+ },
+ {
+  "address": "0042f354",
+  "value": "south-korea",
+  "length": 11
+ },
+ {
+  "address": "0042f360",
+  "value": "south korea",
+  "length": 11
+ },
+ {
+  "address": "0042f370",
+  "value": "singapore",
+  "length": 9
+ },
+ {
+  "address": "0042f37c",
+  "value": "russia",
+  "length": 6
+ },
+ {
+  "address": "0042f388",
+  "value": "pr-china",
+  "length": 8
+ },
+ {
+  "address": "0042f394",
+  "value": "pr china",
+  "length": 8
+ },
+ {
+  "address": "0042f3a0",
+  "value": "portugal",
+  "length": 8
+ },
+ {
+  "address": "0042f3ac",
+  "value": "poland",
+  "length": 6
+ },
+ {
+  "address": "0042f3c0",
+  "value": "norway",
+  "length": 6
+ },
+ {
+  "address": "0042f3c8",
+  "value": "new-zealand",
+  "length": 11
+ },
+ {
+  "address": "0042f3d4",
+  "value": "new zealand",
+  "length": 11
+ },
+ {
+  "address": "0042f3e0",
+  "value": "netherlands",
+  "length": 11
+ },
+ {
+  "address": "0042f3ec",
+  "value": "mexico",
+  "length": 6
+ },
+ {
+  "address": "0042f3f8",
+  "value": "korea",
+  "length": 5
+ },
+ {
+  "address": "0042f400",
+  "value": "japan",
+  "length": 5
+ },
+ {
+  "address": "0042f408",
+  "value": "italy",
+  "length": 5
+ },
+ {
+  "address": "0042f414",
+  "value": "ireland",
+  "length": 7
+ },
+ {
+  "address": "0042f41c",
+  "value": "iceland",
+  "length": 7
+ },
+ {
+  "address": "0042f424",
+  "value": "hungary",
+  "length": 7
+ },
+ {
+  "address": "0042f42c",
+  "value": "hong-kong",
+  "length": 9
+ },
+ {
+  "address": "0042f438",
+  "value": "hong kong",
+  "length": 9
+ },
+ {
+  "address": "0042f444",
+  "value": "holland",
+  "length": 7
+ },
+ {
+  "address": "0042f450",
+  "value": "greece",
+  "length": 6
+ },
+ {
+  "address": "0042f458",
+  "value": "great britain",
+  "length": 13
+ },
+ {
+  "address": "0042f46c",
+  "value": "germany",
+  "length": 7
+ },
+ {
+  "address": "0042f478",
+  "value": "france",
+  "length": 6
+ },
+ {
+  "address": "0042f480",
+  "value": "finland",
+  "length": 7
+ },
+ {
+  "address": "0042f488",
+  "value": "england",
+  "length": 7
+ },
+ {
+  "address": "0042f494",
+  "value": "denmark",
+  "length": 7
+ },
+ {
+  "address": "0042f4a4",
+  "value": "china",
+  "length": 5
+ },
+ {
+  "address": "0042f4b0",
+  "value": "canada",
+  "length": 6
+ },
+ {
+  "address": "0042f4bc",
+  "value": "britain",
+  "length": 7
+ },
+ {
+  "address": "0042f4d0",
+  "value": "belgium",
+  "length": 7
+ },
+ {
+  "address": "0042f4e0",
+  "value": "austria",
+  "length": 7
+ },
+ {
+  "address": "0042f4e8",
+  "value": "australia",
+  "length": 9
+ },
+ {
+  "address": "0042f4f8",
+  "value": "america",
+  "length": 7
+ },
+ {
+  "address": "0042f50c",
+  "value": "turkish",
+  "length": 7
+ },
+ {
+  "address": "0042f518",
+  "value": "swiss",
+  "length": 5
+ },
+ {
+  "address": "0042f520",
+  "value": "swedish",
+  "length": 7
+ },
+ {
+  "address": "0042f52c",
+  "value": "spanish-modern",
+  "length": 14
+ },
+ {
+  "address": "0042f53c",
+  "value": "spanish-mexican",
+  "length": 15
+ },
+ {
+  "address": "0042f54c",
+  "value": "spanish",
+  "length": 7
+ },
+ {
+  "address": "0042f574",
+  "value": "portuguese-brazilian",
+  "length": 20
+ },
+ {
+  "address": "0042f58c",
+  "value": "portuguese",
+  "length": 10
+ },
+ {
+  "address": "0042f598",
+  "value": "polish",
+  "length": 6
+ },
+ {
+  "address": "0042f5a4",
+  "value": "norwegian-nynorsk",
+  "length": 17
+ },
+ {
+  "address": "0042f5b8",
+  "value": "norwegian-bokmal",
+  "length": 16
+ },
+ {
+  "address": "0042f5cc",
+  "value": "norwegian",
+  "length": 9
+ },
+ {
+  "address": "0042f5e8",
+  "value": "korean",
+  "length": 6
+ },
+ {
+  "address": "0042f5f8",
+  "value": "japanese",
+  "length": 8
+ },
+ {
+  "address": "0042f608",
+  "value": "italian-swiss",
+  "length": 13
+ },
+ {
+  "address": "0042f618",
+  "value": "italian",
+  "length": 7
+ },
+ {
+  "address": "0042f628",
+  "value": "irish-english",
+  "length": 13
+ },
+ {
+  "address": "0042f638",
+  "value": "icelandic",
+  "length": 9
+ },
+ {
+  "address": "0042f644",
+  "value": "hungarian",
+  "length": 9
+ },
+ {
+  "address": "0042f654",
+  "value": "greek",
+  "length": 5
+ },
+ {
+  "address": "0042f65c",
+  "value": "german-swiss",
+  "length": 12
+ },
+ {
+  "address": "0042f66c",
+  "value": "german-austrian",
+  "length": 15
+ },
+ {
+  "address": "0042f67c",
+  "value": "german",
+  "length": 6
+ },
+ {
+  "address": "0042f688",
+  "value": "french-swiss",
+  "length": 12
+ },
+ {
+  "address": "0042f698",
+  "value": "french-canadian",
+  "length": 15
+ },
+ {
+  "address": "0042f6a8",
+  "value": "french-belgian",
+  "length": 14
+ },
+ {
+  "address": "0042f6b8",
+  "value": "french",
+  "length": 6
+ },
+ {
+  "address": "0042f6f0",
+  "value": "english-usa",
+  "length": 11
+ },
+ {
+  "address": "0042f6fc",
+  "value": "english-us",
+  "length": 10
+ },
+ {
+  "address": "0042f708",
+  "value": "english-uk",
+  "length": 10
+ },
+ {
+  "address": "0042f714",
+  "value": "english-nz",
+  "length": 10
+ },
+ {
+  "address": "0042f720",
+  "value": "english-ire",
+  "length": 11
+ },
+ {
+  "address": "0042f72c",
+  "value": "english-can",
+  "length": 11
+ },
+ {
+  "address": "0042f738",
+  "value": "english-aus",
+  "length": 11
+ },
+ {
+  "address": "0042f744",
+  "value": "english-american",
+  "length": 16
+ },
+ {
+  "address": "0042f758",
+  "value": "english",
+  "length": 7
+ },
+ {
+  "address": "0042f770",
+  "value": "dutch-belgian",
+  "length": 13
+ },
+ {
+  "address": "0042f780",
+  "value": "dutch",
+  "length": 5
+ },
+ {
+  "address": "0042f794",
+  "value": "danish",
+  "length": 6
+ },
+ {
+  "address": "0042f7b4",
+  "value": "chinese-traditional",
+  "length": 19
+ },
+ {
+  "address": "0042f7c8",
+  "value": "chinese-singapore",
+  "length": 17
+ },
+ {
+  "address": "0042f7dc",
+  "value": "chinese-simplified",
+  "length": 18
+ },
+ {
+  "address": "0042f7f0",
+  "value": "chinese-hongkong",
+  "length": 16
+ },
+ {
+  "address": "0042f804",
+  "value": "chinese",
+  "length": 7
+ },
+ {
+  "address": "0042f814",
+  "value": "canadian",
+  "length": 8
+ },
+ {
+  "address": "0042f820",
+  "value": "belgian",
+  "length": 7
+ },
+ {
+  "address": "0042f828",
+  "value": "australian",
+  "length": 10
+ },
+ {
+  "address": "0042f834",
+  "value": "american-english",
+  "length": 16
+ },
+ {
+  "address": "0042f848",
+  "value": "american english",
+  "length": 16
+ },
+ {
+  "address": "0042f85c",
+  "value": "american",
+  "length": 8
+ },
+ {
+  "address": "0042f868",
+  "value": "H:mm:ss",
+  "length": 7
+ },
+ {
+  "address": "0042f870",
+  "value": "dddd, MMMM dd, yyyy",
+  "length": 19
+ },
+ {
+  "address": "0042f884",
+  "value": "M/d/yy",
+  "length": 6
+ },
+ {
+  "address": "0042f894",
+  "value": "December",
+  "length": 8
+ },
+ {
+  "address": "0042f8a0",
+  "value": "November",
+  "length": 8
+ },
+ {
+  "address": "0042f8ac",
+  "value": "October",
+  "length": 7
+ },
+ {
+  "address": "0042f8b4",
+  "value": "September",
+  "length": 9
+ },
+ {
+  "address": "0042f8c0",
+  "value": "August",
+  "length": 6
+ },
+ {
+  "address": "0042f8d8",
+  "value": "April",
+  "length": 5
+ },
+ {
+  "address": "0042f8e0",
+  "value": "March",
+  "length": 5
+ },
+ {
+  "address": "0042f8e8",
+  "value": "February",
+  "length": 8
+ },
+ {
+  "address": "0042f92c",
+  "value": "Saturday",
+  "length": 8
+ },
+ {
+  "address": "0042f938",
+  "value": "Friday",
+  "length": 6
+ },
+ {
+  "address": "0042f940",
+  "value": "Thursday",
+  "length": 8
+ },
+ {
+  "address": "0042f94c",
+  "value": "Wednesday",
+  "length": 9
+ },
+ {
+  "address": "0042f958",
+  "value": "Tuesday",
+  "length": 7
+ },
+ {
+  "address": "0042f960",
+  "value": "Monday",
+  "length": 6
+ },
+ {
+  "address": "0042f968",
+  "value": "Sunday",
+  "length": 6
+ },
+ {
+  "address": "0042f990",
+  "value": "SunMonTueWedThuFriSat",
+  "length": 21
+ },
+ {
+  "address": "0042f9a8",
+  "value": "JanFebMarAprMayJunJulAugSepOctNovDec",
+  "length": 36
+ },
+ {
+  "address": "0042fb28",
+  "value": "CPropertySheet",
+  "length": 14
+ },
+ {
+  "address": "0042fb38",
+  "value": "CPropertyPage",
+  "length": 13
+ },
+ {
+  "address": "0042fe10",
+  "value": "CDialog",
+  "length": 7
+ },
+ {
+  "address": "0042ff04",
+  "value": "MS Sans Serif",
+  "length": 13
+ },
+ {
+  "address": "0042ffa8",
+  "value": "CScrollBar",
+  "length": 10
+ },
+ {
+  "address": "0042ffb4",
+  "value": "CEdit",
+  "length": 5
+ },
+ {
+  "address": "0042ffbc",
+  "value": "CComboBox",
+  "length": 9
+ },
+ {
+  "address": "0042ffc8",
+  "value": "CListBox",
+  "length": 8
+ },
+ {
+  "address": "0042ffd4",
+  "value": "CButton",
+  "length": 7
+ },
+ {
+  "address": "0042ffdc",
+  "value": "CStatic",
+  "length": 7
+ },
+ {
+  "address": "00430320",
+  "value": "AfxWnd42s",
+  "length": 9
+ },
+ {
+  "address": "00430330",
+  "value": "AfxControlBar42s",
+  "length": 16
+ },
+ {
+  "address": "00430348",
+  "value": "AfxMDIFrame42s",
+  "length": 14
+ },
+ {
+  "address": "00430358",
+  "value": "AfxFrameOrView42s",
+  "length": 17
+ },
+ {
+  "address": "00430370",
+  "value": "AfxOleControl42s",
+  "length": 16
+ },
+ {
+  "address": "00430388",
+  "value": "AfxOldWndProc",
+  "length": 13
+ },
+ {
+  "address": "00430660",
+  "value": "commctrl_DragListMsg",
+  "length": 20
+ },
+ {
+  "address": "0043073c",
+  "value": "Afx:%x:%x:%x:%x:%x",
+  "length": 18
+ },
+ {
+  "address": "00430750",
+  "value": "Afx:%x:%x",
+  "length": 9
+ },
+ {
+  "address": "00430878",
+  "value": "CCmdTarget",
+  "length": 10
+ },
+ {
+  "address": "00430918",
+  "value": "Recent File List",
+  "length": 16
+ },
+ {
+  "address": "00430938",
+  "value": "Settings",
+  "length": 8
+ },
+ {
+  "address": "00430948",
+  "value": "PreviewPages",
+  "length": 12
+ },
+ {
+  "address": "004309d8",
+  "value": "CWinApp",
+  "length": 7
+ },
+ {
+  "address": "00430ab0",
+  "value": "CWinThread",
+  "length": 10
+ },
+ {
+  "address": "00430fc8",
+  "value": "CControlBar",
+  "length": 11
+ },
+ {
+  "address": "00430fdc",
+  "value": "CFrameWnd",
+  "length": 9
+ },
+ {
+  "address": "00430fe8",
+  "value": "MSWHEEL_ROLLMSG",
+  "length": 15
+ },
+ {
+  "address": "00431240",
+  "value": "CPalette",
+  "length": 8
+ },
+ {
+  "address": "0043124c",
+  "value": "CBitmap",
+  "length": 7
+ },
+ {
+  "address": "00431254",
+  "value": "CFont",
+  "length": 5
+ },
+ {
+  "address": "0043126c",
+  "value": "CGdiObject",
+  "length": 10
+ },
+ {
+  "address": "00431278",
+  "value": "CPaintDC",
+  "length": 8
+ },
+ {
+  "address": "00431284",
+  "value": "CWindowDC",
+  "length": 9
+ },
+ {
+  "address": "00431290",
+  "value": "CClientDC",
+  "length": 9
+ },
+ {
+  "address": "004312a0",
+  "value": "CUserException",
+  "length": 14
+ },
+ {
+  "address": "004312b0",
+  "value": "CResourceException",
+  "length": 18
+ },
+ {
+  "address": "00431650",
+  "value": "CRichEditCtrl",
+  "length": 13
+ },
+ {
+  "address": "00431660",
+  "value": "CImageList",
+  "length": 10
+ },
+ {
+  "address": "0043166c",
+  "value": "CStatusBarCtrl",
+  "length": 14
+ },
+ {
+  "address": "0043167c",
+  "value": "CToolBarCtrl",
+  "length": 12
+ },
+ {
+  "address": "0043168c",
+  "value": "CListCtrl",
+  "length": 9
+ },
+ {
+  "address": "00431698",
+  "value": "CTreeCtrl",
+  "length": 9
+ },
+ {
+  "address": "004316a4",
+  "value": "CTabCtrl",
+  "length": 8
+ },
+ {
+  "address": "004316b0",
+  "value": "CAnimateCtrl",
+  "length": 12
+ },
+ {
+  "address": "004316c0",
+  "value": "CHotKeyCtrl",
+  "length": 11
+ },
+ {
+  "address": "004316cc",
+  "value": "CHeaderCtrl",
+  "length": 11
+ },
+ {
+  "address": "004316d8",
+  "value": "CProgressCtrl",
+  "length": 13
+ },
+ {
+  "address": "004316e8",
+  "value": "CSliderCtrl",
+  "length": 11
+ },
+ {
+  "address": "004316f4",
+  "value": "CSpinButtonCtrl",
+  "length": 15
+ },
+ {
+  "address": "00431704",
+  "value": "CDragListBox",
+  "length": 12
+ },
+ {
+  "address": "004317f8",
+  "value": "System",
+  "length": 6
+ },
+ {
+  "address": "00431800",
+  "value": "COMCTL32.DLL",
+  "length": 12
+ },
+ {
+  "address": "00431830",
+  "value": "CObject",
+  "length": 7
+ },
+ {
+  "address": "00431850",
+  "value": "CPtrArray",
+  "length": 9
+ },
+ {
+  "address": "004318c0",
+  "value": "CNotSupportedException",
+  "length": 22
+ },
+ {
+  "address": "004318d8",
+  "value": "CMemoryException",
+  "length": 16
+ },
+ {
+  "address": "004318ec",
+  "value": "CException",
+  "length": 10
+ },
+ {
+  "address": "00431958",
+  "value": "combobox",
+  "length": 8
+ },
+ {
+  "address": "00431990",
+  "value": "CMapPtrToPtr",
+  "length": 12
+ },
+ {
+  "address": "004319d0",
+  "value": "CMenu",
+  "length": 5
+ },
+ {
+  "address": "00431a98",
+  "value": "CScrollView",
+  "length": 11
+ },
+ {
+  "address": "00431aa4",
+  "value": "WheelScrollLines",
+  "length": 16
+ },
+ {
+  "address": "00431ab8",
+  "value": "Control Panel\\Desktop",
+  "length": 21
+ },
+ {
+  "address": "00431ad0",
+  "value": "MouseZ",
+  "length": 6
+ },
+ {
+  "address": "00431ad8",
+  "value": "Magellan MSWHEEL",
+  "length": 16
+ },
+ {
+  "address": "00431aec",
+  "value": "MSH_SCROLL_LINES_MSG",
+  "length": 20
+ },
+ {
+  "address": "00431b08",
+  "value": "Software",
+  "length": 8
+ },
+ {
+  "address": "00431b70",
+  "value": "CFile",
+  "length": 5
+ },
+ {
+  "address": "00431b90",
+  "value": "CPtrList",
+  "length": 8
+ },
+ {
+  "address": "00431d68",
+  "value": "CCtrlView",
+  "length": 9
+ },
+ {
+  "address": "00431d74",
+  "value": "CSplitterWnd",
+  "length": 12
+ },
+ {
+  "address": "00431db0",
+  "value": "CFileException",
+  "length": 14
+ },
+ {
+  "address": "00431e40",
+  "value": "CDocument",
+  "length": 9
+ },
+ {
+  "address": "00431e68",
+  "value": "CArchiveException",
+  "length": 17
+ },
+ {
+  "address": "00431f00",
+  "value": "CToolTipCtrl",
+  "length": 12
+ },
+ {
+  "address": "00431f28",
+  "value": "CMapStringToPtr",
+  "length": 15
+ },
+ {
+  "address": "00431f38",
+  "value": "Button",
+  "length": 6
+ },
+ {
+  "address": "00431f58",
+  "value": "ListBox",
+  "length": 7
+ },
+ {
+  "address": "00431f98",
+  "value": "ComboBox",
+  "length": 8
+ },
+ {
+  "address": "00431fb8",
+  "value": "Static",
+  "length": 6
+ },
+ {
+  "address": "00431fd8",
+  "value": "ComboLBox",
+  "length": 9
+ },
+ {
+  "address": "00435110",
+  "value": "M:\\LANGUAGE\\SRCLANG\\LOADING.DAT",
+  "length": 31
+ },
+ {
+  "address": "00435130",
+  "value": "\\ENGINE3\\ENGINE\\ENGINE3",
+  "length": 23
+ },
+ {
+  "address": "00435148",
+  "value": "\\ENGINE1\\ENGINE\\ENGINE1",
+  "length": 23
+ },
+ {
+  "address": "00435160",
+  "value": "\\TITLE\\ENGINE\\TITLE",
+  "length": 19
+ },
+ {
+  "address": "00435a54",
+  "value": "\\XA\\XA1.;1",
+  "length": 10
+ },
+ {
+  "address": "00435a60",
+  "value": "q:\\TALLY\\",
+  "length": 9
+ },
+ {
+  "address": "00435a7c",
+  "value": "q:\\HERC_TOR\\",
+  "length": 12
+ },
+ {
+  "address": "00435a8c",
+  "value": "q:\\HERC_TIT\\",
+  "length": 12
+ },
+ {
+  "address": "00435aac",
+  "value": "q:\\HERC_MED\\",
+  "length": 12
+ },
+ {
+  "address": "00435acc",
+  "value": "q:\\HERC_THE\\",
+  "length": 12
+ },
+ {
+  "address": "00435adc",
+  "value": "q:\\HERC_NES\\",
+  "length": 12
+ },
+ {
+  "address": "00435aec",
+  "value": "q:\\HERC_FOR\\",
+  "length": 12
+ },
+ {
+  "address": "00435b0c",
+  "value": "q:\\HERC_TRA\\",
+  "length": 12
+ },
+ {
+  "address": "00435b1c",
+  "value": "q:\\OPTIONS\\",
+  "length": 11
+ },
+ {
+  "address": "00435b34",
+  "value": "q:\\TORMENT\\",
+  "length": 11
+ },
+ {
+  "address": "00435b40",
+  "value": "q:\\TITANS\\",
+  "length": 10
+ },
+ {
+  "address": "00435b7c",
+  "value": "q:\\NESSUS\\",
+  "length": 10
+ },
+ {
+  "address": "00435b88",
+  "value": "q:\\FOREST\\",
+  "length": 10
+ },
+ {
+  "address": "00435b94",
+  "value": "q:\\GAUNTLET\\",
+  "length": 12
+ },
+ {
+  "address": "00435ba4",
+  "value": "q:\\TRAINING\\",
+  "length": 12
+ },
+ {
+  "address": "00435bb4",
+  "value": "q:\\PLAYROOM\\",
+  "length": 12
+ },
+ {
+  "address": "00435bc4",
+  "value": "\n InitSoundControls",
+  "length": 19
+ },
+ {
+  "address": "00435bd8",
+  "value": "\n Unable to down load VAB",
+  "length": 25
+ },
+ {
+  "address": "00435bf4",
+  "value": "\n Unable to open VAB",
+  "length": 20
+ },
+ {
+  "address": "00435c0c",
+  "value": "MUSIC.MUS",
+  "length": 9
+ },
+ {
+  "address": "00435c18",
+  "value": "LoadMusic %d %d\n",
+  "length": 16
+ },
+ {
+  "address": "00435c2c",
+  "value": "\n\n***********************************************************",
+  "length": 61
+ },
+ {
+  "address": "00435c6c",
+  "value": "\nattribute number:: FX_ID %d Attribute %d",
+  "length": 41
+ },
+ {
+  "address": "00435c98",
+  "value": "\n\nTwo or more sound effects have been assigned the same ",
+  "length": 56
+ },
+ {
+  "address": "00435cd4",
+  "value": "\n***********************************************************",
+  "length": 60
+ },
+ {
+  "address": "00435d14",
+  "value": "SFX.SFX",
+  "length": 7
+ },
+ {
+  "address": "00435d1c",
+  "value": "LoadSfx %d %d\n",
+  "length": 14
+ },
+ {
+  "address": "00435d2c",
+  "value": "UnLoadAllSfxMusic\n",
+  "length": 18
+ },
+ {
+  "address": "00435d40",
+  "value": "\n Load Level Sonix %d\n",
+  "length": 22
+ },
+ {
+  "address": "00435d58",
+  "value": "\n LoadLevelSonix setting Music %d Sfx %d",
+  "length": 40
+ },
+ {
+  "address": "00435d84",
+  "value": "LoadLevelSonix ------- ------- ------\n",
+  "length": 38
+ },
+ {
+  "address": "00435dac",
+  "value": "StartMusic %d %d\n",
+  "length": 17
+ },
+ {
+  "address": "00435dc0",
+  "value": "\n StartMusic 0x%x 0x%x 0x%x",
+  "length": 27
+ },
+ {
+  "address": "00435ddc",
+  "value": "ERROR Specified vabid is not loaded \n\n",
+  "length": 38
+ },
+ {
+  "address": "00435fe8",
+  "value": "- Loaded \n",
+  "length": 10
+ },
+ {
+  "address": "00435ff4",
+  "value": "Unable to open %s \n",
+  "length": 19
+ },
+ {
+  "address": "00436008",
+  "value": "Loading %s @ 0x%x,size %d ",
+  "length": 26
+ },
+ {
+  "address": "0043602c",
+  "value": "Opening %s ",
+  "length": 11
+ },
+ {
+  "address": "00436038",
+  "value": "- Closed \n",
+  "length": 10
+ },
+ {
+  "address": "00436044",
+  "value": "- Failed \n",
+  "length": 10
+ },
+ {
+  "address": "00436050",
+  "value": "Unable to open %s (%d)\n",
+  "length": 23
+ },
+ {
+  "address": "00436068",
+  "value": "ReInitheap Heap%d @ 0x%x,size %d\n",
+  "length": 33
+ },
+ {
+  "address": "0043608c",
+  "value": "Initheap Heap%d @ 0x%x,size %d\n",
+  "length": 31
+ },
+ {
+  "address": "004360ac",
+  "value": "Malloc Heap%d @ 0x%x,Size %d\n",
+  "length": 29
+ },
+ {
+  "address": "004360cc",
+  "value": "Malloc FAILED , Address %x,data %x\n",
+  "length": 35
+ },
+ {
+  "address": "004360f0",
+  "value": "ReMalloc Heap%d @ 0x%x,Size %d\n",
+  "length": 31
+ },
+ {
+  "address": "00436110",
+  "value": "Free id=%d @ 0x%x,Size = %d\n",
+  "length": 28
+ },
+ {
+  "address": "00436130",
+  "value": "CompactMalloc Heap%d @ 0x%x,Size %d\n",
+  "length": 36
+ },
+ {
+  "address": "00436184",
+  "value": "Software\\Disney Interactive\\Hercules\\1.00",
+  "length": 41
+ },
+ {
+  "address": "004361b0",
+  "value": "Config",
+  "length": 6
+ },
+ {
+  "address": "004365a8",
+  "value": "M:\\LANGUAGE\\SONIX",
+  "length": 17
+ },
+ {
+  "address": "004365bc",
+  "value": "M:\\GRAFIX\\CHOP",
+  "length": 14
+ },
+ {
+  "address": "004365cc",
+  "value": "M:\\GRAFIX\\MAPS",
+  "length": 14
+ },
+ {
+  "address": "004365dc",
+  "value": "PC_InitFileSys(3)",
+  "length": 17
+ },
+ {
+  "address": "004365f0",
+  "value": "PC_InitFileSys(2)",
+  "length": 17
+ },
+ {
+  "address": "00436604",
+  "value": "PC_InitFileSys(1)",
+  "length": 17
+ },
+ {
+  "address": "00436618",
+  "value": "hercules.fs",
+  "length": 11
+ },
+ {
+  "address": "00436624",
+  "value": "PC_fopen(\"%s\")",
+  "length": 14
+ },
+ {
+  "address": "00436658",
+  "value": "e:\\data\\%d.etv",
+  "length": 14
+ },
+ {
+  "address": "0043666c",
+  "value": "o:\\cyclops\\map_psx.bin",
+  "length": 22
+ },
+ {
+  "address": "00436684",
+  "value": "o:\\gauntlet\\map_psx.bin",
+  "length": 23
+ },
+ {
+  "address": "0043669c",
+  "value": "o:\\torment\\map_psx.bin",
+  "length": 22
+ },
+ {
+  "address": "004366b4",
+  "value": "o:\\vortex\\map_psx.bin",
+  "length": 21
+ },
+ {
+  "address": "004366cc",
+  "value": "o:\\titans\\map_psx.bin",
+  "length": 21
+ },
+ {
+  "address": "004366e4",
+  "value": "o:\\medusa\\map_psx.bin",
+  "length": 21
+ },
+ {
+  "address": "004366fc",
+  "value": "o:\\hydra\\map_psx.bin",
+  "length": 20
+ },
+ {
+  "address": "00436714",
+  "value": "o:\\thebes\\map_psx.bin",
+  "length": 21
+ },
+ {
+  "address": "0043672c",
+  "value": "o:\\forest\\map_psx.bin",
+  "length": 21
+ },
+ {
+  "address": "00436744",
+  "value": "o:\\training\\map_psx.bin",
+  "length": 23
+ },
+ {
+  "address": "0043675c",
+  "value": "o:\\title\\tally\\map_psx.pal",
+  "length": 26
+ },
+ {
+  "address": "00436778",
+  "value": "o:\\title\\pswd\\map_psx.pal",
+  "length": 25
+ },
+ {
+  "address": "00436794",
+  "value": "o:\\title\\mainmenu\\map_psx.pal",
+  "length": 29
+ },
+ {
+  "address": "004367b4",
+  "value": "o:\\title\\loadlev\\map_psx.pal",
+  "length": 28
+ },
+ {
+  "address": "004367d4",
+  "value": "o:\\title\\credits\\map_psx.pal",
+  "length": 28
+ },
+ {
+  "address": "004367f4",
+  "value": "o:\\title\\cheat\\map_psx.pal",
+  "length": 26
+ },
+ {
+  "address": "00436817",
+  "value": "s Hercules - Waiting",
+  "length": 20
+ },
+ {
+  "address": "00436833",
+  "value": "s Hercules - Demo Mode",
+  "length": 22
+ },
+ {
+  "address": "00436853",
+  "value": "s Hercules",
+  "length": 10
+ },
+ {
+  "address": "00436868",
+  "value": "PC_DLLEngineMain",
+  "length": 16
+ },
+ {
+  "address": "0043687c",
+  "value": "m:\\pc\\eng3\\release\\eng3.dll",
+  "length": 27
+ },
+ {
+  "address": "00436898",
+  "value": "ENGINE3",
+  "length": 7
+ },
+ {
+  "address": "004368a0",
+  "value": "m:\\pc\\eng1\\release\\eng1.dll",
+  "length": 27
+ },
+ {
+  "address": "004368bc",
+  "value": "ENGINE1",
+  "length": 7
+ },
+ {
+  "address": "004368c4",
+  "value": "m:\\pc\\title\\release\\title.dll",
+  "length": 29
+ },
+ {
+  "address": "004368e4",
+  "value": "TITLE",
+  "length": 5
+ },
+ {
+  "address": "004368ec",
+  "value": "You cannot play Hercules without the CD in the drive.\nThe game will now exit.",
+  "length": 77
+ },
+ {
+  "address": "0043693c",
+  "value": "Hercules Notice",
+  "length": 15
+ },
+ {
+  "address": "0043694c",
+  "value": "CGamePlayPage",
+  "length": 13
+ },
+ {
+  "address": "0043695c",
+  "value": "These options are only available during the Title's main menu.",
+  "length": 62
+ },
+ {
+  "address": "0043699c",
+  "value": "Game Play",
+  "length": 9
+ },
+ {
+  "address": "004369a8",
+  "value": "Herculean Difficulty",
+  "length": 20
+ },
+ {
+  "address": "004369c0",
+  "value": "Medium Difficulty",
+  "length": 17
+ },
+ {
+  "address": "004369d4",
+  "value": "Beginner Difficulty",
+  "length": 19
+ },
+ {
+  "address": "004369e8",
+  "value": "Four Lives",
+  "length": 10
+ },
+ {
+  "address": "004369f4",
+  "value": "Three Lives",
+  "length": 11
+ },
+ {
+  "address": "00436a00",
+  "value": "Two Lives",
+  "length": 9
+ },
+ {
+  "address": "00436a10",
+  "value": "(%c) %s ",
+  "length": 8
+ },
+ {
+  "address": "00436a1c",
+  "value": "EnumDisplayModes()",
+  "length": 18
+ },
+ {
+  "address": "00436a30",
+  "value": "SetCooperativeLevel()",
+  "length": 21
+ },
+ {
+  "address": "00436a48",
+  "value": "DirectDrawCreate()",
+  "length": 18
+ },
+ {
+  "address": "00436a5c",
+  "value": "CreatePalette()",
+  "length": 15
+ },
+ {
+  "address": "00436a6c",
+  "value": "PC_BitmapInfo",
+  "length": 13
+ },
+ {
+  "address": "00436a7c",
+  "value": "PC_LogPal",
+  "length": 9
+ },
+ {
+  "address": "00436a88",
+  "value": "PC_Mainhdc",
+  "length": 10
+ },
+ {
+  "address": "00436a94",
+  "value": "&About Hercules",
+  "length": 15
+ },
+ {
+  "address": "00436aa4",
+  "value": "Help &Topics\tF1",
+  "length": 15
+ },
+ {
+  "address": "00436ab4",
+  "value": "&Help",
+  "length": 5
+ },
+ {
+  "address": "00436abc",
+  "value": "640x480 Window\t(Slowest)",
+  "length": 24
+ },
+ {
+  "address": "00436ad8",
+  "value": "480x360 Window\t(Average)",
+  "length": 24
+ },
+ {
+  "address": "00436af4",
+  "value": "320x240 Window\t(Fastest)",
+  "length": 24
+ },
+ {
+  "address": "00436b10",
+  "value": "320x240 Fullscreen\tAlt+Enter",
+  "length": 28
+ },
+ {
+  "address": "00436b30",
+  "value": "&Display",
+  "length": 8
+ },
+ {
+  "address": "00436b3c",
+  "value": "E&xit",
+  "length": 5
+ },
+ {
+  "address": "00436b44",
+  "value": "&Restart Level\tF3",
+  "length": 17
+ },
+ {
+  "address": "00436b58",
+  "value": "&Options\tF2",
+  "length": 11
+ },
+ {
+  "address": "00436b64",
+  "value": "&Game",
+  "length": 5
+ },
+ {
+  "address": "00436b6c",
+  "value": "Cannot start Hercules from here.\nRun the installed copy.",
+  "length": 56
+ },
+ {
+  "address": "00436bac",
+  "value": "Hercules is not installed.\nRun SETUP from the CD.",
+  "length": 49
+ },
+ {
+  "address": "00436be0",
+  "value": "Hercules",
+  "length": 8
+ },
+ {
+  "address": "00436bec",
+  "value": "\nHERCULES\n\nCopyright (c) Disney Interactive 1997   \n\n",
+  "length": 53
+ },
+ {
+  "address": "00436c24",
+  "value": "About Hercules..",
+  "length": 16
+ },
+ {
+  "address": "00436c38",
+  "value": "Exception %08lX at Address %08lX",
+  "length": 32
+ },
+ {
+  "address": "00436c5c",
+  "value": "CJoystickPage",
+  "length": 13
+ },
+ {
+  "address": "00436c78",
+  "value": "Joy %d, %d buttons",
+  "length": 18
+ },
+ {
+  "address": "00436c8c",
+  "value": "Pause",
+  "length": 5
+ },
+ {
+  "address": "00436c94",
+  "value": "Weapon",
+  "length": 6
+ },
+ {
+  "address": "00436c9c",
+  "value": "Power Punch",
+  "length": 11
+ },
+ {
+  "address": "00436ca8",
+  "value": "Punch",
+  "length": 5
+ },
+ {
+  "address": "00436cb8",
+  "value": "Sword",
+  "length": 5
+ },
+ {
+  "address": "00436cc0",
+  "value": "Hold SPACE to clear a button selection.",
+  "length": 39
+ },
+ {
+  "address": "00436ce8",
+  "value": "GamePad",
+  "length": 7
+ },
+ {
+  "address": "004370f4",
+  "value": "ProcessKey",
+  "length": 10
+ },
+ {
+  "address": "00437100",
+  "value": "ScrollLock",
+  "length": 10
+ },
+ {
+  "address": "0043715c",
+  "value": "PadDiv",
+  "length": 6
+ },
+ {
+  "address": "00437164",
+  "value": "PadDec",
+  "length": 6
+ },
+ {
+  "address": "0043716c",
+  "value": "PadSub",
+  "length": 6
+ },
+ {
+  "address": "00437174",
+  "value": "PadSep",
+  "length": 6
+ },
+ {
+  "address": "0043717c",
+  "value": "PadAdd",
+  "length": 6
+ },
+ {
+  "address": "00437184",
+  "value": "PadMul",
+  "length": 6
+ },
+ {
+  "address": "0043726c",
+  "value": "Delete",
+  "length": 6
+ },
+ {
+  "address": "00437274",
+  "value": "Insert",
+  "length": 6
+ },
+ {
+  "address": "0043727c",
+  "value": "Execute",
+  "length": 7
+ },
+ {
+  "address": "00437284",
+  "value": "Select",
+  "length": 6
+ },
+ {
+  "address": "00437294",
+  "value": "Right",
+  "length": 5
+ },
+ {
+  "address": "004372b4",
+  "value": "PageDown",
+  "length": 8
+ },
+ {
+  "address": "004372c0",
+  "value": "PageUp",
+  "length": 6
+ },
+ {
+  "address": "004372c8",
+  "value": "CapsLock",
+  "length": 8
+ },
+ {
+  "address": "004372d4",
+  "value": "BackSpace",
+  "length": 9
+ },
+ {
+  "address": "004372e0",
+  "value": "CKeyboardPage",
+  "length": 13
+ },
+ {
+  "address": "004372f0",
+  "value": "Reset Keys",
+  "length": 10
+ },
+ {
+  "address": "004372fc",
+  "value": "Keyboard",
+  "length": 8
+ },
+ {
+  "address": "00437308",
+  "value": "Keys are OFF",
+  "length": 12
+ },
+ {
+  "address": "00437318",
+  "value": "Keys are ON",
+  "length": 11
+ },
+ {
+  "address": "00437324",
+  "value": "CMainFrame",
+  "length": 10
+ },
+ {
+  "address": "00437330",
+  "value": "Options",
+  "length": 7
+ },
+ {
+  "address": "00437338",
+  "value": "status cdaudio ready",
+  "length": 20
+ },
+ {
+  "address": "00437358",
+  "value": "status cdaudio media present",
+  "length": 28
+ },
+ {
+  "address": "00437378",
+  "value": "open cdaudio shareable wait",
+  "length": 27
+ },
+ {
+  "address": "00437394",
+  "value": "stop cdaudio wait",
+  "length": 17
+ },
+ {
+  "address": "004373a8",
+  "value": "play cdaudio from %d to %d",
+  "length": 26
+ },
+ {
+  "address": "004373c4",
+  "value": "set cdaudio time format tmsf",
+  "length": 28
+ },
+ {
+  "address": "004373e4",
+  "value": "To play Hercules you must close all other CD applications and insert the game CD.",
+  "length": 81
+ },
+ {
+  "address": "00437438",
+  "value": "close cdaudio wait",
+  "length": 18
+ },
+ {
+  "address": "00437450",
+  "value": "PCopen(2)",
+  "length": 9
+ },
+ {
+  "address": "0043745c",
+  "value": "PCopen(1)",
+  "length": 9
+ },
+ {
+  "address": "00437468",
+  "value": "PClseek(1)",
+  "length": 10
+ },
+ {
+  "address": "00437474",
+  "value": "PCread(1)",
+  "length": 9
+ },
+ {
+  "address": "0043a490",
+  "value": "CANCEL",
+  "length": 6
+ },
+ {
+  "address": "0043a498",
+  "value": "Vortex",
+  "length": 6
+ },
+ {
+  "address": "0043a4a0",
+  "value": "Torment",
+  "length": 7
+ },
+ {
+  "address": "0043a4a8",
+  "value": "Titans",
+  "length": 6
+ },
+ {
+  "address": "0043a4b0",
+  "value": "Cyclops",
+  "length": 7
+ },
+ {
+  "address": "0043a4b8",
+  "value": "Medusa",
+  "length": 6
+ },
+ {
+  "address": "0043a4c0",
+  "value": "Hydra",
+  "length": 5
+ },
+ {
+  "address": "0043a4c8",
+  "value": "Thebes",
+  "length": 6
+ },
+ {
+  "address": "0043a4d0",
+  "value": "Forest",
+  "length": 6
+ },
+ {
+  "address": "0043a4d8",
+  "value": "Gauntlet",
+  "length": 8
+ },
+ {
+  "address": "0043a4e4",
+  "value": "Training",
+  "length": 8
+ },
+ {
+  "address": "0043a4f0",
+  "value": "Restart Level",
+  "length": 13
+ },
+ {
+  "address": "0043a500",
+  "value": "PC_CreateSFX(1)",
+  "length": 15
+ },
+ {
+  "address": "0043a510",
+  "value": "m:\\language\\sonix\\pc_%ld.esf",
+  "length": 28
+ },
+ {
+  "address": "0043a530",
+  "value": "CSoundPage",
+  "length": 10
+ },
+ {
+  "address": "0043a53c",
+  "value": "Sound Volume",
+  "length": 12
+ },
+ {
+  "address": "0043a54c",
+  "value": "Sound",
+  "length": 5
+ },
+ {
+  "address": "0043a554",
+  "value": "Sounds are OFF",
+  "length": 14
+ },
+ {
+  "address": "0043a564",
+  "value": "Sounds are ON",
+  "length": 13
+ },
+ {
+  "address": "0043a574",
+  "value": "Music is OFF",
+  "length": 12
+ },
+ {
+  "address": "0043a584",
+  "value": "Music is ON",
+  "length": 11
+ },
+ {
+  "address": "0043a598",
+  "value": "Hercules Error",
+  "length": 14
+ },
+ {
+  "address": "0043a5b4",
+  "value": "status cdaudio length track %u wait",
+  "length": 35
+ },
+ {
+  "address": "0043a5e0",
+  "value": "status cdaudio type track %u wait",
+  "length": 33
+ },
+ {
+  "address": "0043a608",
+  "value": "status cdaudio number of tracks wait",
+  "length": 36
+ },
+ {
+  "address": "0043a650",
+  "value": "COptionsSheet",
+  "length": 13
+ },
+ {
+  "address": "0043ca44",
+  "value": " \t-\r]",
+  "length": 5
+ },
+ {
+  "address": "0043de98",
+  "value": ".PAVCException@@",
+  "length": 16
+ },
+ {
+  "address": "0043deb8",
+  "value": ".?AVCObject@@",
+  "length": 13
+ },
+ {
+  "address": "0043df20",
+  "value": ".?AVCPropertyPage@@",
+  "length": 19
+ },
+ {
+  "address": "0043df40",
+  "value": ".?AVCPropertySheet@@",
+  "length": 20
+ },
+ {
+  "address": "0043df60",
+  "value": ".?AVCStatic@@",
+  "length": 13
+ },
+ {
+  "address": "0043dfd8",
+  "value": ".?AVCTestCmdUI@@",
+  "length": 16
+ },
+ {
+  "address": "0043dff8",
+  "value": ".PAVCUserException@@",
+  "length": 20
+ },
+ {
+  "address": "0043e018",
+  "value": ".?AVCNoTrackObject@@",
+  "length": 20
+ },
+ {
+  "address": "0043e038",
+  "value": ".?AV_AFX_CTL3D_STATE@@",
+  "length": 22
+ },
+ {
+  "address": "0043e068",
+  "value": ".?AV_AFX_WIN_STATE@@",
+  "length": 20
+ },
+ {
+  "address": "0043e088",
+  "value": ".?AVCWinThread@@",
+  "length": 16
+ },
+ {
+  "address": "0043e0c0",
+  "value": ".?AV_AFX_CTL3D_THREAD@@",
+  "length": 23
+ },
+ {
+  "address": "0043e0e0",
+  "value": ".?AV_AFX_THREAD_STATE@@",
+  "length": 23
+ },
+ {
+  "address": "0043e100",
+  "value": ".?AVAFX_MODULE_STATE@@",
+  "length": 22
+ },
+ {
+  "address": "0043e120",
+  "value": ".?AVAFX_MODULE_THREAD_STATE@@",
+  "length": 29
+ },
+ {
+  "address": "0043e148",
+  "value": ".?AV_AFX_BASE_MODULE_STATE@@",
+  "length": 28
+ },
+ {
+  "address": "0043e1b8",
+  "value": ".?AVCGdiObject@@",
+  "length": 16
+ },
+ {
+  "address": "0043e1e8",
+  "value": ".PAVCObject@@",
+  "length": 13
+ },
+ {
+  "address": "0043e200",
+  "value": ".PAVCSimpleException@@",
+  "length": 22
+ },
+ {
+  "address": "0043e220",
+  "value": ".PAVCResourceException@@",
+  "length": 24
+ },
+ {
+  "address": "0043e248",
+  "value": ".?AVCException@@",
+  "length": 16
+ },
+ {
+  "address": "0043e268",
+  "value": ".?AVCSimpleException@@",
+  "length": 22
+ },
+ {
+  "address": "0043e288",
+  "value": ".?AVCResourceException@@",
+  "length": 24
+ },
+ {
+  "address": "0043e2b0",
+  "value": ".?AVCUserException@@",
+  "length": 20
+ },
+ {
+  "address": "0043e2d0",
+  "value": ".?AVCSliderCtrl@@",
+  "length": 17
+ },
+ {
+  "address": "0043e2f0",
+  "value": ".?AVCImageList@@",
+  "length": 16
+ },
+ {
+  "address": "0043e328",
+  "value": ".?AU_AFX_PROPPAGEFONTINFO@@",
+  "length": 27
+ },
+ {
+  "address": "0043e350",
+  "value": ".?AVCPtrArray@@",
+  "length": 15
+ },
+ {
+  "address": "0043e368",
+  "value": ".PAVCMemoryException@@",
+  "length": 22
+ },
+ {
+  "address": "0043e388",
+  "value": ".PAVCNotSupportedException@@",
+  "length": 28
+ },
+ {
+  "address": "0043e3b0",
+  "value": ".?AVCMemoryException@@",
+  "length": 22
+ },
+ {
+  "address": "0043e3d0",
+  "value": ".?AVCNotSupportedException@@",
+  "length": 28
+ },
+ {
+  "address": "0043e3f8",
+  "value": ".?AUCThreadData@@",
+  "length": 17
+ },
+ {
+  "address": "0043e418",
+  "value": ".?AVCMapPtrToPtr@@",
+  "length": 18
+ },
+ {
+  "address": "0043e468",
+  "value": "hangeul",
+  "length": 7
+ },
+ {
+  "address": "0043e470",
+  "value": "kanji",
+  "length": 5
+ },
+ {
+  "address": "0043e478",
+  "value": "roman",
+  "length": 5
+ },
+ {
+  "address": "0043e480",
+  "value": "hangeulmenu",
+  "length": 11
+ },
+ {
+  "address": "0043e48c",
+  "value": "kanjimenu",
+  "length": 9
+ },
+ {
+  "address": "0043e498",
+  "value": "windows",
+  "length": 7
+ },
+ {
+  "address": "0043e4a0",
+  "value": "C3dHNew",
+  "length": 7
+ },
+ {
+  "address": "0043e4a8",
+  "value": "C3dLNew",
+  "length": 7
+ },
+ {
+  "address": "0043e4b0",
+  "value": "C3dNew",
+  "length": 6
+ },
+ {
+  "address": "0043e4d4",
+  "value": "#32770",
+  "length": 6
+ },
+ {
+  "address": "0043e4dc",
+  "value": "DisableThreadLibraryCalls",
+  "length": 25
+ },
+ {
+  "address": "0043e4f8",
+  "value": "KERNEL32.DLL",
+  "length": 12
+ },
+ {
+  "address": "0043e510",
+  "value": ".?AVtype_info@@",
+  "length": 15
+ },
+ {
+  "address": "00ba5b42",
+  "value": "DirectDrawCreate",
+  "length": 16
+ },
+ {
+  "address": "00ba5b54",
+  "value": "DDRAW.dll",
+  "length": 9
+ },
+ {
+  "address": "00ba5b60",
+  "value": "DirectSoundCreate",
+  "length": 17
+ },
+ {
+  "address": "00ba5b72",
+  "value": "DSOUND.dll",
+  "length": 10
+ },
+ {
+  "address": "00ba5b80",
+  "value": "timeBeginPeriod",
+  "length": 15
+ },
+ {
+  "address": "00ba5b92",
+  "value": "timeEndPeriod",
+  "length": 13
+ },
+ {
+  "address": "00ba5ba2",
+  "value": "timeGetTime",
+  "length": 11
+ },
+ {
+  "address": "00ba5bb0",
+  "value": "joyGetDevCapsA",
+  "length": 14
+ },
+ {
+  "address": "00ba5bc2",
+  "value": "joyGetPos",
+  "length": 9
+ },
+ {
+  "address": "00ba5bce",
+  "value": "joyGetPosEx",
+  "length": 11
+ },
+ {
+  "address": "00ba5bdc",
+  "value": "mciSendStringA",
+  "length": 14
+ },
+ {
+  "address": "00ba5bec",
+  "value": "WINMM.dll",
+  "length": 9
+ },
+ {
+  "address": "00ba5bf8",
+  "value": "Sleep",
+  "length": 5
+ },
+ {
+  "address": "00ba5c00",
+  "value": "CreateThread",
+  "length": 12
+ },
+ {
+  "address": "00ba5c10",
+  "value": "ReadFile",
+  "length": 8
+ },
+ {
+  "address": "00ba5c1c",
+  "value": "CreateFileA",
+  "length": 11
+ },
+ {
+  "address": "00ba5c2a",
+  "value": "SuspendThread",
+  "length": 13
+ },
+ {
+  "address": "00ba5c3a",
+  "value": "GetThreadPriority",
+  "length": 17
+ },
+ {
+  "address": "00ba5c4e",
+  "value": "GetPriorityClass",
+  "length": 16
+ },
+ {
+  "address": "00ba5c62",
+  "value": "GetCurrentThread",
+  "length": 16
+ },
+ {
+  "address": "00ba5c76",
+  "value": "GetCurrentProcess",
+  "length": 17
+ },
+ {
+  "address": "00ba5c8a",
+  "value": "SetThreadPriority",
+  "length": 17
+ },
+ {
+  "address": "00ba5c9e",
+  "value": "SetPriorityClass",
+  "length": 16
+ },
+ {
+  "address": "00ba5cb2",
+  "value": "TerminateThread",
+  "length": 15
+ },
+ {
+  "address": "00ba5cc4",
+  "value": "CloseHandle",
+  "length": 11
+ },
+ {
+  "address": "00ba5cd2",
+  "value": "ResumeThread",
+  "length": 12
+ },
+ {
+  "address": "00ba5ce2",
+  "value": "SetCurrentDirectoryA",
+  "length": 20
+ },
+ {
+  "address": "00ba5cfa",
+  "value": "GetDriveTypeA",
+  "length": 13
+ },
+ {
+  "address": "00ba5d0a",
+  "value": "GetLogicalDrives",
+  "length": 16
+ },
+ {
+  "address": "00ba5d1e",
+  "value": "GetProcAddress",
+  "length": 14
+ },
+ {
+  "address": "00ba5d30",
+  "value": "LoadLibraryA",
+  "length": 12
+ },
+ {
+  "address": "00ba5d40",
+  "value": "FreeLibrary",
+  "length": 11
+ },
+ {
+  "address": "00ba5d4e",
+  "value": "GetModuleFileNameA",
+  "length": 18
+ },
+ {
+  "address": "00ba5d64",
+  "value": "GetLastError",
+  "length": 12
+ },
+ {
+  "address": "00ba5d74",
+  "value": "CreateFileMappingA",
+  "length": 18
+ },
+ {
+  "address": "00ba5d8a",
+  "value": "HeapFree",
+  "length": 8
+ },
+ {
+  "address": "00ba5d96",
+  "value": "HeapAlloc",
+  "length": 9
+ },
+ {
+  "address": "00ba5da2",
+  "value": "GetFileAttributesA",
+  "length": 18
+ },
+ {
+  "address": "00ba5db8",
+  "value": "RtlUnwind",
+  "length": 9
+ },
+ {
+  "address": "00ba5dc4",
+  "value": "ExitProcess",
+  "length": 11
+ },
+ {
+  "address": "00ba5dd2",
+  "value": "TerminateProcess",
+  "length": 16
+ },
+ {
+  "address": "00ba5de6",
+  "value": "GetModuleHandleA",
+  "length": 16
+ },
+ {
+  "address": "00ba5dfa",
+  "value": "GetStartupInfoA",
+  "length": 15
+ },
+ {
+  "address": "00ba5e0c",
+  "value": "GetCommandLineA",
+  "length": 15
+ },
+ {
+  "address": "00ba5e1e",
+  "value": "GetVersion",
+  "length": 10
+ },
+ {
+  "address": "00ba5e2c",
+  "value": "GetCurrentThreadId",
+  "length": 18
+ },
+ {
+  "address": "00ba5e42",
+  "value": "TlsSetValue",
+  "length": 11
+ },
+ {
+  "address": "00ba5e50",
+  "value": "TlsAlloc",
+  "length": 8
+ },
+ {
+  "address": "00ba5e5c",
+  "value": "SetLastError",
+  "length": 12
+ },
+ {
+  "address": "00ba5e6c",
+  "value": "TlsGetValue",
+  "length": 11
+ },
+ {
+  "address": "00ba5e7a",
+  "value": "HeapDestroy",
+  "length": 11
+ },
+ {
+  "address": "00ba5e88",
+  "value": "HeapCreate",
+  "length": 10
+ },
+ {
+  "address": "00ba5e96",
+  "value": "VirtualFree",
+  "length": 11
+ },
+ {
+  "address": "00ba5ea4",
+  "value": "InitializeCriticalSection",
+  "length": 25
+ },
+ {
+  "address": "00ba5ec0",
+  "value": "DeleteCriticalSection",
+  "length": 21
+ },
+ {
+  "address": "00ba5ed8",
+  "value": "EnterCriticalSection",
+  "length": 20
+ },
+ {
+  "address": "00ba5ef0",
+  "value": "LeaveCriticalSection",
+  "length": 20
+ },
+ {
+  "address": "00ba5f08",
+  "value": "VirtualAlloc",
+  "length": 12
+ },
+ {
+  "address": "00ba5f18",
+  "value": "WriteFile",
+  "length": 9
+ },
+ {
+  "address": "00ba5f24",
+  "value": "SetFilePointer",
+  "length": 14
+ },
+ {
+  "address": "00ba5f36",
+  "value": "SetHandleCount",
+  "length": 14
+ },
+ {
+  "address": "00ba5f48",
+  "value": "GetStdHandle",
+  "length": 12
+ },
+ {
+  "address": "00ba5f58",
+  "value": "GetFileType",
+  "length": 11
+ },
+ {
+  "address": "00ba5f66",
+  "value": "GetCPInfo",
+  "length": 9
+ },
+ {
+  "address": "00ba5f72",
+  "value": "GetACP",
+  "length": 6
+ },
+ {
+  "address": "00ba5f7c",
+  "value": "GetOEMCP",
+  "length": 8
+ },
+ {
+  "address": "00ba5f88",
+  "value": "HeapReAlloc",
+  "length": 11
+ },
+ {
+  "address": "00ba5f96",
+  "value": "HeapSize",
+  "length": 8
+ },
+ {
+  "address": "00ba5fa2",
+  "value": "UnhandledExceptionFilter",
+  "length": 24
+ },
+ {
+  "address": "00ba5fbe",
+  "value": "FreeEnvironmentStringsA",
+  "length": 23
+ },
+ {
+  "address": "00ba5fd8",
+  "value": "MultiByteToWideChar",
+  "length": 19
+ },
+ {
+  "address": "00ba5fee",
+  "value": "FreeEnvironmentStringsW",
+  "length": 23
+ },
+ {
+  "address": "00ba6008",
+  "value": "GetEnvironmentStrings",
+  "length": 21
+ },
+ {
+  "address": "00ba6020",
+  "value": "GetEnvironmentStringsW",
+  "length": 22
+ },
+ {
+  "address": "00ba603a",
+  "value": "WideCharToMultiByte",
+  "length": 19
+ },
+ {
+  "address": "00ba6050",
+  "value": "SetStdHandle",
+  "length": 12
+ },
+ {
+  "address": "00ba6060",
+  "value": "FlushFileBuffers",
+  "length": 16
+ },
+ {
+  "address": "00ba6074",
+  "value": "InterlockedDecrement",
+  "length": 20
+ },
+ {
+  "address": "00ba608c",
+  "value": "InterlockedIncrement",
+  "length": 20
+ },
+ {
+  "address": "00ba60a4",
+  "value": "SetUnhandledExceptionFilter",
+  "length": 27
+ },
+ {
+  "address": "00ba60c2",
+  "value": "IsBadReadPtr",
+  "length": 12
+ },
+ {
+  "address": "00ba60d2",
+  "value": "IsBadWritePtr",
+  "length": 13
+ },
+ {
+  "address": "00ba60e2",
+  "value": "IsBadCodePtr",
+  "length": 12
+ },
+ {
+  "address": "00ba60f2",
+  "value": "SetEndOfFile",
+  "length": 12
+ },
+ {
+  "address": "00ba6102",
+  "value": "GetStringTypeA",
+  "length": 14
+ },
+ {
+  "address": "00ba6114",
+  "value": "GetStringTypeW",
+  "length": 14
+ },
+ {
+  "address": "00ba6126",
+  "value": "LCMapStringA",
+  "length": 12
+ },
+ {
+  "address": "00ba6136",
+  "value": "LCMapStringW",
+  "length": 12
+ },
+ {
+  "address": "00ba6146",
+  "value": "GetLocaleInfoA",
+  "length": 14
+ },
+ {
+  "address": "00ba6158",
+  "value": "GetLocaleInfoW",
+  "length": 14
+ },
+ {
+  "address": "00ba616a",
+  "value": "GlobalFree",
+  "length": 10
+ },
+ {
+  "address": "00ba6178",
+  "value": "LockResource",
+  "length": 12
+ },
+ {
+  "address": "00ba6188",
+  "value": "LoadResource",
+  "length": 12
+ },
+ {
+  "address": "00ba6198",
+  "value": "FindResourceA",
+  "length": 13
+ },
+ {
+  "address": "00ba61a8",
+  "value": "GlobalUnlock",
+  "length": 12
+ },
+ {
+  "address": "00ba61b8",
+  "value": "GlobalLock",
+  "length": 10
+ },
+ {
+  "address": "00ba61c6",
+  "value": "lstrcatA",
+  "length": 8
+ },
+ {
+  "address": "00ba61d2",
+  "value": "lstrcmpiA",
+  "length": 9
+ },
+ {
+  "address": "00ba61de",
+  "value": "lstrcmpA",
+  "length": 8
+ },
+ {
+  "address": "00ba61ea",
+  "value": "GlobalDeleteAtom",
+  "length": 16
+ },
+ {
+  "address": "00ba61fe",
+  "value": "GlobalAlloc",
+  "length": 11
+ },
+ {
+  "address": "00ba620c",
+  "value": "GlobalAddAtomA",
+  "length": 14
+ },
+ {
+  "address": "00ba621e",
+  "value": "GlobalGetAtomNameA",
+  "length": 18
+ },
+ {
+  "address": "00ba6234",
+  "value": "lstrcpynA",
+  "length": 9
+ },
+ {
+  "address": "00ba6240",
+  "value": "lstrlenA",
+  "length": 8
+ },
+ {
+  "address": "00ba624c",
+  "value": "lstrcpyA",
+  "length": 8
+ },
+ {
+  "address": "00ba6258",
+  "value": "MulDiv",
+  "length": 6
+ },
+ {
+  "address": "00ba6262",
+  "value": "SizeofResource",
+  "length": 14
+ },
+ {
+  "address": "00ba6274",
+  "value": "GetProcessVersion",
+  "length": 17
+ },
+ {
+  "address": "00ba6288",
+  "value": "GlobalFlags",
+  "length": 11
+ },
+ {
+  "address": "00ba6296",
+  "value": "LocalAlloc",
+  "length": 10
+ },
+ {
+  "address": "00ba62a4",
+  "value": "LocalFree",
+  "length": 9
+ },
+ {
+  "address": "00ba62b0",
+  "value": "GlobalHandle",
+  "length": 12
+ },
+ {
+  "address": "00ba62c0",
+  "value": "GlobalReAlloc",
+  "length": 13
+ },
+ {
+  "address": "00ba62d0",
+  "value": "LocalReAlloc",
+  "length": 12
+ },
+ {
+  "address": "00ba62e0",
+  "value": "GetVersionExA",
+  "length": 13
+ },
+ {
+  "address": "00ba62f0",
+  "value": "WritePrivateProfileStringA",
+  "length": 26
+ },
+ {
+  "address": "00ba630e",
+  "value": "FindClose",
+  "length": 9
+ },
+ {
+  "address": "00ba631a",
+  "value": "FindFirstFileA",
+  "length": 14
+ },
+ {
+  "address": "00ba632c",
+  "value": "GetVolumeInformationA",
+  "length": 21
+ },
+ {
+  "address": "00ba6344",
+  "value": "GetFullPathNameA",
+  "length": 16
+ },
+ {
+  "address": "00ba6358",
+  "value": "SetErrorMode",
+  "length": 12
+ },
+ {
+  "address": "00ba6366",
+  "value": "KERNEL32.dll",
+  "length": 12
+ },
+ {
+  "address": "00ba6376",
+  "value": "InvalidateRect",
+  "length": 14
+ },
+ {
+  "address": "00ba6388",
+  "value": "MessageBoxA",
+  "length": 11
+ },
+ {
+  "address": "00ba6396",
+  "value": "PostMessageA",
+  "length": 12
+ },
+ {
+  "address": "00ba63a6",
+  "value": "WaitMessage",
+  "length": 11
+ },
+ {
+  "address": "00ba63b4",
+  "value": "DispatchMessageA",
+  "length": 16
+ },
+ {
+  "address": "00ba63c8",
+  "value": "TranslateMessage",
+  "length": 16
+ },
+ {
+  "address": "00ba63dc",
+  "value": "PeekMessageA",
+  "length": 12
+ },
+ {
+  "address": "00ba63ec",
+  "value": "SetWindowTextA",
+  "length": 14
+ },
+ {
+  "address": "00ba63fe",
+  "value": "EnableWindow",
+  "length": 12
+ },
+ {
+  "address": "00ba640e",
+  "value": "ReleaseDC",
+  "length": 9
+ },
+ {
+  "address": "00ba641a",
+  "value": "GetDC",
+  "length": 5
+ },
+ {
+  "address": "00ba6422",
+  "value": "FillRect",
+  "length": 8
+ },
+ {
+  "address": "00ba642e",
+  "value": "GetClientRect",
+  "length": 13
+ },
+ {
+  "address": "00ba643e",
+  "value": "ShowCursor",
+  "length": 10
+ },
+ {
+  "address": "00ba644c",
+  "value": "SetWindowPos",
+  "length": 12
+ },
+ {
+  "address": "00ba645c",
+  "value": "GetSystemMetrics",
+  "length": 16
+ },
+ {
+  "address": "00ba6470",
+  "value": "SetWindowLongA",
+  "length": 14
+ },
+ {
+  "address": "00ba6482",
+  "value": "SetMenu",
+  "length": 7
+ },
+ {
+  "address": "00ba648c",
+  "value": "GetMenu",
+  "length": 7
+ },
+ {
+  "address": "00ba6496",
+  "value": "GetWindowRect",
+  "length": 13
+ },
+ {
+  "address": "00ba64a6",
+  "value": "ShowWindow",
+  "length": 10
+ },
+ {
+  "address": "00ba64b4",
+  "value": "GetWindowPlacement",
+  "length": 18
+ },
+ {
+  "address": "00ba64ca",
+  "value": "UpdateWindow",
+  "length": 12
+ },
+ {
+  "address": "00ba64da",
+  "value": "ModifyMenuA",
+  "length": 11
+ },
+ {
+  "address": "00ba64e8",
+  "value": "GetAsyncKeyState",
+  "length": 16
+ },
+ {
+  "address": "00ba64fc",
+  "value": "GetFocus",
+  "length": 8
+ },
+ {
+  "address": "00ba6508",
+  "value": "SendMessageA",
+  "length": 12
+ },
+ {
+  "address": "00ba6518",
+  "value": "SetTimer",
+  "length": 8
+ },
+ {
+  "address": "00ba6524",
+  "value": "KillTimer",
+  "length": 9
+ },
+ {
+  "address": "00ba6530",
+  "value": "MapVirtualKeyA",
+  "length": 14
+ },
+ {
+  "address": "00ba6542",
+  "value": "LoadIconA",
+  "length": 9
+ },
+ {
+  "address": "00ba654e",
+  "value": "LoadCursorA",
+  "length": 11
+ },
+ {
+  "address": "00ba655c",
+  "value": "SystemParametersInfoA",
+  "length": 21
+ },
+ {
+  "address": "00ba6574",
+  "value": "IsChild",
+  "length": 7
+ },
+ {
+  "address": "00ba657e",
+  "value": "SetCursor",
+  "length": 9
+ },
+ {
+  "address": "00ba658a",
+  "value": "SendNotifyMessageA",
+  "length": 18
+ },
+ {
+  "address": "00ba65a0",
+  "value": "GetKeyState",
+  "length": 11
+ },
+ {
+  "address": "00ba65ae",
+  "value": "GetParent",
+  "length": 9
+ },
+ {
+  "address": "00ba65ba",
+  "value": "SetFocus",
+  "length": 8
+ },
+ {
+  "address": "00ba65c6",
+  "value": "IsWindowEnabled",
+  "length": 15
+ },
+ {
+  "address": "00ba65d8",
+  "value": "GetWindowLongA",
+  "length": 14
+ },
+ {
+  "address": "00ba65ea",
+  "value": "GetDlgItem",
+  "length": 10
+ },
+ {
+  "address": "00ba65f8",
+  "value": "SetActiveWindow",
+  "length": 15
+ },
+ {
+  "address": "00ba660a",
+  "value": "GetActiveWindow",
+  "length": 15
+ },
+ {
+  "address": "00ba661c",
+  "value": "GetCapture",
+  "length": 10
+ },
+ {
+  "address": "00ba662a",
+  "value": "MapDialogRect",
+  "length": 13
+ },
+ {
+  "address": "00ba663a",
+  "value": "ScreenToClient",
+  "length": 14
+ },
+ {
+  "address": "00ba664c",
+  "value": "DestroyWindow",
+  "length": 13
+ },
+ {
+  "address": "00ba665c",
+  "value": "CreateDialogIndirectParamA",
+  "length": 26
+ },
+ {
+  "address": "00ba667a",
+  "value": "IsWindow",
+  "length": 8
+ },
+ {
+  "address": "00ba6686",
+  "value": "EndDialog",
+  "length": 9
+ },
+ {
+  "address": "00ba6692",
+  "value": "GetNextDlgTabItem",
+  "length": 17
+ },
+ {
+  "address": "00ba66a6",
+  "value": "RegisterWindowMessageA",
+  "length": 22
+ },
+ {
+  "address": "00ba66c0",
+  "value": "GetWindow",
+  "length": 9
+ },
+ {
+  "address": "00ba66cc",
+  "value": "GetMessagePos",
+  "length": 13
+ },
+ {
+  "address": "00ba66dc",
+  "value": "GetMessageTime",
+  "length": 14
+ },
+ {
+  "address": "00ba66ee",
+  "value": "RemovePropA",
+  "length": 11
+ },
+ {
+  "address": "00ba66fc",
+  "value": "CallWindowProcA",
+  "length": 15
+ },
+ {
+  "address": "00ba670e",
+  "value": "GetPropA",
+  "length": 8
+ },
+ {
+  "address": "00ba671a",
+  "value": "SetForegroundWindow",
+  "length": 19
+ },
+ {
+  "address": "00ba6730",
+  "value": "GetForegroundWindow",
+  "length": 19
+ },
+ {
+  "address": "00ba6746",
+  "value": "GetLastActivePopup",
+  "length": 18
+ },
+ {
+  "address": "00ba675c",
+  "value": "UnhookWindowsHookEx",
+  "length": 19
+ },
+ {
+  "address": "00ba6772",
+  "value": "SetPropA",
+  "length": 8
+ },
+ {
+  "address": "00ba677e",
+  "value": "CallNextHookEx",
+  "length": 14
+ },
+ {
+  "address": "00ba6790",
+  "value": "SetWindowsHookExA",
+  "length": 17
+ },
+ {
+  "address": "00ba67a4",
+  "value": "CreateWindowExA",
+  "length": 15
+ },
+ {
+  "address": "00ba67b6",
+  "value": "DefWindowProcA",
+  "length": 14
+ },
+ {
+  "address": "00ba67c8",
+  "value": "GetDlgCtrlID",
+  "length": 12
+ },
+ {
+  "address": "00ba67d8",
+  "value": "GetWindowTextA",
+  "length": 14
+ },
+ {
+  "address": "00ba67ea",
+  "value": "GetWindowTextLengthA",
+  "length": 20
+ },
+ {
+  "address": "00ba6802",
+  "value": "GetMenuItemID",
+  "length": 13
+ },
+ {
+  "address": "00ba6812",
+  "value": "GetSubMenu",
+  "length": 10
+ },
+ {
+  "address": "00ba6820",
+  "value": "GetMenuItemCount",
+  "length": 16
+ },
+ {
+  "address": "00ba6834",
+  "value": "RegisterClassA",
+  "length": 14
+ },
+ {
+  "address": "00ba6846",
+  "value": "GetClassInfoA",
+  "length": 13
+ },
+ {
+  "address": "00ba6856",
+  "value": "wsprintfA",
+  "length": 9
+ },
+ {
+  "address": "00ba6862",
+  "value": "WinHelpA",
+  "length": 8
+ },
+ {
+  "address": "00ba686e",
+  "value": "GetTopWindow",
+  "length": 12
+ },
+ {
+  "address": "00ba687e",
+  "value": "SetScrollPos",
+  "length": 12
+ },
+ {
+  "address": "00ba688e",
+  "value": "GetScrollPos",
+  "length": 12
+ },
+ {
+  "address": "00ba689e",
+  "value": "SetScrollRange",
+  "length": 14
+ },
+ {
+  "address": "00ba68b0",
+  "value": "ShowScrollBar",
+  "length": 13
+ },
+ {
+  "address": "00ba68c0",
+  "value": "SetScrollInfo",
+  "length": 13
+ },
+ {
+  "address": "00ba68d0",
+  "value": "ScrollWindow",
+  "length": 12
+ },
+ {
+  "address": "00ba68e0",
+  "value": "IsWindowVisible",
+  "length": 15
+ },
+ {
+  "address": "00ba68f2",
+  "value": "EndDeferWindowPos",
+  "length": 17
+ },
+ {
+  "address": "00ba6906",
+  "value": "CopyRect",
+  "length": 8
+ },
+ {
+  "address": "00ba6912",
+  "value": "BeginDeferWindowPos",
+  "length": 19
+ },
+ {
+  "address": "00ba6928",
+  "value": "DeferWindowPos",
+  "length": 14
+ },
+ {
+  "address": "00ba693a",
+  "value": "EqualRect",
+  "length": 9
+ },
+ {
+  "address": "00ba6946",
+  "value": "AdjustWindowRectEx",
+  "length": 18
+ },
+ {
+  "address": "00ba695c",
+  "value": "GetSysColor",
+  "length": 11
+ },
+ {
+  "address": "00ba696a",
+  "value": "MapWindowPoints",
+  "length": 15
+ },
+ {
+  "address": "00ba697c",
+  "value": "SendDlgItemMessageA",
+  "length": 19
+ },
+ {
+  "address": "00ba6992",
+  "value": "IsDialogMessageA",
+  "length": 16
+ },
+ {
+  "address": "00ba69a6",
+  "value": "EnableMenuItem",
+  "length": 14
+ },
+ {
+  "address": "00ba69b8",
+  "value": "CheckMenuItem",
+  "length": 13
+ },
+ {
+  "address": "00ba69c8",
+  "value": "SetMenuItemBitmaps",
+  "length": 18
+ },
+ {
+  "address": "00ba69de",
+  "value": "GetMenuState",
+  "length": 12
+ },
+ {
+  "address": "00ba69ee",
+  "value": "LoadBitmapA",
+  "length": 11
+ },
+ {
+  "address": "00ba69fc",
+  "value": "GetMenuCheckMarkDimensions",
+  "length": 26
+ },
+ {
+  "address": "00ba6a1a",
+  "value": "PostQuitMessage",
+  "length": 15
+ },
+ {
+  "address": "00ba6a2c",
+  "value": "ShowOwnedPopups",
+  "length": 15
+ },
+ {
+  "address": "00ba6a3e",
+  "value": "GetCursorPos",
+  "length": 12
+ },
+ {
+  "address": "00ba6a4e",
+  "value": "ValidateRect",
+  "length": 12
+ },
+ {
+  "address": "00ba6a5e",
+  "value": "GetMessageA",
+  "length": 11
+ },
+ {
+  "address": "00ba6a6c",
+  "value": "ReleaseCapture",
+  "length": 14
+ },
+ {
+  "address": "00ba6a7e",
+  "value": "GetDesktopWindow",
+  "length": 16
+ },
+ {
+  "address": "00ba6a92",
+  "value": "WindowFromPoint",
+  "length": 15
+ },
+ {
+  "address": "00ba6aa4",
+  "value": "ClientToScreen",
+  "length": 14
+ },
+ {
+  "address": "00ba6ab6",
+  "value": "SetRectEmpty",
+  "length": 12
+ },
+ {
+  "address": "00ba6ac6",
+  "value": "LoadAcceleratorsA",
+  "length": 17
+ },
+ {
+  "address": "00ba6ada",
+  "value": "TranslateAcceleratorA",
+  "length": 21
+ },
+ {
+  "address": "00ba6af2",
+  "value": "DestroyMenu",
+  "length": 11
+ },
+ {
+  "address": "00ba6b00",
+  "value": "LoadMenuA",
+  "length": 9
+ },
+ {
+  "address": "00ba6b0c",
+  "value": "ReuseDDElParam",
+  "length": 14
+ },
+ {
+  "address": "00ba6b1e",
+  "value": "UnpackDDElParam",
+  "length": 15
+ },
+ {
+  "address": "00ba6b30",
+  "value": "IsIconic",
+  "length": 8
+ },
+ {
+  "address": "00ba6b3c",
+  "value": "BringWindowToTop",
+  "length": 16
+ },
+ {
+  "address": "00ba6b50",
+  "value": "GetWindowDC",
+  "length": 11
+ },
+ {
+  "address": "00ba6b5e",
+  "value": "BeginPaint",
+  "length": 10
+ },
+ {
+  "address": "00ba6b6c",
+  "value": "EndPaint",
+  "length": 8
+ },
+ {
+  "address": "00ba6b78",
+  "value": "TabbedTextOutA",
+  "length": 14
+ },
+ {
+  "address": "00ba6b8a",
+  "value": "DrawTextA",
+  "length": 9
+ },
+ {
+  "address": "00ba6b96",
+  "value": "GrayStringA",
+  "length": 11
+ },
+ {
+  "address": "00ba6ba4",
+  "value": "LoadStringA",
+  "length": 11
+ },
+ {
+  "address": "00ba6bb2",
+  "value": "GetSysColorBrush",
+  "length": 16
+ },
+ {
+  "address": "00ba6bc6",
+  "value": "GetClassNameA",
+  "length": 13
+ },
+ {
+  "address": "00ba6bd6",
+  "value": "PtInRect",
+  "length": 8
+ },
+ {
+  "address": "00ba6be2",
+  "value": "FindWindowA",
+  "length": 11
+ },
+ {
+  "address": "00ba6bf0",
+  "value": "OffsetRect",
+  "length": 10
+ },
+ {
+  "address": "00ba6bfe",
+  "value": "CharUpperA",
+  "length": 10
+ },
+ {
+  "address": "00ba6c0c",
+  "value": "IntersectRect",
+  "length": 13
+ },
+ {
+  "address": "00ba6c1c",
+  "value": "InflateRect",
+  "length": 11
+ },
+ {
+  "address": "00ba6c2a",
+  "value": "UnregisterClassA",
+  "length": 16
+ },
+ {
+  "address": "00ba6c3c",
+  "value": "USER32.dll",
+  "length": 10
+ },
+ {
+  "address": "00ba6c4a",
+  "value": "TextOutA",
+  "length": 8
+ },
+ {
+  "address": "00ba6c56",
+  "value": "GdiFlush",
+  "length": 8
+ },
+ {
+  "address": "00ba6c62",
+  "value": "StretchDIBits",
+  "length": 13
+ },
+ {
+  "address": "00ba6c72",
+  "value": "RealizePalette",
+  "length": 14
+ },
+ {
+  "address": "00ba6c84",
+  "value": "SelectPalette",
+  "length": 13
+ },
+ {
+  "address": "00ba6c94",
+  "value": "UnrealizeObject",
+  "length": 15
+ },
+ {
+  "address": "00ba6ca6",
+  "value": "SetPaletteEntries",
+  "length": 17
+ },
+ {
+  "address": "00ba6cba",
+  "value": "CreatePalette",
+  "length": 13
+ },
+ {
+  "address": "00ba6cca",
+  "value": "CreateDIBSection",
+  "length": 16
+ },
+ {
+  "address": "00ba6cde",
+  "value": "DeleteObject",
+  "length": 12
+ },
+ {
+  "address": "00ba6cee",
+  "value": "SetTextColor",
+  "length": 12
+ },
+ {
+  "address": "00ba6cfe",
+  "value": "SetBkColor",
+  "length": 10
+ },
+ {
+  "address": "00ba6d0c",
+  "value": "GetObjectA",
+  "length": 10
+ },
+ {
+  "address": "00ba6d1a",
+  "value": "CreateBitmap",
+  "length": 12
+ },
+ {
+  "address": "00ba6d2a",
+  "value": "DeleteDC",
+  "length": 8
+ },
+ {
+  "address": "00ba6d36",
+  "value": "SaveDC",
+  "length": 6
+ },
+ {
+  "address": "00ba6d40",
+  "value": "RestoreDC",
+  "length": 9
+ },
+ {
+  "address": "00ba6d4c",
+  "value": "SelectObject",
+  "length": 12
+ },
+ {
+  "address": "00ba6d5c",
+  "value": "GetStockObject",
+  "length": 14
+ },
+ {
+  "address": "00ba6d6e",
+  "value": "SetBkMode",
+  "length": 9
+ },
+ {
+  "address": "00ba6d7a",
+  "value": "SetMapMode",
+  "length": 10
+ },
+ {
+  "address": "00ba6d88",
+  "value": "SetViewportOrgEx",
+  "length": 16
+ },
+ {
+  "address": "00ba6d9c",
+  "value": "OffsetViewportOrgEx",
+  "length": 19
+ },
+ {
+  "address": "00ba6db2",
+  "value": "SetViewportExtEx",
+  "length": 16
+ },
+ {
+  "address": "00ba6dc6",
+  "value": "ScaleViewportExtEx",
+  "length": 18
+ },
+ {
+  "address": "00ba6ddc",
+  "value": "SetWindowExtEx",
+  "length": 14
+ },
+ {
+  "address": "00ba6dee",
+  "value": "ScaleWindowExtEx",
+  "length": 16
+ },
+ {
+  "address": "00ba6e02",
+  "value": "GetClipBox",
+  "length": 10
+ },
+ {
+  "address": "00ba6e10",
+  "value": "IntersectClipRect",
+  "length": 17
+ },
+ {
+  "address": "00ba6e24",
+  "value": "GetDeviceCaps",
+  "length": 13
+ },
+ {
+  "address": "00ba6e34",
+  "value": "CreateSolidBrush",
+  "length": 16
+ },
+ {
+  "address": "00ba6e48",
+  "value": "PtVisible",
+  "length": 9
+ },
+ {
+  "address": "00ba6e54",
+  "value": "RectVisible",
+  "length": 11
+ },
+ {
+  "address": "00ba6e62",
+  "value": "ExtTextOutA",
+  "length": 11
+ },
+ {
+  "address": "00ba6e70",
+  "value": "Escape",
+  "length": 6
+ },
+ {
+  "address": "00ba6e7a",
+  "value": "PatBlt",
+  "length": 6
+ },
+ {
+  "address": "00ba6e84",
+  "value": "GetTextExtentPointA",
+  "length": 19
+ },
+ {
+  "address": "00ba6e98",
+  "value": "GDI32.dll",
+  "length": 9
+ },
+ {
+  "address": "00ba6ea2",
+  "value": "comdlg32.dll",
+  "length": 12
+ },
+ {
+  "address": "00ba6eb2",
+  "value": "ClosePrinter",
+  "length": 12
+ },
+ {
+  "address": "00ba6ec2",
+  "value": "DocumentPropertiesA",
+  "length": 19
+ },
+ {
+  "address": "00ba6ed8",
+  "value": "OpenPrinterA",
+  "length": 12
+ },
+ {
+  "address": "00ba6ee6",
+  "value": "WINSPOOL.DRV",
+  "length": 12
+ },
+ {
+  "address": "00ba6ef6",
+  "value": "RegCloseKey",
+  "length": 11
+ },
+ {
+  "address": "00ba6f04",
+  "value": "RegQueryValueExA",
+  "length": 16
+ },
+ {
+  "address": "00ba6f18",
+  "value": "RegOpenKeyExA",
+  "length": 13
+ },
+ {
+  "address": "00ba6f28",
+  "value": "RegSetValueExA",
+  "length": 14
+ },
+ {
+  "address": "00ba6f3a",
+  "value": "RegCreateKeyExA",
+  "length": 15
+ },
+ {
+  "address": "00ba6f4a",
+  "value": "ADVAPI32.dll",
+  "length": 12
+ },
+ {
+  "address": "00ba6f5a",
+  "value": "DragFinish",
+  "length": 10
+ },
+ {
+  "address": "00ba6f68",
+  "value": "DragQueryFileA",
+  "length": 14
+ },
+ {
+  "address": "00ba6f78",
+  "value": "SHELL32.dll",
+  "length": 11
+ },
+ {
+  "address": "00ba6f86",
+  "value": "PropertySheetA",
+  "length": 14
+ },
+ {
+  "address": "00ba6f98",
+  "value": "DestroyPropertySheetPage",
+  "length": 24
+ },
+ {
+  "address": "00ba6fb4",
+  "value": "CreatePropertySheetPageA",
+  "length": 24
+ },
+ {
+  "address": "00ba6fd0",
+  "value": "ImageList_Destroy",
+  "length": 17
+ },
+ {
+  "address": "00ba6fe2",
+  "value": "COMCTL32.dll",
+  "length": 12
+ },
+ {
+  "address": "00ba6ff2",
+  "value": "GetProfileStringA",
+  "length": 17
+ },
+ {
+  "address": "00ba7006",
+  "value": "RaiseException",
+  "length": 14
+ },
+ {
+  "address": "00ba7018",
+  "value": "IsWindowUnicode",
+  "length": 15
+ },
+ {
+  "address": "00ba702a",
+  "value": "CharNextA",
+  "length": 9
+ },
+ {
+  "address": "00ba7036",
+  "value": "DefDlgProcA",
+  "length": 11
+ },
+ {
+  "address": "00ba7044",
+  "value": "DrawFocusRect",
+  "length": 13
+ },
+ {
+  "address": "00ba7054",
+  "value": "ExcludeUpdateRgn",
+  "length": 16
+ },
+ {
+  "address": "00ba7068",
+  "value": "ShowCaret",
+  "length": 9
+ },
+ {
+  "address": "00ba7074",
+  "value": "HideCaret",
+  "length": 9
+ },
+ {
+  "address": "00ba7080",
+  "value": "BitBlt",
+  "length": 6
+ },
+ {
+  "address": "00ba708a",
+  "value": "CreateCompatibleDC",
+  "length": 18
+ },
+ {
+  "address": "00ba70a0",
+  "value": "CreateDIBitmap",
+  "length": 14
+ }
+]

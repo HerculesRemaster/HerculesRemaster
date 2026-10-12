@@ -1,0 +1,1948 @@
+{
+ "10015000": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015000"
+  ],
+  "lines": 15
+ },
+ "10015030": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015030"
+  ],
+  "lines": 11
+ },
+ "10015060": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015060"
+  ],
+  "lines": 15
+ },
+ "10015090": {
+  "states": [
+   10
+  ],
+  "scripts": [
+   "10055278"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x3b",
+    "0"
+   ],
+   [
+    "[0x13]",
+    "0"
+   ],
+   [
+    "[0x42]",
+    "2"
+   ]
+  ],
+  "calls": [
+   "FUN_10015090",
+   "FUN_10015670",
+   "FUN_10016790"
+  ],
+  "lines": 177
+ },
+ "10015600": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015600"
+  ],
+  "lines": 20
+ },
+ "10015670": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0xec",
+    "0"
+   ],
+   [
+    "0x4a",
+    "0xa0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015670"
+  ],
+  "lines": 11
+ },
+ "100156a0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [
+   "0xa000"
+  ],
+  "motion_writes": [],
+  "calls": [
+   "FUN_100156a0",
+   "FUN_10015780"
+  ],
+  "lines": 36
+ },
+ "10015780": {
+  "states": [
+   27
+  ],
+  "scripts": [
+   "100551e8",
+   "100552a8",
+   "100552d0",
+   "10055320"
+  ],
+  "pad_masks": [
+   "0x100",
+   "0x40"
+  ],
+  "motion_writes": [
+   [
+    "0xed",
+    "0"
+   ],
+   [
+    "0x3b",
+    "0"
+   ],
+   [
+    "0xd",
+    "1"
+   ],
+   [
+    "[0x2e]",
+    "0"
+   ],
+   [
+    "[0x2a]",
+    "0"
+   ],
+   [
+    "[0x30]",
+    "0x10000"
+   ],
+   [
+    "[0x2c]",
+    "0x10000"
+   ]
+  ],
+  "calls": [
+   "FUN_10015670",
+   "FUN_10015780",
+   "FUN_10018c50",
+   "FUN_1001a410"
+  ],
+  "lines": 189
+ },
+ "10015d00": {
+  "states": [
+   11,
+   14,
+   41,
+   46
+  ],
+  "scripts": [
+   "10053820",
+   "10053830",
+   "10053878",
+   "100538d0",
+   "10053930",
+   "10053a10",
+   "10053c40",
+   "10053f20",
+   "10054018",
+   "10054078",
+   "100541b0",
+   "100541d8",
+   "10054470",
+   "100547e8",
+   "10054850",
+   "10054890"
+  ],
+  "pad_masks": [
+   "0x10",
+   "0x20",
+   "0x40",
+   "0x80",
+   "0xa0"
+  ],
+  "motion_writes": [
+   [
+    "0xc",
+    "0xffff"
+   ],
+   [
+    "0xc",
+    "0xffff"
+   ],
+   [
+    "0xc",
+    "0xffff"
+   ],
+   [
+    "0xc",
+    "0xffff"
+   ],
+   [
+    "0xc",
+    "0xffff"
+   ],
+   [
+    "0xc",
+    "0xffff"
+   ],
+   [
+    "0xc",
+    "0xffff"
+   ],
+   [
+    "0xc",
+    "0xffff"
+   ],
+   [
+    "[0x13]",
+    "2"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016790",
+   "FUN_1001a220",
+   "FUN_1001a280",
+   "FUN_1001a3e0",
+   "FUN_1001a410"
+  ],
+  "lines": 400
+ },
+ "10016790": {
+  "states": [
+   0,
+   47
+  ],
+  "scripts": [
+   "10053820",
+   "10054558"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x4c",
+    "2"
+   ],
+   [
+    "0x96",
+    "0xff"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016790",
+   "FUN_10018f60",
+   "FUN_10019160"
+  ],
+  "lines": 30
+ },
+ "10016840": {
+  "states": [
+   47
+  ],
+  "scripts": [
+   "10053930",
+   "10054558"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0xc",
+    "0xffff"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016840",
+   "FUN_10016990",
+   "FUN_10016fa0",
+   "FUN_10017340",
+   "FUN_10017a20",
+   "FUN_10017ba0",
+   "FUN_10017d00",
+   "FUN_10017ff0",
+   "FUN_10018b10",
+   "FUN_10018bb0",
+   "FUN_10018f60",
+   "FUN_10019160"
+  ],
+  "lines": 88
+ },
+ "10016990": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [
+   "0x20",
+   "0x80"
+  ],
+  "motion_writes": [
+   [
+    "0x94",
+    "0"
+   ],
+   [
+    "0x94",
+    "0xff"
+   ],
+   [
+    "0x94",
+    "0xff"
+   ],
+   [
+    "0x94",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10016990",
+   "FUN_10016a60",
+   "FUN_10016e70",
+   "FUN_10019820",
+   "FUN_10019900"
+  ],
+  "lines": 45
+ },
+ "10016a60": {
+  "states": [
+   1
+  ],
+  "scripts": [
+   "10053a20",
+   "10053b00"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0xac",
+    "0x80000"
+   ],
+   [
+    "0xb0",
+    "0x8000"
+   ],
+   [
+    "0xa8",
+    "0x40000"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0xac",
+    "0x40000"
+   ],
+   [
+    "0xb0",
+    "0x2000"
+   ],
+   [
+    "0xa8",
+    "0x20000"
+   ],
+   [
+    "0xb8",
+    "0"
+   ],
+   [
+    "0xbc",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016a60"
+  ],
+  "lines": 28
+ },
+ "10016b40": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [
+   "0x20",
+   "0x80"
+  ],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016b40",
+   "FUN_10016c40",
+   "FUN_10016e70",
+   "FUN_10016fd0",
+   "FUN_10017340",
+   "FUN_10017ba0",
+   "FUN_10017ff0",
+   "FUN_100197b0",
+   "FUN_10019890",
+   "FUN_10019a10"
+  ],
+  "lines": 67
+ },
+ "10016c40": {
+  "states": [
+   3
+  ],
+  "scripts": [
+   "10053b90",
+   "10053bf0"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0xac",
+    "0"
+   ],
+   [
+    "0xa8",
+    "0"
+   ],
+   [
+    "0xb0",
+    "0"
+   ],
+   [
+    "0xb8",
+    "0"
+   ],
+   [
+    "0xbc",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016790",
+   "FUN_10016c40"
+  ],
+  "lines": 29
+ },
+ "10016cf0": {
+  "states": [
+   3
+  ],
+  "scripts": [
+   "10053bb0",
+   "10053bc8"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0xac",
+    "0"
+   ],
+   [
+    "0xa8",
+    "0"
+   ],
+   [
+    "0xb0",
+    "0"
+   ],
+   [
+    "0xb8",
+    "0"
+   ],
+   [
+    "0xbc",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016cf0"
+  ],
+  "lines": 25
+ },
+ "10016da0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016790",
+   "FUN_10016990",
+   "FUN_10016da0",
+   "FUN_10016fa0",
+   "FUN_10017a20",
+   "FUN_10017ba0",
+   "FUN_10017d00",
+   "FUN_10017ff0"
+  ],
+  "lines": 44
+ },
+ "10016e30": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [
+   "0x20",
+   "0x80"
+  ],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10016e30",
+   "FUN_10016e70"
+  ],
+  "lines": 19
+ },
+ "10016e70": {
+  "states": [
+   6
+  ],
+  "scripts": [
+   "10053c00",
+   "10053c18",
+   "10053c40",
+   "10053c80"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016e70"
+  ],
+  "lines": 37
+ },
+ "10016f40": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016790",
+   "FUN_10016f40",
+   "FUN_10016fa0",
+   "FUN_10017a20",
+   "FUN_10017d00"
+  ],
+  "lines": 29
+ },
+ "10016fa0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10016fa0",
+   "FUN_10017000"
+  ],
+  "lines": 12
+ },
+ "10016fd0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10016fd0",
+   "FUN_10017060"
+  ],
+  "lines": 12
+ },
+ "10017000": {
+  "states": [
+   4
+  ],
+  "scripts": [
+   "10053cc0"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x108",
+    "0x40000"
+   ],
+   [
+    "0xb0",
+    "0x8000"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10017000",
+   "FUN_10017130"
+  ],
+  "lines": 16
+ },
+ "10017060": {
+  "states": [
+   2
+  ],
+  "scripts": [
+   "10053d10"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10017060",
+   "FUN_10017130"
+  ],
+  "lines": 16
+ },
+ "100170c0": {
+  "states": [
+   23
+  ],
+  "scripts": [
+   "10053cc0"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x108",
+    "0x40000"
+   ],
+   [
+    "0xb0",
+    "0x8000"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_100170c0",
+   "FUN_10017130"
+  ],
+  "lines": 16
+ },
+ "10017130": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x95",
+    "0xff"
+   ],
+   [
+    "0xb8",
+    "0xe0000"
+   ],
+   [
+    "0xc0",
+    "0x7000"
+   ],
+   [
+    "0xc4",
+    "0xe000"
+   ],
+   [
+    "0xbc",
+    "0xd0000"
+   ],
+   [
+    "0xac",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10017130"
+  ],
+  "lines": 18
+ },
+ "100171b0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0xb8",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_100171b0",
+   "FUN_10017290",
+   "FUN_100174e0",
+   "FUN_10017810",
+   "FUN_100188a0",
+   "FUN_10019d70"
+  ],
+  "lines": 38
+ },
+ "10017290": {
+  "states": [],
+  "scripts": [
+   "100540c0",
+   "100541f8"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ]
+  ],
+  "calls": [
+   "FUN_10017290"
+  ],
+  "lines": 25
+ },
+ "10017340": {
+  "states": [
+   7
+  ],
+  "scripts": [
+   "10053df8"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0xac",
+    "0x40000"
+   ],
+   [
+    "0xb4",
+    "0x8000"
+   ],
+   [
+    "0xb0",
+    "0x2000"
+   ],
+   [
+    "0xb8",
+    "0x40000"
+   ],
+   [
+    "0xbc",
+    "0xd0000"
+   ],
+   [
+    "0xc0",
+    "0x8000"
+   ],
+   [
+    "0x95",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10017340"
+  ],
+  "lines": 21
+ },
+ "10017400": {
+  "states": [
+   13
+  ],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10017290",
+   "FUN_10017400",
+   "FUN_100174e0",
+   "FUN_100176e0",
+   "FUN_10017810",
+   "FUN_100188a0",
+   "FUN_10019d70"
+  ],
+  "lines": 41
+ },
+ "100174e0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [
+   "0x20",
+   "0x80",
+   "0xa0"
+  ],
+  "motion_writes": [
+   [
+    "0x25",
+    "0xff"
+   ],
+   [
+    "0x25",
+    "0xff"
+   ],
+   [
+    "0x25",
+    "0"
+   ],
+   [
+    "0x25",
+    "0"
+   ],
+   [
+    "[0x2b]",
+    "0"
+   ],
+   [
+    "[0x2a]",
+    "0x30000"
+   ],
+   [
+    "[0x2b]",
+    "0x30000"
+   ],
+   [
+    "[0x2c]",
+    "0x6000"
+   ],
+   [
+    "[0x2b]",
+    "0x4000"
+   ],
+   [
+    "[0x2d]",
+    "0x5000"
+   ],
+   [
+    "[0x2c]",
+    "0x6000"
+   ]
+  ],
+  "calls": [
+   "FUN_100174e0",
+   "FUN_10019650",
+   "FUN_10019970",
+   "FUN_10019a10"
+  ],
+  "lines": 85
+ },
+ "100176e0": {
+  "states": [
+   8
+  ],
+  "scripts": [
+   "10053da0"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0xa8",
+    "0"
+   ],
+   [
+    "0x108",
+    "0"
+   ],
+   [
+    "0xb0",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_100176e0"
+  ],
+  "lines": 22
+ },
+ "100177a0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016790",
+   "FUN_10016990",
+   "FUN_10016e30",
+   "FUN_10016fa0",
+   "FUN_100177a0",
+   "FUN_10017a20",
+   "FUN_10017ba0",
+   "FUN_10017d00",
+   "FUN_10017ff0"
+  ],
+  "lines": 45
+ },
+ "10017810": {
+  "states": [
+   9
+  ],
+  "scripts": [
+   "10054810"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0xd",
+    "0x126"
+   ],
+   [
+    "0xc",
+    "1"
+   ]
+  ],
+  "calls": [
+   "FUN_10017810"
+  ],
+  "lines": 35
+ },
+ "100178f0": {
+  "states": [
+   5
+  ],
+  "scripts": [
+   "100548e8"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x95",
+    "0xff"
+   ],
+   [
+    "0x108",
+    "0x40000"
+   ],
+   [
+    "0xb8",
+    "0xf0000"
+   ],
+   [
+    "0xc0",
+    "0x7000"
+   ],
+   [
+    "0xc4",
+    "0xe000"
+   ],
+   [
+    "0xbc",
+    "0xd0000"
+   ],
+   [
+    "0xac",
+    "0x40000"
+   ],
+   [
+    "0xa8",
+    "0x40000"
+   ],
+   [
+    "0xb0",
+    "0x4000"
+   ],
+   [
+    "0xac",
+    "0x8000"
+   ],
+   [
+    "0xa8",
+    "0x8000"
+   ],
+   [
+    "0xb0",
+    "0x1000"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_100178f0"
+  ],
+  "lines": 35
+ },
+ "10017a20": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [
+   "0x40"
+  ],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10017a20",
+   "FUN_10017a50"
+  ],
+  "lines": 11
+ },
+ "10017a50": {
+  "states": [
+   11
+  ],
+  "scripts": [
+   "100547e8"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10017a50"
+  ],
+  "lines": 12
+ },
+ "10017a90": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [
+   "0x40"
+  ],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016790",
+   "FUN_10016990",
+   "FUN_10016fa0",
+   "FUN_10017340",
+   "FUN_10017a90",
+   "FUN_10017ae0"
+  ],
+  "lines": 26
+ },
+ "10017ae0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [
+   "0x20",
+   "0x80"
+  ],
+  "motion_writes": [
+   [
+    "0x94",
+    "0"
+   ],
+   [
+    "0x94",
+    "0xff"
+   ]
+  ],
+  "calls": [
+   "FUN_10017ae0"
+  ],
+  "lines": 34
+ },
+ "10017ba0": {
+  "states": [
+   41,
+   42
+  ],
+  "scripts": [
+   "10053ea0",
+   "10053f80"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0xa8",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10017ba0"
+  ],
+  "lines": 22
+ },
+ "10017cd0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016790",
+   "FUN_10016fa0",
+   "FUN_10017340",
+   "FUN_10017cd0"
+  ],
+  "lines": 22
+ },
+ "10017d00": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [
+   "0x10",
+   "0x40"
+  ],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10017d00",
+   "FUN_10017d60"
+  ],
+  "lines": 19
+ },
+ "10017d60": {
+  "states": [
+   28
+  ],
+  "scripts": [
+   "10053a90",
+   "10053ac8",
+   "10054da0",
+   "10055240",
+   "10055242"
+  ],
+  "pad_masks": [
+   "0x10"
+  ],
+  "motion_writes": [
+   [
+    "0xcc",
+    "0"
+   ],
+   [
+    "0xd0",
+    "0"
+   ],
+   [
+    "0xac",
+    "0"
+   ],
+   [
+    "0xa8",
+    "0"
+   ],
+   [
+    "0xb8",
+    "0"
+   ],
+   [
+    "0xbc",
+    "0"
+   ],
+   [
+    "0xf8",
+    "10"
+   ],
+   [
+    "0x11e",
+    "0xf"
+   ],
+   [
+    "0x72",
+    "0"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x96",
+    "0xff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x96",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10017d60"
+  ],
+  "lines": 34
+ },
+ "10017ff0": {
+  "states": [
+   12,
+   43,
+   44,
+   45
+  ],
+  "scripts": [
+   "10054120",
+   "10054260",
+   "100542a0",
+   "100543d0",
+   "10054c98",
+   "10054c9c",
+   "10054c9e",
+   "10054ca0",
+   "10054d60"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0xa8",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10017ff0"
+  ],
+  "lines": 66
+ },
+ "10018240": {
+  "states": [],
+  "scripts": [
+   "100541b0"
+  ],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016790",
+   "FUN_10016fa0",
+   "FUN_10017340",
+   "FUN_10017ae0",
+   "FUN_10017ff0",
+   "FUN_10018240"
+  ],
+  "lines": 30
+ },
+ "100188a0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_100188a0",
+   "FUN_10018900"
+  ],
+  "lines": 18
+ },
+ "10018900": {
+  "states": [
+   16
+  ],
+  "scripts": [
+   "10054680"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0xc",
+    "0xffff"
+   ],
+   [
+    "[0x31]",
+    "0"
+   ],
+   [
+    "[0x30]",
+    "0"
+   ],
+   [
+    "[0x2f]",
+    "0"
+   ],
+   [
+    "[0x2e]",
+    "0"
+   ],
+   [
+    "[0x2b]",
+    "0"
+   ],
+   [
+    "[0x2a]",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10018900"
+  ],
+  "lines": 34
+ },
+ "10018b10": {
+  "states": [
+   20
+  ],
+  "scripts": [
+   "100544c0"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10018b10"
+  ],
+  "lines": 25
+ },
+ "10018bb0": {
+  "states": [
+   47
+  ],
+  "scripts": [
+   "10054558",
+   "100545e8"
+  ],
+  "pad_masks": [
+   "0x10"
+  ],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10018bb0"
+  ],
+  "lines": 24
+ },
+ "10018c50": {
+  "states": [
+   17
+  ],
+  "scripts": [
+   "100546d8",
+   "10054718",
+   "10054750",
+   "10054798",
+   "10055348"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0xec",
+    "0x3c"
+   ],
+   [
+    "0xa8",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10018c50",
+   "FUN_100196f0"
+  ],
+  "lines": 105
+ },
+ "10018f60": {
+  "states": [
+   22
+  ],
+  "scripts": [
+   "10054930",
+   "100549f0",
+   "10054aa0"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0xc",
+    "0xffff"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10018f60"
+  ],
+  "lines": 82
+ },
+ "10019160": {
+  "states": [
+   25
+  ],
+  "scripts": [
+   "10054b50",
+   "10054c30"
+  ],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10019160"
+  ],
+  "lines": 23
+ },
+ "10019240": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019240"
+  ],
+  "lines": 10
+ },
+ "10019260": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [
+   [
+    "0xd",
+    "0"
+   ]
+  ],
+  "calls": [
+   "FUN_10019260"
+  ],
+  "lines": 10
+ },
+ "10019440": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_10016790",
+   "FUN_10019440"
+  ],
+  "lines": 13
+ },
+ "10019650": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019650"
+  ],
+  "lines": 23
+ },
+ "100196f0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_100196f0"
+  ],
+  "lines": 28
+ },
+ "100197b0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_100197b0"
+  ],
+  "lines": 18
+ },
+ "10019820": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019820"
+  ],
+  "lines": 18
+ },
+ "10019890": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019890"
+  ],
+  "lines": 18
+ },
+ "10019900": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019900"
+  ],
+  "lines": 18
+ },
+ "10019970": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019970"
+  ],
+  "lines": 32
+ },
+ "10019a10": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019a10",
+   "FUN_10019c30"
+  ],
+  "lines": 30
+ },
+ "10019aa0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019aa0",
+   "FUN_10019d30"
+  ],
+  "lines": 31
+ },
+ "10019b40": {
+  "states": [],
+  "scripts": [
+   "100553e8",
+   "100553f8",
+   "10055408",
+   "10055418",
+   "10055428",
+   "10055438"
+  ],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019b40"
+  ],
+  "lines": 47
+ },
+ "10019c30": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019c30"
+  ],
+  "lines": 31
+ },
+ "10019cf0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019cf0"
+  ],
+  "lines": 18
+ },
+ "10019d30": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019d30"
+  ],
+  "lines": 16
+ },
+ "10019d70": {
+  "states": [
+   7,
+   24
+  ],
+  "scripts": [
+   "10053e28"
+  ],
+  "pad_masks": [
+   "0x40"
+  ],
+  "motion_writes": [
+   [
+    "0xb8",
+    "0"
+   ],
+   [
+    "0x95",
+    "0"
+   ],
+   [
+    "0xbc",
+    "0xd0000"
+   ],
+   [
+    "0xc0",
+    "0x6000"
+   ],
+   [
+    "0x30",
+    "0xffff"
+   ],
+   [
+    "0x32",
+    "0xffff"
+   ],
+   [
+    "0xc0",
+    "0x10000"
+   ],
+   [
+    "0xbc",
+    "0x200000"
+   ],
+   [
+    "0xb8",
+    "0x80000"
+   ]
+  ],
+  "calls": [
+   "FUN_10015d00",
+   "FUN_100170c0",
+   "FUN_10019970",
+   "FUN_10019d30",
+   "FUN_10019d70"
+  ],
+  "lines": 58
+ },
+ "10019f50": {
+  "states": [],
+  "scripts": [
+   "10054d60",
+   "10054d64",
+   "10054d66",
+   "10055448",
+   "1005544c"
+  ],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_10019f50"
+  ],
+  "lines": 53
+ },
+ "1001a0f0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_1001a0f0"
+  ],
+  "lines": 59
+ },
+ "1001a1d0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_1001a1d0"
+  ],
+  "lines": 16
+ },
+ "1001a220": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_1001a220",
+   "FUN_1001a2b0"
+  ],
+  "lines": 15
+ },
+ "1001a280": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_1001a280"
+  ],
+  "lines": 11
+ },
+ "1001a2b0": {
+  "states": [],
+  "scripts": [
+   "100554a8",
+   "100554c0"
+  ],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_1001a2b0"
+  ],
+  "lines": 35
+ },
+ "1001a3e0": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_1001a3e0",
+   "FUN_1001a440"
+  ],
+  "lines": 12
+ },
+ "1001a410": {
+  "states": [],
+  "scripts": [],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_1001a410"
+  ],
+  "lines": 11
+ },
+ "1001a440": {
+  "states": [],
+  "scripts": [
+   "10054c9c",
+   "10054c9e",
+   "10054ca0",
+   "100554f0"
+  ],
+  "pad_masks": [],
+  "motion_writes": [],
+  "calls": [
+   "FUN_1001a440"
+  ],
+  "lines": 50
+ }
+}

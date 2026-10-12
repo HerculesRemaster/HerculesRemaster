@@ -1,0 +1,151 @@
+0x018 0x0040be30 L4 [ENG1:2 ENG3:2 TITLE:1] void FUN_0040be30(void) |  |  | 
+0x01c 0x0040a340 L4 [ENG1:2 ENG3:1 TITLE:0] undefined4 FUN_0040a340(void) |  |  | 
+0x020 0x00403d90 L26 [ENG1:4 ENG3:1 TITLE:2] FUN_00403d90(undefined4 param_1,undefined4 param_2,int param |  | s_Unable_to_open__s___d__00436050 | DAT_00436024,DAT_00615c10
+0x024 0x00403ea0 L14 [ENG1:3 ENG3:3 TITLE:2] undefined4 FUN_00403ea0(void) |  | s___Failed_00436044 | 
+0x028 0x00401000 L16 [TITLE:1] void FUN_00401000(void) | CONCAT22 |  | 
+0x02c 0x00403f00 L48 [ENG1:3 ENG3:3 TITLE:2] void FUN_00403f00(void) |  |  | 
+0x030 0x00403d30 L13 [ENG1:2 ENG3:1 TITLE:1] undefined4 FUN_00403d30(void) |  | s___Closed_00436038,s___Failed_00436044 | 
+0x034 0x00404890 L5 [ENG1:3 ENG3:3 TITLE:2] void FUN_00404890(undefined4 param_1) |  |  | 
+0x038 0x004048a0 L51 [ENG1:1] undefined4 FUN_004048a0(int param_1,uint param_2) |  | s_CompactMalloc_Heap_d___0x_x_Size_00436130 | DAT_00ba29c0,DAT_00ba29d0
+0x040 0x00404750 L25 [ENG1:11 ENG3:6 TITLE:3] void FUN_00404750(uint param_1) |  | s_Free_id__d___0x_x_Size____d_00436110 | DAT_00ba29d0
+0x044 0x004047c0 L19 [ENG1:1 ENG3:1 TITLE:1] void FUN_004047c0(int param_1) |  |  | DAT_00ba29c0,DAT_00ba29d0,DAT_00ba29ec
+0x048 0x004040d0 L21 [ENG1:3 ENG3:2 TITLE:1] undefined4 FUN_004040d0(undefined4 param_1,undefined4 param_ |  |  | DAT_00436024,DAT_00615c10
+0x04c 0x00401bd0 L31 [ENG1:1 ENG3:1 TITLE:1] void FUN_00401bd0(undefined2 param_1,undefined2 param_2,int  |  |  | DAT_00ba2da0,DAT_00ba2db6,DAT_00ba2db8,DAT_00ba2e10,DAT_00ba
+0x050 0x00404450 L6 [ENG1:1 ENG3:1 TITLE:1] void FUN_00404450(undefined4 param_1,undefined4 param_2) |  |  | DAT_00ba29e0,DAT_00ba29e4
+0x05c 0x00410760 L14 [ENG1:1 ENG3:1 TITLE:1] void FUN_00410760(void) |  |  | 
+0x060 0x00401d00 L8 [ENG1:1 ENG3:1 TITLE:1] void FUN_00401d00(void) |  |  | 
+0x064 0x00404040 L16 [ENG1:2 ENG3:2 TITLE:1] undefined4 FUN_00404040(undefined4 param_1,undefined4 param_ |  |  | 
+0x068 0x00403b50 L26 [ENG1:4 ENG3:4 TITLE:2] undefined4 FUN_00403b50(undefined4 param_1,undefined4 param_ |  | s_Loading__s___0x_x_size__d_00436008,s_Unable_to_open__s_00435ff4,s___Loaded_004 | DAT_00436024,DAT_00615c10
+0x06c 0x004016b0 L50 [ENG1:1 ENG3:1] undefined4 FUN_004016b0(char *param_1) |  | s_LoadLevelSonix___________________00435d84,s_LoadLevelSonix_setting_Music__d_S_ | 
+0x070 0x00401110 L54 [TITLE:1] undefined4 FUN_00401110(uint param_1,byte param_2) |  | s_LoadMusic__d__d_00435c18,s_MUSIC_MUS_00435c0c,s_Unable_to_down_load_VAB_00435b | 
+0x074 0x00401330 L70 [TITLE:1] undefined4 FUN_00401330(uint param_1,byte param_2) |  | s_LoadSfx__d__d_00435d1c,s_SFX_SFX_00435d14,s_Two_or_more_sound_effects_have_b_0 | 
+0x078 0x00404570 L54 [ENG1:13 ENG3:10 TITLE:3] uint * FUN_00404570(int *param_1,int param_2,uint param_3) |  | s_Malloc_FAILED___Address__x_data___004360cc,s_Malloc_Heap_d___0x_x_Size__d_0043 | DAT_00ba29c0,DAT_00ba29d0
+0x07c 0x004043a0 L55 [ENG1:2] void FUN_004043a0(int param_1,uint param_2,uint param_3) |  |  | 
+0x080 0x00403c50 L17 [ENG1:1] undefined4 FUN_00403c50(undefined4 param_1,undefined4 param_ |  | s_Opening__s_0043602c,s_Unable_to_open__s_00435ff4 | DAT_00436024,DAT_00615c10
+0x084 0x004041a0 L24 [ENG1:3 ENG3:3 TITLE:1] void FUN_004041a0(void) |  |  | DAT_00ba2a40,DAT_00ba2a41,DAT_00ba2a42
+0x088 0x0040be30 L4 [ENG1:1 ENG3:1 TITLE:1] void FUN_0040be30(void) |  |  | 
+0x08c 0x00401d80 L11 [ENG1:1 ENG3:1 TITLE:0] void FUN_00401d80(void) |  |  | DAT_004352b0
+0x090 0x00401090 L8 [ENG1:1 ENG3:1] void FUN_00401090(void) | CONCAT22 |  | 
+0x094 0x00404260 L9 [ENG1:147 ENG3:26 TITLE:14] uint FUN_00404260(uint param_1) |  |  | 
+0x098 0x00404280 L15 [ENG1:27 ENG3:2] undefined4 FUN_00404280(void) |  |  | 
+0x09c 0x00403d00 L5 [ENG1:1] void FUN_00403d00(undefined4 param_1,int param_2) |  |  | 
+0x0a0 0x00404690 L34 [ENG1:1 ENG3:1] int FUN_00404690(int param_1,int param_2,undefined4 param_3, |  | s_ReMalloc_Heap_d___0x_x_Size__d_004360f0 | 
+0x0a4 0x00404470 L16 [TITLE:1] void FUN_00404470(int param_1) |  | s_ReInitheap_Heap_d___0x_x_size__d_00436068 | DAT_00ba29c0,DAT_00ba29d0,DAT_00ba29e0,DAT_00ba29e4,DAT_00ba
+0x0ac 0x00401ee0 L17 [TITLE:2] uint FUN_00401ee0(void) |  |  | DAT_0043e738,DAT_0043eb38,DAT_0043f744
+0x0b0 0x00401dd0 L26 [ENG1:6 ENG3:0 TITLE:4] undefined * FUN_00401dd0(int param_1) |  |  | DAT_004352b0,DAT_0043e530,DAT_0043f744
+0x0b4 0x00401e90 L12 [ENG1:4 ENG3:2 TITLE:3] void FUN_00401e90(void) |  |  | DAT_004352b0,DAT_0043f744
+0x0b8 0x00401b90 L12 [ENG1:3 ENG3:3 TITLE:10] void FUN_00401b90(int param_1) |  |  | 
+0x0c0 0x00403ce0 L5 [ENG1:1] void FUN_00403ce0(int param_1) |  |  | 
+0x0c4 0x004010b0 L7 [TITLE:0] void FUN_004010b0(undefined4 param_1,undefined4 param_2) |  |  | 
+0x0c8 0x00404300 L16 [ENG1:1 ENG3:1 TITLE:1] void FUN_00404300(int param_1,int param_2) |  |  | 
+0x0cc 0x004042e0 L6 [ENG1:1 ENG3:1 TITLE:1] void FUN_004042e0(undefined4 param_1) |  |  | 
+0x0d0 0x00401a00 L47 [ENG1:1 ENG3:1 TITLE:1] void FUN_00401a00(int param_1) |  |  | DAT_0043f738
+0x0d4 0x004017d0 L35 [ENG1:2 ENG3:1 TITLE:0] void FUN_004017d0(char param_1,uint param_2) | CONCAT22 | s_ERROR_Specified_vabid_is_not_loa_00435ddc,s_StartMusic_0x_x_0x_x_0x_x_00435dc0 | 
+0x0d8 0x004018f0 L33 [TITLE:0] void FUN_004018f0(char param_1,uint param_2) | CONCAT22 | s_ERROR_Specified_vabid_is_not_loa_00435ddc,s_StartMusic_0x_x_0x_x_0x_x_00435dc0 | 
+0x0dc 0x004015d0 L13 [ENG1:1 TITLE:0] void FUN_004015d0(void) | CONCAT22,thunk_FUN_00409e10 |  | 
+0x0e0 0x00404240 L6 [ENG1:2 ENG3:2 TITLE:1] void FUN_00404240(int param_1) |  |  | 
+0x0e4 0x00401610 L32 [ENG1:2 ENG3:2 TITLE:1] void FUN_00401610(void) |  | s_UnLoadAllSfxMusic_00435d2c | 
+0x0e8 0x00401090 L8 [ENG1:1 ENG3:1] void FUN_00401090(void) | CONCAT22 |  | 
+0x0ec 0x0040be30 L4 [ENG1:2 ENG3:2 TITLE:0] void FUN_0040be30(void) |  |  | 
+0x0f0 0x00401f50 L6 [ENG1:1 ENG3:1 TITLE:1] void FUN_00401f50(void) |  |  | 
+0x0f4 0x0040be30 L4 [TITLE:1] void FUN_0040be30(void) |  |  | 
+0x0f8 0x0040bd40 L4 [TITLE:4] undefined4 FUN_0040bd40(void) |  |  | 
+0x0fc 0x0040bd40 L4 [TITLE:4] undefined4 FUN_0040bd40(void) |  |  | 
+0x100 0x0040bd40 L4 [TITLE:3] undefined4 FUN_0040bd40(void) |  |  | 
+0x104 0x0040a340 L4 [TITLE:1] undefined4 FUN_0040a340(void) |  |  | 
+0x108 0x0040ac50 L6 [ENG1:2 ENG3:2 TITLE:3] void FUN_0040ac50(undefined4 *param_1,undefined4 *param_2) |  |  | 
+0x140 0x0040ac00 L5 [ENG1:1 ENG3:1 TITLE:2] undefined4 FUN_0040ac00(void) |  |  | 
+0x144 0x0040ac20 L16 [ENG1:2 ENG3:2 TITLE:2] undefined4 FUN_0040ac20(undefined4 *param_1,int param_2) |  |  | 
+0x164 0x0040ac60 L244 [ENG1:1 ENG3:1 TITLE:1] void FUN_0040ac60(int *param_1) |  |  | DAT_0043a48c,DAT_0096e698,DAT_0096e699,DAT_0096e69a,DAT_0096
+0x168 0x0040ac40 L5 [TITLE:1] void thunk_FUN_0040bd80(void) |  |  | 
+0x16c 0x0040a340 L4 [ENG1:7 ENG3:7 TITLE:6] undefined4 FUN_0040a340(void) |  |  | 
+0x170 0x0040bda0 L7 [ENG1:2 ENG3:2 TITLE:1] undefined4 FUN_0040bda0(undefined4 param_1) |  |  | DAT_00a8e780
+0x178 0x0040be30 L4 [ENG1:10 ENG3:11 TITLE:5] void FUN_0040be30(void) |  |  | 
+0x180 0x0040be30 L4 [ENG1:10 ENG3:11 TITLE:5] void FUN_0040be30(void) |  |  | 
+0x184 0x0040bcd0 L4 [TITLE:1] undefined4 FUN_0040bcd0(undefined4 param_1,undefined4 param_ |  |  | 
+0x18c 0x0040bd40 L4 [TITLE:1] undefined4 FUN_0040bd40(void) |  |  | 
+0x190 0x0040b6b0 L10 [ENG1:2 ENG3:2 TITLE:1] void FUN_0040b6b0(undefined4 param_1,undefined4 param_2,unde |  |  | DAT_00a8e740,DAT_00a8e742,DAT_00a8e744,DAT_00a8e746,DAT_00a8
+0x194 0x0040b6f0 L7 [ENG1:16 ENG3:11 TITLE:5] void FUN_0040b6f0(undefined2 *param_1) |  |  | DAT_00a8e708,DAT_00a8e70e,DAT_00a8e714
+0x198 0x0040b430 L14 [ENG1:1 ENG3:1 TITLE:1] void FUN_0040b430(undefined2 *param_1,undefined2 *param_2,un |  |  | DAT_00a8e708,DAT_00a8e70a,DAT_00a8e70e,DAT_00a8e710,DAT_00a8
+0x19c 0x0040b840 L7 [ENG1:2 ENG3:1 TITLE:0] void FUN_0040b840(void) |  |  | DAT_00a8e71c,DAT_00a8e728,DAT_00a8e734,DAT_00a8e770,DAT_00a8
+0x1a0 0x0040b4b0 L7 [ENG1:2 ENG3:2 TITLE:1] void FUN_0040b4b0(void) |  |  | DAT_00a8e740,DAT_00a8e742,DAT_00a8e744,DAT_00a8e746,DAT_00a8
+0x1a4 0x0040b740 L19 [ENG3:1] void FUN_0040b740(void) |  |  | DAT_00a8e708,DAT_00a8e70e,DAT_00a8e714,DAT_00a8e71c,DAT_00a8
+0x1a8 0x0040b920 L12 [ENG1:16 ENG3:11 TITLE:5] void FUN_0040b920(void) |  |  | DAT_00a8e71c,DAT_00a8e728,DAT_00a8e734,DAT_00a8e740,DAT_00a8
+0x1ac 0x0040b320 L34 [ENG1:1 ENG3:1 TITLE:1] void FUN_0040b320(void) |  |  | DAT_00a8e70e,DAT_00a8e71c,DAT_00a8e74c,DAT_00a8e750,DAT_00a8
+0x1b0 0x0040b880 L10 [ENG1:6 ENG3:5 TITLE:2] void FUN_0040b880(undefined4 *param_1) |  |  | DAT_00a8e76c
+0x1b4 0x0040b8f0 L7 [ENG1:5 ENG3:3] void FUN_0040b8f0(int param_1) |  |  | DAT_00a8e770,DAT_00a8e774,DAT_00a8e778
+0x1b8 0x0040b8c0 L9 [ENG1:6 ENG3:4 TITLE:4] void FUN_0040b8c0(undefined4 *param_1) |  |  | DAT_00a8e770,DAT_00a8e774,DAT_00a8e778
+0x1bc 0x0040b2f0 L7 [ENG1:3 ENG3:2 TITLE:2] void FUN_0040b2f0(undefined4 *param_1) |  |  | DAT_00a8e71c,DAT_00a8e728,DAT_00a8e734
+0x1c0 0x0040b4a0 L5 [ENG1:2 ENG3:2 TITLE:1] void FUN_0040b4a0(undefined4 *param_1) |  |  | DAT_00a8e758
+0x1c4 0x0040b810 L7 [ENG1:1 ENG3:1] void FUN_0040b810(undefined2 *param_1) |  |  | DAT_00a8e71c,DAT_00a8e728,DAT_00a8e734
+0x1c8 0x0040b720 L6 [ENG1:16 ENG3:12 TITLE:6] void FUN_0040b720(undefined2 *param_1) |  |  | DAT_00a8e740,DAT_00a8e746
+0x1d4 0x0040b5c0 L10 [ENG1:2 ENG3:2 TITLE:1] void FUN_0040b5c0(int param_1) |  |  | DAT_00a8e740,DAT_00a8e742,DAT_00a8e744,DAT_00a8e746,DAT_00a8
+0x1d8 0x0040b570 L10 [ENG1:1 ENG3:1 TITLE:1] void FUN_0040b570(int param_1) |  |  | DAT_00a8e740,DAT_00a8e742,DAT_00a8e744,DAT_00a8e746,DAT_00a8
+0x1dc 0x0040b660 L10 [ENG1:1 ENG3:1] void FUN_0040b660(int param_1) |  |  | DAT_00a8e740,DAT_00a8e742,DAT_00a8e744,DAT_00a8e746,DAT_00a8
+0x1e0 0x0040b310 L5 [ENG1:2 ENG3:2 TITLE:1] void FUN_0040b310(undefined4 *param_1) |  |  | DAT_00a8e734
+0x1e4 0x0040b870 L5 [ENG1:4 ENG3:6 TITLE:3] void FUN_0040b870(undefined2 *param_1) |  |  | DAT_00a8e734
+0x1e8 0x0040a3a0 L4 [ENG1:3 ENG3:2] uint FUN_0040a3a0(int param_1,int param_2) |  |  | 
+0x1f4 0x0040a3f0 L14 [ENG3:1 TITLE:4] uint FUN_0040a3f0(uint param_1,uint param_2,int param_3,uint |  |  | 
+0x1f8 0x0040be30 L4 [ENG1:1 ENG3:1 TITLE:1] void FUN_0040be30(void) |  |  | 
+0x204 0x0040a710 L93 [ENG1:6 ENG3:6 TITLE:4] void FUN_0040a710(short *param_1,undefined4 *param_2) |  |  | DAT_0096e6e0
+0x208 0x0040a640 L24 [TITLE:1] uint FUN_0040a640(undefined4 param_1,uint param_2,uint param |  |  | 
+0x20c 0x0040a8f0 L104 [ENG1:1 ENG3:1 TITLE:1] undefined4 FUN_0040a8f0(short *param_1,uint param_2,uint par |  |  | DAT_0096e6e0
+0x210 0x0040bce0 L4 [TITLE:1] undefined4 FUN_0040bce0(undefined4 param_1) |  |  | 
+0x224 0x00404b50 L16 [TITLE:0] uint FUN_00404b50(uint param_1) |  |  | DAT_00615c90,DAT_00b9e85c,DAT_00b9e870
+0x22c 0x0040f3d0 L141 [TITLE:0] void FUN_0040f3d0(int **param_1) | CONCAT22,FS_Close,FS_Open,FS_Read,RT_FatalError | s_PC_CreateSFX_1__0043a500,s_m__language_sonix_pc__ld_esf_0043a510 | DAT_00435fe4,DAT_00a98a18,DAT_00a98ed8,DAT_00a99838,DAT_00a9
+0x230 0x0040f710 L21 [TITLE:0] void FUN_0040f710(uint param_1) |  |  | DAT_00b99908,DAT_00b9e450
+0x234 0x00405750 L5 [TITLE:0] void FUN_00405750(undefined4 param_1) |  |  | DAT_0091c450
+0x238 0x004104d0 L13 [TITLE:0] void FUN_004104d0(void) | SendNotifyMessageA |  | DAT_00ba0200,DAT_00ba023c
+0x23c 0x004070c0 L26 [ENG1:1 ENG3:1 TITLE:1] void FUN_004070c0(char param_1) | CONCAT31 |  | DAT_00436a0c,DAT_0091c488,DAT_00ba01f0,DAT_00ba0210,DAT_00ba
+0x240 0x00404b10 L12 [TITLE:0] void FUN_00404b10(int param_1,int param_2) |  |  | DAT_00b9e85c
+0x244 0x00405760 L229 [ENG1:1 ENG3:1 TITLE:0] void FUN_00405760(undefined4 param_1,int param_2) | FS_Close,FS_Open,FS_Read,FS_Seek | s_o__cyclops_map_psx_bin_0043666c,s_o__forest_map_psx_bin_0043672c,s_o__gauntlet | DAT_00435fe4,DAT_00436668
+0x248 0x00404bc0 L9 [TITLE:0] void FUN_00404bc0(int param_1) |  |  | DAT_00b9e860,DAT_00b9e864
+0x24c 0x00407f10 L11 [ENG1:1 ENG3:1 TITLE:1] void FUN_00407f10(int param_1,int param_2) |  |  | DAT_0096e5d0
+0x250 0x00405450 L137 [TITLE:1] int FUN_00405450(undefined4 param_1,undefined4 param_2) | DispatchMessageA,PeekMessageA,PostMessageA,TranslateMessage,WaitMessage | s_e__data__d_etv_00436658 | DAT_0043a590,DAT_0091c44c,DAT_00b9e440,DAT_00b9e866,DAT_00ba
+0x258 0x0040bcf0 L14 [ENG1:1 ENG3:1 TITLE:1] void FUN_0040bcf0(void) |  |  | DAT_00a8e78c
+0x260 0x0040a350 L14 [ENG1:1 ENG3:1] undefined4 FUN_0040a350(int param_1) | FS_Close |  | DAT_0096e638,DAT_0096e63c
+0x270 0x0040a210 L23 [ENG1:1 ENG3:1] int FUN_0040a210(undefined4 param_1,int param_2) | FS_Open,RT_FatalError | s_PCopen_1__0043745c,s_PCopen_2__00437450 | DAT_00435fe4,DAT_0096e638,DAT_0096e640
+0x274 0x0040a2f0 L8 [ENG1:1 ENG3:1] void FUN_0040a2f0(int param_1,undefined4 param_2,undefined4  | FS_Read,RT_FatalError | s_PCread_1__00437474 | DAT_0096e638,DAT_0096e63c
+0x27c 0x0040a340 L4 [ENG1:1 ENG3:1 TITLE:1] undefined4 FUN_0040a340(void) |  |  | 
+0x280 0x0040a4a0 L12 [ENG1:1 ENG3:1 TITLE:1] undefined4 FUN_0040a4a0(undefined4 *param_1) |  |  | DAT_0096e680
+0x284 0x0040bdf0 L7 [TITLE:1] void FUN_0040bdf0(void) |  |  | DAT_00a8e780,DAT_00a8e784,DAT_00a8e788
+0x28c 0x0040b9e0 L28 [ENG1:1] void FUN_0040b9e0(short *param_1,undefined2 *param_2) |  |  | 
+0x290 0x0040bb00 L28 [ENG1:5 ENG3:4 TITLE:1] void FUN_0040bb00(short *param_1,undefined2 *param_2) |  |  | 
+0x294 0x0040bc30 L13 [ENG1:5 ENG3:4 TITLE:1] void FUN_0040bc30(short *param_1,int *param_2) |  |  | 
+0x298 0x0040a340 L4 [TITLE:1] undefined4 FUN_0040a340(void) |  |  | 
+0x29c 0x0040a340 L4 [TITLE:1] undefined4 FUN_0040a340(void) |  |  | 
+0x2a0 0x0040be30 L4 [TITLE:1] void FUN_0040be30(void) |  |  | 
+0x2a4 0x0040a5f0 L7 [ENG1:2 ENG3:2] void FUN_0040a5f0(int param_1,undefined4 *param_2) |  |  | 
+0x2ac 0x0040a540 L8 [ENG1:3 ENG3:3] void FUN_0040a540(int param_1,undefined4 param_2,undefined4  |  |  | 
+0x2b0 0x0040a610 L9 [ENG1:1 ENG3:1] void FUN_0040a610(int param_1,undefined4 *param_2,undefined2 |  |  | 
+0x2b4 0x0040a4c0 L18 [TITLE:3] void FUN_0040a4c0(int param_1,int param_2,int param_3,uint p |  |  | 
+0x2b8 0x0040b970 L6 [ENG1:1 ENG3:1 TITLE:1] void FUN_0040b970(undefined4 param_1,undefined4 param_2) |  |  | DAT_00a8e74c,DAT_00a8e750
+0x2bc 0x0040b990 L5 [ENG1:1 ENG3:1 TITLE:1] void FUN_0040b990(undefined4 param_1) |  |  | DAT_00a8e754
+0x2c8 0x0040a570 L5 [TITLE:1] void FUN_0040a570(int param_1) |  |  | 
+0x2cc 0x0040a580 L5 [ENG1:1 ENG3:1] void FUN_0040a580(int param_1) |  |  | 
+0x2d0 0x0040a590 L5 [ENG1:1] void FUN_0040a590(int param_1) |  |  | 
+0x2e0 0x0040a5d0 L5 [TITLE:1] void FUN_0040a5d0(int param_1) |  |  | 
+0x2e8 0x0040a480 L9 [ENG1:1] void FUN_0040a480(int param_1,int param_2) |  |  | 
+0x2ec 0x0040a340 L4 [ENG1:1 ENG3:1 TITLE:1] undefined4 FUN_0040a340(void) |  |  | 
+0x300 0x0040c0f0 L5 [ENG1:1 ENG3:1 TITLE:0] void FUN_0040c0f0(undefined4 param_1) |  |  | 
+0x310 0x0040c0e0 L5 [ENG1:1 ENG3:1 TITLE:0] void FUN_0040c0e0(undefined4 param_1,undefined4 *param_2) |  |  | 
+0x324 0x0040be30 L4 [ENG1:1 ENG3:1] void FUN_0040be30(void) |  |  | 
+0x330 0x0040be30 L4 [ENG1:1 ENG3:1 TITLE:0] void FUN_0040be30(void) |  |  | 
+0x35c 0x0040c200 L6 [ENG1:1 ENG3:1 TITLE:0] void FUN_0040c200(undefined2 param_1,undefined2 param_2) |  |  | DAT_0043a480,DAT_0043a484
+0x368 0x0040c220 L5 [ENG1:1 ENG3:1] void FUN_0040c220(int param_1) |  |  | DAT_00a8e910
+0x36c 0x0040be30 L4 [ENG1:1 ENG3:1] void FUN_0040be30(void) |  |  | 
+0x370 0x0040be30 L4 [ENG1:2 ENG3:1 TITLE:0] void FUN_0040be30(void) |  |  | 
+0x374 0x0040c1c0 L10 [ENG1:1 ENG3:1 TITLE:0] uint FUN_0040c1c0(short param_1,undefined2 *param_2,undefine |  |  | DAT_00a8e7d0,DAT_00a8e830
+0x378 0x0040be60 L13 [ENG1:1] uint FUN_0040be60(short param_1,short param_2,undefined4 *pa | CONCAT22 |  | DAT_00a8e790
+0x37c 0x0040bec0 L15 [ENG1:1] int FUN_0040bec0(short param_1,short param_2,undefined4 para | CONCAT22 |  | DAT_00a8e790
+0x380 0x0040a340 L4 [ENG1:1] undefined4 FUN_0040a340(void) |  |  | 
+0x384 0x0040c140 L6 [ENG1:6 ENG3:6 TITLE:3] uint FUN_0040c140(undefined4 param_1) |  |  | 
+0x388 0x0040bf20 L26 [ENG1:2 ENG3:2 TITLE:1] uint FUN_0040bf20(short param_1,short param_2) |  |  | DAT_00a8e790
+0x390 0x0040c160 L15 [ENG1:1 ENG3:1 TITLE:0] uint FUN_0040c160(undefined4 param_1,short param_2,short par | CONCAT22 |  | DAT_0043a480,DAT_0043a484,DAT_00a8e7d0,DAT_00a8e830
+0x39c 0x0040bfe0 L16 [ENG1:1] void FUN_0040bfe0(short param_1) |  |  | DAT_00a8e790
+0x3a0 0x0040c040 L18 [ENG1:1] short FUN_0040c040(undefined4 param_1,short param_2) |  |  | DAT_00a8e790
+0x3a4 0x0040c090 L21 [ENG1:1] undefined4 FUN_0040c090(undefined4 param_1,short param_2) | CONCAT22 |  | DAT_00a8e790
+0x3a8 0x0040c240 L4 [ENG1:1] undefined2 FUN_0040c240(void) |  |  | 
+0x3d8 0x0040a340 L4 [TITLE:4] undefined4 FUN_0040a340(void) |  |  | 
+0x3e0 0x0040ac10 L7 [ENG1:5 ENG3:4 TITLE:4] int FUN_0040ac10(void) |  |  | DAT_00a8e700
+0x3e4 0x0040bdd0 L7 [ENG1:4 ENG3:4 TITLE:2] undefined4 FUN_0040bdd0(undefined4 param_1) |  |  | DAT_00a8e784
