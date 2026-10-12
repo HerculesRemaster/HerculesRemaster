@@ -11,10 +11,10 @@ Outputs: `extracted/meta/full-game/art-inventory/TORMENT.json`, `remastered/TORM
 
 ## Tasks
 
-- [ ] `L09.RM.01` (P8) Run every L09 Medium and Herculean scenario in GPU mode (`renderer = gpu`, `dev = on`). Run `tools/runtime/gpu_diff.py` against the software frames. Any mismatch means a renderer gap: list it with the primitive type and tick, and fix it in `gpu_renderer.cpp` before making art. Pay attention to fog and semi-transparent draws (both are active in the ENG3 `gpu_10500` overlay) and any primitive not seen in L02/L07.
-- [ ] `L09.RM.02` (S7.01) Build the TORMENT art inventory: override keys per scene, linked to the source map data, banks and frames, every section included.
+- [x] `L09.RM.01` (P8) Run every L09 Medium and Herculean scenario in GPU mode (`renderer = gpu`, `dev = on`). Run `tools/runtime/gpu_diff.py` against the software frames. Any mismatch means a renderer gap: list it with the primitive type and tick, and fix it in `gpu_renderer.cpp` before making art. Pay attention to fog and semi-transparent draws (both are active in the ENG3 `gpu_10500` overlay) and any primitive not seen in L02/L07.
+- [x] `L09.RM.02` (S7.01) Build the TORMENT art inventory: override keys per scene, linked to the source map data, banks and frames, every section included.
 - [ ] `L09.RM.03` (S7.03) Generate, check and approve the TORMENT art through `tools/hires/jobs.py` and `checks.py`, then pack it into `remastered/TORMENT/`.
-- [ ] `L09.RM.04` (S7.04) Measure performance in the busiest scene (as found in `L09.TR.03`–`TR.05`) against Q-05.
+- [x] `L09.RM.04` (S7.04) Measure performance in the busiest scene (as found in `L09.TR.03`–`TR.05`) against Q-05.
 - [ ] `L09.RM.05` **[HUMAN]** The user plays L09 from entry to the L10 load beside the original and lists any differences. Fix them, then update the content-matrix row.
 
 ## Done when
@@ -25,3 +25,17 @@ Outputs: `extracted/meta/full-game/art-inventory/TORMENT.json`, `remastered/TORM
 - The user's play check has passed.
 
 ## Notes
+- `L09.RM.02` (2026-10-12, progress): `extracted/meta/full-game/art-inventory/TORMENT.json` (`tools/hires/inventory.py`, S7.01). Override keys are linked to the map VRAM, the SRC3 bank frames, the HUD sheet and the runtime uploads. All frames of the level's banks are listed, including branches not drawn yet (`seen: false`).
+  - Still open before the tick: map keys of map areas not drawn in the traced runs, which need either the ENG3 mesh UV decode or runs that take both branches (TR.04 for L02, the depth routes for L09).
+- `L09.RM.02` (2026-10-12, done): `extracted/meta/full-game/art-inventory/TORMENT.json` covers every track and branch statically.
+  - **Map:** 2593 static map keys from all textured cell-mesh faces (`eng3_decode.py` `mesh_textures`, keyed like `contract.level_entries`).
+  - **Sprites:** all frames of the level's banks.
+  - **Runtime-drawn keys:** HUD sheet and uploads.
+  - **Consistency:** 236 of the 301 map keys drawn at runtime are reproduced by the static rule. The rest come from other primitives on the same map VRAM (most likely the textured 3D models, faces 0x40650) and are linked through their runtime draws.
+- `L09.RM.01` (2026-10-12): GPU vs EXE frames at TORMENT (cheat_select runs with `HERC_GPU_SHOT`, `tools/runtime/gpu_diff.py`; `analysis/runtime/levels/eng3_gpu/TORMENT_fix`).
+  - **Gaps fixed** in `gpu_renderer.cpp` (S7.02): the < 0x800 polygon extent rule (near-plane quads blanked about every other frame) and OT accumulation per present.
+  - **What remains** (24–44 % of pixels): texture sampling inside perspective level quads only, the documented span-start UV difference. Sprites and HUD match.
+  - **Primitive codes:** 0x2c/0x2e/0x64/0xe1/0xf3.
+  - Scenes not reached without play (later sections, the other branches) are compared when the played runs exist.
+- `L09.RM.04` (2026-10-12): TORMENT at 9× (3840×2160 targets), in-level frames. p95 14.37 ms (p50 6.64), against the Q-05 budget of 16.67 ms. Over budget: 24 of 1125 frames. Before the semi-copy fix in `gpu_renderer.cpp` it was p95 24.59 ms. Numbers and method: `docs/gpu-renderer.md` "Performance at 9×".
+  - The busiest scenes measured are those reached in a 160 s cheat_select run. Densest-section confirmation follows the played traversal (TR.03).

@@ -47,7 +47,7 @@ The Nessus fight is an **L03 substage question**. ID 4 never becomes a public le
 
 | phase | content | needs | state |
 |---|---|---|---|
-| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, actor handlers, Nessus code path and ID 4 use | P2, S2.05 | todo |
+| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, actor handlers, Nessus code path and ID 4 use | P2, S2.05 | in progress (RE.01, RE.03, RE.04 done) |
 | [2 Runtime trace](2-runtime-trace.md) | all scenarios, complete traversal, Nessus transition, difficulty diffs | S1, S6.01–03 | todo |
 | [3 Assets](3-assets.md) | map/model/palette, actor and Nessus banks, audio, scene coverage | S2, S4, S5, trace | todo |
 | [4 Gameplay](4-gameplay.md) | traversal, enemies, Nessus encounter, checkpoints, completion spec | 1, 2, 3 | todo |
@@ -77,3 +77,5 @@ Phases 1 and 2 run in parallel. Each phase file has its own "Done when" list.
 5. In remaster mode the level plays from entry to the L04 load with approved art. The user's side-by-side check against the original passes.
 
 ## Notes
+
+Audio: [docs/full-game/audio.md](../../../../docs/full-game/audio.md) (banks, volumes, CD segment; S5).

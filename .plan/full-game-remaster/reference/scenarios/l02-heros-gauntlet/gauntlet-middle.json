@@ -135,21 +135,74 @@
     "unknown_differences": "Remain pending; do not assume equality."
   },
   "evidence": {
-    "status": "PLANNED",
+    "status": "PARTIAL",
     "reference_status": "INFERRED",
     "source_ids": [
       "build-static-map"
     ],
     "source_locator": "Discovery target; exact route/phase not yet observed",
-    "runs": [],
+    "runs": [
+      {
+        "run_id": "20261012-085034-cheat_select-medium",
+        "path": "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-085034-cheat_select-medium",
+        "entry": "cheat_select",
+        "debug_only": false,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 5270
+        }
+      },
+      {
+        "run_id": "20261012-090214-cheat_select-medium",
+        "path": "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-090214-cheat_select-medium",
+        "entry": "cheat_select",
+        "debug_only": false,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 5273
+        }
+      },
+      {
+        "run_id": "20261012-092326-cheat_select-medium",
+        "path": "analysis/traces/full-game/l02-heros-gauntlet/gauntlet-middle/20261012-092326-cheat_select-medium",
+        "entry": "cheat_select",
+        "debug_only": false,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 5122
+        }
+      }
+    ],
     "captures": [],
-    "trace_intervals": [],
+    "trace_intervals": [
+      {
+        "run_id": "20261012-085034-cheat_select-medium",
+        "level_load_tick": 3576,
+        "last_tick": 5270,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      },
+      {
+        "run_id": "20261012-090214-cheat_select-medium",
+        "level_load_tick": 3576,
+        "last_tick": 5273,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      },
+      {
+        "run_id": "20261012-092326-cheat_select-medium",
+        "level_load_tick": 3576,
+        "last_tick": 5122,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      }
+    ],
     "asset_associations": [],
     "gameplay_specifications": []
   },
   "coverage": {
     "capture": "PENDING",
-    "trace": "PENDING",
+    "trace": "PARTIAL",
     "asset_extraction": "PENDING",
     "gameplay_specification": "PENDING"
   },

@@ -31,10 +31,10 @@ Outputs:
   - audio timestamp origin
   - whether CD audio is absent
 - [x] `S1.05` (P3.ALL.05) Record polled pad bits per tick (`RT_PollJoystick` EXE 0x7c50, keyboard 0x7f30) to `input.jsonl`, and make replay deterministic for the same start state. Note any RNG source found (an S6 dependency).
-- [ ] `S1.06` (P3.ALL.06) Extend the hooks with checkpoint, spawn/despawn, sequence/frame and palette change events, plus draw/play consumers. The ENG1 hooks extend the existing 0x3cd0 frame hook. The ENG3 equivalents come from S3.
-- [ ] `S1.07` (P3.ALL.11) Reset `collect_pairs.py` caps at scene boundaries so later-level evidence isn't suppressed by the title-load caps. Pairs must record dimensions/stride/format/palette.
-- [ ] `S1.08` (P3.ALL.12) Write a coverage updater, `tools/trace/update_coverage.py`. It writes run paths and tick ranges into scenario JSON and `coverage.{md,json}`, and each dimension (capture/trace/assets/spec) stays separate.
-- [ ] `S1.09` Write `docs/full-game/runtime-launch.md`: how to run a scenario, entry methods, env flags, and where outputs land.
+- [x] `S1.06` (P3.ALL.06) Extend the hooks with checkpoint, spawn/despawn, sequence/frame and palette change events, plus draw/play consumers. The ENG1 hooks extend the existing 0x3cd0 frame hook. The ENG3 equivalents come from S3.
+- [x] `S1.07` (P3.ALL.11) Reset `collect_pairs.py` caps at scene boundaries so later-level evidence isn't suppressed by the title-load caps. Pairs must record dimensions/stride/format/palette.
+- [x] `S1.08` (P3.ALL.12) Write a coverage updater, `tools/trace/update_coverage.py`. It writes run paths and tick ranges into scenario JSON and `coverage.{md,json}`, and each dimension (capture/trace/assets/spec) stays separate.
+- [x] `S1.09` Write `docs/full-game/runtime-launch.md`: how to run a scenario, entry methods, env flags, and where outputs land.
 
 ## Done when
 
@@ -51,4 +51,10 @@ Outputs:
   - Incident: one preset run let the game save its options (EXE 0x4da0 copies gs+0xe back and calls RegSetValueEx) and changed the saved difficulty 0 → 1. The original value was restored and traced runs now never save (0x4da0 → ret unless `HERC_HOOK_KEEPCONFIG=1`).
   - `input.jsonl` = pad bits after `RT_PollInput` (~u16 at *(0xa8e78c)+2) per change. RNG: gs+0x48/+0x4c are reset to fixed seeds by `FUN_00401ff0`. A replay of `traversal/20261012-052007-new_game-medium` gave identical anim/state/level events (1,260 events) in `traversal/20261012-052101-replay-medium`.
   - Baseline: `title-demo-baseline/20261012-052154-attract-config` reproduces the demo90 load at tick 1133/1134.
+- `S1.06`–`S1.09` (2026-10-12):
+  - Events: `state` (identity bytes, health, config), `spawn`/`despawn` (ENG1 0x27db0/0x27260; the hero spawns at start 0, 1214/780), `palette` (palette hash + brightness), plus the existing `anim`/`sfx_play`. ENG3 equivalents: S3.
+  - Pair caps reset at every module/level load; folders `s<scene>_esf_*`/`s<scene>_vram_*` with tick/scene/level/palette hash; `collect_pairs.py --out` verified 12/12 in `title-demo-baseline/20261012-053058-attract-config`.
+  - `tools/trace/update_coverage.py` writes runs/trace intervals into the scenario JSON and coverage.{json,md} (trace PARTIAL for L01.traversal).
+  - Doc `docs/full-game/runtime-launch.md`.
+- Done-when check: baseline + `L01.traversal` (new_game and replay) end to end; identity events in ENG1 (L01) and ENG3 (L02 attract demo, `analysis/traces/runs/s102_attract`); coverage updater wrote rows. S1 done.
 

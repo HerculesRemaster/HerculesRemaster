@@ -6,7 +6,7 @@ Outputs: `analysis/traces/full-game/l05-hydra-canyon/<scenario>/<run-id>/`, `ref
 
 ## Tasks
 
-- [ ] `L05.TR.01` (P3.ALL.04) Entry. The canonical entry is the linked Medium progression from L04. For repeated fights, use an S6-verified password or a replay checkpoint. There is no HYDRA demo, so the first replayable start comes from a recorded input run (S1.05). Record entry method, start index and initial state in `run.json`.
+- [x] `L05.TR.01` (P3.ALL.04) Entry. The canonical entry is the linked Medium progression from L04. For repeated fights, use an S6-verified password or a replay checkpoint. There is no HYDRA demo, so the first replayable start comes from a recorded input run (S1.05). Record entry method, start index and initial state in `run.json`.
 - [ ] `L05.TR.02` (P3.ALL.08) `canyon-entry`. Record the map opens (541/517), every bank/model/sound load, the two kind-0x31 spawn events and what they create, the first controllable frame and the music start. Take a runtime VRAM dump after load for S2.03 (3,156 B overrun).
 - [ ] `L05.TR.03` (P3.ALL.08) `hydra-attacks`. Capture every observed attack cycle: telegraph, active window, hit box, damage dealt to the hero. Log the Hydra state fields recovered in `L05.RE.03` per tick.
 - [ ] `L05.TR.04` (P3.ALL.08) `hydra-damage-phases`. Apply damage using the observed mechanics. Log per tick the Hydra health, head/part fields and state, and any new resource or attack sequence. Split phases into new scenario files only when the observed state changes. The phase count stays null until it is observed.
@@ -24,3 +24,10 @@ Outputs: `analysis/traces/full-game/l05-hydra-canyon/<scenario>/<run-id>/`, `ref
 - The difficulty comparisons are recorded.
 
 ## Notes
+- `L05.TR.01` done (2026-10-12): run `analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium`, S6-verified password table index 17 (HYDRA Medium; `tools/trace/level_entry_sweep.ps1`, hero log, art_dump on → `art_index.csv` with 5488 new block keys).
+  - Map 541 opens at tick 2105. Initial state: level 6, start 0, lives 4, health 128, difficulty 1, mode 5 → 0 after 15 ticks.
+  - Hero first at (2208, 992, 128), last at (2176, 992, 128) (idle).
+  - Audio: AUD_LoadLevelSonix(268798064, 268567475) at 2105, AUD_StartMusic(0, 0) at 2105.
+  - Idle deaths: none in 90 s.
+  - The canonical linked-progression entry is S6.08 (gamehercules-40).
+

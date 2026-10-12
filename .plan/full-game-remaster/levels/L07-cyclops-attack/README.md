@@ -85,3 +85,5 @@ Phases 1 and 2 run in parallel. Each phase file has its own "Done when" list.
 7. In remaster mode the level plays from entry to the L08 load with approved art. The user's side-by-side check against the original passes.
 
 ## Notes
+
+Audio: [docs/full-game/audio.md](../../../../docs/full-game/audio.md) (banks, volumes, CD segment; S5).

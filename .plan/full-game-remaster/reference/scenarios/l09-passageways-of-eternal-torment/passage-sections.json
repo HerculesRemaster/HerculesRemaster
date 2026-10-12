@@ -135,22 +135,109 @@
     "unknown_differences": "Remain pending; do not assume equality."
   },
   "evidence": {
-    "status": "PLANNED",
+    "status": "PARTIAL",
     "reference_status": "REFERENCED",
     "source_ids": [
       "windows-manual",
       "build-static-map"
     ],
     "source_locator": "The World of Hercules / How to Play / relevant named level",
-    "runs": [],
+    "runs": [
+      {
+        "run_id": "20261012-085629-cheat_select-medium",
+        "path": "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-085629-cheat_select-medium",
+        "entry": "cheat_select",
+        "debug_only": false,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 5276
+        }
+      },
+      {
+        "run_id": "20261012-092619-cheat_select-medium",
+        "path": "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-092619-cheat_select-medium",
+        "entry": "cheat_select",
+        "debug_only": false,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 5125
+        }
+      },
+      {
+        "run_id": "20261012-093522-cheat_select-medium",
+        "path": "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093522-cheat_select-medium",
+        "entry": "cheat_select",
+        "debug_only": false,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 4822
+        }
+      },
+      {
+        "run_id": "20261012-093843-cheat_select-medium",
+        "path": "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-093843-cheat_select-medium",
+        "entry": "cheat_select",
+        "debug_only": false,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 5122
+        }
+      },
+      {
+        "run_id": "20261012-094155-cheat_select-medium",
+        "path": "analysis/traces/full-game/l09-passageways-of-eternal-torment/passage-sections/20261012-094155-cheat_select-medium",
+        "entry": "cheat_select",
+        "debug_only": false,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 5122
+        }
+      }
+    ],
     "captures": [],
-    "trace_intervals": [],
+    "trace_intervals": [
+      {
+        "run_id": "20261012-085629-cheat_select-medium",
+        "level_load_tick": 3996,
+        "last_tick": 5276,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      },
+      {
+        "run_id": "20261012-092619-cheat_select-medium",
+        "level_load_tick": 3996,
+        "last_tick": 5125,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      },
+      {
+        "run_id": "20261012-093522-cheat_select-medium",
+        "level_load_tick": 3996,
+        "last_tick": 4822,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      },
+      {
+        "run_id": "20261012-093843-cheat_select-medium",
+        "level_load_tick": 3996,
+        "last_tick": 5122,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      },
+      {
+        "run_id": "20261012-094155-cheat_select-medium",
+        "level_load_tick": 3996,
+        "last_tick": 5122,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      }
+    ],
     "asset_associations": [],
     "gameplay_specifications": []
   },
   "coverage": {
     "capture": "PENDING",
-    "trace": "PENDING",
+    "trace": "PARTIAL",
     "asset_extraction": "PENDING",
     "gameplay_specification": "PENDING"
   },

@@ -48,7 +48,7 @@ The flight model is shared engine knowledge only for this level; it is written o
 
 | phase | content | needs | state |
 |---|---|---|---|
-| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, flight mode and input, Titan and god handlers, completion and Beginner branch | P2, S2.05 | todo |
+| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, flight mode and input, Titan and god handlers, completion and Beginner branch | P2, S2.05 | in progress (RE.01 done) |
 | [2 Runtime trace](2-runtime-trace.md) | all scenarios, complete flight traversal, transitions, Beginner endpoint, difficulty diffs | S1, S6.01–03 | todo |
 | [3 Assets](3-assets.md) | map/models/palette, Pegasus/Titan/god banks, audio, transition screens, scene coverage | S2, S4, S5, trace | todo |
 | [4 Gameplay](4-gameplay.md) | flight spec, Titans, rescues, checkpoints, completion spec | 1, 2, 3 | todo |
@@ -78,3 +78,5 @@ Phases 1 and 2 run in parallel. Each phase file has its own "Done when" list.
 6. In remaster mode the level plays from entry to the L09 load with approved art, GPU frames match software frames, and the user's side-by-side check against the original passes.
 
 ## Notes
+
+Audio: [docs/full-game/audio.md](../../../../docs/full-game/audio.md) (banks, volumes, CD segment; S5).

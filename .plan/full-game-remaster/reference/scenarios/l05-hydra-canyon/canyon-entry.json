@@ -136,22 +136,73 @@
     "unknown_differences": "Remain pending; do not assume equality."
   },
   "evidence": {
-    "status": "PLANNED",
+    "status": "PARTIAL",
     "reference_status": "REFERENCED",
     "source_ids": [
       "windows-manual",
       "build-static-map"
     ],
     "source_locator": "The World of Hercules / How to Play / relevant named level",
-    "runs": [],
-    "captures": [],
-    "trace_intervals": [],
+    "runs": [
+      {
+        "run_id": "20261012-063658-debug_level-medium",
+        "path": "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
+        "entry": "debug_level",
+        "debug_only": true,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 2999
+        }
+      },
+      {
+        "run_id": "20261012-071612-password-medium",
+        "path": "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-071612-password-medium",
+        "entry": "password",
+        "debug_only": false,
+        "difficulty_observed": 1,
+        "ticks": {
+          "first": 0,
+          "last": 2699
+        }
+      }
+    ],
+    "captures": [
+      {
+        "run_id": "20261012-063658-debug_level-medium",
+        "path": "analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium",
+        "file": "frames.bin",
+        "frames": 2995,
+        "first": {
+          "tick": 0,
+          "ms": 53.4456
+        },
+        "last": {
+          "tick": 2999,
+          "ms": 100005.7054
+        }
+      }
+    ],
+    "trace_intervals": [
+      {
+        "run_id": "20261012-063658-debug_level-medium",
+        "level_load_tick": 461,
+        "last_tick": 2999,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      },
+      {
+        "run_id": "20261012-071612-password-medium",
+        "level_load_tick": 2105,
+        "last_tick": 2699,
+        "boundaries": "level load to end of run; scene boundaries not yet checked"
+      }
+    ],
     "asset_associations": [],
     "gameplay_specifications": []
   },
   "coverage": {
     "capture": "PENDING",
-    "trace": "PENDING",
+    "trace": "PARTIAL",
     "asset_extraction": "PENDING",
     "gameplay_specification": "PENDING"
   },

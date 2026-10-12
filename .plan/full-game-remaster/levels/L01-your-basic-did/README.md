@@ -42,3 +42,5 @@ This folder is an **index**. Level 1 work already exists and stays where it is; 
 | 4K art beyond the pilot | lean P7 → [S7](../_shared/S7-remaster-integration.md) |
 
 Acceptance for L01 within the full game: every `l01-your-basic-did` scenario row reaches captured/traced/assets/spec in `coverage.md`, and the L01→L02 transition is part of the S6 linked Medium run.
+
+Audio: [docs/full-game/audio.md](../../../../docs/full-game/audio.md) (banks, volumes, CD segment; S5).

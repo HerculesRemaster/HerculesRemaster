@@ -7,7 +7,7 @@ Outputs: `analysis/traces/full-game/l02-heros-gauntlet/<scenario>/<run-id>/`, `r
 ## Tasks
 
 - [ ] `L02.TR.01` (P3.ALL.04) Entry. The canonical entry is the linked Medium progression from L01. For repeated scenes, use an S6-verified password or a replay checkpoint. Record entry method, start index and initial state in `run.json`.
-- [ ] `L02.TR.02` (P5.ALL.06) Replay DEMO2_1 under trace. Confirm the level ID (2), the start index (0 per JSON), the module (ENG3) and the map opens (557/556). Compare the load with the `gpu_10500` overlay observation. It is the first ENG3 state/timing check and the first runtime test of the S3 runner hooks.
+- [x] `L02.TR.02` (P5.ALL.06) Replay DEMO2_1 under trace. Confirm the level ID (2), the start index (0 per JSON), the module (ENG3) and the map opens (557/556). Compare the load with the `gpu_10500` overlay observation. It is the first ENG3 state/timing check and the first runtime test of the S3 runner hooks.
 - [ ] `L02.TR.03` (P3.ALL.08) `gauntlet-opening` + `gauntlet-middle` + `gauntlet-final`. Do a complete traversal and record per tick: speed, lane/position, jumps, obstacle activations, spawns/despawns, pickups and section boundaries. Refine scene boundaries from state and resource changes.
 - [ ] `L02.TR.04` (P3.ALL.08) Crossroads. Take the left and the right branch at every crossroad found by `L02.RE.03`, and record the branch-selection tick, input and the rejoin point. If a branch holds content the existing scenarios don't cover, append a scenario through the discovery workflow. No existing scenario ID changes.
 - [ ] `L02.TR.05` (P3.ALL.08) `hazards`. For each hazard type, capture one successful avoidance and one controlled hit, and log activation and collision ticks against the handler RVAs from `L02.RE.02`. Repeat the boulder and speed cases with and without the Hermes Sandals, and record one Helmet of Invincibility interval.
@@ -24,3 +24,8 @@ Outputs: `analysis/traces/full-game/l02-heros-gauntlet/<scenario>/<run-id>/`, `r
 - The difficulty comparisons are recorded.
 
 ## Notes
+- `L02.TR.02` (2026-10-12): DEMO2_1 ran twice under the ENG3 hooks in the attract run `analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config` (session 22's run), at ticks 10537→11418 and 32478→33359 (881 ticks each).
+  - **Identity:** ENG3, level 2, start 0, MAP_PSX.BIN 557 through `LVL_LoadMap`. Bank opens 499 ALIEN1, 553 XTRA_DB1, 561 HERCULES, 577 LETTERS (= level list + start-0 list).
+  - **Determinism:** the two playbacks give identical spawn/despawn sequences (349 events: tick offset, kind, x, y).
+  - **Hook coverage:** the hooked create (ENG3 0x1d670) logs the pickup-class objects (0x201b ×120, 0x2017 ×10, 0x2002 ×9, 0x2018). Actors (`LVL_SpawnActor` 0x1c9f0, pool A) appear only through anim events. An actor-spawn hook is a possible extension.
+- `L02.TR.01` (2026-10-12, progress): password 13 (Medium) entry run `analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-063901-password-config`; identity as above, difficulty 1. The canonical linked progression needs a played run.

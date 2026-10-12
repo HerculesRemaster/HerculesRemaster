@@ -45,7 +45,7 @@ The two map spawns cannot by themselves describe a multi-headed boss. The workin
 
 | phase | content | needs | state |
 |---|---|---|---|
-| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, kind 0x31 handlers, Hydra state machine, model use, arena scripts | P2, S2.01, S2.05 | todo |
+| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, kind 0x31 handlers, Hydra state machine, model use, arena scripts | P2, S2.01, S2.05 | in progress (RE.01 done) |
 | [2 Runtime trace](2-runtime-trace.md) | all scenarios, Hydra attacks/damage/defeat, retry, difficulty diffs | S1, S6.01–03 | todo |
 | [3 Assets](3-assets.md) | arena map/models/palette, Hydra bank, effects, audio, scene coverage | S2, S4, S5, trace | todo |
 | [4 Gameplay](4-gameplay.md) | arena layout, Hydra encounter, retry, completion spec | 1, 2, 3 | todo |
@@ -74,3 +74,5 @@ Phases 1 and 2 run in parallel. Each phase file has its own "Done when" list.
 6. In remaster mode the level plays from entry to the L06 load with approved art. The user's side-by-side check against the original passes.
 
 ## Notes
+
+Audio: [docs/full-game/audio.md](../../../../docs/full-game/audio.md) (banks, volumes, CD segment; S5).

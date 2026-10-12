@@ -6,7 +6,7 @@ Outputs: `analysis/traces/full-game/l10-vortex-of-souls/<scenario>/<run-id>/`, `
 
 ## Tasks
 
-- [ ] `L10.TR.01` (P3.ALL.04) Entry. The canonical entry is the linked Medium progression from L09 (an ENG3 → ENG1 module switch). For repeated scenes, use an S6-verified password or a replay checkpoint. Record entry method, start index and initial state in `run.json`.
+- [x] `L10.TR.01` (P3.ALL.04) Entry. The canonical entry is the linked Medium progression from L09 (an ENG3 → ENG1 module switch). For repeated scenes, use an S6-verified password or a replay checkpoint. Record entry method, start index and initial state in `run.json`.
 - [ ] `L10.TR.02` (P3.ALL.03) Identity and resources. On the first VORTEX load, log the level-ID global (11), the module, the map opens (518/519), the 0xdf800 header read and the stream-chunk load. Because the map has no spawns, log **every** FS open and bank load after the map load, and every object creation with its caller RVA. Take a runtime VRAM dump for S2.03 (the 13,816 B overrun). No demo exists for this level, so this run is also the first state/timing baseline.
 - [ ] `L10.TR.03` (P3.ALL.08) `vortex-entry`. Log `input.jsonl` against hero position x/y/z, velocity, state id 0x72108, active handler and frame per tick. Derive the observed movement mode and input mapping, and check them against `L10.RE.03`. Record camera behaviour.
 - [ ] `L10.TR.04` (P3.ALL.08) `souls-traversal`. Explore all reachable routes and soul interactions. Record object creation/removal, collisions, damage and scene boundaries from state and resource changes only.
@@ -26,3 +26,10 @@ Outputs: `analysis/traces/full-game/l10-vortex-of-souls/<scenario>/<run-id>/`, `
 - The ending/credits sequence is captured to the return to title; the Beginner availability result and the Herculean comparison are recorded.
 
 ## Notes
+- `L10.TR.01` done (2026-10-12): run `analysis/traces/full-game/l10-vortex-of-souls/vortex-entry/20261012-072045-password-medium`, S6-verified password table index 22 (VORTEX Medium; `tools/trace/level_entry_sweep.ps1`, hero log, art_dump on → `art_index.csv` with 6713 new block keys).
+  - Map 518 opens at tick 1874. Initial state: level 11, start 0, lives 4, health 128, difficulty 1, mode 5 → 0 after 15 ticks.
+  - Hero first at (309, 800, 128), last at (309, 800, 128) (idle).
+  - Audio: AUD_LoadLevelSonix(268874088, 268567475) at 1874, AUD_StartMusic(0, 0) at 1874.
+  - Idle deaths: health 0 at 2137 (lives → 3); health 0 at 2585 (lives → 2).
+  - The canonical linked-progression entry is S6.08 (gamehercules-40).
+

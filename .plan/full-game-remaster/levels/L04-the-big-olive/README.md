@@ -48,7 +48,7 @@ The second part is an **L04 substage question**. It never becomes a public level
 
 | phase | content | needs | state |
 |---|---|---|---|
-| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, start-point table, actor handlers, rescue/destruction scripts, substage code path | P2, S2.05 | todo |
+| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, start-point table, actor handlers, rescue/destruction scripts, substage code path | P2, S2.05 | in progress (RE.01 done) |
 | [2 Runtime trace](2-runtime-trace.md) | all scenarios, demo replays, complete traversal, substage boundary, difficulty diffs | S1, S6.01–03 | todo |
 | [3 Assets](3-assets.md) | map/palette, Thebian/enemy banks, effects, audio, scene coverage | S2, S4, S5, trace | todo |
 | [4 Gameplay](4-gameplay.md) | streets/stairs, enemies, rescues, destruction, substage, checkpoints, completion spec | 1, 2, 3 | todo |
@@ -78,3 +78,5 @@ Phases 1 and 2 run in parallel. Each phase file has its own "Done when" list.
 5. In remaster mode the level plays from entry to the L05 load with approved art. The user's side-by-side check against the original passes.
 
 ## Notes
+
+Audio: [docs/full-game/audio.md](../../../../docs/full-game/audio.md) (banks, volumes, CD segment; S5).

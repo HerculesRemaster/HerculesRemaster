@@ -46,7 +46,7 @@ The plan covers the following, from first entry to the next-level load:
 
 | phase | content | needs | state |
 |---|---|---|---|
-| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, kind 0x0 handlers, skeletons, Medusa state machine, reflection mechanic | P2, S2.01, S2.05 | todo |
+| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, kind 0x0 handlers, skeletons, Medusa state machine, reflection mechanic | P2, S2.01, S2.05 | in progress (RE.01 done) |
 | [2 Runtime trace](2-runtime-trace.md) | all scenarios, gaze/projectiles, reflection defeat, retry, difficulty diffs, L07 hand-off | S1, S6.01–03 | todo |
 | [3 Assets](3-assets.md) | lair map/models/palette, Medusa and skeleton banks, effects, audio, scene coverage | S2, S4, S5, trace | todo |
 | [4 Gameplay](4-gameplay.md) | lair layout, skeletons, Medusa encounter, retry, completion spec | 1, 2, 3 | todo |
@@ -76,3 +76,5 @@ Phases 1 and 2 run in parallel. Each phase file has its own "Done when" list.
 7. In remaster mode the level plays from entry to the L07 load with approved art. The user's side-by-side check against the original passes.
 
 ## Notes
+
+Audio: [docs/full-game/audio.md](../../../../docs/full-game/audio.md) (banks, volumes, CD segment; S5).

@@ -46,7 +46,7 @@ The plan covers the following, from first entry to the end of the credits and th
 
 | phase | content | needs | state |
 |---|---|---|---|
-| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, where the actors come from, model/effect content, final encounter, ending path | P2, S2.01, S2.05 | todo |
+| [1 Reverse engineering](1-reverse-engineering.md) | config/type table, where the actors come from, model/effect content, final encounter, ending path | P2, S2.01, S2.05 | in progress (RE.01 done) |
 | [2 Runtime trace](2-runtime-trace.md) | all scenarios, bank opens, final encounter, ending/credits, Beginner availability, Herculean diff | S1, S6.01–03 | todo |
 | [3 Assets](3-assets.md) | map/models/palette, runtime-loaded banks, audio, ending media, scene coverage | S2, S4, S5, trace | todo |
 | [4 Gameplay](4-gameplay.md) | movement mode, souls, objective, final encounter, completion/ending spec | 1, 2, 3 | todo |
@@ -76,3 +76,5 @@ Phases 1 and 2 run in parallel. Each phase file has its own "Done when" list.
 6. In remaster mode the level plays from entry through the credits with approved art, GPU frames match software frames, and the user's side-by-side check against the original passes.
 
 ## Notes
+
+Audio: [docs/full-game/audio.md](../../../../docs/full-game/audio.md) (banks, volumes, CD segment; S5).

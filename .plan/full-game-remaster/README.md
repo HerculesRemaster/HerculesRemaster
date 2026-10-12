@@ -50,9 +50,9 @@ Shared: [S1 runtime harness](levels/_shared/S1-runtime-harness.md) · [S2 ENG1 m
 | [P1](P1-archive.md) | HERCULES.FS extraction + resource catalog | P0 | done |
 | [P2](P2-binary-map.md) | Ghidra: archive reader, ID hash, DLL contract, engine loop, DirectDraw | P0, P1 | done |
 | [P2F](P2F-fullscreen.md) | **run the original fullscreen on 4K Win11 first**: own proxy `ddraw.dll`, borderless, 9× integer scale (2880×2160, pillarbox), `hercules_display.ini` | P2 | done |
-| [P3](P3-runtime-trace.md) | all ten levels/scenes, linked Medium progression, difficulty comparisons, consumer/buffer traces | P0, P1, P2, P2F | planned/deferred; inherited title/demo milestone done |
-| [P4](P4-assets.md) | all-level assets/animations/audio/effects/UI; scene associations and archive reconciliation | P1, P2, incremental P3 | planned/deferred; inherited audio/image/hero-animation milestone done |
-| [P5](P5-levels-gameplay.md) | all-level layouts/collision/scripts; enemies/bosses/chase/flight/progression | P2, incremental P3/P4 | todo |
+| [P3](P3-runtime-trace.md) | all ten levels/scenes, linked Medium progression, difficulty comparisons, consumer/buffer traces | P0, P1, P2, P2F | in progress: S1 harness done, S6.01/S6.02 done, S6.03 passwords running; runtime traces of the levels still to do |
+| [P4](P4-assets.md) | all-level assets/animations/audio/effects/UI; scene associations and archive reconciliation | P1, P2, incremental P3 | in progress: S2.01/S2.02/S2.05/S2.06 (models, tables, config, coverage), S4.01/S4.02/S4.04/S4.06 (bank index, encounters template, contact sheets) |
+| [P5](P5-levels-gameplay.md) | all-level layouts/collision/scripts; enemies/bosses/chase/flight/progression | P2, incremental P3/P4 | in progress: checkpoints/lives/exit spec (S6.04 static), RE.01 for every ENG1 level, L03 Nessus (RE.03/RE.04) |
 | [P6](P6-runtime-slice.md) | choose runtime architecture, build a playable slice with original assets | P4, P5 | todo |
 | [P7](P7-hires.md) | 4K asset pipeline + approved pilot | P4, P5, P6 | todo |
 | [P8](P8-expand-package.md) | all levels, 4K performance, packaging | P7 | todo |

@@ -6,8 +6,8 @@ Outputs: `analysis/traces/full-game/l04-the-big-olive/<scenario>/<run-id>/`, `re
 
 ## Tasks
 
-- [ ] `L04.TR.01` (P3.ALL.04) Entry. The canonical entry is the linked Medium progression from L03. For repeated scenes, use an S6-verified password or a replay checkpoint. The Part 1 and Part 2 passwords count as entry methods only after S6.03 accepts them. Record entry method, start index and initial state in `run.json`.
-- [ ] `L04.TR.02` (P5.ALL.06) Replay `DEMO5_1` and `DEMO5_2` under trace. For each, confirm the level ID (5), the start index (6 and 2 per JSON), the map opens (513/514) and the hero start position. Compare the two start positions with the start records from `L04.RE.01`. This is the first state/timing check for this level and the first substage evidence.
+- [x] `L04.TR.01` (P3.ALL.04) Entry. The canonical entry is the linked Medium progression from L03. For repeated scenes, use an S6-verified password or a replay checkpoint. The Part 1 and Part 2 passwords count as entry methods only after S6.03 accepts them. Record entry method, start index and initial state in `run.json`.
+- [x] `L04.TR.02` (P5.ALL.06) Replay `DEMO5_1` and `DEMO5_2` under trace. For each, confirm the level ID (5), the start index (6 and 2 per JSON), the map opens (513/514) and the hero start position. Compare the two start positions with the start records from `L04.RE.01`. This is the first state/timing check for this level and the first substage evidence.
 - [ ] `L04.TR.03` (P3.ALL.08) `streets` + `background-stairs`. Do a complete traversal. Record block streaming (8 blocks), layer/depth switches on the stairs, spawn/despawn events and pickups. Refine scene boundaries from state and resource changes.
 - [ ] `L04.TR.04` (P3.ALL.08) `enemy-encounters` + `rescue-events` + `destruction-secrets`. Record the actor kind and bank of each enemy (thugs, skeletons, Minotaur, harpies), every rescue attempt with success/failure and score, every destruction and debris event with the environment before and after, and the secrets found. Log every FS bank open, so ambiguous banks (RCROCK/RTROCK, MEG, PIG, SPY, MERV, ALEXFISH, PAIN, SKELWAR) are attributed by load.
 - [ ] `L04.TR.05` (P3.ALL.03) **Thebes substage boundary** (`section-transition`).
@@ -32,3 +32,15 @@ Outputs: `analysis/traces/full-game/l04-the-big-olive/<scenario>/<run-id>/`, `re
 - The difficulty comparisons are recorded.
 
 ## Notes
+- `L04.TR.02` done (2026-10-12): the same attract run (`analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064511-attract-config`).
+  - **DEMO5_1** (archive 470) at tick 16806: map 513 / CIF 514, level 5, start/restart 6, lives 3; hero at (14624, 1120, z 128) vs start record 6 (14656, 1036, z 128).
+  - **DEMO5_2** (archive 472) at tick 19940: level 5, start/restart 2; hero at (6272, 1120, z 128) vs start record 2 (6304, 1036, z 128).
+  - Both match the JSON start indices. Spawn = record x − 32, y snapped to the ground (+84).
+  - Start 6 is a demo-only record: no checkpoint 0x4010 exists in THEBES; it lies between checkpoints 4 (12481) and 5 (15703).
+- `L04.TR.01` done (2026-10-12): run `analysis/traces/full-game/l04-the-big-olive/streets/20261012-071441-password-medium`, S6-verified password table index 15 (THEBES Medium; `tools/trace/level_entry_sweep.ps1`, hero log, art_dump on → `art_index.csv` with 5394 new block keys).
+  - Map 513 opens at tick 1663. Initial state: level 5, start 0, lives 4, health 128, difficulty 1, mode 5 → 0 after 15 ticks.
+  - Hero first at (256, 1248, 0), last at (256, 1248, 0) (idle).
+  - Audio: AUD_LoadLevelSonix(268834680, 268567475) at 1663, AUD_StartMusic(0, 0) at 1663.
+  - Idle deaths: none in 90 s.
+  - The canonical linked-progression entry is S6.08 (gamehercules-40).
+
