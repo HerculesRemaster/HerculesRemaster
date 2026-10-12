@@ -1,0 +1,7112 @@
+{
+ "version": 1,
+ "jobs": {
+  "sprite/0485/f0009": {
+   "entry": "sprite/0485/f0009",
+   "identity": "8b242b4a9e442b64fc1149ed1ccf7809e78fad84291f2d80262241c1b87ea0b1",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(288, 432) want (288, 432)"
+    ],
+    [
+     "alpha",
+     true,
+     "11 logical pixels differ (2.23%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.03 px (origin [16, 34] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:59:34",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 04:59:34",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:59:34",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:00:13",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:01:48",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "8585c2bd9583fb577deb6e5b232e545c69c89d1093be651196af1fd3bf70c70a"
+  },
+  "sprite/0485/f0010": {
+   "entry": "sprite/0485/f0010",
+   "identity": "98bf80ba53e54559a107620f1df8a071347733175cc8dd723b112cecb2fd63eb",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(288, 432) want (288, 432)"
+    ],
+    [
+     "alpha",
+     true,
+     "9 logical pixels differ (1.65%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.08 px (origin [16, 32] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:59:34",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 04:59:34",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:59:34",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:00:13",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:01:48",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "8585c2bd9583fb577deb6e5b232e545c69c89d1093be651196af1fd3bf70c70a"
+  },
+  "sprite/0485/f0011": {
+   "entry": "sprite/0485/f0011",
+   "identity": "87c0b8a71d527326f17a35a2985434cc77809901bd720052fb1e953e89011002",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(288, 432) want (288, 432)"
+    ],
+    [
+     "alpha",
+     true,
+     "6 logical pixels differ (1.25%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.13 px (origin [12, 36] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:59:34",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 04:59:34",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:59:34",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:00:13",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:01:48",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "8585c2bd9583fb577deb6e5b232e545c69c89d1093be651196af1fd3bf70c70a"
+  },
+  "sprite/0485/f0012": {
+   "entry": "sprite/0485/f0012",
+   "identity": "b10261daa6043fea3b79dcadd47d599201befd5d5da349e2d8a113009cd24ed4",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(216, 432) want (216, 432)"
+    ],
+    [
+     "alpha",
+     false,
+     "16 logical pixels differ (5.10%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.15 px (origin [10, 36] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:59:34",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "generated",
+     "warning: alpha: 14 logical pixels differ (4.46%)"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "review",
+     "warning: alpha: 14 logical pixels differ (4.46%)"
+    ],
+    [
+     "2026-10-12 05:00:13",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:01:48",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     "warning: alpha: 14 logical pixels differ (4.46%)"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     "warning: alpha: 14 logical pixels differ (4.46%)"
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "generated",
+     "warning: alpha: 16 logical pixels differ (5.10%)"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "review",
+     "warning: alpha: 16 logical pixels differ (5.10%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "generated",
+     "warning: alpha: 16 logical pixels differ (5.10%)"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "review",
+     "warning: alpha: 16 logical pixels differ (5.10%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "8585c2bd9583fb577deb6e5b232e545c69c89d1093be651196af1fd3bf70c70a"
+  },
+  "sprite/0485/f0013": {
+   "entry": "sprite/0485/f0013",
+   "identity": "bd7acab05b4829047ce03125964bb82daae4bdef79447c437c0d8035ee857194",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(216, 432) want (216, 432)"
+    ],
+    [
+     "alpha",
+     false,
+     "10 logical pixels differ (3.57%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.16 px (origin [12, 36] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "generated",
+     "warning: alpha: 10 logical pixels differ (3.57%)"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "review",
+     "warning: alpha: 10 logical pixels differ (3.57%)"
+    ],
+    [
+     "2026-10-12 05:00:13",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:01:48",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "generated",
+     "warning: alpha: 10 logical pixels differ (3.57%)"
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "review",
+     "warning: alpha: 10 logical pixels differ (3.57%)"
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "generated",
+     "warning: alpha: 10 logical pixels differ (3.57%)"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "review",
+     "warning: alpha: 10 logical pixels differ (3.57%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "generated",
+     "warning: alpha: 10 logical pixels differ (3.57%)"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "review",
+     "warning: alpha: 10 logical pixels differ (3.57%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "8585c2bd9583fb577deb6e5b232e545c69c89d1093be651196af1fd3bf70c70a"
+  },
+  "sprite/0485/f0014": {
+   "entry": "sprite/0485/f0014",
+   "identity": "cdffaf5b9d02094de0a065a1a994ac84e93ac2faba1d6c89a0e891160bd39ba0",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(216, 288) want (216, 288)"
+    ],
+    [
+     "alpha",
+     false,
+     "10 logical pixels differ (4.27%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.16 px (origin [10, 22] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:00:13",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:01:48",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "generated",
+     "warning: alpha: 10 logical pixels differ (4.27%)"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "review",
+     "warning: alpha: 10 logical pixels differ (4.27%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "generated",
+     "warning: alpha: 10 logical pixels differ (4.27%)"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "review",
+     "warning: alpha: 10 logical pixels differ (4.27%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "8585c2bd9583fb577deb6e5b232e545c69c89d1093be651196af1fd3bf70c70a"
+  },
+  "sprite/0485/f0015": {
+   "entry": "sprite/0485/f0015",
+   "identity": "d527bb1ba73d36c9dac35ce747ad9475eac29496d0ee06de0b119488e3a97077",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(216, 216) want (216, 216)"
+    ],
+    [
+     "alpha",
+     true,
+     "6 logical pixels differ (2.87%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.14 px (origin [12, 14] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:00:13",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:01:48",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "8585c2bd9583fb577deb6e5b232e545c69c89d1093be651196af1fd3bf70c70a"
+  },
+  "sprite/0485/f0016": {
+   "entry": "sprite/0485/f0016",
+   "identity": "0d1148d2045dc59ba5b06b8c9cf5a7b7975a1df0f59104c398f044bb02efd79e",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(288, 216) want (288, 216)"
+    ],
+    [
+     "alpha",
+     false,
+     "10 logical pixels differ (4.57%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.17 px (origin [16, 14] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "generated",
+     "warning: alpha: 9 logical pixels differ (4.11%)"
+    ],
+    [
+     "2026-10-12 04:59:35",
+     "review",
+     "warning: alpha: 9 logical pixels differ (4.11%)"
+    ],
+    [
+     "2026-10-12 05:00:13",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:01:48",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "generated",
+     "warning: alpha: 9 logical pixels differ (4.11%)"
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "review",
+     "warning: alpha: 9 logical pixels differ (4.11%)"
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "generated",
+     "warning: alpha: 10 logical pixels differ (4.57%)"
+    ],
+    [
+     "2026-10-12 14:46:36",
+     "review",
+     "warning: alpha: 10 logical pixels differ (4.57%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "pending",
+     "take bird_flap"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "generated",
+     "warning: alpha: 10 logical pixels differ (4.57%)"
+    ],
+    [
+     "2026-10-12 14:51:26",
+     "review",
+     "warning: alpha: 10 logical pixels differ (4.57%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "8585c2bd9583fb577deb6e5b232e545c69c89d1093be651196af1fd3bf70c70a"
+  },
+  "sprite/0485/f0017": {
+   "entry": "sprite/0485/f0017",
+   "identity": "7c1950e70a971ad16e1597fd4b5308e6fb46e67675ad62bf72e7930a98ece545",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(252, 288) want (252, 288)"
+    ],
+    [
+     "alpha",
+     false,
+     "8 logical pixels differ (3.11%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.08 px (origin [12, 12] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:51:35",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:52:05",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 04:57:54",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 04:57:54",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:02:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:03:04",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "generated",
+     "warning: alpha: 8 logical pixels differ (3.11%)"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "review",
+     "warning: alpha: 8 logical pixels differ (3.11%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "generated",
+     "warning: alpha: 8 logical pixels differ (3.11%)"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "review",
+     "warning: alpha: 8 logical pixels differ (3.11%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "093de8fffef7932ddc83e14157870c6a8c1ba7be2dd0e4b2b44cc3084d2776b9"
+  },
+  "sprite/0485/f0018": {
+   "entry": "sprite/0485/f0018",
+   "identity": "927edb2501b042902b1a2ce9782b6cf74216aa622915055b90ad0192adce3a52",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(288, 288) want (288, 288)"
+    ],
+    [
+     "alpha",
+     true,
+     "7 logical pixels differ (2.38%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.11 px (origin [16, 14] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:51:35",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:52:05",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:02:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:03:04",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "093de8fffef7932ddc83e14157870c6a8c1ba7be2dd0e4b2b44cc3084d2776b9"
+  },
+  "sprite/0485/f0019": {
+   "entry": "sprite/0485/f0019",
+   "identity": "fa843c063a45a93f5cfe5447466b643036819f0c34a4717d21854d04431708b6",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(360, 216) want (360, 216)"
+    ],
+    [
+     "alpha",
+     false,
+     "11 logical pixels differ (3.56%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.11 px (origin [20, 8] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:51:35",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:52:05",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:02:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:03:04",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "generated",
+     "warning: alpha: 11 logical pixels differ (3.56%)"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "review",
+     "warning: alpha: 11 logical pixels differ (3.56%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "generated",
+     "warning: alpha: 11 logical pixels differ (3.56%)"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "review",
+     "warning: alpha: 11 logical pixels differ (3.56%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "093de8fffef7932ddc83e14157870c6a8c1ba7be2dd0e4b2b44cc3084d2776b9"
+  },
+  "sprite/0485/f0020": {
+   "entry": "sprite/0485/f0020",
+   "identity": "36efc2b17d655d6c8266ae7060a5db28e40fa01b060f8ccc3568afc99e3015d9",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(360, 288) want (360, 288)"
+    ],
+    [
+     "alpha",
+     false,
+     "31 logical pixels differ (10.92%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.49 px (origin [22, 22] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:51:35",
+     "pending",
+     "alpha: 25 logical pixels differ (8.80%)"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "generated",
+     "warning: alpha: 25 logical pixels differ (8.80%)"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "review",
+     "warning: alpha: 25 logical pixels differ (8.80%)"
+    ],
+    [
+     "2026-10-12 05:02:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:03:04",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     "warning: alpha: 25 logical pixels differ (8.80%)"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     "warning: alpha: 25 logical pixels differ (8.80%)"
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "generated",
+     "warning: alpha: 31 logical pixels differ (10.92%)"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "review",
+     "warning: alpha: 31 logical pixels differ (10.92%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "generated",
+     "warning: alpha: 31 logical pixels differ (10.92%)"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "review",
+     "warning: alpha: 31 logical pixels differ (10.92%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "093de8fffef7932ddc83e14157870c6a8c1ba7be2dd0e4b2b44cc3084d2776b9"
+  },
+  "sprite/0485/f0021": {
+   "entry": "sprite/0485/f0021",
+   "identity": "0efb7e4b92a63a6b3d40cd2d6bd4c8e69ec125bedce3ed9b2d8b30f70f845b54",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(360, 288) want (360, 288)"
+    ],
+    [
+     "alpha",
+     false,
+     "21 logical pixels differ (6.34%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.07 px (origin [24, 18] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:51:35",
+     "pending",
+     "alpha: 35 logical pixels differ (10.57%)"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "generated",
+     "warning: alpha: 35 logical pixels differ (10.57%)"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "review",
+     "warning: alpha: 35 logical pixels differ (10.57%)"
+    ],
+    [
+     "2026-10-12 05:02:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:03:04",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     "warning: alpha: 35 logical pixels differ (10.57%)"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     "warning: alpha: 35 logical pixels differ (10.57%)"
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "generated",
+     "warning: alpha: 21 logical pixels differ (6.34%)"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "review",
+     "warning: alpha: 21 logical pixels differ (6.34%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "generated",
+     "warning: alpha: 21 logical pixels differ (6.34%)"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "review",
+     "warning: alpha: 21 logical pixels differ (6.34%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "093de8fffef7932ddc83e14157870c6a8c1ba7be2dd0e4b2b44cc3084d2776b9"
+  },
+  "sprite/0485/f0022": {
+   "entry": "sprite/0485/f0022",
+   "identity": "1a9af3ecfd0731c0a9a1a5bc68bcb76ffe8392067468a6a1c9b074e8cdd018ff",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(360, 360) want (360, 360)"
+    ],
+    [
+     "alpha",
+     false,
+     "26 logical pixels differ (7.74%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.23 px (origin [24, 20] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:51:35",
+     "pending",
+     "alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "generated",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "review",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 05:02:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:03:04",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "generated",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "review",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "generated",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "review",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "093de8fffef7932ddc83e14157870c6a8c1ba7be2dd0e4b2b44cc3084d2776b9"
+  },
+  "sprite/0485/f0023": {
+   "entry": "sprite/0485/f0023",
+   "identity": "3a6c96429379983b5a50f6f54e2fb518db240945da3af61a773c6663e02170ad",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(360, 360) want (360, 360)"
+    ],
+    [
+     "alpha",
+     false,
+     "26 logical pixels differ (7.74%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.17 px (origin [24, 20] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:51:35",
+     "pending",
+     "alpha: 22 logical pixels differ (6.55%)"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "generated",
+     "warning: alpha: 22 logical pixels differ (6.55%)"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "review",
+     "warning: alpha: 22 logical pixels differ (6.55%)"
+    ],
+    [
+     "2026-10-12 05:02:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:03:04",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     "warning: alpha: 22 logical pixels differ (6.55%)"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     "warning: alpha: 22 logical pixels differ (6.55%)"
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "generated",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "review",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "generated",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "review",
+     "warning: alpha: 26 logical pixels differ (7.74%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "093de8fffef7932ddc83e14157870c6a8c1ba7be2dd0e4b2b44cc3084d2776b9"
+  },
+  "sprite/0485/f0024": {
+   "entry": "sprite/0485/f0024",
+   "identity": "16b73dcd5daf5c708413e850465c71f366ab1740e40a4bbb7f6fb8fbf726e6c1",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(360, 288) want (360, 288)"
+    ],
+    [
+     "alpha",
+     false,
+     "23 logical pixels differ (6.91%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.13 px (origin [24, 18] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:51:35",
+     "pending",
+     "alpha: 22 logical pixels differ (6.61%)"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "generated",
+     "warning: alpha: 22 logical pixels differ (6.61%)"
+    ],
+    [
+     "2026-10-12 04:57:55",
+     "review",
+     "warning: alpha: 22 logical pixels differ (6.61%)"
+    ],
+    [
+     "2026-10-12 05:02:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:03:04",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "generated",
+     "warning: alpha: 22 logical pixels differ (6.61%)"
+    ],
+    [
+     "2026-10-12 05:31:08",
+     "review",
+     "warning: alpha: 22 logical pixels differ (6.61%)"
+    ],
+    [
+     "2026-10-12 05:31:34",
+     "packed",
+     "restored: same sheet re-taken by the first take run"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "generated",
+     "warning: alpha: 23 logical pixels differ (6.91%)"
+    ],
+    [
+     "2026-10-12 14:46:29",
+     "review",
+     "warning: alpha: 23 logical pixels differ (6.91%)"
+    ],
+    [
+     "2026-10-12 14:46:57",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "pending",
+     "take bird_dive"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "generated",
+     "warning: alpha: 23 logical pixels differ (6.91%)"
+    ],
+    [
+     "2026-10-12 14:51:10",
+     "review",
+     "warning: alpha: 23 logical pixels differ (6.91%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "093de8fffef7932ddc83e14157870c6a8c1ba7be2dd0e4b2b44cc3084d2776b9"
+  },
+  "sprite/0560/f0002": {
+   "entry": "sprite/0560/f0002",
+   "identity": "b515226eb356282fc14d4ef134e412696f566111ee1b3d5c710cc8e556ac7bf9",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 576) want (432, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "188 logical pixels differ (18.29%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 1.10 px (origin [22, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "generated",
+     "warning: alpha: 163 logical pixels differ (15.86%); pivot: centroid moved 1.12 px (origin [22, 62] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "review",
+     "warning: alpha: 163 logical pixels differ (15.86%); pivot: centroid moved 1.12 px (origin [22, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "generated",
+     "warning: alpha: 142 logical pixels differ (13.81%)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "review",
+     "warning: alpha: 142 logical pixels differ (13.81%)"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "generated",
+     "warning: alpha: 188 logical pixels differ (18.29%); pivot: centroid moved 1.10 px (origin [22, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "review",
+     "warning: alpha: 188 logical pixels differ (18.29%); pivot: centroid moved 1.10 px (origin [22, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "generated",
+     "warning: alpha: 188 logical pixels differ (18.29%); pivot: centroid moved 1.10 px (origin [22, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "review",
+     "warning: alpha: 188 logical pixels differ (18.29%); pivot: centroid moved 1.10 px (origin [22, 62] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "2f8440fb7a896061adaa8122f4a0241a5b900dece3cc73b6c845c02f2232b542"
+  },
+  "sprite/0560/f0003": {
+   "entry": "sprite/0560/f0003",
+   "identity": "dc9c20a189e403452128a3caee758c343330d19197ea79cf0507168538c1d36a",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 504) want (432, 504)"
+    ],
+    [
+     "alpha",
+     false,
+     "135 logical pixels differ (13.38%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.40 px (origin [24, 56] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "generated",
+     "warning: alpha: 152 logical pixels differ (15.06%)"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "review",
+     "warning: alpha: 152 logical pixels differ (15.06%)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "generated",
+     "warning: alpha: 99 logical pixels differ (9.81%)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "review",
+     "warning: alpha: 99 logical pixels differ (9.81%)"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "generated",
+     "warning: alpha: 135 logical pixels differ (13.38%)"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "review",
+     "warning: alpha: 135 logical pixels differ (13.38%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "generated",
+     "warning: alpha: 135 logical pixels differ (13.38%)"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "review",
+     "warning: alpha: 135 logical pixels differ (13.38%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "2f8440fb7a896061adaa8122f4a0241a5b900dece3cc73b6c845c02f2232b542"
+  },
+  "sprite/0560/f0004": {
+   "entry": "sprite/0560/f0004",
+   "identity": "be358285279cbb25a811b8308ce015479d73b13a3f7eb80edd7cb41ca1b5ad18",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "pending",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 504) want (432, 504)"
+    ],
+    [
+     "alpha",
+     false,
+     "222 logical pixels differ (23.92%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 1.01 px (origin [26, 56] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "generated",
+     "warning: alpha: 424 logical pixels differ (45.69%); pivot: centroid moved 2.38 px (origin [26, 56] x 9)"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "review",
+     "warning: alpha: 424 logical pixels differ (45.69%); pivot: centroid moved 2.38 px (origin [26, 56] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "generated",
+     "warning: alpha: 156 logical pixels differ (16.81%)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "review",
+     "warning: alpha: 156 logical pixels differ (16.81%)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "generated",
+     "warning: alpha: 222 logical pixels differ (23.92%); pivot: centroid moved 1.01 px (origin [26, 56] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "review",
+     "warning: alpha: 222 logical pixels differ (23.92%); pivot: centroid moved 1.01 px (origin [26, 56] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "pending",
+     "frames 4-7,14,15: poses differ from original (feet/head lost after align); regenerate"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "generated",
+     "warning: alpha: 222 logical pixels differ (23.92%); pivot: centroid moved 1.01 px (origin [26, 56] x 9)"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "review",
+     "warning: alpha: 222 logical pixels differ (23.92%); pivot: centroid moved 1.01 px (origin [26, 56] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:03",
+     "pending",
+     "poses differ from original; regenerate"
+    ]
+   ],
+   "sheet": "e0be078cac324cc16e844f53f43a550dfe707b0a59c8d35b4a01fbebb253dfc7"
+  },
+  "sprite/0560/f0005": {
+   "entry": "sprite/0560/f0005",
+   "identity": "a30b292411e356c006cf08eef4dae7c4e2664f404c9a410ba2cc764a6323f825",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "pending",
+   "checks": [
+    [
+     "size",
+     true,
+     "(576, 576) want (576, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "320 logical pixels differ (27.10%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 1.56 px (origin [32, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "generated",
+     "warning: alpha: 516 logical pixels differ (43.69%); pivot: centroid moved 2.42 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "review",
+     "warning: alpha: 516 logical pixels differ (43.69%); pivot: centroid moved 2.42 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "generated",
+     "warning: alpha: 231 logical pixels differ (19.56%); pivot: centroid moved 1.70 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "review",
+     "warning: alpha: 231 logical pixels differ (19.56%); pivot: centroid moved 1.70 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "generated",
+     "warning: alpha: 320 logical pixels differ (27.10%); pivot: centroid moved 1.56 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "review",
+     "warning: alpha: 320 logical pixels differ (27.10%); pivot: centroid moved 1.56 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "pending",
+     "frames 4-7,14,15: poses differ from original (feet/head lost after align); regenerate"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "generated",
+     "warning: alpha: 320 logical pixels differ (27.10%); pivot: centroid moved 1.56 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "review",
+     "warning: alpha: 320 logical pixels differ (27.10%); pivot: centroid moved 1.56 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:03",
+     "pending",
+     "poses differ from original; regenerate"
+    ]
+   ],
+   "sheet": "e0be078cac324cc16e844f53f43a550dfe707b0a59c8d35b4a01fbebb253dfc7"
+  },
+  "sprite/0560/f0006": {
+   "entry": "sprite/0560/f0006",
+   "identity": "77001cff4cbd58032af7e7b0f3a17eaf45c38b88a21604bea08c30d5bca32eab",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "pending",
+   "checks": [
+    [
+     "size",
+     true,
+     "(504, 576) want (504, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "392 logical pixels differ (30.96%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.41 px (origin [30, 64] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "generated",
+     "warning: alpha: 775 logical pixels differ (61.22%); pivot: centroid moved 8.18 px (origin [30, 64] x 9)"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "review",
+     "warning: alpha: 775 logical pixels differ (61.22%); pivot: centroid moved 8.18 px (origin [30, 64] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "generated",
+     "warning: alpha: 305 logical pixels differ (24.09%)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "review",
+     "warning: alpha: 305 logical pixels differ (24.09%)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "generated",
+     "warning: alpha: 392 logical pixels differ (30.96%)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "review",
+     "warning: alpha: 392 logical pixels differ (30.96%)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "pending",
+     "frames 4-7,14,15: poses differ from original (feet/head lost after align); regenerate"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "generated",
+     "warning: alpha: 392 logical pixels differ (30.96%)"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "review",
+     "warning: alpha: 392 logical pixels differ (30.96%)"
+    ],
+    [
+     "2026-10-12 15:12:03",
+     "pending",
+     "poses differ from original; regenerate"
+    ]
+   ],
+   "sheet": "e0be078cac324cc16e844f53f43a550dfe707b0a59c8d35b4a01fbebb253dfc7"
+  },
+  "sprite/0560/f0007": {
+   "entry": "sprite/0560/f0007",
+   "identity": "6dacd6ee616c76bd57993077ec503f8298e610147b3d903f573ea9421d5a97fe",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "pending",
+   "checks": [
+    [
+     "size",
+     true,
+     "(504, 576) want (504, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "525 logical pixels differ (41.44%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 3.66 px (origin [26, 60] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "generated",
+     "warning: alpha: 919 logical pixels differ (72.53%); pivot: centroid moved 9.41 px (origin [26, 60] x 9)"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "review",
+     "warning: alpha: 919 logical pixels differ (72.53%); pivot: centroid moved 9.41 px (origin [26, 60] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "generated",
+     "warning: alpha: 442 logical pixels differ (34.89%); pivot: centroid moved 3.60 px (origin [26, 60] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "review",
+     "warning: alpha: 442 logical pixels differ (34.89%); pivot: centroid moved 3.60 px (origin [26, 60] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "generated",
+     "warning: alpha: 525 logical pixels differ (41.44%); pivot: centroid moved 3.66 px (origin [26, 60] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "review",
+     "warning: alpha: 525 logical pixels differ (41.44%); pivot: centroid moved 3.66 px (origin [26, 60] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "pending",
+     "frames 4-7,14,15: poses differ from original (feet/head lost after align); regenerate"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "generated",
+     "warning: alpha: 525 logical pixels differ (41.44%); pivot: centroid moved 3.66 px (origin [26, 60] x 9)"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "review",
+     "warning: alpha: 525 logical pixels differ (41.44%); pivot: centroid moved 3.66 px (origin [26, 60] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:03",
+     "pending",
+     "poses differ from original; regenerate"
+    ]
+   ],
+   "sheet": "e0be078cac324cc16e844f53f43a550dfe707b0a59c8d35b4a01fbebb253dfc7"
+  },
+  "sprite/0560/f0008": {
+   "entry": "sprite/0560/f0008",
+   "identity": "bcbf8dc46e3bd476d32fecea0d25137e3c40bdd594ac3f4f467a52ec8020e27c",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(576, 576) want (576, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "208 logical pixels differ (16.40%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.19 px (origin [28, 64] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 13:32:26",
+     "pending",
+     "take hero_run_3"
+    ],
+    [
+     "2026-10-12 13:32:26",
+     "generated",
+     "warning: alpha: 452 logical pixels differ (35.65%)"
+    ],
+    [
+     "2026-10-12 13:32:26",
+     "review",
+     "warning: alpha: 452 logical pixels differ (35.65%)"
+    ],
+    [
+     "2026-10-12 13:48:07",
+     "pending",
+     "take hero_run_3"
+    ],
+    [
+     "2026-10-12 13:48:07",
+     "generated",
+     "warning: alpha: 161 logical pixels differ (12.70%)"
+    ],
+    [
+     "2026-10-12 13:48:07",
+     "review",
+     "warning: alpha: 161 logical pixels differ (12.70%)"
+    ],
+    [
+     "2026-10-12 14:45:57",
+     "pending",
+     "take hero_run_3"
+    ],
+    [
+     "2026-10-12 14:45:57",
+     "generated",
+     "warning: alpha: 208 logical pixels differ (16.40%)"
+    ],
+    [
+     "2026-10-12 14:45:57",
+     "review",
+     "warning: alpha: 208 logical pixels differ (16.40%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:52:20",
+     "pending",
+     "take hero_run_3"
+    ],
+    [
+     "2026-10-12 14:52:20",
+     "generated",
+     "warning: alpha: 208 logical pixels differ (16.40%)"
+    ],
+    [
+     "2026-10-12 14:52:20",
+     "review",
+     "warning: alpha: 208 logical pixels differ (16.40%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "0befa22ce19091475fbd52f684412a4b6a2df341b6b75f24a819443e0270f7b9"
+  },
+  "sprite/0560/f0009": {
+   "entry": "sprite/0560/f0009",
+   "identity": "7a1799ee3270d89d7fdf29f7e2b8c5e2284d0ae92ececb38b9396519e65a21a7",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(504, 576) want (504, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "182 logical pixels differ (15.37%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.93 px (origin [28, 60] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 13:32:26",
+     "pending",
+     "take hero_run_3"
+    ],
+    [
+     "2026-10-12 13:32:26",
+     "generated",
+     "warning: alpha: 338 logical pixels differ (28.55%); pivot: centroid moved 1.01 px (origin [28, 60] x 9)"
+    ],
+    [
+     "2026-10-12 13:32:27",
+     "review",
+     "warning: alpha: 338 logical pixels differ (28.55%); pivot: centroid moved 1.01 px (origin [28, 60] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:07",
+     "pending",
+     "take hero_run_3"
+    ],
+    [
+     "2026-10-12 13:48:07",
+     "generated",
+     "warning: alpha: 125 logical pixels differ (10.56%)"
+    ],
+    [
+     "2026-10-12 13:48:07",
+     "review",
+     "warning: alpha: 125 logical pixels differ (10.56%)"
+    ],
+    [
+     "2026-10-12 14:45:57",
+     "pending",
+     "take hero_run_3"
+    ],
+    [
+     "2026-10-12 14:45:57",
+     "generated",
+     "warning: alpha: 182 logical pixels differ (15.37%)"
+    ],
+    [
+     "2026-10-12 14:45:57",
+     "review",
+     "warning: alpha: 182 logical pixels differ (15.37%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:52:20",
+     "pending",
+     "take hero_run_3"
+    ],
+    [
+     "2026-10-12 14:52:20",
+     "generated",
+     "warning: alpha: 182 logical pixels differ (15.37%)"
+    ],
+    [
+     "2026-10-12 14:52:20",
+     "review",
+     "warning: alpha: 182 logical pixels differ (15.37%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "0befa22ce19091475fbd52f684412a4b6a2df341b6b75f24a819443e0270f7b9"
+  },
+  "sprite/0560/f0010": {
+   "entry": "sprite/0560/f0010",
+   "identity": "45711b23ece2341ff7af5eb81511090fc0e96ae8fd102287b3af1601c70b45df",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(504, 504) want (504, 504)"
+    ],
+    [
+     "alpha",
+     false,
+     "127 logical pixels differ (13.19%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.43 px (origin [34, 54] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "generated",
+     "warning: alpha: 412 logical pixels differ (42.78%); pivot: centroid moved 2.71 px (origin [34, 54] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "review",
+     "warning: alpha: 412 logical pixels differ (42.78%); pivot: centroid moved 2.71 px (origin [34, 54] x 9)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "generated",
+     "warning: alpha: 73 logical pixels differ (7.58%)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "review",
+     "warning: alpha: 73 logical pixels differ (7.58%)"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "generated",
+     "warning: alpha: 127 logical pixels differ (13.19%)"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "review",
+     "warning: alpha: 127 logical pixels differ (13.19%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "generated",
+     "warning: alpha: 127 logical pixels differ (13.19%)"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "review",
+     "warning: alpha: 127 logical pixels differ (13.19%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "2f8440fb7a896061adaa8122f4a0241a5b900dece3cc73b6c845c02f2232b542"
+  },
+  "sprite/0560/f0011": {
+   "entry": "sprite/0560/f0011",
+   "identity": "7419ffbb30744527dc4096e9ee8b43d343ad600bea3844a4f864cd92e588fce5",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(576, 576) want (576, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "141 logical pixels differ (11.76%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 1.46 px (origin [32, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "generated",
+     "warning: alpha: 448 logical pixels differ (37.36%)"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "review",
+     "warning: alpha: 448 logical pixels differ (37.36%)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "generated",
+     "warning: alpha: 119 logical pixels differ (9.92%); pivot: centroid moved 1.35 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "review",
+     "warning: alpha: 119 logical pixels differ (9.92%); pivot: centroid moved 1.35 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "generated",
+     "warning: alpha: 141 logical pixels differ (11.76%); pivot: centroid moved 1.46 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "review",
+     "warning: alpha: 141 logical pixels differ (11.76%); pivot: centroid moved 1.46 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "generated",
+     "warning: alpha: 141 logical pixels differ (11.76%); pivot: centroid moved 1.46 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "review",
+     "warning: alpha: 141 logical pixels differ (11.76%); pivot: centroid moved 1.46 px (origin [32, 62] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "2f8440fb7a896061adaa8122f4a0241a5b900dece3cc73b6c845c02f2232b542"
+  },
+  "sprite/0560/f0012": {
+   "entry": "sprite/0560/f0012",
+   "identity": "4bc8e7e659adccf06405bcd5ba1c42e1d1e9e7f1fc3d97a9e79ca1f992c6cf83",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(504, 576) want (504, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "250 logical pixels differ (19.39%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.89 px (origin [28, 64] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "generated",
+     "warning: alpha: 709 logical pixels differ (55.00%); pivot: centroid moved 6.24 px (origin [28, 64] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "review",
+     "warning: alpha: 709 logical pixels differ (55.00%); pivot: centroid moved 6.24 px (origin [28, 64] x 9)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "generated",
+     "warning: alpha: 202 logical pixels differ (15.67%)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "review",
+     "warning: alpha: 202 logical pixels differ (15.67%)"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:45:43",
+     "generated",
+     "warning: alpha: 250 logical pixels differ (19.39%)"
+    ],
+    [
+     "2026-10-12 14:45:44",
+     "review",
+     "warning: alpha: 250 logical pixels differ (19.39%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "generated",
+     "warning: alpha: 250 logical pixels differ (19.39%)"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "review",
+     "warning: alpha: 250 logical pixels differ (19.39%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "2f8440fb7a896061adaa8122f4a0241a5b900dece3cc73b6c845c02f2232b542"
+  },
+  "sprite/0560/f0013": {
+   "entry": "sprite/0560/f0013",
+   "identity": "e7375c21226fd1f86cb021da18ff572def04770cd2493084ab852beb230e0bd6",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(576, 576) want (576, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "325 logical pixels differ (26.51%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 3.74 px (origin [30, 66] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:14",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 05:31:15",
+     "generated",
+     "warning: alpha: 768 logical pixels differ (62.64%); pivot: centroid moved 6.44 px (origin [30, 66] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:15",
+     "review",
+     "warning: alpha: 768 logical pixels differ (62.64%); pivot: centroid moved 6.44 px (origin [30, 66] x 9)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "generated",
+     "warning: alpha: 298 logical pixels differ (24.31%); pivot: centroid moved 3.73 px (origin [30, 66] x 9)"
+    ],
+    [
+     "2026-10-12 13:47:27",
+     "review",
+     "warning: alpha: 298 logical pixels differ (24.31%); pivot: centroid moved 3.73 px (origin [30, 66] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:44",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:45:44",
+     "generated",
+     "warning: alpha: 325 logical pixels differ (26.51%); pivot: centroid moved 3.74 px (origin [30, 66] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:44",
+     "review",
+     "warning: alpha: 325 logical pixels differ (26.51%); pivot: centroid moved 3.74 px (origin [30, 66] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "pending",
+     "take hero_run_1"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "generated",
+     "warning: alpha: 325 logical pixels differ (26.51%); pivot: centroid moved 3.74 px (origin [30, 66] x 9)"
+    ],
+    [
+     "2026-10-12 14:47:52",
+     "review",
+     "warning: alpha: 325 logical pixels differ (26.51%); pivot: centroid moved 3.74 px (origin [30, 66] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "2f8440fb7a896061adaa8122f4a0241a5b900dece3cc73b6c845c02f2232b542"
+  },
+  "sprite/0560/f0014": {
+   "entry": "sprite/0560/f0014",
+   "identity": "5b089c23da1ba239a3bb8eb13d296bce0bce1ee7d00b2ad97237e51cd4dc7ece",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "pending",
+   "checks": [
+    [
+     "size",
+     true,
+     "(576, 576) want (576, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "435 logical pixels differ (36.40%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 3.90 px (origin [28, 60] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "generated",
+     "warning: alpha: 386 logical pixels differ (32.30%); pivot: centroid moved 4.24 px (origin [28, 60] x 9)"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "review",
+     "warning: alpha: 386 logical pixels differ (32.30%); pivot: centroid moved 4.24 px (origin [28, 60] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "generated",
+     "warning: alpha: 384 logical pixels differ (32.13%); pivot: centroid moved 3.92 px (origin [28, 60] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "review",
+     "warning: alpha: 384 logical pixels differ (32.13%); pivot: centroid moved 3.92 px (origin [28, 60] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "generated",
+     "warning: alpha: 435 logical pixels differ (36.40%); pivot: centroid moved 3.90 px (origin [28, 60] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "review",
+     "warning: alpha: 435 logical pixels differ (36.40%); pivot: centroid moved 3.90 px (origin [28, 60] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "pending",
+     "frames 4-7,14,15: poses differ from original (feet/head lost after align); regenerate"
+    ],
+    [
+     "2026-10-12 14:52:12",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:52:12",
+     "generated",
+     "warning: alpha: 435 logical pixels differ (36.40%); pivot: centroid moved 3.90 px (origin [28, 60] x 9)"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "review",
+     "warning: alpha: 435 logical pixels differ (36.40%); pivot: centroid moved 3.90 px (origin [28, 60] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:03",
+     "pending",
+     "poses differ from original; regenerate"
+    ]
+   ],
+   "sheet": "e0be078cac324cc16e844f53f43a550dfe707b0a59c8d35b4a01fbebb253dfc7"
+  },
+  "sprite/0560/f0015": {
+   "entry": "sprite/0560/f0015",
+   "identity": "c6e57d563d6bf21d57d5e53da9a2c628e9294acda25a4ea7ed312b7d31a924f9",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "pending",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 576) want (432, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "388 logical pixels differ (36.19%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 4.11 px (origin [22, 58] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "generated",
+     "warning: alpha: 266 logical pixels differ (24.81%); pivot: centroid moved 2.98 px (origin [22, 58] x 9)"
+    ],
+    [
+     "2026-10-12 13:32:25",
+     "review",
+     "warning: alpha: 266 logical pixels differ (24.81%); pivot: centroid moved 2.98 px (origin [22, 58] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "generated",
+     "warning: alpha: 307 logical pixels differ (28.64%); pivot: centroid moved 4.08 px (origin [22, 58] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:00",
+     "review",
+     "warning: alpha: 307 logical pixels differ (28.64%); pivot: centroid moved 4.08 px (origin [22, 58] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "generated",
+     "warning: alpha: 388 logical pixels differ (36.19%); pivot: centroid moved 4.11 px (origin [22, 58] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:51",
+     "review",
+     "warning: alpha: 388 logical pixels differ (36.19%); pivot: centroid moved 4.11 px (origin [22, 58] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "pending",
+     "frames 4-7,14,15: poses differ from original (feet/head lost after align); regenerate"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "pending",
+     "take hero_run_2"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "generated",
+     "warning: alpha: 388 logical pixels differ (36.19%); pivot: centroid moved 4.11 px (origin [22, 58] x 9)"
+    ],
+    [
+     "2026-10-12 14:52:13",
+     "review",
+     "warning: alpha: 388 logical pixels differ (36.19%); pivot: centroid moved 4.11 px (origin [22, 58] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:03",
+     "pending",
+     "poses differ from original; regenerate"
+    ]
+   ],
+   "sheet": "e0be078cac324cc16e844f53f43a550dfe707b0a59c8d35b4a01fbebb253dfc7"
+  },
+  "sprite/0560/f0211": {
+   "entry": "sprite/0560/f0211",
+   "identity": "355ba7d365b411d587e83b3cbc02795653d06e31789fd409db1e75f1fc9e3a5a",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(360, 1008) want (360, 1008)"
+    ],
+    [
+     "alpha",
+     false,
+     "100 logical pixels differ (8.50%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 1.39 px (origin [22, 108] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:09",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "generated",
+     "warning: alpha: 139 logical pixels differ (11.81%)"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "review",
+     "warning: alpha: 139 logical pixels differ (11.81%)"
+    ],
+    [
+     "2026-10-12 05:33:34",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:33:35",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:05",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 14:46:05",
+     "generated",
+     "warning: alpha: 100 logical pixels differ (8.50%); pivot: centroid moved 1.39 px (origin [22, 108] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:06",
+     "review",
+     "warning: alpha: 100 logical pixels differ (8.50%); pivot: centroid moved 1.39 px (origin [22, 108] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "generated",
+     "warning: alpha: 100 logical pixels differ (8.50%); pivot: centroid moved 1.39 px (origin [22, 108] x 9)"
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "review",
+     "warning: alpha: 100 logical pixels differ (8.50%); pivot: centroid moved 1.39 px (origin [22, 108] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "019c37843664b590d0b56630f3337f9ac19e615c1d0d17254cbe40f9c34fb980"
+  },
+  "sprite/0560/f0212": {
+   "entry": "sprite/0560/f0212",
+   "identity": "43a68e3c81701a602d0cd9eb6fc9c78ef6dada9bd23e21c099385223c5b76659",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(360, 936) want (360, 936)"
+    ],
+    [
+     "alpha",
+     false,
+     "100 logical pixels differ (8.49%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.78 px (origin [22, 100] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "generated",
+     "warning: alpha: 116 logical pixels differ (9.85%)"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "review",
+     "warning: alpha: 116 logical pixels differ (9.85%)"
+    ],
+    [
+     "2026-10-12 05:33:34",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:33:35",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:06",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 14:46:06",
+     "generated",
+     "warning: alpha: 100 logical pixels differ (8.49%)"
+    ],
+    [
+     "2026-10-12 14:46:06",
+     "review",
+     "warning: alpha: 100 logical pixels differ (8.49%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "generated",
+     "warning: alpha: 100 logical pixels differ (8.49%)"
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "review",
+     "warning: alpha: 100 logical pixels differ (8.49%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "019c37843664b590d0b56630f3337f9ac19e615c1d0d17254cbe40f9c34fb980"
+  },
+  "sprite/0560/f0213": {
+   "entry": "sprite/0560/f0213",
+   "identity": "520cf94940ca1d236cdb2637fa9299248a3cd930baf536b596c6098142f5ae39",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 720) want (432, 720)"
+    ],
+    [
+     "alpha",
+     false,
+     "134 logical pixels differ (11.79%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.71 px (origin [22, 78] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "generated",
+     "warning: alpha: 120 logical pixels differ (10.55%)"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "review",
+     "warning: alpha: 120 logical pixels differ (10.55%)"
+    ],
+    [
+     "2026-10-12 05:33:34",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:33:35",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:06",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 14:46:06",
+     "generated",
+     "warning: alpha: 134 logical pixels differ (11.79%)"
+    ],
+    [
+     "2026-10-12 14:46:06",
+     "review",
+     "warning: alpha: 134 logical pixels differ (11.79%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "generated",
+     "warning: alpha: 134 logical pixels differ (11.79%)"
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "review",
+     "warning: alpha: 134 logical pixels differ (11.79%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "019c37843664b590d0b56630f3337f9ac19e615c1d0d17254cbe40f9c34fb980"
+  },
+  "sprite/0560/f0214": {
+   "entry": "sprite/0560/f0214",
+   "identity": "072eab91fbc493dda1e1b0c9485d66812ac93a6236a87b66cdbdda3bfe38d35a",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(648, 504) want (648, 504)"
+    ],
+    [
+     "alpha",
+     false,
+     "181 logical pixels differ (14.80%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.39 px (origin [24, 50] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "generated",
+     "warning: alpha: 140 logical pixels differ (11.45%)"
+    ],
+    [
+     "2026-10-12 05:31:10",
+     "review",
+     "warning: alpha: 140 logical pixels differ (11.45%)"
+    ],
+    [
+     "2026-10-12 05:33:34",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 05:33:35",
+     "packed",
+     ""
+    ],
+    [
+     "2026-10-12 14:46:06",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 14:46:06",
+     "generated",
+     "warning: alpha: 181 logical pixels differ (14.80%)"
+    ],
+    [
+     "2026-10-12 14:46:06",
+     "review",
+     "warning: alpha: 181 logical pixels differ (14.80%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "pending",
+     "take hero_attack_sword_thrust_1"
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "generated",
+     "warning: alpha: 181 logical pixels differ (14.80%)"
+    ],
+    [
+     "2026-10-12 14:51:36",
+     "review",
+     "warning: alpha: 181 logical pixels differ (14.80%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "019c37843664b590d0b56630f3337f9ac19e615c1d0d17254cbe40f9c34fb980"
+  },
+  "sprite/0560/f0215": {
+   "entry": "sprite/0560/f0215",
+   "identity": "682739b56802d7908451bec55071312df077d5d71f68e84073a83a8f07d714ab",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(648, 504) want (648, 504)"
+    ],
+    [
+     "alpha",
+     false,
+     "173 logical pixels differ (13.34%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.62 px (origin [24, 52] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "generated",
+     "warning: alpha: 170 logical pixels differ (13.11%); pivot: centroid moved 1.09 px (origin [24, 52] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "review",
+     "warning: alpha: 170 logical pixels differ (13.11%); pivot: centroid moved 1.09 px (origin [24, 52] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:16",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 13:48:16",
+     "generated",
+     "warning: alpha: 148 logical pixels differ (11.41%)"
+    ],
+    [
+     "2026-10-12 13:48:16",
+     "review",
+     "warning: alpha: 148 logical pixels differ (11.41%)"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "generated",
+     "warning: alpha: 173 logical pixels differ (13.34%)"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "review",
+     "warning: alpha: 173 logical pixels differ (13.34%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "generated",
+     "warning: alpha: 173 logical pixels differ (13.34%)"
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "review",
+     "warning: alpha: 173 logical pixels differ (13.34%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "e2501eb772c1198662feac6eac959158bb8f3f67a6cade19fbeedb0cf4c32f7d"
+  },
+  "sprite/0560/f0216": {
+   "entry": "sprite/0560/f0216",
+   "identity": "aa926cc2f42210c286dd52c76b4417adce3c57ee5c4a91f08a1d9faccfe1fbae",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(648, 504) want (648, 504)"
+    ],
+    [
+     "alpha",
+     false,
+     "150 logical pixels differ (11.87%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 1.10 px (origin [24, 54] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "generated",
+     "warning: alpha: 353 logical pixels differ (27.93%); pivot: centroid moved 3.62 px (origin [24, 54] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "review",
+     "warning: alpha: 353 logical pixels differ (27.93%); pivot: centroid moved 3.62 px (origin [24, 54] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:16",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 13:48:16",
+     "generated",
+     "warning: alpha: 120 logical pixels differ (9.49%); pivot: centroid moved 1.01 px (origin [24, 54] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:16",
+     "review",
+     "warning: alpha: 120 logical pixels differ (9.49%); pivot: centroid moved 1.01 px (origin [24, 54] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "generated",
+     "warning: alpha: 150 logical pixels differ (11.87%); pivot: centroid moved 1.10 px (origin [24, 54] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "review",
+     "warning: alpha: 150 logical pixels differ (11.87%); pivot: centroid moved 1.10 px (origin [24, 54] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "generated",
+     "warning: alpha: 150 logical pixels differ (11.87%); pivot: centroid moved 1.10 px (origin [24, 54] x 9)"
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "review",
+     "warning: alpha: 150 logical pixels differ (11.87%); pivot: centroid moved 1.10 px (origin [24, 54] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "e2501eb772c1198662feac6eac959158bb8f3f67a6cade19fbeedb0cf4c32f7d"
+  },
+  "sprite/0560/f0217": {
+   "entry": "sprite/0560/f0217",
+   "identity": "c978d69bd3c836e73683ed086ea5d11b1a3736fb2891583c54998302abe9f7bb",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(648, 504) want (648, 504)"
+    ],
+    [
+     "alpha",
+     false,
+     "146 logical pixels differ (11.44%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.26 px (origin [24, 54] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "generated",
+     "warning: alpha: 167 logical pixels differ (13.09%); pivot: centroid moved 1.04 px (origin [24, 54] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "review",
+     "warning: alpha: 167 logical pixels differ (13.09%); pivot: centroid moved 1.04 px (origin [24, 54] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:16",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 13:48:16",
+     "generated",
+     "warning: alpha: 113 logical pixels differ (8.86%)"
+    ],
+    [
+     "2026-10-12 13:48:16",
+     "review",
+     "warning: alpha: 113 logical pixels differ (8.86%)"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "generated",
+     "warning: alpha: 146 logical pixels differ (11.44%)"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "review",
+     "warning: alpha: 146 logical pixels differ (11.44%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "generated",
+     "warning: alpha: 146 logical pixels differ (11.44%)"
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "review",
+     "warning: alpha: 146 logical pixels differ (11.44%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "e2501eb772c1198662feac6eac959158bb8f3f67a6cade19fbeedb0cf4c32f7d"
+  },
+  "sprite/0560/f0246": {
+   "entry": "sprite/0560/f0246",
+   "identity": "6accc317b6674bc44ba373c7313c6f0a062bbe8e33f594774c8462f7f32369f4",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(648, 576) want (648, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "225 logical pixels differ (16.93%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.65 px (origin [24, 56] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "generated",
+     "warning: alpha: 493 logical pixels differ (37.10%); pivot: centroid moved 4.96 px (origin [24, 56] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "review",
+     "warning: alpha: 493 logical pixels differ (37.10%); pivot: centroid moved 4.96 px (origin [24, 56] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:16",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 13:48:17",
+     "generated",
+     "warning: alpha: 182 logical pixels differ (13.69%)"
+    ],
+    [
+     "2026-10-12 13:48:17",
+     "review",
+     "warning: alpha: 182 logical pixels differ (13.69%)"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "generated",
+     "warning: alpha: 225 logical pixels differ (16.93%)"
+    ],
+    [
+     "2026-10-12 14:46:14",
+     "review",
+     "warning: alpha: 225 logical pixels differ (16.93%)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "pending",
+     "take hero_attack_sword_thrust_2"
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "generated",
+     "warning: alpha: 225 logical pixels differ (16.93%)"
+    ],
+    [
+     "2026-10-12 14:51:48",
+     "review",
+     "warning: alpha: 225 logical pixels differ (16.93%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "e2501eb772c1198662feac6eac959158bb8f3f67a6cade19fbeedb0cf4c32f7d"
+  },
+  "sprite/0560/f0247": {
+   "entry": "sprite/0560/f0247",
+   "identity": "d8624ac1daf5fab2b48df6b9647f7143865fe9f382db6989b5acd6b211709a32",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(648, 576) want (648, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "160 logical pixels differ (12.01%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 1.37 px (origin [24, 56] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "pending",
+     "take hero_attack_sword_thrust_3"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "generated",
+     "warning: alpha: 138 logical pixels differ (10.36%)"
+    ],
+    [
+     "2026-10-12 05:31:11",
+     "review",
+     "warning: alpha: 138 logical pixels differ (10.36%)"
+    ],
+    [
+     "2026-10-12 13:48:25",
+     "pending",
+     "take hero_attack_sword_thrust_3"
+    ],
+    [
+     "2026-10-12 13:48:25",
+     "generated",
+     "warning: alpha: 120 logical pixels differ (9.01%); pivot: centroid moved 1.22 px (origin [24, 56] x 9)"
+    ],
+    [
+     "2026-10-12 13:48:25",
+     "review",
+     "warning: alpha: 120 logical pixels differ (9.01%); pivot: centroid moved 1.22 px (origin [24, 56] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:23",
+     "pending",
+     "take hero_attack_sword_thrust_3"
+    ],
+    [
+     "2026-10-12 14:46:23",
+     "generated",
+     "warning: alpha: 160 logical pixels differ (12.01%); pivot: centroid moved 1.37 px (origin [24, 56] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:23",
+     "review",
+     "warning: alpha: 160 logical pixels differ (12.01%); pivot: centroid moved 1.37 px (origin [24, 56] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:56",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:51:57",
+     "pending",
+     "take hero_attack_sword_thrust_3"
+    ],
+    [
+     "2026-10-12 14:51:57",
+     "generated",
+     "warning: alpha: 160 logical pixels differ (12.01%); pivot: centroid moved 1.37 px (origin [24, 56] x 9)"
+    ],
+    [
+     "2026-10-12 14:51:57",
+     "review",
+     "warning: alpha: 160 logical pixels differ (12.01%); pivot: centroid moved 1.37 px (origin [24, 56] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "fd997ac7d1843aa06e92ac6afbb55f19804ce279df5181fbb625b5a137867ecd"
+  },
+  "sprite/0765/f0001": {
+   "entry": "sprite/0765/f0001",
+   "identity": "650044fbf974f1a214611f3b7230c266bb37e2f60e13129760f508d4aeb07a92",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 576) want (432, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "175 logical pixels differ (16.13%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.57 px (origin [26, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:30:11",
+     "pending",
+     "alpha: 813 logical pixels differ (74.93%); pivot: centroid moved 3.59 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "generated",
+     "warning: alpha: 71 logical pixels differ (6.54%)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "review",
+     "warning: alpha: 71 logical pixels differ (6.54%)"
+    ],
+    [
+     "2026-10-12 13:32:23",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "generated",
+     "warning: alpha: 185 logical pixels differ (17.05%); pivot: centroid moved 1.04 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "review",
+     "warning: alpha: 185 logical pixels differ (17.05%); pivot: centroid moved 1.04 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "generated",
+     "warning: alpha: 144 logical pixels differ (13.27%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "review",
+     "warning: alpha: 144 logical pixels differ (13.27%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "generated",
+     "warning: alpha: 175 logical pixels differ (16.13%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "review",
+     "warning: alpha: 175 logical pixels differ (16.13%)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "generated",
+     "warning: alpha: 175 logical pixels differ (16.13%)"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "review",
+     "warning: alpha: 175 logical pixels differ (16.13%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "56ba3ff69783ccc12c21b0b2dbb70af099576616202c73b7d62ecbf7a7830592"
+  },
+  "sprite/0765/f0002": {
+   "entry": "sprite/0765/f0002",
+   "identity": "0f5eb28e2c8ec1817001872bd441861f2b8c3eaa31c89eeba7ccd20d7dd5bb77",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 576) want (432, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "215 logical pixels differ (19.82%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.71 px (origin [26, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:30:11",
+     "pending",
+     "alpha: 790 logical pixels differ (72.81%); pivot: centroid moved 3.13 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "generated",
+     "warning: alpha: 74 logical pixels differ (6.82%)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "review",
+     "warning: alpha: 74 logical pixels differ (6.82%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "generated",
+     "warning: alpha: 194 logical pixels differ (17.88%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "review",
+     "warning: alpha: 194 logical pixels differ (17.88%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "generated",
+     "warning: alpha: 164 logical pixels differ (15.12%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "review",
+     "warning: alpha: 164 logical pixels differ (15.12%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "generated",
+     "warning: alpha: 215 logical pixels differ (19.82%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "review",
+     "warning: alpha: 215 logical pixels differ (19.82%)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "generated",
+     "warning: alpha: 215 logical pixels differ (19.82%)"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "review",
+     "warning: alpha: 215 logical pixels differ (19.82%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "56ba3ff69783ccc12c21b0b2dbb70af099576616202c73b7d62ecbf7a7830592"
+  },
+  "sprite/0765/f0003": {
+   "entry": "sprite/0765/f0003",
+   "identity": "3226f031004c8a112591f835cc370a3d8a97a72f64e2d2391de5ebf5acd30483",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 576) want (432, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "197 logical pixels differ (18.16%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.07 px (origin [26, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:30:11",
+     "pending",
+     "alpha: 749 logical pixels differ (69.03%); pivot: centroid moved 5.43 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "generated",
+     "warning: alpha: 72 logical pixels differ (6.64%)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "review",
+     "warning: alpha: 72 logical pixels differ (6.64%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "generated",
+     "warning: alpha: 182 logical pixels differ (16.77%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "review",
+     "warning: alpha: 182 logical pixels differ (16.77%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "generated",
+     "warning: alpha: 148 logical pixels differ (13.64%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "review",
+     "warning: alpha: 148 logical pixels differ (13.64%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "generated",
+     "warning: alpha: 197 logical pixels differ (18.16%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "review",
+     "warning: alpha: 197 logical pixels differ (18.16%)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "generated",
+     "warning: alpha: 197 logical pixels differ (18.16%)"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "review",
+     "warning: alpha: 197 logical pixels differ (18.16%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "56ba3ff69783ccc12c21b0b2dbb70af099576616202c73b7d62ecbf7a7830592"
+  },
+  "sprite/0765/f0004": {
+   "entry": "sprite/0765/f0004",
+   "identity": "f7af5c079e7bff171e56f5211defad3ae14596f03b20d7bc848637eac7592690",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 576) want (432, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "225 logical pixels differ (20.70%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.97 px (origin [26, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:30:11",
+     "pending",
+     "alpha: 767 logical pixels differ (70.56%); pivot: centroid moved 10.61 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "generated",
+     "warning: alpha: 88 logical pixels differ (8.10%)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "review",
+     "warning: alpha: 88 logical pixels differ (8.10%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "generated",
+     "warning: alpha: 211 logical pixels differ (19.41%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "review",
+     "warning: alpha: 211 logical pixels differ (19.41%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "generated",
+     "warning: alpha: 175 logical pixels differ (16.10%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "review",
+     "warning: alpha: 175 logical pixels differ (16.10%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "generated",
+     "warning: alpha: 225 logical pixels differ (20.70%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "review",
+     "warning: alpha: 225 logical pixels differ (20.70%)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "generated",
+     "warning: alpha: 225 logical pixels differ (20.70%)"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "review",
+     "warning: alpha: 225 logical pixels differ (20.70%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "56ba3ff69783ccc12c21b0b2dbb70af099576616202c73b7d62ecbf7a7830592"
+  },
+  "sprite/0765/f0005": {
+   "entry": "sprite/0765/f0005",
+   "identity": "a844e0b22944923db7ebd25f05676a77ee9ad9b9036b1da6d9fa5a457b88611c",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 576) want (432, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "195 logical pixels differ (17.94%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 1.09 px (origin [26, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:30:11",
+     "pending",
+     "alpha: 1023 logical pixels differ (94.11%); pivot: centroid moved 25.35 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "generated",
+     "warning: alpha: 45 logical pixels differ (4.14%)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "review",
+     "warning: alpha: 45 logical pixels differ (4.14%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "generated",
+     "warning: alpha: 325 logical pixels differ (29.90%); pivot: centroid moved 1.43 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "review",
+     "warning: alpha: 325 logical pixels differ (29.90%); pivot: centroid moved 1.43 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "generated",
+     "warning: alpha: 157 logical pixels differ (14.44%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "review",
+     "warning: alpha: 157 logical pixels differ (14.44%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "generated",
+     "warning: alpha: 195 logical pixels differ (17.94%); pivot: centroid moved 1.09 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "review",
+     "warning: alpha: 195 logical pixels differ (17.94%); pivot: centroid moved 1.09 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "generated",
+     "warning: alpha: 195 logical pixels differ (17.94%); pivot: centroid moved 1.09 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "review",
+     "warning: alpha: 195 logical pixels differ (17.94%); pivot: centroid moved 1.09 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "56ba3ff69783ccc12c21b0b2dbb70af099576616202c73b7d62ecbf7a7830592"
+  },
+  "sprite/0765/f0006": {
+   "entry": "sprite/0765/f0006",
+   "identity": "edda4f0c64e166f5557fbddcf4a58c2e45f41c1dc9b4621d8f696afdb98ee2de",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 576) want (432, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "243 logical pixels differ (22.33%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 1.45 px (origin [26, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:30:11",
+     "pending",
+     "alpha: 1038 logical pixels differ (95.40%); pivot: centroid moved 26.18 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "generated",
+     "warning: alpha: 46 logical pixels differ (4.23%)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "review",
+     "warning: alpha: 46 logical pixels differ (4.23%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "generated",
+     "warning: alpha: 336 logical pixels differ (30.88%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "review",
+     "warning: alpha: 336 logical pixels differ (30.88%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "generated",
+     "warning: alpha: 175 logical pixels differ (16.08%); pivot: centroid moved 1.20 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "review",
+     "warning: alpha: 175 logical pixels differ (16.08%); pivot: centroid moved 1.20 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "generated",
+     "warning: alpha: 243 logical pixels differ (22.33%); pivot: centroid moved 1.45 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "review",
+     "warning: alpha: 243 logical pixels differ (22.33%); pivot: centroid moved 1.45 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:52:05",
+     "generated",
+     "warning: alpha: 243 logical pixels differ (22.33%); pivot: centroid moved 1.45 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:52:06",
+     "review",
+     "warning: alpha: 243 logical pixels differ (22.33%); pivot: centroid moved 1.45 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "56ba3ff69783ccc12c21b0b2dbb70af099576616202c73b7d62ecbf7a7830592"
+  },
+  "sprite/0765/f0007": {
+   "entry": "sprite/0765/f0007",
+   "identity": "e9e5ef387f611503f8965085f8671d7998a8c07ebf653ed1a7ac715e9916389e",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 576) want (432, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "233 logical pixels differ (21.30%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 1.00 px (origin [26, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:30:11",
+     "pending",
+     "alpha: 1061 logical pixels differ (96.98%); pivot: centroid moved 26.44 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "generated",
+     "warning: alpha: 66 logical pixels differ (6.03%)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "review",
+     "warning: alpha: 66 logical pixels differ (6.03%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "generated",
+     "warning: alpha: 383 logical pixels differ (35.01%); pivot: centroid moved 1.18 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "review",
+     "warning: alpha: 383 logical pixels differ (35.01%); pivot: centroid moved 1.18 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "generated",
+     "warning: alpha: 167 logical pixels differ (15.27%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "review",
+     "warning: alpha: 167 logical pixels differ (15.27%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "generated",
+     "warning: alpha: 233 logical pixels differ (21.30%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "review",
+     "warning: alpha: 233 logical pixels differ (21.30%)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:52:06",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:52:06",
+     "generated",
+     "warning: alpha: 233 logical pixels differ (21.30%)"
+    ],
+    [
+     "2026-10-12 14:52:06",
+     "review",
+     "warning: alpha: 233 logical pixels differ (21.30%)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "56ba3ff69783ccc12c21b0b2dbb70af099576616202c73b7d62ecbf7a7830592"
+  },
+  "sprite/0765/f0008": {
+   "entry": "sprite/0765/f0008",
+   "identity": "a12ea9ab729b2964d5ee5b1531fa223525bd0e58119776ef164455758b8bdd68",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(432, 576) want (432, 576)"
+    ],
+    [
+     "alpha",
+     false,
+     "266 logical pixels differ (24.34%)"
+    ],
+    [
+     "pivot",
+     false,
+     "centroid moved 1.26 px (origin [26, 62] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 04:30:11",
+     "pending",
+     "alpha: 1067 logical pixels differ (97.62%); pivot: centroid moved 27.42 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "generated",
+     "warning: alpha: 65 logical pixels differ (5.95%)"
+    ],
+    [
+     "2026-10-12 05:31:13",
+     "review",
+     "warning: alpha: 65 logical pixels differ (5.95%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "generated",
+     "warning: alpha: 367 logical pixels differ (33.58%)"
+    ],
+    [
+     "2026-10-12 13:32:24",
+     "review",
+     "warning: alpha: 367 logical pixels differ (33.58%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "generated",
+     "warning: alpha: 186 logical pixels differ (17.02%)"
+    ],
+    [
+     "2026-10-12 13:47:53",
+     "review",
+     "warning: alpha: 186 logical pixels differ (17.02%)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "generated",
+     "warning: alpha: 266 logical pixels differ (24.34%); pivot: centroid moved 1.26 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:45:36",
+     "review",
+     "warning: alpha: 266 logical pixels differ (24.34%); pivot: centroid moved 1.26 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:46:55",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 14:52:06",
+     "pending",
+     "take hero_idle"
+    ],
+    [
+     "2026-10-12 14:52:06",
+     "generated",
+     "warning: alpha: 266 logical pixels differ (24.34%); pivot: centroid moved 1.26 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 14:52:06",
+     "review",
+     "warning: alpha: 266 logical pixels differ (24.34%); pivot: centroid moved 1.26 px (origin [26, 62] x 9)"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "56ba3ff69783ccc12c21b0b2dbb70af099576616202c73b7d62ecbf7a7830592"
+  },
+  "level/TRAINING": {
+   "entry": "level/TRAINING",
+   "identity": "11a309e40880749208b4d9515cb473a546faf09afd905f8b3203a94e15f9ed80",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(18432, 4608) want (18432, 4608)"
+    ],
+    [
+     "alpha",
+     true,
+     "2517 logical pixels differ (0.38%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.29 px (origin [0, 0] x 9)"
+    ],
+    [
+     "seams",
+     false,
+     "1380 of 2537 tiling edge pairs broken"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 13:32:28",
+     "pending",
+     "take tile_training_936"
+    ],
+    [
+     "2026-10-12 13:32:32",
+     "generated",
+     "warning: seams: 2 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:32:37",
+     "review",
+     "warning: seams: 2 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:32:39",
+     "pending",
+     "take training_page_0_0_1"
+    ],
+    [
+     "2026-10-12 13:32:41",
+     "generated",
+     "warning: seams: 112 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:32:45",
+     "review",
+     "warning: seams: 112 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:32:47",
+     "pending",
+     "take training_page_0_0_2"
+    ],
+    [
+     "2026-10-12 13:32:49",
+     "generated",
+     "warning: seams: 132 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:32:54",
+     "review",
+     "warning: seams: 132 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:32:56",
+     "pending",
+     "take training_page_0_0_3"
+    ],
+    [
+     "2026-10-12 13:32:59",
+     "generated",
+     "warning: seams: 150 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:33:03",
+     "review",
+     "warning: seams: 150 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:33:06",
+     "pending",
+     "take training_page_0_0_4"
+    ],
+    [
+     "2026-10-12 13:33:10",
+     "generated",
+     "warning: seams: 150 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:33:16",
+     "review",
+     "warning: seams: 150 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:33:19",
+     "pending",
+     "take training_page_0_1_1"
+    ],
+    [
+     "2026-10-12 13:33:22",
+     "generated",
+     "warning: seams: 151 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:33:28",
+     "review",
+     "warning: seams: 151 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:33:32",
+     "pending",
+     "take training_page_0_1_2"
+    ],
+    [
+     "2026-10-12 13:33:35",
+     "generated",
+     "warning: seams: 151 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:33:41",
+     "review",
+     "warning: seams: 151 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:33:45",
+     "pending",
+     "take training_page_0_1_3"
+    ],
+    [
+     "2026-10-12 13:33:49",
+     "generated",
+     "warning: seams: 151 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:33:56",
+     "review",
+     "warning: seams: 151 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:34:01",
+     "pending",
+     "take training_page_0_1_4"
+    ],
+    [
+     "2026-10-12 13:34:03",
+     "generated",
+     "warning: seams: 170 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:34:10",
+     "review",
+     "warning: seams: 170 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:34:14",
+     "pending",
+     "take training_page_1_0_3"
+    ],
+    [
+     "2026-10-12 13:34:17",
+     "generated",
+     "warning: seams: 217 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:34:24",
+     "review",
+     "warning: seams: 217 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:34:30",
+     "pending",
+     "take training_page_1_0_4"
+    ],
+    [
+     "2026-10-12 13:34:33",
+     "generated",
+     "warning: seams: 303 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:34:40",
+     "review",
+     "warning: seams: 303 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:34:45",
+     "pending",
+     "take training_page_1_1_1"
+    ],
+    [
+     "2026-10-12 13:34:47",
+     "generated",
+     "warning: seams: 305 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:34:55",
+     "review",
+     "warning: seams: 305 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:34:59",
+     "pending",
+     "take training_page_1_1_2"
+    ],
+    [
+     "2026-10-12 13:35:03",
+     "generated",
+     "warning: seams: 308 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:35:10",
+     "review",
+     "warning: seams: 308 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:35:15",
+     "pending",
+     "take training_page_1_1_3"
+    ],
+    [
+     "2026-10-12 13:35:18",
+     "generated",
+     "warning: seams: 308 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:35:25",
+     "review",
+     "warning: seams: 308 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:35:29",
+     "pending",
+     "take training_page_1_1_4"
+    ],
+    [
+     "2026-10-12 13:35:32",
+     "generated",
+     "warning: seams: 313 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:35:39",
+     "review",
+     "warning: seams: 313 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:35:44",
+     "pending",
+     "take training_page_2_0_1"
+    ],
+    [
+     "2026-10-12 13:35:48",
+     "generated",
+     "warning: seams: 313 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:35:56",
+     "review",
+     "warning: seams: 313 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:36:00",
+     "pending",
+     "take training_page_2_0_2"
+    ],
+    [
+     "2026-10-12 13:36:03",
+     "generated",
+     "warning: seams: 325 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:36:10",
+     "review",
+     "warning: seams: 325 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:36:15",
+     "pending",
+     "take training_page_2_0_3"
+    ],
+    [
+     "2026-10-12 13:36:18",
+     "generated",
+     "warning: seams: 331 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:36:25",
+     "review",
+     "warning: seams: 331 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:36:30",
+     "pending",
+     "take training_page_2_0_4"
+    ],
+    [
+     "2026-10-12 13:36:32",
+     "generated",
+     "warning: seams: 345 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:36:39",
+     "review",
+     "warning: seams: 345 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:36:44",
+     "pending",
+     "take training_page_2_1_1"
+    ],
+    [
+     "2026-10-12 13:36:47",
+     "generated",
+     "warning: seams: 356 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:36:54",
+     "review",
+     "warning: seams: 356 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:36:59",
+     "pending",
+     "take training_page_2_1_3"
+    ],
+    [
+     "2026-10-12 13:37:02",
+     "generated",
+     "warning: seams: 380 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:37:09",
+     "review",
+     "warning: seams: 380 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:37:14",
+     "pending",
+     "take training_page_2_1_4"
+    ],
+    [
+     "2026-10-12 13:37:17",
+     "generated",
+     "warning: seams: 388 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:37:24",
+     "review",
+     "warning: seams: 388 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:37:29",
+     "pending",
+     "take training_page_3_0_1"
+    ],
+    [
+     "2026-10-12 13:37:32",
+     "generated",
+     "warning: seams: 430 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:37:39",
+     "review",
+     "warning: seams: 430 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:37:44",
+     "pending",
+     "take training_page_3_0_2"
+    ],
+    [
+     "2026-10-12 13:37:47",
+     "generated",
+     "warning: seams: 568 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:37:55",
+     "review",
+     "warning: seams: 568 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:38:00",
+     "pending",
+     "take training_page_3_0_3"
+    ],
+    [
+     "2026-10-12 13:38:02",
+     "generated",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:38:10",
+     "review",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:38:15",
+     "pending",
+     "take training_page_3_0_4"
+    ],
+    [
+     "2026-10-12 13:38:18",
+     "generated",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:38:26",
+     "review",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:38:31",
+     "pending",
+     "take training_page_3_1_1"
+    ],
+    [
+     "2026-10-12 13:38:34",
+     "generated",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:38:42",
+     "review",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:38:47",
+     "pending",
+     "take training_page_3_1_2"
+    ],
+    [
+     "2026-10-12 13:38:50",
+     "generated",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:38:58",
+     "review",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:39:03",
+     "pending",
+     "take training_page_3_1_3"
+    ],
+    [
+     "2026-10-12 13:39:06",
+     "generated",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:39:14",
+     "review",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:39:20",
+     "pending",
+     "take training_page_3_1_4"
+    ],
+    [
+     "2026-10-12 13:39:23",
+     "generated",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:39:31",
+     "review",
+     "warning: seams: 601 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:39:37",
+     "pending",
+     "take training_page_4_0_1"
+    ],
+    [
+     "2026-10-12 13:39:40",
+     "generated",
+     "warning: seams: 620 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:39:48",
+     "review",
+     "warning: seams: 620 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:39:53",
+     "pending",
+     "take training_page_4_0_2"
+    ],
+    [
+     "2026-10-12 13:39:56",
+     "generated",
+     "warning: seams: 620 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:40:05",
+     "review",
+     "warning: seams: 620 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:40:10",
+     "pending",
+     "take training_page_4_0_3"
+    ],
+    [
+     "2026-10-12 13:40:13",
+     "generated",
+     "warning: seams: 670 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:40:22",
+     "review",
+     "warning: seams: 670 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:40:28",
+     "pending",
+     "take training_page_4_0_4"
+    ],
+    [
+     "2026-10-12 13:40:31",
+     "generated",
+     "warning: seams: 702 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:40:39",
+     "review",
+     "warning: seams: 702 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:40:45",
+     "pending",
+     "take training_page_4_1_1"
+    ],
+    [
+     "2026-10-12 13:40:48",
+     "generated",
+     "warning: seams: 721 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:40:57",
+     "review",
+     "warning: seams: 721 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:41:03",
+     "pending",
+     "take training_page_4_1_2"
+    ],
+    [
+     "2026-10-12 13:41:05",
+     "generated",
+     "warning: seams: 737 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:41:14",
+     "review",
+     "warning: seams: 737 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:41:20",
+     "pending",
+     "take training_page_4_1_3"
+    ],
+    [
+     "2026-10-12 13:41:23",
+     "generated",
+     "warning: seams: 749 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:41:31",
+     "review",
+     "warning: seams: 749 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:41:38",
+     "pending",
+     "take training_page_4_1_4"
+    ],
+    [
+     "2026-10-12 13:41:41",
+     "generated",
+     "warning: seams: 981 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:41:49",
+     "review",
+     "warning: seams: 981 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:41:56",
+     "pending",
+     "take training_page_5_0_1"
+    ],
+    [
+     "2026-10-12 13:41:59",
+     "generated",
+     "warning: seams: 1019 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:42:07",
+     "review",
+     "warning: seams: 1019 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:42:14",
+     "pending",
+     "take training_page_5_0_2"
+    ],
+    [
+     "2026-10-12 13:42:17",
+     "generated",
+     "warning: seams: 1032 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:42:25",
+     "review",
+     "warning: seams: 1032 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:42:32",
+     "pending",
+     "take training_page_5_0_3"
+    ],
+    [
+     "2026-10-12 13:42:35",
+     "generated",
+     "warning: seams: 1047 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:42:44",
+     "review",
+     "warning: seams: 1047 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:42:51",
+     "pending",
+     "take training_page_5_0_4"
+    ],
+    [
+     "2026-10-12 13:42:54",
+     "generated",
+     "warning: seams: 1076 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:43:03",
+     "review",
+     "warning: seams: 1076 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:43:10",
+     "pending",
+     "take training_page_5_1_1"
+    ],
+    [
+     "2026-10-12 13:43:13",
+     "generated",
+     "warning: seams: 1116 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:43:23",
+     "review",
+     "warning: seams: 1116 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:43:31",
+     "pending",
+     "take training_page_5_1_2"
+    ],
+    [
+     "2026-10-12 13:43:36",
+     "generated",
+     "warning: seams: 1146 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:43:46",
+     "review",
+     "warning: seams: 1146 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:43:54",
+     "pending",
+     "take training_page_6_1_1"
+    ],
+    [
+     "2026-10-12 13:43:58",
+     "generated",
+     "warning: seams: 1228 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:44:08",
+     "review",
+     "warning: seams: 1228 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:44:17",
+     "pending",
+     "take training_page_6_1_2"
+    ],
+    [
+     "2026-10-12 13:44:20",
+     "generated",
+     "warning: seams: 1270 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:44:31",
+     "review",
+     "warning: seams: 1270 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:44:42",
+     "pending",
+     "take training_page_7_1_1"
+    ],
+    [
+     "2026-10-12 13:44:46",
+     "generated",
+     "warning: seams: 1319 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 13:44:57",
+     "review",
+     "warning: seams: 1319 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:36:47",
+     "pending",
+     "take training_page_1_0_1"
+    ],
+    [
+     "2026-10-12 14:36:51",
+     "generated",
+     "warning: seams: 1426 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:37:01",
+     "review",
+     "warning: seams: 1426 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:37:09",
+     "pending",
+     "take training_page_1_0_2"
+    ],
+    [
+     "2026-10-12 14:37:13",
+     "generated",
+     "warning: seams: 1472 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:37:22",
+     "review",
+     "warning: seams: 1472 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:37:31",
+     "pending",
+     "take training_page_2_1_2"
+    ],
+    [
+     "2026-10-12 14:37:34",
+     "generated",
+     "warning: seams: 1472 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:37:44",
+     "review",
+     "warning: seams: 1472 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:50:50",
+     "pending",
+     "take training_page_0_0_1"
+    ],
+    [
+     "2026-10-12 14:50:54",
+     "generated",
+     "warning: seams: 1472 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:51:05",
+     "review",
+     "warning: seams: 1472 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:52:29",
+     "pending",
+     "take tile_training_936"
+    ],
+    [
+     "2026-10-12 14:52:33",
+     "generated",
+     "warning: seams: 1472 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:52:43",
+     "review",
+     "warning: seams: 1472 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:52:52",
+     "pending",
+     "take training_page_0_0_2"
+    ],
+    [
+     "2026-10-12 14:52:56",
+     "generated",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:53:06",
+     "review",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:53:15",
+     "pending",
+     "take training_page_0_0_3"
+    ],
+    [
+     "2026-10-12 14:53:19",
+     "generated",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:53:29",
+     "review",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:53:38",
+     "pending",
+     "take training_page_0_0_4"
+    ],
+    [
+     "2026-10-12 14:53:42",
+     "generated",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:53:52",
+     "review",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:54:02",
+     "pending",
+     "take training_page_0_1_1"
+    ],
+    [
+     "2026-10-12 14:54:06",
+     "generated",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:54:17",
+     "review",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:54:26",
+     "pending",
+     "take training_page_0_1_2"
+    ],
+    [
+     "2026-10-12 14:54:30",
+     "generated",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:54:40",
+     "review",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:54:49",
+     "pending",
+     "take training_page_0_1_3"
+    ],
+    [
+     "2026-10-12 14:54:53",
+     "generated",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:55:03",
+     "review",
+     "warning: seams: 1470 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:55:14",
+     "pending",
+     "take training_page_0_1_4"
+    ],
+    [
+     "2026-10-12 14:55:18",
+     "generated",
+     "warning: seams: 1462 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:55:29",
+     "review",
+     "warning: seams: 1462 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:55:39",
+     "pending",
+     "take training_page_1_0_1"
+    ],
+    [
+     "2026-10-12 14:55:43",
+     "generated",
+     "warning: seams: 1454 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:55:53",
+     "review",
+     "warning: seams: 1454 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:56:02",
+     "pending",
+     "take training_page_1_0_2"
+    ],
+    [
+     "2026-10-12 14:56:05",
+     "generated",
+     "warning: seams: 1448 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:56:15",
+     "review",
+     "warning: seams: 1448 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:56:26",
+     "pending",
+     "take training_page_1_0_3"
+    ],
+    [
+     "2026-10-12 14:56:29",
+     "generated",
+     "warning: seams: 1448 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:56:39",
+     "review",
+     "warning: seams: 1448 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:56:48",
+     "pending",
+     "take training_page_1_0_4"
+    ],
+    [
+     "2026-10-12 14:56:52",
+     "generated",
+     "warning: seams: 1449 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:57:02",
+     "review",
+     "warning: seams: 1449 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:57:11",
+     "pending",
+     "take training_page_1_1_1"
+    ],
+    [
+     "2026-10-12 14:57:14",
+     "generated",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:57:25",
+     "review",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:57:34",
+     "pending",
+     "take training_page_1_1_2"
+    ],
+    [
+     "2026-10-12 14:57:37",
+     "generated",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:57:48",
+     "review",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:57:57",
+     "pending",
+     "take training_page_1_1_3"
+    ],
+    [
+     "2026-10-12 14:58:00",
+     "generated",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:58:11",
+     "review",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:58:20",
+     "pending",
+     "take training_page_1_1_4"
+    ],
+    [
+     "2026-10-12 14:58:23",
+     "generated",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:58:33",
+     "review",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:58:43",
+     "pending",
+     "take training_page_2_0_1"
+    ],
+    [
+     "2026-10-12 14:58:47",
+     "generated",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:58:58",
+     "review",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:59:08",
+     "pending",
+     "take training_page_2_0_2"
+    ],
+    [
+     "2026-10-12 14:59:15",
+     "generated",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:59:25",
+     "review",
+     "warning: seams: 1447 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:59:34",
+     "pending",
+     "take training_page_2_0_3"
+    ],
+    [
+     "2026-10-12 14:59:38",
+     "generated",
+     "warning: seams: 1444 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:59:48",
+     "review",
+     "warning: seams: 1444 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 14:59:57",
+     "pending",
+     "take training_page_2_0_4"
+    ],
+    [
+     "2026-10-12 15:00:01",
+     "generated",
+     "warning: seams: 1439 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:00:12",
+     "review",
+     "warning: seams: 1439 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:00:21",
+     "pending",
+     "take training_page_2_1_1"
+    ],
+    [
+     "2026-10-12 15:00:25",
+     "generated",
+     "warning: seams: 1440 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:00:36",
+     "review",
+     "warning: seams: 1440 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:00:45",
+     "pending",
+     "take training_page_2_1_2"
+    ],
+    [
+     "2026-10-12 15:00:49",
+     "generated",
+     "warning: seams: 1440 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:00:59",
+     "review",
+     "warning: seams: 1440 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:01:09",
+     "pending",
+     "take training_page_2_1_3"
+    ],
+    [
+     "2026-10-12 15:01:12",
+     "generated",
+     "warning: seams: 1439 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:01:23",
+     "review",
+     "warning: seams: 1439 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:01:34",
+     "pending",
+     "take training_page_2_1_4"
+    ],
+    [
+     "2026-10-12 15:01:38",
+     "generated",
+     "warning: seams: 1443 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:01:49",
+     "review",
+     "warning: seams: 1443 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:01:58",
+     "pending",
+     "take training_page_3_0_1"
+    ],
+    [
+     "2026-10-12 15:02:01",
+     "generated",
+     "warning: seams: 1439 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:02:12",
+     "review",
+     "warning: seams: 1439 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:02:21",
+     "pending",
+     "take training_page_3_0_2"
+    ],
+    [
+     "2026-10-12 15:02:26",
+     "generated",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:02:36",
+     "review",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:02:46",
+     "pending",
+     "take training_page_3_0_3"
+    ],
+    [
+     "2026-10-12 15:02:49",
+     "generated",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:02:59",
+     "review",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:03:09",
+     "pending",
+     "take training_page_3_0_4"
+    ],
+    [
+     "2026-10-12 15:03:13",
+     "generated",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:03:24",
+     "review",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:03:34",
+     "pending",
+     "take training_page_3_1_1"
+    ],
+    [
+     "2026-10-12 15:03:38",
+     "generated",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:03:49",
+     "review",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:03:58",
+     "pending",
+     "take training_page_3_1_2"
+    ],
+    [
+     "2026-10-12 15:04:03",
+     "generated",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:04:14",
+     "review",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:04:25",
+     "pending",
+     "take training_page_3_1_3"
+    ],
+    [
+     "2026-10-12 15:04:29",
+     "generated",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:04:40",
+     "review",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:04:51",
+     "pending",
+     "take training_page_3_1_4"
+    ],
+    [
+     "2026-10-12 15:04:54",
+     "generated",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:05:05",
+     "review",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:05:16",
+     "pending",
+     "take training_page_4_0_1"
+    ],
+    [
+     "2026-10-12 15:05:21",
+     "generated",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:05:31",
+     "review",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:05:40",
+     "pending",
+     "take training_page_4_0_2"
+    ],
+    [
+     "2026-10-12 15:05:45",
+     "generated",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:05:56",
+     "review",
+     "warning: seams: 1437 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:06:07",
+     "pending",
+     "take training_page_4_0_3"
+    ],
+    [
+     "2026-10-12 15:06:11",
+     "generated",
+     "warning: seams: 1427 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:06:21",
+     "review",
+     "warning: seams: 1427 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:06:30",
+     "pending",
+     "take training_page_4_0_4"
+    ],
+    [
+     "2026-10-12 15:06:34",
+     "generated",
+     "warning: seams: 1425 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:06:44",
+     "review",
+     "warning: seams: 1425 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:06:53",
+     "pending",
+     "take training_page_4_1_1"
+    ],
+    [
+     "2026-10-12 15:06:56",
+     "generated",
+     "warning: seams: 1424 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:07:06",
+     "review",
+     "warning: seams: 1424 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:07:15",
+     "pending",
+     "take training_page_4_1_2"
+    ],
+    [
+     "2026-10-12 15:07:19",
+     "generated",
+     "warning: seams: 1422 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:07:29",
+     "review",
+     "warning: seams: 1422 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:07:38",
+     "pending",
+     "take training_page_4_1_3"
+    ],
+    [
+     "2026-10-12 15:07:41",
+     "generated",
+     "warning: seams: 1422 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:07:51",
+     "review",
+     "warning: seams: 1422 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:08:01",
+     "pending",
+     "take training_page_4_1_4"
+    ],
+    [
+     "2026-10-12 15:08:04",
+     "generated",
+     "warning: seams: 1393 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:08:14",
+     "review",
+     "warning: seams: 1393 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:08:25",
+     "pending",
+     "take training_page_5_0_1"
+    ],
+    [
+     "2026-10-12 15:08:28",
+     "generated",
+     "warning: seams: 1391 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:08:39",
+     "review",
+     "warning: seams: 1391 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:08:48",
+     "pending",
+     "take training_page_5_0_2"
+    ],
+    [
+     "2026-10-12 15:08:52",
+     "generated",
+     "warning: seams: 1390 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:09:02",
+     "review",
+     "warning: seams: 1390 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:09:11",
+     "pending",
+     "take training_page_5_0_3"
+    ],
+    [
+     "2026-10-12 15:09:14",
+     "generated",
+     "warning: seams: 1392 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:09:25",
+     "review",
+     "warning: seams: 1392 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:09:34",
+     "pending",
+     "take training_page_5_0_4"
+    ],
+    [
+     "2026-10-12 15:09:37",
+     "generated",
+     "warning: seams: 1389 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:09:47",
+     "review",
+     "warning: seams: 1389 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:09:57",
+     "pending",
+     "take training_page_5_1_1"
+    ],
+    [
+     "2026-10-12 15:10:00",
+     "generated",
+     "warning: seams: 1386 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:10:10",
+     "review",
+     "warning: seams: 1386 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:10:20",
+     "pending",
+     "take training_page_5_1_2"
+    ],
+    [
+     "2026-10-12 15:10:23",
+     "generated",
+     "warning: seams: 1387 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:10:33",
+     "review",
+     "warning: seams: 1387 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:10:43",
+     "pending",
+     "take training_page_6_1_1"
+    ],
+    [
+     "2026-10-12 15:10:46",
+     "generated",
+     "warning: seams: 1381 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:10:56",
+     "review",
+     "warning: seams: 1381 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:11:08",
+     "pending",
+     "take training_page_6_1_2"
+    ],
+    [
+     "2026-10-12 15:11:11",
+     "generated",
+     "warning: seams: 1380 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:11:21",
+     "review",
+     "warning: seams: 1380 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:11:30",
+     "pending",
+     "take training_page_7_1_1"
+    ],
+    [
+     "2026-10-12 15:11:33",
+     "generated",
+     "warning: seams: 1380 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:11:43",
+     "review",
+     "warning: seams: 1380 of 2537 tiling edge pairs broken"
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "2f5e34d50754a4e0df08f1ed7e26ab671fc8b9361655f9f356cb7f3feee142af"
+  },
+  "ui/STPANEL1": {
+   "entry": "ui/STPANEL1",
+   "identity": "dd81b47ad3b94ef54ab918245bbfc4850b8ece040200f94604ffba1199c2724a",
+   "generator": "manual",
+   "settings": {},
+   "attempts": 0,
+   "state": "packed",
+   "checks": [
+    [
+     "size",
+     true,
+     "(2304, 4608) want (2304, 4608)"
+    ],
+    [
+     "alpha",
+     true,
+     "79 logical pixels differ (0.09%)"
+    ],
+    [
+     "pivot",
+     true,
+     "centroid moved 0.16 px (origin [0, 0] x 9)"
+    ]
+   ],
+   "history": [
+    [
+     "2026-10-12 04:24:23",
+     "pending",
+     "added"
+    ],
+    [
+     "2026-10-12 13:44:58",
+     "pending",
+     "take ui_hud_clouds"
+    ],
+    [
+     "2026-10-12 13:44:58",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 13:44:59",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 14:47:32",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:11:45",
+     "pending",
+     "take ui_hud_clouds"
+    ],
+    [
+     "2026-10-12 15:11:46",
+     "generated",
+     ""
+    ],
+    [
+     "2026-10-12 15:11:46",
+     "review",
+     ""
+    ],
+    [
+     "2026-10-12 15:12:04",
+     "approved",
+     ""
+    ],
+    [
+     "2026-10-12 15:13:05",
+     "packed",
+     ""
+    ]
+   ],
+   "sheet": "ef75fc9131c6d759b34aa1c4439eff5d852cbeacc2a5ac4ab060ec3af27119ac"
+  }
+ }
+}

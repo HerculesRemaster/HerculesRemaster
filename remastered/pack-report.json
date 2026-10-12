@@ -1,0 +1,15 @@
+{
+ "entries": 10571,
+ "skipped": {},
+ "files": 100125,
+ "duplicate_keys": 8391,
+ "periodic_level_blocks": 0,
+ "flat_level_blocks": 0,
+ "texture_mb": {
+  "sprite": 2127.2,
+  "level": 2593.8,
+  "ui": 4.1,
+  "screen": 50.6
+ },
+ "texture_mb_total": 4775.8
+}
