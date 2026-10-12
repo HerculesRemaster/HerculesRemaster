@@ -6,7 +6,9 @@ game files. The game runs unchanged; the add-on replaces how it is drawn:
 
 - fullscreen borderless on modern Windows (any resolution, integer scaling, 4:3 with side bars)
 - a GPU renderer that redraws the game at the screen's resolution (9x at 3840x2160)
-- optional 4K replacement art (art\ folder), drawn at the original size, position and timing
+- 4K art (art\ folder), drawn at the original size, position and timing: redrawn art for the pilot set
+  (Hercules idle/run/sword, the Stymphalian birds, the Training level and the HUD), and every other
+  sprite, level texture and screen smoothed to 9x (art\smooth, Scale3x twice on the palette indices)
 
 Install
   PowerShell in this folder:   .\install.ps1 -GameDir "C:\path\to\Hercules"
@@ -18,7 +20,8 @@ Uninstall
 
 Settings (hercules_display.ini next to HERCULES.EXE)
   mode = borderless | windowed     renderer = gpu | gdi (original 8-bit picture, scaled)
-  scale = integer | fit | stretch  art_families = sprite,level,ui,screen (which art to use)
+  scale = integer | fit | stretch  art_families = sprite,level,ui,screen,smooth (which art to use;
+                                   the first listed folder that has a texture wins)
   dev = on shows a debug overlay.  In game, F11 switches the replacement art on and off.
 
 Saves and settings

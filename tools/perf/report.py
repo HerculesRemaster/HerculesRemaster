@@ -1,11 +1,12 @@
 """Frame-time report from the renderer's HERC_PERF CSV (runtime/display/gpu_renderer.cpp).
 
-report.py <perf.csv> [...] [--budget 16.67] [--stall 50]
+report.py <perf.csv> [...] [--budget 16.67] [--stall 50] [--from-frame 1700]
 
 Per file: renderer cost per frame (CPU until Present + GPU time, p50/p95/max) against the budget
 (Q-05: 16.67 ms p95 at 3840x2160), present interval p50/p95 (the game ticks at 30 Hz, so ~33 ms),
 stalls (intervals above --stall ms), load gaps (game frame counter jumps or intervals > 250 ms) and
-art texture memory. Prints one block per file; exit code 1 if a budget is missed.
+art texture memory. --from-frame skips the intro/title (the level harness is in the level from
+about frame 1600; tools/trace/level_sweep.ps1 shoots at 1700+). Prints one block per file; exit code 1 if a budget is missed.
 """
 import argparse
 import csv
@@ -18,8 +19,8 @@ def pct(v, p):
     return v[min(len(v) - 1, int(round(p / 100 * (len(v) - 1))))] if v else float("nan")
 
 
-def report(path, budget, stall):
-    rows = list(csv.DictReader(open(path, encoding="utf-8")))[2:]           # first rows: warm-up
+def report(path, budget, stall, first=0):
+    rows = [r for r in list(csv.DictReader(open(path, encoding="utf-8")))[2:] if int(r["frame"]) >= first]   # skip warm-up
     if not rows:
         print(f"{path}: no rows")
         return True
@@ -43,5 +44,6 @@ if __name__ == "__main__":
     ap.add_argument("csv", nargs="+")
     ap.add_argument("--budget", type=float, default=16.67)
     ap.add_argument("--stall", type=float, default=50)
+    ap.add_argument("--from-frame", type=int, default=1700)
     a = ap.parse_args()
-    sys.exit(0 if all([report(p, a.budget, a.stall) for p in a.csv]) else 1)
+    sys.exit(0 if all([report(p, a.budget, a.stall, a.from_frame) for p in a.csv]) else 1)

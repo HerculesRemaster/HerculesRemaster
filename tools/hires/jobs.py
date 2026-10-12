@@ -14,6 +14,8 @@ jobs.py run [<sel>] [--limit N]                           generate pending jobs 
 jobs.py review [<sel>]                                    generated -> review, writes side-by-side sheets
 jobs.py approve <sel> | reject <sel> [--note TEXT]        review -> approved / back to pending
 jobs.py pack [--allow-partial]                            approved -> packed (atlas.py)
+jobs.py preview                                           review + approved + packed -> working/game/art_preview/
+                                                          (states unchanged; in game: art_dir = art_preview)
 jobs.py status [<sel>]
 
 State: remastered/jobs.json. Job identity = sha256(source sha256 + entry id + generator + settings +
@@ -238,6 +240,17 @@ def cmd_pack(db, a):
               "to see the approved frames in game now: jobs.py pack --allow-partial")
 
 
+def cmd_preview(db, a):
+    import shutil
+    import atlas
+    out = common.ART_DIR.parent / "art_preview"
+    shutil.rmtree(out, ignore_errors=True)
+    ids = [j["entry"] for j in db["jobs"].values() if j["state"] in ("review", "approved", "packed")]
+    r = atlas.pack(ids, art_dir=out, allow_partial=True, write_report=False)
+    print(json.dumps(r["report"], indent=1))
+    print(f"preview art in {out}; set art_dir = art_preview in hercules_display.ini (F11 toggles art)")
+
+
 def cmd_status(db, a):
     from collections import Counter
     js = select(db, a.pattern)
@@ -252,17 +265,18 @@ def main(argv=None) -> int:
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("take"); p.add_argument("pack", nargs="?")
     p.add_argument("--force", action="store_true")
-    p.add_argument("--grow", type=int, default=4); p.add_argument("--no-snap", action="store_true"); p.add_argument("--no-align", action="store_true")
+    p.add_argument("--grow", type=int, default=9); p.add_argument("--no-snap", action="store_true"); p.add_argument("--no-align", action="store_true")
     p = sub.add_parser("add"); p.add_argument("pattern"); p.add_argument("--generator", default="manual"); p.add_argument("--settings")
     p = sub.add_parser("run"); p.add_argument("pattern", nargs="?"); p.add_argument("--limit", type=int)
     p = sub.add_parser("review"); p.add_argument("pattern", nargs="?")
     for name in ("approve", "reject"):
         p = sub.add_parser(name); p.add_argument("pattern"); p.add_argument("--note")
     p = sub.add_parser("pack"); p.add_argument("--allow-partial", action="store_true")
+    sub.add_parser("preview")
     p = sub.add_parser("status"); p.add_argument("pattern", nargs="?")
     a = ap.parse_args(argv)
     db = load()
-    {"take": cmd_take, "add": cmd_add, "run": cmd_run, "review": cmd_review, "pack": cmd_pack, "status": cmd_status,
+    {"take": cmd_take, "add": cmd_add, "run": cmd_run, "review": cmd_review, "pack": cmd_pack, "preview": cmd_preview, "status": cmd_status,
      "approve": lambda d, x: cmd_decide(d, x, True), "reject": lambda d, x: cmd_decide(d, x, False)}[a.cmd](db, a)
     return 0
 

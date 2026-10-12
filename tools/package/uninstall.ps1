@@ -9,7 +9,7 @@ $list = Join-Path $backup "installed-files.txt"
 if (-not (Test-Path $list)) { throw "no installation record in $backup" }
 foreach ($rel in Get-Content $list) {
     $dst = Join-Path $GameDir $rel
-    if (Test-Path $dst) { Remove-Item $dst -Force }
+    if (Test-Path $dst) { Remove-Item $dst -Recurse -Force }
     $old = Join-Path $backup $rel
     if (Test-Path $old) { Copy-Item $old $dst -Force }
 }

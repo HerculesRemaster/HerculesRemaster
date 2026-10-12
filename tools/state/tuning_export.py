@@ -52,7 +52,7 @@ def main():
     e1 = "ENG1.DLL"
     out = [
         {"id": "eng1.hero_damage", "program": e1, "rva": "0x55348", "entity": "hero (ENG1 levels)", "scenario": "all ENG1",
-         "representation": "s32 x 8 per difficulty (stride 0x20), index = hit strength - 1",
+         "representation": "s32 x 8 per difficulty (stride 0x20), index = (stored hit - 1) & 7; HERO_RequestDamage(obj, n) stores n + 1 (bit 0x10 cleared = light hit), so index = n & 7 for n < 0x10",
          "by_difficulty": table(e1, 0x55348, 0x20, "<8i"), "source": "HERO_ApplyDamage ENG1 0x18c50", "status": "VERIFIED-STATIC"},
         {"id": "eng1.enemy_hp", "program": e1, "rva": "0x24270", "entity": "enemy (ENG1 HERO_EnemyInitHp)", "scenario": "all ENG1",
          "representation": "formula", "formula": "obj+0xee = difficulty*2 + 6",
@@ -79,6 +79,40 @@ def main():
                 "representation": "formula", "formula": "attack count = rnd(3) + 1 + difficulty",
                 "by_difficulty": {d: f"rnd(3)+{1 + i}" for i, d in enumerate(D)}, "source": "HERO_NessusUpdate ENG1 0xbc50",
                 "status": "VERIFIED-STATIC (gamehercules-22)"})
+    # ENG1 additions (L03-L10 GP.06, session gamehercules-c?): tables and formulas from the level RE notes
+    out.append({"id": "eng1.medusa_tables", "program": e1, "rva": ["0x58b08", "0x58ba0", "0x58c40", "0x58ce0", "0x58d10", "0x58d38"],
+                "entity": "medusa boss", "scenario": "L06 MEDUSA",
+                "representation": "two table addresses per difficulty (-> 0x6fcf8, 0x6fe0c; contents: layout open)",
+                "by_difficulty": {"Beginner": ["0x58b08", "0x58ce0"], "Medium": ["0x58ba0", "0x58d10"], "Herculean": ["0x58c40", "0x58d38"]},
+                "source": "LVL_InitMedusa ENG1 0x21050", "status": "VERIFIED-STATIC"})
+    dm = table(e1, 0x55348, 0x20, "<8i")
+    out.append({"id": "eng1.flight_damage", "program": e1, "rva": "0x55348", "entity": "hero in flight (TITANS)", "scenario": "L08 TITANS",
+                "representation": "HERO_ApplyDamageInFlight(level): table 0x55348[difficulty][level] directly (level >= 8: 1); hazards pass level 2 or 3",
+                "by_difficulty": {d: {"level 2": dm[d][2], "level 3": dm[d][3]} for d in D},
+                "source": "HERO_ApplyDamageInFlight ENG1 0x37e30 (callers 0x389c0, 0x39530, 0x398b0, 0x39cf0, 0x3a550, 0x3c4d0, 0x3c510)",
+                "status": "VERIFIED-STATIC"})
+    for ident, scen, ent, f, src in (
+            ("eng1.minotaur_gauge", "L04 THEBES", "Minotaur (kind 0x37)", lambda i: 256 // (i * 2 + 6) + 1,
+             "HERO_MinotaurUpdate ENG1 0x24320 (0x72184 = 256/(difficulty*2+6)+1 per hit; 300 on the last hit point)"),
+            ("eng1.harpy_gauge", "L04 THEBES", "harpy (kind 0x38) defeat", lambda i: 256 // (i * 6 + 7) + 1,
+             "HERO_HarpiesUpdate ENG1 0x105a0 (0x72184 = 256/(difficulty*6+7)+1 at defeat)")):
+        out.append({"id": ident, "program": e1, "rva": src.split()[2], "entity": ent, "scenario": scen,
+                    "representation": "formula (boss-gauge step 0x72184)", "formula": src.split("(", 1)[1].rstrip(")"),
+                    "by_difficulty": {d: f(i) for i, d in enumerate(D)}, "source": src.split(" (")[0], "status": "VERIFIED-STATIC"})
+    for slug, lvl in (("L01", "TRAINING"), ("L03", "FOREST"), ("L04", "THEBES"), ("L05", "HYDRA"), ("L06", "MEDUSA")):
+        f = ROOT / "extracted" / "meta" / "full-game" / f"{slug}-enemies.json"
+        if not f.exists():
+            continue
+        for k in json.loads(f.read_text(encoding="utf-8"))["kinds"]:
+            for h in k["hits"]:
+                n = h["strength"]
+                out.append({"id": f"eng1.{slug}.kind{k['kind']}.damage.n{n:#x}", "program": e1, "rva": "0x55348",
+                            "entity": f"{lvl} kind {k['kind']} ({(k.get('bank') or 'no bank').split(chr(92))[-1]})",
+                            "scenario": f"{slug} {lvl}",
+                            "representation": f"HERO_RequestDamage n = {n:#x} -> s32 table 0x55348 index {h['index']}",
+                            "by_difficulty": dict(zip(D, h["damage_beginner_medium_herculean"])),
+                            "source": ", ".join(v for r, v in k["handlers"].items()),
+                            "status": "VERIFIED-STATIC (tools/level/enemy_digest.py; index rule n & 7, runtime-checked on the THEBES Minotaur)"})
     # ENG3 per-kind hit codes (L02/L07/L09 GP.06): the object's HERO_Hit code picks the damage column of 0x380a0
     # (jump table 0x1957c, docs/full-game/gameplay/chase.md); identification from L*-types.json
     import re

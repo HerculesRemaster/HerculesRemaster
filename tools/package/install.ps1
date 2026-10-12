@@ -21,7 +21,7 @@ $backup = Join-Path $GameDir "remaster-backup"
 New-Item -ItemType Directory -Force $backup | Out-Null
 $log = @()
 foreach ($rel in $manifest.files.PSObject.Properties.Name) {
-    if ($rel -in @("install.ps1", "uninstall.ps1")) { continue }
+    if ($rel -in @("install.ps1", "uninstall.ps1") -or $rel.StartsWith("art/")) { continue }   # art\ is copied as one folder below
     $src = Join-Path $here $rel
     $dst = Join-Path $GameDir $rel
     if ((Test-Path $dst) -and -not (Test-Path (Join-Path $backup $rel))) {
@@ -31,6 +31,11 @@ foreach ($rel in $manifest.files.PSObject.Properties.Name) {
     New-Item -ItemType Directory -Force (Split-Path $dst) | Out-Null
     Copy-Item $src $dst -Force
     $log += $rel
+}
+if (Test-Path (Join-Path $here "art")) {
+    if (Test-Path (Join-Path $GameDir "art")) { Remove-Item (Join-Path $GameDir "art") -Recurse -Force }   # art\ belongs to the remaster
+    Copy-Item (Join-Path $here "art") (Join-Path $GameDir "art") -Recurse
+    $log += "art/"
 }
 $log | Set-Content (Join-Path $backup "installed-files.txt")
 Copy-Item (Join-Path $here "uninstall.ps1") (Join-Path $backup "uninstall.ps1") -Force

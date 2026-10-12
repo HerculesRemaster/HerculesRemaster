@@ -18,7 +18,43 @@ SECTION_KEYS = [("Hazards", ("hazard", "obstacle", "stalactite", "chariot", "riv
                 ("Pickups", ("pickup", "checkpoint", "retry", "death", "completion", "power", "letter")),
                 ("Runner parameters", ("difficulty", "speed", "beginner", "herculean")),
                 ("Layout", ("route", "crossroad", "lane", "stairs", "section", "opening", "middle", "final", "traversal",
-                            "progression", "passage", "chase", "entry"))]
+                            "progression", "passage", "chase", "entry")),
+                # ENG1 level specs (L03-L10.md, tools/level/eng1_spec.py): matched after the ENG3 names, case-insensitive
+                ("difficulty", ("difficulty", "beginner", "herculean")),
+                ("encounter", ("nessus", "hydra", "medusa", "titan", "gaze", "reflection", "final-encounter", "attack")),
+                ("enemies", ("enemy", "enemies", "skeleton", "encounters")),
+                ("god rescues", ("god",)),
+                ("rescues", ("rescue", "destruction", "secret")),
+                ("souls", ("souls",)),
+                ("scripts", ("checkpoint", "completion", "zeus", "ending", "pickup")),
+                ("death", ("death", "retry")),
+                ("traversal", ("route", "background", "stairs", "streets", "lair", "secrets")),
+                ("flight", ("flight",)),
+                ("movement", ("entry", "opening"))]
+# ENG1 level specs: explicit scenario -> section heading prefix (headings written per L*.GP task)
+SCENARIO_SECTIONS = {
+    "L03.background-paths": "Traversal", "L03.checkpoint-retry": "Scripts and completion", "L03.forest-main-route": "Layout",
+    "L03.forest-secrets": "Traversal", "L03.full-progression": "Scripts and completion", "L03.nessus-approach": "Nessus encounter",
+    "L03.nessus-attack-damage": "Nessus encounter", "L03.nessus-defeat": "Nessus encounter",
+    "L03.difficulty-beginner": "Difficulty", "L03.difficulty-herculean": "Difficulty",
+    "L04.background-stairs": "Traversal", "L04.checkpoint-completion": "Substage and progression",
+    "L04.destruction-secrets": "Rescues, destruction and pickups", "L04.enemy-encounters": "Enemies (L04",
+    "L04.full-progression": "Substage and progression", "L04.rescue-events": "Rescues, destruction and pickups",
+    "L04.section-transition": "Substage and progression", "L04.streets": "Layout",
+    "L04.difficulty-beginner": "Difficulty", "L04.difficulty-herculean": "Difficulty",
+    "L05.canyon-entry": "Layout", "L05.death-retry": "Death, retry and completion", "L05.full-progression": "Death, retry and completion",
+    "L05.hydra-attacks": "Hydra encounter", "L05.hydra-damage-phases": "Hydra encounter", "L05.hydra-defeat": "Hydra encounter",
+    "L05.difficulty-beginner": "Difficulty", "L05.difficulty-herculean": "Difficulty",
+    "L06.death-retry": "Scripts and progression", "L06.full-progression": "Scripts and progression",
+    "L06.gaze-projectiles": "Medusa encounter", "L06.lair-traversal": "Lair traversal", "L06.reflection-defeat": "Medusa encounter",
+    "L06.skeleton-encounters": "Skeleton warriors", "L06.difficulty-beginner": "Difficulty", "L06.difficulty-herculean": "Difficulty",
+    "L08.death-retry": "Scripts and completion", "L08.flight-opening": "Flight", "L08.flight-sections": "Layout",
+    "L08.full-progression": "Scripts and completion", "L08.god-rescues": "God rescues", "L08.titan-encounters": "Titans",
+    "L08.zeus-completion": "Scripts and completion", "L08.difficulty-beginner": "Difficulty", "L08.difficulty-herculean": "Difficulty",
+    "L10.beginner-unavailable": "Difficulty", "L10.completion-ending": "Scripts and completion", "L10.death-retry": "Scripts and completion",
+    "L10.difficulty-herculean": "Difficulty", "L10.final-encounter": "Final encounter", "L10.full-progression": "Scripts and completion",
+    "L10.rescue-objective": "Scripts and completion", "L10.souls-traversal": "Souls, enemies and hazards", "L10.vortex-entry": "Movement",
+}
 
 
 def main():
@@ -31,10 +67,11 @@ def main():
         spec = ROOT / "docs/full-game/levels" / f"{lvl}.md"
         heads = re.findall(r"^##+ (.+)$", spec.read_text(encoding="utf-8"), re.M) if spec.exists() else []
         text = (sid + " " + str(d.get("scene_group", ""))).lower()
-        sect = None
-        for name, keys in SECTION_KEYS:
+        sect = next((h for h in heads if h.startswith(SCENARIO_SECTIONS[sid])), None) if sid in SCENARIO_SECTIONS else None
+        for name, keys in ([] if sect else SECTION_KEYS):
             if any(k in text for k in keys):
-                sect = next((h for h in heads if h.startswith(name) or name in h), None)
+                sect = next((h for h in heads if h.startswith(name) or name in h
+                             or (name.islower() and name in h.lower())), None)
                 if sect:
                     break
         if not sect and heads:

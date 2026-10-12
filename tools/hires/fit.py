@@ -1,6 +1,6 @@
 """Fit a generated image back onto the game's exact canvases (manual route).
 
-fit.py <pack> <generated.png> [--grow 4] [--no-snap]
+fit.py <pack> <generated.png> [--grow 9] [--no-snap]
 
 Reads remastered/prompts/<pack>/layout.json. The generated image is resized to the pack's sheet size
 if the model returned another resolution with the same aspect. Magenta #FF00FF becomes transparent
@@ -33,6 +33,12 @@ def key_out(img: Image.Image) -> np.ndarray:
     alpha = np.clip((d - 60) / 60, 0, 1)
     with np.errstate(invalid="ignore", divide="ignore"):
         rgb = np.where(alpha[..., None] > 0, (a - (1 - alpha[..., None]) * KEY) / alpha[..., None], 0)
+    # magenta spill the model paints into opaque pixels along the edge: within 6 px of the
+    # background, red and blue may not both exceed green (pink -> neutral)
+    near = np.array(Image.fromarray(((alpha < 0.99) * 255).astype(np.uint8)).filter(ImageFilter.MaxFilter(13))) > 0
+    spill = np.clip(np.minimum(rgb[..., 0], rgb[..., 2]) - rgb[..., 1], 0, None) * near
+    rgb[..., 0] -= spill
+    rgb[..., 2] -= spill
     return np.dstack([np.clip(rgb, 0, 255), alpha * 255]).astype(np.uint8)
 
 
@@ -48,11 +54,16 @@ def resample(rgba: np.ndarray, size) -> np.ndarray:
 
 
 def snap(rgba: np.ndarray, ref_alpha: np.ndarray, k: int, grow: int) -> np.ndarray:
+    """Limit alpha to the original silhouette grown by `grow` output pixels. The k x nearest mask is
+    blurred and re-thresholded so the limit follows a rounded outline instead of k-pixel stair steps,
+    with a soft 1-2 px edge."""
     m = Image.fromarray((ref_alpha > 0).astype(np.uint8) * 255).resize((ref_alpha.shape[1] * k, ref_alpha.shape[0] * k), Image.NEAREST)
     if grow:
         m = m.filter(ImageFilter.MaxFilter(2 * grow + 1))
+    m = np.array(m.filter(ImageFilter.GaussianBlur(k * 0.6))).astype(float) / 255
+    m = np.clip((m - 0.5) * 3 + 0.5, 0, 1)
     out = rgba.copy()
-    out[..., 3] = (out[..., 3].astype(float) * (np.array(m) / 255)).astype(np.uint8)
+    out[..., 3] = (out[..., 3].astype(float) * m).astype(np.uint8)
     return out
 
 
@@ -125,7 +136,7 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("pack")
     ap.add_argument("image", type=Path)
-    ap.add_argument("--grow", type=int, default=4)
+    ap.add_argument("--grow", type=int, default=9)
     ap.add_argument("--no-snap", action="store_true")
     ap.add_argument("--no-align", action="store_true")
     a = ap.parse_args(argv)
@@ -133,7 +144,7 @@ def main(argv=None) -> int:
     return 0
 
 
-def fit(pack_name: str, image: Path, grow: int = 4, no_snap: bool = False, no_align: bool = False) -> list[str]:
+def fit(pack_name: str, image: Path, grow: int = 9, no_snap: bool = False, no_align: bool = False) -> list[str]:
     """Fit one generated sheet; returns the entry ids written."""
     a = argparse.Namespace(pack=pack_name, image=Path(image), grow=grow, no_snap=no_snap)
     lay = common.layout(a.pack)

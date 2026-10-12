@@ -2,7 +2,8 @@
 
 For every actor kind in <SLUG>-types.json with a spawn/update handler, decompiles both through ghidra-mcp and
 extracts (regex over the decompiler text; VERIFIED-STATIC facts, meaning still needs reading):
-  hits         HERO_RequestDamage(obj, N, ...) strengths N -> hero damage index (N-1)&7 (ENG1 0x55348 table)
+  hits         HERO_RequestDamage(obj, N, ...) strengths N -> hero damage index N&7 (ENG1 0x55348 table; RequestDamage stores N+1,
+               HERO_ApplyDamage 0x18c50 indexes (stored-1)&7; runtime: THEBES Minotaur N=3 -> Beginner drop 12)
   hp           constants written to +0xee (hit points) and HERO_EnemyInitHp calls (difficulty*2 + 6)
   hit_sources  HERO_FindHitSource / 0x20250 calls (the actor can be hit) and 0x19b40 (punch strength)
   difficulty   reads of game state +0xe
@@ -56,7 +57,7 @@ def main(argv: list[str]) -> int:
         rows.append({
             "kind": k["kind"], "count": k["count"], "bank": (k.get("bank") or {}).get("path"),
             "handlers": {r: e["name"] for r, e in k["entry"].items() if r != "stub"},
-            "hits": [{"strength": h, "index": (h - 1) & 7, "damage_beginner_medium_herculean": [DMG[d][(h - 1) & 7] for d in range(3)]} for h in hits],
+            "hits": [{"strength": h, "index": h & 7, "damage_beginner_medium_herculean": [DMG[d][h & 7] for d in range(3)]} for h in hits],
             "hp_constants": hp, "enemy_init_hp": "HERO_EnemyInitHp" in src or "FUN_10024270" in src,
             "can_be_hit": any(s in src for s in ("HERO_FindHitSource", "FUN_10020250", "FUN_10026de0")),
             "punch_strength": "FUN_10019b40" in src,
