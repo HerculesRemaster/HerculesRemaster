@@ -1,0 +1,18 @@
+{
+ "level": "THEBES",
+ "img1_rows_loaded": 256,
+ "dumps": {
+  "vram_4200.bin": {
+   "img0_equal": 1.0,
+   "img1_loaded_equal": 1.0,
+   "img1_tail_rows": 0,
+   "cells_area_equal_to_file": 0.5053329467773438
+  },
+  "vram_5000.bin": {
+   "img0_equal": 1.0,
+   "img1_loaded_equal": 1.0,
+   "img1_tail_rows": 0,
+   "cells_area_equal_to_file": 0.510498046875
+  }
+ }
+}

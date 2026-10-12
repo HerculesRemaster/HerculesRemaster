@@ -1,0 +1,45 @@
+{
+ "GAUNTLET": {
+  "map_index": 557,
+  "vram": [],
+  "palette_hash": "124999A6",
+  "palette_first_tick": null
+ },
+ "CYCLOPS": {
+  "map_index": 491,
+  "vram": [],
+  "palette_hash": "04424BF7",
+  "palette_first_tick": null
+ },
+ "TORMENT": {
+  "map_index": 520,
+  "vram": [
+   {
+    "pair": "s04_vram_000",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w16": 768,
+     "h": 512
+    },
+    "bytes": 786432,
+    "tick": 1611,
+    "differing_bytes": 0
+   },
+   {
+    "pair": "s04_vram_001",
+    "rect": {
+     "x": 768,
+     "y": 256,
+     "w16": 256,
+     "h": 256
+    },
+    "bytes": 131072,
+    "tick": 1611,
+    "differing_bytes": 3619
+   }
+  ],
+  "palette_hash": "95AF39B3",
+  "palette_first_tick": 1612
+ }
+}

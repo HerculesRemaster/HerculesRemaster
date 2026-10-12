@@ -1,0 +1,20 @@
+{
+ "GAUNTLET": {
+  "map_index": 557,
+  "vram": [],
+  "palette_hash": "124999A6",
+  "palette_first_tick": null
+ },
+ "CYCLOPS": {
+  "map_index": 491,
+  "vram": [],
+  "palette_hash": "04424BF7",
+  "palette_first_tick": 1528
+ },
+ "TORMENT": {
+  "map_index": 520,
+  "vram": [],
+  "palette_hash": "95AF39B3",
+  "palette_first_tick": null
+ }
+}

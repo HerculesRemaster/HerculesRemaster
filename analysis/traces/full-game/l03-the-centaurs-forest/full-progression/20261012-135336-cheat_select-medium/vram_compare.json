@@ -1,0 +1,18 @@
+{
+ "level": "FOREST",
+ "img1_rows_loaded": 225,
+ "dumps": {
+  "vram_4200.bin": {
+   "img0_equal": 0.9954719543457031,
+   "img1_loaded_equal": 1.0,
+   "img1_tail_rows": 31,
+   "cells_area_equal_to_file": 0.4888916015625
+  },
+  "vram_5000.bin": {
+   "img0_equal": 0.9954719543457031,
+   "img1_loaded_equal": 1.0,
+   "img1_tail_rows": 31,
+   "cells_area_equal_to_file": 0.490142822265625
+  }
+ }
+}

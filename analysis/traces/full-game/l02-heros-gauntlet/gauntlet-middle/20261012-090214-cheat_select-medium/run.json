@@ -1,0 +1,121 @@
+{
+ "schema_version": 1,
+ "scenario_id": "L02.gauntlet-middle",
+ "run_id": "20261012-090214-cheat_select-medium",
+ "entry_method": {
+  "method": "cheat_select",
+  "debug_only": false,
+  "debug_start": null,
+  "debug_level": null,
+  "replay_of": null,
+  "pad_script": "300-302:0040,340-342:4000,620-622:0040,664-666:0040,708-710:0040,752-754:0020,792-794:0010,836-838:0010,880-882:0020,920-922:0010,964-966:0010,1008-1010:0010,1052-1054:0010,1096-1098:0080,1136-1138:0080,1176-1178:0080,1216-1218:0010,1260-1262:0010,1304-1306:0010,1348-1350:0010,1422-1424:0008,1542-1544:0008,1662-1664:0008,1862-1864:0010,1906-1908:0010,1950-1952:0010,1994-1996:0020,2034-2036:0010,2078-2080:0020,2118-2120:0010,2162-2164:0020,2202-2204:0010,2246-2248:0010,2290-2292:0010,2364-2366:0008,2664-2666:1000,2864-2866:0040,2904-2906:0040,2944-2946:0040,2984-2986:0040,3024-3026:0040,3104-3106:4000,3304-3306:0020,3364-3366:0010,3424-3426:0008"
+ },
+ "difficulty": {
+  "requested": "Medium",
+  "mechanism": "F2 Game Play option preset in memory (HERC_HOOK_DIFFICULTY -> EXE 0xb9e864 before 0x4ac0)",
+  "observed_at_level_load": 1
+ },
+ "hashes": {
+  "HERCULES.EXE": "b3ab3ee9e5c973bb245d8eed795e8e7065d7dfc371e412e602b2059af894a551",
+  "ENG1.DLL": "01b78ae814892007bb6031b2470f10e09bdd912fdb8d30de9f4cfea7c638f757",
+  "ENG3.DLL": "aefa1147deae55c4cb2290282f5142df00baa49a9cd59f671f7a3ce5b8b7fca7",
+  "TITLE.DLL": "b17a37fb1bd5002c54cedb6dba1509bc1ca2d8483fa9724d8e4ade04fe79188b",
+  "HERCULES.FS": "affa380e45918448895932cd466ea9a02096b8dcf08644f91b9da5ec34cd48b4"
+ },
+ "tracer": {
+  "hercules_hook.dll": "7ffa50b5ba818878440fab20863a32b99c435c02d3e039ca367e9f6f2475c548",
+  "ddraw.dll (proxy)": "8172809161ff5277f2c87757fc6fbf5489b680881ee04a207df255f503606f4c",
+  "hercules_display.ini": "600eb6fce1404a47030ce7366d5a9f33e6169388234b7d53588b7426a690aed6",
+  "env": {
+   "HERC_DISPLAY_MODE": "windowed",
+   "HERC_HOOK_ACTIVE": "1",
+   "HERC_HOOK_DIFFICULTY": "1",
+   "HERC_HOOK_DIR": "C:\\Games\\GameHercules\\Remaster\\analysis\\traces\\full-game\\l02-heros-gauntlet\\gauntlet-middle\\20261012-090214-cheat_select-medium",
+   "HERC_HOOK_FRAMES": "",
+   "HERC_HOOK_HERO": "1",
+   "HERC_HOOK_LEVEL": "",
+   "HERC_HOOK_NOINPUT": "1",
+   "HERC_HOOK_PAD": "300-302:0040,340-342:4000,620-622:0040,664-666:0040,708-710:0040,752-754:0020,792-794:0010,836-838:0010,880-882:0020,920-922:0010,964-966:0010,1008-1010:0010,1052-1054:0010,1096-1098:0080,1136-1138:0080,1176-1178:0080,1216-1218:0010,1260-1262:0010,1304-1306:0010,1348-1350:0010,1422-1424:0008,1542-1544:0008,1662-1664:0008,1862-1864:0010,1906-1908:0010,1950-1952:0010,1994-1996:0020,2034-2036:0010,2078-2080:0020,2118-2120:0010,2162-2164:0020,2202-2204:0010,2246-2248:0010,2290-2292:0010,2364-2366:0008,2664-2666:1000,2864-2866:0040,2904-2906:0040,2944-2946:0040,2984-2986:0040,3024-3026:0040,3104-3106:4000,3304-3306:0020,3364-3366:0010,3424-3426:0008",
+   "HERC_HOOK_PAIRS": "16",
+   "HERC_HOOK_START": "",
+   "HERC_HOOK_VRAM_TICKS": "",
+   "HERC_HOOK_WINDOWED": "1",
+   "HERC_RENDERER": "gpu"
+  }
+ },
+ "initial_state": {
+  "level": 2,
+  "start": 0,
+  "lives": 4,
+  "health": 128,
+  "difficulty": 1
+ },
+ "identity_events": [
+  {
+   "tick": 0,
+   "ev": "module_load",
+   "module": "TITLE",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 255,
+   "start": null,
+   "difficulty": 0
+  },
+  {
+   "tick": 3575,
+   "ev": "module_load",
+   "module": "ENG3",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 2,
+   "start": null,
+   "difficulty": 1
+  },
+  {
+   "tick": 3576,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG3",
+   "path": "M:\\GRAFIX\\MAPS\\GAUNTLET\\MAP_PSX.BIN",
+   "index": 557,
+   "id": "57E5A3D6",
+   "level": 2,
+   "start": 0,
+   "difficulty": 1
+  },
+  {
+   "tick": 3576,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG3",
+   "path": "M:\\GRAFIX\\MAPS\\GAUNTLET\\MAP_PSX.BIN",
+   "index": 557,
+   "id": "57E5A3D6",
+   "level": 2,
+   "start": 0,
+   "difficulty": 1
+  }
+ ],
+ "ticks": {
+  "first": 0,
+  "last": 5273
+ },
+ "frame_tick_index": "none (run without -Frames; trace ticks are hook ticks = RT_PollInput calls, one per game tick)",
+ "audio_origin": {
+  "first_sound_event": {
+   "t": 824.6,
+   "tick": 8,
+   "ev": "esf_decode"
+  },
+  "clock": "t = ms since hook start (QueryPerformanceCounter)"
+ },
+ "cd_audio": "absent: music is CD track 2 (docs/music-transport.md); no CD in this setup, so no music plays",
+ "files": [
+  "input.jsonl",
+  "resource-usage.jsonl"
+ ]
+}

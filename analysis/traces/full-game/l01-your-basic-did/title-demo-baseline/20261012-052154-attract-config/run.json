@@ -1,0 +1,155 @@
+{
+ "schema_version": 1,
+ "scenario_id": "L01.title-demo-baseline",
+ "run_id": "20261012-052154-attract-config",
+ "entry_method": {
+  "method": "attract",
+  "debug_only": false,
+  "debug_level": null,
+  "replay_of": null,
+  "pad_script": ""
+ },
+ "difficulty": {
+  "requested": "Config",
+  "mechanism": "player's saved Config (VirtualStore registry)",
+  "observed_at_level_load": 0
+ },
+ "hashes": {
+  "HERCULES.EXE": "b3ab3ee9e5c973bb245d8eed795e8e7065d7dfc371e412e602b2059af894a551",
+  "ENG1.DLL": "01b78ae814892007bb6031b2470f10e09bdd912fdb8d30de9f4cfea7c638f757",
+  "ENG3.DLL": "aefa1147deae55c4cb2290282f5142df00baa49a9cd59f671f7a3ce5b8b7fca7",
+  "TITLE.DLL": "b17a37fb1bd5002c54cedb6dba1509bc1ca2d8483fa9724d8e4ade04fe79188b",
+  "HERCULES.FS": "affa380e45918448895932cd466ea9a02096b8dcf08644f91b9da5ec34cd48b4"
+ },
+ "tracer": {
+  "hercules_hook.dll": "6130cd00304f7de4616fbc57717521b0fdccb242ff2f84f8600aba42b9dd7a28",
+  "ddraw.dll (proxy)": "5e72b4e0837d7b21469d2d4877e53cd94cf2a8e22ab3d4946ae58b8030ad6ae5",
+  "hercules_display.ini": "600eb6fce1404a47030ce7366d5a9f33e6169388234b7d53588b7426a690aed6",
+  "env": {
+   "HERC_DISPLAY_MODE": "windowed",
+   "HERC_HOOK_ACTIVE": "1",
+   "HERC_HOOK_DIFFICULTY": "",
+   "HERC_HOOK_DIR": "C:\\Games\\GameHercules\\Remaster\\analysis\\traces\\full-game\\l01-your-basic-did\\title-demo-baseline\\20261012-052154-attract-config",
+   "HERC_HOOK_FRAMES": "",
+   "HERC_HOOK_HERO": "0",
+   "HERC_HOOK_LEVEL": "",
+   "HERC_HOOK_NOINPUT": "1",
+   "HERC_HOOK_PAD": "",
+   "HERC_HOOK_PAIRS": "0",
+   "HERC_HOOK_VRAM_TICKS": "",
+   "HERC_HOOK_WINDOWED": "1",
+   "HERC_RENDERER": "gpu"
+  }
+ },
+ "initial_state": {
+  "level": 1,
+  "start": 0,
+  "lives": 4,
+  "health": 0,
+  "difficulty": 0
+ },
+ "identity_events": [
+  {
+   "tick": 0,
+   "ev": "module_load",
+   "module": "TITLE",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 255,
+   "start": null,
+   "difficulty": 0
+  },
+  {
+   "tick": 1133,
+   "ev": "module_load",
+   "module": "ENG1",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 1,
+   "start": null,
+   "difficulty": 0
+  },
+  {
+   "tick": 1134,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG1",
+   "path": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.BIN",
+   "index": 565,
+   "id": "5ED398E4",
+   "level": 1,
+   "start": 0,
+   "difficulty": 0
+  },
+  {
+   "tick": 1134,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG1",
+   "path": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.BIN",
+   "index": 565,
+   "id": "5ED398E4",
+   "level": 1,
+   "start": 0,
+   "difficulty": 0
+  },
+  {
+   "tick": 1134,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG1",
+   "path": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.BIN",
+   "index": 565,
+   "id": "5ED398E4",
+   "level": 1,
+   "start": 1,
+   "difficulty": 0
+  },
+  {
+   "tick": 1170,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG1",
+   "path": "M:\\GRAFIX\\MAPS\\TRAINING\\MAP_PSX.BIN",
+   "index": 565,
+   "id": "5ED398E4",
+   "level": 1,
+   "start": 1,
+   "difficulty": 0
+  },
+  {
+   "tick": 2015,
+   "ev": "module_load",
+   "module": "TITLE",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 255,
+   "start": null,
+   "difficulty": 0
+  }
+ ],
+ "ticks": {
+  "first": 0,
+  "last": 2218
+ },
+ "frame_tick_index": "none (run without -Frames; trace ticks are hook ticks = RT_PollInput calls, one per game tick)",
+ "audio_origin": {
+  "first_sound_event": {
+   "t": 956.3,
+   "tick": 8,
+   "ev": "esf_decode"
+  },
+  "clock": "t = ms since hook start (QueryPerformanceCounter)"
+ },
+ "cd_audio": "absent: music is CD track 2 (docs/music-transport.md); no CD in this setup, so no music plays",
+ "files": [
+  "input.jsonl",
+  "resource-usage.jsonl"
+ ]
+}

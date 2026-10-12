@@ -1,0 +1,120 @@
+{
+ "schema_version": 1,
+ "scenario_id": "L09.full-progression",
+ "run_id": "20261012-070726-password-config",
+ "entry_method": {
+  "method": "password",
+  "debug_only": false,
+  "debug_start": null,
+  "debug_level": null,
+  "replay_of": null,
+  "pad_script": "300-302:0040,340-342:4000,620-622:0040,664-666:0040,708-710:0040,752-754:0040,796-798:0020,836-838:0010,880-882:0020,920-922:0080,960-962:0080,1000-1002:0080,1040-1042:0040,1084-1086:0040,1128-1130:0040,1202-1204:0008,1322-1324:0008,1442-1444:0008"
+ },
+ "difficulty": {
+  "requested": "Config",
+  "mechanism": "player's saved Config (VirtualStore registry)",
+  "observed_at_level_load": 1
+ },
+ "hashes": {
+  "HERCULES.EXE": "b3ab3ee9e5c973bb245d8eed795e8e7065d7dfc371e412e602b2059af894a551",
+  "ENG1.DLL": "01b78ae814892007bb6031b2470f10e09bdd912fdb8d30de9f4cfea7c638f757",
+  "ENG3.DLL": "aefa1147deae55c4cb2290282f5142df00baa49a9cd59f671f7a3ce5b8b7fca7",
+  "TITLE.DLL": "b17a37fb1bd5002c54cedb6dba1509bc1ca2d8483fa9724d8e4ade04fe79188b",
+  "HERCULES.FS": "affa380e45918448895932cd466ea9a02096b8dcf08644f91b9da5ec34cd48b4"
+ },
+ "tracer": {
+  "hercules_hook.dll": "3d1e0c4dae389901e0cd04000ee5be7a67105d895cc5d6dcdac9ecbcbae80afd",
+  "ddraw.dll (proxy)": "5e72b4e0837d7b21469d2d4877e53cd94cf2a8e22ab3d4946ae58b8030ad6ae5",
+  "hercules_display.ini": "600eb6fce1404a47030ce7366d5a9f33e6169388234b7d53588b7426a690aed6",
+  "env": {
+   "HERC_DISPLAY_MODE": "windowed",
+   "HERC_HOOK_ACTIVE": "1",
+   "HERC_HOOK_DIFFICULTY": "",
+   "HERC_HOOK_DIR": "C:\\Games\\GameHercules\\Remaster\\analysis\\traces\\full-game\\l09-passageways-of-eternal-torment\\full-progression\\20261012-070726-password-config",
+   "HERC_HOOK_FRAMES": "",
+   "HERC_HOOK_HERO": "0",
+   "HERC_HOOK_LEVEL": "",
+   "HERC_HOOK_NOINPUT": "1",
+   "HERC_HOOK_PAD": "300-302:0040,340-342:4000,620-622:0040,664-666:0040,708-710:0040,752-754:0040,796-798:0020,836-838:0010,880-882:0020,920-922:0080,960-962:0080,1000-1002:0080,1040-1042:0040,1084-1086:0040,1128-1130:0040,1202-1204:0008,1322-1324:0008,1442-1444:0008",
+   "HERC_HOOK_PAIRS": "16",
+   "HERC_HOOK_VRAM_TICKS": "",
+   "HERC_HOOK_WINDOWED": "1",
+   "HERC_RENDERER": "gpu"
+  }
+ },
+ "initial_state": {
+  "level": 10,
+  "start": 0,
+  "lives": 4,
+  "health": 128,
+  "difficulty": 1
+ },
+ "identity_events": [
+  {
+   "tick": 0,
+   "ev": "module_load",
+   "module": "TITLE",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 255,
+   "start": null,
+   "difficulty": 0
+  },
+  {
+   "tick": 1610,
+   "ev": "module_load",
+   "module": "ENG3",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 10,
+   "start": null,
+   "difficulty": 1
+  },
+  {
+   "tick": 1611,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG3",
+   "path": "M:\\GRAFIX\\MAPS\\TORMENT\\MAP_PSX.BIN",
+   "index": 520,
+   "id": "4B83C8E3",
+   "level": 10,
+   "start": 0,
+   "difficulty": 1
+  },
+  {
+   "tick": 1611,
+   "ev": "level_load",
+   "module": null,
+   "engine": "ENG3",
+   "path": "M:\\GRAFIX\\MAPS\\TORMENT\\MAP_PSX.BIN",
+   "index": 520,
+   "id": "4B83C8E3",
+   "level": 10,
+   "start": 0,
+   "difficulty": 1
+  }
+ ],
+ "ticks": {
+  "first": 0,
+  "last": 2698
+ },
+ "frame_tick_index": "none (run without -Frames; trace ticks are hook ticks = RT_PollInput calls, one per game tick)",
+ "audio_origin": {
+  "first_sound_event": {
+   "t": 821.2,
+   "tick": 8,
+   "ev": "esf_decode"
+  },
+  "clock": "t = ms since hook start (QueryPerformanceCounter)"
+ },
+ "cd_audio": "absent: music is CD track 2 (docs/music-transport.md); no CD in this setup, so no music plays",
+ "files": [
+  "input.jsonl",
+  "resource-usage.jsonl"
+ ]
+}

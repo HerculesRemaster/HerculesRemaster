@@ -1,0 +1,92 @@
+{
+ "schema_version": 1,
+ "scenario_id": "L01.title-demo-baseline",
+ "run_id": "20261012-073004-password-config",
+ "entry_method": {
+  "method": "password",
+  "debug_only": false,
+  "debug_start": null,
+  "debug_level": null,
+  "replay_of": null,
+  "pad_script": "300-302:0040,340-342:4000,620-622:0040,664-666:0040,708-710:0040,752-754:0020,792-794:0010,836-838:0010,880-882:0020,920-922:0010,964-966:0010,1008-1010:0010,1052-1054:0010,1096-1098:0080,1136-1138:0080,1176-1178:0080,1216-1218:0010,1260-1262:0010,1304-1306:0010,1348-1350:0010,1422-1424:0008,1542-1544:0008,1662-1664:0008,1862-1864:0010,1906-1908:0010,1950-1952:0010,1994-1996:0020,2034-2036:0010,2078-2080:0020,2118-2120:0010,2162-2164:0020,2202-2204:0010,2246-2248:0010,2290-2292:0010,2364-2366:0008,2600-2602:0080,2640-2642:0080,2680-2682:0080,2720-2722:0080,3000-3002:4000,3300-3302:4000,3600-3602:0008"
+ },
+ "difficulty": {
+  "requested": "Config",
+  "mechanism": "player's saved Config (VirtualStore registry)",
+  "observed_at_level_load": null
+ },
+ "hashes": {
+  "HERCULES.EXE": "b3ab3ee9e5c973bb245d8eed795e8e7065d7dfc371e412e602b2059af894a551",
+  "ENG1.DLL": "01b78ae814892007bb6031b2470f10e09bdd912fdb8d30de9f4cfea7c638f757",
+  "ENG3.DLL": "aefa1147deae55c4cb2290282f5142df00baa49a9cd59f671f7a3ce5b8b7fca7",
+  "TITLE.DLL": "b17a37fb1bd5002c54cedb6dba1509bc1ca2d8483fa9724d8e4ade04fe79188b",
+  "HERCULES.FS": "affa380e45918448895932cd466ea9a02096b8dcf08644f91b9da5ec34cd48b4"
+ },
+ "tracer": {
+  "hercules_hook.dll": "07ef2b4cec32ae929aa0381fd0c95e4012ab32eebb22498b99069924b12dc1a5",
+  "ddraw.dll (proxy)": "5e72b4e0837d7b21469d2d4877e53cd94cf2a8e22ab3d4946ae58b8030ad6ae5",
+  "hercules_display.ini": "600eb6fce1404a47030ce7366d5a9f33e6169388234b7d53588b7426a690aed6",
+  "env": {
+   "HERC_DISPLAY_MODE": "windowed",
+   "HERC_HOOK_ACTIVE": "1",
+   "HERC_HOOK_DIFFICULTY": "",
+   "HERC_HOOK_DIR": "C:\\Games\\GameHercules\\Remaster\\analysis\\traces\\full-game\\l01-your-basic-did\\title-demo-baseline\\20261012-073004-password-config",
+   "HERC_HOOK_FRAMES": "C:\\Games\\GameHercules\\Remaster\\analysis\\traces\\full-game\\l01-your-basic-did\\title-demo-baseline\\20261012-073004-password-config\\frames.bin",
+   "HERC_HOOK_HERO": "0",
+   "HERC_HOOK_LEVEL": "",
+   "HERC_HOOK_NOINPUT": "1",
+   "HERC_HOOK_PAD": "300-302:0040,340-342:4000,620-622:0040,664-666:0040,708-710:0040,752-754:0020,792-794:0010,836-838:0010,880-882:0020,920-922:0010,964-966:0010,1008-1010:0010,1052-1054:0010,1096-1098:0080,1136-1138:0080,1176-1178:0080,1216-1218:0010,1260-1262:0010,1304-1306:0010,1348-1350:0010,1422-1424:0008,1542-1544:0008,1662-1664:0008,1862-1864:0010,1906-1908:0010,1950-1952:0010,1994-1996:0020,2034-2036:0010,2078-2080:0020,2118-2120:0010,2162-2164:0020,2202-2204:0010,2246-2248:0010,2290-2292:0010,2364-2366:0008,2600-2602:0080,2640-2642:0080,2680-2682:0080,2720-2722:0080,3000-3002:4000,3300-3302:4000,3600-3602:0008",
+   "HERC_HOOK_PAIRS": "16",
+   "HERC_HOOK_START": "",
+   "HERC_HOOK_VRAM_TICKS": "",
+   "HERC_HOOK_WATCH": "gs30=title+0x2bb44@0x30:4,gs2e=title+0x2bb44@0x2e:2,gs06=title+0x2bb44@0x6:1,result=title+0x2bb3c:4,gs00=title+0x2bb44@0x0:1",
+   "HERC_HOOK_WINDOWED": "1",
+   "HERC_RENDERER": "gpu"
+  }
+ },
+ "initial_state": null,
+ "identity_events": [
+  {
+   "tick": 0,
+   "ev": "module_load",
+   "module": "TITLE",
+   "engine": null,
+   "path": null,
+   "index": null,
+   "id": null,
+   "level": 255,
+   "start": null,
+   "difficulty": 0
+  }
+ ],
+ "ticks": {
+  "first": 0,
+  "last": 4200
+ },
+ "frame_tick_index": {
+  "file": "frames.bin",
+  "frames": 4196,
+  "first": {
+   "tick": 0,
+   "ms": 35.904
+  },
+  "last": {
+   "tick": 4200,
+   "ms": 139981.2432
+  }
+ },
+ "audio_origin": {
+  "first_sound_event": {
+   "t": 959.9,
+   "tick": 8,
+   "ev": "esf_decode"
+  },
+  "clock": "t = ms since hook start (QueryPerformanceCounter)"
+ },
+ "cd_audio": "absent: music is CD track 2 (docs/music-transport.md); no CD in this setup, so no music plays",
+ "files": [
+  "frames.bin",
+  "input.jsonl",
+  "resource-usage.jsonl"
+ ]
+}
