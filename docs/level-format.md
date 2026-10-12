@@ -28,6 +28,8 @@ ENG1's per-level table (0x68af0, 0x48 bytes per level id, 999 ends) lists level 
 | 0x30 | rel × sections → section descriptors | |
 | then | rel × 4 → T58 camera records (16 bytes), T54 camera index (u32), T50 shade table, T44 | |
 | then | T34 u32 table (block types); T38, T3c, T4c, T40 follow by the counts above | |
+| T38 record | `u16 frames, u16 period, u16 x, y, w, h` (VRAM units), then frames × w·h u16. `LVL_AnimateTextures` 0x2cb0 (per frame, from 0x205fc) uploads frame `(gs+0x38 / period) % frames` to (x, y) whenever `gs+0x38 % period == 0`; period 0 = never animated (MEDUSA's only record). Exported by `tools/level/texture_anims.py` | VERIFIED-STATIC; FOREST frames seen in runtime VRAM |
+| T3c record | 6 bytes, then `u16 dst x, dst y, w, h, s16 src x, src y`. `LVL_ScrollTexture(index, dx, dy)` 0x2d80 advances byte offsets (0x70c58 + 2·index) by (dx, dy) mod (w, h) and copies the source rect rotated by them to dst (four 0x2c60 moves). Only actors call it: FOREST water kind 0x4b (`HERO_WaterUpdate3` 0xd460: index 0, dy −16 once per frame) and the TRAINING device actors (0x3ca80..0x3e5d0). VORTEX's record has no caller, so it never scrolls | VERIFIED-STATIC |
 | from header size | geometry blocks of 0x800-byte sectors, streamed by camera column (`LVL_StreamBlocks` 0x1f870) | |
 
 ### Section descriptor (`LVL_SelectSection` 0x20830)

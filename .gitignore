@@ -49,3 +49,5 @@ analysis/traces/full-game/**/pairs/
 analysis/traces/full-game/**/*.bin
 reference/captures/full-game/
 extracted/full-game/
+
+*.7z

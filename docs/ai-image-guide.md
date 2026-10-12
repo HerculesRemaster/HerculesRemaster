@@ -48,6 +48,7 @@ py jobs.py take                   # every pack that has a <pack>.png
 This step:
 - keys out the magenta (soft edges, no pink fringe);
 - cuts each cell out and resamples it to 9× the original;
+- aligns each sprite frame first: the model often draws the figure larger or shifted inside its cell, so the cell is scaled (up to ±30 %) and moved until its silhouette best overlaps the original (printed as `aligned {...}` with the overlap before/after; `--no-align` switches it off). A low overlap after alignment (below about 0.7) means the pose itself differs: regenerate that pack;
 - trims stray pixels outside the original silhouette (grown by 4 px; `--grow N` to change it, `--no-snap` to switch it off);
 - writes the frames to `remastered/incoming/<pack>/` (e.g. `incoming/bird_dive/`);
 - creates the pack's jobs, runs the checks and writes side-by-side sheets to `remastered/review/`.
@@ -92,4 +93,6 @@ Regexes still work for parts of a pack. A digit range is one character, so frame
 
 Start `working/game/HERCULES.EXE` and play TRAINING. A frame without a file keeps its original pixels. To go back to the original art, rename the `art` folder.
 
-For the review GIFs at game speed, `py refsheet.py` writes `remastered/reference/<sequence>.gif` from the originals. Compare them with your approved frames.
+To judge the sprites in motion before approving, `py motion.py` writes `remastered/review/motion/<sequence>.gif`: original | new art side by side, on the frame pivot, at the runtime display ticks.
+
+For the originals alone, `py refsheet.py` writes `remastered/reference/<sequence>.gif` from the originals. Compare them with your approved frames.
