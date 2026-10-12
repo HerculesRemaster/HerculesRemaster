@@ -1,0 +1,20 @@
+{
+ "index": 35,
+ "id": "0111F823",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_770.ESF",
+ "size": 2522,
+ "pcm_bytes": 10026,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 2506,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0035_PC_770.wav",
+ "samples": 5013,
+ "seconds": 0.455,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

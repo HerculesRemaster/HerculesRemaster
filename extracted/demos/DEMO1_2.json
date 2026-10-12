@@ -1,0 +1,316 @@
+{
+ "start_index": 3,
+ "flags_or": 0,
+ "byte4": 0,
+ "ticks": 881,
+ "runs": [
+  {
+   "from_tick": 0,
+   "ticks": 46,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 46,
+   "ticks": 26,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 72,
+   "ticks": 15,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 87,
+   "ticks": 7,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 94,
+   "ticks": 9,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 103,
+   "ticks": 4,
+   "held": 128,
+   "buttons": [
+    "left"
+   ]
+  },
+  {
+   "from_tick": 107,
+   "ticks": 23,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 130,
+   "ticks": 10,
+   "held": 128,
+   "buttons": [
+    "left"
+   ]
+  },
+  {
+   "from_tick": 140,
+   "ticks": 19,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 159,
+   "ticks": 15,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 174,
+   "ticks": 29,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 203,
+   "ticks": 12,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 215,
+   "ticks": 2,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 217,
+   "ticks": 13,
+   "held": 16384,
+   "buttons": [
+    "Z"
+   ]
+  },
+  {
+   "from_tick": 230,
+   "ticks": 31,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 261,
+   "ticks": 51,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 312,
+   "ticks": 7,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 319,
+   "ticks": 7,
+   "held": 16384,
+   "buttons": [
+    "Z"
+   ]
+  },
+  {
+   "from_tick": 326,
+   "ticks": 15,
+   "held": 16416,
+   "buttons": [
+    "right",
+    "Z"
+   ]
+  },
+  {
+   "from_tick": 341,
+   "ticks": 46,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 387,
+   "ticks": 8,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 395,
+   "ticks": 20,
+   "held": 16384,
+   "buttons": [
+    "Z"
+   ]
+  },
+  {
+   "from_tick": 415,
+   "ticks": 22,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 437,
+   "ticks": 38,
+   "held": 128,
+   "buttons": [
+    "left"
+   ]
+  },
+  {
+   "from_tick": 475,
+   "ticks": 7,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 482,
+   "ticks": 68,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 550,
+   "ticks": 11,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 561,
+   "ticks": 8,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 569,
+   "ticks": 41,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 610,
+   "ticks": 1,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 611,
+   "ticks": 13,
+   "held": 16416,
+   "buttons": [
+    "right",
+    "Z"
+   ]
+  },
+  {
+   "from_tick": 624,
+   "ticks": 14,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 638,
+   "ticks": 10,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 648,
+   "ticks": 17,
+   "held": 16384,
+   "buttons": [
+    "Z"
+   ]
+  },
+  {
+   "from_tick": 665,
+   "ticks": 5,
+   "held": 16512,
+   "buttons": [
+    "left",
+    "Z"
+   ]
+  },
+  {
+   "from_tick": 670,
+   "ticks": 25,
+   "held": 16384,
+   "buttons": [
+    "Z"
+   ]
+  },
+  {
+   "from_tick": 695,
+   "ticks": 12,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 707,
+   "ticks": 9,
+   "held": 128,
+   "buttons": [
+    "left"
+   ]
+  },
+  {
+   "from_tick": 716,
+   "ticks": 33,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 749,
+   "ticks": 76,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 825,
+   "ticks": 56,
+   "held": 0,
+   "buttons": []
+  }
+ ],
+ "pressed_counts": {
+  "up": 0,
+  "down": 0,
+  "left": 5,
+  "right": 9,
+  "X": 1,
+  "Z": 5,
+  "C": 0,
+  "D": 0,
+  "S": 0
+ },
+ "index": 471,
+ "name": "DEMO1_2"
+}

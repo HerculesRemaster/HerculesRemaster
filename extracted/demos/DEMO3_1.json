@@ -1,0 +1,254 @@
+{
+ "start_index": 1,
+ "flags_or": 0,
+ "byte4": 0,
+ "ticks": 881,
+ "runs": [
+  {
+   "from_tick": 0,
+   "ticks": 16,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 16,
+   "ticks": 24,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 40,
+   "ticks": 22,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 62,
+   "ticks": 2,
+   "held": 128,
+   "buttons": [
+    "left"
+   ]
+  },
+  {
+   "from_tick": 64,
+   "ticks": 73,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 137,
+   "ticks": 7,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 144,
+   "ticks": 11,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 155,
+   "ticks": 13,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 168,
+   "ticks": 12,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 180,
+   "ticks": 5,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 185,
+   "ticks": 12,
+   "held": 16416,
+   "buttons": [
+    "right",
+    "Z"
+   ]
+  },
+  {
+   "from_tick": 197,
+   "ticks": 10,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 207,
+   "ticks": 7,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 214,
+   "ticks": 20,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 234,
+   "ticks": 27,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 261,
+   "ticks": 60,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 321,
+   "ticks": 43,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 364,
+   "ticks": 13,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 377,
+   "ticks": 12,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 389,
+   "ticks": 12,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 401,
+   "ticks": 4,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 405,
+   "ticks": 14,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 419,
+   "ticks": 4,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 423,
+   "ticks": 16,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 439,
+   "ticks": 18,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 457,
+   "ticks": 59,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 516,
+   "ticks": 18,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 534,
+   "ticks": 107,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 641,
+   "ticks": 24,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 665,
+   "ticks": 56,
+   "held": 4096,
+   "buttons": [
+    "D"
+   ]
+  },
+  {
+   "from_tick": 721,
+   "ticks": 55,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 776,
+   "ticks": 52,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 828,
+   "ticks": 53,
+   "held": 0,
+   "buttons": []
+  }
+ ],
+ "pressed_counts": {
+  "up": 0,
+  "down": 0,
+  "left": 1,
+  "right": 6,
+  "X": 7,
+  "Z": 1,
+  "C": 0,
+  "D": 1,
+  "S": 0
+ },
+ "index": 469,
+ "name": "DEMO3_1"
+}

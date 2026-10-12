@@ -1,0 +1,290 @@
+{
+ "start_index": 6,
+ "flags_or": 0,
+ "byte4": 0,
+ "ticks": 881,
+ "runs": [
+  {
+   "from_tick": 0,
+   "ticks": 20,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 20,
+   "ticks": 8,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 28,
+   "ticks": 6,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 34,
+   "ticks": 15,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 49,
+   "ticks": 2,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 51,
+   "ticks": 42,
+   "held": 64,
+   "buttons": [
+    "down"
+   ]
+  },
+  {
+   "from_tick": 93,
+   "ticks": 9,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 102,
+   "ticks": 25,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 127,
+   "ticks": 84,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 211,
+   "ticks": 8,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 219,
+   "ticks": 31,
+   "held": 16416,
+   "buttons": [
+    "right",
+    "Z"
+   ]
+  },
+  {
+   "from_tick": 250,
+   "ticks": 51,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 301,
+   "ticks": 16,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 317,
+   "ticks": 16,
+   "held": 16,
+   "buttons": [
+    "up"
+   ]
+  },
+  {
+   "from_tick": 333,
+   "ticks": 37,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 370,
+   "ticks": 9,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 379,
+   "ticks": 19,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 398,
+   "ticks": 17,
+   "held": 128,
+   "buttons": [
+    "left"
+   ]
+  },
+  {
+   "from_tick": 415,
+   "ticks": 30,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 445,
+   "ticks": 39,
+   "held": 64,
+   "buttons": [
+    "down"
+   ]
+  },
+  {
+   "from_tick": 484,
+   "ticks": 8,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 492,
+   "ticks": 29,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 521,
+   "ticks": 9,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 530,
+   "ticks": 1,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 531,
+   "ticks": 28,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 559,
+   "ticks": 66,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 625,
+   "ticks": 2,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 627,
+   "ticks": 13,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 640,
+   "ticks": 24,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 664,
+   "ticks": 3,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 667,
+   "ticks": 25,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 692,
+   "ticks": 11,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 703,
+   "ticks": 9,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 712,
+   "ticks": 17,
+   "held": 32768,
+   "buttons": [
+    "X"
+   ]
+  },
+  {
+   "from_tick": 729,
+   "ticks": 96,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 825,
+   "ticks": 27,
+   "held": 32,
+   "buttons": [
+    "right"
+   ]
+  },
+  {
+   "from_tick": 852,
+   "ticks": 21,
+   "held": 0,
+   "buttons": []
+  },
+  {
+   "from_tick": 873,
+   "ticks": 8,
+   "held": 16,
+   "buttons": [
+    "up"
+   ]
+  }
+ ],
+ "pressed_counts": {
+  "up": 2,
+  "down": 2,
+  "left": 1,
+  "right": 10,
+  "X": 3,
+  "Z": 1,
+  "C": 0,
+  "D": 0,
+  "S": 0
+ },
+ "index": 470,
+ "name": "DEMO5_1"
+}

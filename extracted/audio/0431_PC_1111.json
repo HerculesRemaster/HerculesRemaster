@@ -1,0 +1,20 @@
+{
+ "index": 431,
+ "id": "0EFDDB6D",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_1111.ESF",
+ "size": 49240,
+ "pcm_bytes": 196896,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 0,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 49224,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0431_PC_1111.wav",
+ "samples": 98448,
+ "seconds": 4.465,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "16-bit DSound buffer"
+}

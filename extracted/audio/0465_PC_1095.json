@@ -1,0 +1,20 @@
+{
+ "index": 465,
+ "id": "16FCDB71",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_1095.ESF",
+ "size": 54718,
+ "pcm_bytes": 218810,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 0,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 54702,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0465_PC_1095.wav",
+ "samples": 109405,
+ "seconds": 4.962,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "16-bit DSound buffer"
+}

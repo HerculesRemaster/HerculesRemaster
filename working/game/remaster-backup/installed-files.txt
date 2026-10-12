@@ -1,0 +1,5 @@
+NOTICES.txt
+README.txt
+ddraw.dll
+hercules_display.ini
+art/

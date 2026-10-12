@@ -1,0 +1,20 @@
+{
+ "index": 159,
+ "id": "0411F823",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_773.ESF",
+ "size": 3019,
+ "pcm_bytes": 12012,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 3003,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0159_PC_773.wav",
+ "samples": 6006,
+ "seconds": 0.545,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

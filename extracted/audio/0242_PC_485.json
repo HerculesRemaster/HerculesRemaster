@@ -1,0 +1,20 @@
+{
+ "index": 242,
+ "id": "0612F523",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_485.ESF",
+ "size": 2841,
+ "pcm_bytes": 11300,
+ "rate": 11025,
+ "loop": 1,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 2825,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0242_PC_485.wav",
+ "samples": 5650,
+ "seconds": 0.512,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

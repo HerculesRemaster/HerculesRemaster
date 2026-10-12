@@ -1,0 +1,20 @@
+{
+ "index": 319,
+ "id": "0811F523",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_477.ESF",
+ "size": 2047,
+ "pcm_bytes": 8126,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 2031,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0319_PC_477.wav",
+ "samples": 4063,
+ "seconds": 0.369,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

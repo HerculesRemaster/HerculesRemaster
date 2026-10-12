@@ -1,0 +1,20 @@
+{
+ "index": 661,
+ "id": "B8FF0839",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_91.ESF",
+ "size": 3866,
+ "pcm_bytes": 15402,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 3850,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0661_PC_91.wav",
+ "samples": 7701,
+ "seconds": 0.699,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

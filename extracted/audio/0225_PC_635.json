@@ -1,0 +1,20 @@
+{
+ "index": 225,
+ "id": "060DF723",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_635.ESF",
+ "size": 6896,
+ "pcm_bytes": 27522,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 6880,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0225_PC_635.wav",
+ "samples": 13761,
+ "seconds": 0.624,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

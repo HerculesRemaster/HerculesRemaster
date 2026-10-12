@@ -1,0 +1,20 @@
+{
+ "index": 393,
+ "id": "0A0FF723",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_659.ESF",
+ "size": 6832,
+ "pcm_bytes": 27264,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 6816,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0393_PC_659.wav",
+ "samples": 13632,
+ "seconds": 1.236,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

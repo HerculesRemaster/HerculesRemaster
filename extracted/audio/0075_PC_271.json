@@ -1,0 +1,20 @@
+{
+ "index": 75,
+ "id": "0211F323",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_271.ESF",
+ "size": 1930,
+ "pcm_bytes": 7656,
+ "rate": 11025,
+ "loop": 1,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 1914,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0075_PC_271.wav",
+ "samples": 3828,
+ "seconds": 0.347,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

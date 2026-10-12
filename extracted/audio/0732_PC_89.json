@@ -1,0 +1,20 @@
+{
+ "index": 732,
+ "id": "B9070739",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_89.ESF",
+ "size": 3608,
+ "pcm_bytes": 14370,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 3592,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0732_PC_89.wav",
+ "samples": 7185,
+ "seconds": 0.652,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

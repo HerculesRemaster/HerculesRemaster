@@ -1,0 +1,20 @@
+{
+ "index": 285,
+ "id": "0712F823",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_786.ESF",
+ "size": 9889,
+ "pcm_bytes": 39494,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 9873,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0285_PC_786.wav",
+ "samples": 19747,
+ "seconds": 0.896,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}
