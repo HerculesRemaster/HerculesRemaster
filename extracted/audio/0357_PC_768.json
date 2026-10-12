@@ -1,0 +1,20 @@
+{
+ "index": 357,
+ "id": "0910F823",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_768.ESF",
+ "size": 1460,
+ "pcm_bytes": 5778,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 1444,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0357_PC_768.wav",
+ "samples": 2889,
+ "seconds": 0.131,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

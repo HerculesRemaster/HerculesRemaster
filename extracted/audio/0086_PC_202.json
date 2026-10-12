@@ -1,0 +1,20 @@
+{
+ "index": 86,
+ "id": "030AF323",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_202.ESF",
+ "size": 4955,
+ "pcm_bytes": 19758,
+ "rate": 11025,
+ "loop": 1,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 4939,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0086_PC_202.wav",
+ "samples": 9879,
+ "seconds": 0.896,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

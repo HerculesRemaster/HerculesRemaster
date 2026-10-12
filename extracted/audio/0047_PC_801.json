@@ -1,0 +1,20 @@
+{
+ "index": 47,
+ "id": "020AF923",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_801.ESF",
+ "size": 1975,
+ "pcm_bytes": 7838,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 1959,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0047_PC_801.wav",
+ "samples": 3919,
+ "seconds": 0.178,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

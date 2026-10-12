@@ -1,0 +1,20 @@
+{
+ "index": 36,
+ "id": "0112F523",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_480.ESF",
+ "size": 1652,
+ "pcm_bytes": 6544,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 1636,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0036_PC_480.wav",
+ "samples": 3272,
+ "seconds": 0.297,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

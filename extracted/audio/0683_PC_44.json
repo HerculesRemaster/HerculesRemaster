@@ -1,0 +1,20 @@
+{
+ "index": 683,
+ "id": "B9020339",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_44.ESF",
+ "size": 34225,
+ "pcm_bytes": 136836,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 34209,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0683_PC_44.wav",
+ "samples": 68418,
+ "seconds": 3.103,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

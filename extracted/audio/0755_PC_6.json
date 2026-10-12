@@ -1,0 +1,20 @@
+{
+ "index": 755,
+ "id": "CFB5F846",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_6.ESF",
+ "size": 10601,
+ "pcm_bytes": 42340,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 10585,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0755_PC_6.wav",
+ "samples": 21170,
+ "seconds": 0.96,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

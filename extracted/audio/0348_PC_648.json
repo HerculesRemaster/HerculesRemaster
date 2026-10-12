@@ -1,0 +1,20 @@
+{
+ "index": 348,
+ "id": "090EF723",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_648.ESF",
+ "size": 16496,
+ "pcm_bytes": 65920,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 16480,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0348_PC_648.wav",
+ "samples": 32960,
+ "seconds": 2.99,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

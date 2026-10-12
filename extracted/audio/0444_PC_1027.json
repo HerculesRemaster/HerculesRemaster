@@ -1,0 +1,20 @@
+{
+ "index": 444,
+ "id": "0FFCDB73",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_1027.ESF",
+ "size": 49926,
+ "pcm_bytes": 199642,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 0,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 49910,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0444_PC_1027.wav",
+ "samples": 99821,
+ "seconds": 4.527,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "16-bit DSound buffer"
+}

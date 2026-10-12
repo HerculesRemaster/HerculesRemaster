@@ -1,0 +1,20 @@
+{
+ "index": 463,
+ "id": "15FCDB71",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_1085.ESF",
+ "size": 19535,
+ "pcm_bytes": 78076,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 0,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 19519,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0463_PC_1085.wav",
+ "samples": 39038,
+ "seconds": 1.77,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "16-bit DSound buffer"
+}

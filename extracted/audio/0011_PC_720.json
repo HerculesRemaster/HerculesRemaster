@@ -1,0 +1,20 @@
+{
+ "index": 11,
+ "id": "010CF823",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_720.ESF",
+ "size": 10448,
+ "pcm_bytes": 41730,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 10432,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0011_PC_720.wav",
+ "samples": 20865,
+ "seconds": 1.893,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

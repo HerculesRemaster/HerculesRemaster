@@ -1,0 +1,20 @@
+{
+ "index": 98,
+ "id": "030CF923",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_822.ESF",
+ "size": 1382,
+ "pcm_bytes": 5464,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 1366,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0098_PC_822.wav",
+ "samples": 2732,
+ "seconds": 0.248,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

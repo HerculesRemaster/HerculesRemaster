@@ -4,6 +4,8 @@ Reverse engineering and 4K remaster workspace for *Disney's Hercules* (1997, Win
 `C:\Games\GameHercules` is never modified. This repository holds the tools, specifications, manifests and the
 implementation plan.
 
+![Frozen Ophiotaur boss battle (remaster concept)](reference/CGI/Frozen%20Ophiotaur%20Boss%20Battle.png)
+
 - Master document: `../Hercules-Reverse-Engineering-Master-Document.md` (treated as a plan; its findings are leads to verify).
 - Implementation plan (lean): [`.plan/hercules-remaster/`](.plan/hercules-remaster/README.md). Start with
   [CONTINUE.md](.plan/hercules-remaster/CONTINUE.md).

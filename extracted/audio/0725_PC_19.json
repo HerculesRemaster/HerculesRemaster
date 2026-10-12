@@ -1,0 +1,20 @@
+{
+ "index": 725,
+ "id": "B9070039",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_19.ESF",
+ "size": 5219,
+ "pcm_bytes": 20814,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 5203,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0725_PC_19.wav",
+ "samples": 10407,
+ "seconds": 0.944,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

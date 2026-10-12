@@ -1,0 +1,20 @@
+{
+ "index": 448,
+ "id": "10FCDB70",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_1034.ESF",
+ "size": 38992,
+ "pcm_bytes": 155906,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 0,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 38976,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0448_PC_1034.wav",
+ "samples": 77953,
+ "seconds": 3.535,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "16-bit DSound buffer"
+}

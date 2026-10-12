@@ -1,0 +1,20 @@
+{
+ "index": 235,
+ "id": "0610F223",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_165.ESF",
+ "size": 4381,
+ "pcm_bytes": 17462,
+ "rate": 22050,
+ "loop": 1,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 4365,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0235_PC_165.wav",
+ "samples": 8731,
+ "seconds": 0.396,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

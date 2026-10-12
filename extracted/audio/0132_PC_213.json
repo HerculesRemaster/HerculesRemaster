@@ -1,0 +1,20 @@
+{
+ "index": 132,
+ "id": "040BF323",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_213.ESF",
+ "size": 2296,
+ "pcm_bytes": 9122,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 2280,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0132_PC_213.wav",
+ "samples": 4561,
+ "seconds": 0.414,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

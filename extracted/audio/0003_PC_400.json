@@ -1,0 +1,20 @@
+{
+ "index": 3,
+ "id": "010AF523",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_400.ESF",
+ "size": 10774,
+ "pcm_bytes": 43032,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 10758,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0003_PC_400.wav",
+ "samples": 21516,
+ "seconds": 1.952,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

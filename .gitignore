@@ -9,14 +9,14 @@ __pycache__/
 # working/
 
 # Extracted payloads and decoded media: reproducible from manifests; coverage metadata is tracked
-extracted/*
-!extracted/meta/
+# extracted/*
+!extracted/m
 
 # Generated / large media
-remastered/**/*.png
-remastered/**/*.jpg
-remastered/**/*.webp
-remastered/**/*.wav
+# remastered/**/*.png
+# remastered/**/*.jpg
+# remastered/**/*.webp
+# remastered/**/*.wav
 remastered/runtime/
 reference/**/*.mp4
 reference/**/*.mkv
@@ -51,3 +51,15 @@ reference/captures/full-game/
 extracted/full-game/
 
 *.7z
+
+# Files over GitHub's 100 MB limit
+remastered/**/level_TRAINING.png
+reference/captures/auto/demo-20261012-003622.mkv
+analysis/traces/full-game/l05-hydra-canyon/canyon-entry/20261012-063658-debug_level-medium/frames.bin
+analysis/traces/full-game/_cheats/cheat_100_only/frames.bin
+analysis/traces/full-game/_cheats/cheat_100_101/frames.bin
+analysis/traces/full-game/l03-the-centaurs-forest/nessus-approach/20261012-070937-password-medium/frames.bin
+analysis/traces/full-game/l03-the-centaurs-forest/forest-main-route/20261012-064207-password-medium/frames.bin
+analysis/traces/full-game/l02-heros-gauntlet/full-progression/20261012-073417-password-config/frames.bin
+dist/HerculesRemaster-0.3.0.zip
+dist/HerculesRemaster-0.2.0.zip

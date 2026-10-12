@@ -1,0 +1,20 @@
+{
+ "index": 457,
+ "id": "13FCDB72",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_1066.ESF",
+ "size": 29548,
+ "pcm_bytes": 118128,
+ "rate": 22050,
+ "loop": 0,
+ "bps8": 0,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 29532,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0457_PC_1066.wav",
+ "samples": 59064,
+ "seconds": 2.679,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "16-bit DSound buffer"
+}

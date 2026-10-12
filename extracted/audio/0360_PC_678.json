@@ -1,0 +1,20 @@
+{
+ "index": 360,
+ "id": "0911F723",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_678.ESF",
+ "size": 10528,
+ "pcm_bytes": 42050,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 10512,
+ "size_vs_expected": 0,
+ "odd_samples": true,
+ "wav": "0360_PC_678.wav",
+ "samples": 21025,
+ "seconds": 1.907,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

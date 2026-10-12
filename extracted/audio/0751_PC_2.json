@@ -1,0 +1,20 @@
+{
+ "index": 751,
+ "id": "CFB5F446",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_2.ESF",
+ "size": 2429,
+ "pcm_bytes": 9652,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 2413,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0751_PC_2.wav",
+ "samples": 4826,
+ "seconds": 0.438,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

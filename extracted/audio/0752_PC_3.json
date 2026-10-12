@@ -1,0 +1,20 @@
+{
+ "index": 752,
+ "id": "CFB5F546",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_3.ESF",
+ "size": 2724,
+ "pcm_bytes": 10832,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 2708,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0752_PC_3.wav",
+ "samples": 5416,
+ "seconds": 0.491,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

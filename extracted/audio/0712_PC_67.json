@@ -1,0 +1,20 @@
+{
+ "index": 712,
+ "id": "B9050539",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_67.ESF",
+ "size": 3460,
+ "pcm_bytes": 13776,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 3444,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0712_PC_67.wav",
+ "samples": 6888,
+ "seconds": 0.625,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}

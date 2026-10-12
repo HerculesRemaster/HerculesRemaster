@@ -1,0 +1,20 @@
+{
+ "index": 720,
+ "id": "B9060439",
+ "name": "M:\\LANGUAGE\\SONIX\\PC_58.ESF",
+ "size": 1723,
+ "pcm_bytes": 6828,
+ "rate": 11025,
+ "loop": 0,
+ "bps8": 1,
+ "pad10": 0,
+ "pad14": 0,
+ "adpcm_bytes": 1707,
+ "size_vs_expected": 0,
+ "odd_samples": false,
+ "wav": "0720_PC_58.wav",
+ "samples": 3414,
+ "seconds": 0.31,
+ "decoder": "HERCULES.EXE+0x2410 (port)",
+ "playback": "8-bit DSound buffer"
+}
