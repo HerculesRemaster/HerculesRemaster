@@ -22,10 +22,10 @@ There is no separate section/substage field: every ENG1 map has one section (`le
 
 - **Set by:** TITLE `FUN_1000cd30` (from the password record), TITLE `FUN_100121d0` (restoring a saved game record, slot field +0x10), ENG1 `HERO_DemoLoad` (demo byte 4 = 0) and ENG1 `FUN_1001f220`.
 - **Read by 12 ENG1 functions.** Two of them show the meaning:
-  - `FUN_10018c50`: `health −= 0x55348[((hit − 1) & 7) + (difficulty & 3)·8]`.
+  - `FUN_10018c50` (`HERO_ApplyDamage`): `health −= 0x55348[((stored − 1) & 7) + (difficulty & 3)·8]`, where `HERO_RequestDamage` 0x266a0 stores n + 1 (bit 0x10 cleared). So the table index is **n & 7** for a request n < 0x10 (0x11 → 1, 0x22 → 2). Runtime check by gamehercules-22: in the THEBES Beginner demo the Minotaur (n = 3) costs 12.
   - `FUN_10024270`: an enemy's hit points (+0xee) = `difficulty·2 + 6`.
 
-| difficulty | hero damage per hit strength 1–8 (ENG1 0x55348) | enemy HP (`FUN_10024270`) |
+| difficulty | hero damage per table index 0–7 = request n & 7 (ENG1 0x55348) | enemy HP (`FUN_10024270`) |
 |---|---|---:|
 | 0 Beginner | 5, 8, 10, 12, 15, 16, 20, 22 | 6 |
 | 1 Medium | 12, 18, 25, 30, 35, 40, 45, 50 | 8 |

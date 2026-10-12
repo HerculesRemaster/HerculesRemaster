@@ -32,3 +32,19 @@ Recorded 2026-10-12 from the user's answers in P6/P7.
 - **Tool:** xBRZ (Zenju, GPL-3.0), vendored as source in `tools/hires/xbrz_lib/` (source and SHA-256 pinned there) and built locally with MSVC. It is an offline asset tool and is not shipped with the runtime.
 - The GPT Image route (`docs/ai-image-guide.md`) stays available for optional redraws of single sequences.
 
+## Web migration scope (W0, 2026-10-13)
+
+The user requested implementation of the WebAssembly migration plan. The following release-scope section is
+prepared from that plan; explicit confirmation of D-W0-1 is pending in
+[W0-web-scope.md](../.plan/hercules-remaster/W0-web-scope.md).
+
+- Development target: local and LAN builds. Public deployment remains outside the current authorization.
+- The player supplies `HERCULES.FS`, `ENG1.DLL`, `ENG3.DLL`, `TITLE.DLL` and `HERCULES.EXE`; the EXE supplies the
+  sine table and edition/hash verification data.
+- Original files, derived art and game code are never hosted publicly or included in a distributable web build.
+  Existing licence and distribution restrictions above continue to apply.
+- D-W0-2 is confirmed: Emscripten SDK 6.0.12 is installed outside the game folder. See
+  [toolchain.md](wasm/toolchain.md).
+- Music policy (D-W0-3) and save persistence (D-W0-4) await the user's answers. Neither preference has been inferred
+  from the absence of media or from the unverified behavior of Windows saves.
+
