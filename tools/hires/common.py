@@ -55,6 +55,11 @@ def layout(pack: str) -> dict:
     return json.loads((PROMPTS / pack / "layout.json").read_text(encoding="utf-8"))
 
 
+def download_path(pack: str) -> Path:
+    """Where the model's result for a pack is saved: remastered/prompts/<pack>/<pack>.png."""
+    return PROMPTS / pack / f"{pack}.png"
+
+
 def is_pack(name: str) -> bool:
     return bool(name) and (PROMPTS / name / "layout.json").is_file()
 

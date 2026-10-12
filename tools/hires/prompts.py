@@ -7,6 +7,7 @@ For each pilot item writes remastered/prompts/<pack>/:
                scale that fits one of the model's output sizes (the image size to request)
   prompt.txt   the prompt to paste with input.png
   layout.json  where each cell sits (read back by fit.py)
+  <pack>.png   not written here: save the model's result under this name (jobs.py take picks it up)
 Sprite sequences become packs of frames on a common canvas aligned on the pivot (so the model keeps
 scale and ground line). Level textures become one pack per VRAM page used by the level's quads, the
 repeating tile one pack, the HUD clouds one pack.
@@ -194,6 +195,7 @@ def main(argv=None) -> int:
         elif reg["name"] == "ui_hud":
             names.append(region_pack("ui_hud_clouds", e, [(0, 0, 80, 37), (136, 0, 64, 31)], UI_PROMPT, sizes, a.max_scale, root))
     lines = ["# Prompt packs (generate in this order; see docs/ai-image-guide.md)", "",
+             "Save each result as `<pack>/<pack>.png`, then run `jobs.py take` (tools/hires).", "",
              "| # | pack | request size | cells | scale |", "|---:|---|---|---:|---:|"]
     for i, n in enumerate(names, 1):
         lay = json.loads((root / n / "layout.json").read_text())

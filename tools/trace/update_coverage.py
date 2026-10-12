@@ -83,7 +83,7 @@ def rewrite_md(cov):
 
 
 def main(argv):
-    runs = [Path(a) / "run.json" for a in argv] or sorted((ROOT / "analysis" / "traces" / "full-game").glob("*/*/*/run.json"))
+    runs = [Path(a).resolve() / "run.json" for a in argv] or sorted((ROOT / "analysis" / "traces" / "full-game").glob("*/*/*/run.json"))
     covp = SC / "coverage.json"
     cov = json.loads(covp.read_text(encoding="utf-8"))
     for r in runs:

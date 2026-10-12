@@ -9,7 +9,7 @@ sequence table in the bank. This tool collects what the game actually showed, fr
   loops        strongly connected groups of the transition graph (cycles such as run loops)
   sequences    linear chains (mutually dominant successor/predecessor), labels in anim_labels.json
   frames       per frame: median/min/max ticks shown, pivot (= bank.json origin), boxes, dx/dy
-    anim.py [runs ...]   (default: every analysis/traces/runs/*/resource-usage.jsonl)
+    anim.py [--src3] [runs ...]   (--src3: write only SRC3 banks; default: every analysis/traces/runs/*/resource-usage.jsonl)
 """
 from __future__ import annotations
 
@@ -31,6 +31,17 @@ def bank_index_by_name() -> dict[str, int]:
         n = (e.get("name_candidate") or "").upper()
         if n.endswith("\\ANIMPSX.BIN") and n.startswith("M:\\GRAFIX\\CHOP\\"):
             out["P:\\" + n[len("M:\\GRAFIX\\CHOP\\"):-len("\\ANIMPSX.BIN")]] = e["index"]
+    return out
+
+
+def hitboxes(boxes):
+    """Frame record boxes as the collision code reads them (GFX_FrameHitbox ENG3 0x23860 = ENG1 0x30e40, same code;
+    used by LVL_ObjOverlap ENG3 0x1eff0 / ENG1 0x2a660): 6 s8 per box = z0, y0, x0*2, z1, y1, x1*2 (object units,
+    before the obj+0x3a scale and the obj+0x54 0x10/0x20 mirror flags)."""
+    out = []
+    for b in boxes or []:
+        v = [x - 256 if x > 127 else x for x in b]
+        out.append({"z": [v[0], v[3]], "y": [v[1], v[4]], "x": [v[2] >> 1, v[5] >> 1]})
     return out
 
 
@@ -93,6 +104,8 @@ def chains(trans: Counter) -> list[list[int]]:
 
 
 def main(argv: list[str]) -> int:
+    src3 = "--src3" in argv                    # only write SRC3 (ENG3) banks, e.g. from full-game ENG3 runs
+    argv = [a for a in argv if a != "--src3"]
     runs = [Path(p) for p in argv[1:]] or sorted((ROOT / "analysis" / "traces" / "runs").glob("*/resource-usage.jsonl"))
     names = bank_index_by_name()
     events = defaultdict(list)          # (run, obj) -> events
@@ -129,6 +142,8 @@ def main(argv: list[str]) -> int:
         if not dirs:
             continue
         bank_json = json.loads((dirs[0] / "bank.json").read_text(encoding="utf-8"))
+        if src3 and "SRC3" not in dirs[0].name:
+            continue
         meta = {f["frame"]: f for f in bank_json["frames"]}
         graph = defaultdict(set)
         for (x, y) in b["transitions"]:
@@ -139,6 +154,7 @@ def main(argv: list[str]) -> int:
             frames[f] = {"ticks_median": statistics.median(ds), "ticks_min": min(ds), "ticks_max": max(ds), "seen": len(ds),
                          "pivot": m.get("origin"), "dx": m.get("dx"), "dy": m.get("dy"), "boxes": m.get("boxes"),
                          "png": m.get("png")}
+            frames[f]["hitboxes"] = hitboxes(m.get("boxes"))
         out = {"bank": bank_json["name"], "index": idx, "tick_ms": 33,
                "note": "observed at runtime (ENG1 0x3cd0 frame changes); sequences are code-driven",
                "loops": sccs(graph), "sequences": chains(b["transitions"]),

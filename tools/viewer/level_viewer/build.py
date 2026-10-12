@@ -1,7 +1,8 @@
 """Static level viewer: layer images + collision/spawn overlay with toggles.
 
-    build.py LEVEL  -> extracted/levels/<LEVEL>/viewer.html (uses the preview PNGs made by
-    tools/level/render_preview.py --collision; open from disk)
+    build.py LEVEL [DIR]  -> <DIR>/<LEVEL>/viewer.html (DIR default extracted/levels; full game:
+    extracted/full-game/levels). Uses the preview PNGs made by tools/level/render_preview.py --collision
+    and, when present, models.png (tools/level/render_models.py); open from disk)
 """
 import json
 import sys
@@ -10,8 +11,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 
 
-def main(level: str) -> int:
-    d = ROOT / "extracted" / "levels" / level
+def main(level: str, base: str = "") -> int:
+    d = (Path(base) if base else ROOT / "extracted" / "levels") / level
     layers = sorted(int(p.stem.replace("preview_layer", "")) for p in d.glob("preview_layer*.png"))
     L = json.loads((d / "level.json").read_text(encoding="utf-8"))
     sec = L["sections"][0]
@@ -24,6 +25,8 @@ def main(level: str) -> int:
 {len(L['types'])} block types (rendered columns as in the preview PNGs).<br>
 {boxes}<label><input type="checkbox" onchange="tog('ov',this)"> collision + spawns</label>
 <div id="v"><img src="preview_composite.png" style="z-index:0;opacity:0">{imgs}<img id="ov" src="preview_collision.png" style="z-index:50;display:none"></div>
+{'<p>Background (T44, tools/level/render_background.py): <br><img src="background.png" style="max-width:100%">' if (d / "background.png").exists() else ''}
+{'<p>Models (T28): <br><img src="models.png" style="max-width:100%">' if (d / "models.png").exists() else ''}
 <script>function tog(id,cb){{document.getElementById(id).style.display=cb.checked?'block':'none'}}</script></body></html>"""
     (d / "viewer.html").write_text(page, encoding="utf-8")
     print(f"viewer -> {d / 'viewer.html'}")
@@ -31,4 +34,4 @@ def main(level: str) -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1]))
+    sys.exit(main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else ""))

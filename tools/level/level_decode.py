@@ -37,7 +37,9 @@ field_offset + (u32 & ~3).
     (0x48 bytes per level id, 999 ends; +0x40 -> template table, 10 bytes: s16 dx, dy, dz,
     u16 flags (bit 0x200 = re-placed on reset), s16 kind). Object position = (x+dx, y+dy, z+dz).
 
-    level_decode.py [index ...]   (default: every i2.5 map)
+  models (T34 entries after the block types, GFX_DrawModel 0x31540): see decode_models.
+
+    level_decode.py [--out DIR] [index ...]   (default: every i2.5 map -> extracted/levels)
 """
 from __future__ import annotations
 
@@ -61,7 +63,9 @@ def rel(d, o): return o + (u32(d, o) & ~3)
 
 
 def vram_image(d: bytes, img0: int, img1: int) -> Image.Image:
-    """1024x512 16-bit VRAM as RGB (PSX BGR555), from the two uploads in 0x1fc90."""
+    """1024x512 16-bit VRAM as RGB (PSX BGR555), from the two uploads in 0x1fc90. LVL_LoadMap reads only
+    header-size bytes (+4), so image bytes past it are not file data at runtime (S2.03): they stay 0 here."""
+    d = d[:u32(d, 4)]
     vram = bytearray(1024 * 512 * 2)
     for y in range(512):
         row = d[img0 + y * 1536:img0 + (y + 1) * 1536]
@@ -165,6 +169,71 @@ def decode_collision(d: bytes, t34: int, t: int) -> dict | None:
             "samples": list(d[p + 1:p + 1 + nx * nz]), "nx": nx, "nz": nz, "heights_z0_32_63": heights}
 
 
+def unpack_vertex(v: int) -> list[int]:
+    return [struct.unpack("<b", bytes((v & 0xFF,)))[0], struct.unpack("<h", struct.pack("<H", (v >> 8) & 0xFFFF))[0],
+            struct.unpack("<b", bytes((v >> 24,)))[0]]
+
+
+def decode_models(d: bytes, h: dict) -> list[dict]:
+    """T34 entries n_types..n_types+n_extra-1: self-relative s32 -> model, drawn by GFX_DrawModel 0x31540
+    (object frame field +0x34 = model k, 1-based; 0x313e0 / 0x31470).
+    model: s16 T28 word offset, u8 n, u8 radius (visibility test 0x32050), u32 offset vector (0 = object
+    matrix, else packed like a vertex and scaled by the object, 0x31d30), n x 8 bytes (not read by the draw),
+    then per face group {s16 (the T28 word again), s16 count, u32 vertices[count]}: the draw reads the first
+    count at +10 + 8n, the vertices from count + 2, and the next count 4 + 4*count later transformed into slots 0..count-1
+    (slots above count keep the previous chunk's vertices; transform table 0x5cec0).
+    T28 group: u16 quads, u8 more groups, u8 carried vertices; quads x 8 bytes {u32 v0|v1<<6|v2<<12|v3<<18|flags<<24,
+    u32 T30 byte offset (high byte 0) or flat colour (low byte)}, carried slot bytes, padded to 4.
+    Flags 0x08: back-face culled unless 0x01 (0x04: skipped while 0x6ffbc == 0); 0x40: test the 2nd triangle."""
+    t34, t28 = h["t34"], h["t28"]
+    models = []
+    for k in range(1, h["n_extra"] + 1):
+        ent = t34 + (h["n_types"] - 1 + k) * 4
+        p = ent + struct.unpack_from("<i", d, ent)[0]
+        if not 0 < p < len(d) - 10:
+            models.append({"k": k, "error": f"pointer 0x{p:x} out of file"})
+            continue
+        idx, n, radius, off = struct.unpack_from("<hBBI", d, p)
+        if s16(d, p + 8 + 8 * n) != idx:   # every mesh repeats its T28 word before the first count
+            models.append({"k": k, "t28_word": idx, "n": n, "radius": radius, "raw": d[p:p + 24].hex(),
+                           "error": "no T28 word before the vertex count: not a GFX_DrawModel mesh (consumer open)"})
+            continue
+        q, g = p + 10 + 8 * n, t28 + idx * 4
+        slots: list[list[int] | None] = [None] * 64
+        groups = []
+        for _ in range(64):
+            cnt = s16(d, q)
+            if not 0 <= cnt <= 64:
+                groups.append({"error": f"vertex count {cnt} at 0x{q:x}"})
+                break
+            for i in range(cnt):
+                slots[i] = unpack_vertex(u32(d, q + 2 + 4 * i))
+            q += 4 + 4 * cnt
+            nq, more, carry = struct.unpack_from("<HBB", d, g)
+            if nq > 256:
+                groups.append({"error": f"T28 group at 0x{g:x} has {nq} quads"})
+                break
+            quads = []
+            for i in range(nq):
+                q0, q1 = u32(d, g + 4 + 8 * i), u32(d, g + 8 + 8 * i)
+                vi = [q0 & 63, (q0 >> 6) & 63, (q0 >> 12) & 63, (q0 >> 18) & 63]
+                quad = {"v": vi, "flags": q0 >> 24, "p": [slots[j] for j in vi]}
+                if q1 >> 24:
+                    quad["colour"] = q1 & 0xFF
+                else:
+                    quad["tex"] = q1
+                quads.append(quad)
+            groups.append({"vertices": cnt, "quads": quads,
+                           "carry": list(d[g + 4 + 8 * nq:g + 4 + 8 * nq + carry])})
+            g = (g + 4 + 8 * nq + carry + 3) & ~3
+            if more == 0:
+                break
+        models.append({"k": k, "t28_word": idx, "n": n, "radius": radius,
+                       "offset": unpack_vertex(off) if off else None,
+                       "extra": d[p + 8:p + 8 + 8 * n].hex(), "groups": groups})
+    return models
+
+
 def texture(d: bytes, t30: int, off: int) -> dict:
     a, b, c = struct.unpack_from("<3I", d, t30 + off)
     return {"uv": [[a & 0xFF, (a >> 8) & 0xFF], [b & 0xFF, (b >> 8) & 0xFF], [c & 0xFF, (c >> 8) & 0xFF],
@@ -244,7 +313,10 @@ def decode(d: bytes, name: str) -> dict:
     types = {}
     for t in used:
         types[t] = {"mesh": decode_mesh(d, t34, t), "collision": decode_collision(d, t34, t)}
-    tex_offs = sorted({q["tex"] for ty in types.values() if ty["mesh"] for q in ty["mesh"]["quads"] if not q["flags"] & 0x80})
+    models = decode_models(d, h)
+    tex_offs = sorted({q["tex"] for ty in types.values() if ty["mesh"] for q in ty["mesh"]["quads"] if not q["flags"] & 0x80}
+                      | {q["tex"] for mo in models for gr in mo.get("groups", []) for q in gr.get("quads", [])
+                         if "tex" in q and h["t30"] + q["tex"] + 12 <= len(d)})
     textures = {o: texture(d, h["t30"], o) for o in tex_offs}
     cams_used = sorted({(c >> 11) & 0x1FFF for sec in sections for lay in sec["grid"] for col in lay for c in col})
     cameras = {}
@@ -255,12 +327,21 @@ def decode(d: bytes, name: str) -> dict:
         cameras[ci] = {"record": rec, "flags": u16(d, h["t54"] + ci * 4 + 2), "x": x, "z": z,
                        "angle": w2 & 0xFFF, "w2_hi": w2 >> 24, "anchor": u16(d, r + 12),
                        "type": u16(d, r + 14) >> 14, "start_column": u16(d, r + 14) & 0x3FFF}
-    return {"name": name, "header": h, "sections": sections, "types": types, "textures": textures, "cameras": cameras}
+    # T50 (S2.02): corner light levels {u8 x0y0, x1y0, x0y1, x1y1}, index = T54 flags >> 4 when flags & 8 == 0
+    # (else fixed level (flags >> 6) & 0xff); level -> colour 0x6f4e8[(flags & 7) * 64 + level] (0x2f340, 0x311a0)
+    lights = [list(d[h["t50"] + 4 * i:h["t50"] + 4 * i + 4]) for i in range((h["t44"] - h["t50"]) // 4)]         if h["t44"] > h["t50"] else []
+    return {"name": name, "header": h, "sections": sections, "types": types, "textures": textures, "cameras": cameras,
+            "models": models, "lights": lights}
 
 
 def main(argv: list[str]) -> int:
     entries = json.loads(MANIFEST.read_text(encoding="utf-8"))["entries"]
     maps = [e for e in entries if (e.get("name_candidate") or "").upper().endswith("MAP_PSX.BIN")]
+    out_root = OUT
+    if "--out" in argv:                                        # full-game: extracted/full-game/levels
+        i = argv.index("--out")
+        out_root = Path(argv[i + 1])
+        argv = argv[:i] + argv[i + 2:]
     if len(argv) > 1:
         maps = [e for e in maps if e["index"] in {int(x) for x in argv[1:]}]
     ok = bad = 0
@@ -274,10 +355,12 @@ def main(argv: list[str]) -> int:
             bad += 1
             continue
         h = lvl["header"]
-        short = max(0, h["img0"] + 512 * 1536 - len(d)) + max(0, h["img1"] + 256 * 512 - len(d))
-        if short:
-            lvl["warnings"] = [f"VRAM image runs {short} bytes past the end of the file (padded with 0)"]
-        out = OUT / name
+        hs = h["header_size"]
+        short = max(0, h["img0"] + 512 * 1536 - hs) + max(0, h["img1"] + 256 * 512 - hs)
+        if short:   # S2.03: runtime VRAM there is whatever followed the header buffer; no texture samples it
+            lvl["notes"] = [f"VRAM image runs {short} bytes past the map header (0x{hs:x}); LVL_LoadMap does not load "
+                            f"them (runtime contents undefined, unused by textures; 0 here)"]
+        out = out_root / name
         out.mkdir(parents=True, exist_ok=True)
         vram = vram_image(d, lvl["header"]["img0"], lvl["header"]["img1"])
         (out / "vram.bin").write_bytes(vram)
@@ -299,7 +382,7 @@ def main(argv: list[str]) -> int:
               f"rows={s['rows']} blocks={s['blocks_n']} types={len(lvl['types'])} textures={len(lvl['textures'])} "
               f"cameras={len(lvl['cameras'])}")
         ok += 1
-    print(f"decoded={ok} failed={bad} -> {OUT}")
+    print(f"decoded={ok} failed={bad} -> {out_root}")
     return 0
 
 

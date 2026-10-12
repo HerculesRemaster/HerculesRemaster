@@ -1,6 +1,8 @@
 """Collect verified input/output pairs from a hook run into analysis/traces/pairs/<index>/.
 
-    collect_pairs.py analysis/traces/runs/<run>
+    collect_pairs.py analysis/traces/runs/<run> [--out <dir>]
+Pair folders may carry a scene prefix (s<NN>_esf_..., s<NN>_vram_...; the hook resets its caps at every
+module/level load so later scenes get pairs too).
 
 For each pair the archive payload is copied (payload.bin, from extracted/raw) and checked:
 - esf_<index>: adpcm_in.bin must equal payload[16:16+n]; pcm_out.s16le must equal an
@@ -13,6 +15,7 @@ Unverified pairs are skipped (listed in the summary).
 from __future__ import annotations
 
 import json
+import re
 import shutil
 import struct
 import sys
@@ -37,7 +40,7 @@ def main(run: Path) -> int:
     ok, skipped = [], []
     for d in sorted((run / "pairs").iterdir()):
         meta = json.loads((d / "pair.json").read_text(encoding="utf-8"))
-        if d.name.startswith("esf_"):
+        if re.sub(r"^s\d+_", "", d.name).startswith("esf_"):
             index = meta["archive_index"]
             src = payload(index)
             data = src.read_bytes()
@@ -79,7 +82,7 @@ def main(run: Path) -> int:
                 im.save(dst_dir / "preview.png")
                 meta["format"] = f"8bpp indexed {w}x{h}, TGA palette (BGR) at payload 18..785, pixels from 786"
         dst = OUT / f"{index:04d}"
-        if dst.exists() and (dst / "pair.json").exists() and d.name.startswith("vram_"):
+        if dst.exists() and (dst / "pair.json").exists() and re.sub(r"^s\d+_", "", d.name).startswith("vram_"):
             continue  # first verified pair per entry wins
         dst.mkdir(parents=True, exist_ok=True)
         for f in d.iterdir():
@@ -97,4 +100,7 @@ def main(run: Path) -> int:
 
 
 if __name__ == "__main__":
+    # collect_pairs.py <run dir> [--out <dir>]   (full-game runs: --out <run dir>/pairs_verified)
+    if "--out" in sys.argv:
+        OUT = Path(sys.argv[sys.argv.index("--out") + 1]).resolve()
     sys.exit(main(Path(sys.argv[1]).resolve()))

@@ -54,18 +54,84 @@ def snap(rgba: np.ndarray, ref_alpha: np.ndarray, k: int, grow: int) -> np.ndarr
     return out
 
 
+def iou(a: np.ndarray, b: np.ndarray) -> float:
+    u = (a | b).sum()
+    return float((a & b).sum() / u) if u else 0.0
+
+
+def shift_scale(m: np.ndarray, sigma: float, cg, cr, d) -> np.ndarray:
+    """Nearest-neighbour warp of a mask: p_out = sigma * (p_in - cg) + cr + d."""
+    h, w = m.shape
+    ys, xs = np.mgrid[0:h, 0:w]
+    sx = np.round((xs - cr[0] - d[0]) / sigma + cg[0]).astype(int)
+    sy = np.round((ys - cr[1] - d[1]) / sigma + cg[1]).astype(int)
+    ok = (sx >= 0) & (sx < w) & (sy >= 0) & (sy < h)
+    out = np.zeros_like(m)
+    out[ok] = m[sy[ok], sx[ok]]
+    return out
+
+
+def align(cell: np.ndarray, ref_mask: np.ndarray, max_scale: float = 0.3):
+    """Models often redraw a figure larger or shifted inside its cell. Find the scale + offset that maps the
+    generated silhouette (alpha > 50 %) onto the original one (max IoU, coarse-to-fine search on a 1/2-size
+    grid) and warp the cell with it. Returns (cell, info)."""
+    g = cell[..., 3] > 127
+    r = ref_mask
+    if g.sum() < 16 or r.sum() < 16:
+        return cell, None
+    g2, r2 = g[::2, ::2], r[::2, ::2]
+    yg, xg = np.nonzero(g2)
+    yr, xr = np.nonzero(r2)
+    cg, cr = (xg.mean(), yg.mean()), (xr.mean(), yr.mean())
+    s0 = float(np.clip(np.sqrt(r2.sum() / g2.sum()), 1 - max_scale, 1 + max_scale))
+    best = (iou(g2, r2), 1.0, (0.0, 0.0), True)                  # identity first
+    s, d = s0, (0.0, 0.0)
+    for step_s, step_d, n in ((0.04, 4, 3), (0.01, 1, 3)):
+        cand = []
+        for i in range(-n, n + 1):
+            for j in range(-n, n + 1):
+                for k in range(-n, n + 1):
+                    ss = s + i * step_s
+                    if abs(ss - 1) <= max_scale:
+                        cand.append((ss, (d[0] + j * step_d, d[1] + k * step_d)))
+        for ss, dd in cand:
+            v = iou(shift_scale(g2, ss, cg, cr, dd), r2)
+            if v > best[0]:
+                best = (v, ss, dd, False)
+        if not best[3]:
+            s, d = best[1], best[2]
+    before = iou(g2, r2)
+    if best[3] or best[0] < before + 0.02:                       # not worth a resample
+        return cell, {"iou": round(before, 3), "aligned": False}
+    sigma, dd = best[1], best[2]
+    cgf, crf, ddf = (cg[0] * 2, cg[1] * 2), (cr[0] * 2, cr[1] * 2), (dd[0] * 2, dd[1] * 2)
+    # inverse affine for PIL: src = (dst - cr - d) / sigma + cg
+    coeffs = (1 / sigma, 0, cgf[0] - (crf[0] + ddf[0]) / sigma, 0, 1 / sigma, cgf[1] - (crf[1] + ddf[1]) / sigma)
+    al = cell[..., 3:4].astype(float) / 255
+    pre = Image.fromarray((cell[..., :3] * al).astype(np.uint8))
+    size = (cell.shape[1], cell.shape[0])
+    rgb = np.array(pre.transform(size, Image.AFFINE, coeffs, Image.BICUBIC)).astype(float)
+    a2 = np.array(Image.fromarray(cell[..., 3]).transform(size, Image.AFFINE, coeffs, Image.BICUBIC)).astype(float) / 255
+    with np.errstate(invalid="ignore", divide="ignore"):
+        rgb = np.where(a2[..., None] > 0.004, rgb / a2[..., None], 0)
+    out = np.dstack([np.clip(rgb, 0, 255), a2 * 255]).astype(np.uint8)
+    return out, {"iou": round(before, 3), "aligned": True, "iou_after": round(best[0], 3),
+                 "scale": round(sigma, 3), "shift_px": [ddf[0], ddf[1]]}
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("pack")
     ap.add_argument("image", type=Path)
     ap.add_argument("--grow", type=int, default=4)
     ap.add_argument("--no-snap", action="store_true")
+    ap.add_argument("--no-align", action="store_true")
     a = ap.parse_args(argv)
-    fit(a.pack, a.image, a.grow, a.no_snap)
+    fit(a.pack, a.image, a.grow, a.no_snap, a.no_align)
     return 0
 
 
-def fit(pack_name: str, image: Path, grow: int = 4, no_snap: bool = False) -> list[str]:
+def fit(pack_name: str, image: Path, grow: int = 4, no_snap: bool = False, no_align: bool = False) -> list[str]:
     """Fit one generated sheet; returns the entry ids written."""
     a = argparse.Namespace(pack=pack_name, image=Path(image), grow=grow, no_snap=no_snap)
     lay = common.layout(a.pack)
@@ -88,6 +154,16 @@ def fit(pack_name: str, image: Path, grow: int = 4, no_snap: bool = False) -> li
         w, h = c["size"]
         cell = keyed[y:y + h, x:x + w]
         cw, ch = w // s, h // s
+        if c["kind"] == "frame" and not no_align:
+            ox, oy = c["offset"]
+            ra = np.array(common.reference_image(e))[..., 3] > 0
+            rm = np.zeros((ch, cw), bool)
+            rm[oy:oy + ra.shape[0], ox:ox + ra.shape[1]] = ra[:ch - oy, :cw - ox]
+            rm = np.kron(rm, np.ones((s, s), bool))[:h, :w]
+            if rm.shape == cell.shape[:2]:
+                cell, info = align(cell, rm)
+                if info and info["aligned"]:
+                    print(f"{e['id']}: aligned {info}")
         big = resample(cell, (cw * k, ch * k))
         target = inc / (e["id"].replace("/", "_") + ".png")
         if c["kind"] == "frame":

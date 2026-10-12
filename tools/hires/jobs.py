@@ -2,10 +2,13 @@
 
 <sel> is a prompt pack name (remastered/prompts/<pack>, e.g. bird_dive) or a regex over manifest ids.
 
-jobs.py take <pack> [<generated.png>] [--grow N] [--no-snap]
-                                                          one step per downloaded sheet: fit.py into
+jobs.py take [<pack>] [--force] [--grow N] [--no-snap]
+                                                          one step per downloaded sheet, always saved as
+                                                          remastered/prompts/<pack>/<pack>.png (no pack =
+                                                          every pack that has one): fit.py into
                                                           remastered/incoming/<pack>/, then add + run +
-                                                          review; failed checks other than size only warn
+                                                          review; failed checks other than size only warn.
+                                                          An unchanged sheet is skipped unless --force
 jobs.py add <sel> [--generator NAME] [--settings JSON]    create/refresh jobs (default generator: manual)
 jobs.py run [<sel>] [--limit N]                           generate pending jobs and run the checks
 jobs.py review [<sel>]                                    generated -> review, writes side-by-side sheets
@@ -164,29 +167,51 @@ def cmd_review(db, a):
     print(f"{len(js)} jobs in review -> {common.REMASTERED / 'review'}")
 
 
-def cmd_take(db, a):
-    if not common.is_pack(a.pack):
-        raise SystemExit(f"no pack {a.pack!r} in {common.PROMPTS}")
-    if a.image:
-        import fit
-        fit.fit(a.pack, a.image, a.grow, a.no_snap)
+def take_pack(db, pack, image, a) -> bool:
+    """Fit one downloaded sheet and send the pack's frames to review. Skipped (False) when this exact
+    sheet was already taken for every frame and none of them is waiting to be redone."""
+    import fit
+    sheet = hashlib.sha256(image.read_bytes()).hexdigest()
+    ids = list(dict.fromkeys(c["entry"] for c in common.layout(pack)["cells"]))
+    js = [db["jobs"].get(i) for i in ids]
+    if not a.force and all(j and j.get("sheet") == sheet and j["state"] not in ("pending", "failed") for j in js):
+        print(f"{pack}: {image.name} unchanged since the last take, skipped (--force to redo)")
+        return False
+    print(f"{pack}: taking {image}")
+    fit.fit(pack, image, a.grow, a.no_snap)
     ents = common.entries_by_id()
     scale = common.manifest()["scale"]
-    for i in dict.fromkeys(c["entry"] for c in common.layout(a.pack)["cells"]):
-        j = db["jobs"].get(i)
-        if j and j["state"] in ("approved", "packed") and not a.image:
-            continue                               # nothing new delivered: keep the decision
+    for i, j in zip(ids, js):
         if j and j["generator"] == "manual":
             j["attempts"] = 0
-            log(j, "pending", f"take {a.pack}")
+            log(j, "pending", f"take {pack}")
         else:
-            j = db["jobs"][i] = new_job(ents[i], "manual", {}, scale, f"take {a.pack}")
+            j = db["jobs"][i] = new_job(ents[i], "manual", {}, scale, f"take {pack}")
+        j["sheet"] = sheet
         if run_job(db, j, lenient=True):
             review_job(j)
     save(db)
-    cmd_status(db, argparse.Namespace(pattern=a.pack))
-    print(f"sheets in {common.REMASTERED / 'review'} (red divider = check warning)\n"
-          f"next: jobs.py approve {a.pack}   or   jobs.py reject {a.pack} --note \"why\"")
+    cmd_status(db, argparse.Namespace(pattern=pack))
+    return True
+
+
+def cmd_take(db, a):
+    if a.pack:
+        if not common.is_pack(a.pack):
+            raise SystemExit(f"no pack {a.pack!r} in {common.PROMPTS}")
+        image = common.download_path(a.pack)
+        if not image.is_file():
+            raise SystemExit(f"save the model's result as {image}")
+        todo = [(a.pack, image)]
+    else:                                          # every pack whose download is saved next to its prompt
+        todo = sorted((p.parent.name, p) for p in common.PROMPTS.glob("*/*.png")
+                      if p.stem == p.parent.name and common.is_pack(p.stem))
+        if not todo:
+            raise SystemExit(f"no downloads found: save each result as {common.PROMPTS}\\<pack>\\<pack>.png")
+    taken = [pack for pack, image in todo if take_pack(db, pack, image, a)]
+    if taken:
+        print(f"sheets in {common.REMASTERED / 'review'} (red divider = check warning)\nnext: "
+              + "; ".join(f"jobs.py approve {p}" for p in taken) + "   (or reject <pack> --note \"why\")")
 
 
 def cmd_decide(db, a, approve):
@@ -225,7 +250,8 @@ def cmd_status(db, a):
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    p = sub.add_parser("take"); p.add_argument("pack"); p.add_argument("image", nargs="?", type=Path)
+    p = sub.add_parser("take"); p.add_argument("pack", nargs="?")
+    p.add_argument("--force", action="store_true")
     p.add_argument("--grow", type=int, default=4); p.add_argument("--no-snap", action="store_true")
     p = sub.add_parser("add"); p.add_argument("pattern"); p.add_argument("--generator", default="manual"); p.add_argument("--settings")
     p = sub.add_parser("run"); p.add_argument("pattern", nargs="?"); p.add_argument("--limit", type=int)

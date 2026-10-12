@@ -3,7 +3,8 @@
 Rules from ENG1.DLL (docs/formats/i-family.md):
   file  = "i1.4" + body;  P = file + 4 ("puVar2" in ENG1 0x3cd0)
   P+0   u16 count, P+2 u16 palettes
-  P+4k  u32 entry for frame k (k = 1 .. count-1; entry 0 is the count word): offset<<8 | flags
+  P+4k  u32 entry for frame k (k = 1 .. count; entry 0 is the count word; frame `count` is drawn at runtime,
+        e.g. ENG3 CYCLOPS 167 of 167): offset<<8 | flags
         offset is relative to P; flags & 0x1f = palette, 0x40 = keep in VRAM cache
   P+4*count+4, +8   two u32 (copied to a global by 0x3cd0)
   P+4*count+12      u16 palette offsets[palettes] (relative to P)
@@ -159,7 +160,7 @@ def decode_bank(data: bytes, out_dir: Path, name: str, index: int = -1) -> dict:
     out_dir.mkdir(parents=True, exist_ok=True)
     palette_strip(pals, out_dir / "palettes.png")
     frames, errors = [], 0
-    for k in range(1, count):
+    for k in range(1, count + 1):
         e = struct.unpack_from("<I", P, 4 * k)[0]
         off, fl = e >> 8, e & 0xFF
         rec = {"frame": k, "offset": off, "flags": fl, "palette": fl & 0x1F}
