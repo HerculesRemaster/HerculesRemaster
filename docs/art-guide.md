@@ -1,6 +1,6 @@
 # Art guide (4K replacements)
 
-Route: AI CGI regeneration with manual fixes (`docs/authorization-scope.md`). Pipeline and checks: `docs/hires-pipeline.md`.
+Route (2026-10-12): index-preserving xBRZ upscale of the original art for the whole game; optional AI or hand redraws on top (`docs/authorization-scope.md`). Pipeline and checks: `docs/hires-pipeline.md`. The rules below apply to every route; the xBRZ route meets them by construction (same canvas, indices and silhouette).
 
 ## Hard rules (checked by `tools/hires/checks.py`)
 

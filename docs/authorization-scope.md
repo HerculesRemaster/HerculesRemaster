@@ -23,3 +23,12 @@ Recorded 2026-10-12 from the user's answers in P6/P7.
   - the original indexed rendering kept as the fallback for assets not yet replaced;
   - 4K output and resolution-independent scaling without changing gameplay.
 - **Generator** (user, 2026-10-12): online GPT Image 2.5 Sunburst, operated by the user (manual route: `docs/ai-image-guide.md`). Nothing is downloaded or installed locally.
+
+## Route change (user, 2026-10-12): xBRZ for the whole game
+
+- **Route now:** an algorithmic upscale of the original art, not AI regeneration. Every asset (all 10,552 sprite frames, the 7 level VRAM images, the 7 TGA screens, the HUD sheets, and the runtime catalog blocks through `smooth.py`) goes through index-preserving xBRZ at 9× (`docs/hires-pipeline.md`, "xBRZ route"). The goal: sharper, smoother art that plays on a 4K screen and stays portable to other platforms, while keeping the original assets fully intact (same palette indices, silhouettes, pivots and timing).
+- **Why:** the GPT Image route looked good per frame but drew silhouettes 5–17 % off, lost detail when snapped to the original outline, and was inconsistent between frames (a block shared by many frames got one frame's redraw). It also needs a person to generate every pack.
+- **Output:** 8-bit indexed PNGs (original palette indices), so the live CLUT, palette swaps, fades and semi-transparency stay exact. True-colour RGBA overrides remain supported for later hand or AI redraws, which win over the xBRZ art only where a key is redrawn.
+- **Tool:** xBRZ (Zenju, GPL-3.0), vendored as source in `tools/hires/xbrz_lib/` (source and SHA-256 pinned there) and built locally with MSVC. It is an offline asset tool and is not shipped with the runtime.
+- The GPT Image route (`docs/ai-image-guide.md`) stays available for optional redraws of single sequences.
+

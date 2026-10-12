@@ -1,5 +1,7 @@
 # Making the 4K art with an online image model
 
+> **Optional route.** Since 2026-10-12 the whole game's 4K art comes from the xBRZ generator (`docs/hires-pipeline.md`, "xBRZ route"). Use this guide only to redraw single sequences on top of it.
+
 You generate each image with your online model (GPT Image 2.5 Sunburst) and the tools do everything else: layout, prompts, fitting to the exact canvas, checks and packing into the game. Rules for the art itself: `docs/art-guide.md`.
 
 All commands run from `C:\Games\GameHercules\Remaster\tools\hires` with `..\..\.venv\Scripts\python.exe` (written `py` below).
