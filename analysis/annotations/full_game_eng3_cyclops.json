@@ -1,0 +1,66 @@
+{
+ "ENG3.DLL": {
+  "functions": {
+   "0x10001870": [
+    "LVL_CyclopsCreateHook",
+    "level 8 only: calls 0x3290; called from 0x1b9c0 (LVL_StartSection path) (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10003290": [
+    "LVL_CyclopsCreate",
+    "creates skyline 0x3c and Cyclops 0x29 at hero x + 1664, stores 0x3fb0c, state 0x42, script 4 (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10003200": [
+    "LVL_CyclopsSpawn",
+    "kind 0x29 type-table spawn: fields, shake counter, foot toggle, throw arm (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10003610": [
+    "LVL_CyclopsControl",
+    "per-tick Cyclops state machine 0x41-0x48, camera-locked x, camera shake 0x405fc, rock throw (0x30), bank swap 5/7 (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10006f70": [
+    "LVL_CyclopsRoarSfx",
+    "anim CALL 3 (t34 0x34828[3]): cycles SFX 0x211, 0x212, 0x22c, 0x22d via Cyclops +0xbc (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10003340": [
+    "LVL_CycThrownRockSpawn",
+    "kind 0x30 spawn: speed 0x200000, spin 0x10, gravity 0xf000, model 0x21, shadow 0x2002 (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x100033f0": [
+    "LVL_CycThrownRockTick",
+    "kind 0x30: flies at the hero, hit code 2, breaks into 4 shards 0x4002 on the first bounce (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10004b60": [
+    "LVL_CycSkylineSpawn",
+    "kind 0x3c spawn: PEOPLE backdrop at hero x + 1664 (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10004bc0": [
+    "LVL_CycSkylineTick",
+    "kind 0x3c: camera-locked x, frame 240 (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10014d90": [
+    "LVL_RockShardInit",
+    "marker 0x4002 init: random tumble speeds/lifetime; level 8 uses PEOPLE script 0x37658 (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10014f00": [
+    "LVL_RockShardTick",
+    "marker 0x4002 tick: bounce (0x1460 on level 8), freed behind the hero (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10014fd0": [
+    "LVL_CycStoneChunkInit",
+    "marker 0x4003 init (CYCLOPS stone chunk debris) (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10015110": [
+    "LVL_CycStoneChunkTick",
+    "marker 0x4003 tick: bounce, anim, freed when 32 behind the hero (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10001460": [
+    "LVL_CycDebrisBounceStep",
+    "debris move + bounce on y 0x1c00000 (0x1400000 on the raised track-0 band); returns 1 when it stops (analysis/exports/full-game/eng3_cyclops.json)"
+   ],
+   "0x10001050": [
+    "LVL_HeadingTo",
+    "0..0x3ff heading from (x,z) to (x,z) via 0x1f7b0 (analysis/exports/full-game/eng3_cyclops.json)"
+   ]
+  }
+ }
+}

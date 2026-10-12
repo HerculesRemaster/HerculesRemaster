@@ -1,0 +1,18 @@
+{
+ "ENG1.DLL": {
+  "functions": {
+   "0x10030e40": [
+    "GFX_FrameHitbox",
+    "same code as ENG3 GFX_FrameHitbox 0x23860 (fn fingerprint): frame record box k = 6 s8 (z0, y0, x0*2, z1, y1, x1*2) scaled by obj+0x3a; bank 0 -> model hitbox 0x31ec0"
+   ],
+   "0x1002a660": [
+    "LVL_ObjOverlap",
+    "same code as ENG3 LVL_ObjOverlap 0x1eff0: world boxes of two objects overlap"
+   ],
+   "0x1002a880": [
+    "LVL_ObjWorldBox",
+    "frame hitbox + object position, mirrored by obj+0x54 flags (ENG3 0x1f1a0 counterpart; hero collision box of the dev overlay)"
+   ]
+  }
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "ENG1.DLL": {
+  "functions": {
+   "0x1001f750": [
+    "LVL_LoadMap",
+    "read MAP_PSX.BIN header (8 bytes, then size), tag check, VRAM upload, shrink"
+   ],
+   "0x1001fc90": [
+    "LVL_UploadVram",
+    "header+0x14 -> VRAM (0,0) 768x512, header+0x18 -> (768,256) 256x256"
+   ],
+   "0x1001f9e0": [
+    "LVL_LoadBlock",
+    "stream one 0x800-sector block of the current section"
+   ],
+   "0x1001f870": [
+    "LVL_StreamBlocks",
+    "load/free blocks by camera column"
+   ],
+   "0x1001fb90": [
+    "LVL_OnBlockLoaded",
+    ""
+   ],
+   "0x10020670": [
+    "LVL_ParseHeader",
+    "counts, self-relative tables T28/T30/T34/T38/T3c/T40/T44/T50/T54/T58"
+   ],
+   "0x10020830": [
+    "LVL_SelectSection",
+    "section descriptor: layers, blocks, columns, rows, spawns"
+   ],
+   "0x100208f0": [
+    "LVL_SetBlockLayers",
+    "block: first column, layer widths, column-major u32 cells"
+   ],
+   "0x10020b50": [
+    "LVL_FindSurface",
+    "collision query: layer by z, column by x, row by y; surface y = r*64+32-h"
+   ],
+   "0x10020990": [
+    "LVL_ProfileHeight",
+    "collision profile height at (x,z) in a cell"
+   ],
+   "0x10020d30": [
+    "LVL_CellAttribute",
+    "cell bits 24-30 -> attribute table T40"
+   ],
+   "0x1002f840": [
+    "LVL_UpdateCamera",
+    "cell bits 11-23 -> camera record T58 via T54"
+   ],
+   "0x10032300": [
+    "LVL_PlaceOnPath",
+    "object position relative to straight/arc camera path"
+   ],
+   "0x1002df20": [
+    "LVL_DrawCellMesh",
+    "cell block type -> mesh quads, texture words T30, fog CLUT 0x7830+level*0x40"
+   ],
+   "0x10031540": [
+    "GFX_DrawModel",
+    "3D model quads from T28"
+   ],
+   "0x1002ed10": [
+    "LVL_TransformCellStraight",
+    "vertex u32: x s8, y s16, z s8; mirror x' = 64-x"
+   ],
+   "0x1002e3b0": [
+    "LVL_CellSetupStraight",
+    ""
+   ],
+   "0x10026040": [
+    "LVL_SpawnObjects",
+    "section spawn list (8 bytes) + level template table (10 bytes)"
+   ],
+   "0x100280f0": [
+    "LVL_SelectLevelConfig",
+    "per-level record 0x68af0 (0x48 bytes, 999 terminates)"
+   ],
+   "0x10002cb0": [
+    "LVL_AnimateTextures",
+    "animated VRAM rects (n_anim)"
+   ],
+   "0x10002d80": [
+    "LVL_ScrollTexture",
+    "scrolling VRAM rects (n_scroll)"
+   ],
+   "0x10003cd0": [
+    "ANIM_DrawObjectFrame",
+    "obj+0x22 bank, +0x34 frame, +0x1c palette"
+   ],
+   "0x10003bd0": [
+    "ANIM_DrawObject",
+    "draws +0x34 and, with flag 0x8000000, +0x36"
+   ],
+   "0x10004ca0": [
+    "ANIM_CacheFrame",
+    "allocate 32px VRAM cells, unpack byte-RLE parts to staging"
+   ],
+   "0x100050d0": [
+    "ANIM_UploadCells",
+    ""
+   ],
+   "0x10004010": [
+    "ANIM_BuildSpriteQuads",
+    "part quads: size w=(s&15)*8 h=(s>>4)*8, pos dx+2x, dy+2y"
+   ],
+   "0x10005780": [
+    "ANIM_BuildClut",
+    "bank palette -> 256-entry CLUT"
+   ],
+   "0x10005660": [
+    "ANIM_AllocClut",
+    ""
+   ]
+  },
+  "globals": {
+   "0x10070ed4": [
+    "g_mapHeader",
+    ""
+   ],
+   "0x10070d34": [
+    "g_blockTypes",
+    "T34"
+   ],
+   "0x10070d58": [
+    "g_cameraRecords",
+    "T58, 16 bytes"
+   ],
+   "0x10070d54": [
+    "g_cameraIndex",
+    "T54"
+   ],
+   "0x10070dcc": [
+    "g_layerCells",
+    "per layer cell array"
+   ],
+   "0x1005cee0": [
+    "g_animBanks",
+    "0x14 per bank"
+   ],
+   "0x10068af0": [
+    "g_levelConfig",
+    "0x48 per level"
+   ]
+  }
+ },
+ "HERCULES.EXE": {
+  "functions": {
+   "0x004068c0": [
+    "GFX_LoadCif",
+    "MAP_PSX.CIF: palette 768, blend 0x40000, rgb15->index 0x10000, fog 31x256"
+   ],
+   "0x00406780": [
+    "GFX_SetPaletteEntry",
+    "(i, r, g, b); 0 and 255 forced black/white"
+   ],
+   "0x0040f940": [
+    "AUD_StartVoice",
+    "(sfx id) -> channel"
+   ],
+   "0x0040fbf0": [
+    "AUD_VoicePlay",
+    "volume/pan + IDirectSoundBuffer::Play"
+   ],
+   "0x0040fa10": [
+    "AUD_StopVoice",
+    ""
+   ],
+   "0x00402410": [
+    "AUD_DecodeAdpcm",
+    "(src, dst, pcmBytes, state*) IMA, high nibble first"
+   ],
+   "0x0040bf20": [
+    "AUD_SpuPlay",
+    "slot 0x388: (vab, program, volL, volR)"
+   ],
+   "0x0040c040": [
+    "AUD_VabOpenHead",
+    ""
+   ],
+   "0x0040c090": [
+    "AUD_VabLoadBody",
+    "AUD_CreateSfx for each program"
+   ],
+   "0x0040c250": [
+    "AUD_SeqOpen",
+    ""
+   ],
+   "0x0040c280": [
+    "AUD_SeqPlay",
+    "seq record -> AUD_CdPlaySegment"
+   ],
+   "0x00409e60": [
+    "AUD_CdPlaySegment",
+    "MCI play cdaudio from tmsf to tmsf"
+   ],
+   "0x00409f60": [
+    "AUD_CdResume",
+    ""
+   ]
+  },
+  "globals": {}
+ }
+}

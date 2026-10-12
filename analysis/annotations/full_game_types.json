@@ -1,0 +1,2022 @@
+{
+ "ENG1.DLL": {
+  "functions": {
+   "0x10001040": [
+    "HERO_ThugsSpawn",
+    "type-table spawn for FOREST:0x0026, THEBES:0x0026; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS (anim-table bank id)"
+   ],
+   "0x10010540": [
+    "HERO_HarpiesSpawn",
+    "type-table spawn for THEBES:0x0038; draws from bank P:\\SRC1\\ALIEN1\\HARPIES (anim-table bank id)"
+   ],
+   "0x100105a0": [
+    "HERO_HarpiesUpdate",
+    "type-table update for THEBES:0x0038; draws from bank P:\\SRC1\\ALIEN1\\HARPIES (anim-table bank id)"
+   ],
+   "0x100010f0": [
+    "HERO_ThugsUpdate",
+    "type-table update for FOREST:0x0026, THEBES:0x0026; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS (anim-table bank id)"
+   ],
+   "0x100115f0": [
+    "HERO_HarpiesSpawn2",
+    "type-table spawn for THEBES:0x0047; draws from bank P:\\SRC1\\ALIEN1\\HARPIES (anim-table bank id)"
+   ],
+   "0x10011690": [
+    "HERO_HarpiesUpdate2",
+    "type-table update for THEBES:0x0047; draws from bank P:\\SRC1\\ALIEN1\\HARPIES (anim-table bank id)"
+   ],
+   "0x10011c10": [
+    "HERO_ThhafoodSpawn",
+    "type-table spawn for THEBES:0x0039; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THHAFOOD (anim-table bank id)"
+   ],
+   "0x10011c70": [
+    "HERO_ThhafoodSpawn2",
+    "type-table spawn for THEBES:0x003a; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THHAFOOD (anim-table bank id)"
+   ],
+   "0x10011cd0": [
+    "HERO_ThhafoodSpawn3",
+    "type-table spawn for THEBES:0x003b; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THHAFOOD (anim-table bank id)"
+   ],
+   "0x10011df0": [
+    "HERO_ThhafoodUpdate",
+    "type-table update for THEBES:0x0039, THEBES:0x003a, THEBES:0x003b; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THHAFOOD (anim-table bank id)"
+   ],
+   "0x10001310": [
+    "HERO_ThugsSpawn2",
+    "type-table spawn for FOREST:0x0027, THEBES:0x0027; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS (anim-table bank id)"
+   ],
+   "0x10013840": [
+    "HERO_HcdunitInit",
+    "type-table init for THEBES:0x200a, TRAINING:0x200a; draws from bank P:\\SRC1\\HERO\\HERCULES\\HC_DUNIT (anim-table bank id)"
+   ],
+   "0x100013c0": [
+    "HERO_ThugsUpdate2",
+    "type-table update for FOREST:0x0027, THEBES:0x0027; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THUGS (anim-table bank id)"
+   ],
+   "0x10013c90": [
+    "HERO_Xtradb1Init",
+    "type-table init for FOREST:0x2005; draws from bank P:\\SRC1\\HERO\\XTRA_DB1 (anim-table bank id)"
+   ],
+   "0x1001dac0": [
+    "HERO_HydraSpawn",
+    "type-table spawn for HYDRA:0x0034; draws from bank P:\\SRC1\\BOSS\\HYDRA (anim-table bank id)"
+   ],
+   "0x1001daf0": [
+    "HERO_HydraUpdate",
+    "type-table update for HYDRA:0x0034; draws from bank P:\\SRC1\\BOSS\\HYDRA (anim-table bank id)"
+   ],
+   "0x1001db40": [
+    "HERO_HydraSpawn2",
+    "type-table spawn for HYDRA:0x0035; draws from bank P:\\SRC1\\BOSS\\HYDRA (anim-table bank id)"
+   ],
+   "0x1001db70": [
+    "HERO_HydraUpdate2",
+    "type-table update for HYDRA:0x0035; draws from bank P:\\SRC1\\BOSS\\HYDRA (anim-table bank id)"
+   ],
+   "0x1001dbc0": [
+    "HERO_Alien1Spawn",
+    "type-table spawn for HYDRA:0x0028; draws from bank P:\\SRC1\\ALIEN1\\ALIEN1 (anim-table bank id)"
+   ],
+   "0x1001dc00": [
+    "HERO_Alien1Update",
+    "type-table update for HYDRA:0x0028; draws from bank P:\\SRC1\\ALIEN1\\ALIEN1 (anim-table bank id)"
+   ],
+   "0x1001df50": [
+    "HERO_HydraSpawn3",
+    "type-table spawn for HYDRA:0x0030; draws from bank P:\\SRC1\\BOSS\\HYDRA (anim-table bank id)"
+   ],
+   "0x1001df80": [
+    "HERO_HydraUpdate3",
+    "type-table update for HYDRA:0x0030; draws from bank P:\\SRC1\\BOSS\\HYDRA (anim-table bank id)"
+   ],
+   "0x1001e090": [
+    "HERO_HydraSpawn4",
+    "type-table spawn for HYDRA:0x0032; draws from bank P:\\SRC1\\BOSS\\HYDRA (anim-table bank id)"
+   ],
+   "0x1001e0e0": [
+    "HERO_HydraUpdate4",
+    "type-table update for HYDRA:0x0032; draws from bank P:\\SRC1\\BOSS\\HYDRA (anim-table bank id)"
+   ],
+   "0x10021310": [
+    "HERO_MedusaSpawn",
+    "type-table spawn for MEDUSA:0x002e; draws from bank P:\\SRC1\\BOSS\\MEDUSA (anim-table bank id)"
+   ],
+   "0x100213c0": [
+    "HERO_MedusaSpawn2",
+    "type-table spawn for MEDUSA:0x0031; draws from bank P:\\SRC1\\BOSS\\MEDUSA (anim-table bank id)"
+   ],
+   "0x10021910": [
+    "HERO_MedusaDebrisSpawn",
+    "type-table spawn for MEDUSA:0x0035; draws from bank P:\\SRC1\\BOSS\\MEDUSA (anim-table bank id)"
+   ],
+   "0x10021940": [
+    "HERO_MedusaDebrisUpdate",
+    "type-table update for MEDUSA:0x0035; draws from bank P:\\SRC1\\BOSS\\MEDUSA (anim-table bank id)"
+   ],
+   "0x10021c00": [
+    "HERO_MedusaSpawn4",
+    "type-table spawn for MEDUSA:0x0034; draws from bank P:\\SRC1\\BOSS\\MEDUSA (anim-table bank id)"
+   ],
+   "0x10021d10": [
+    "HERO_MedusaUpdate2",
+    "type-table update for MEDUSA:0x0034; draws from bank P:\\SRC1\\BOSS\\MEDUSA (anim-table bank id)"
+   ],
+   "0x10022da0": [
+    "HERO_MedusaSpawn5",
+    "type-table spawn for MEDUSA:0x002d; draws from bank P:\\SRC1\\BOSS\\MEDUSA (anim-table bank id)"
+   ],
+   "0x10022dd0": [
+    "HERO_MedusaUpdate3",
+    "type-table update for MEDUSA:0x002d; draws from bank P:\\SRC1\\BOSS\\MEDUSA (anim-table bank id)"
+   ],
+   "0x10023440": [
+    "HERO_MedusaSpawn6",
+    "type-table spawn for MEDUSA:0x0033; draws from bank P:\\SRC1\\BOSS\\MEDUSA (anim-table bank id)"
+   ],
+   "0x10023460": [
+    "HERO_MedusaUpdate4",
+    "type-table update for MEDUSA:0x0033; draws from bank P:\\SRC1\\BOSS\\MEDUSA (anim-table bank id)"
+   ],
+   "0x10023a50": [
+    "HERO_SkelwarSpawn",
+    "type-table spawn for MEDUSA:0x0032; draws from bank P:\\SRC1\\BOSS\\SKELWAR (anim-table bank id)"
+   ],
+   "0x10023b30": [
+    "HERO_SkelwarUpdate",
+    "type-table update for MEDUSA:0x0032; draws from bank P:\\SRC1\\BOSS\\SKELWAR (anim-table bank id)"
+   ],
+   "0x10024320": [
+    "HERO_MinotaurUpdate",
+    "type-table update for THEBES:0x0037; draws from bank P:\\SRC1\\ALIEN1\\MINOTAUR (anim-table bank id)"
+   ],
+   "0x10025580": [
+    "HERO_MinotaurSpawn",
+    "type-table spawn for THEBES:0x0043; draws from bank P:\\SRC1\\ALIEN1\\MINOTAUR (anim-table bank id)"
+   ],
+   "0x100255c0": [
+    "HERO_MinotaurUpdate2",
+    "type-table update for THEBES:0x0043; draws from bank P:\\SRC1\\ALIEN1\\MINOTAUR (anim-table bank id)"
+   ],
+   "0x1002cc50": [
+    "HERO_PhilSpawn",
+    "type-table spawn for TRAINING:0x0031; draws from bank P:\\SRC1\\ALIEN1\\PHIL (anim-table bank id)"
+   ],
+   "0x1002cd30": [
+    "HERO_PhilUpdate",
+    "type-table update for TRAINING:0x0031; draws from bank P:\\SRC1\\ALIEN1\\PHIL (anim-table bank id)"
+   ],
+   "0x100337f0": [
+    "HERO_ThburntSpawn",
+    "type-table spawn for THEBES:0x0029; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THBURNT (anim-table bank id)"
+   ],
+   "0x10033830": [
+    "HERO_ThburntUpdate",
+    "type-table update for THEBES:0x0029; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THBURNT (anim-table bank id)"
+   ],
+   "0x10033910": [
+    "HERO_ThsnowSpawn",
+    "type-table spawn for THEBES:0x002a; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THSNOW (anim-table bank id)"
+   ],
+   "0x10033990": [
+    "HERO_ThsnowUpdate",
+    "type-table update for THEBES:0x002a; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THSNOW (anim-table bank id)"
+   ],
+   "0x10033cc0": [
+    "HERO_ThsnowSpawn2",
+    "type-table spawn for THEBES:0x0045; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THSNOW (anim-table bank id)"
+   ],
+   "0x10033cf0": [
+    "HERO_ThsnowUpdate2",
+    "type-table update for THEBES:0x0045; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THSNOW (anim-table bank id)"
+   ],
+   "0x10033ee0": [
+    "HERO_ThcharSpawn",
+    "type-table spawn for THEBES:0x002d; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR (anim-table bank id)"
+   ],
+   "0x10033f30": [
+    "HERO_ThcharUpdate",
+    "type-table update for THEBES:0x002d; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR (anim-table bank id)"
+   ],
+   "0x10033fc0": [
+    "HERO_ThflashSpawn",
+    "type-table spawn for THEBES:0x0028; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THFLASH (anim-table bank id)"
+   ],
+   "0x10034000": [
+    "HERO_ThflashUpdate",
+    "type-table update for THEBES:0x0028; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THFLASH (anim-table bank id)"
+   ],
+   "0x100341a0": [
+    "HERO_ThfatSpawn",
+    "type-table spawn for THEBES:0x0044; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THFAT (anim-table bank id)"
+   ],
+   "0x10034210": [
+    "HERO_ThfatUpdate",
+    "type-table update for THEBES:0x0044; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THFAT (anim-table bank id)"
+   ],
+   "0x100342f0": [
+    "HERO_FangirlsSpawn",
+    "type-table spawn for THEBES:0x0030, THEBES:0x0031, THEBES:0x0032; draws from bank P:\\SRC1\\ALIEN1\\FANGIRLS (anim-table bank id)"
+   ],
+   "0x10034350": [
+    "HERO_FangirlsUpdate",
+    "type-table update for THEBES:0x0030, THEBES:0x0031, THEBES:0x0032; draws from bank P:\\SRC1\\ALIEN1\\FANGIRLS (anim-table bank id)"
+   ],
+   "0x100343a0": [
+    "HERO_TheqSpawn",
+    "type-table spawn for THEBES:0x002b; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THEQ (anim-table bank id)"
+   ],
+   "0x100343e0": [
+    "HERO_TheqUpdate",
+    "type-table update for THEBES:0x002b; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THEQ (anim-table bank id)"
+   ],
+   "0x100348a0": [
+    "HERO_ThfloodSpawn",
+    "type-table spawn for THEBES:0x002c; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THFLOOD (anim-table bank id)"
+   ],
+   "0x10034910": [
+    "HERO_ThfloodUpdate",
+    "type-table update for THEBES:0x002c; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THFLOOD (anim-table bank id)"
+   ],
+   "0x100349f0": [
+    "HERO_ThfloodSpawn2",
+    "type-table spawn for THEBES:0x0042; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THFLOOD (anim-table bank id)"
+   ],
+   "0x10034a30": [
+    "HERO_ThfloodUpdate2",
+    "type-table update for THEBES:0x0042; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THFLOOD (anim-table bank id)"
+   ],
+   "0x10034c80": [
+    "HERO_TholdSpawn",
+    "type-table spawn for THEBES:0x0033; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THOLD (anim-table bank id)"
+   ],
+   "0x10034d00": [
+    "HERO_TholdUpdate",
+    "type-table update for THEBES:0x0033; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THOLD (anim-table bank id)"
+   ],
+   "0x10034de0": [
+    "HERO_ThewguySpawn",
+    "type-table spawn for THEBES:0x0034; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THEWGUY (anim-table bank id)"
+   ],
+   "0x10034e20": [
+    "HERO_ThewguyUpdate",
+    "type-table update for THEBES:0x0034; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THEWGUY (anim-table bank id)"
+   ],
+   "0x10035200": [
+    "HERO_SkeletonSpawn",
+    "type-table spawn for THEBES:0x003e; draws from bank P:\\SRC1\\ALIEN1\\SKELETON (anim-table bank id)"
+   ],
+   "0x100352f0": [
+    "HERO_SkeletonUpdate",
+    "type-table update for THEBES:0x003e; draws from bank P:\\SRC1\\ALIEN1\\SKELETON (anim-table bank id)"
+   ],
+   "0x10035c60": [
+    "HERO_ThcharSpawn2",
+    "type-table spawn for THEBES:0x003f; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR (anim-table bank id)"
+   ],
+   "0x10035cf0": [
+    "HERO_ThcharSpawn3",
+    "type-table spawn for THEBES:0x0040; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR (anim-table bank id)"
+   ],
+   "0x10035d70": [
+    "HERO_ThcharUpdate2",
+    "type-table update for THEBES:0x003f, THEBES:0x0040; draws from bank P:\\SRC1\\ALIEN1\\THEBIANS\\THCHAR (anim-table bank id)"
+   ],
+   "0x10036cb0": [
+    "HERO_PegasusSpawn",
+    "type-table spawn for TITANS:0x0050; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x10036ce0": [
+    "HERO_PegasusUpdate",
+    "type-table update for TITANS:0x0050; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x10036d10": [
+    "HERO_RtrockSpawn",
+    "type-table spawn for TITANS:0x0039; draws from bank P:\\SRC1\\ALIEN2\\RtRock (anim-table bank id)"
+   ],
+   "0x10036d70": [
+    "HERO_RtrockUpdate",
+    "type-table update for TITANS:0x0039; draws from bank P:\\SRC1\\ALIEN2\\RtRock (anim-table bank id)"
+   ],
+   "0x10036df0": [
+    "HERO_RtrockSpawn2",
+    "type-table spawn for TITANS:0x003a; draws from bank P:\\SRC1\\ALIEN2\\RtRock (anim-table bank id)"
+   ],
+   "0x10036e10": [
+    "HERO_RtrockUpdate2",
+    "type-table update for TITANS:0x003a; draws from bank P:\\SRC1\\ALIEN2\\RtRock (anim-table bank id)"
+   ],
+   "0x10038090": [
+    "HERO_RocktSpawn",
+    "type-table spawn for TITANS:0x0028; draws from bank P:\\SRC1\\ALIEN2\\RockT (anim-table bank id)"
+   ],
+   "0x10038100": [
+    "HERO_RocktUpdate",
+    "type-table update for TITANS:0x0028; draws from bank P:\\SRC1\\ALIEN2\\RockT (anim-table bank id)"
+   ],
+   "0x10038310": [
+    "HERO_RtrockUpdate3",
+    "type-table update for TITANS:0x0054; draws from bank P:\\SRC1\\ALIEN2\\RtRock (anim-table bank id)"
+   ],
+   "0x100383b0": [
+    "HERO_RtrockSpawn3",
+    "type-table spawn for TITANS:0x0054, TITANS:0x0058; draws from bank P:\\SRC1\\ALIEN2\\RtRock (anim-table bank id)"
+   ],
+   "0x100383d0": [
+    "HERO_RtrockUpdate4",
+    "type-table update for TITANS:0x0058; draws from bank P:\\SRC1\\ALIEN2\\RtRock (anim-table bank id)"
+   ],
+   "0x10038590": [
+    "HERO_IcetSpawn",
+    "type-table spawn for TITANS:0x0029; draws from bank P:\\SRC1\\ALIEN2\\IceT (anim-table bank id)"
+   ],
+   "0x10038610": [
+    "HERO_IcetUpdate",
+    "type-table update for TITANS:0x0029; draws from bank P:\\SRC1\\ALIEN2\\IceT (anim-table bank id)"
+   ],
+   "0x10038b00": [
+    "HERO_PegasusSpawn2",
+    "type-table spawn for TITANS:0x0051; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x10038b30": [
+    "HERO_PegasusUpdate2",
+    "type-table update for TITANS:0x0051; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x10038f50": [
+    "HERO_LavatSpawn",
+    "type-table spawn for TITANS:0x002a; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039090": [
+    "HERO_LavatUpdate",
+    "type-table update for TITANS:0x002a; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039360": [
+    "HERO_LavatSpawn2",
+    "type-table spawn for TITANS:0x0031; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x100393b0": [
+    "HERO_LavatUpdate2",
+    "type-table update for TITANS:0x0031; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039460": [
+    "HERO_LavatSpawn3",
+    "type-table spawn for TITANS:0x0032; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039530": [
+    "HERO_LavatUpdate3",
+    "type-table update for TITANS:0x0032; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x100396e0": [
+    "HERO_LavatSpawn4",
+    "type-table spawn for TITANS:0x0033; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039750": [
+    "HERO_LavatUpdate4",
+    "type-table update for TITANS:0x0033; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039870": [
+    "HERO_LavatSpawn5",
+    "type-table spawn for TITANS:0x0034; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x100398b0": [
+    "HERO_LavatUpdate5",
+    "type-table update for TITANS:0x0034; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x100399c0": [
+    "HERO_PegasusSpawn3",
+    "type-table spawn for TITANS:0x0035; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x100399f0": [
+    "HERO_PegasusUpdate3",
+    "type-table update for TITANS:0x0035; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x10039a70": [
+    "HERO_PegasusUpdate4",
+    "type-table update for TITANS:0x0037; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x10039ae0": [
+    "HERO_LavatSpawn6",
+    "type-table spawn for TITANS:0x003d; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039b00": [
+    "HERO_LavatUpdate6",
+    "type-table update for TITANS:0x003d; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039bf0": [
+    "HERO_LavatSpawn7",
+    "type-table spawn for TITANS:0x003b; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039c00": [
+    "HERO_LavatSpawn8",
+    "type-table spawn for TITANS:0x003c; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039c20": [
+    "HERO_LavatSpawn9",
+    "type-table spawn for TITANS:0x0056; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039c50": [
+    "HERO_LavatUpdate7",
+    "type-table update for TITANS:0x0056; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039ca0": [
+    "HERO_LavatSpawn10",
+    "type-table spawn for TITANS:0x005a; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039cf0": [
+    "HERO_LavatUpdate8",
+    "type-table update for TITANS:0x005a; draws from bank P:\\SRC1\\ALIEN2\\LavaT (anim-table bank id)"
+   ],
+   "0x10039f20": [
+    "HERO_TornadotSpawn",
+    "type-table spawn for TITANS:0x002b; draws from bank P:\\SRC1\\ALIEN2\\TornadoT (anim-table bank id)"
+   ],
+   "0x1003a040": [
+    "HERO_TornadotUpdate",
+    "type-table update for TITANS:0x002b; draws from bank P:\\SRC1\\ALIEN2\\TornadoT (anim-table bank id)"
+   ],
+   "0x1003a420": [
+    "HERO_PegasusSpawn4",
+    "type-table spawn for TITANS:0x0038; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003a4a0": [
+    "HERO_PegasusUpdate5",
+    "type-table update for TITANS:0x0038; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003a610": [
+    "HERO_PegasusSpawn5",
+    "type-table spawn for TITANS:0x003e; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003a700": [
+    "HERO_PegasusUpdate6",
+    "type-table update for TITANS:0x003e; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003a730": [
+    "HERO_PegasusSpawn6",
+    "type-table spawn for TITANS:0x0040; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003a770": [
+    "HERO_PegasusUpdate7",
+    "type-table update for TITANS:0x0040; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003a8a0": [
+    "HERO_PegasusSpawn7",
+    "type-table spawn for TITANS:0x0042; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003a8e0": [
+    "HERO_PegasusUpdate8",
+    "type-table update for TITANS:0x0042; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003a910": [
+    "HERO_PegasusSpawn8",
+    "type-table spawn for TITANS:0x0043; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003a950": [
+    "HERO_PegasusUpdate9",
+    "type-table update for TITANS:0x0043; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003aef0": [
+    "HERO_PegasusSpawn9",
+    "type-table spawn for TITANS:0x0036; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003af20": [
+    "HERO_PegasusUpdate10",
+    "type-table update for TITANS:0x0036; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003b050": [
+    "HERO_PegasusSpawn10",
+    "type-table spawn for TITANS:0x0046; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003b080": [
+    "HERO_PegasusSpawn11",
+    "type-table spawn for TITANS:0x0047; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003b0b0": [
+    "HERO_PegasusSpawn12",
+    "type-table spawn for TITANS:0x0048; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003b0e0": [
+    "HERO_PegasusSpawn13",
+    "type-table spawn for TITANS:0x0049; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003b110": [
+    "HERO_PegasusSpawn14",
+    "type-table spawn for TITANS:0x004a; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003b140": [
+    "HERO_PegasusSpawn15",
+    "type-table spawn for TITANS:0x004b; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003b170": [
+    "HERO_PegasusUpdate11",
+    "type-table update for TITANS:0x0046, TITANS:0x0047, TITANS:0x0048, TITANS:0x0049, TITANS:0x004a, TITANS:0x004b; draws from bank P:\\SRC1\\ALIEN2\\PEGASUS (anim-table bank id)"
+   ],
+   "0x1003b190": [
+    "HERO_HarpSpawn",
+    "type-table spawn for TITANS:0x005c; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003b310": [
+    "HERO_HarpUpdate",
+    "type-table update for TITANS:0x005c; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003b530": [
+    "HERO_HarpSpawn2",
+    "type-table spawn for TITANS:0x0063; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003b640": [
+    "HERO_HarpSpawn3",
+    "type-table spawn for TITANS:0x0064; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003b730": [
+    "HERO_HarpSpawn4",
+    "type-table spawn for TITANS:0x0065; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003b7f0": [
+    "HERO_HarpSpawn5",
+    "type-table spawn for TITANS:0x0062; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003b8b0": [
+    "HERO_HarpSpawn6",
+    "type-table spawn for TITANS:0x0066; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003b970": [
+    "HERO_HarpSpawn7",
+    "type-table spawn for TITANS:0x0067; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003b980": [
+    "HERO_HarpUpdate2",
+    "type-table update for TITANS:0x0062, TITANS:0x0063, TITANS:0x0064, TITANS:0x0065, TITANS:0x0066, TITANS:0x0067; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003b9d0": [
+    "HERO_HarpSpawn8",
+    "type-table spawn for TITANS:0x0061; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003ba00": [
+    "HERO_HarpUpdate3",
+    "type-table update for TITANS:0x0061; draws from bank P:\\SRC1\\ALIEN2\\Harp (anim-table bank id)"
+   ],
+   "0x1003bc20": [
+    "HERO_SpySpawn",
+    "type-table spawn for TITANS:0x005d; draws from bank P:\\SRC1\\ALIEN2\\Spy (anim-table bank id)"
+   ],
+   "0x1003bde0": [
+    "HERO_SpyUpdate",
+    "type-table update for TITANS:0x005d; draws from bank P:\\SRC1\\ALIEN2\\Spy (anim-table bank id)"
+   ],
+   "0x1003e160": [
+    "HERO_TrainingUpdate",
+    "type-table update for TRAINING:0x0030; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x1003e220": [
+    "HERO_TrainingSpawn",
+    "type-table spawn for TRAINING:0x0030, TRAINING:0x004d; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x1003e280": [
+    "HERO_TrainingUpdate2",
+    "type-table update for TRAINING:0x004d; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x1003e370": [
+    "HERO_TrainingSpawn2",
+    "type-table spawn for TRAINING:0x002a; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x1003e3d0": [
+    "HERO_TrainingUpdate3",
+    "type-table update for TRAINING:0x002a; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x1003e580": [
+    "HERO_TrainingSpawn3",
+    "type-table spawn for TRAINING:0x003a; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x1003e5d0": [
+    "HERO_TrainingUpdate4",
+    "type-table update for TRAINING:0x003a; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x1003e9b0": [
+    "HERO_TrainingSpawn4",
+    "type-table spawn for TRAINING:0x0034; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x1003e9d0": [
+    "HERO_TrainingUpdate5",
+    "type-table update for TRAINING:0x0034; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x1003fe40": [
+    "HERO_TopsSpawn",
+    "type-table spawn for TRAINING:0x002b, TRAINING:0x002c, TRAINING:0x002d; draws from bank P:\\SRC1\\ALIEN1\\TRAINING\\TOPS (anim-table bank id)"
+   ],
+   "0x1003ff30": [
+    "HERO_TopsUpdate",
+    "type-table update for TRAINING:0x002b, TRAINING:0x002c, TRAINING:0x002d; draws from bank P:\\SRC1\\ALIEN1\\TRAINING\\TOPS (anim-table bank id)"
+   ],
+   "0x10040b00": [
+    "HERO_Alien1Spawn2",
+    "type-table spawn for TRAINING:0x0029; draws from bank P:\\SRC1\\ALIEN1\\ALIEN1 (anim-table bank id)"
+   ],
+   "0x10040b40": [
+    "HERO_Alien1Update2",
+    "type-table update for TRAINING:0x0029; draws from bank P:\\SRC1\\ALIEN1\\ALIEN1 (anim-table bank id)"
+   ],
+   "0x10040e20": [
+    "HERO_TrainingSpawn5",
+    "type-table spawn for TRAINING:0x002f; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x10040e50": [
+    "HERO_TrainingUpdate6",
+    "type-table update for TRAINING:0x002f; draws from bank P:\\SRC1\\ALIEN1\\TRAINING (anim-table bank id)"
+   ],
+   "0x100410b0": [
+    "HERO_SharkSpawn",
+    "type-table spawn for TRAINING:0x003c; draws from bank P:\\SRC1\\ALIEN1\\TRAINING\\SHARK (anim-table bank id)"
+   ],
+   "0x100410e0": [
+    "HERO_SharkUpdate",
+    "type-table update for TRAINING:0x003c; draws from bank P:\\SRC1\\ALIEN1\\TRAINING\\SHARK (anim-table bank id)"
+   ],
+   "0x10041460": [
+    "HERO_SharkSpawn2",
+    "type-table spawn for TRAINING:0x003d; draws from bank P:\\SRC1\\ALIEN1\\TRAINING\\SHARK (anim-table bank id)"
+   ],
+   "0x10041490": [
+    "HERO_SharkUpdate2",
+    "type-table update for TRAINING:0x003d; draws from bank P:\\SRC1\\ALIEN1\\TRAINING\\SHARK (anim-table bank id)"
+   ],
+   "0x10041f50": [
+    "HERO_PegSpawn",
+    "type-table spawn for TRAINING:0x0042; draws from bank P:\\SRC1\\ALIEN1\\TRAINING\\PEG (anim-table bank id)"
+   ],
+   "0x10041f80": [
+    "HERO_PegUpdate",
+    "type-table update for TRAINING:0x0042; draws from bank P:\\SRC1\\ALIEN1\\TRAINING\\PEG (anim-table bank id)"
+   ],
+   "0x10045a50": [
+    "HERO_HadesEffectSpawn",
+    "type-table spawn for VORTEX:0x0029; draws from bank P:\\SRC1\\BOSS\\HADES (anim-table bank id)"
+   ],
+   "0x10045a80": [
+    "HERO_HadesEffectUpdate",
+    "type-table update for VORTEX:0x0029; draws from bank P:\\SRC1\\BOSS\\HADES (anim-table bank id)"
+   ],
+   "0x10045e20": [
+    "HERO_HadesSpawn2",
+    "type-table spawn for VORTEX:0x002a; draws from bank P:\\SRC1\\BOSS\\HADES (anim-table bank id)"
+   ],
+   "0x10045ef0": [
+    "HERO_HadesUpdate2",
+    "type-table update for VORTEX:0x002a; draws from bank P:\\SRC1\\BOSS\\HADES (anim-table bank id)"
+   ],
+   "0x10008660": [
+    "HERO_RockcSpawn",
+    "type-table spawn for FOREST:0x0028; draws from bank P:\\SRC1\\ALIEN2\\ROCKC (anim-table bank id)"
+   ],
+   "0x100086f0": [
+    "HERO_RockcUpdate",
+    "type-table update for FOREST:0x0028; draws from bank P:\\SRC1\\ALIEN2\\ROCKC (anim-table bank id)"
+   ],
+   "0x10008dd0": [
+    "HERO_AlexfishSpawn",
+    "type-table spawn for FOREST:0x002b; draws from bank P:\\SRC1\\ALIEN2\\ALEXFISH (anim-table bank id)"
+   ],
+   "0x10008e10": [
+    "HERO_AlexfishUpdate",
+    "type-table update for FOREST:0x002b; draws from bank P:\\SRC1\\ALIEN2\\ALEXFISH (anim-table bank id)"
+   ],
+   "0x100090c0": [
+    "HERO_AlexfishSpawn2",
+    "type-table spawn for FOREST:0x0056; draws from bank P:\\SRC1\\ALIEN2\\ALEXFISH (anim-table bank id)"
+   ],
+   "0x10009100": [
+    "HERO_AlexfishUpdate2",
+    "type-table update for FOREST:0x0056; draws from bank P:\\SRC1\\ALIEN2\\ALEXFISH (anim-table bank id)"
+   ],
+   "0x10009190": [
+    "HERO_WrestlecSpawn",
+    "type-table spawn for FOREST:0x0029; draws from bank P:\\SRC1\\ALIEN2\\WRESTLEC (anim-table bank id)"
+   ],
+   "0x100092c0": [
+    "HERO_WrestlecUpdate",
+    "type-table update for FOREST:0x0029; draws from bank P:\\SRC1\\ALIEN2\\WRESTLEC (anim-table bank id)"
+   ],
+   "0x10009850": [
+    "HERO_RcrockSpawn",
+    "type-table spawn for FOREST:0x002c; draws from bank P:\\SRC1\\ALIEN2\\RcRock (anim-table bank id)"
+   ],
+   "0x10009890": [
+    "HERO_RcrockUpdate",
+    "type-table update for FOREST:0x002c; draws from bank P:\\SRC1\\ALIEN2\\RcRock (anim-table bank id)"
+   ],
+   "0x100099e0": [
+    "HERO_RcrockSpawn2",
+    "type-table spawn for FOREST:0x004a; draws from bank P:\\SRC1\\ALIEN2\\RcRock (anim-table bank id)"
+   ],
+   "0x10009a20": [
+    "HERO_RcrockUpdate2",
+    "type-table update for FOREST:0x004a; draws from bank P:\\SRC1\\ALIEN2\\RcRock (anim-table bank id)"
+   ],
+   "0x1000a600": [
+    "HERO_FphilSpawn",
+    "type-table spawn for FOREST:0x002d; draws from bank P:\\SRC1\\ALIEN2\\FPHIL (anim-table bank id)"
+   ],
+   "0x1000a670": [
+    "HERO_FphilUpdate",
+    "type-table update for FOREST:0x002d; draws from bank P:\\SRC1\\ALIEN2\\FPHIL (anim-table bank id)"
+   ],
+   "0x1000a870": [
+    "HERO_ArchercSpawn",
+    "type-table spawn for FOREST:0x002a; draws from bank P:\\SRC1\\ALIEN2\\ARCHERC (anim-table bank id)"
+   ],
+   "0x1000a910": [
+    "HERO_ArchercUpdate",
+    "type-table update for FOREST:0x002a; draws from bank P:\\SRC1\\ALIEN2\\ARCHERC (anim-table bank id)"
+   ],
+   "0x1000ae00": [
+    "HERO_StybirdSpawn",
+    "type-table spawn for FOREST:0x002e; draws from bank P:\\SRC1\\ALIEN2\\STYBIRD (anim-table bank id)"
+   ],
+   "0x1000b3f0": [
+    "HERO_StybirdUpdate",
+    "type-table update for FOREST:0x002e; draws from bank P:\\SRC1\\ALIEN2\\STYBIRD (anim-table bank id)"
+   ],
+   "0x1000c8c0": [
+    "HERO_BasicSpawn",
+    "type-table spawn for FOREST:0x0054; draws from bank P:\\SRC1\\ALIEN2\\NESSUS\\Basic (anim-table bank id)"
+   ],
+   "0x1000d210": [
+    "HERO_ArchercSpawn2",
+    "type-table spawn for FOREST:0x0030; draws from bank P:\\SRC1\\ALIEN2\\ARCHERC (anim-table bank id)"
+   ],
+   "0x1000d240": [
+    "HERO_ArchercUpdate2",
+    "type-table update for FOREST:0x0030; draws from bank P:\\SRC1\\ALIEN2\\ARCHERC (anim-table bank id)"
+   ],
+   "0x1000d2c0": [
+    "HERO_WaterSpawn",
+    "type-table spawn for FOREST:0x0031; draws from bank P:\\SRC1\\ALIEN2\\Water (anim-table bank id)"
+   ],
+   "0x1000d350": [
+    "HERO_WaterUpdate",
+    "type-table update for FOREST:0x0031; draws from bank P:\\SRC1\\ALIEN2\\Water (anim-table bank id)"
+   ],
+   "0x1000d410": [
+    "HERO_WaterSpawn2",
+    "type-table spawn for FOREST:0x0048, FOREST:0x0049; draws from bank P:\\SRC1\\ALIEN2\\Water (anim-table bank id)"
+   ],
+   "0x1000d440": [
+    "HERO_WaterUpdate2",
+    "type-table update for FOREST:0x0048, FOREST:0x0049; draws from bank P:\\SRC1\\ALIEN2\\Water (anim-table bank id)"
+   ],
+   "0x1000d460": [
+    "HERO_WaterUpdate3",
+    "type-table update for FOREST:0x004b; draws from bank P:\\SRC1\\ALIEN2\\Water (anim-table bank id)"
+   ],
+   "0x1000d760": [
+    "HERO_GriffonSpawn",
+    "type-table spawn for FOREST:0x0046; draws from bank P:\\SRC1\\ALIEN2\\Griffon (anim-table bank id)"
+   ],
+   "0x1000d7d0": [
+    "HERO_GriffonUpdate",
+    "type-table update for FOREST:0x0046; draws from bank P:\\SRC1\\ALIEN2\\Griffon (anim-table bank id)"
+   ],
+   "0x1000ddd0": [
+    "HERO_GriffonSpawn2",
+    "type-table spawn for FOREST:0x0047; draws from bank P:\\SRC1\\ALIEN2\\Griffon (anim-table bank id)"
+   ],
+   "0x1000de50": [
+    "HERO_GriffonUpdate2",
+    "type-table update for FOREST:0x0047; draws from bank P:\\SRC1\\ALIEN2\\Griffon (anim-table bank id)"
+   ],
+   "0x1000e170": [
+    "HERO_AlexfishSpawn3",
+    "type-table spawn for FOREST:0x004d; draws from bank P:\\SRC1\\ALIEN2\\ALEXFISH (anim-table bank id)"
+   ],
+   "0x1000e200": [
+    "HERO_AlexfishUpdate3",
+    "type-table update for FOREST:0x004d; draws from bank P:\\SRC1\\ALIEN2\\ALEXFISH (anim-table bank id)"
+   ],
+   "0x1000e3b0": [
+    "HERO_MegSpawn",
+    "type-table spawn for FOREST:0x0055; draws from bank P:\\SRC1\\ALIEN2\\Meg (anim-table bank id)"
+   ],
+   "0x1000e470": [
+    "HERO_StybirdUpdate2",
+    "type-table update for FOREST:0x0051; draws from bank P:\\SRC1\\ALIEN2\\STYBIRD (anim-table bank id)"
+   ],
+   "0x1000e520": [
+    "HERO_StybirdSpawn2",
+    "type-table spawn for FOREST:0x0051, FOREST:0x0052; draws from bank P:\\SRC1\\ALIEN2\\STYBIRD (anim-table bank id)"
+   ],
+   "0x1000e560": [
+    "HERO_StybirdUpdate3",
+    "type-table update for FOREST:0x0052; draws from bank P:\\SRC1\\ALIEN2\\STYBIRD (anim-table bank id)"
+   ],
+   "0x1000f430": [
+    "HERO_Generic1Spawn",
+    "type-table spawn for FOREST:0x0025, THEBES:0x0025, TRAINING:0x0025; draws from bank P:\\SRC1\\ALIEN1\\GENERIC1 (anim-table bank id)"
+   ],
+   "0x1000f4f0": [
+    "HERO_Generic1Update",
+    "type-table update for FOREST:0x0025, THEBES:0x0025, TRAINING:0x0025; draws from bank P:\\SRC1\\ALIEN1\\GENERIC1 (anim-table bank id)"
+   ]
+  }
+ },
+ "_skipped": [
+  {
+   "rva": "0x1010",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "THEBES:0x0024"
+   ]
+  },
+  {
+   "rva": "0x10380",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "THEBES:0x0048",
+    "TRAINING:0x004c"
+   ]
+  },
+  {
+   "rva": "0x103c0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "THEBES:0x0048",
+    "TRAINING:0x004c"
+   ]
+  },
+  {
+   "rva": "0x11950",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "THEBES:0x003c"
+   ]
+  },
+  {
+   "rva": "0x11a80",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "THEBES:0x003d"
+   ]
+  },
+  {
+   "rva": "0x14790",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "THEBES:0x0004"
+   ]
+  },
+  {
+   "rva": "0x14850",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "THEBES:0x0004"
+   ]
+  },
+  {
+   "rva": "0x14de0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "FOREST:0x0009"
+   ]
+  },
+  {
+   "rva": "0x14e10",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "FOREST:0x0009"
+   ]
+  },
+  {
+   "rva": "0x1bc20",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "HYDRA:0x002b"
+   ]
+  },
+  {
+   "rva": "0x1c200",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "HYDRA:0x002b"
+   ]
+  },
+  {
+   "rva": "0x1c220",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "HYDRA:0x002e"
+   ]
+  },
+  {
+   "rva": "0x1c2a0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "HYDRA:0x002e"
+   ]
+  },
+  {
+   "rva": "0x1cf50",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "HYDRA:0x0029"
+   ]
+  },
+  {
+   "rva": "0x1dcc0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "HYDRA:0x002a"
+   ]
+  },
+  {
+   "rva": "0x1dd00",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "HYDRA:0x0031"
+   ]
+  },
+  {
+   "rva": "0x1e320",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "HYDRA:0x002f"
+   ]
+  },
+  {
+   "rva": "0x1e3f0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "HYDRA:0x002f"
+   ]
+  },
+  {
+   "rva": "0x1e500",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "HYDRA:0x0033"
+   ]
+  },
+  {
+   "rva": "0x1e600",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "HYDRA:0x0033"
+   ]
+  },
+  {
+   "rva": "0x1ed00",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "HYDRA:0x002c"
+   ]
+  },
+  {
+   "rva": "0x1ed30",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "HYDRA:0x002c"
+   ]
+  },
+  {
+   "rva": "0x22150",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "MEDUSA:0x002f"
+   ]
+  },
+  {
+   "rva": "0x22180",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "HYDRA:0x002a",
+    "HYDRA:0x0031",
+    "MEDUSA:0x002f"
+   ]
+  },
+  {
+   "rva": "0x23110",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "MEDUSA:0x0030"
+   ]
+  },
+  {
+   "rva": "0x23120",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "MEDUSA:0x0030"
+   ]
+  },
+  {
+   "rva": "0x246c0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "THEBES:0x0041"
+   ]
+  },
+  {
+   "rva": "0x24780",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "THEBES:0x0041"
+   ]
+  },
+  {
+   "rva": "0x33e10",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "THEBES:0x004a"
+   ]
+  },
+  {
+   "rva": "0x33e80",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "THEBES:0x004a"
+   ]
+  },
+  {
+   "rva": "0x34c00",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "THEBES:0x0035"
+   ]
+  },
+  {
+   "rva": "0x34c30",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "THEBES:0x0035"
+   ]
+  },
+  {
+   "rva": "0x360a0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "init"
+   ],
+   "kinds": [
+    "THEBES:0x202b"
+   ]
+  },
+  {
+   "rva": "0x360f0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "tick"
+   ],
+   "kinds": [
+    "THEBES:0x202b"
+   ]
+  },
+  {
+   "rva": "0x36150",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "THEBES:0x0049"
+   ]
+  },
+  {
+   "rva": "0x361a0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "THEBES:0x0049"
+   ]
+  },
+  {
+   "rva": "0x36b60",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "init"
+   ],
+   "kinds": [
+    "THEBES:0x202d"
+   ]
+  },
+  {
+   "rva": "0x36b90",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "tick"
+   ],
+   "kinds": [
+    "THEBES:0x202d"
+   ]
+  },
+  {
+   "rva": "0x38740",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TITANS:0x0068"
+   ]
+  },
+  {
+   "rva": "0x387f0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TITANS:0x0068"
+   ]
+  },
+  {
+   "rva": "0x38950",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TITANS:0x0052",
+    "TITANS:0x0053"
+   ]
+  },
+  {
+   "rva": "0x389c0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TITANS:0x0052",
+    "TITANS:0x0053"
+   ]
+  },
+  {
+   "rva": "0x38d10",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TITANS:0x0055"
+   ]
+  },
+  {
+   "rva": "0x38d70",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TITANS:0x0055"
+   ]
+  },
+  {
+   "rva": "0x38de0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TITANS:0x0059"
+   ]
+  },
+  {
+   "rva": "0x38e30",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TITANS:0x0059"
+   ]
+  },
+  {
+   "rva": "0x3a530",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TITANS:0x003f"
+   ]
+  },
+  {
+   "rva": "0x3a550",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TITANS:0x003f"
+   ]
+  },
+  {
+   "rva": "0x3a7a0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TITANS:0x0041"
+   ]
+  },
+  {
+   "rva": "0x3a810",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TITANS:0x0041"
+   ]
+  },
+  {
+   "rva": "0x3a980",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TITANS:0x0044"
+   ]
+  },
+  {
+   "rva": "0x3aa10",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TITANS:0x0057"
+   ]
+  },
+  {
+   "rva": "0x3aa70",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TITANS:0x0057"
+   ]
+  },
+  {
+   "rva": "0x3aaf0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TITANS:0x005b"
+   ]
+  },
+  {
+   "rva": "0x3ab50",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TITANS:0x005b"
+   ]
+  },
+  {
+   "rva": "0x3c050",
+   "banks": [
+    "P:\\SRC1\\ALIEN2\\Grif",
+    "P:\\SRC1\\ALIEN2\\Merv",
+    "P:\\SRC1\\ALIEN2\\Pig"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TITANS:0x005e",
+    "TITANS:0x005f",
+    "TITANS:0x0060"
+   ]
+  },
+  {
+   "rva": "0x3c070",
+   "banks": [
+    "P:\\SRC1\\ALIEN2\\Grif",
+    "P:\\SRC1\\ALIEN2\\Merv",
+    "P:\\SRC1\\ALIEN2\\Pig"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TITANS:0x005e",
+    "TITANS:0x005f",
+    "TITANS:0x0060"
+   ]
+  },
+  {
+   "rva": "0x3ca80",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0033"
+   ]
+  },
+  {
+   "rva": "0x3cb90",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0033"
+   ]
+  },
+  {
+   "rva": "0x3ce10",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0032"
+   ]
+  },
+  {
+   "rva": "0x3cf90",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0032"
+   ]
+  },
+  {
+   "rva": "0x3d310",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0039"
+   ]
+  },
+  {
+   "rva": "0x3d440",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0039"
+   ]
+  },
+  {
+   "rva": "0x3d780",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0043"
+   ]
+  },
+  {
+   "rva": "0x3d7c0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0043"
+   ]
+  },
+  {
+   "rva": "0x3d800",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0035"
+   ]
+  },
+  {
+   "rva": "0x3d930",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0035"
+   ]
+  },
+  {
+   "rva": "0x3db90",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x003e"
+   ]
+  },
+  {
+   "rva": "0x3dcd0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x003e"
+   ]
+  },
+  {
+   "rva": "0x3ebc0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x003f"
+   ]
+  },
+  {
+   "rva": "0x3ecb0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x003f"
+   ]
+  },
+  {
+   "rva": "0x3edf0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0044",
+    "TRAINING:0x0045"
+   ]
+  },
+  {
+   "rva": "0x3eec0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0044",
+    "TRAINING:0x0045"
+   ]
+  },
+  {
+   "rva": "0x3f140",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0037"
+   ]
+  },
+  {
+   "rva": "0x3f1c0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0037"
+   ]
+  },
+  {
+   "rva": "0x3f460",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0048",
+    "TRAINING:0x004a"
+   ]
+  },
+  {
+   "rva": "0x3f4b0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0048"
+   ]
+  },
+  {
+   "rva": "0x3f620",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0049"
+   ]
+  },
+  {
+   "rva": "0x3f720",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0049"
+   ]
+  },
+  {
+   "rva": "0x3f8d0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x004a"
+   ]
+  },
+  {
+   "rva": "0x409b0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x003b",
+    "TRAINING:0x004b"
+   ]
+  },
+  {
+   "rva": "0x40a00",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x003b"
+   ]
+  },
+  {
+   "rva": "0x40a30",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x004b"
+   ]
+  },
+  {
+   "rva": "0x41820",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0041",
+    "TRAINING:0x0047"
+   ]
+  },
+  {
+   "rva": "0x418a0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0041",
+    "TRAINING:0x0047"
+   ]
+  },
+  {
+   "rva": "0x42020",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x0046"
+   ]
+  },
+  {
+   "rva": "0x42090",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x0046"
+   ]
+  },
+  {
+   "rva": "0x422d0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "init"
+   ],
+   "kinds": [
+    "TRAINING:0x2030"
+   ]
+  },
+  {
+   "rva": "0x422f0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "tick"
+   ],
+   "kinds": [
+    "TRAINING:0x2030"
+   ]
+  },
+  {
+   "rva": "0x42710",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "TRAINING:0x004e"
+   ]
+  },
+  {
+   "rva": "0x42770",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "TRAINING:0x004e"
+   ]
+  },
+  {
+   "rva": "0x9fb0",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "FOREST:0x004c"
+   ]
+  },
+  {
+   "rva": "0xa010",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "FOREST:0x004c"
+   ]
+  },
+  {
+   "rva": "0xa420",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "FOREST:0x004e"
+   ]
+  },
+  {
+   "rva": "0xa490",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "FOREST:0x004e"
+   ]
+  },
+  {
+   "rva": "0xc910",
+   "banks": [
+    "P:\\SRC1\\ALIEN2\\Meg",
+    "P:\\SRC1\\ALIEN2\\NESSUS\\Basic"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "FOREST:0x0054",
+    "FOREST:0x0055"
+   ]
+  },
+  {
+   "rva": "0xf910",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "spawn"
+   ],
+   "kinds": [
+    "FOREST:0x004f",
+    "THEBES:0x0046",
+    "TRAINING:0x0040"
+   ]
+  },
+  {
+   "rva": "0xfa00",
+   "banks": [
+    "-"
+   ],
+   "roles": [
+    "update"
+   ],
+   "kinds": [
+    "FOREST:0x004f",
+    "THEBES:0x0046",
+    "TRAINING:0x0040"
+   ]
+  }
+ ]
+}

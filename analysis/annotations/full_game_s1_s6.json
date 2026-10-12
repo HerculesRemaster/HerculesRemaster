@@ -1,0 +1,478 @@
+{
+ "TITLE.DLL": {
+  "functions": {
+   "0x10016300": [
+    "MOD_StartLevelModule",
+    "requests the engine for gs[0] from table 0x22288 (ENGINE3 for 2, 8, 10; 12 = PLATE.PIC)"
+   ],
+   "0x1000cd30": [
+    "HERO_PasswordCheck",
+    "4 icon objects (frame - base 0x1e3/0x121/0x182/0xc0) vs table 0x25a30 {4 values, result, difficulty}; sets gs+0xe difficulty, gs+0x12 index; results 100..105 = two-step cheats"
+   ],
+   "0x1000cf00": [
+    "HERO_PasswordScreenInit",
+    "creates the four icon objects 0x2a278/0x2a27c/0x2a280/0x2a274 (frames base+24)"
+   ],
+   "0x1000d4b0": [
+    "HERO_PasswordInput",
+    "pad handling on the password screen; accept -> HERO_PasswordCheck, result to 0x2bb3c"
+   ],
+   "0x100121d0": [
+    "HERO_RestoreSaveRecord",
+    "(record 0x3c bytes): level, lives, difficulty (+0x10 -> gs+0xe), flags, action slots"
+   ],
+   "0x10010fe0": [
+    "HERO_SaveLoadScreen",
+    "F3 load/save game screen, slots at 0x2aa50"
+   ]
+  }
+ },
+ "ENG1.DLL": {
+  "functions": {
+   "0x10018c50": [
+    "HERO_ApplyDamage",
+    "health gs+0x24 -= table 0x55348[(hit-1)&7 + difficulty*8]"
+   ],
+   "0x10024270": [
+    "HERO_EnemyInitHp",
+    "enemy hit points +0xee = difficulty*2 + 6"
+   ],
+   "0x10013990": [
+    "LVL_CheckpointInit",
+    "checkpoint object init: active frame 0x53370 when (kind+6)&0xf == gs+2 restart index, else 0x533c8"
+   ],
+   "0x100139f0": [
+    "LVL_CheckpointTick",
+    "checkpoint touch: hero box overlaps -> sfx 0x28, gs+2 = (kind+6)&0xf; kinds 0x0a..0x11 = restart 0..7 (level config +0x24 table entries 10..17); level 9 (TITANS) floats"
+   ],
+   "0x10037080": [
+    "HERO_KillInstant",
+    "instant death (health 0, hero state 0x23): start = restart, lives-1 (+1 with flag 8), lives<1 -> gs+3 = 1 game over"
+   ],
+   "0x100060f9": [
+    "MOD_ExitCheck",
+    "per tick: gs+3 mode 0 play, 1/2 game over -> TITLE, 5 fade-in, 0x12/0x13 quit -> TITLE, 0x21 module end; others: level end -> MOD_ReleaseLevel, TITLE"
+   ],
+   "0x10002180": [
+    "MOD_PauseQuitInput",
+    "pause menu; SELECT+START held 61 ticks -> gs+3 = 0x12 (0x13 in demo, gs+6 == 3)"
+   ],
+   "0x1001f220": [
+    "MOD_ReleaseLevel",
+    "frees level memory, copies action slots +0x7c..+0x88 -> +0x6c..+0x78, difficulty +0xf -> +0xe"
+   ],
+   "0x10015600": [
+    "HERO_ResetLevelStats",
+    "level start: max health 0x80, health counters 0, lives clamped 1..9, deaths +0xd = 0"
+   ],
+   "0x10012ef0": [
+    "HERO_CollectPickup",
+    "pickup kinds 0x2002 max health +0x20, 0x200b letter bit +0x1c, 0x2012 extra life (max 9), 0x2013 health +0x20, 0x2014..0x2017 gauges, 0x2018/0x2019 counters, 0x201a..0x201d +0x11 bits"
+   ],
+   "0x10042bd0": [
+    "LVL_RestartTriggerTick",
+    "TRAINING (level 1) target object: when destroyed sets gs+2 restart index = 2"
+   ],
+   "0x10031540": [
+    "GFX_DrawModel",
+    "T28 model: LVL_ModelHeader {s16 T28 word, u8 n, u8 radius, u32 offset}; per group {s16 word, s16 count, u32 verts} + T28 LVL_ModelGroup {u16 quads, u8 more, u8 carried} + LVL_ModelQuad[] ; packet xy0..3 = idx0, idx1, idx3, idx2; CLUT 0x7830 + fog*0x40"
+   ],
+   "0x10031d30": [
+    "GFX_SetModelOffset",
+    "translation = object matrix + packed offset (x s8, y s16, z s8) * object scale >> 7"
+   ],
+   "0x100313e0": [
+    "GFX_DrawObjectModel",
+    "object frame +0x34 = model k (1..n_extra; T34 entry n_types-1+k, self-relative s32); radius cull 0x32050"
+   ],
+   "0x10031470": [
+    "GFX_DrawModelChildren",
+    "object with child list +0x120: parent vertices, then each child's model"
+   ],
+   "0x10031330": [
+    "GFX_DrawModelList",
+    "draws a linked list (+0x68) of model objects"
+   ],
+   "0x100318d0": [
+    "GFX_TransformModelVerts",
+    "vertex transform mode 0 (table 0x5cec0[obj+0x23]): RTPS each packed vertex into scratch slot i (8 bytes)"
+   ],
+   "0x10020ea0": [
+    "LVL_InterpolateCameraKeys",
+    "T4c list n (< n_e): u16 count, 16-byte keys {u16 key, ...}; interpolates 7 shorts at position key"
+   ],
+   "0x1002fb70": [
+    "LVL_TrackCamera",
+    "camera follow per tick; camera mode 0x70d10 & 0x80 -> LVL_InterpolateCameraKeys"
+   ],
+   "0x1002f340": [
+    "LVL_TransformCellArc",
+    "arc cell vertices; light from T50[T54 flags >> 4] corners, colour 0x6f4e8[(flags&7)*64 + level]"
+   ],
+   "0x100311a0": [
+    "GFX_ObjectLightColour",
+    "object colour from T50[obj+0x2c >> 4] (bilinear when +0x54 & 0x600 == 0x600) or fixed level; scaled by +0x4a brightness; code 0x2c/0x2e"
+   ],
+   "0x10043b50": [
+    "HERO_BirdChooseAction",
+    "after a hover cycle: change depth layer (0x2b/0x2c, attribute flag 2 = blocked) or attack"
+   ],
+   "0x10043e20": [
+    "HERO_BirdDefeat",
+    "state 0x23, anim set 6, effect kind 0x2027, drop 0x43ff0, defeated counter 0x70f0e"
+   ],
+   "0x10043d80": [
+    "HERO_BirdSteer",
+    "horizontal steering toward the hero"
+   ],
+   "0x10026de0": [
+    "HERO_FindHitSource",
+    "object box vs hero attack (0x1a9b0), projectiles (0x71900 list), punch box 0x71440 (returns 0x80)"
+   ],
+   "0x100262a0": [
+    "LVL_SpawnVisible",
+    "spawns template objects near the camera; class = kind & 0x7000: 0 -> 0x270c0 actors, 0x4000 -> 0x27720 markers, 0x2000 -> 0x27c40 pickups; 0x1000 kinds are not spawned here"
+   ],
+   "0x100270c0": [
+    "LVL_SpawnActor",
+    "actor pool (0x134 B); per-kind config +0x18 anim, +0x1c {spawn, stub, update}"
+   ],
+   "0x10027720": [
+    "LVL_SpawnMarker",
+    "0x4000 pool (0xec B); config +0x20 anim, +0x24 {init, tick} by kind & 0xfff"
+   ],
+   "0x10027c40": [
+    "LVL_SpawnPickup",
+    "0x2000 pool (0x94 B); config +0x28 anim, +0x2c {init, tick} by kind & 0xfff"
+   ],
+   "0x10012c00": [
+    "HERO_PickupInit",
+    "shared init of 0x20xx pickups (FOREST config +0x2c)"
+   ],
+   "0x10012d80": [
+    "HERO_PickupTick",
+    "shared tick of 0x20xx pickups; collection -> HERO_CollectPickup"
+   ],
+   "0x10003520": [
+    "ANIM_RequestBank",
+    "bank id: state word 0x5cef0 + 0x14*id: 0 -> 1 (requested; loaded by 0x3540)"
+   ],
+   "0x10003870": [
+    "ANIM_FreeBank",
+    "frees bank id (state word 0x5cef0 + 0x14*id)"
+   ],
+   "0x10003270": [
+    "ANIM_LoadLevelBanks",
+    "level list (descriptor +0x10) + start list (start +8): frees others (0x3910), loads, caches frames, uploads cells"
+   ],
+   "0x1000c780": [
+    "LVL_NessusTriggerSpawn",
+    "FOREST kind 0x53 (x 18520): fires once when hero x >= trigger x; 0x6ef14 set -> spawn Nessus now, else state 0x37"
+   ],
+   "0x1000c7e0": [
+    "LVL_NessusTriggerTick",
+    "0x37: hero > 512 behind -> free; audio state 0 -> 1 (load Nessus SFX); 0x51: audio loaded (5) and 0x6ef14 -> audio state 6, spawn Nessus, gs+2 restart = 5; 0x52: 60-tick timer, sfx 0x100"
+   ],
+   "0x1000c730": [
+    "LVL_SpawnNessus",
+    "state 0x52, timer 60; spawns actor kind 0x2f at hero x + 320 (type entry spawn)"
+   ],
+   "0x1000e670": [
+    "AUD_ForestStreamTick",
+    "FOREST only (MOD_Tick, level 3): Nessus SFX/MUSIC streaming state 0x6ef38 from q:\\NESSUS\\ (table 0x51690)"
+   ],
+   "0x1000ebd0": [
+    "AUD_StreamNessusMusic",
+    "loads q:\\NESSUS\\ MUSIC.MUS into the gs+0x13c slot, async"
+   ],
+   "0x1000bb10": [
+    "HERO_NessusSpawn",
+    "FOREST kind 0x2f: state 0x37, +0x108 = 2, requests bank 0x45 (NESSUS\\Punch), effect 0x2024"
+   ],
+   "0x1000bc50": [
+    "HERO_NessusUpdate",
+    "Nessus states 0x37..0x46+; requests/frees banks 0x45-0x47..; hit counter uses difficulty gs+0xe"
+   ],
+   "0x10012040": [
+    "HERO_BossGaugeTick",
+    "boss gauge state 0x72188: slide in, fill 0x70832 to 255, subtract queued damage 0x72184 (cases 1/8), empty -> 4/7"
+   ],
+   "0x1000bb90": [
+    "HERO_NessusThrowOff",
+    "reject: hero placed above/behind, x speed +-8.0, y -3.0, HERO_SetFall"
+   ],
+   "0x10042320": [
+    "LVL_DrawBackgroundTraining",
+    "per-level background hook: ENG1 0x5df00 + 0x1c*level +0x14 -> 0x70d24 (set by 0x1f320), called at the end of the cell draw 0x2da90"
+   ],
+   "0x1000e400": [
+    "LVL_DrawBackgroundForest",
+    "per-level background hook: ENG1 0x5df00 + 0x1c*level +0x14 -> 0x70d24 (set by 0x1f320), called at the end of the cell draw 0x2da90"
+   ],
+   "0x10036c40": [
+    "LVL_DrawBackgroundThebes",
+    "per-level background hook: ENG1 0x5df00 + 0x1c*level +0x14 -> 0x70d24 (set by 0x1f320), called at the end of the cell draw 0x2da90"
+   ],
+   "0x1001efa0": [
+    "LVL_DrawBackgroundHydra",
+    "per-level background hook: ENG1 0x5df00 + 0x1c*level +0x14 -> 0x70d24 (set by 0x1f320), called at the end of the cell draw 0x2da90"
+   ],
+   "0x1003c600": [
+    "LVL_DrawBackgroundTitans",
+    "per-level background hook: ENG1 0x5df00 + 0x1c*level +0x14 -> 0x70d24 (set by 0x1f320), called at the end of the cell draw 0x2da90"
+   ],
+   "0x10002fa0": [
+    "LVL_DrawBackgroundVortex",
+    "per-level background hook: ENG1 0x5df00 + 0x1c*level +0x14 -> 0x70d24 (set by 0x1f320), called at the end of the cell draw 0x2da90"
+   ],
+   "0x10002ff0": [
+    "LVL_DrawBackgroundTiles",
+    "T44 tile map {s16 w, s16 h, s16 tiles}; 16x16 sprites (code 0x64), u = t & 0xf8, v = t >> 8 & 0xf8, t & 3 flip, bit 8 OT slot; runs of consecutive tiles merged"
+   ],
+   "0x10005a30": [
+    "GFX_SetClearColour",
+    "background clear colour (r, g, b)"
+   ],
+   "0x1001fd20": [
+    "LVL_InitLevelActors",
+    "per-level init switch on gs[0] (called from 0x25620 at section start): 1 0x3ca10, 3 0xe3e0, 5 0x33700, 6 0x1ac10, 7 0x21050, 9 0x3c170, 11 0x44120"
+   ],
+   "0x1003ca10": [
+    "LVL_InitTraining",
+    "0x718e0 = 0x360, table 0x66d68 -> 0x71714, 0x28300(0x14, 0x3781, 0xe)"
+   ],
+   "0x1000e3e0": [
+    "LVL_InitForest",
+    "Nessus trigger flag 0x6ef10 = 0, table 0x4dce8 -> 0x71714"
+   ],
+   "0x10033700": [
+    "LVL_InitThebes",
+    "table 0x60268 -> 0x71714"
+   ],
+   "0x1001ac10": [
+    "LVL_InitHydra",
+    "Hydra fight: camera setup, effects 0x202c/0x202a, head phase 0 (HERO_HydraHeadPhase), sfx 0x180/0x193, boss gauge 5, difficulty table 0x56048/0x560e0/0x56168 -> 0x6f3cc, controllers kind 0x34/0x35"
+   ],
+   "0x10021050": [
+    "LVL_InitMedusa",
+    "hero to (0x3b8, -, 0x4c); Medusa kind 0x2e at (0, 0x2f0, 0x280) frame 0x3d; effect 0x202d; sfx 0x1c6; difficulty tables from 0x58b08/0x58ce0 (Beginner)"
+   ],
+   "0x1003c170": [
+    "LVL_InitTitans",
+    "0x6fff4 = table 0x65580[restart index]; actor kind 0x36 at the hero"
+   ],
+   "0x10044120": [
+    "LVL_InitVortex",
+    "hero to (0x135, 0x220, 0x80); kind 0x28 (Hades) + 30 x kind 0x2b; sfx 0x2c0; boss gauge 5; difficulty table 0x69180/0x69220/0x692b8"
+   ],
+   "0x1001c3f0": [
+    "HERO_HydraHeadPhase",
+    "head-split phases 0x6f44c: 0 -> head slot 7; 1 -> slots 3,1,5 (+3); 4..8 -> replace the cut head and add slot 2/4/0/6; 8 -> none"
+   ],
+   "0x1001c4d0": [
+    "HERO_HydraSpawnHead",
+    "spawns Hydra head kind 0x2d at slot n"
+   ],
+   "0x1001b2a0": [
+    "HERO_HydraHeadSpawn",
+    "head kind 0x2d: scale 0xd4/0x90, sway speed +-(5..9), slot record 0x6f188 + 0x48*slot"
+   ],
+   "0x1001b7f0": [
+    "HERO_HydraHeadUpdate",
+    "slot state 0 -> HERO_HydraHeadAI; 1 -> severed head flight, bounce at y 0x3d8, free"
+   ],
+   "0x1001b370": [
+    "HERO_HydraHeadAI",
+    "contact (hero box 1 vs carried-vertex box) -> HERO_RequestDamage(0x22); hero attack box 2 near neck + 0x19b40(~0x72168 & 0x18) -> drop + scream + HERO_HydraCutHead"
+   ],
+   "0x1001d6c0": [
+    "HERO_HydraCutHead",
+    "cuts the head of a slot (spawns kind 0x30)"
+   ],
+   "0x10021320": [
+    "HERO_MedusaUpdate",
+    "body follows hero x; state 1 -> HERO_MedusaPhase1, 2 -> HERO_MedusaCollapse; camera shake 0x70cbc"
+   ],
+   "0x10022280": [
+    "HERO_MedusaPhase1",
+    "two attack slots at hero x+0x21 / +0x8c run by HERO_MedusaAttackSlot (2, 5); both spent -> HERO_MedusaPhaseEnd"
+   ],
+   "0x10021aa0": [
+    "HERO_MedusaCollapse",
+    "every 4th tick falling rock kind 0x34, debris 0x202a; timer 0x6fe2c < 0 -> 0x218f0"
+   ],
+   "0x10022440": [
+    "HERO_MedusaAttackSlot",
+    "phase-1 attack slot (id 2/5); details open"
+   ],
+   "0x100220c0": [
+    "HERO_MedusaPhaseEnd",
+    "end of phase 1, spawns kind 0x31"
+   ],
+   "0x100445a0": [
+    "HERO_HadesSpawn",
+    "VORTEX kind 0x28: hp +0xee = 200, frame 0x86, child 0xa028, effect 0x29, movement script 0x693e8"
+   ],
+   "0x100447c0": [
+    "HERO_HadesUpdate",
+    "script interpreter (0/-1 sfx/-2 frame/-3 spawn 0x2a/-4 move script), kind 0x29 throws, item drops, hp -> boss gauge, defeat flag 0x72014 + 0x45780"
+   ],
+   "0x100374c0": [
+    "HERO_InitFlight",
+    "TITANS (level 9) hero setup from HERO_Init: state 0x28, Pegasus scripts 0x633e8, attached child kind 0xa007, palette script by restart index (0x63ef8 / 0x636f0 / 0x63a78), objects 0x707dc/0x707fc"
+   ],
+   "0x1001fd90": [
+    "LVL_TickLevelActors",
+    "per-level tick switch on gs[0] (MOD_Tick): 1 0x3ca50, 5 0x33720, 6 0x1ae00, 7 0x21210, 11 0x44240"
+   ],
+   "0x1001ae00": [
+    "LVL_TickHydra",
+    "Hydra per-tick: debug cut (pad 0x9000 + gs+0x30 & 0x400000), neck ordering, defeat sequence 0x6f3e0 (5 explosions 0x202e, then end flag 0x72170)"
+   ],
+   "0x1001d0b0": [
+    "HERO_HydraNeckUpdate",
+    "neck kind 0x29 states: 0 grow, 1 stump, 2 regrow (HydraHeadPhase), 3 sway, 4 strike"
+   ],
+   "0x1001d170": [
+    "HERO_HydraNeckSway",
+    "sway; strike when timer ends, hero in reach, no other strike within +-62 units"
+   ],
+   "0x1001d360": [
+    "HERO_HydraNeckStrike",
+    "strike timeline: growls 0x598c.. at tick 0x1c, 0x5196.. at 0x28"
+   ],
+   "0x1001b760": [
+    "HERO_HydraNextDrop",
+    "difficulty drop stream 0x6f3cc: 0 = chance (num, den), <0 loop, >0 item id"
+   ],
+   "0x10021210": [
+    "LVL_TickMedusa",
+    "Medusa per-tick controller (end flag via 0x21400)"
+   ],
+   "0x10044240": [
+    "LVL_TickVortex",
+    "Vortex per-tick controller (end flag 0x19240)"
+   ],
+   "0x10013880": [
+    "LVL_LevelExitTick",
+    "level exit pickup kind 0x200a (TRAINING x 31681, THEBES x 18912): hero box touch -> sfx 0x4012, end flag 0x72170 (0x19240), sparkles 0x2010"
+   ],
+   "0x10019240": [
+    "HERO_RequestLevelEnd",
+    "end flag 0x72170 = 1 (callers: LVL_LevelExitTick, HERO_NessusUpdate, LVL_TickHydra, Medusa 0x21400, LVL_TickVortex)"
+   ],
+   "0x10021400": [
+    "HERO_MedusaDefeatTick",
+    "kind 0x31 (spawned by HERO_MedusaPhaseEnd): state 2 debris 0x35 x4 + particles, sfx 0x1ea; state 3 -> HERO_RequestLevelEnd"
+   ],
+   "0x1003abd0": [
+    "HERO_GodSpawn",
+    "TITANS gods 0x2c..0x30 and Zeus 0x45: z + 12, state 0x35"
+   ],
+   "0x1003ac80": [
+    "HERO_GodUpdate",
+    "0x35 wait for hero contact -> sfx 0x627b -> 0x2d -> 2 fly off (+6/-6), freed 400 above the hero"
+   ],
+   "0x1003adc0": [
+    "HERO_ZeusUpdate",
+    "TITANS end: contact -> 0x2d timer 120, fade at 16, gs+3 = 0x31 at 0"
+   ],
+   "0x10028aa0": [
+    "ANIM_StepModelParts",
+    "multi-part model animation: child list obj+0x128, 6-byte records {frame or opcode, ...}; Hydra part tables 0x56240"
+   ],
+   "0x1001e3f0": [
+    "HERO_HydraDebrisUpdate",
+    "HYDRA kind 0x2f tumbling debris, bounce at y 0x3d8, sfx 0x188-0x18a"
+   ],
+   "0x1001e600": [
+    "HERO_HydraBoulderUpdate",
+    "HYDRA kind 0x33 falling boulder: hero contact -> HERO_RequestDamage(rock, 0) (strength 7)"
+   ],
+   "0x1001ed30": [
+    "HERO_HydraStageTick",
+    "HYDRA kind 0x2c arena stage 0x6f4bc 0..5, table 0x589f8, sfx 0x192"
+   ],
+   "0x10046230": [
+    "HERO_SoulInit",
+    "VORTEX kind 0x2b (x30): random position, frame 0x1c7, fade state 0"
+   ],
+   "0x10046320": [
+    "HERO_SoulTick",
+    "soul fade in/out (brightness 0..0x60), animation table 0x6938c, respawn at random until 0x72014"
+   ],
+   "0x1000a010": [
+    "LVL_BarrierUpdate",
+    "FOREST kind 0x4c stone barrier: punches -1 hp, Power Punch (charge > 200) or projectile breaks; sfx 0xcf, debris 0x9db0"
+   ],
+   "0x1000a490": [
+    "LVL_LayerBarrierUpdate",
+    "FOREST kind 0x4e barrier on the hero's layer; hp reset to 50 when the hero is > 160 away"
+   ],
+   "0x1000fa00": [
+    "LVL_CrackUpdate",
+    "FOREST kind 0x4f crack: hero standing on it + attack bit 0x20 -> breaks (dust 0x2027)"
+   ],
+   "0x10014e10": [
+    "LVL_NessusArenaTick",
+    "FOREST kind 0x09 (x 18456): arms the Nessus spawn (0x6ef14), camera focus/lock, splash damage strength 1"
+   ],
+   "0x1002c7f0": [
+    "GFX_LoadImageRect",
+    "thunk to EXE table 0x71124 (rect, data): VRAM upload; LVL_UploadVram 0x1fc90, LVL_AnimateTextures 0x2cb0"
+   ],
+   "0x1002c9b0": [
+    "GFX_SetDrawMovePacket",
+    "thunk to EXE table 0x711d0 (packet, rect, x, y): builds a VRAM-to-VRAM move packet"
+   ],
+   "0x10002c60": [
+    "GFX_QueueVramMove",
+    "(rect, x, y): move packet from the pool 0x73484, linked into the draw list at 0x71ec4+0x88; used by LVL_ScrollTexture 0x2d80"
+   ],
+   "0x100379e0": [
+    "HERO_TickFlightMode",
+    "TITANS hero tick (function created): steer, attack states 0x48-0x4d by weapon 0x6efb4, death 0x23 -> gs+3 0x22 (no lives) / 0x21, debug keys gs+0x64 with gs+0x30 & 0x4000/0x2000"
+   ],
+   "0x100377f0": [
+    "HERO_SteerPegasusByPad",
+    "pad gs+0x5c (0x10 up, 0x20 right, 0x40 down, 0x80 left): Pegasus obj 0x7217c vx +0xa8 / vy +0xb8, accel 2.0, cap 7.5, decay 1.0; vx centred on scroll speed 0x707e8"
+   ],
+   "0x10037e30": [
+    "HERO_ApplyDamageInFlight",
+    "(level): gs+0x24 -= table 0x55348[difficulty][level] (level >= 8: 1); <= 0 and not gs+0x30&1 -> HERO_KillInstant; sfx 0x6278/0x6279, state 0x24; guards 0x72110, gs+0x30&2, 0x6fff0 (15-tick grace)"
+   ],
+   "0x1003c4d0": [
+    "HERO_CheckPegasusContact",
+    "box overlap of obj with the Pegasus box (0x7217c+0x88) -> HERO_ApplyDamageInFlight(2)"
+   ],
+   "0x1003c510": [
+    "HERO_CheckFlightHeroContact",
+    "box overlap of obj with the hero box -> HERO_ApplyDamageInFlight(2)"
+   ],
+   "0x10037fe0": [
+    "HERO_SelectRocktPose",
+    "RockT: x < 0 -> state 0x39 (exit); else random 0x8000: < 0x3000 state 0x2e anim 1, < 0x6000 0x1a anim 2, else 0xd anim 3 (throw)"
+   ],
+   "0x100384c0": [
+    "HERO_SelectIcetPose",
+    "IceT: x < 0 -> 0x39; random: < 0x3000 0x2e anim 1, second roll < 0x4000 0x2f anim 2, else 0x30 anim 3"
+   ],
+   "0x10037fa0": [
+    "HERO_RemoveRocktLoadIcet",
+    "free RockT object; ANIM_FreeBank 49 RockT + 59 RcRock; ANIM_RequestBank 50 IceT; anchor 0x707f4 = 0"
+   ],
+   "0x10038490": [
+    "HERO_RemoveIcetLoadLavat",
+    "free object; ANIM_FreeBank 50 IceT; ANIM_RequestBank 51 LavaT; anchor 0x707f4 = 0 (also reached from TornadoT state 0x39)"
+   ],
+   "0x10028820": [
+    "ANIM_StepObjectScript",
+    "object anim script step (obj+0x64 script, +0x30 timer, +0x32 pos); opcodes -0x28/-0x27 sfx, -0x1f effect, -10 per-kind callback 0x71384, -7/-6 free, -1 loop end (returns 1)"
+   ],
+   "0x10001000": [
+    "DBG_PrintfStub",
+    "empty debug print (e.g. 'GoodbyeRockT %d %d %d' from kind 0x58 update 0x383d0)"
+   ]
+  }
+ }
+}

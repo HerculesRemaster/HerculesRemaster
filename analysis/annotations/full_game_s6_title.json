@@ -1,0 +1,122 @@
+{
+ "TITLE.DLL": {
+  "functions": {
+   "0x100164b0": [
+    "MOD_FrontEndStateMachine",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10009980": [
+    "GFX_PlayFmv",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10005db0": [
+    "MOD_SpawnProcess",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10005e90": [
+    "MOD_WakeProcess",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10005f10": [
+    "MOD_KillProcess",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10016470": [
+    "MOD_StartTitleMusic",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x1001c500": [
+    "HERO_TallyScreen",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10001a70": [
+    "GFX_EndingSlideshow",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10001a30": [
+    "GFX_EndingFadeStep",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10012070": [
+    "HERO_BuildSaveRecord",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10001300": [
+    "HERO_CheatLevelSelect",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10007510": [
+    "MOD_MainMenu",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x100102f0": [
+    "HERO_SaveGameScreen",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x100109f0": [
+    "HERO_LoadGameScreen",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10010670": [
+    "HERO_PasswordScreen",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10014300": [
+    "GFX_LevelCardTraining",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10014970": [
+    "GFX_LevelCardGauntlet",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10013ba0": [
+    "GFX_LevelCardForest",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10012280": [
+    "GFX_LevelCardThebes",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10015cb0": [
+    "GFX_LevelCardHydra",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10012e90": [
+    "GFX_LevelCardMedusa",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10013500": [
+    "GFX_LevelCardCyclops",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10014ff0": [
+    "GFX_LevelCardTitans",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x10015650": [
+    "GFX_LevelCardTorment",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x100128e0": [
+    "GFX_LevelCardVortex",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x1000c3d0": [
+    "MOD_ChangeModule",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x1000c970": [
+    "HERO_RecordLevelUnlock",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x1000c9b0": [
+    "HERO_StoreResumeRecord",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ],
+   "0x1000c9e0": [
+    "GFX_PlayEtv",
+    "S6.05 progression, docs/full-game/gameplay/progression.md"
+   ]
+  }
+ }
+}

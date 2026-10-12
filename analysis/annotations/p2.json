@@ -1,0 +1,446 @@
+{
+ "HERCULES.EXE": {
+  "functions": {
+   "0x00404e10": [
+    "FS_NormalizePath",
+    "uppercase a-z, prefix M:/ (backslashes in the game), map O: -> M:/GRAFIX/MAPS/, P: -> M:/GRAFIX/CHOP/, Q:,R: -> M:/LANGUAGE/SONIX/, other drive -> M:/ + path minus first dir; static buffer 0x91b7d0"
+   ],
+   "0x00404fe0": [
+    "FS_HashName",
+    "id = sum((signed char)c << ((i&3)*8)) + strlen"
+   ],
+   "0x00405020": [
+    "FS_Init",
+    "PC_InitFileSys: fopen hercules.fs rb, fread 0x3000 index to 0x9177d0, count entries until id 0, fatal if ids not strictly ascending"
+   ],
+   "0x00405110": [
+    "FS_Shutdown",
+    "fclose archive"
+   ],
+   "0x00405130": [
+    "FS_Open",
+    "PC_fopen(name, mode): normalize+hash, binary search sorted index; returns handle = index+1, pos=0; fatal if missing"
+   ],
+   "0x004051f0": [
+    "FS_Close",
+    "pos[h] = -1"
+   ],
+   "0x00405210": [
+    "FS_Read",
+    "fread-like (buf, size, count, h); clamps to entry size; seeks only when handle changes or pos==0"
+   ],
+   "0x004052c0": [
+    "FS_Seek",
+    "fseek-like (h, off, whence 0/1/2), clamped to entry size"
+   ],
+   "0x00405340": [
+    "FS_Tell",
+    "returns pos[h]"
+   ],
+   "0x00410460": [
+    "RT_FatalError",
+    "MessageBox 'Hercules Error' then exit"
+   ],
+   "0x00410c30": [
+    "crt_fopen",
+    "MSVC fopen -> _fsopen(name, mode, _SH_DENYNO)"
+   ],
+   "0x00410c50": [
+    "crt_fclose",
+    ""
+   ],
+   "0x00410dc0": [
+    "crt_fread",
+    ""
+   ],
+   "0x004112f0": [
+    "crt_fseek",
+    ""
+   ],
+   "0x00405cd0": [
+    "MOD_RequestModule",
+    "(dir,name): basename TITLE/ENGINE1/ENGINE3 -> title/eng1/eng3.dll; longjmp to MOD_RunTick if a module is running"
+   ],
+   "0x00405c20": [
+    "MOD_LoadModule",
+    "FreeLibrary old, LoadLibraryA(basename), GetProcAddress PC_DLLEngineMain"
+   ],
+   "0x00405ec0": [
+    "MOD_RunTick",
+    "setjmp; load pending module; PC_DLLEngineMain(&g_modTable, g_skipRender)"
+   ],
+   "0x00404040": [
+    "MOD_ChangeModule",
+    "table slot 0x64: reset EXE state, then MOD_RequestModule(dir,name)"
+   ],
+   "0x00405f20": [
+    "RT_Tick",
+    "fixed 33 ms step, accumulator clamped +-66 ms, up to 2 catch-up ticks with g_skipRender=1, then one rendering tick"
+   ],
+   "0x00405e10": [
+    "RT_Startup",
+    "timeBeginPeriod, FS_Init, display, input, sound, first module, CD check"
+   ],
+   "0x00405e90": [
+    "RT_Shutdown",
+    "timeEndPeriod, save registry config, sound/CD/display shutdown, FS_Shutdown"
+   ],
+   "0x004079a0": [
+    "RT_OnIdle",
+    "MFC idle: display switch, RT_Tick when active, else WaitMessage"
+   ],
+   "0x004072a0": [
+    "GFX_InitDisplay",
+    "320x240 8bpp top-down DIB + palette; DirectDrawCreate, EnumDisplayModes for 320x240x8"
+   ],
+   "0x00406a60": [
+    "GFX_SetMode",
+    "SetDisplayMode(w,h,8), primary flip chain, back buffer, 8-bit palette"
+   ],
+   "0x00406620": [
+    "GFX_Present",
+    "windowed StretchDIBits 320x240 -> client; fullscreen Flip"
+   ],
+   "0x00406bb0": [
+    "GFX_SwitchDisplayMode",
+    "windowed <-> fullscreen 320x240x8"
+   ],
+   "0x0040ac60": [
+    "GFX_DrawOTag",
+    "slot 0x164: walk PSX-style primitive list, rasterise to 8-bit frame, present (skipped when g_skipRender)"
+   ],
+   "0x00405760": [
+    "GFX_LoadLevelPalette",
+    "slot 0x244: per-level map_psx.bin, seek 0x12, read 0x300 RGB palette"
+   ],
+   "0x00404450": [
+    "RT_SetHeapRange",
+    "slot 0x50: arena base/size"
+   ],
+   "0x00404510": [
+    "RT_InitHeap",
+    "(ptr,size,heap) 'Initheap Heap %d'"
+   ],
+   "0x00404570": [
+    "RT_Malloc",
+    "slot 0x78"
+   ],
+   "0x00404750": [
+    "RT_Free",
+    "slot 0x40"
+   ],
+   "0x00404690": [
+    "RT_ReMalloc",
+    "slot 0xa0"
+   ],
+   "0x004048a0": [
+    "RT_CompactMalloc",
+    "slot 0x38"
+   ],
+   "0x00404470": [
+    "RT_ReInitHeap",
+    "slot 0xa4"
+   ],
+   "0x00404260": [
+    "RT_RandMod",
+    "slot 0x94: RT_Rand() % n"
+   ],
+   "0x00404280": [
+    "RT_Rand",
+    "slot 0x98: additive 16-bit generator on gameState+0x48/+0x4c"
+   ],
+   "0x00403b50": [
+    "RT_LoadFile",
+    "slot 0x68: 'Loading %s (0x%x) size %d'"
+   ],
+   "0x004016b0": [
+    "AUD_LoadLevelSonix",
+    "slot 0x6c"
+   ],
+   "0x00401110": [
+    "AUD_LoadMusic",
+    "slot 0x70: MUSIC.MUS, VAB"
+   ],
+   "0x00401330": [
+    "AUD_LoadSfx",
+    "slot 0x74: SFX.SFX"
+   ],
+   "0x004017d0": [
+    "AUD_StartMusic",
+    "slot 0xd4"
+   ],
+   "0x004018f0": [
+    "AUD_StartMusicAlt",
+    "slot 0xd8"
+   ],
+   "0x004015d0": [
+    "AUD_StopMusic",
+    "slot 0xdc"
+   ],
+   "0x00401610": [
+    "AUD_UnloadAllSfxMusic",
+    "slot 0xe4"
+   ],
+   "0x0040f3d0": [
+    "AUD_CreateSfx",
+    "slot 0x22c: m:/language/sonix/pc_%ld.esf"
+   ],
+   "0x0040fdf0": [
+    "AUD_InitSound",
+    "DirectSoundCreate"
+   ],
+   "0x00409c30": [
+    "AUD_CdReady",
+    "mci open cdaudio, media present, ready"
+   ],
+   "0x00409e10": [
+    "AUD_CdStop",
+    "mci stop cdaudio"
+   ],
+   "0x0040a210": [
+    "RT_PCopen",
+    "slot 0x270: FS_Open, max 16, mode must be 0"
+   ],
+   "0x0040a2f0": [
+    "RT_PCread",
+    "slot 0x274: FS_Read"
+   ],
+   "0x0040a280": [
+    "RT_PClseek",
+    "slot 0x26c: FS_Seek + FS_Tell"
+   ],
+   "0x0040a350": [
+    "RT_PCclose",
+    "slot 0x260: FS_Close"
+   ],
+   "0x004104d0": [
+    "RT_Quit",
+    "slot 0x238: SendNotifyMessageA to main window"
+   ],
+   "0x0040bcf0": [
+    "RT_PollInput",
+    "slot 0x258: ~pad bits -> DLL pad buffer, per tick"
+   ],
+   "0x00408040": [
+    "RT_ReadPadBits",
+    "keyboard | joystick as PSX pad bits"
+   ],
+   "0x0040be30": [
+    "RT_StubVoid",
+    "ret"
+   ],
+   "0x0040a340": [
+    "RT_StubZero",
+    "return 0"
+   ],
+   "0x0040bd40": [
+    "RT_StubOne",
+    "return 1"
+   ],
+   "0x00409990": [
+    "GFX_CmdFullscreen",
+    "menu 32800 '320x240 Fullscreen' (Alt+Enter): GFX_RequestFullscreen(1) + GFX_SwitchDisplayMode"
+   ],
+   "0x00409a60": [
+    "GFX_CmdWindow320",
+    "menu 32801: GFX_SetWindowClient(320,240)"
+   ],
+   "0x00409a70": [
+    "GFX_CmdWindow480",
+    "menu 32868: GFX_SetWindowClient(480,360)"
+   ],
+   "0x00409a80": [
+    "GFX_CmdWindow640",
+    "menu 32867: GFX_SetWindowClient(640,480)"
+   ],
+   "0x004099a0": [
+    "GFX_SetWindowClient",
+    "(w,h): window rect from client size + system metrics, CWnd::SetWindowPos 0x250c4"
+   ],
+   "0x00406ec0": [
+    "GFX_RequestFullscreen",
+    "g_wantFullscreen = arg; RT_Startup calls it with 1 on every start, RT_UpdateActiveState with 0 when inactive"
+   ],
+   "0x00406ff0": [
+    "GFX_LockFrame",
+    "fullscreen: Lock back buffer -> g_framePtr/g_framePitch; windowed: DIB, pitch 320"
+   ],
+   "0x00405a50": [
+    "RT_UpdateActiveState",
+    "title 'Waiting' + windowed + sound pause when inactive (g_appActive < 2) or paused"
+   ],
+   "0x00409840": [
+    "RT_OnSuspend",
+    "GFX_RequestFullscreen(0), g_appActive = 1"
+   ]
+  },
+  "globals": {
+   "0x009177d0": [
+    "g_fsIndex",
+    "1024 x {u32 id, u32 offset, u32 size}"
+   ],
+   "0x0091a7d0": [
+    "g_fsPos",
+    "u32[1024] per-entry read position, -1 = closed (indexed by handle-1)"
+   ],
+   "0x0091bbd0": [
+    "g_fsFile",
+    "FILE* of hercules.fs"
+   ],
+   "0x0091bbd4": [
+    "g_fsCount",
+    "entries before the first id 0"
+   ],
+   "0x004365a4": [
+    "g_fsLastHandle",
+    "handle whose position the FILE* is at"
+   ],
+   "0x0091b7d0": [
+    "g_fsPathBuf",
+    "FS_NormalizePath work buffer"
+   ],
+   "0x004361b8": [
+    "g_modTable",
+    "EXE->DLL table: magic 0x5ac00cac, gameState, heap base, heap size, 2 data ptrs, 244 callbacks (0x3e8 bytes)"
+   ],
+   "0x004365a0": [
+    "g_modTablePtr",
+    ""
+   ],
+   "0x0091c45c": [
+    "g_modEntry",
+    "PC_DLLEngineMain of the loaded DLL"
+   ],
+   "0x0091c460": [
+    "g_modSwitch",
+    ""
+   ],
+   "0x0091c464": [
+    "g_modRunning",
+    ""
+   ],
+   "0x0091c468": [
+    "g_modHandle",
+    "HMODULE"
+   ],
+   "0x0091bfd8": [
+    "g_modJmp",
+    "jmp_buf for module switch"
+   ],
+   "0x0091bbd8": [
+    "g_modPath",
+    ""
+   ],
+   "0x00ba01fc": [
+    "g_skipRender",
+    "PC_DLLEngineMain flags bit0"
+   ],
+   "0x0091c470": [
+    "g_tickAccum",
+    "ms"
+   ],
+   "0x00615c98": [
+    "g_gameState",
+    "shared with DLLs (table+4)"
+   ],
+   "0x006177d0": [
+    "g_gameArena",
+    "3 MiB game heap (table+8)"
+   ],
+   "0x0096e3d8": [
+    "g_frameBits",
+    "320x240 8bpp DIB pixels"
+   ],
+   "0x0096e3e4": [
+    "g_ddraw",
+    "IDirectDraw*"
+   ],
+   "0x0096e3e8": [
+    "g_ddPrimary",
+    ""
+   ],
+   "0x0096e3ec": [
+    "g_ddBack",
+    ""
+   ],
+   "0x0096e3d0": [
+    "g_wantFullscreen",
+    ""
+   ],
+   "0x00ba020c": [
+    "g_isFullscreen",
+    ""
+   ],
+   "0x00ba0238": [
+    "g_appActive",
+    "0 inactive, 1 run one more tick, >=2 active"
+   ],
+   "0x00ba0228": [
+    "g_paused",
+    ""
+   ],
+   "0x00ba0210": [
+    "g_framePtr",
+    "pixels the rasteriser writes"
+   ],
+   "0x00ba0214": [
+    "g_framePitch",
+    ""
+   ],
+   "0x00ba0220": [
+    "g_clientW",
+    "StretchDIBits destination width"
+   ],
+   "0x00ba0224": [
+    "g_clientH",
+    ""
+   ],
+   "0x00ba0200": [
+    "g_hwndMain",
+    ""
+   ]
+  }
+ },
+ "ENG1.DLL": {
+  "functions": {
+   "0x10020300": [
+    "MOD_Tick",
+    "one game tick, called from PC_DLLEngineMain"
+   ]
+  },
+  "globals": {
+   "0x10070f20": [
+    "g_modTable",
+    "copy of EXE g_modTable (250 dwords)"
+   ]
+  }
+ },
+ "ENG3.DLL": {
+  "functions": {
+   "0x1001abb0": [
+    "MOD_Tick",
+    "one game tick, called from PC_DLLEngineMain"
+   ]
+  },
+  "globals": {
+   "0x100407a0": [
+    "g_modTable",
+    "copy of EXE g_modTable (250 dwords)"
+   ]
+  }
+ },
+ "TITLE.DLL": {
+  "functions": {
+   "0x10005fb0": [
+    "MOD_Tick",
+    "one game tick, called from PC_DLLEngineMain"
+   ]
+  },
+  "globals": {
+   "0x1002bb40": [
+    "g_modTable",
+    "copy of EXE g_modTable (250 dwords)"
+   ]
+  }
+ }
+}
