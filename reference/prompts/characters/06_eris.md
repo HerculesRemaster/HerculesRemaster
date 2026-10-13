@@ -35,26 +35,26 @@ và vương miện gai. Váy dưới tan thành khói nên nàng luôn lơ lửn
 ### E1 — Turnaround
 
 ```text
-Character turnaround model sheet of an original villain goddess. {{ERIS}}
+Character turnaround model sheet of an original villain goddess. Eris, goddess of discord: tall, slender, elegant and unsettling; warm porcelain-white skin with fine glowing gold cracks like kintsugi on her cheeks and hands; long straight black hair with a violet sheen held by a thorned gold diadem; narrow golden eyes; a black peplos with bronze-gold geometric meander trim and a high stiff collar; the hem dissolves into drifting dark violet smoke and golden sparks; she holds a glowing golden apple.
 Four full-body views (front, three-quarter, side, back), floating slightly above the ground, plain mid-grey background, consistent scale. Insets: the thorned gold diadem, the golden apple engraved with Greek letters, a close-up of the gold kintsugi cracks on her hand. No other text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### E2 — Biểu cảm
 
 ```text
-Expression sheet, head and shoulders, 2x3 grid on plain dark background. {{ERIS}}
+Expression sheet, head and shoulders, 2x3 grid on plain dark background. Eris, goddess of discord: tall, slender, elegant and unsettling; warm porcelain-white skin with fine glowing gold cracks like kintsugi on her cheeks and hands; long straight black hair with a violet sheen held by a thorned gold diadem; narrow golden eyes; a black peplos with bronze-gold geometric meander trim and a high stiff collar; the hem dissolves into drifting dark violet smoke and golden sparks; she holds a glowing golden apple.
 Expressions: amused smirk, cold contempt, quiet fury with cracks glowing brighter, theatrical delight, whispering a secret, shocked defeat. Keep diadem, hair and face identical. No text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### E3 — Chân dung phản diện
 
 ```text
-Dramatic villain portrait, 4:3 landscape. {{ERIS}}
+Dramatic villain portrait, 4:3 landscape. Eris, goddess of discord: tall, slender, elegant and unsettling; warm porcelain-white skin with fine glowing gold cracks like kintsugi on her cheeks and hands; long straight black hair with a violet sheen held by a thorned gold diadem; narrow golden eyes; a black peplos with bronze-gold geometric meander trim and a high stiff collar; the hem dissolves into drifting dark violet smoke and golden sparks; she holds a glowing golden apple.
 She floats in a ruined black-marble temple of discord, holding up the glowing golden apple that lights her face from below, violet smoke and golden sparks swirling, shattered columns hanging in the air, cold violet and warm gold lighting contrast. In the dark background, two small twin shadow imps wearing tiny tragedy and comedy masks grin.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```

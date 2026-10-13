@@ -1,0 +1,9 @@
+{
+ "_doc": "texture_anims.py [--runs RUN_DIR ...]  -> extracted/full-game/levels/<LEVEL>/texture-anims.json (+ anim_<i>_f<n>.png)",
+ "level": "HYDRA",
+ "archive_index": 541,
+ "anims": [],
+ "scrolls": [],
+ "scroll_callers": [],
+ "runtime": {}
+}

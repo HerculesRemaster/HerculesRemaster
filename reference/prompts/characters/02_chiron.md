@@ -29,26 +29,26 @@ ngựa Ả Rập già. Silhouette dọc và thanh, trái ngược hoàn toàn ki
 ### C1 — Turnaround
 
 ```text
-Character turnaround model sheet of an original mentor character. {{CHIRON}}
+Character turnaround model sheet of an original mentor character. Chiron: a wise elderly centaur, tall and lean; the human torso of a fit old man with weathered olive skin, a long silver beard braided at the tip, a bald crown with long silver hair at the back bound by a bronze ring, calm grey-green eyes with deep laugh lines; a rough indigo wool mantle over one shoulder, a leather satchel of herbs and scrolls, a horn recurve bow and a quiver; his horse body is dapple-grey with darker charcoal legs, feathered fetlocks and a long grey tail.
 Four full-body views (front, three-quarter, side profile, back) in a row, same scale, plain light-grey studio background, soft even lighting. Small insets: the laurel-leaf bronze brooch, the herb satchel, the horn bow. No text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### C2 — Biểu cảm
 
 ```text
-Expression sheet, head and shoulders, 2x3 grid on plain light-grey background. {{CHIRON}}
+Expression sheet, head and shoulders, 2x3 grid on plain light-grey background. Chiron: a wise elderly centaur, tall and lean; the human torso of a fit old man with weathered olive skin, a long silver beard braided at the tip, a bald crown with long silver hair at the back bound by a bronze ring, calm grey-green eyes with deep laugh lines; a rough indigo wool mantle over one shoulder, a leather satchel of herbs and scrolls, a horn recurve bow and a quiver; his horse body is dapple-grey with darker charcoal legs, feathered fetlocks and a long grey tail.
 Expressions: calm smile, raised eyebrow of dry amusement, facepalm of patient disappointment, proud teacher, alarmed warning, telling a story with one hand raised. Keep beard braid, bald crown and face identical. No text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
 
 ### C3 — Cảnh dạy Alkaios (màn 1)
 
 ```text
-4:3 landscape cinematic scene from a 2.5D action platformer, side view. In a sunlit mountain training grove on Mount Pelion, the mentor centaur draws his bow and shoots an arrow that shatters a boulder blocking the path, while the young hero watches, club on shoulder, slightly embarrassed after accidentally knocking over a wicker training dummy. {{CHIRON}} {{ALKAIOS}}
+4:3 landscape cinematic scene from a 2.5D action platformer, side view. In a sunlit mountain training grove on Mount Pelion, the mentor centaur draws his bow and shoots an arrow that shatters a boulder blocking the path, while the young hero watches, club on shoulder, slightly embarrassed after accidentally knocking over a wicker training dummy. Chiron: a wise elderly centaur, tall and lean; the human torso of a fit old man with weathered olive skin, a long silver beard braided at the tip, a bald crown with long silver hair at the back bound by a bronze ring, calm grey-green eyes with deep laugh lines; a rough indigo wool mantle over one shoulder, a leather satchel of herbs and scrolls, a horn recurve bow and a quiver; his horse body is dapple-grey with darker charcoal legs, feathered fetlocks and a long grey tail. Alkaios: a young Greek demigod hero of about 18, athletic heroic build with broad shoulders and strong arms (powerful but not exaggerated), tanned Mediterranean skin, short black hair worn in several small braids tied with leather cords, thick dark eyebrows, warm amber-brown eyes, a small scar on his chin, confident lopsided grin; he wears the golden-tawny pelt of the Nemean lion as a hooded cloak, the lion's upper jaw and mane framing his forehead like a helmet and the two front paws knotted across his chest; a verdigris patina-green bronze linothorax cuirass with an embossed lion-head emblem; a terracotta-red short chiton under the armor; dark brown leather pteryges strips with bronze studs; bronze greaves; laced leather sandals; a heavy olive-wood club with bronze bands; a short leaf-bladed bronze xiphos at his hip.
 Ancient olive trees, wooden training poles, straw dummies with painted bull-head shields, marble ruins, cypress trees and a distant temple on a cliff, warm morning god rays, floating pollen.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```

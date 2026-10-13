@@ -1,0 +1,45 @@
+{
+ "_doc": "texture_anims.py [--runs RUN_DIR ...]  -> extracted/full-game/levels/<LEVEL>/texture-anims.json (+ anim_<i>_f<n>.png)",
+ "level": "MEDUSA",
+ "archive_index": 530,
+ "anims": [
+  {
+   "index": 0,
+   "record": 6036,
+   "frames": 5,
+   "period": 0,
+   "rect_units": [
+    160,
+    480,
+    5,
+    29
+   ]
+  }
+ ],
+ "scrolls": [],
+ "scroll_callers": [],
+ "runtime": {
+  "analysis/traces/full-game/l06-medusas-lair/full-progression/20261012-135959-cheat_select-medium": {
+   "vram_4200.bin": {
+    "anims": [
+     {
+      "index": 0,
+      "frame_in_vram": 0,
+      "equals_file": true
+     }
+    ],
+    "scrolls": []
+   },
+   "vram_5000.bin": {
+    "anims": [
+     {
+      "index": 0,
+      "frame_in_vram": 0,
+      "equals_file": true
+     }
+    ],
+    "scrolls": []
+   }
+  }
+ }
+}

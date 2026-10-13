@@ -1,0 +1,20 @@
+{
+ "_doc": "texture_anims.py [--runs RUN_DIR ...]  -> extracted/full-game/levels/<LEVEL>/texture-anims.json (+ anim_<i>_f<n>.png)",
+ "level": "THEBES",
+ "archive_index": 513,
+ "anims": [],
+ "scrolls": [],
+ "scroll_callers": [],
+ "runtime": {
+  "analysis/traces/full-game/l04-the-big-olive/full-progression/20261012-135647-cheat_select-medium": {
+   "vram_4200.bin": {
+    "anims": [],
+    "scrolls": []
+   },
+   "vram_5000.bin": {
+    "anims": [],
+    "scrolls": []
+   }
+  }
+ }
+}

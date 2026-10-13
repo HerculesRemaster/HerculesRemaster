@@ -1,0 +1,63 @@
+{
+ "_doc": "texture_anims.py [--runs RUN_DIR ...]  -> extracted/full-game/levels/<LEVEL>/texture-anims.json (+ anim_<i>_f<n>.png)",
+ "level": "VORTEX",
+ "archive_index": 518,
+ "anims": [],
+ "scrolls": [
+  {
+   "index": 0,
+   "record": 13104,
+   "head_bytes": [
+    0,
+    0,
+    255,
+    255,
+    1,
+    0
+   ],
+   "dst_units": [
+    0,
+    256
+   ],
+   "size_units": [
+    128,
+    256
+   ],
+   "src_units": [
+    0,
+    0
+   ]
+  }
+ ],
+ "scroll_callers": [],
+ "runtime": {
+  "analysis/traces/full-game/l10-vortex-of-souls/full-progression/20261012-140622-cheat_select-medium": {
+   "vram_4200.bin": {
+    "anims": [],
+    "scrolls": [
+     {
+      "index": 0,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     }
+    ]
+   },
+   "vram_5000.bin": {
+    "anims": [],
+    "scrolls": [
+     {
+      "index": 0,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     }
+    ]
+   }
+  }
+ }
+}

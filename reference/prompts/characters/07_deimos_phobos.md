@@ -26,6 +26,6 @@ và màu mắt, không bằng béo/gầy hay màu da.
 
 ```text
 Character design sheet of two original twin imp henchmen of equal size, knee-high to a human, bodies made of drifting charcoal-black smoke with long clawed arms, edges dissolving like ink in water, each with a tattered dark-violet scarf. Left: Deimos wearing a small bronze tragedy mask with cold white glowing eyes and blue-grey tinted smoke. Right: Phobos wearing a small bronze comedy mask with amber glowing eyes and copper-red tinted smoke. Show each in front view, side view and two mischievous poses (sneaking, cackling, pointing, juggling a tiny golden apple). Plain mid-grey background, no text.
-{{STYLE}}
-{{AVOID}}
+STYLE: high-end stylized 3D CGI, feature-film animation quality characters with appealing heroic proportions, highly detailed near-photoreal environments, cinematic volumetric lighting with god rays and strong rim light separating characters from the background, rich saturated color grading with warm/cool contrast, wet reflective stone floors, atmospheric particles (embers, mist, sparks, water spray), weathered ancient Greek architecture with meander and anthemion ornament, crisp sharp focus, epic scale, Unreal Engine 5 cinematic look.
+Avoid: blue cape, red or brown headband, auburn or ginger hair on the hero, a short goat-legged trainer, a white winged horse with a blue mane, a villain with blue flaming hair, a chorus of five singing women, lightning bolt ornaments, silver cloud-scroll frames, any logos, watermarks, or text other than the text requested.
 ```
