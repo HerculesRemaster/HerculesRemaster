@@ -1,0 +1,119 @@
+{
+ "_doc": "texture_anims.py [--runs RUN_DIR ...]  -> extracted/full-game/levels/<LEVEL>/texture-anims.json (+ anim_<i>_f<n>.png)",
+ "level": "FOREST",
+ "archive_index": 515,
+ "anims": [
+  {
+   "index": 0,
+   "record": 58284,
+   "frames": 8,
+   "period": 2,
+   "rect_units": [
+    128,
+    384,
+    64,
+    64
+   ]
+  },
+  {
+   "index": 1,
+   "record": 123832,
+   "frames": 4,
+   "period": 4,
+   "rect_units": [
+    128,
+    320,
+    64,
+    64
+   ]
+  }
+ ],
+ "scrolls": [
+  {
+   "index": 0,
+   "record": 156612,
+   "head_bytes": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "dst_units": [
+    192,
+    0
+   ],
+   "size_units": [
+    64,
+    128
+   ],
+   "src_units": [
+    0,
+    0
+   ]
+  }
+ ],
+ "scroll_callers": [
+  {
+   "call": "0xd47d",
+   "in": "HERO_WaterUpdate3 0xd460 (FOREST kind 0x4b update)",
+   "index": 0,
+   "dx": 0,
+   "dy": -16,
+   "when": "once per game frame (gs+0x38 changed since the last call)"
+  }
+ ],
+ "runtime": {
+  "analysis/traces/full-game/l03-the-centaurs-forest/full-progression/20261012-135336-cheat_select-medium": {
+   "vram_4200.bin": {
+    "anims": [
+     {
+      "index": 0,
+      "frame_in_vram": 7,
+      "equals_file": false
+     },
+     {
+      "index": 1,
+      "frame_in_vram": 3,
+      "equals_file": false
+     }
+    ],
+    "scrolls": [
+     {
+      "index": 0,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     }
+    ]
+   },
+   "vram_5000.bin": {
+    "anims": [
+     {
+      "index": 0,
+      "frame_in_vram": 7,
+      "equals_file": false
+     },
+     {
+      "index": 1,
+      "frame_in_vram": 3,
+      "equals_file": false
+     }
+    ],
+    "scrolls": [
+     {
+      "index": 0,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     }
+    ]
+   }
+  }
+ }
+}

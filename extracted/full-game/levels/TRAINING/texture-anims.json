@@ -1,0 +1,408 @@
+{
+ "_doc": "texture_anims.py [--runs RUN_DIR ...]  -> extracted/full-game/levels/<LEVEL>/texture-anims.json (+ anim_<i>_f<n>.png)",
+ "level": "TRAINING",
+ "archive_index": 565,
+ "anims": [],
+ "scrolls": [
+  {
+   "index": 0,
+   "record": 107632,
+   "head_bytes": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "dst_units": [
+    696,
+    416
+   ],
+   "size_units": [
+    8,
+    64
+   ],
+   "src_units": [
+    688,
+    352
+   ]
+  },
+  {
+   "index": 1,
+   "record": 107650,
+   "head_bytes": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "dst_units": [
+    720,
+    256
+   ],
+   "size_units": [
+    5,
+    64
+   ],
+   "src_units": [
+    712,
+    440
+   ]
+  },
+  {
+   "index": 2,
+   "record": 107668,
+   "head_bytes": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "dst_units": [
+    696,
+    352
+   ],
+   "size_units": [
+    8,
+    64
+   ],
+   "src_units": [
+    632,
+    432
+   ]
+  },
+  {
+   "index": 3,
+   "record": 107686,
+   "head_bytes": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "dst_units": [
+    724,
+    448
+   ],
+   "size_units": [
+    2,
+    64
+   ],
+   "src_units": [
+    724,
+    320
+   ]
+  },
+  {
+   "index": 4,
+   "record": 107704,
+   "head_bytes": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "dst_units": [
+    724,
+    384
+   ],
+   "size_units": [
+    2,
+    64
+   ],
+   "src_units": [
+    720,
+    448
+   ]
+  },
+  {
+   "index": 5,
+   "record": 107722,
+   "head_bytes": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "dst_units": [
+    688,
+    416
+   ],
+   "size_units": [
+    8,
+    64
+   ],
+   "src_units": [
+    632,
+    256
+   ]
+  }
+ ],
+ "scroll_callers": [
+  {
+   "call": "0x3cc7f",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 0,
+   "dx": 0,
+   "dy": 1,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3cc95",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 0,
+   "dx": 0,
+   "dy": 2,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3cd13",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 0,
+   "dx": 0,
+   "dy": 1,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3d026",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": "esi",
+   "dx": 5,
+   "dy": 0,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3d18d",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 5,
+   "dx": 0,
+   "dy": 2,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3d1a3",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 5,
+   "dx": 0,
+   "dy": 2,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3d231",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 5,
+   "dx": 0,
+   "dy": 2,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3d561",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 0,
+   "dx": 0,
+   "dy": 1,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3d57a",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 0,
+   "dx": 0,
+   "dy": 2,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3d5f8",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 0,
+   "dx": 0,
+   "dy": 1,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3da23",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 0,
+   "dx": 0,
+   "dy": 1,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3da39",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 0,
+   "dx": 0,
+   "dy": 2,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3dab4",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 0,
+   "dx": 0,
+   "dy": 1,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3dde7",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 1,
+   "dx": 0,
+   "dy": "ecx",
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3df50",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 5,
+   "dx": 0,
+   "dy": 1,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3df69",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 5,
+   "dx": 0,
+   "dy": 2,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3dfe7",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": 5,
+   "dx": 0,
+   "dy": 1,
+   "when": "while the device is driven (actor state)"
+  },
+  {
+   "call": "0x3e422",
+   "in": "TRAINING device actors 0x3ca80..0x3e5d0 (kinds 0x2a/0x30/0x32/0x33/0x35/0x39/0x3e/0x43/0x4d)",
+   "index": "eax",
+   "dx": 0,
+   "dy": "edx",
+   "when": "while the device is driven (actor state)"
+  }
+ ],
+ "runtime": {
+  "analysis/traces/full-game/l01-your-basic-did/full-progression/20261012-135022-cheat_select-medium": {
+   "vram_4200.bin": {
+    "anims": [],
+    "scrolls": [
+     {
+      "index": 0,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     },
+     {
+      "index": 1,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     },
+     {
+      "index": 2,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     },
+     {
+      "index": 3,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     },
+     {
+      "index": 4,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     },
+     {
+      "index": 5,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     }
+    ]
+   },
+   "vram_5000.bin": {
+    "anims": [],
+    "scrolls": [
+     {
+      "index": 0,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     },
+     {
+      "index": 1,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     },
+     {
+      "index": 2,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     },
+     {
+      "index": 3,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     },
+     {
+      "index": 4,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     },
+     {
+      "index": 5,
+      "offset_units": [
+       0,
+       0
+      ],
+      "dst_equals_file": true
+     }
+    ]
+   }
+  }
+ }
+}
